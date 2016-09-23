@@ -466,8 +466,8 @@ var
 begin
   view.cl.Clear;
 
-  //for i := 0 to view.kh.Size - 1 do
-  for i := 0 to min(10, view.kh.Size) - 1 do
+  for i := 0 to view.kh.Size - 1 do
+  //for i := 0 to min(10, view.kh.Size) - 1 do
     begin
       {$if 1=0}
       s := view.kh.CurrentEntryAsString(i);
