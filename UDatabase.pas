@@ -455,9 +455,10 @@ begin
   x.Free
 end;
 
-procedure CurrentEntriesToCollection(view : TView; aName : string = '';
-                                     aNode : string = '';
-                                     aIndx : integer = 1);
+procedure CurrentEntriesToCollection(view : TView;
+                                    aName : string = '';
+                                    aNode : string = '';
+                                    aIndx : integer = 1);
 var
   x : TGameTree;
   i, index : integer;
@@ -465,7 +466,8 @@ var
 begin
   view.cl.Clear;
 
-  for i := 0 to view.kh.Size - 1 do
+  //for i := 0 to view.kh.Size - 1 do
+  for i := 0 to min(10, view.kh.Size) - 1 do
     begin
       {$if 1=0}
       s := view.kh.CurrentEntryAsString(i);
@@ -490,7 +492,7 @@ begin
       si.FolderName := '';
       si.IndexTree := EnsureRange(aIndx, 1, cl.Count);
       if cl.Count > 0
-        then si.FileName := cl.FileName [si.IndexTree]
+        then si.FileName := cl.FileName[si.IndexTree]
         else si.FileName := '';
       si.FileSave  := True;
       //si.ReadOnly  := False;
@@ -499,7 +501,7 @@ begin
 
       // bind gt
       if cl.Count > 0
-        then gt := cl [si.IndexTree]
+        then gt := cl[si.IndexTree]
         else gt := nil;
 
       // start
@@ -558,6 +560,7 @@ var
   kh : TKGameList;
   n : integer;
   modified : boolean;
+  d1, d2, d3 : double;
 begin
   // test if already open
   n := IsOpenInTab('', aName, modified);
@@ -590,11 +593,15 @@ begin
   // open
   try
     Screen.Cursor := fmMain.WaitCursor;
+    d1 := Now;
     kh := TKGameList.Create(aName, 'id', KombiloFormatString, nil,
                             Settings.DBCache);
+    d2 := Now;
     //Screen.Cursor := crDefault;
     TerminateOpenDatabase(fmMain.ActivePage,
                           fmMain.ActiveView, kh, aName, num, node)
+    ;d3 := Now;
+    fmMain.Caption := Format('%f %f %f %f %f', [d1, d2, d3, d2 - d1, d3 - d2]);
   except
     HandleOpenErrorMessage([U('Error opening database') + ' ' + aName]);
     ok := False
