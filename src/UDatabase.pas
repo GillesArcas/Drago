@@ -601,7 +601,7 @@ begin
     TerminateOpenDatabase(fmMain.ActivePage,
                           fmMain.ActiveView, kh, aName, num, node)
     ;d3 := Now;
-    fmMain.Caption := Format('%f %f %f %f %f', [d1, d2, d3, d2 - d1, d3 - d2]);
+    //fmMain.Caption := Format('%f %f %f %f %f', [d1, d2, d3, d2 - d1, d3 - d2]);
   except
     HandleOpenErrorMessage([U('Error opening database') + ' ' + aName]);
     ok := False

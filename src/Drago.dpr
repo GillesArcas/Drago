@@ -7,7 +7,6 @@ program Drago;
 {$R 'UGraphic.res' 'UGraphic.rc'}
 
 uses
-  //MemCheck,
   Forms,
   UStones in 'UStones.pas',
   Translate in 'Translate.pas',

@@ -127,9 +127,10 @@ uses
 
 procedure Register;
 begin
+  // not used : TListBoxEx
   RegisterComponents('Drago',
                      [TIntEdit, TImageEx, TToolButtonEx,
-                      TControlStringgrid, TListBoxEx])
+                      TControlStringgrid])
 end;
 
 function TListBoxEx.GetMyParentBackground : boolean;

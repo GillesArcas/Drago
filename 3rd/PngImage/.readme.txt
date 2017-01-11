@@ -1,0 +1,2 @@
+Drago uses PngImage 1.56. This was the last version available before removing
+the project from sourceforge (03/05/08).
