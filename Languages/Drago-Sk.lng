@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Slovensky
+$HelpFile=Drago-En.chm
+$TranslationCredit=Slovenský preklad:\nWarlord\ncave@ynet.sk
+$Update=4.21
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=Súbor
+View=Zobrazenie
+Navigation=Navigácia
+Edit=Upraviť
+Database=Databáza
+Games2=Hra
+Problems=Problémy
+Play=Hrať
+Options=Možnosti
+Help=Pomoc
+
+;-- File
+New=Nový
+Open=Otvoriť
+Open folder=Otvoriť priečinok
+Save=Uložiť
+Save as=Uložiť ako
+Save tab content as=Uložiť obsah záložky ako
+Read only=Iba čítať
+Close=Zatvoriť
+Close all=Zatvoriť všetko
+Open from clipboard=Otvoriť zo schránky
+Save to clipboard=Uložiť do schránky
+Collections=Zbierky
+Favorites=Obľúbené
+Index=Index
+Game information=Informácie o hre
+Print=Tlač
+Export=Export
+Export position=Exportovať pozície
+Quit=Koniec
+
+;-- Collection
+Append to=Pridať do
+Merge=Zlúčiť
+Extract current=Rozbaliť momentálny
+Extract all=Rozbaliť všetko
+Delete current game=
+Make game tree=Vytvoriť strom hry
+
+;-- View
+Full screen mode=Režim celej obrazovky
+View board=Zobraziť dosku
+Preview game information=Náhľad herných informáciá
+Preview board thumbnails=Náhľad zmenšenín dosky
+Reference view=Referenčné zobrazenie
+Mirror=Zrkadlovo
+Flip=Prevrátiť
+Opponent view=Pohľad súpera
+Rotate 90 clockwise=Otočiť o 90° v smere hodinových ručičiek
+Rotate 90 counter clockwise=Otočiť o 90° proti smeru hodinových ručičiek
+Swap colors=Vymeniť farby
+Show toolbars=Zobrazovať nástrojové lišty
+Toolbar settings=Nastavenie nástrojovej lišty
+Board settings=Nastavenia dosky
+Preview settings=Nastavenia náhľadu
+
+;-- Navigation
+First game=Prvá hra
+Previous game=Predchádzajúca hra
+Next game=Ďalšia hra
+Last game=Posledná hra
+Select game=Vybrať hru
+Start position=Začiatočná pozícia
+Previous move=Predchádzajúci ťah
+Next move=Ďalší ťah
+End position=Koncová pozícia
+Go to move=Choď na ťah
+Previous target=Predchádzajúci cieľ
+Next target=Ďalší cieľ
+Auto replay=Auto replay
+Navigation settings=Nastavenia navigácie
+Next variation=Ďalšia variácia
+Previous variation=Predchádzajúca variácia
+Pointer up=Ukazovateľ nahor
+Pointer down=Ukazovateľ nadol
+Pointer left=Ukazovateľ doľava
+Pointer right=Ukazovateľ doprava
+
+;-- Edit
+Undo move=Vrátiť ťah
+Delete branch=Vymazať vetvu
+Game edit=Úprava hry
+Game edit Black first=Úprava hry prvý Čierny
+Game edit White first=Úprava hry prvý Biely
+Add Black=Pridať Čierneho
+Add White=Pridať Bieleho
+Empty=Prázdny
+Current markup=Aktuálne značenie
+Player=Hráč
+Black to play=Hrá Čierny
+White to play=Hrá Biely
+Insert pass=Vložiť prenechanie ťahu
+Insert=Vložiť
+Make main branch=Vytvoriť hlavnú vetvu
+Promote variation=
+Demote variation=
+Remove properties=Odstrániť vlastnosti
+Insert empty node=Vložiť prázdny uzol
+Click at pointer=Klik na ukazovateľa
+Ctrl-click at pointer=Ctrl-klil na ukazovateľa
+
+;-- Markup
+Cross=Krížik
+Triangle=Trojuholník
+Circle=Krúžok
+Square=Štvorec
+Letter=Písmeno
+Number=Číslo
+Label=Štítok
+Black territory=Územie čierneho
+White territory=Územie bieleho
+
+;-- Database
+Create database=Vytvoriť databázu
+Open database=Otvoriť databázu
+Add to database=Pridať do databázy
+Search in database=Prehľadávať databázu
+One click search=Vyhľadávanie jedným kliknutím
+Database settings=Nastavenia databázy
+
+;-- Games
+Replay session=Replay sady
+Replay index=Replay indexu
+Cancel replay session=Zrušiť replay sady
+
+;-- Problems
+Solve problems=Riešiť problémy
+Problem index=Index problémov
+Hint=Rada
+Free mode=Voľný mód
+Problem mode=Mód problémov
+Cancel problem session=Zrušiť sadu problémov
+
+;-- Play
+New engine game=Nová hra enginu
+Pass=Prenechať ťah
+Resign=Vzdať sa
+Cancel game=Zrušiť hru
+Score estimate=Odhad stavu
+Suggest move=Navrhnúť ťah
+Show influence regions=Zobraziť regióny vplyvu
+Engine settings=Nastavenia enginu
+
+;-- Options
+Sidebar settings=Nastavenia bočnej lišty
+Language settings=Nastavenie jazyka
+Advanced settings=Rozšírené nastavenia
+Toggle coordinates=Zapnúť súradnice
+Toggle move markers=Zapnúť označenie ťahov
+View settings=Zobraziť nastavenia
+Game tree settings=Nastavenia herného stromu
+
+;-- Help
+Display help=Zobraziť pomoc
+Web site=
+Donate=
+About=O programe
+
+;-- Tabs popup menu
+New in tab=Nový v záložke
+Open in tab=Otvoriť v záložke
+Open folder in tab=Otvoriť priečinok ako záložku
+Reload current file=Obnoviť aktuálny súbor
+
+;-- Sidebar menu
+Show in current tab=Zobraziť v aktuálnej záložke
+
+;-- Tray icon menu
+Restore window=Obnoviť okno
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=&Pomoc
+Ok=Ok
+Cancel=Zrušiť
+Clipboard=Schránka
+No=Nie
+Yes=Áno
+Send=Odoslať
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=Vitajte v Drago
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=Veľkosť
+Komi=Komi
+Handicap=Handicap
+Free placement=Voľné rozmiestnenie
+Create in=Vytvoriť v
+New file=Nový súbor
+Current file=Aktuálny súbor
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=Herný engine
+Name=Meno
+Level=Úroveň
+not defined=nedefinovaná
+Not available=Nedostupný
+More engines=Viac enginov
+
+;-- Start position
+New game=Nová hra
+Current position=Aktuálna pozícía
+Auto handicap=Auto handicap
+Engine plays with=Engine hrá ako
+Black=Čierny
+White=Biely
+
+;-- Time settings
+Time settings=Nastavenia času
+No time limit=Bez časového obmedzenia
+Total time=Celkový čas
+Time per move=Čas na ťah
+Initial time plus over time=Riadny čas plus byo-yomi
+Initial time=Riadny čas
+Over time=Byo-yomi
+Timing only for engine=Časovanie iba pre engine
+
+;-- Game settings
+Game settings=Herné nastavenia
+Boardsize=Veľkosť dosky
+
+;-- Scoring
+Scoring=Bodovanie
+Territory counting=Počítane územia
+Area counting=Počítanie plochy
+
+;-- Messages
+More=Viac
+No engine defined. Please select 'More...' then 'More engines...'=Nie je definovaný engine. Prosím zvoľte 'Viac...' a potom 'Viac enginov...'
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=Aktuálny engine nenájdený. Prosím zvoľte 'Viac...' a potom 'Nastavenia enginu...'
+Not all functions are supported by the engine currently selected.=Momentálne zvolený engine nepodporuje všetky funkcie.
+
+;-- GTP window
+GTP window=GTP okno
+Show GTP window=Zobraziť GTP okno
+Enter and send GTP command (no feedback on main board):=Zadať a odoslať GTP príkaz (bez odozvy na hlavnej doske)
+No engine running=Nebeží žiaden engine
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=Kliknite na goban, aby ste umiestnili handicapové kamene.
+Click again on a stone to remove it.=Kliknite na kameň ešte raz, aby ste ho odstránili.
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=Pridať tento
+Add=Pridať
+Add favorite=Pridať obľúbený
+Add game file=Pridať súbor hry
+Add folder=Pridať priečinok
+Add database=Pridať databázu
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=Zhrnutie
+
+;-- Event
+Game=Hra
+Event=Udalosť
+Round=Kolo
+Place=Miesto
+Date=Dátum
+
+;-- Players
+Players=Hráči
+Rank=Úroveň
+Team=Družstvo
+
+;-- Rules
+Rules=Pravidlá
+Time=Čas
+hr=h
+mn=m
+Byo-Yomi=Byo-Yomi
+
+;-- Sources
+Sources=Zdroje
+User=Používateľ
+Annotation=Anotácia
+Source=Zdroj
+Copyright=Copyright
+
+;-- Comment
+Comment=Poznámka
+
+;-- Misc
+Misc=Rôzne
+Application=Aplikácia
+SGF format=SGF formát
+Style=Štýl
+No style defined for current game=Pre aktuálnu hru nie je definovaný žiaden štýl
+Show alternate moves - Allow board markup=Ukázať možné ťahy - Povoliť značky na doske
+Show alternate moves - No board markup=Ukázať možné ťahy - Bez značiek na doske
+Show next moves - Allow board markup=Ukázať ďalšie ťahy - Povoliť značky na doske
+Show next moves - No board markup=Ukázať ďalšie ťahy - Bez značiek na doske
+Charset=Znaková sada
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=Náhľad
+Export figures=Exportovať schémy
+Export games=Exportovať hry
+ESC to cancel=ESC pre zrušenie
+
+;-- Games and figure
+Games and figures=Hry a schémy
+
+;-- Games
+Games=Hry
+Current game=Aktuálna hra
+All=Všetky
+to:=do
+from:=od
+
+;-- Include information
+Include information=Zobraziť informáciu
+at start of game=na začiatku hry
+as name of figure 1=ako meno schémy 1
+Format=Formát
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (Č) proti \PW (B), \DT
+
+;-- Figures
+Figures=Schémy
+Position at move number=Pozícia pri ťahu číslo
+One figure every N moves=Jedna schéma po N ťahoch
+One figure every %d moves=Jedna schéma po %d ťahoch
+One figure every markup or comment=Schéma pre každú značku, alebo poznámku
+File figures=Schémy zo súboru
+Variations=Variácie
+
+;-- Comments
+Comments=Komentáre
+Include comments=Včleniť komentáre
+Remind figure titles=Pripomenúť nadpisy schém
+remind figure titles2=pripomenúť nadpisy schém
+Remind move numbers=Pripomenúť čísla ťahov
+remind move numbers2=pripomenúť čísla ťahov
+
+;-- Figure title
+Figure title=Názov schémy
+Print title=Vytlačiť názov
+Relative numbers=Relatívne čísla
+relative numbers2=relatívne čísla
+Figure format=Formát schémy
+Variation format=Formát variácie
+
+;-- Default formats for title
+Diagram \figure=Diagram \figure
+Figure \figure (\moves)=Schéma \figure (\moves)
+Game \game (\moves)=Hra \game (\moves)
+Game \game - Diagram \figure=Hra \game - Diagram \figure
+Game \game - Figure \figure (\moves)=Hra \game - Schéma \figure (\moves)
+Game \game=Hra \game
+Problem \game - Figure \figure=Problém \game - Schéma \figure
+Problem \game=Problém \game
+
+;-- Layout tab
+Layout=Rozloženie
+
+;-- Header and footer
+Header and footer=Záhlavie a zápätie
+Print header=Tlačiť záhlavie
+Print footer=Tlačiť zápätie
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\left 'Stránka ' \page \right \date
+
+;-- Layout
+Layout2=Rozloženie
+First figure alone in the line=Prvá schéma samotná v riadku
+1st figure alone=Osobitne 1. schému
+1st figure ratio=Pomer 1. schémy
+Figures per line=Schém na riadok
+Figure ratio=Pomer schém
+
+;-- Margins
+Margins (mm)=Odsadenie (mm)
+Left2=Ľavé
+Right2=Pravé
+Top=Horné
+Bottom=Dolné
+
+;-- Font
+Font=Písmo
+Name:=Meno
+Size:=Veľkosť
+
+;-- Styles
+Styles=Štýly
+Remove=Odstrániť
+Add current print options as style with name:=Pridať momentálne nastavenie tlače ako štýl s menom
+Remove style=Odstrániť štýl
+
+;-- Style description strings not yet listed
+Games from %d to %d=Hry od %d do %d
+Include variations=Pridať variácie
+with format=s formátom
+with formats=s formátmi
+with ratio=s pomerom
+absolute numbers=absolútne čísla
+
+;-- Formats
+Formats=Formáty
+Formats for exporting games=Formáty pre exportované hry
+Formats for exporting figures=Formáty pre exportované schémy
+Paper=Papier 
+Letter2=List
+Landscape=Krajinka
+Settings=Nastavenia
+PDF compression=PDF kompresia
+Jpeg quality (1-100)=kvalita Jpeg (1-100) 
+
+;-- Printing as book
+%d at %d=%d na %d
+%d at %s=%d na %s
+%d above %d=%d nad %d
+%d below %d=%d pod %d
+%d at left of %d=%d naľavo od %d
+%d at right of %d=%d napravo od %d
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=Súradnice schémy
+Dimensions (mm)=Rozmery (mm)
+Dimensions (px)=Rozmery (px)
+Stone diameter=Priemer kameňa
+As books=Ako kniha
+Mode=Mód
+Moves from 1 to 10=Ťahy od 1 po 10
+Black with circle=Čierny s krúžkom
+Black with square=Čierny so štvorcom
+White with circle=Biely s krúžkom
+White with square=Biely so štvorcom
+Draw edge=Vykresliť hrany
+H=V
+W=Š
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=Prvá stránka
+Previous page=Predošlá stránka
+Next page=Ďalšia stránka
+Last page=Posledná stránka
+Zoom in=Priblížiť
+Zoom out=Oddialiť
+Page %d of %d=Stránka %d z %d
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=Goban
+
+;-- Board
+Board=Doska
+Board1=Doska
+Default texture=Predvolený povrch
+Custom texture=Vlastný povrch
+Color=Farba
+Thick edges=Hrubé okraje
+Hoshis=Hoshi
+
+;-- Stones
+Stones=Kamene
+
+;-- Coordinates
+Coordinates=Súradnice
+None2=Žiadne
+Korschelt=Korschelt
+
+;-- Coordinate background
+Coordinate background=Pozadie súradníc
+As board=Ako doska
+
+;-- Displayed zone
+Displayed zone=Zobrazená časť
+Whole board=Celá doska
+Zoom on corner=Priblížiť na roh
+
+;-- Moves tab
+Moves=Ťahy
+
+;-- Show moves
+Show moves=
+All moves with number=
+Last move with number=
+Last move with markup=
+Last %d moves with number=
+Number of visible move numbers:=
+
+;-- Show variations as
+Show variations as...=Ukázať variácie ako...
+
+;-- Markup of variations on goban
+Markup of variations on goban=Značenie variácií na gobane
+None=Žiadne
+Ghost stones=Priehľadné kamene
+Uppercase letters=Veľké písmená
+Lowercase letters=Malé písmená
+
+;-- Move numbers
+Move numbers=Čísla ťahov
+Display only two last digits=Zobraziť iba posledné dve číslice
+
+;-- Game tree tab
+Game tree=Herný strom
+
+;-- Background
+Background=Pozadie
+
+;-- Stone radius
+Radius=Polomer
+
+;-- Move number position
+No2=Nie
+On the side=Na boku
+On the stones=Na kameňoch
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=Pozadie okna
+
+;-- Light source
+Light source=Zdroj svetla
+Top left=Vľavo hore
+Top right=Vpravo hore
+
+;-- Skins
+Menu and toolbar skins=Skiny pre menu a nástrojovú lištu
+
+;-- Preview tab
+Preview2=Náhľad
+Definition of information columns=Definícia informačných stĺpcov
+Black player=Čierny hráč
+Black rank=Hodnosť čierneho
+Result=Výsledok
+White player=Biely hráč
+White rank=Hodnosť bieleho
+Select property etc.=Zvoľte si položku a použite šípky, alebo ju premiestnite myšou
+Sorting of information records=Zoraďovanie záznamov informácií
+Enabled if record number is less than=Povolené, ak je počet záznamov menší ako
+Thumbnail preview=Náhľad
+Stone radius=Polomer kameňa
+
+;-- Sidebar tab
+Sidebar=Bočná lišta
+Default visibility of panels when creating a tab=Viditeľnosť panelov pri vytváraní záložky
+Always visible=Vždy viditeľné
+Visible if needed=Viditeľné ak treba
+Timing=Čas
+Node name=Meno uzla
+Variation list=Zoznam variácií
+Game information panel=Panel informácií o hre
+Display images=Zobrazovať obrázky
+Image directory=Priečinok obrázkov
+Comment font=Písmo komentárov
+
+;-- Text panels
+Text panels=Textové panely
+
+;-- Shortcuts tab
+Shortcuts=Skratky
+Select category:=Zvoľte kategóriu
+Engine=Engine
+Replay=Replay
+Select command:=Vyberte príkaz
+Click in box and type shortcut:=Kliknite do okienka a použite skratku
+Assigned to:=Priradené k
+(none)=(žiadna)
+Assign=Priradiť
+Clear=Odobrať
+Assign shortcut to selected command=Pridať skratku k zvolenému príkazu
+Clear shortcut of selected command=Odobrať skratku k zvolenému príkazu
+
+;-- Toolbars tab
+Toolbars=Lišty
+Select toolbar:=Zvoľte lištu
+Misc2=Rôzne
+Select command and toolbar etc.=Zvoľte si príkaz a lištu, potom použite tlačítka šípiek, alebo natiahnite myšou príkaz do lišty
+(Separator)=(Oddeľovač)
+
+;-- Sounds tab
+Sounds=Zvuky
+Enable sounds=Zapnúť zvuky
+Invalid move=Nesprávny ťah
+Engine move=Ťahy enginu
+Default=Predvolené
+Custom=Vlastné
+Test=Test
+Sound files=Zvukové súbory
+Select sound file=Vyberte zvukový súbor
+
+;-- Files tab
+Files=Súbory
+
+;-- File association
+File associations=Asociácie súborov
+Unable to update file association!=Nepodarilo sa upraviť asociácie súborov
+Check user rights.=Kontrolovať práva používateľa.
+
+;-- Starting
+Starting=Začiatok
+Start with last files=Začať posledným súborom
+Start with last move=Začať posledným ťahom
+
+;-- Properties
+Properties=Vlastnosti
+Save with 10 moves on each line=Uložiť po 10 ťahov na každý riadok
+New file with full SGF properties=Nový súbor s plnými vlastnosťami SGF
+Change player with SGF property=Meniť hráča s vlastnosťou SGF
+Compress lists of points=Komprimovať zoznam bodov
+Accept long property names=Prijať dlhé názvy vlastností
+
+;-- Navigation tab
+Move targets=Ciele
+Every N moves=Každých N ťahov
+Starts of variation=Začiatky variácií
+Ends of variation=Konce variácií
+Time between two moves=Čas medzi dvoma ťahmi
+Use timing properties when available=Použiť vlastnosti časovania ak sú dostupné
+Stop at targets=Zastaviť na cieľoch
+
+;-- Database tab
+General=Všeobecné
+Cache=Cache
+Creation=Vytvorenie
+Create with extended algorithms=Vytvoriť pomocou rozšírených algoritmov
+Process variations=Spracovať variácie
+Detect duplicates=Vyhľadať duplikáty
+by using signature=na základe podpisu
+by using final position=na základe výslednej pozície
+Omit duplicates when detected=Vynechať prípadné duplikáty
+Omit games with SGF errors=Vynechať hry s chybou v SGF
+Pattern search=Hľadanie vzorov
+Search in variations=Prehľadávať variácie
+Move limit=Počeť ťahov do
+
+;-- Game engine tab
+
+Game engines=Herné enginy
+List of engines=Zoznam enginov
+Analysis=Analýza
+
+;-- Binary
+Path=Cesta
+Select engine path=Zadajte cestu k enginu
+Parameters=Parametre
+Usage=Použitie
+Use for game=Použiť pre hru
+Use for analysis=Použiť pre analýzu
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=Argumenty pre pravidlá, čas, veľkosť dosky a úroveň sú preddefinované. Ďalšie argumenty pre aktuálny engine môžete zadať sem.
+
+;-- Lists of features
+Playing features=Herné možnosti
+Chinese rules=Čínske pravidlá
+Japanese rules=Japonské pravidlá
+Fixed handicap=Pevný handicap
+Free handicap=Voľný handicap
+Time per game=Čas na hru
+Undo=Vrátiť ťah
+Detailed game results=Podrobné výsledky
+Analysis features=Možnosť analýzy
+Move suggestion=Viac návrhov
+Influence region=Regióny vplyvov
+Group status=Stav skupín
+
+;-- Predefined engines
+Select predefined engine=Vybrať preddefinovaný engine
+Open browser, download and install=Otvoriť prehliadač, stiahnuť a inštalovať
+Already installed=Už nainštalovaný
+Press Ok (then you will have to enter executable installation path) or cancel.=Stlačte OK (následne bude potrebné zadať cestu k spustiteľnému súboru), alebo zrušiť.
+If the engine motor you want to play with is not in the list, edit the following file:=Ak engine, ktorý chcete použiť, sa nenachádza v zozname, upravte tento súbor:
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Argumenty pre pravidlá, čas, veľkosť dosky a úroveň sú preddefinované. Ďalšie argumenty pre aktuálny engine môžete zadať sem.
+Current parameters=Aktuálne parametre
+Additional parameters=Ďalšie parametre
+
+;-- Language tab
+
+Language=Jazyk
+Select language for user interface=Zvoľte jazyk pre používateľské rozhranie
+Select code page for game files=Zvoľte kódovanie pre herné súbory
+Create game files using...=Vytvoriť herné súbory pomocou...
+Unicode=Unicode
+System default code page=Pôvodného systémového kódovania
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=Voľba vlastných kameňov
+Path for Black stones=Cesta pre čierne kamene
+Path for White stones=Cesta pre biele kamene
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=Názov kameňov by mal obsahovať číslo, ktoré udáva ich priemer. Prípadné druhé číslo v názve identifikuje určitú variáciu vzhľadu.
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=Anotácie
+
+;-- Position annotations
+Position annotations=Anotácie pozícií
+Good for Black=Dobrá pre Čierneho
+Good for White=Dobrá pre Bieleho
+Balanced position=Vyrovnaná pozícia
+Unclear position=Nejasná pozícia
+Very good for Black=Veľmi dobrá pre Čierneho
+Very good for White=Veľmi dobrá pre Bieleho
+Very balanced position=Veľmi vyrovnaná pozícia
+Very unclear position=Veľmi nejasná pozícia
+Hot spot=Horúce miesto
+Very hot spot=Veľmi horúce miesto
+
+;-- Move annotations
+Move annotations=Anotácie k ťahom
+Bad=Zlý
+Doubtful=Otázny
+Tesuji=Tesuji
+Very bad=Veľmi zlý
+Interesting=Zaujímavý
+Very good tesuji=Veľmi dobré tesuji
+
+;-- Text
+Text=Text
+
+;-- Others
+Others=Ostatné
+
+;-- Timing
+Black time left=Ostávajúci čas čierneho
+White time left=Ostávajúci čas bieleho
+
+;-- Figures
+Insert figure=Vložiť schému
+Show coordinates=Zobraziť súradnice
+
+;-- Other properties
+Other properties=Ostatné vlastnosti
+Move numbers from=Čísla ťahov od
+Wrong variation (uliGo)=Nesprávna variácia (uliGo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=Zadajte zoznam vlastností oddelených čiarkami (C,BL,WL):
+All games in collection=Všetky hry v zbierke
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=Replay hry
+
+;-- Select game
+Select game2=Zvoliť hru
+Loaded game=Načítaná hra
+Sequential=Postupne
+Random=Náhodne
+
+;-- Play with
+Play with=Hrať za
+Both=Oboch
+
+;-- Play...
+Play2=Hrať...
+Full game=Celú hru
+Fuseki=Fuseki
+From current position=Od aktuálnej pozície
+From current position (only for current game)=Od aktuálnej pozície (iba pre túto hru)
+
+;-- Move number in Fuseki
+Move number in Fuseki=Počet ťahov vo Fuseki
+
+;-- Number of attempts per move
+Number of attempts per move=Počet pokusov na ťah
+Only one=Iba jeden
+Unlimited=Neobmedzene
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=Štatistika
+Problems in collection=Problémov v zbierke
+Visited problems=Navštívených problémov
+Number of attempts=Počet pokusov
+Number of successes=Počet úspechov
+Show detailed statistics=Zobraziť podrobnú štatistiku
+Reset collection statistics=Reštartovať štatistiku zbierky
+
+;-- Problem order
+Problem order=Poradie problémov
+Sequential from current=Postupne od momentálneho
+Sequential from stored=Postupne od uloženého
+Random color=Náhodná farba
+Random position=Náhodné umiestnenie
+Number of problems=Počet problémov
+
+;-- Failure ratio
+Include problems incorrectly solved=Zahrnúť nesprávne vyriešené problémy
+don't care=je mi jedno
+ratio=v pomere
+
+;-- Solution marks
+Solution marks=Označenie riešenia
+Main line=Hlavný prúd
+Autodetect=Vyhľadať automaticky
+
+;-- More popup menu
+Show=Zobraziť
+Timer=Časovač
+Glyphs=Glyfy
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=Zvoľte základ pre mená súborov
+Export starting from:=Exportovanie začína od
+Merge... Select files=Zlúčiť... Vyberte súbory
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=Uložiť priečinok
+Files modified in folder=Súbory zmenené v priečinku
+Select files to save:=Vyberte súbory na uloženie
+Select all=Označiť všetko
+Unselect all=Zrušiť všetko
+Ignore=Ignorovať
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=Hĺbka
+Unique moves=Jedinečné ťahy
+Normalize position of first move=Normalizovať pozíciu prvého ťahu
+Game reference=Odkaz na hru
+Filename=Názov súboru
+Games to process=Spracovať hry
+Process current tab=Spracovať aktuálnu záložku
+Select files or folders to process=Vybrať priečinok na spracovanie
+Start=Začať
+
+;-- Messages
+Only main branch is processed=Spracuje sa iba hlavná vetva
+Move inversions are not detected=Nehľadajú sa výmeny ťahov
+Unable to process file=Nemôžem spracovať súbor
+Unable to process file completely=Nemôžem spracovať celý súbor
+Game ignored (some not alternative moves):=Hra ignorovaná (nejaké nie alternatívne ťahy)
+Game ignored (board size not handled):=Hra ignorovaná (neošetrená veľkosť dosky)
+Game tree ready.=Herný strom hotový.
+Elapsed time (seconds)=Čas behu (sekundy)
+Number of games=Počet hier
+percentage and number of games in variation=percento a počet hier vo variácii
+winning percentage of move=percento výhier pre ťah
+number of unknown results=počet neznámych výsledkov
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=je freeware
+Version=Verzia
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo a libkombilo vytvoril Ulrich Goertz
+Credits=Credits
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=Všetky súbory
+BMP files=Súbory BMP
+DOC files=Súbory DOC
+HTML files=Súbory HTML
+JPEG files=Súbory JPEG
+RTF files=Súbory RTF
+SGF files=Súbory SGF
+GIF files=Súbory GIF
+PNG files=Súbory PNG
+MGT files=Súbory MGT
+ASCII files=Súbory ASCII
+PDF files=Súbory PDF
+Database files=Databázové súbory
+Text files=Textové súbory
+
+;-- Export captions
+Export games with HTML format=Exportovať hry vo formáte HTML
+Export games with RTF format=Exportovať hry vo formáte RTF
+Export games to HTML format=Exportovať hry do formátu HTML
+Export games to RTF format=Exportovať hry do formátu RTF
+Export games to PDF format=Exportovať hry do formátu PDF
+Export games to MSWORD format=Exportovať hry do formátu MSWORD
+
+;-- Select texture dialog
+Select texture=Zvoľte povrch
+(empty)=(prázdny)
+Image:=Obrázok:
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=Posledný ťah
+Black prisoners=Čierni väzni
+White prisoners=Bieli väzni
+
+;-- Game information
+Game information2=Informácie o hre
+
+;-- Variation list panel
+Next moves=Ďalšie ťahy
+Alternate moves=Možné ťahy
+
+;-- Replay panel
+Game2=Hra
+You=Vy
+
+;-- Problem panels
+Reference=Celkovo
+Problem=Problém
+Attempt=Pokus
+Attempts=Pokusov
+Trial=Pokus
+Trials=Pokusov
+Problem status=Stav problému
+Attempt status=Stav pokusu
+Running=Prebieha
+Success=Úspešne
+Failure=Nesprávne
+Assisted=S pomocou
+Free=Voľný
+
+;-- Problem result box
+End of problem session.=Koniec sady problémov.
+Session result: %d / %d=Výsledky sady: %d / %d
+Collection score after session: %s=Skóre zbierky po tejto sade: %s
+More problems?=Viac problémov?
+
+;-- Game result string
+Black wins=Čierny vyhral
+White wins=Biely vyhral
+%s wins by %s points=%s vyhral o %s bodov
+Draw=Remíza
+No result=Bez výsledku
+Unknown result=Neznámy výsledok
+by forfeit=odstúpením
+by resignation=vzdaním sa
+on time=na čas
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=Viac túto správu nezobrazovať
+Toggling to full screen mode.=Prepínam do režimu celej obrazovky.
+Restore window mode with %s=Okno obnovíte stlačením %s
+
+;-- Tab errors
+Unable to create tab=Nepodarilo sa vytvoriť záložku
+
+;-- Edit messages
+No move to add variation.=Žiaden ťah na pridanie variácie.
+Move impossible to cancel=Nie je možné zrušiť ťah
+Delete whole branch.=Zmazať celú vetvu.
+File modification.=Zmena súboru.
+Beware game modification will not be updated in database.=Pozor, zmeny v hre nebudú vykonané v databáze.
+Do you want to proceed?=Chcete pokračovať?
+
+;-- File errors
+File not open=Súbor neotvorený
+Bracket not found=Zátvorky nenájdené
+Error opening file=Chyba pri otváraní súboru
+Error opening folder=Chyba pri otváraní priečinku
+Line=Riadok
+File partialy read=Súbor otvorený čiastočne
+File %s is read only.=Súbor %s je iba na čítanie.
+File %s not saved.=Súbor %s nie je uložený.
+Folder %s not saved.=Zložka %s nie je uložená.
+First game not found=Prvá hra nenájdená
+Illegal character=Nepovolený znak
+Impossible to save %s.=Nie je možné uložiť %s.
+Impossible to save.=Nie je možné uložiť.
+Impossible to write file=Nie je možné zapísať do súboru
+Semicolon not found after parenthesis=Nenájdená bodkočiarka po zátvorkách
+Invalid property name=Nesprávne meno vlastnosti
+Memory error=Chyba pamäte
+Read only file=Súbor je iba pre čítanie
+The loaded game is not Go : GM property=Načítaná hra nemá vlastnosti Go : GM
+Invalid board size=Nesprávna veľkosť dosky
+Size will be set to 19.=Veľkosť bude nastavená na 19.
+Unexpected end of file=Neočakávaný koniec súboru
+
+;-- File warnings
+Reload and lose modifications?=Znovu načítať a stratiť tak zmeny?
+Save changes in %s?=Uložiť zmeny do %s?
+
+;-- Replay messages
+Game with no name. Save to proceed.=Hra nemá názov. Uložte ju ak chcete pokračovať.
+File not saved. Save to proceed.=Súbor neuložený. Uložte ho ak chcete pokračovať.
+The file doesn't seem to be a game file.=Súbor nevyzerá ako súbor hier.
+The file doesn't seem to be a problem file.=Súbor nevyzerá ako súbor problémov.Continue
+The file is not a problem collection.=Súbor nie je zbierkou problémov.
+A problem collection must be loaded to start a problem session.=Zbierka problémov musí byť načítaná, aby sa spustila sada problémov
+Continue=Pokračovať
+End of fuseki=Koniec fuseki
+End of game=Koniec hry
+Score=Skóre
+
+;-- Move errors
+Illegal move=Nedovolený ťah
+Illegal ko capture=Nedovolené zajatie ko
+Illegal suicide...=Nedovolená samovražda...
+Impossible to play there=Tam sa nedá hrať
+
+;-- Game engine messages
+Abnormal termination of game engine=Nevyžiadané ukončenie herného enginu
+Do you really want to resign?=Chcete sa naozaj vzdať?
+Game aborted=Hra prerušená
+Error=Chyba
+Black has passed=Čierny passoval
+White has passed=Biely passoval
+Black resigns=Čierny sa vzdal
+White resigns=Biely sa vzdal
+Black loses on time=Čierny prehral na čas
+White loses on time=Biely prehral na čas
+Pass2=Pass
+pass3=pass
+Territory=Územie
+Prisoners=Väzni
+Total=Celkom
+Please select board view before starting game.=Prosím zvoľte zobrazenie dosky 
+Current engine is unable to start...=Nepodarilo sa spustiť aktuálny engine...
+Engine configuration file missing. Please check installation.=Chýba konfiguračný súbor enginu. Prosím skontrolujte inštaláciu.
+alive=živá
+dead=mŕtva
+critical=kritická
+
+;-- Export
+Problem while copying in clipboard=Problém počas kopírovania do schránky
+Problem while saving image=Problém počas ukladania obrázku
+Unable to export...=Nemôžem exportovať...
+Close Word and restart export.=Zatvorte Word a znovu exportujte.
+Please, close previous preview to proceed.=Prosím, zatvorte predchádzajúci náhľad, ak chcete pokračovať.
+File is in use, close to proceed.=Súbor sa používa, zatvorte ho ak chcete pokračovať.
+
+;-- Preview
+Sorting is not enabled over %d records.=Zoraďovanie nie je povolené pre viac než %d záznamov.
+See Options | Preview to change this setting.=Zmeniť toto nastavenie môžete v Možnosti | Náhľad
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=BkSp
+Tab=Tab
+Esc=Esc
+Enter=Enter
+Space=Medzera
+PgUp=PgUp
+PgDn=PgDn
+End=End
+Home=Home
+Left=Doľava
+Up=Nahor
+Right=Doprava
+Down=Nadol
+Ins=Ins
+Del=Del
+Shift+=Shift+
+Ctrl+=Ctrl+
+Alt+=Alt+
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=Označte súbory, alebo priečinky
+Clear all=Odstrániť všetko
+Include subfolders=Vrátane podpriečinkov
+Start2=Začať
+Abort=Prerušiť
+Save database as=Uložiť databázu ako
+Please give database name=Prosím zadajte meno databázy
+%s already exists.=%s už existuje.
+Do you want to overwrite it?=Chcete ho prepísať
+Database open, please close first=Databáza je otvorená, prosím najprv ju zatvorte
+Unable to create database=Nepodarilo sa vytvoriť databázu
+
+;-- Search dialog
+Pattern=Vzor
+;Game information=
+Signature=Podpis
+Reset=Reštartovať
+No database loaded=Nie je načítaná databáza
+No database loaded... Load or create.=Nie je načítaná databáza... Načítajte, alebo vytvorte ju
+Select database=Vybrať databázu
+Search=Hľadať
+Search in results=Hľadať vo výsledkoch
+Whole database=Celá databáza
+Current results=Aktuálne výsledky
+View results in tab=Zobraziť výsledky v záložke
+View results on board=Zobraziť výsledy na dosku
+View results in game information list=Zobraziť výsledky v herných informáciách
+View results in board thumbnails=Zobraziť výsledky ako zmenšeniny dosky
+
+;-- Pattern search
+Pattern (right-click to select)=Vzor (výber pravým tlačítkom)
+Wildcard=Čokoľvek
+Capture=Zachytiť
+Clear2=Zmazať
+View:=Zobraziť
+Results=Výsledky
+Frequency=Frekvencia
+Urgency=Naliehavosť
+Efficiency=Efektivita
+Fixed:=Pevné
+Position=Pozícia
+Next move:=Ďalší ťah
+%d matches=%d zápasov
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d zápasov (%d/%d), Č: %1.1f%%, B: %1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=Č|Č/T|Č+/Č|Č-/Č|B|B/T|Č+/B|Č-/B
+Right-click to select on board=Vyberte pravým kliknutím na dosku
+Found games are in database tab=Nájdené hry sú v záložke databázy
+
+;-- Information search
+Game information search=Hľadanie herných info.
+Search on players=Hľadať podľa hráčov
+Any=Ktokoľvek
+One of both=Jeden z oboch
+Winner=Víťaz
+Loser=Porazený
+Search on date=Hľadať podľa dátumu
+Day=Deň
+Month=Mesiac
+Year=Rok
+Range=Rozpätie
+To=Do
+Search on result=Hľadať podľa výsledku
+wins=vyhral
+wins by=vyhral o
+wins by at least=vyhral aspoň o
+wins by at most=vyhral najviac o
+wins by resignation=vyhral vzdaním sa
+wins on time=vyhral na čas
+wins by forfeit=vyhral odstúpením
+Other or unknown=iný, alebo neznámy
+More conditions=Viac
+SQL=SQL
+
+;-- Signature search
+Signature search=Hľadanie podpisu
+
+;-- Settings
+Search settings=Nastavania hľadania
+Select or open database=Vyberte, alebo otvorte databázu
+Pattern search parameters=Nastavenie vyhľadávania vzorov
+Fixed color=Daná farba
+Fixed position=Daná pozícia
+Pattern search next move=Ďalší ťah pri vyhľadávaní vzorov
+Any or none=Ktokoľvek
+Pattern search view=Zobrazenie vyhľadávania vzorov
+Full=Všetko
+Digest=Súhrn
+
+;-- Messages
+Error opening database=Chyba pri otváraní databázy
+No search for center empty patterns.=Nevyhľadávam prázdne stredové vzory.
+No search for center single stone patterns.=Nevyhľadávam stredové vzory s jedným kameňom.
+No search rectangle defined.=Nezvolený obdĺžnik vyhľadávania.
+Operation aborted by user=Operácia prerušená používateľom
+%d file(s) to process=%d súbor(ov) na spracovanie
+%d games processed, %s elapsed=%d hier spracovaných, doba trvania %s
+%d file(s) processed, %s elapsed=%d súbor(ov) spracovaný(ch), doba trvania %s
+Unable to process game=Nemôžem spracovať hru
+Unable to process game completely=Nemôžem spracovať celú hru
+Boardsize not handled=Nesprávna veľkosť dosky
+SGF error detected, game inserted=nájdená chyba SGF
+SGF error detected, game not inserted=chyba SGF ignorovaná
+Duplicate detected=nájdený duplikát
+Duplicate ignored=duplikát ignorovaný
+;%d result(s)=%d résultat(s)
+No game found in %s=Nenájdená žiadna hra v %s
+1 game found in %s=Jedna hra nájdená v %s
+%d games found in %s=%d hier nájdených v %s
+Save logfile=Uložiť záznam
+%d ms.=%d ms.
+%2.2f seconds=%2.2f sekúnd
+Unable to modify game in database.=Nemôžem meniť hru v databáze.
+Extract to a new tab and try again?=Vybrať do novej záložky a skúsiť znova?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=Rozšírené
+Restore default=Obnoviť pôvodné
+Select=Vybrať
+Select all2=Vybrať všetko
+Restore=Obnoviť
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=Postupnosť klikov pri móde nastavovania kameňov
+Set, remove=Položiť, odstrániť
+Set, swap color, remove=Položiť, zmeniť farbu, odstrániť
+Enable moves as books=Umožniť ťahy ako knihy
+Start variation from 1=Začať variáciu od 1
+Start variation with figure=Začať variáciu čislom
+Start variation settings include main line=Nastavenia začiatočnej variácie obsahujú hlavnú líniu
+Bold text=Tučný text
+Maximum font size=Maximálna veľkosť fontu
+Texture tiling with symmetries=Dlaždicová textúra so symetriami
+
+; User interface
+User interface=Používateľské rozhranie
+Allow only one instance=Povoliť iba jednu inštanciu
+Minimize to tray=Minimalizovať do lišty
+Hook content of window when resizing=Uchytiť obsah okna pri zmene veľkosti
+Anchor panels at bottom=Ukotviť panely na spodku
+Show tab close buttons=Zobraziť tlačítka na zatvorenie záložiek
+
+; Files
+Save paths relatively to install folder=Ukladať cesty relatívne na priečinok inštalácie
+Abort reading on file error=Ukončiť čítanie pri chybe súboru
+Open save dialogs with places bar=Otvoriť uložiť lištu dialógov s miestami
+
+; Games against engines
+Games against engines=Hry proti enginom
+Ask for saving when closing game=Ponúknuť uloženie pri zatváraní hry
+Use again previous game engine tab=Znovu použiť predchádzajúci herný engine
+Enable Undo=Sprístupniť vrátenie ťahu
+Only after capture=Jedine po zajatí
+Game engine options are inhibited during game=Možnosti herného enginu sú pozastavené počas hry
+
+
+; Warning
+Warnings=Upozornenia
+Warn when toggling to full screen=Upozorniť pri prepnutí na celú obrazovku
+Warn at first modification=Upozorniť pri prvej zmene
+Warn at modification in database game=Upozorniť pri zmene hry v databáze
+Warn at modification in read only mode=Upozorniť pri zmene v režime iba pre čítanie
+Warn when delete branch=Upozorniť pri odstránení vetvy
+Warn on invalid move=Upozorniť pri neplatnom ťahu
+Warn on game engine pass=Upozorniť, keď herný engine prenechá ťah
+Warn on game engine resignation=Upozorniť, keď sa herný engine vzdá
+Warn when losing on time=Upozorniť pri nedostatku času
+
+; PDF
+Use board color=Použiť farbu dosky
+Exact width (mm)=Presná šírka
+Added border (N;W;S;E in % of image width)=Prídavný okraj (S;Z;J;V v % šírky obrázku)
+Radius adjustment=Úprava polomeru
+Circle width=Šírka kruhu
+Line width=Šírka čiary
+Double line width=Šírka dvojitej čiary
+Hoshi stone ratio=Pomer kameňov na hoshi
+Marks adjustment (line width;size factor)=Zvýrazniť úpravy (šírka čiary; faktor veľkosti)
+Font size adjustment (f or f;f or f;f;f see help)=Úprava veľkosti písma (f alebo f;f alebo f;f;f viď. Pomoc)
+Line height adjustment=Úprava veľkosti riadka
+
+;---

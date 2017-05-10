@@ -290,7 +290,6 @@ type
     SpTBXItem152: TSpTBXItem;
     SpTBXItem153: TSpTBXItem;
     SpTBXItem154: TSpTBXItem;
-    OneInstance: TOneInstance;
     MainPageControl: TTntPageControl;
     SpTBXItem108: TSpTBXItem;
     SpTBXItem149: TSpTBXItem;
@@ -325,6 +324,7 @@ type
     SpTBXSeparatorItem34: TSpTBXSeparatorItem;
     SpTBXItem164: TSpTBXItem;
     SpTBXItem165: TSpTBXItem;
+    OneInstance: TOneInstance;
 
     // Files
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
@@ -618,8 +618,8 @@ end;
 procedure TfmMain.FormCreate(Sender: TObject);
 begin
   DragAcceptFiles(Handle, True);
-  Trayicon := TCoolTrayIcon.Create(Self);
 
+  Trayicon := TCoolTrayIcon.Create(Self);
   with TrayIcon do
     begin
       Hint := 'Drago';

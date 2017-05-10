@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Chinese traditional
+$HelpFile=Drago-Ct.chm
+$TranslationCredit= 正體中文編譯: 周子傑 \n a71446886@yahoo.com.tw \n http://tw.myblog.yahoo.com/computer-weiqi
+$Update=4.21
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=檔案
+View=視圖
+Navigation=打譜
+Edit=編輯
+Database=資料庫
+Games2=對局
+Problems=問題
+Play=對弈
+Options=選項
+Help=幫助
+
+;-- File
+New=新增
+Open=開啟
+Open folder=開啟資料夾
+Save=儲存
+Save as=儲存為
+Save tab content as=儲存標籤頁內容為
+Read only=唯讀
+Close=關閉
+Close all=關閉全部
+Open from clipboard=從剪貼板開啟
+Save to clipboard=儲存到剪貼板
+Collections=棋譜集
+Favorites=我的最愛
+Index=索引
+Game information=對局訊息
+Print=列印
+Export=匯出
+Export position=匯出當前局面
+Quit=退出
+
+;-- Collection
+Append to=添加至
+Merge=合併
+Extract current=提取當前對局
+Extract all=提取全部對局
+Delete current game=
+Make game tree=移動對局樹
+
+;-- View
+Full screen mode=全螢幕模式
+View board=查看棋盤
+Preview game information=預覽對局訊息
+Preview board thumbnails=查看棋譜縮略圖
+Reference view=預設視角
+Mirror=水平翻轉
+Flip=垂直翻轉
+Opponent view=對方視角
+Rotate 90 clockwise=順時針旋轉90度
+Rotate 90 counter clockwise=逆時針旋轉90度
+Swap colors=交換顏色
+Show toolbars=顯示工具列
+Toolbar settings=工具列設定
+Board settings=棋盤設定
+Preview settings=預覽設定
+
+;-- Navigation
+First game=第一局
+Previous game=上一局
+Next game=下一局
+Last game=最後一局
+Select game=選擇對局
+Start position=起始局面
+Previous move=上一步
+Next move=下一步
+End position=終局局面
+Go to move=跳轉至
+Previous target=上一關鍵點
+Next target=下一關鍵點
+Auto replay=自動打譜
+Navigation settings=打譜設定
+Next variation=下一變招
+Previous variation=上一變招
+Pointer up=游標上移
+Pointer down=游標下移
+Pointer left=游標左移
+Pointer right=游標右移
+
+;-- Edit
+Undo move=撤銷
+Delete branch=刪除分支
+Game edit=編輯對局
+Game edit Black first=黑先
+Game edit White first=白先
+Add Black=添加黑子
+Add White=添加白子
+Empty=橡皮擦
+Current markup=當前標記
+Player=對局者
+Black to play=輪到黑方
+White to play=輪到白方
+Insert pass=插入棄著
+Insert=插入
+Make main branch=設為主分支
+Promote variation=
+Demote variation=
+Remove properties=移除屬性
+Insert empty node=插入空節點
+Click at pointer=在游標處按一下
+Ctrl-click at pointer=在游標處 Ctrl+按一下
+
+;-- Markup
+Cross=十字
+Triangle=三角
+Circle=圓形
+Square=方塊
+Letter=字母
+Number=數字
+Label=標籤
+Black territory=黑地
+White territory=白地
+
+;-- Database
+Create database=新增資料庫
+Open database=開啟資料庫
+Add to database=添加到資料庫
+Search in database=搜尋資料庫
+One click search=一鍵搜尋
+Database settings=資料庫設定
+
+;-- Games
+Replay session=開始猜局
+Replay index=對局索引
+Cancel replay session=退出猜局進程
+
+;-- Problems
+Solve problems=解答問題
+Problem index=問題索引
+Hint=提示
+Free mode=自由模式
+Problem mode=問題模式
+Cancel problem session=退出問題進程
+
+;-- Play
+New engine game=開始人機對弈
+Pass=放棄著子
+Resign=認輸
+Cancel game=退出對弈進程
+Score estimate=估算得分
+Suggest move=著子建議
+Show influence regions=顯示勢力範圍
+Engine settings=對弈引擎設定
+
+;-- Options
+Sidebar settings=側邊欄設定
+Language settings=語言設定
+Advanced settings=進階設定
+Toggle coordinates=切換座標
+Toggle move markers=切換著子標記
+View settings=查看設定
+Game tree settings=對弈樹設定
+
+;-- Help
+Display help=說明主題
+Web site=
+Donate=
+About=關於
+
+;-- Tabs popup menu
+New in tab=新增標籤
+Open in tab=開啟為標籤
+Open folder in tab=開啟資料夾為標籤
+Reload current file=重載當前檔案
+
+;-- Sidebar menu
+Show in current tab=顯示在當前標籤頁中
+
+;-- Tray icon menu
+Restore window=恢復窗口
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=幫助
+Ok=確定
+Cancel=取消
+Clipboard=剪貼板
+No=否
+Yes=是
+Send=發送
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=歡迎使用 Drago
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=尺寸
+Komi=貼目
+Handicap=讓子
+Free placement=自由置子
+Create in=建立於
+New file=新檔案
+Current file=當前檔案
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=對弈引擎
+Name=姓名
+Level=等級
+not defined=未定義
+Not available=不可用
+More engines=更多的引擎
+
+;-- Start position
+New game=新增
+Current position=當前局勢
+Auto handicap=自動讓子
+Engine plays with=對弈引擎為
+Black=黑方
+White=白方
+
+;-- Time settings
+Time settings=時間設定
+No time limit=不限時
+Total time=固定限時
+Time per move=每著限時
+Initial time plus over time=保留時間加讀秒
+Initial time=保留時間
+Over time=讀秒
+Timing only for engine=僅為引擎計時
+
+;-- Game settings
+Game settings=程式設定
+Boardsize=棋盤尺寸
+
+;-- Scoring
+Scoring=計分
+Territory counting=點目
+Area counting=數子
+
+;-- Messages
+More=更多
+No engine defined. Please select 'More...' then 'More engines...'=未設定引擎。請點擊“更多...”，隨後選擇“更多引擎...”
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=未找到當前引擎。請點擊“更多...”，隨後選擇“引擎設定...”，隨後檢查路徑設定。
+Not all functions are supported by the engine currently selected.=不是所有功能都為當前所選的引擎所支援。
+
+;-- GTP window
+GTP window=GTP 窗口
+Show GTP window=顯示 GTP 視窗
+Enter and send GTP command (no feedback on main board):=輸入與發送 GTP 命令（主面板上無回饋）：
+No engine running=沒有正在運行的引擎
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=按一下棋盤，將在按一下處放置讓子
+Click again on a stone to remove it.=按一下棋子則為移除該讓子
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=添加當前棋譜
+Add=添加
+Add favorite=添加收藏
+Add game file=添加對局檔案
+Add folder=添加資料夾
+Add database=添加資料庫
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=概要
+
+;-- Event
+Game=對局
+Event=賽事
+Round=回合
+Place=地點
+Date=日期
+
+;-- Players
+Players=對局者
+Rank=等級
+Team=團隊
+
+;-- Rules
+Rules=規則
+Time=時間
+hr=h
+mn=mn
+Byo-Yomi=讀秒
+
+;-- Sources
+Sources=來源
+User=用戶
+Annotation=評注
+Source=來源
+Copyright=版權
+
+;-- Comment
+Comment=解說
+
+;-- Misc
+Misc=雜項
+Application=應用
+SGF format=SGF 格式
+Style=風格
+No style defined for current game=當前對局未設定風格
+Show alternate moves - Allow board markup=顯示候選棋步 - 使用半透明棋子標記
+Show alternate moves - No board markup=顯示候選棋步 - 不使用棋子標記
+Show next moves - Allow board markup=顯示下一棋步 - 使用半透明棋子標記
+Show next moves - No board markup=顯示下一棋步 - 不使用棋子標記
+Charset=字元集
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=預覽
+Export figures=匯出分譜
+Export games=匯出對局
+ESC to cancel=按 ESC 取消
+
+;-- Games and figure
+Games and figures=對局與分譜
+
+;-- Games
+Games=對局
+Current game=當前對局
+All=全部
+to:=至：
+from:=從：
+
+;-- Include information
+Include information=包含對局資訊
+at start of game=在對局起始
+as name of figure 1=作為圖 1 的名稱
+Format=格式
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (B) vs \PW (W), \DT
+
+;-- Figures
+Figures=分譜
+Position at move number=局面在步數第
+One figure every N moves=每 N 步一張分譜
+One figure every %d moves=每 %d 步一張分譜
+One figure every markup or comment=每一標記或評論一張分譜
+File figures=檔案中的分譜
+Variations=變招
+
+;-- Comments
+Comments=解說
+Include comments=包含解說
+Remind figure titles=提示分譜標題
+remind figure titles2=提示分譜標題
+Remind move numbers=提示步數
+remind move numbers2=提示步數
+
+;-- Figure title
+Figure title=分譜標題
+Print title=列印標題
+Relative numbers=相對數字
+relative numbers2=相對數字
+Figure format=分譜格式
+Variation format=變招格式
+
+;-- Default formats for title
+Diagram \figure=棋譜 \figure
+Figure \figure (\moves)=分譜 \figure (\moves)
+Game \game (\moves)=對局 \game (\moves)
+Game \game - Diagram \figure=對局 \game - 棋譜 \figure
+Game \game - Figure \figure (\moves)=對局 \game - 分譜 \figure (\moves)
+Game \game=對局 \game
+Problem \game - Figure \figure=問題 \game - 分譜 \game
+Problem \game=問題 \game
+
+;-- Layout tab
+Layout=佈局
+
+;-- Header and footer
+Header and footer=頁眉與頁腳
+Print header=列印頁眉
+Print footer=列印頁腳
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\left '頁 ' \page \right \date
+
+;-- Layout
+Layout2=佈局
+First figure alone in the line=第一張分譜單獨占一行
+1st figure alone=單獨第一張分譜
+1st figure ratio=第一張分譜比例
+Figures per line=每行分譜數
+Figure ratio=分譜比例
+
+;-- Margins
+Margins (mm)=頁邊距 (mm)
+Left2=左
+Right2=右
+Top=上
+Bottom=下
+
+;-- Font
+Font=字體
+Name:=名稱:
+Size:=尺寸:
+
+;-- Styles
+Styles=風格
+Remove=移除
+Add current print options as style with name:=將當前的列印選項加為風格，帶名稱:
+Remove style=移除風格
+
+;-- Style description strings not yet listed
+Games from %d to %d=對局從 %d 到 %d
+Include variations=包含變招
+with format=帶格式
+with formats=帶格式
+with ratio=帶比例
+absolute numbers=絕對數字
+
+;-- Formats
+Formats=格式
+Formats for exporting games=匯出對局的格式
+Formats for exporting figures=匯出分譜的格式
+Paper=紙
+Letter2=信
+Landscape=橫向
+Settings=設定
+PDF compression=PDF 壓縮
+Jpeg quality (1-100)=Jpeg 品質（1-100）
+
+;-- Printing as book
+%d at %d=%d 在 %d
+%d at %s=%d 在 %s
+%d above %d=%d 在 %d 之上
+%d below %d=%d 在 %d 之下
+%d at left of %d=%d 在 %d 之左
+%d at right of %d=%d 在 %d 之右
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=分譜座標
+Dimensions (mm)=尺寸（mm）
+Dimensions (px)=尺寸（px）
+Stone diameter=棋子尺寸
+As books=類似棋書
+Mode=模式
+Moves from 1 to 10=從1到10步
+Black with circle=帶圈的黑子
+Black with square=帶方塊的黑子
+White with circle=帶圈的白子
+White with square=帶方塊的白子
+Draw edge=畫出邊緣
+H=H
+W=W
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=第一頁
+Previous page=前一頁
+Next page=下一頁
+Last page=最後一頁
+Zoom in=放大
+Zoom out=縮小
+Page %d of %d=頁 %d / %d
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=棋盤
+
+;-- Board
+Board=棋盤
+Board1=棋盤
+Default texture=紋理
+Custom texture=自訂紋理
+Color=顏色
+Thick edges=邊框加粗
+Hoshis=標出星位
+
+;-- Stones
+Stones=著子數
+
+;-- Coordinates
+Coordinates=座標
+None2=無
+Korschelt=標準
+
+;-- Coordinate background
+Coordinate background=座標背景
+As board=與棋盤相同
+
+;-- Displayed zone
+Displayed zone=顯示區域
+Whole board=整個棋盤
+Zoom on corner=邊角縮放
+
+;-- Moves tab
+Moves=著子
+
+;-- Show moves
+Show moves=
+All moves with number=
+Last move with number=
+Last move with markup=
+Last %d moves with number=
+Number of visible move numbers:=
+
+;-- Show variations as
+Show variations as...=顯示變招為...
+
+;-- Markup of variations on goban
+Markup of variations on goban=在棋盤上標記變招
+None=無
+Ghost stones=半透明棋子
+Uppercase letters=大寫字母
+Lowercase letters=小寫字母
+
+;-- Move numbers
+Move numbers=著子編號
+Display only two last digits=只顯示最後兩位元數位
+
+;-- Game tree tab
+Game tree=對局樹
+
+;-- Background
+Background=背景
+
+;-- Stone radius
+Radius=半徑
+
+;-- Move number position
+No2=無
+On the side=在邊上
+On the stones=在棋子上
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=窗口背景
+
+;-- Light source
+Light source=光源
+Top left=左上
+Top right=右上
+
+;-- Skins
+Menu and toolbar skins=工具與功能表列皮膚
+
+;-- Preview tab
+Preview2=預覽
+Definition of information columns=設定對局資訊顯示欄位
+Black player=黑方
+Black rank=黑方等級
+Result=結果
+White player=白方
+White rank=白方等級
+Select property etc.=選擇屬性等
+Sorting of information records=對局資訊記錄的排序
+Enabled if record number is less than=啟用，如果記錄數少於
+Thumbnail preview=縮略圖預覽
+Stone radius=棋子半徑
+
+;-- Sidebar tab
+Sidebar=側邊欄
+Default visibility of panels when creating a tab=當建立標籤頁時預設的面板可視性
+Always visible=總是可見
+Visible if needed=需要時可見
+Timing=計時
+Node name=節點名稱
+Variation list=變招列表
+Game information panel=遊戲資訊面板
+Display images=顯示圖像
+Image directory=圖像路徑
+Comment font=解說字體
+
+;-- Text panels
+Text panels=文字面板
+
+;-- Shortcuts tab
+Shortcuts=快捷方式
+Select category:=選擇類別:
+Engine=引擎
+Replay=重玩
+Select command:=選擇命令:
+Click in box and type shortcut:=按一下輸入框，輸入快捷方式:
+Assigned to:=賦值給:
+(none)=(無)
+Assign=賦值
+Clear=清除
+Assign shortcut to selected command=將快捷方式賦給所選命令
+Clear shortcut of selected command=清除所選命令的快捷方式
+
+;-- Toolbars tab
+Toolbars=工具列
+Select toolbar:=選擇工具列：
+Misc2=雜項
+Select command and toolbar etc.=選擇命令與工具列等
+(Separator)=(分隔符號)
+
+;-- Sounds tab
+Sounds=提示音
+Enable sounds=啟用提示音
+Invalid move=無效的著子
+Engine move=電腦著子
+Default=預設
+Custom=自訂
+Test=測試
+Sound files=音效檔
+Select sound file=選擇音效檔
+
+;-- Files tab
+Files=檔案
+
+;-- File association
+File associations=檔案關聯
+Unable to update file association!=無法更新檔關聯！
+Check user rights.=檢查用戶許可權.
+
+;-- Starting
+Starting=程式啟動
+Start with last files=啟動時開啟最後的檔
+Start with last move=啟動時恢復至最後一步著子
+
+;-- Properties
+Properties=屬性
+Save with 10 moves on each line=每行儲存10步
+New file with full SGF properties=新增檔包含完整的 SGF 屬性
+Change player with SGF property=改變對局者帶 SGF 屬性
+Compress lists of points=壓縮點的列表
+Accept long property names=允許長的屬性名
+
+;-- Navigation tab
+Move targets=著子關鍵點
+Every N moves=每N步
+Starts of variation=變招的起始
+Ends of variation=變招的結束
+Time between two moves=著子間隔
+Use timing properties when available=在可能的情況下使用計時屬性
+Stop at targets=在關鍵點處停止
+
+;-- Database tab
+General=常規
+Cache=緩存
+Creation=建立
+Create with extended algorithms=使用擴展的演算法建立
+Process variations=處理變招
+Detect duplicates=偵測重複
+by using signature=通過使用簽名
+by using final position=通過使用終局局面
+Omit duplicates when detected=忽略偵測到的重複對局
+Omit games with SGF errors=忽略包含 SGF 錯誤的對局
+Pattern search=局面搜尋
+Search in variations=在變招中搜尋
+Move limit=著子限制
+
+;-- Game engine tab
+
+Game engines=對弈引擎
+List of engines=引擎清單
+Analysis=分析
+
+;-- Binary
+Path=路徑
+Select engine path=選擇引擎路徑
+Parameters=參數
+Usage=用途
+Use for game=用於對弈
+Use for analysis=用於分析
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=已經設定了規則，記時，棋盤尺寸與等級參數。針對當前引擎的更多參數可在此輸入。
+
+;-- Lists of features
+Playing features=對弈特性
+Chinese rules=中國規則
+Japanese rules=日本規則
+Fixed handicap=固定的讓子
+Free handicap=自由讓子
+Time per game=每局記時
+Undo=撤銷
+Detailed game results=詳細的對局結果
+Analysis features=分析特性
+Move suggestion=著子建議
+Influence region=勢力範圍
+Group status=棋塊狀態
+
+;-- Predefined engines
+Select predefined engine=選擇預設定的引擎
+Open browser, download and install=開啟流覽器，下載並安裝
+Already installed=已安裝
+Press Ok (then you will have to enter executable installation path) or cancel.=點擊“確定”（隨後您將需要輸入可執行檔路徑）或取消。
+If the engine motor you want to play with is not in the list, edit the following file:=如果您所喜好的對弈引擎不在此清單中，請編輯以下檔：
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=規則，計時，棋盤尺寸與等級參數以預先設定。對於當前引擎的附加的參數可在此處輸入。
+Current parameters=當前參數
+Additional parameters=附加的參數
+
+;-- Language tab
+
+Language=語言
+Select language for user interface=選擇使用者介面語言
+Select code page for game files=選擇對局檔的內碼表
+Create game files using...=建立對局檔，使用...
+Unicode=Unicode
+System default code page=系統預設內碼表
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=選擇棋子圖案
+Path for Black stones=黑子路徑
+Path for White stones=白子路徑
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=棋子名稱中應一個包含表示直徑的數字. 如果名稱中包含第二個數位, 它表示圖案的某些變化.
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=評注
+
+;-- Position annotations
+Position annotations=局面評注
+Good for Black=黑好
+Good for White=白好
+Balanced position=局面兩分
+Unclear position=局勢不明
+Very good for Black=黑大優
+Very good for White=白大優
+Very balanced position=局面非常平衡
+Very unclear position=局勢極不明朗
+Hot spot=熱點
+Very hot spot=大熱點
+
+;-- Move annotations
+Move annotations=著子評注
+Bad=惡手
+Doubtful=疑問手
+Tesuji=好手
+Very bad=大惡手
+Interesting=趣味手
+Very good tesuji=絕好手
+
+;-- Text
+Text=文字
+
+;-- Others
+Others=其他
+
+;-- Timing
+Black time left=黑方剩餘時間
+White time left=白方剩餘時間
+
+;-- Figures
+Insert figure=插入分譜
+Show coordinates=顯示座標
+
+;-- Other properties
+Other properties=其他屬性
+Move numbers from=起始步數
+Wrong variation (uliGo)=錯誤的變招（uliGo）
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=輸入屬性清單，以逗號分隔（C,BL,WL）：
+All games in collection=對局集中的所有對局
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=開始猜局
+
+;-- Select game
+Select game2=選擇對局
+Loaded game=當前對局
+Sequential=順序
+Random=隨機
+
+;-- Play with
+Play with=對弈對方
+Both=雙方
+
+;-- Play...
+Play2=對弈
+Full game=完整對局
+Fuseki=佈局
+From current position=從當前位置
+From current position (only for current game)=從當前位置（僅針對當前對局）
+
+;-- Move number in Fuseki
+Move number in Fuseki=佈局中的著子數
+
+;-- Number of attempts per move
+Number of attempts per move=每一步的嘗試數
+Only one=僅一個
+Unlimited=無限制
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=統計
+Problems in collection=對局集中的問題
+Visited problems=已看過的問題
+Number of attempts=嘗試次數
+Number of successes=成功次數
+Show detailed statistics=顯示詳細統計資訊
+Reset collection statistics=復位對局集統計
+
+;-- Problem order
+Problem order=問題次序
+Sequential from current=順序，從當前開始
+Sequential from stored=順序，從存儲開始
+Random color=隨機顏色
+Random position=隨機局面
+Number of problems=問題數
+
+;-- Failure ratio
+Include problems incorrectly solved=包含未正確解答的問題
+don't care=隨機
+ratio=比例
+
+;-- Solution marks
+Solution marks=解答標記
+Main line=主線
+Autodetect=自動偵測
+
+;-- More popup menu
+Show=顯示
+Timer=計時器
+Glyphs=圖形
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=為檔案名選擇根路徑
+Export starting from:=匯出起始於：
+Merge... Select files=合併... 選擇檔
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=儲存資料夾
+Files modified in folder=資料夾中已修改的檔
+Select files to save:=選擇儲存的檔：
+Select all=全選
+Unselect all=全不選
+Ignore=忽略
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=深度
+Unique moves=唯一的著法
+Normalize position of first move=規範化第一著的位置
+Game reference=對局參考
+Filename=檔案名
+Games to process=待處理的對局
+Process current tab=處理當前標籤頁
+Select files or folders to process=選擇要處理的檔或資料夾
+Start=開始
+
+;-- Messages
+Only main branch is processed=僅處理了主分支
+Move inversions are not detected=未偵測到反演的著法
+Unable to process file=無法處理檔案
+Unable to process file completely=無法完整地處理檔
+Game ignored (some not alternative moves):=忽略了對局（某些不可替代的著法）
+Game ignored (board size not handled):=忽略了對局（未處理棋盤尺寸）
+Game tree ready.=對局樹已準備好.
+Elapsed time (seconds)=已過去的時間（秒）
+Number of games=對局數
+percentage and number of games in variation=對局變例的百分比與數量
+winning percentage of move=著法的贏面
+number of unknown results=未知結果的數量
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=是免費軟體
+Version=版本
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo and libkombilo by Ulrich Goertz:
+Credits=致謝
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=所有檔
+BMP files=BMP 檔案
+DOC files=DOC 檔案
+HTML files=HTML 檔案
+JPEG files=JPEG 檔案
+RTF files=RTF 檔案
+SGF files=SGF 檔案
+GIF files=GIF 檔案
+PNG files=PNG 檔案
+MGT files=MGT 檔案
+ASCII files=ASCII 檔案
+PDF files=PDF 檔案
+Database files=資料庫檔
+Text files=文字檔
+
+;-- Export captions
+Export games with HTML format=將對局以 HTML 格式匯出
+Export games with RTF format=將對局以 RTF 格式匯出
+Export games to HTML format=將對局匯出為 HTML 格式
+Export games to RTF format=將對局匯出為 RTF 格式
+Export games to PDF format=將對局匯出為 PDF 格式
+Export games to MSWORD format=將對局匯出為 MSWORD 格式
+
+;-- Select texture dialog
+Select texture=選擇紋理
+(empty)=（空）
+Image:=圖片：
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=最後一步
+Black prisoners=黑方死子
+White prisoners=白方死子
+
+;-- Game information
+Game information2=對局訊息
+
+;-- Variation list panel
+Next moves=後續著法
+Alternate moves=替換著法
+
+;-- Replay panel
+Game2=對局
+You=你
+
+;-- Problem panels
+Reference=參考
+Problem=問題
+Attempt=嘗試
+Attempts=嘗試
+Trial=嘗試
+Trials=嘗試
+Problem status=問題狀態
+Attempt status=嘗試狀態
+Running=運行中
+Success=成功
+Failure=失敗
+Assisted=輔助
+Free=自由
+
+;-- Problem result box
+End of problem session.=問題部分結束。
+Session result: %d / %d=階段結果：%d / %d
+Collection score after session: %s=階段後的對局集得分： %s
+More problems?=更多的問題？
+
+;-- Game result string
+Black wins=黑
+White wins=白
+%s wins by %s points=%s 勝 %s 子
+Draw=畫
+No result=無結果
+Unknown result=結果未知
+by forfeit=勝, 由判負
+by resignation=中盤勝
+on time=超時勝
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=不再顯示此消息
+Toggling to full screen mode.=切換為全螢幕模式
+Restore window mode with %s=恢復為帶 %s 的視窗模式
+
+;-- Tab errors
+Unable to create tab=無法建立標籤頁
+
+;-- Edit messages
+No move to add variation.=沒有著子以添加變招
+Move impossible to cancel=無法取消變招
+Delete whole branch.=刪除整個分支
+File modification.=修改檔。
+Beware game modification will not be updated in database.=請注意對局修改將不會在資料庫中更新。
+Do you want to proceed?=是否仍要繼續？
+
+;-- File errors
+File not open=無法開啟檔案
+Bracket not found=未找到括弧
+Error opening file=開啟檔錯誤
+Error opening folder=開啟資料夾錯誤
+Line=行
+File partialy read=文獻部分讀取
+File %s is read only.=檔案 %s 為唯讀。
+File %s not saved.=檔 %s 未儲存。
+Folder %s not saved.=資料夾 %s 未儲存。
+First game not found=未找到第一對局
+Illegal character=非法字元
+Impossible to save %s.=無法儲存 %s。
+Impossible to save.=無法儲存。
+Impossible to write file=無法寫檔案
+Semicolon not found after parenthesis=括弧後未找到分號
+Invalid property name=無效的屬性名
+Memory error=記憶體錯誤
+Read only file=唯讀檔案
+The loaded game is not Go : GM property=裝載的對局非圍棋對局 : GM 屬性
+Invalid board size=無效的棋盤尺寸
+Size will be set to 19.=尺寸將設為 19
+Unexpected end of file=未預期的檔案結尾
+
+;-- File warnings
+Reload and lose modifications?=是否放棄當前修改並重新裝載？
+Save changes in %s?=儲存修改於 %s？
+
+;-- Replay messages
+Game with no name. Save to proceed.=對局沒有名稱。儲存以繼續。
+File not saved. Save to proceed.=檔未儲存。儲存以繼續。
+The file doesn't seem to be a game file.=該檔似乎不是對局檔。
+The file doesn't seem to be a problem file.=該檔案似乎不是問題集檔案。
+The file is not a problem collection.=該檔案不是問題集檔案。
+A problem collection must be loaded to start a problem session.=對於問題解答模式，需要載入問題集檔。
+Continue=是否繼續
+End of fuseki=佈局結束
+End of game=對局結束
+Score=得分
+
+;-- Move errors
+Illegal move=非法落子
+Illegal ko capture=非法吃子
+Illegal suicide...=非法自殺...
+Impossible to play there=無法在此處落子
+
+;-- Game engine messages
+Abnormal termination of game engine=對弈引擎的非正常終止
+Do you really want to resign?=真的要認輸嗎？
+Game aborted=對弈已取消
+Error=錯誤
+Black has passed=黑方放棄下一著子
+White has passed=白方放棄下一著子
+Black resigns=黑方認輸
+White resigns=白方認輸
+Black loses on time=黑方負，在時間
+White loses on time=白方負，在時間
+Pass2=放棄著子
+pass3=放棄著子
+Territory=目
+Prisoners=提子
+Total=全部
+Please select board view before starting game.=在開始對弈前，請選擇棋盤樣式。
+Current engine is unable to start...=無法啟動當前對弈引擎
+Engine configuration file missing. Please check installation.=引擎設定檔丟失。請檢查安裝。
+alive=活子
+dead=死子
+critical=嚴格的
+
+;-- Export
+Problem while copying in clipboard=在剪貼板中複製時的問題
+Problem while saving image=儲存圖片時的問題
+Unable to export...=無法匯出...
+Close Word and restart export.=關閉 Word，隨後重新匯出。
+Please, close previous preview to proceed.=請關閉先前的預覽以繼續。
+File is in use, close to proceed.=檔使用中，關閉以繼續。
+
+;-- Preview
+Sorting is not enabled over %d records.=無法在 %d 記錄上進行排序。
+See Options | Preview to change this setting.=查看選項 | 預覽以改變設定。
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=
+Tab=
+Esc=
+Enter=
+Space=
+PgUp=
+PgDn=
+End=
+Home=
+Left=
+Up=
+Right=
+Down=
+Ins=
+Del=
+Shift+=
+Ctrl+=
+Alt+=
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=選擇檔或資料夾
+Clear all=清空全部
+Include subfolders=包含子路徑
+Start2=開始
+Abort=放棄
+Save database as=儲存資料庫為
+Please give database name=請給出資料庫名稱
+%s already exists.=%s 已經存在。
+Do you want to overwrite it?=是否將其覆蓋？
+Database open, please close first=資料庫已開啟，請先將其關閉
+Unable to create database=無法建立資料庫
+
+;-- Search dialog
+Pattern=局面
+;Game information=
+Signature=簽名
+Reset=復位
+No database loaded=未載入資料庫
+No database loaded... Load or create.=未載入資料庫... 請裝載或新增資料庫。
+Select database=選擇資料庫
+Search=搜尋
+Search in results=在結果中搜尋
+Whole database=整個資料庫
+Current results=當前結果
+View results in tab=以標籤形式查看結果
+View results on board=在棋盤上查看結果
+View results in game information list=在對局資訊清單中查看結果
+View results in board thumbnails=在棋盤縮略圖中查看結果
+
+;-- Pattern search
+Pattern (right-click to select)=局面（右擊以選擇）
+Wildcard=萬用字元
+Capture=捕捉
+Clear2=清除
+View:=查看：
+Results=結果
+Frequency=頻率
+Urgency=緊迫性
+Efficiency=效率
+Fixed:=固定的：
+Position=位置
+Next move:=下一步：
+%d matches=%d 匹配
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d 匹配 (%d/%d), B: %1.1f%%, W: %1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W
+Right-click to select on board=按右鍵以在棋盤上選擇
+Found games are in database tab=搜尋到的對局在資料庫選項卡中
+
+;-- Information search
+Game information search=搜尋對局資訊
+Search on players=按對局者搜尋
+Any=任意
+One of both=兩者之一
+Winner=勝方
+Loser=負方
+Search on date=按日期搜尋
+Day=日
+Month=月
+Year=年
+Range=範圍
+To=到
+Search on result=按對局結果搜尋
+wins=勝
+wins by=勝，按
+wins by at least=勝，按最少
+wins by at most=勝，按最多
+wins by resignation=勝，通過認輸
+wins on time=勝，以超時
+wins by forfeit=勝，按認輸
+Other or unknown=其他或未知
+More conditions=更多
+SQL=SQL
+
+;-- Signature search
+Signature search=簽名搜尋
+
+;-- Settings
+Search settings=搜尋設定
+Select or open database=選擇或開啟資料庫
+Pattern search parameters=局面搜尋參數
+Fixed color=固定的顏色
+Fixed position=固定的位置
+Pattern search next move=局面搜尋下一步
+Any or none=任一項或無
+Pattern search view=局面搜尋視圖
+Full=完整
+Digest=概要
+
+;-- Messages
+Error opening database=開啟資料庫錯誤
+No search for center empty patterns.=不搜尋中心為空的局面
+No search for center single stone patterns.=不搜尋中心僅單子的局面
+No search rectangle defined.=不搜尋設定的矩形區域
+Operation aborted by user=使用者放棄操作
+%d file(s) to process=%d 檔需要處理
+%d games processed, %s elapsed=%d 對局已處理，%s 已過去
+%d file(s) processed, %s elapsed=%d 檔已處理，%s 已過去
+Unable to process game=無法處理對局
+Unable to process game completely=不能完全處理對局
+Boardsize not handled=棋盤尺寸未處理
+SGF error detected, game inserted=偵測到 SGF 錯誤
+SGF error detected, game not inserted=忽略 SGF 錯誤
+Duplicate detected=偵測到重複
+Duplicate ignored=忽略重複
+;%d result(s)=%d résultat(s)
+No game found in %s=在 %s 中未找到對局
+1 game found in %s=在 %s 中找到了一個對局
+%d games found in %s=找到 %d 個對局, 在 %s 中
+Save logfile=儲存日誌檔
+%d ms.=%d ms.
+%2.2f seconds=%2.2f 秒
+Unable to modify game in database.=不能在資料庫中修改對局
+Extract to a new tab and try again?=是否提取到新的選項卡中並重新嘗試?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=進階
+Restore default=恢復預設設定
+Select=選擇...
+Select all2=全選
+Restore=恢復
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=布子模式下的點擊次序
+Set, remove=布子，移除
+Set, swap color, remove=布子，交換顏色，移除
+Enable moves as books=允許以類似棋書方式顯示著子
+Start variation from 1=變招從 1 開始
+Start variation with figure=為變招建立分譜
+Start variation settings include main line=將變招設定應用於主線
+Bold text=粗體字
+Maximum font size=最大字型大小
+Texture tiling with symmetries=對稱地平鋪花紋
+
+; User interface
+User interface=使用者介面
+Allow only one instance=只允許一個實例
+Minimize to tray=最小化到託盤區
+Hook content of window when resizing=表單尺寸調整時同步調整內容
+Anchor panels at bottom=右下角面板尺寸自動調整
+Show tab close buttons=標籤上顯示關閉按鈕
+
+; Files
+Save paths relatively to install folder=儲存相對於安裝資料夾的相對路徑
+Abort reading on file error=當檔錯誤時停止讀入
+Open save dialogs with places bar=儲存對話方塊左側帶位置條
+
+; Games against engines
+Games against engines=人機對弈
+Ask for saving when closing game=關閉對局時提示是否儲存
+Use again previous game engine tab=重用先前的人機對弈標籤頁
+Enable Undo=允許悔棋
+Only after capture=僅在提子後
+Game engine options are inhibited during game=在對局時禁用對局引擎選項
+
+
+; Warning
+Warnings=警告
+Warn when toggling to full screen=當切換為全螢幕模式時提出警告
+Warn at first modification=在第一次修改時警告
+Warn at modification in database game=當修改資料庫中的對局時提出警告
+Warn at modification in read only mode=當在唯讀模式下進行修改時提出警告
+Warn when delete branch=在刪除分支時警告
+Warn on invalid move=針對無效的著子警告
+Warn on game engine pass=在對弈引擎放棄著子時提出警告
+Warn on game engine resignation=在對弈引擎認輸時提出警告
+Warn when losing on time=在超時判負時提出警告
+
+; PDF
+Use board color=使用棋盤顏色
+Exact width (mm)=實際寬度
+Added border (N;W;S;E in % of image width)=附加邊框（北;西;南;東 占圖像寬度的百分比)
+Radius adjustment=半徑調整
+Circle width=圓寬
+Line width=線寬
+Double line width=雙線寬度
+Hoshi stone ratio=星位棋子半徑
+Marks adjustment (line width;size factor)=標記調整（線寬；尺寸因數）
+Font size adjustment (f or f;f or f;f;f see help)=字體調整（f 或 f;f 或 f;f;f 參見幫助檔）
+Line height adjustment=線高調整
+
+;---

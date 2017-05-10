@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Español
+$HelpFile=Drago-En.chm
+$TranslationCredit=
+$Update=4.22
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=Archivo
+View=Ver
+Navigation=Navegación
+Edit=Edición
+Database=Base de datos
+Games2=Partidas
+Problems=Problemas
+Play=Jugar
+Options=Opciones
+Help=Ayuda
+
+;-- File
+New=Nuevo
+Open=Abrir
+Open folder=Abrir directorio
+Save=Guardar
+Save as=Guardar como
+Save tab content as=Guardar el contenido de la pestaña como
+Read only=Sólo lectura
+Close=Cerrar
+Close all=Cerrar todo
+Open from clipboard=Abrir desde el portapapeles
+Save to clipboard=Salvaguardar en el portapapeles
+Collections=Colecciones
+Favorites=Favoritos
+Index=Índice
+Game information=Informaciones
+Print=Imprimir
+Export=Exportar
+Export position=Exportar posición
+Quit=Salir
+
+;-- Collection
+Append to=Añadir a
+Merge=Reunir
+Extract current=Extraer corriente
+Extract all=Extraer todos
+Delete current game=Suprimir el partido corriente
+Make game tree=Construir un arbol de jugadas
+
+;-- View
+Full screen mode=Modo pantalla completa
+View board=Ver tablero
+Preview game information=Ver listado de informaciones
+Preview board thumbnails=Ver las miniaturas
+Reference view=Vista de referencia
+Mirror=Simetría vertical
+Flip=Simetría horizontal
+Opponent view=Vista del oponente
+Rotate 90 clockwise=Girar 90º a la derecha
+Rotate 90 counter clockwise=Girar 90º a la izquierda
+Swap colors=Intercambiar colores
+Show toolbars=Ver las barras de herramientas
+Toolbar settings=Opciones de las barras de herramientas
+Board settings=Opciones del tablero
+Preview settings=Opciones de las vistas
+
+;-- Navigation
+First game=Primer juego
+Previous game=Juego precedente
+Next game=Juego siguiente
+Last game=Ultimo juego
+Select game=Seleccionar juego
+Start position=Posición inicial
+Previous move=Jugada precedente
+Next move=Jugada siguiente
+End position=Posición final
+Go to move=Ir a
+Previous target=Objetivo precedente
+Next target=Objetivo siguiente
+Auto replay=Avance automático
+Navigation settings=Opciones de navegación
+Next variation=Variante siguiente
+Previous variation=Variante precedente
+Pointer up=Cursor hacia arriba
+Pointer down=Cursor hacia abajo
+Pointer left=Cursor hacia la izquierda
+Pointer right=Cursor hacia la derecha
+
+;-- Edit
+Undo move=Cancelar jugada
+Delete branch=Suprimir rama
+Game edit=Edición juego
+Game edit Black first=Editar juego Negro primero
+Game edit White first=Editar juego Blanco primero
+Add Black=Colocar Negro
+Add White=Colocar Blanco
+Empty=Vacío
+Current markup=Marca
+Player=Jugador
+Black to play=Negro juega
+White to play=Blanco juega
+Insert pass=Pasar turno
+Insert=Insertar
+Make main branch=Poner como rama principal
+Promote variation=Subir variante
+Demote variation=Bajar variante
+Remove properties=Quitar propriedades
+Insert empty node=Insertar nodo vacio
+Click at pointer=Hacer clic al cursor
+Ctrl-click at pointer=Hacer ctrl-clic al cursor
+
+;-- Markup
+Cross=Cruz
+Triangle=Triángulo
+Circle=Circulo
+Square=Cuadrado
+Letter=Letra
+Number=Número
+Label=Label
+Black territory=Territorio Negro
+White territory=Territorio Blanco
+
+;-- Database
+Create database=Nueva base de datos
+Open database=Abrir base de datos
+Add to database=Añadir a la base de datos
+Search in database=Buscar en la base de datos
+One click search=Buscar con clic único
+Database settings=Opciones base de datos
+
+;-- Games
+Replay session=Jugar de nuevo una partida
+Replay index=Índice de las partidas
+Cancel replay session=Cancelar sesión de partida
+
+;-- Problems
+Solve problems=Resolver problemas
+Problem index=Índice de los problemas
+Hint=Indicio
+Free mode=Modo libre
+Problem mode=Modo problema
+Cancel problem session=Cancelar sesión de problemas
+
+;-- Play
+New engine game=Nueva partida
+Pass=Pasar
+Resign=Abandono
+Cancel game=Cancela partida en curso
+Score estimate=Estimación del resultado
+Suggest move=Sugerir una jugada
+Show influence regions=Enseñar las regiones de influencia
+Engine settings=Opciones del motor de juego
+
+;-- Options
+Sidebar settings=Opciones de la barra lateral
+Language settings=Opciones de idioma
+Advanced settings=Opciones avanzadas
+Toggle coordinates=Cambiar coordenadas
+Toggle move markers=Cambiar marcas de jugada
+View settings=Opciones de visualización
+Game tree settings=Opciones del arbol de juego
+
+;-- Help
+Display help=Visualizar ayuda
+Web site=Página Web
+Donate=Contribuir
+About=Acerca
+
+;-- Tabs popup menu
+New in tab=Nuevo en pestaña
+Open in tab=Abrir en pestaña
+Open folder in tab=Abrir directorio en la pestaña
+Reload current file=Abrir de nuevo el archivo corriente
+
+;-- Sidebar menu
+Show in current tab=Enseñar en carpeta corriente
+
+;-- Tray icon menu
+Restore window=Restaurar
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=&Ayuda
+Ok=Ok
+Cancel=Cancelar
+Clipboard=Portapapeles
+No=No
+Yes=Si
+Send=Enviar
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=Bienvenido en Drago
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=Tamaño
+Komi=Komi
+Handicap=Handicap
+Free placement=Colocación libre
+Create in=Crear en
+New file=Nuevo archivo
+Current file=Archivo corriente
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=Motor de juego
+Name=Nombre
+Level=Nivel
+not defined=no definido
+Not available=No disponible
+More engines=Más motores de juego
+
+;-- Start position
+New game=Nueva partida
+Current position=Posición corriente
+Auto handicap=Auto handicap
+Engine plays with=El motor juega con 
+Black=Negro
+White=Blanco
+
+;-- Time settings
+Time settings=Opciones de tiempo
+No time limit=No limites de tiempo
+Total time=Tiempo total
+Time per move=Tiempo por jugada
+Initial time plus over time=Tiempo inicial más byo-yomi
+Initial time=Tiempo inicial
+Over time=Byo-yomi
+Timing only for engine=Tiempo solo para el motor de juego
+
+;-- Game settings
+Game settings=Opciones de juego
+Boardsize=Dimensión
+
+;-- Scoring
+Scoring=Resultado
+Territory counting=Reglas japonesas
+Area counting=Reglas chinas
+
+;-- Messages
+More=Más
+No engine defined. Please select 'More...' then 'More engines...'=Ningún motor de juego definido. Por favor seleccione 'Más...' y 'Más motores...'
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=Motor corriente no encontrado. Por favor seleccione 'Más...' y 'Opciones de los motores...'
+Not all functions are supported by the engine currently selected.=Algunas funciones no están implementadas en el motor de juego corriente.
+
+;-- GTP window
+GTP window=Ventana GTP
+Show GTP window=Abrir la ventana GTP
+Enter and send GTP command (no feedback on main board):=Entrar y enviar un mando GTP (no feedback en el tablero):
+No engine running=No motor activo
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=Hacer clic en el goban para colocar las piedras de handicap.
+Click again on a stone to remove it.=Hacer clic de nuevo en una piedra para quitar la.
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=Añadir activo
+Add=Añadir
+Add favorite=Añadir favorito
+Add game file=Añafir fichero
+Add folder=Añadir pestaña
+Add database=Añadir base de datos
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=Resumen
+
+;-- Event
+Game=Juego
+Event=Evento
+Round=Ronda
+Place=Lugar
+Date=Fecha
+
+;-- Players
+Players=Jugadores
+Rank=Nivel
+Team=Equipo
+
+;-- Rules
+Rules=Reglas
+Time=Tiempo
+hr=h
+mn=mn
+Byo-Yomi=Byo-Yomi
+
+;-- Sources
+Sources=Orígenes
+User=Usuario
+Annotation=Comentador
+Source=Origen
+Copyright=Copyright
+
+;-- Comment
+Comment=Comentario
+
+;-- Misc
+Misc=Otras
+Application=Aplicación
+SGF format=Formato SGF
+Style=Estilo
+No style defined for current game=No estilo definido en el juego corriente
+Show alternate moves - Allow board markup=Enseñar jugadas alternativas - Autorizar marcas goban
+Show alternate moves - No board markup=Enseñar jugadas alternativas - No marcas goban
+Show next moves - Allow board markup=Enseñar jugadas siguientes - Autorizar marcas goban
+Show next moves - No board markup=Enseñar jugadas siguientes - No marcas goban
+Charset=Página de código
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=Previsualizar
+Export figures=Exportar figuras
+Export games=Exportar juegos
+ESC to cancel=ESC para cancelar
+
+;-- Games and figure
+Games and figures=Juegos y figuras
+
+;-- Games
+Games=Juegos
+Current game=Juego en curso
+All=Todos
+to:=hacia:
+from:=desde:
+
+;-- Include information
+Include information=Incluir informaciones
+at start of game=al principio del juego
+as name of figure 1=como el nombre de la figura 1
+Format=Formato
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (B) vs \PW (W), \DT
+
+;-- Figures
+Figures=Figuras
+Position at move number=Posición a la jugada número
+One figure every N moves=Una figura cada N jugadas
+One figure every %d moves=Una figura cada %d jugadas
+One figure every markup or comment=Una figura cada marca o comentario
+File figures=Figuras del fichero
+Variations=Variaciones
+
+;-- Comments
+Comments=Comentarios
+Include comments=Incluir comentarios
+Remind figure titles=Recordar títulos de figuras
+remind figure titles2=recordar títulos de figuras
+Remind move numbers=Recordar números de jugadas
+remind move numbers2=recordar números de jugadas
+
+;-- Figure title
+Figure title=Titulo de figuras
+Print title=Imprimir el titulo
+Relative numbers=Números relativos
+relative numbers2=números relativos
+Figure format=Formato figura
+Variation format=Formato variante
+
+;-- Default formats for title
+Diagram \figure=Diagrama \figure
+Figure \figure (\moves)=Figura \figure (\moves)
+Game \game (\moves)=Partida \game (\moves)
+Game \game - Diagram \figure=Partida \game - Diagrama \figure
+Game \game - Figure \figure (\moves)=Partida \game - Figura \figure (\moves)
+Game \game=Partida \game
+Problem \game - Figure \figure=Problema \game - Figura \figure
+Problem \game=Problema \game
+
+;-- Layout tab
+Layout=Disposición
+
+;-- Header and footer
+Header and footer=Encabezamiento y pie de página
+Print header=Imprimir el encabezamiento
+Print footer=Imprimir el pie de página
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\left 'Página ' \page \right \date
+
+;-- Layout
+Layout2=Disposición
+First figure alone in the line=Primera figura sola en la linea
+1st figure alone=Primera figura sola
+1st figure ratio=Ratio 1era figura
+Figures per line=Figuras por linea
+Figure ratio=Ratio figura
+
+;-- Margins
+Margins (mm)=Margenes (mm)
+Left2=Izquierda
+Right2=Derecha
+Top=Arriba
+Bottom=Abajo
+
+;-- Font
+Font=Fuente
+Name:=Nombre:
+Size:=Tamaño:
+
+;-- Styles
+Styles=Estilos
+Remove=Quitar
+Add current print options as style with name:=Añadir las opciones de impresión como estilo de nombre:
+Remove style=Quitar estilo
+
+;-- Style description strings not yet listed
+Games from %d to %d=Juegos desde %d hacia %d
+Include variations=Incluir variaciones
+with format=con formato
+with formats=con formatos
+with ratio=con ratio
+absolute numbers=números absolutos
+
+;-- Formats
+Formats=Formatos
+Formats for exporting games=Formato para exportar las partidas
+Formats for exporting figures=Formato para exportar las figuras
+Paper=Papel
+Letter2=Letter
+Landscape=Paisaje
+Settings=Parámetros
+PDF compression=Compresión PDF
+Jpeg quality (1-100)=Calidad jpeg (1-100)
+
+;-- Printing as book
+%d at %d=%d en %d
+%d at %s=%d en %s
+%d above %d=%d encima de %d
+%d below %d=%d debajo de %d
+%d at left of %d=%d a la izquierda de %d
+%d at right of %d=%d a la derecha de %d
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=Coordenadas figura
+Dimensions (mm)=Dimensiones (mm)
+Dimensions (px)=Dimensiones (px)
+Stone diameter=Diámetro de las piedras
+As books=Como libros
+Mode=Modo
+Moves from 1 to 10=Jugadas 1 a 10
+Black with circle=Negro+circulo
+Black with square=Negro+cuadrado
+White with circle=Blanco+circulo
+White with square=Blanco+cuadrado
+Draw edge=Dibujar reborde
+H=Al
+W=An
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=Primera página
+Previous page=Página precedente
+Next page=Página siguiente
+Last page=Ultima página
+Zoom in=Zoom más
+Zoom out=Zoom menos
+Page %d of %d=Página %d sobre %d
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=Goban
+
+;-- Board
+Board=Tablero
+Board1=Tablero
+Default texture=Textura por defecto
+Custom texture=Textura custom
+Color=Color
+Thick edges=Líneas exteriores gruesas
+Hoshis=Hoshis
+
+;-- Stones
+Stones=Piedras
+
+;-- Coordinates
+Coordinates=Coordenadas
+None2=Ningunas
+Korschelt=Korschelt
+
+;-- Coordinate background
+Coordinate background=Fondo de coordenadas
+As board=Como el tablero
+
+;-- Displayed zone
+Displayed zone=Zona visualizada
+Whole board=Tablero completo
+Zoom on corner=Zoom en las esquinas
+
+;-- Moves tab
+Moves=Jugadas
+
+;-- Show moves
+Show moves=Mostrar jugadas 
+All moves with number=Todas las jugadas con número
+Last move with number=Ultima jugada con número
+Last move with markup=Ultima jugada con marca
+Last %d moves with number=Ultimas %d jugadas con número
+Number of visible move numbers:=Número de jugadas con número:
+
+;-- Show variations as
+Show variations as...=Nivel de las variantes
+
+;-- Markup of variations on goban
+Markup of variations on goban=Marcado de las variantes en el tablero
+None=Ninguna
+Ghost stones=Piedras semi transparentes
+Uppercase letters=Mayúsculas
+Lowercase letters=Minúsculas
+
+;-- Move numbers
+Move numbers=Números de jugadas
+Display only two last digits=Visualizar solo los dos últimos dígitos
+
+;-- Game tree tab
+Game tree=Árbol de juego
+
+;-- Background
+Background=Fondo
+
+;-- Stone radius
+Radius=Radio
+
+;-- Move number position
+No2=No
+On the side=En el lado
+On the stones=En las piedras
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=Fondo de ventana
+
+;-- Light source
+Light source=Origen de la luz
+Top left=Arriba a la izquierda
+Top right=Arriba a la derecha
+
+;-- Skins
+Menu and toolbar skins=Apariencia de los menús y barras de herramientas
+
+;-- Preview tab
+Preview2=Previsualizar
+Definition of information columns=Definición de las columnas de información
+Black player=Jugador Negro
+Black rank=Nivel Negro
+Result=Resultado
+White player=Jugador Blanco
+White rank=Nivel Blanco
+Select property etc.=Seleccionar una propriedad, después utilizar las flechas, o arrastrar y soltar.
+Sorting of information records=Clasificar las lineas de información
+Enabled if record number is less than=Permitir si el número de lineas es menos de
+Thumbnail preview=Miniaturas
+Stone radius=Radio de las piedras
+
+;-- Sidebar tab
+Sidebar=Barra lateral
+Default visibility of panels when creating a tab=Visibilidad de los panels a la creación de una pestaña
+Always visible=Siempre visibles
+Visible if needed=Visibles si necesario
+Timing=Timing
+Node name=Nombre de nudo
+Variation list=Lista de las variantes
+Game information panel=Informaciones de juego
+Display images=Enseñar las imágenes
+Image directory=Carpeta de la imágenes
+Comment font=Fuente de los comentarios
+
+;-- Text panels
+Text panels=Panels de texto
+
+;-- Shortcuts tab
+Shortcuts=Atajos de teclado
+Select category:=Seleccionar una categoría
+Engine=Motor de juego
+Replay=Jugar de nuevo
+Select command:=Seleccionar un comando:
+Click in box and type shortcut:=Hacer clic en la caja de entrada y teclear un atajo
+Assigned to:=Asignado a:
+(none)=(ninguno)
+Assign=Asignar
+Clear=Quitar
+Assign shortcut to selected command=Asigna el atajo al comando seleccionado
+Clear shortcut of selected command=Quita el atajo del comando seleccionado
+
+;-- Toolbars tab
+Toolbars=Barras de herramientas
+Select toolbar:=Seleccionar una barra:
+Misc2=Diverso
+Select command and toolbar etc.=Seleccionar un comando y una barra de herramientas, después utilizar las flechas, o arrastrar y soltar el comando en la barra de herramientas.
+(Separator)=(Separador)
+
+;-- Sounds tab
+Sounds=Sonidos
+Enable sounds=Activar los sonidos
+Invalid move=Jugada invalida
+Engine move=Jugada del motor de juego
+Default=Predefinidos
+Custom=Custom
+Test=
+Sound files=Ficheros de sonidos
+Select sound file=Seleccionar un fichero de sonido
+
+;-- Files tab
+Files=Archivos
+
+;-- File association
+File associations=Asociación a los ficheros
+Unable to update file association!=Imposible cambiar la asociación a los ficheros!
+Check user rights.=Verificar los derechos de usuario.
+
+;-- Starting
+Starting=Arranque
+Start with last files=Empezar con últimos archivos
+Start with last move=Empezar con la ultima jugada
+
+;-- Properties
+Properties=Propriedades
+Save with 10 moves on each line=Salvaguardar con 10 jugadas en cada línea
+New file with full SGF properties=Nuevo archivo con propriedades SGF completas
+Change player with SGF property=Cambiar jugador con propriedad SGF
+Compress lists of points=Comprimir las listas de intersecciones
+Accept long property names=Aceptar los nombres de propriedad largos
+
+;-- Navigation tab
+Move targets=Objetivos de desplazamiento
+Every N moves=Cada N jugadas
+Starts of variation=Principio de variante
+Ends of variation=Fin de variante
+Time between two moves=Tiempo entre dos jugadas
+Use timing properties when available=Utilizar las propriedades de tiempo si están disponibles
+Stop at targets=Parar en los objetivos de desplazamiento
+
+;-- Database tab
+General=General
+Cache=Caché
+Creation=Creación
+Create with extended algorithms=Crear con los algoritmos extendidos
+Process variations=Procesar variantes
+Detect duplicates=Detectar duplicados
+by using signature=utilizando la firma
+by using final position=utilizando la posición final
+Omit duplicates when detected=Omitir duplicados cuando se detectan
+Omit games with SGF errors=Omitir partidas con errores SGF
+Pattern search=Buscar posición
+Search in variations=Buscar en variantes
+Move limit=Limite de jugadas
+
+;-- Game engine tab
+
+Game engines=Motores de juego
+List of engines=Lista de los motores
+Analysis=Análisis
+
+;-- Binary
+Path=Camino
+Select engine path=Seleccionar el camino del motor
+Parameters=Parámetros
+Usage=Utilización
+Use for game=Utilizar para jugar
+Use for analysis=Utilizar para analizar
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=La opciones de regla, tiempo, dimensión y nivel están predefinidas. Más opciones par el motor corriente se pueden entrar aquí.
+
+;-- Lists of features
+Playing features=Funciones de juego
+Chinese rules=Reglas chinas
+Japanese rules=Reglas japonesas
+Fixed handicap=Handicap fijo
+Free handicap=Handicap libre
+Time per game=Tiempo por la partida
+Undo=Deshacer
+Detailed game results=Resultados detallados
+Analysis features=Funciones de análisis
+Move suggestion=Sugestión de jugada
+Influence region=Regiones de influencia
+Group status=Estatus de grupos
+
+;-- Predefined engines
+Select predefined engine=Seleccionar un motor predefinido
+Open browser, download and install=Abrir el browser, cargar y instalar
+Already installed=El motor ya está instalado
+Press Ok (then you will have to enter executable installation path) or cancel.=Pulsar Ok (después tendrá que entrar el camino del motor) o cancelar.
+If the engine motor you want to play with is not in the list, edit the following file:=Si el motor de juego que desea utilizar no está en la lista, editar el fichero siguiente:
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Los parámetros de reglas, tiempo, nivel y dimensión están predefinidos. Se puede entrar parámetros adicionales aqui.
+Current parameters=Parámetros corrientes
+Additional parameters=Parámetros adicionales
+
+;-- Language tab
+
+Language=Idioma
+Select language for user interface=Seleccionar el idioma para el interfaz usuario
+Select code page for game files=Seleccionar la página de códigos para los ficheros de partidas
+Create game files using...=Crear los ficheros de partidas utilizando...
+Unicode=UTF-8
+System default code page=la página de códigos por defecto
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=Seleccionar las piedras personalizadas
+Path for Black stones=Camino de las piedras negras
+Path for White stones=Camino de las piedras blancas
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=El nombre de las piedras debe incluir un número especificando el diametro. Si el nombre incluye otro número, este permite identificar una variación del dibujo.
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=Anotaciones
+
+;-- Position annotations
+Position annotations=Anotaciones de posición
+Good for Black=Bueno para Negro
+Good for White=Bueno para Blanco
+Balanced position=Posición equilibrada
+Unclear position=Posición poco clara
+Very good for Black=Muy bueno para Negro
+Very good for White=Muy bueno para Blanco
+Very balanced position=Posición muy equilibrada
+Very unclear position=Posición muy poco clara
+Hot spot=Punto caliente
+Very hot spot=Punto muy caliente
+
+;-- Move annotations
+Move annotations=Anotaciones de jugada
+Bad=Malo
+Doubtful=Dudoso
+Tesuji=Tesuji
+Very bad=Muy malo
+Interesting=Interesante
+Very good tesuji=Tesuji muy bueno
+
+;-- Text
+Text=Texto
+
+;-- Others
+Others=Otros
+
+;-- Timing
+Black time left=Tiempo de sobra Negro
+White time left=Tiempo de sobra Blanco
+
+;-- Figures
+Insert figure=Insertar figura
+Show coordinates=Enseñar coordenadas
+
+;-- Other properties
+Other properties=Otras propriedades
+Move numbers from=Números de jugadas desde
+Wrong variation (uliGo)=Variación incorrecta (uliGo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=Entrar una lista de propriedades separadas con comas:
+All games in collection=Colección completa
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=Jugar partida
+
+;-- Select game
+Select game2=Selección de la partida
+Loaded game=Partida corriente
+Sequential=Secuencial
+Random=Aleatorio
+
+;-- Play with
+Play with=Jugar con
+Both=Los dos
+
+;-- Play...
+Play2=Jugar...
+Full game=Partida completa
+Fuseki=Fuseki
+From current position=Desde posición corriente
+From current position (only for current game)=Desde posición corriente (solo para partida corriente)
+
+;-- Move number in Fuseki
+Move number in Fuseki=Número de jugadas en Fuseki
+
+;-- Number of attempts per move
+Number of attempts per move=Número de intentos por jugada
+Only one=Solo uno
+Unlimited=Sin limitación
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=Estadísticas
+Problems in collection=Problemas en la colección
+Visited problems=Problemas visitados
+Number of attempts=Número de intentos
+Number of successes=Número de éxitos
+Show detailed statistics=Enseñar las estadísticas detalladas
+Reset collection statistics=Resetear las estadísticas detalladas
+
+;-- Problem order
+Problem order=Orden de los problemas
+Sequential from current=Secuencial desde corriente
+Sequential from stored=Secuencial desde memorizado
+Random color=Color aleatorio
+Random position=Posición aleatoria
+Number of problems=Número de problemas
+
+;-- Failure ratio
+Include problems incorrectly solved=Incluir problemas incorrectamente intentados
+don't care=indiferente
+ratio=proporción
+
+;-- Solution marks
+Solution marks=Marcado de las soluciones
+Main line=Línea principal
+Autodetect=Autodetect
+
+;-- More popup menu
+Show=Enseñar
+Timer=Reloj
+Glyphs=Símbolos
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=Seleccionar la raíz para los nombres de ficheros
+Export starting from:=Exportar desde:
+Merge... Select files=Reunir... Seleccionar ficheros
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=Salvaguardar directorio
+Files modified in folder=Ficheros modificados en el directorio
+Select files to save:=Seleccionar los ficheros que salvaguardar
+Select all=Todos
+Unselect all=Ninguno
+Ignore=Ignorar
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=Profundidad
+Unique moves=Jugadas únicas
+Normalize position of first move=Normalizar la posición de la primera jugada
+Game reference=Referencia de la partida
+Filename=Nombre de fichero
+Games to process=Partidas que procesar
+Process current tab=Procesar la pestaña corriente
+Select files or folders to process=Seleccionar ficheros o pestañas
+Start=Empezar
+
+;-- Messages
+Only main branch is processed=Solo la rama corriente es procesada
+Move inversions are not detected=Las inversiones de jugadas no son detectadas
+Unable to process file=Imposible tratar el fichero
+Unable to process file completely=Imposible tratar el fichero completamente
+Game ignored (some not alternative moves):=Partida ignorada (jugadas no alternativas):
+Game ignored (board size not handled):=Partida ignorada (dimensión no tratada):
+Game tree ready.=Arbol de jugadas listo.
+Elapsed time (seconds)=Tiempo utilizado (segundos)
+Number of games=Número de partidas
+percentage and number of games in variation=porcentaje y número de partidas en la variante
+winning percentage of move=porcentaje de victoria de la jugada
+number of unknown results=número de resultados desconocidos
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=es freeware
+Version=Versión
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo y libkombilo por Ulrich Goertz:
+Credits=Créditos
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=Todos los ficheros
+BMP files=Ficheros BMP
+DOC files=Ficheros DOC
+HTML files=Ficheros HTML
+JPEG files=Ficheros JPEG
+RTF files=Ficheros RTF
+SGF files=Ficheros SGF
+GIF files=Ficheros GIF
+PNG files=Ficheros PNG
+MGT files=Ficheros MGT
+ASCII files=Ficheros ASCII
+PDF files=Ficheros PDF
+Database files=Bases de datos
+Text files=Ficheros texto
+
+;-- Export captions
+Export games with HTML format=Exportar partidas con formato HTML
+Export games with RTF format=Exportar partidas con formato RTF
+Export games to HTML format=Exportar partidas con formato HTML
+Export games to RTF format=Exportar partidas con formato RTF
+Export games to PDF format=Exportar las partidas en formato PDF
+Export games to MSWORD format=Exportar las partidas en formato MSWORD
+
+;-- Select texture dialog
+Select texture=Seleccionar textura
+(empty)=(vacío)
+Image:=Imagen:
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=Ultima jugada
+Black prisoners=Prisioneros negros
+White prisoners=Prisioneros blancos
+
+;-- Game information
+Game information2=Información de juego
+
+;-- Variation list panel
+Next moves=Jugadas siguientes
+Alternate moves=Jugadas alternativas
+
+;-- Replay panel
+Game2=Partida
+You=Usted
+
+;-- Problem panels
+Reference=Referencia
+Problem=Problema
+Attempt=Intento
+Attempts=Intentos
+Trial=Intento
+Trials=Intentos
+Problem status=Estatuto problema
+Attempt status=Estatuto intento
+Running=En curso
+Success=Éxito
+Failure=Fracaso
+Assisted=Ayudado
+Free=Libre
+
+;-- Problem result box
+End of problem session.=Fin de la sesión de problemas
+Session result: %d / %d=Resultado de la sesión: %d / %d
+Collection score after session: %s=Resultado de la colección después de la sesión: %s
+More problems?=Más problemas?
+
+;-- Game result string
+Black wins=Negro gana
+White wins=Blanco gana
+%s wins by %s points=%s gana por %s puntos
+Draw=Empate
+No result=No resultado
+Unknown result=Resultado desconocido
+by forfeit=por ausencia
+by resignation=por abandono
+on time=al tiempo
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=No enseñar más este mensaje
+Toggling to full screen mode.=Activación del modo pantalla completa.
+Restore window mode with %s=Volver al modo ventana con %s
+
+;-- Tab errors
+Unable to create tab=Imposible crear pestaña
+
+;-- Edit messages
+No move to add variation.=No jugada para añadir variante.
+Move impossible to cancel=Jugada imposible de cancelar
+Delete whole branch.=Suprimir toda la rama.
+File modification.=Modificación del archivo
+Beware game modification will not be updated in database.=Cuidado! Las modificaciones de una partida de la base de datos no serán salvaguardadas.
+Do you want to proceed?=Quiere continuar?
+
+;-- File errors
+File not open=Imposible abrir el fichero
+Bracket not found=Corchete no encontrado
+Error opening file=Error cargando fichero
+Error opening folder=Problema a la lectura del directorio
+Line=Línea
+File partialy read=File incompletamente cargado
+File %s is read only.=El fichero %s está en lectura sola.
+File %s not saved.=Fichero %s no salvaguardado
+Folder %s not saved.=Directorio %s no salvaguardado
+First game not found=Primer juego no encontrado
+Illegal character=Carácter invalido
+Impossible to save %s.=Imposible salvaguardar %s
+Impossible to save.=Imposible salvaguardar
+Impossible to write file=Imposible escribir fichero
+Semicolon not found after parenthesis=Punto y coma no encontrado después paréntesis
+Invalid property name=Nombre de propriedad invalido
+Memory error=Memoria insuficiente
+Read only file=Fichero en lectura sola
+The loaded game is not Go : GM property=El juego cargado no es Go : propriedad GM
+Invalid board size=Tamaño de goban invalido
+Size will be set to 19.=El tamaño va a ser puesto a 19.
+Unexpected end of file=Fin de fichero no esperada
+
+;-- File warnings
+Reload and lose modifications?=Abrir de nuevo y perder las modificaciones?
+Save changes in %s?=Salvaguardar los cambios en %s?
+
+;-- Replay messages
+Game with no name. Save to proceed.=El fichero no tiene nombre. Salvaguardar para continuar.
+File not saved. Save to proceed.=El fichero no está salvaguardado. Salvaguardar para continuar.
+The file doesn't seem to be a game file.=El archivo no parece ser un archivo de partidas.
+The file doesn't seem to be a problem file.=El archivo no parece ser un archivo de problemas.
+The file is not a problem collection.=El archivo no es una colección de problemas.
+A problem collection must be loaded to start a problem session.=Una colección de problemas debe ser cargada para empezar una sesión de problemas.
+Continue=Continuar
+End of fuseki=Fuseki terminado
+End of game=Partida terminada
+Score=Resultado
+
+;-- Move errors
+Illegal move=Jugada ilegal
+Illegal ko capture=Captura de ko ilegal
+Illegal suicide...=Suicidio ilegal...
+Impossible to play there=Intersección ocupada
+
+;-- Game engine messages
+Abnormal termination of game engine=Terminación anormal del motor de juego
+Do you really want to resign?=Está seguro de abandonar?
+Game aborted=Partida interrumpida
+Error=Error
+Black has passed=Negro pasa
+White has passed=Blanco pasa
+Black resigns=Negro abandona
+White resigns=Blanco abandona
+Black loses on time=Negro pierde por tiempo
+White loses on time=Blanco pierde por tiempo
+Pass2=Pasa
+pass3=pasa
+Territory=Territorio
+Prisoners=Prisioneros
+Total=Total
+Please select board view before starting game.=Por favor, visualizar el tablero antes de empezar el partido.
+Current engine is unable to start...=El motor corriente no puede arrancar...
+Engine configuration file missing. Please check installation.=El fichero de configuración de los motores falta. Por favor verifique la instalación.
+alive=vivo
+dead=muerto
+critical=critico
+
+;-- Export
+Problem while copying in clipboard=Problema salvaguardando en el portapapeles
+Problem while saving image=Problema salvaguardando la imagen
+Unable to export...=Imposible exportar
+Close Word and restart export.=Cerrar Word y lanzar exportación de nuevo.
+Please, close previous preview to proceed.=Por favor, cerrar la previsualización y exportar de nuevo
+File is in use, close to proceed.=El fichero está utilizado, cerrar lo para continuar
+
+;-- Preview
+Sorting is not enabled over %d records.=Ordenar no es posible con más de %d registros.
+See Options | Preview to change this setting.=Ver Opciones>Previsualizar para cambiar este valor.
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=Retroceso
+Tab=Tab
+Esc=Esc
+Enter=Entrar
+Space=Espacio
+PgUp=RePág
+PgDn=AvPág
+End=Fin
+Home=Inicio
+Left=Izquierda
+Up=Arriba
+Right=Derecha
+Down=Abajo
+Ins=Ins
+Del=Supr
+Shift+=Mayús+
+Ctrl+=Ctrl+
+Alt+=Alt+
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=Seleccionar ficheros o directorios
+Clear all=Nada
+Include subfolders=Incluir subdirectorios
+Start2=Empezar
+Abort=Interrumpir
+Save database as=Guardar base de datos como
+Please give database name=Par favor, dar un nombre de base de datos
+%s already exists.=%s ya existe.
+Do you want to overwrite it?=¿Quiere sobreescribirlo?
+Database open, please close first=Base de datos abierta, cerrar primero
+Unable to create database=Imposible crear base de datos
+
+;-- Search dialog
+Pattern=Posición
+;Game information=
+Signature=Firma
+Reset=Resetear
+No database loaded=No base de datos cargada
+No database loaded... Load or create.=No base de datos cargada
+Select database=Seleccionar base de datos
+Search=Buscar
+Search in results=Buscar en los resultados
+Whole database=Base de datos completa
+Current results=Resultados corrientes
+View results in tab=Ver resultados en pestaña
+View results on board=Ver resultados en tablero
+View results in game information list=Ver resultados en listado de informaciones
+View results in board thumbnails=Ver resultados en miniaturas
+
+;-- Pattern search
+Pattern (right-click to select)=Posición (clic derecho para seleccionar)
+Wildcard=Comodín
+Capture=Capturar
+Clear2=Borrar
+View:=Ver:
+Results=Resultados
+Frequency=Frecuencia
+Urgency=Urgencia
+Efficiency=Eficacia
+Fixed:=Fijar:
+Position=Posición
+Next move:=Jugada siguiente:
+%d matches=%d
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d (%d/%d), B: %1.1f%%, W: %1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=N|N/T|N+/N|N-/N|B|B/T|N+/B|N-/B
+Right-click to select on board=Clic derecho para seleccionar en tablero
+Found games are in database tab=Partidas en la pestaña de base de datos
+
+;-- Information search
+Game information search=Buscar informaciones
+Search on players=Buscar por jugadores
+Any=Cualquiera
+One of both=Uno de lo dos
+Winner=Ganador
+Loser=Perdedor
+Search on date=Buscar por fecha
+Day=Día
+Month=Mes
+Year=Año
+Range=Rango
+To=Hasta
+Search on result=Buscar por resultado
+wins=gana
+wins by=gana por
+wins by at least=gana a lo menos por
+wins by at most=gana al máximo por
+wins by resignation=gana por abandono
+wins on time=gana por tiempo
+wins by forfeit=gana por ausencia
+Other or unknown=Otro o desconocido
+More conditions=Más peticiones
+SQL=SQL
+
+;-- Signature search
+Signature search=Buscar firma
+
+;-- Settings
+Search settings=Opciones de búsqueda
+Select or open database=Seleccionar o abrir base de datos
+Pattern search parameters=Opciones para búsqueda de posición
+Fixed color=Color fijo
+Fixed position=Posición fija
+Pattern search next move=Jugada siguiente en búsqueda de posición
+Any or none=Cualquiera o ninguna
+Pattern search view=Visualización de los resultados de búsqueda de posición
+Full=Detalles
+Digest=Resumen
+
+;-- Messages
+Error opening database=Error abriendo base de datos
+No search for center empty patterns.=No búsqueda para posición central vacía.
+No search for center single stone patterns.=No búsqueda para posición central con piedra única.
+No search rectangle defined.=No rectangulo de búsqueda definido.
+Operation aborted by user=Operación interrumpida por el usuario
+%d file(s) to process=%d ficheros que procesar
+%d games processed, %s elapsed=%d partidas procesadas (%s)
+%d file(s) processed, %s elapsed=%d ficheros procesados (%s)
+Unable to process game=Imposible procesar partida
+Unable to process game completely=Imposible procesar partida completamente
+Boardsize not handled=Dimensión de tablero no procesada
+SGF error detected, game inserted=Error de formato detectado
+SGF error detected, game not inserted=Error de formato ignorado
+Duplicate detected=Duplicado detectado
+Duplicate ignored=Duplicado ignorado
+;%d result(s)=%d résultat(s)
+No game found in %s=No partida encontrada en %s
+1 game found in %s=1 partida encontrada en %s
+%d games found in %s=%d partidas encontradas en %s
+Save logfile=Guardar fichero log
+%d ms.=%d ms.
+%2.2f seconds=%2.2f segundos
+Unable to modify game in database.=Imposible modificar una partida de la base de datos.
+Extract to a new tab and try again?=Extraer en nueva pestaña?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=Avanzadas
+Restore default=Restaurar valores por defecto
+Select=Seleccionar
+Select all2=Seleccionar todo
+Restore=Restaurar
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=Secuencia de clics  en edición de posición
+Set, remove=Colocar, quitar
+Set, swap color, remove=Colocar, invertir color, quitar
+Enable moves as books=Permitir de ver jugadas como en los libros
+Start variation from 1=Empezar las variaciones con 1
+Start variation with figure=Empezar las variaciones con figura
+Start variation settings include main line=Opciones para empezar variaciones incluyen la linea principal
+Bold text=Texto en negrita
+Maximum font size=Tamaño de fuente máximo
+Texture tiling with symmetries=Tejar las texturas con simetrías
+
+; User interface
+User interface=Interfaz de usuario
+Allow only one instance=Permitir solo una instancia
+Minimize to tray=Minimizar en área de notificación 
+Hook content of window when resizing=Enganchar el contenido durante el dimensionamiento
+Anchor panels at bottom=Colgar abajo
+Show tab close buttons=Mostrar los botones para cerra las pestañas
+
+; Files
+Save paths relatively to install folder=Salvaguardar los caminos relativamente a la pestaña de instalación.
+Abort reading on file error=Interrumpir la lectura al primer error
+Open save dialogs with places bar=Diálogos de apertura y salvaguardia con "places bar"
+
+; Games against engines
+Games against engines=Partidas con motores de juego
+Ask for saving when closing game=Pedir la salvaguardia cuando se sierra une pestaña de juego
+Use again previous game engine tab=Utiliza la pestaña de juego precedente
+Enable Undo=Permitir Undo
+Only after capture=Solo después captura
+Game engine options are inhibited during game=Opciones del motor de juego inaccesibles durante partida
+
+
+; Warning
+Warnings=Warnings
+Warn when toggling to full screen=Prevenir cuando se activa el modo pantalla completa
+Warn at first modification=Prevenir a la primera modificación
+Warn at modification in database game=Prevenir a la modificación de una partida de la base de datos
+Warn at modification in read only mode=Prevenir a la modificación en modo lectura sola
+Warn when delete branch=Prevenir cuando se suprime una rama
+Warn on invalid move=Prevenir si jugada ilegal
+Warn on game engine pass=Prevenir cuando el motor de juego pasa
+Warn on game engine resignation=Prevenir cuando el motor de juego abandona
+Warn when losing on time=Prevenir cuando se pierde por tiempo
+
+; PDF
+Use board color=Utilizar el color del tablero
+Exact width (mm)=Anchura exacta (mm)
+Added border (N;W;S;E in % of image width)=Añadir borde (N;O;S;E en % de la anchura de la imagen)
+Radius adjustment=Ajuste del radio
+Circle width=Espesor de los círculos
+Line width=Espesor de las lineas
+Double line width=Espesor de las lineas doble
+Hoshi stone ratio=Proporción hoshi piedra
+Marks adjustment (line width;size factor)=Ajuste de las marcas
+Font size adjustment (f or f;f or f;f;f see help)=Ajuste del tamaño de fuente (f o f;f o f;f;f ver ayuda)
+Line height adjustment=Ajuste de la altura de las lineas
+
+;---

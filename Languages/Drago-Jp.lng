@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Japanese
+$HelpFile=Drago-En.chm
+$TranslationCredit=メニュー・メッセージの日本語訳はcolonが行いました\n誤訳等の指摘がありましたら以下のアドレスへどうぞ\ncolonq@gmail.com
+$Update=4.21
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=ファイル
+View=表示
+Navigation=閲覧
+Edit=編集
+Database=データベース
+Games2=棋譜
+Problems=問題
+Play=対戦
+Options=オプション
+Help=ヘルプ
+
+;-- File
+New=新規
+Open=開く
+Open folder=フォルダを開く
+Save=保存
+Save as=名前を付けて保存
+Save tab content as=タブを保存
+Read only=読み出し専用
+Close=閉じる
+Close all=すべて閉じる
+Open from clipboard=クリップボードから開く
+Save to clipboard=クリップボードへ保存
+Collections=コレクション
+Favorites=お気に入り
+Index=目次
+Game information=情報
+Print=印刷
+Export=出力
+Export position=範囲を指定して出力
+Quit=終了
+
+;-- Collection
+Append to=追加
+Merge=合成
+Extract current=抽出
+Extract all=すべて抽出
+Delete current game=
+Make game tree=ゲーム木の作成
+
+;-- View
+Full screen mode=全画面モード
+View board=盤面
+Preview game information=情報
+Preview board thumbnails=サムネイル
+Reference view=参照
+Mirror=反転
+Flip=交換
+Opponent view=相手視点
+Rotate 90 clockwise=90度回転
+Rotate 90 counter clockwise=90度逆回転
+Swap colors=石の色を交換
+Show toolbars=ツールバー表示
+Toolbar settings=ツールバーの設定
+Board settings=盤面設定
+Preview settings=一覧表示設定
+
+;-- Navigation
+First game=最初の棋譜
+Previous game=前の棋譜
+Next game=次の棋譜
+Last game=最後の棋譜
+Select game=棋譜の選択
+Start position=最初の手
+Previous move=前の手
+Next move=次の手
+End position=最後の手
+Go to move=手の選択
+Previous target=前の目標
+Next target=次の目標
+Auto replay=自動再生
+Navigation settings=閲覧設定
+Next variation=次の変化
+Previous variation=前の変化
+Pointer up=上へ移動
+Pointer down=下へ移動
+Pointer left=左へ移動
+Pointer right=右へ移動
+
+;-- Edit
+Undo move=元に戻す
+Delete branch=分岐の削除
+Game edit=対局の編集
+Game edit Black first=黒番として編集
+Game edit White first=白番として編集
+Add Black=黒石を追加
+Add White=白石を追加
+Empty=消去
+Current markup=記号を描く
+Player=対局者
+Black to play=黒
+White to play=白
+Insert pass=パスの挿入
+Insert=情報の挿入
+Make main branch=分岐を作成
+Promote variation=
+Demote variation=
+Remove properties=プロパティーの削除
+Insert empty node=空ノードの挿入
+Click at pointer=場所をクリック
+Ctrl-click at pointer=場所をCtrlを押しながらクリック
+
+;-- Markup
+Cross=バツ印
+Triangle=三角印
+Circle=丸印
+Square=四角印
+Letter=アルファベット
+Number=数字
+Label=ラベル
+Black territory=黒地
+White territory=白地
+
+;-- Database
+Create database=データベースの作成
+Open database=データベースを開く
+Add to database=データベースに追加
+Search in database=データベースの検索
+One click search=ワンクリック検索
+Database settings=データベースの設定
+
+;-- Games
+Replay session=リプレイ
+Replay index=リプレイの索引
+Cancel replay session=リプレイの中止
+
+;-- Problems
+Solve problems=問題
+Problem index=問題の索引
+Hint=ヒント
+Free mode=フリーモード
+Problem mode=問題モード
+Cancel problem session=問題の中止
+
+;-- Play
+New engine game=新規対局
+Pass=パス
+Resign=投了
+Cancel game=中止
+Score estimate=スコア予想
+Suggest move=良さそうな着手を示す
+Show influence regions=影響範囲を表示
+Engine settings=対局プログラムの設定
+
+;-- Options
+Sidebar settings=サイドバーの設定
+Language settings=言語設定
+Advanced settings=高度な設定
+Toggle coordinates=座標の切り替え
+Toggle move markers=移動マークの切り替え
+View settings=表示設定
+Game tree settings=棋譜ツリーの設定
+
+;-- Help
+Display help=ヘルプの表示
+Web site=
+Donate=
+About=Dragoについて
+
+;-- Tabs popup menu
+New in tab=新規タブ
+Open in tab=タブへ開く
+Open folder in tab=タブへフォルダを開く
+Reload current file=開き直す
+
+;-- Sidebar menu
+Show in current tab=このタブに表示
+
+;-- Tray icon menu
+Restore window=ウインドウの復元
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=ヘルプ
+Ok=OK
+Cancel=キャンセル
+Clipboard=クリップボード
+No=いいえ
+Yes=はい
+Send=送信
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=Dragoへようこそ
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=サイズ
+Komi=コミ
+Handicap=手合
+Free placement=置石の自由配置
+Create in=作成
+New file=新規ファイル
+Current file=現在のファイル
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=対局プログラム
+Name=名前
+Level=レベル
+not defined=未定義
+Not available=利用不可
+More engines=別の対局プログラム
+
+;-- Start position
+New game=新規対局
+Current position=現在の局面から開始
+Auto handicap=手合の自動決定
+Engine plays with=対局プログラムの手番
+Black=黒
+White=白
+
+;-- Time settings
+Time settings=時間設定
+No time limit=無制限
+Total time=合計時間
+Time per move=一手あたりの時間
+Initial time plus over time=持ち時間＋考慮時間
+Initial time=持ち時間
+Over time=考慮時間
+Timing only for engine=対局プログラムだけに適用
+
+;-- Game settings
+Game settings=対局設定
+Boardsize=盤面のサイズ
+
+;-- Scoring
+Scoring=スコア計算
+Territory counting=日本ルール
+Area counting=中国ルール
+
+;-- Messages
+More=その他
+No engine defined. Please select 'More...' then 'More engines...'=対局プログラムが指定されていません。'その他'そして'別の対局プログラム'を選択してください
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=対局プログラムが見つかりません。'その他'そして'対局プログラムの設定'を選択し、場所が正しいか確認してください。
+Not all functions are supported by the engine currently selected.=現在選択されている対局プログラムでは一部の機能はサポートされません
+
+;-- GTP window
+GTP window=GTPウインドウ
+Show GTP window=GTPウインドウの表示
+Enter and send GTP command (no feedback on main board):=GTPコマンドの入力と送信
+No engine running=起動中の対局プログラムはありません
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=盤面をクリックして石を置きます
+Click again on a stone to remove it.=置いた石を取り除くにはもう一度クリックします
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=現状を追加
+Add=追加
+Add favorite=お気に入りに追加
+Add game file=棋譜を追加
+Add folder=フォルダーを追加
+Add database=データベースを追加
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=概要
+
+;-- Event
+Game=対局
+Event=イベント
+Round=ラウンド
+Place=場所
+Date=日時
+
+;-- Players
+Players=対局者
+Rank=段位
+Team=チーム名
+
+;-- Rules
+Rules=ルール
+Time=時間
+hr=時間
+mn=分
+Byo-Yomi=秒読み
+
+;-- Sources
+Sources=ソース
+User=ユーザー
+Annotation=注釈
+Source=ソース
+Copyright=著作権表示
+
+;-- Comment
+Comment=コメント
+
+;-- Misc
+Misc=その他
+Application=アプリケーション
+SGF format=SGF形式
+Style=スタイル
+No style defined for current game=なし
+Show alternate moves - Allow board markup=他の手を表示する
+Show alternate moves - No board markup=他の手を表示しない
+Show next moves - Allow board markup=次の手を表示する
+Show next moves - No board markup=次の手を表示しない
+Charset=文字コード
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=プレビュー
+Export figures=図を出力
+Export games=棋譜を出力
+ESC to cancel=ESCキーで中止
+
+;-- Games and figure
+Games and figures=棋譜と図
+
+;-- Games
+Games=棋譜
+Current game=現在の棋譜
+All=すべて
+to:=終了
+from:=開始
+
+;-- Include information
+Include information=情報の出力
+at start of game=棋譜の初め
+as name of figure 1=一番目の図
+Format=形式
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (黒) 対 \PW (白), \DT
+
+;-- Figures
+Figures=図
+Position at move number=着手番号で示された図
+One figure every N moves=N手ごとの図
+One figure every %d moves=%d手ごとの図
+One figure every markup or comment=記入またはコメントごとの図
+File figures=ファイルごとの図
+Variations=変化ごとの図
+
+;-- Comments
+Comments=コメント
+Include comments=コメントの出力
+Remind figure titles=図のタイトル
+remind figure titles2=図のタイトル
+Remind move numbers=着手の番号
+remind move numbers2=着手の番号
+
+;-- Figure title
+Figure title=図のタイトル
+Print title=出力のタイトル
+Relative numbers=相対番号の使用
+relative numbers2=相対番号の使用
+Figure format=図の書式
+Variation format=変化の書式
+
+;-- Default formats for title
+Diagram \figure=図 \figure
+Figure \figure (\moves)=図 \figure (\moves)
+Game \game (\moves)=棋譜 \game (\moves)
+Game \game - Diagram \figure=棋譜 \game - 図 \figure
+Game \game - Figure \figure (\moves)=棋譜 \game - 図 \figure (\moves)
+Game \game=棋譜 \game
+Problem \game - Figure \figure=問題 \game - 図 \figure
+Problem \game=問題 \game
+
+;-- Layout tab
+Layout=レイアウト
+
+;-- Header and footer
+Header and footer=ヘッダとフッタ
+Print header=ヘッダを出力
+Print footer=フッタを出力
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\left 'ページ ' \page \right \date
+
+;-- Layout
+Layout2=レイアウト
+First figure alone in the line=第一図を単独で出力
+1st figure alone=第一図を単独で表示
+1st figure ratio=第一図の拡大率
+Figures per line=一行毎の図の数
+Figure ratio=図の拡大率
+
+;-- Margins
+Margins (mm)=余白(mm)
+Left2=左側
+Right2=右側
+Top=上側
+Bottom=下側
+
+;-- Font
+Font=フォント
+Name:=名前
+Size:=サイズ
+
+;-- Styles
+Styles=スタイル
+Remove=削除
+Add current print options as style with name:=現在の設定をスタイルとして追加
+Remove style=スタイルを削除
+
+;-- Style description strings not yet listed
+Games from %d to %d=%d手目から%d手目までの棋譜
+Include variations=変化を出力
+with format=書式
+with formats=書式
+with ratio=拡大率
+absolute numbers=相対番号の使用
+
+;-- Formats
+Formats=フォーマット
+Formats for exporting games=棋譜の出力形式
+Formats for exporting figures=図の出力形式
+Paper=用紙
+Letter2=文字
+Landscape=横置き
+Settings=設定
+PDF compression=PDFの圧縮
+Jpeg quality (1-100)=Jpegの品質
+
+;-- Printing as book
+%d at %d=%dは%d
+%d at %s=%dは%s
+%d above %d=%dは%dの上
+%d below %d=%dは%dの下
+%d at left of %d=%dは%dの左
+%d at right of %d=%dは%dの右
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=出力範囲
+Dimensions (mm)=寸法(mm)
+Dimensions (px)=寸法(px)
+Stone diameter=石の直径
+As books=書籍
+Mode=モード
+Moves from 1 to 10=1～10の着手
+Black with circle=円のついた黒
+Black with square=四角のついた黒
+White with circle=円のついた白
+White with square=四角のついた白
+Draw edge=縁を描く
+H=高さ
+W=幅
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=最初のページ
+Previous page=前のページ
+Next page=次のページ
+Last page=最後のページ
+Zoom in=ズームイン
+Zoom out=ズームアウト
+Page %d of %d=ページ %d/%d
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=碁盤
+
+;-- Board
+Board=盤面
+Board1=盤面
+Default texture=標準の画像
+Custom texture=任意の画像
+Color=色
+Thick edges=太線で囲む
+Hoshis=星を表示
+
+;-- Stones
+Stones=石
+
+;-- Coordinates
+Coordinates=座標
+None2=なし
+Korschelt=コルシェルト
+
+;-- Coordinate background
+Coordinate background=背景
+As board=盤面
+
+;-- Displayed zone
+Displayed zone=表示領域
+Whole board=盤面全体
+Zoom on corner=隅を拡大
+
+;-- Moves tab
+Moves=着手
+
+;-- Show moves
+Show moves=
+All moves with number=
+Last move with number=
+Last move with markup=
+Last %d moves with number=
+Number of visible move numbers:=
+
+;-- Show variations as
+Show variations as...=表示する変化
+
+;-- Markup of variations on goban
+Markup of variations on goban=変化の表示
+None=なし
+Ghost stones=影
+Uppercase letters=大文字
+Lowercase letters=小文字
+
+;-- Move numbers
+Move numbers=着手番号
+Display only two last digits=常に下2桁で表示
+
+;-- Game tree tab
+Game tree=棋譜のツリー
+
+;-- Background
+Background=背景
+
+;-- Stone radius
+Radius=半径
+
+;-- Move number position
+No2=いいえ
+On the side=石の横
+On the stones=石の上
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=ウインドウの背景
+
+;-- Light source
+Light source=光源
+Top left=左上
+Top right=右上
+
+;-- Skins
+Menu and toolbar skins=メニューとツールバーの柄
+
+;-- Preview tab
+Preview2=一覧表示
+Definition of information columns=列名の定義
+Black player=黒
+Black rank=黒の段位
+Result=結果
+White player=白
+White rank=白の段位
+Select property etc.=プロパティを選択して矢印またはドラッグ&ドロップで移動します
+Sorting of information records=記録のソート
+Enabled if record number is less than=ソートが有効な記録番号の上限
+Thumbnail preview=サムネイルで表示
+Stone radius=石の半径
+
+;-- Sidebar tab
+Sidebar=サイドバー
+Default visibility of panels when creating a tab=タブ作成時のパネル表示
+Always visible=常に表示
+Visible if needed=必要な時に表示
+Timing=時刻
+Node name=ノード名
+Variation list=変化の一覧
+Game information panel=対局情報パネル
+Display images=対局者の画像を表示
+Image directory=画像のあるディレクトリ
+Comment font=コメントのフォント
+
+;-- Text panels
+Text panels=テキストパネル
+
+;-- Shortcuts tab
+Shortcuts=ショートカット
+Select category:=カテゴリーを選択
+Engine=対局プログラム
+Replay=再生
+Select command:=コマンドを選択
+Click in box and type shortcut:=枠の中をクリックしショートカットを入力
+Assigned to:=設定
+(none)=(なし)
+Assign=設定
+Clear=クリア
+Assign shortcut to selected command=選択されたコマンドにショートカットを設定
+Clear shortcut of selected command=選択されたコマンドのショートカットをクリア
+
+;-- Toolbars tab
+Toolbars=ツールバー
+Select toolbar:=ツールバーを選択
+Misc2=その他
+Select command and toolbar etc.=コマンドとツールバーを選択して矢印またはドラッグ&ドロップで移動します
+(Separator)=(区切り)
+
+;-- Sounds tab
+Sounds=効果音
+Enable sounds=効果音を有効にする
+Invalid move=不正な着手
+Engine move=対局プログラムの着手
+Default=標準
+Custom=任意
+Test=テスト
+Sound files=サウンドファイル
+Select sound file=サウンドファイルの選択
+
+;-- Files tab
+Files=ファイル
+
+;-- File association
+File associations=ファイルの関連付け
+Unable to update file association!=ファイルの関連付けを更新できません
+Check user rights.=ユーザー権限を確認してください
+
+;-- Starting
+Starting=開始時の設定
+Start with last files=最後に使用したファイル
+Start with last move=最後の着手
+
+;-- Properties
+Properties=プロパティー
+Save with 10 moves on each line=一行につき10手で保存する
+New file with full SGF properties=新規ファイルにすべてのプロパティーを含める
+Change player with SGF property=Change playerプロパティーを使用する
+Compress lists of points=位置のリストを圧縮する
+Accept long property names=長いプロパティー名を受け入れる
+
+;-- Navigation tab
+Move targets=移動目標
+Every N moves=N手ごと
+Starts of variation=変化の開始手
+Ends of variation=変化の終了手
+Time between two moves=一手を指す時間
+Use timing properties when available=可能ならtimingプロパティーを参照
+Stop at targets=移動目標で停止
+
+;-- Database tab
+General=一般
+Cache=キャッシュ
+Creation=作成
+Create with extended algorithms=拡張アルゴリズムを用いて作成
+Process variations=変化の生成
+Detect duplicates=重複の検出
+by using signature=シグニチャを確認
+by using final position=最終位置を確認
+Omit duplicates when detected=検出された重複を省く
+Omit games with SGF errors=SGFエラーを含む棋譜を省く
+Pattern search=パターンの検索
+Search in variations=変化も含め検索
+Move limit=着手の上限
+
+;-- Game engine tab
+
+Game engines=対局プログラム
+List of engines=対局プログラムのリスト
+Analysis=分析
+
+;-- Binary
+Path=場所
+Select engine path=対局プログラムの場所を選択
+Parameters=パラメータ
+Usage=使用法
+Use for game=対局に使用
+Use for analysis=分析に使用
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=ルール、時間、盤面のサイズ、レベルは事前設定されていますが、その他に設定があればここに入力できます
+
+;-- Lists of features
+Playing features=対戦機能
+Chinese rules=中国ルール
+Japanese rules=日本ルール
+Fixed handicap=置石
+Free handicap=自由置石
+Time per game=対局時間
+Undo=取り消し
+Detailed game results=詳細な対局結果
+Analysis features=分析機能
+Move suggestion=着手の提案
+Influence region=影響範囲
+Group status=連の状態
+
+;-- Predefined engines
+Select predefined engine=事前定義された対局プログラムの選択
+Open browser, download and install=プラウザを起動してダウンロードとインストールをする
+Already installed=既にインストールされている
+Press Ok (then you will have to enter executable installation path) or cancel.=OK(あとでインストールした場所の入力が必要)またはキャンセルを押します
+If the engine motor you want to play with is not in the list, edit the following file:=リストに希望の対局エンジンがなければ、以下のファイルを編集してください
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=ルール、時間、盤面のサイズ、レベルは事前設定されていますが、その他に設定があればここに入力できます
+Current parameters=現在のパラメータ
+Additional parameters=追加のパラメータ
+
+;-- Language tab
+
+Language=言語
+Select language for user interface=ユーザーインターフェイスの言語を選択
+Select code page for game files=棋譜ファイルのコードページを選択
+Create game files using...=新規棋譜ファイル作成時に使用するコードページ
+Unicode=ユニコード
+System default code page=システム標準
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=石の画像を選択
+Path for Black stones=黒石の画像の場所
+Path for White stones=白石の画像の場所
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=画像名は石の直径を表す数値を含む必要があります。もし二つ目の数値があれば模様の異なる石として認識されます。
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=注釈
+
+;-- Position annotations
+Position annotations=場所に対しての注釈
+Good for Black=黒の好点
+Good for White=白の好点
+Balanced position=均衡点
+Unclear position=不明な点
+Very good for Black=黒の絶好点
+Very good for White=白の絶好点
+Very balanced position=非常に均衡した点
+Very unclear position=全く不明な点
+Hot spot=係争点
+Very hot spot=大きな係争点
+
+;-- Move annotations
+Move annotations=着手に対しての注釈
+Bad=悪手
+Doubtful=疑問手
+Tesuji=好手
+Very bad=最悪手
+Interesting=おもしろい手
+Very good tesuji=最善手
+
+;-- Text
+Text=テキスト
+
+;-- Others
+Others=その他
+
+;-- Timing
+Black time left=黒の経過時間
+White time left=白の経過時間
+
+;-- Figures
+Insert figure=図へ挿入
+Show coordinates=座標
+
+;-- Other properties
+Other properties=その他のプロパティー
+Move numbers from=着手番号
+Wrong variation (uliGo)=間違った変化(uliGo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=カンマ区切りのプロパティーリストを入力
+All games in collection=コレクション内のすべての棋譜
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=棋譜再生
+
+;-- Select game
+Select game2=棋譜を選択
+Loaded game=現在の棋譜
+Sequential=次の棋譜
+Random=ランダム
+
+;-- Play with
+Play with=練習する色
+Both=両方
+
+;-- Play...
+Play2=練習
+Full game=棋譜全体
+Fuseki=布石
+From current position=現在の位置から
+From current position (only for current game)=現在の位置から(現在の棋譜のみ)
+
+;-- Move number in Fuseki
+Move number in Fuseki=布石とみなす着手番号
+
+;-- Number of attempts per move
+Number of attempts per move=一手あたりの試行回数
+Only one=1回のみ
+Unlimited=無制限
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=統計
+Problems in collection=コレクション中の問題
+Visited problems=閲覧した問題
+Number of attempts=試行回数
+Number of successes=成功数
+Show detailed statistics=詳細統計を表示
+Reset collection statistics=コレクションの統計情報をリセット
+
+;-- Problem order
+Problem order=出題の順序
+Sequential from current=現在の問題から順次
+Sequential from stored=用意された順次
+Random color=ランダムな色
+Random position=ランダムな場所
+Number of problems=出題数
+
+;-- Failure ratio
+Include problems incorrectly solved=不正解問題を含む
+don't care=気にしない
+ratio=確率
+
+;-- Solution marks
+Solution marks=解答表示
+Main line=本筋
+Autodetect=自動検出
+
+;-- More popup menu
+Show=表示
+Timer=タイマー
+Glyphs=グリフ
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=基準のファイル名を選択
+Export starting from:=最初の出力ファイル名:
+Merge... Select files=マージ... ファイルの選択
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=保存フォルダ
+Files modified in folder=フォルダ内の変更されたファイル
+Select files to save:=保存するファイルの選択
+Select all=すべて選択
+Unselect all=すべて非選択
+Ignore=無視
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=深さ
+Unique moves=ユニークな手の数
+Normalize position of first move=初手の位置で正規化する
+Game reference=棋譜の参照
+Filename=ファイル名
+Games to process=処理を行う棋譜
+Process current tab=現在のタブを処理
+Select files or folders to process=処理するファイルまたはフォルダーを選択
+Start=開始
+
+;-- Messages
+Only main branch is processed=メインの枝だけが処理されました
+Move inversions are not detected=向きの反転が検出されませんでした
+Unable to process file=ファイルを処理できません
+Unable to process file completely=ファイルを完全には処理できません
+Game ignored (some not alternative moves):=棋譜が無効です(異なる手がありません)
+Game ignored (board size not handled):=棋譜が無効です(扱えない盤のサイズです)
+Game tree ready.=ゲーム木が準備できました
+Elapsed time (seconds)=経過時間(秒)
+Number of games=棋譜の数
+percentage and number of games in variation=割合と棋譜数
+winning percentage of move=手の勝率
+number of unknown results=勝敗不明の数
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=はフリーウエアです
+Version=バージョン
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo and libkombilo by Ulrich Goertz:
+Credits=クレジット
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=すべてのファイル
+BMP files=BMPファイル
+DOC files=DOCファイル
+HTML files=HTMLファイル
+JPEG files=JPEGファイル
+RTF files=RTFファイル
+SGF files=SGFファイル
+GIF files=GIFファイル
+PNG files=PNGファイル
+MGT files=MGTファイル
+ASCII files=ASCIIファイル
+PDF files=PDFファイル
+Database files=データベースファイル
+Text files=テキストファイル
+
+;-- Export captions
+Export games with HTML format=HTML形式で棋譜を出力
+Export games with RTF format=RTF形式で棋譜を出力
+Export games to HTML format=HTML形式へ棋譜を出力
+Export games to RTF format=RTF形式へ棋譜を出力
+Export games to PDF format=PDF形式へ棋譜を出力
+Export games to MSWORD format=MSWORD形式へ棋譜を出力
+
+;-- Select texture dialog
+Select texture=画像を選択
+(empty)=(なし)
+Image:=画像
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=最後の着手
+Black prisoners=白のアゲ石
+White prisoners=黒のアゲ石
+
+;-- Game information
+Game information2=対局情報
+
+;-- Variation list panel
+Next moves=次の着手
+Alternate moves=代わりの着手
+
+;-- Replay panel
+Game2=棋譜
+You=あなた
+
+;-- Problem panels
+Reference=参照
+Problem=問題
+Attempt=試行
+Attempts=試行
+Trial=試行
+Trials=試行
+Problem status=問題の状態
+Attempt status=試行の状態
+Running=実行中
+Success=成功
+Failure=失敗
+Assisted=補助
+Free=開放
+
+;-- Problem result box
+End of problem session.=セッションの終わり
+Session result: %d / %d=セッションの結果: %d / %d
+Collection score after session: %s=セッション終了後の問題集の得点
+More problems?=もう一度問題を解きますか?
+
+;-- Game result string
+Black wins=黒の
+White wins=白の
+%s wins by %s points=%sの%s目勝ち
+Draw=持碁
+No result=勝敗つかず
+Unknown result=勝敗不明
+by forfeit=反則勝ち
+by resignation=中押し勝ち
+on time=時間切れ勝ち
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=このメッセージをもう表示しない
+Toggling to full screen mode.=全画面モードに切り替えます
+Restore window mode with %s=%sキーでウィンドウモードに戻ります
+
+;-- Tab errors
+Unable to create tab=タブが作成できません
+
+;-- Edit messages
+No move to add variation.=変化に追加する着手がありません
+Move impossible to cancel=着手の取り消しができません
+Delete whole branch.=すべての分岐が削除されます
+File modification.=ファイルを変更します
+Beware game modification will not be updated in database.=棋譜の変更はまだデータベースに反映されていません
+Do you want to proceed?=処理を続けますか?
+
+;-- File errors
+File not open=ファイルが開けません
+Bracket not found=括弧が見つかりません
+Error opening file=ファイルオープンエラー
+Error opening folder=フォルダオープンエラー
+Line=行
+File partialy read=ファイルの一部だけ読み込みます
+File %s is read only.=ファイル%sは読み込み専用です
+File %s not saved.=ファイル%sを保存できません
+Folder %s not saved.=フォルダ%sを保存できません
+First game not found=最初の棋譜が見つかりません
+Illegal character=不正な文字があります
+Impossible to save %s.=%sを保存できません
+Impossible to save.=保存できません
+Impossible to write file=ファイルに書き込めません
+Semicolon not found after parenthesis=セミコロンが括弧の後ろにありません
+Invalid property name=不正なプロパティー名があります
+Memory error=メモリーエラー
+Read only file=読み込み専用ファイル
+The loaded game is not Go : GM property=囲碁の棋譜がではありません(GMプロパティー)
+Invalid board size=不正な盤のサイズです
+Size will be set to 19.=サイズは19に設定されます
+Unexpected end of file=唐突にファイルの終端に達しました
+
+;-- File warnings
+Reload and lose modifications?=変更を破棄して再度読み込みますか?
+Save changes in %s?=%sを変更しますか?
+
+;-- Replay messages
+Game with no name. Save to proceed.=名前のついた棋譜がありません.先に保存してください
+File not saved. Save to proceed.=ファイルが保存されていません.先に保存してください
+The file doesn't seem to be a game file.=ファイルが棋譜集のようには見えません
+The file doesn't seem to be a problem file.=ファイルが問題集のようには見えません
+The file is not a problem collection.=問題集は読み込まれていません
+A problem collection must be loaded to start a problem session.=問題を開始するには問題集が読み込まれている必要があります
+Continue=続ける
+End of fuseki=布石の終わり
+End of game=棋譜の終わり
+Score=スコア
+
+;-- Move errors
+Illegal move=不正な着手です
+Illegal ko capture=不正なコウ取りです
+Illegal suicide...=自殺手です
+Impossible to play there=着手不可能な場所です
+
+;-- Game engine messages
+Abnormal termination of game engine=対局プログラムが異常終了しました
+Do you really want to resign?=本当に投了しますか?
+Game aborted=対局を中止しました
+Error=エラー
+Black has passed=黒のパス
+White has passed=白のパス
+Black resigns=黒の投了
+White resigns=白の投了
+Black loses on time=黒の時間切れ負け
+White loses on time=白の時間切れ負け
+Pass2=パス
+pass3=パス
+Territory=地
+Prisoners=ハマ
+Total=合計
+Please select board view before starting game.=対局を開始するより前に盤面の表示方法を選択してください
+Current engine is unable to start...=現在の対局プログラムが開始できません
+Engine configuration file missing. Please check installation.=対局プログラム設定ファイルの失敗。インストール状態を確認してください
+alive=生き
+dead=死
+critical=瀕死
+
+;-- Export
+Problem while copying in clipboard=クリップボードへコピー中に問題が発生しました
+Problem while saving image=画像保存中に問題が発生しました
+Unable to export...=出力できません
+Close Word and restart export.=ワードを終了してから再度出力してください
+Please, close previous preview to proceed.=前のプレビューを閉じてください
+File is in use, close to proceed.=ファイルが使用中です, 閉じてください
+
+;-- Preview
+Sorting is not enabled over %d records.=%dを超える登録に対してのソートは無効です
+See Options | Preview to change this setting.=オプション|プレビューを見て設定を変えてください
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=BkSp
+Tab=Tab
+Esc=Esc
+Enter=Enter
+Space=Space
+PgUp=PgUp
+PgDn=PgDn
+End=End
+Home=Home
+Left=Left
+Up=Up
+Right=Right
+Down=Down
+Ins=Ins
+Del=Del
+Shift+=Shift+
+Ctrl+=Ctrl+
+Alt+=Alt+
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=ファイルまたはフォルダを選択してください
+Clear all=すべてクリア
+Include subfolders=サブフォルダを含める
+Start2=開始
+Abort=中止
+Save database as=データベースの保存
+Please give database name=データベース名を入力してください
+%s already exists.=%sは既にあります
+Do you want to overwrite it?=上書きしてもいいですか?
+Database open, please close first=データベースを開くなら最初に閉じてください
+Unable to create database=データベースを作成できません
+
+;-- Search dialog
+Pattern=パターン
+;Game information=
+Signature=シグニチャ
+Reset=リセット
+No database loaded=データベースが読み込まれていません
+No database loaded... Load or create.=データベースを読み込むか作成してください
+Select database=データベースを選択
+Search=検索
+Search in results=結果の中からさらに検索
+Whole database=データベース全体
+Current results=現在の結果
+View results in tab=結果をタブに表示
+View results on board=結果を盤面で表示
+View results in game information list=結果を情報一覧で表示
+View results in board thumbnails=結果をサムネイルで表示
+
+;-- Pattern search
+Pattern (right-click to select)=パターン(右クリックで選択)
+Wildcard=ワイルドカード
+Capture=アゲ石
+Clear2=クリア
+View:=表示
+Results=結果
+Frequency=頻度
+Urgency=緊急度
+Efficiency=効率
+Fixed:=固定
+Position=位置
+Next move:=次の着手
+%d matches=%dに一致
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%dに一致(%d/%d), 黒:%1.1f%%, 白:%1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W
+Right-click to select on board=盤の上を右ドラッグで範囲選択してください
+Found games are in database tab=データベースタブの中から検索します
+
+;-- Information search
+Game information search=情報の検索
+Search on players=対局者
+Any=すべて
+One of both=勝者と敗者の一方
+Winner=勝者
+Loser=敗者
+Search on date=対局日時
+Day=日
+Month=月
+Year=年
+Range=期間
+To=～
+Search on result=勝敗
+wins=勝利
+wins by=勝利状況
+wins by at least=以下の差
+wins by at most=以上の差
+wins by resignation=投了
+wins on time=時間切れ
+wins by forfeit=反則
+Other or unknown=その他または不明な理由
+More conditions=もっと
+SQL=SQL
+
+;-- Signature search
+Signature search=シグニチャの検索
+
+;-- Settings
+Search settings=検索設定
+Select or open database=データベースを開くかリストから選択
+Pattern search parameters=パラメーター
+Fixed color=色が同一のパターンだけ検索
+Fixed position=位置が同一のパターンだけ検索
+Pattern search next move=検索する次の手
+Any or none=黒と白
+Pattern search view=検索結果の表示
+Full=全部
+Digest=ダイジェスト
+
+;-- Messages
+Error opening database=データベースが開けません
+No search for center empty patterns.=石を含まないパターンは検索できません
+No search for center single stone patterns.=石を一つしか含まないパターンは検索できません
+No search rectangle defined.=検索の範囲が指定されていません
+Operation aborted by user=ユーザーによって操作が中止されました
+%d file(s) to process=%dファイルを処理
+%d games processed, %s elapsed=%d棋譜が処理されました, %sかかりました
+%d file(s) processed, %s elapsed=%dファイル処理されました, %sかかりました
+Unable to process game=棋譜が処理できません
+Unable to process game completely=棋譜が完全に処理できません
+Boardsize not handled=扱えない盤のサイズです
+SGF error detected, game inserted=SGFエラーを検出しましたが棋譜を挿入しました
+SGF error detected, game not inserted=SGFエラーを検出したので棋譜は挿入されません
+Duplicate detected=重複が検出されました
+Duplicate ignored=重複が無視されました
+;%d result(s)=%d résultat(s)
+No game found in %s=一つの棋譜も%sの中からは見つかりませんでした
+1 game found in %s=一つの棋譜が%sの中から見つかりました
+%d games found in %s=%d個の棋譜が%sの中から見つかりました
+Save logfile=ログを保存します
+%d ms.=%dミリ秒
+%2.2f seconds=%2.2f秒
+Unable to modify game in database.=データベース内の棋譜は変更できません
+Extract to a new tab and try again?=新しいタブに写して再試行しますか?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=高度な設定
+Restore default=標準設定に置き換える
+Select=選択
+Select all2=すべて選択
+Restore=置き換える
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=石配置モードでのクリックの動作
+Set, remove=配置, 削除
+Set, swap color, remove=配置, 色交換, 削除
+Enable moves as books=書籍のように着手を表示
+Start variation from 1=変化を1から開始する
+Start variation with figure=変化を図で開始する
+Start variation settings include main line=変化の開始設定を本筋にも適用する
+Bold text=太字のテキスト
+Maximum font size=最大フォントサイズ
+Texture tiling with symmetries=対象にテクスチャを並べる
+
+; User interface
+User interface=ユーザーインターフェイス
+Allow only one instance=二重起動を許可しない
+Minimize to tray=トレイを最小化する
+Hook content of window when resizing=リサイズ中もウインドウ内の再描画を行う
+Anchor panels at bottom=パネルをウインドウの下部と接続する
+Show tab close buttons=タブに閉じるボタンを表示する
+
+; Files
+Save paths relatively to install folder=インストールフォルダからの相対パスでパスを保存する
+Abort reading on file error=ファイルエラーがあれば読み込みを中止する
+Open save dialogs with places bar=開く/保存ダイアログの左にバーを表示する
+
+; Games against engines
+Games against engines=対局プログラムとの対戦
+Ask for saving when closing game=棋譜を閉じる時に保存するか尋ねる
+Use again previous game engine tab=前回の対局プログラムとのタブを再利用する
+Enable Undo=待ったの有効(対局プログラムが待ったをサポートする時のみ)
+Only after capture=石を取られた直後のみ
+Game engine options are inhibited during game=対戦中は対局プログラムのオプションを変更できません
+
+
+; Warning
+Warnings=警告
+Warn when toggling to full screen=全画面モードに切り替え
+Warn at first modification=最初の変更
+Warn at modification in database game=データベースの棋譜の変更
+Warn at modification in read only mode=読み取り専用モードでの変更
+Warn when delete branch=分岐の削除
+Warn on invalid move=不正な着手
+Warn on game engine pass=対局プログラムのパス
+Warn on game engine resignation=対局プログラムの投了
+Warn when losing on time=時間切れ
+
+; PDF
+Use board color=盤に色を使用
+Exact width (mm)=厳密な幅(mm)
+Added border (N;W;S;E in % of image width)=境界線(N;W;S;E in % of image width)
+Radius adjustment=半径
+Circle width=円の幅
+Line width=線の幅
+Double line width=二重線の幅
+Hoshi stone ratio=星と石との比率
+Marks adjustment (line width;size factor)=記号(line width;size factor)
+Font size adjustment (f or f;f or f;f;f see help)=フォントサイズ(f or f;f or f;f;f see help)
+Line height adjustment=線の高さ
+
+;---

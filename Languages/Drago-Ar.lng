@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Arabic
+$HelpFile=Drago-Ar.chm
+$TranslationCredit= م ع
+$Update=4.20
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=الملف
+View=المنظر
+Navigation=تجوال
+Edit=تدوين
+Database=قاعدة المعلومات
+Games2=إلعب ثانية
+Problems=مسائل
+Play=إلعب
+Options=الخصائص
+Help=مساعدة
+
+;-- File
+New=جديد
+Open=إفتح
+Open folder=إفتح دليل الملفات
+Save=إحفظ 
+Save as=إحفظ كـ
+Save tab content as=إحفظ محتوى الجدول كـ
+Read only=قراءة فقط
+Close=إغلق
+Close all=إغلق الكل
+Open from clipboard=إفتح من الصفحات المؤقتة
+Save to clipboard=إحفظ في الصفحات المؤقتة
+Collections=مجموعات
+Favorites=مفضَّلات
+Index=دليل
+Game information=معلومات عن المباراة
+Print=إطبع
+Export=إصدار
+Export position=إصدار الوضعية
+Quit=إرحل
+
+;-- Collection
+Append to=زٍد إلى
+Merge=إجمع
+Extract current=إستخلص
+Extract all=إستخلص الكل
+Delete current game=
+Make game tree=أنشئ شجرة الحركات
+
+;-- View
+Full screen mode=
+View board=أظهر الغوبان
+Preview game information=أظهر معلومات المقابلة
+Preview board thumbnails=أظهر التشكيلات
+Reference view=مظهر مرجعي
+Mirror=مراَة أفقية
+Flip=مراَة عمودية
+Opponent view=مشهد الخصم
+Rotate 90 clockwise=90° إلى اليسار
+Rotate 90 counter clockwise=90° إلى اليمين
+Swap colors=تبادل الألوان
+Show toolbars=إظهار عارضة الأدوات
+Toolbar settings=خيارات عارضة الأدوات
+Board settings=خيارات الغوبان
+Preview settings=خيارات المظهر
+
+;-- Navigation
+First game=المقابلة الأولى
+Previous game=المقابلة السابقة
+Next game=المقابلة التالية
+Last game=المقابلة الأخيرة
+Select game=إختر مقابلة
+Start position=وضعية البدء
+Previous move=الحركة السابقة
+Next move=الحركة التالية
+End position=الوضعية الأخيرة
+Go to move=إنتقل إلى الحركة
+Previous target=الهدف السابق
+Next target=الهدف التالي
+Auto replay=لعب اَلي
+Navigation settings=خيارات التجوال
+Next variation=المتغايرة اللاحقة
+Previous variation=المتغايرة السابقة
+Pointer up=المشير إلى الأعلى
+Pointer down=المشير إلى الأسفل
+Pointer left=المشير إلى اليسار
+Pointer right=المشير إلى اليمين
+
+;-- Edit
+Undo move=ألغي الحركة
+Delete branch=ألغي الجذع
+Game edit=دوٍّن المقابلة
+Game edit Black first=دوِّن وضعية الأسود أوِّلا
+Game edit White first=دوٍّن وضعية الأبيض أولا
+Add Black=موضع أسود
+Add White=موضع أبيض
+Empty=فراغ
+Current markup=العلامة الحالية
+Player=اللّاعب
+Black to play=الأسود يلعب
+White to play=الأبيض يلعب
+Insert pass=ّضمّ مـر
+Insert=ضـمّ
+Make main branch=تحويل إلى الجذع الرئيسي
+Promote variation=
+Demote variation=
+Remove properties=حذف الخصائص
+Insert empty node=
+Click at pointer=أنقر تحت المشير
+Ctrl-click at pointer=أنقر تحت المشير-Ctrl
+
+;-- Markup
+Cross=صليب
+Triangle=مثلّث
+Circle=دائرة
+Square=مربّع
+Letter=حرف
+Number=رقم
+Label=علامة مُميِّزة
+Black territory=محيط الأسود
+White territory=محيط الأبيض
+
+;-- Database
+Create database=إنشاء قاعدة معلومات
+Open database=فتح قاعدة المعلومات
+Add to database=أضف إلى قاعدة المعلومات
+Search in database=البحث في قاعدة المعلومات
+One click search=Recherche en un clic
+Database settings=خيارات قاعدة المعلومات
+
+;-- Games
+Replay session=إعادة مقابلة
+Replay index=دليل المقابلات
+Cancel replay session=إلغاء دورة المقابلات
+
+;-- Problems
+Solve problems=حل مسائل
+Problem index=دليل مسائل
+Hint=توجيه
+Free mode=هيئة حرة
+Problem mode=هيئة مسائل
+Cancel problem session=إلغاء دورة المسائل
+
+;-- Play
+New engine game=مباراة جديدة
+Pass=ّمـر
+Resign=أستسلم
+Cancel game=ألغي المقابلة
+Score estimate=تخمين بالنتيجة
+Suggest move=إشارة إلى حركة
+Show influence regions=أظهر مناطق التأثير
+Engine settings=خيارات محرك اللعبة
+
+;-- Options
+Sidebar settings=خيارات العارضة الجانبية
+Language settings=خيارات اللّغة
+Advanced settings=خيارات متقدمة
+Toggle coordinates=تغيير الإحداثيات
+Toggle move markers=تغيير مميٍّز الحركات
+View settings=خيارات المظهر
+Game tree settings=خيارات شجرة الحركات
+
+;-- Help
+Display help=أظهر المساعدة
+Web site=
+Donate=
+About=ما يتعلق بـ
+
+;-- Tabs popup menu
+New in tab=جديد في الجدول
+Open in tab=إفتح في الجدول
+Open folder in tab=إفتح دليل الملفات في الجدول
+Reload current file=إعادة تحميل الملف
+
+;-- Sidebar menu
+Show in current tab=أظهر في الجدول الحالي
+
+;-- Tray icon menu
+Restore window=أعد النافذة
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=&مساعدة
+Ok=موافق
+Cancel=إلغاء
+Clipboard=الصفحات المؤقتة
+No=لا
+Yes=نعم
+Send=أرسل
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=مرحبا في دراغو
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=حجم
+Komi=الكومي
+Handicap=تعديل المستوى
+Free placement=موقع حر
+Create in=أنشئ في
+New file=ملف جديد
+Current file=الملف الحالي
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=محرك اللعبة
+Name=الإسم
+Level=المستوى
+not defined=غير معرِّف
+Not available=غير موجود
+More engines=محركات أخرى
+
+;-- Start position
+New game=مباراة جديدة
+Current position=الموضِع الحالي
+Auto handicap=تعديل ذاتي
+Engine plays with=محرك اللعبة ضدّ
+Black=الأسود
+White=الأبيض
+
+;-- Time settings
+Time settings=خيارات التوقيت
+No time limit=بدون توقيت
+Total time=الوقت الكلي
+Time per move= وقت الحركات
+Initial time plus over time=الوقت الرئيسي مع البيو-يومي
+Initial time=الوقت الرئيسي
+Over time=بيو-يومي
+Timing only for engine=
+
+;-- Game settings
+Game settings=خيارات المباراة
+Boardsize=حجم الغوبان
+
+;-- Scoring
+Scoring=طريقة الحساب
+Territory counting=الطريقة اليابانية
+Area counting=الطريقة الصينية
+
+;-- Messages
+More=المزيد
+No engine defined. Please select 'More...' then 'More engines...'='لا يوجد محرك.إختر 'المزيد...' ثم 'محركات أخرى
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=المحرك غير موجود. إختر 'المزيد...' ثم 'خصائص محرك اللعبة' و تحقق من المذهب.  
+Not all functions are supported by the engine currently selected.=ليست كل الوظائف معتمدة لدى المحرك الحالي.
+
+;-- GTP window
+GTP window=GTP النافذة
+Show GTP window=GTP أظهر النافذة
+Enter and send GTP command (no feedback on main board):=أدخل و أرسل أمرا GTP (بدون تأثير على الغوبان)
+No engine running=لا يوجد محرك مشغَّل
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=.أنقر على الغوبان لوضع أحجار التعديل
+Click again on a stone to remove it.=.إضغط مرٍّتين على الحجر لإقصائه
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=Ajouter actif
+Add=أضف
+Add favorite=أضف مفضل
+Add game file=أضف ملف مقابلة
+Add folder=أضف دليل ملفات
+Add database=أضف قاعدة معلومات
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=خلاصة
+
+;-- Event
+Game=المقابلة
+Event=المناسبة
+Round=الدورة
+Place=المكان
+Date=التاريخ
+
+;-- Players
+Players=اللاعبون
+Rank=الرتبة
+Team=الفريق
+
+;-- Rules
+Rules=القوانين
+Time=الوقت
+hr=سا
+mn=د
+Byo-Yomi=بيو-يومي
+
+;-- Sources
+Sources=الأصول
+User=المستعمِل
+Annotation=ملاحظات
+Source=الأصل
+Copyright=حقوق الطبع
+
+;-- Comment
+Comment=تعليق
+
+;-- Misc
+Misc=متفرقات
+Application=تطبيق
+SGF format=مقاس SGF
+Style=نمط
+No style defined for current game=لا أسلوب معرّف لهذه المقابلة
+Show alternate moves - Allow board markup=أظهر حركات بديلة - مع علامات اللوحة
+Show alternate moves - No board markup=أظهر حركات بديلة - بدون علامات اللوحة
+Show next moves - Allow board markup=أظهر الحركات اللاحقة - مع علامات اللوحة
+Show next moves - No board markup=أظهر حركات اللاحقة - بدون علامات اللوحة
+Charset=صفحة دليل
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=منظر
+Export figures=أصدر الأشكال
+Export games=أصدر المقابلات
+ESC to cancel=ESC للإلغاء
+
+;-- Games and figure
+Games and figures=مقابلات و أشكال
+
+;-- Games
+Games=مقابلات
+Current game=المقابلة الحالية
+All=الكل
+to:=إلى:
+from:=مـن:
+
+;-- Include information
+Include information=أضف معلومات
+at start of game=في أول مقابلة
+as name of figure 1=كإسم الشكل 1
+Format=مقاس
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (س)  ضد \PW (ب), \DT
+
+;-- Figures
+Figures=أشكال
+Position at move number=موضع الحركة رقم
+One figure every N moves= شكل كل ن حركة
+One figure every %d moves=حركة %d شكل كل
+One figure every markup or comment=شكل كل ميزة أو تعليق
+File figures=ملف صور
+Variations=متغايرات
+
+;-- Comments
+Comments=تعليقات
+Include comments=أضف تعليقة
+Remind figure titles=تذكير بأسماء الأشكال
+remind figure titles2=تذكير بأسماء الأشكال
+Remind move numbers=تذكير بأرقام الحركات
+remind move numbers2=تذكير بأرقام الحركات
+
+;-- Figure title
+Figure title=عنوان الشكل
+Print title=إطبع العنوان
+Relative numbers=أرقام نسبية
+relative numbers2=أرقام نسبية
+Figure format=مقاس شكل
+Variation format=مقاس متغايرة
+
+;-- Default formats for title
+Diagram \figure=مخطط \figure
+Figure \figure (\moves)=شكل \figure (\moves)
+Game \game (\moves)=مقابلة \game (\moves)
+Game \game - Diagram \figure=مقابلة \game - مخطط \figure
+Game \game - Figure \figure (\moves)=مقابلة \game - شكل \figure (\moves)
+Game \game=مقابلة \game
+Problem \game - Figure \figure=مسألة \game - شكل \figure
+Problem \game=مسألة \game
+
+;-- Layout tab
+Layout=تصحيف
+
+;-- Header and footer
+Header and footer=رأس و قدم الصفحة
+Print header=إطبع رأس الصفحة
+Print footer=إطبع قدم الصفحة
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\left 'صفحة ' \page \right \date
+
+;-- Layout
+Layout2=قابلية
+First figure alone in the line=الشكل الأول وحيد في السطر
+1st figure alone=الشكل الأول فقط
+1st figure ratio=Ratio 1ère figure
+Figures per line=أشكال على السطر
+Figure ratio=Ratio figure
+
+;-- Margins
+Margins (mm)=(هوامش (مم
+Left2=يسار
+Right2=يمين
+Top=أعلى
+Bottom=أسفل
+
+;-- Font
+Font=الخط
+Name:=الإسم :
+Size:=الحجم :
+
+;-- Styles
+Styles=أساليب
+Remove=أقصي
+Add current print options as style with name:=:أضف خصائص الطبع الحالية كأسلوب باسـم 
+Remove style=ألغي الأسلوب
+
+;-- Style description strings not yet listed
+Games from %d to %d=%d إلى %d مقابلات من  
+Include variations=ضمّ متغايرات
+with format=مع مقاس
+with formats=مع مقاسات
+with ratio=avec ratio
+absolute numbers=numéros absolus
+
+;-- Formats
+Formats=مقاسات
+Formats for exporting games=مقاسات لإصدار المقابلات
+Formats for exporting figures=مقاسات لإصدار الأشكال
+Paper=الورق
+Letter2=رسالة
+Landscape=لوحة
+Settings=خصائص
+PDF compression=PDF ضغط 
+Jpeg quality (1-100)=(1-100) jpeg نوعية
+
+;-- Printing as book
+%d at %d=%d في %d
+%d at %s=%d في %s
+%d above %d=%d فوق %d
+%d below %d=%d تحت %d
+%d at left of %d=%d على يسار %d
+%d at right of %d=%d على يمين %d
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=إحداثيات الشكل
+Dimensions (mm)=(أبعاد (مم
+Dimensions (px)=(أبعاد (وص
+Stone diameter=قطر الحجرة
+As books=كالكتب
+Mode=هيئة
+Moves from 1 to 10=الحركات من 1 إلى 10
+Black with circle=أسود مع دائرة
+Black with square=أسود مع مربّع
+White with circle=أبيض مع دائرة
+White with square=أبيض مع مربّع
+Draw edge=أرسم الضفّة
+H=H
+W=L
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=الصفحة الأولى
+Previous page=الصفحة السابقة
+Next page=الصفحة اللاّحقة
+Last page=الصفحة الأخيرة
+Zoom in=تكبير
+Zoom out=تصغير
+Page %d of %d=%d من %d صفحة
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=الغوبان
+
+;-- Board
+Board=الغوبان
+Board1=لوحة
+Default texture=النسيج البديل
+Custom texture=النسيج الإعتيادي
+Color=اللون
+Thick edges=ضفة سميكة
+Hoshis=الهوشي - النجوم
+
+;-- Stones
+Stones=الأحجار
+
+;-- Coordinates
+Coordinates=الإحداثيات
+None2=لا واحدة
+Korschelt=Korschelt
+
+;-- Coordinate background
+Coordinate background=خلفية الإحداثيات
+As board=كـالغوبان
+
+;-- Displayed zone
+Displayed zone=المنطقة المعروضة
+Whole board=كل الغوبان
+Zoom on corner=تكبير على الزاوية
+
+;-- Moves tab
+Moves=الحركات
+
+;-- Show moves
+Show moves=
+All moves with number=
+Last move with number=
+Last move with markup=
+Last %d moves with number=
+Number of visible move numbers:=
+
+;-- Show variations as
+Show variations as...=مستوى المتغايرات
+
+;-- Markup of variations on goban
+Markup of variations on goban=تمييز المتغايرات على الغوبان
+None=لاشيء
+Ghost stones=أحجار أشباح
+Uppercase letters=حروف كبيرة
+Lowercase letters=حروف صغيرة
+
+;-- Move numbers
+Move numbers=أرقام الحركات
+Display only two last digits=أظهر الرقمين الأخيرين فقط
+
+;-- Game tree tab
+Game tree=شجرة المقابلة
+
+;-- Background
+Background=خلفية اللوحة
+
+;-- Stone radius
+Radius=قطر
+
+;-- Move number position
+No2=لا
+On the side=على الجانب
+On the stones=على الأحجار
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=نافذة خلفية اللوحة
+
+;-- Light source
+Light source=مصدر الإضاءة
+Top left=في الأعلى يسارا
+Top right=في الأعلى يمينا
+
+;-- Skins
+Menu and toolbar skins=مظهر القوائم
+
+;-- Preview tab
+Preview2=مشاهدة
+Definition of information columns=تعريف أعمدة المعلومات
+Black player=اللاعب الأسود
+Black rank=مستوى الأسود
+Result=النتيجة
+White player=اللاعب الأبيض
+White rank=مستوى الأبيض
+Select property etc.=.إختر ميزة, ثم استعمل الأسهم, أو إسحب و ضع
+Sorting of information records=فرز أسطر المعلومات
+Enabled if record number is less than=إذا كان عدد الأسطر أقل من
+Thumbnail preview=نقوش
+Stone radius=قطر الحجرة
+
+;-- Sidebar tab
+Sidebar=القائمة الجانبية
+Default visibility of panels when creating a tab=ظاهرية الإطارات عند إنشاء زاوية
+Always visible=إظهار دائما
+Visible if needed=إظهار عند الحاجة
+Timing=التوقيت
+Node name=إسم العقدة
+Variation list=قائمة المتغايرات
+Game information panel=معلومات المقابلة
+Display images= عرض الصور
+Image directory=حاوي الصور
+Comment font=خط التعليق
+
+;-- Text panels
+Text panels=إطارات النص غير معتمدة
+
+;-- Shortcuts tab
+Shortcuts=مختصرات
+Select category:=:إختر صنف
+Engine=محرك اللعبة
+Replay=إعادة اللعب
+Select command:=:إختر أمرا
+Click in box and type shortcut:=:إضغط في العلبة و أدخل مختصر
+Assigned to:=:مُلحق بـ
+(none)=(لاشيء)
+Assign=ألحِق
+Clear=إمحِـ
+Assign shortcut to selected command=ألحق مختصر بالأمر المختار
+Clear shortcut of selected command=إمحِ مختصر الأمر المختار
+
+;-- Toolbars tab
+Toolbars=عارضات الأدوات
+Select toolbar:=:إختر عارضة أدوات
+Misc2=متفرقات
+Select command and toolbar etc.=.إختر أمرا و عارضة أدوات, ثم استعمل الأسهم أو اسحب و ضع الأمر داخل عارضة الأدوات
+(Separator)=(فاصل)
+
+;-- Sounds tab
+Sounds=الصوت
+Enable sounds=شغِّل الصوت
+Invalid move=حركة غير شرعية
+Engine move=حركة محرك اللعبة
+Default=بديل
+Custom=إعتيادي
+Test=جرِّب الصوت
+Sound files=ملفات الصوت
+Select sound file=إختر ملف صوت
+
+;-- Files tab
+Files=ملفات
+
+;-- File association
+File associations=...أرفق بأنواع الملفات التالية
+Unable to update file association!=!مستحيل تغيير نوع الملف
+Check user rights.=.تحقق من حقوق المستعمل
+
+;-- Starting
+Starting=بدء
+Start with last files=إبدء بآخر الملفّات
+Start with last move=إبدء بآخر حركة
+
+;-- Properties
+Properties=خواص
+Save with 10 moves on each line=إحفظ مع 10 حركات في كل سطر
+New file with full SGF properties=تامّة SGF ملف جديد مع خواصّ 
+Change player with SGF property=SGF غيِّر اللاعب مع خواصّ
+Compress lists of points= إضغط قوائم التقاطعات
+Accept long property names=تقبّل أسماءالخواص الطويلة
+
+;-- Navigation tab
+Move targets=أهداف الحركة
+Every N moves=كل عدد من الحركات
+Starts of variation=بدايات المتغايرة
+Ends of variation=نهايات المتغايرة
+Time between two moves=الوقت بين حركتين
+Use timing properties when available=إستعمل خواص التوقيت إن وُجدت
+Stop at targets=التوقف عند الأهداف
+
+;-- Database tab
+General=عامّ
+Cache=الخفي
+Creation=إنشاء
+Create with extended algorithms=أنشيء بالخوارزميات الموسّعة
+Process variations=إفحص المتغايرات
+Detect duplicates=إكشف الإزدواج
+by using signature=باستعمال الإمضاء
+by using final position=باستعمال الوضعية الأخيرة
+Omit duplicates when detected=تجاهل الإزدواجات المكتشفة
+Omit games with SGF errors=SGF تجاهل المقابلات ذات أخطاء
+Pattern search=بحث بالوضعية
+Search in variations=إبحث في المتغايرات
+Move limit=رقم الحركة الأخيرة
+
+;-- Game engine tab
+
+Game engines=محركات اللعبة
+List of engines=قائمة محركات اللعبة
+Analysis=تحليل
+
+;-- Binary
+Path=مسلك
+Select engine path=إختار مسلك محرك اللعبة
+Parameters=ثوابت
+Usage=إستعمال
+Use for game=للّعب
+Use for analysis=للتّحليل
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=.القواعد, التوقيت,الحجم و الرتبة تسيّر آليا. يمكن إدخال ثوابت إضافية لمحرك اللعبة الحالي هنا 
+
+;-- Lists of features
+Playing features=مميزات اللعب
+Chinese rules=القوانين الصينية
+Japanese rules=القوانين اليابانية
+Fixed handicap=مواضع التعديل ثابتة
+Free handicap=مواضع التعديل حرّة
+Time per game=وقت كل مقابلة
+Undo=أعد الحركة
+Detailed game results=نتائج مفصلة عن المقابلة
+Analysis features=وظيفة تحليل
+Move suggestion=توجيه لحركة
+Influence region=مناطق تأثير
+Group status=حالة المجموعات
+
+;-- Predefined engines
+Select predefined engine=إختر محرِّك للُّعبة معرَّف مسبَّقا
+Open browser, download and install=إفتح جوَّال الواب, حمِّل ثم ثبِّت
+Already installed=مُثبَّت مسَبَّقا
+Press Ok (then you will have to enter executable installation path) or cancel.=Appuyer sur Ok (puis vous aurez à entrer le chemin d'installation) ou annuler.
+If the engine motor you want to play with is not in the list, edit the following file:=Si le moteur de jeu que vous voulez utiliser n'est pas dans la liste, éditez le fichier suivant :
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=.وسائط قوانين اللعبة, التوقيت الحجم و الرتبة هي معرّفة مسبّقا. هنا يمكن إضافة وسائط مكمِّلة
+Current parameters=الوسائط الحالية
+Additional parameters=وسائط مكمِّلة
+
+;-- Language tab
+
+Language=اللّغة
+Select language for user interface=إختر لغة الواجهة 
+Select code page for game files= إختر صفحة الدليل البديلة لملفات المقابلات
+Create game files using...=...أنشيء ملفات المقابلات باستعمال
+Unicode=
+System default code page=صفحة الدليل البديلة
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=
+Path for Black stones=
+Path for White stones=
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=ملحوظات
+
+;-- Position annotations
+Position annotations=ملحوظات وضعية
+Good for Black=جيد بالنسبة للأسود
+Good for White=جيد بالنسبة للأبيض
+Balanced position=وضعية متوازنة
+Unclear position=وضعية غير واضحة
+Very good for Black=جيد جدا بالنسبة للأسود
+Very good for White=جيد جدا بالنسبة للأبيض
+Very balanced position=وضعية متوازنة جدا
+Very unclear position=وضعية غامضة
+Hot spot=موضع حساس
+Very hot spot=موضع حساس جدا
+
+;-- Move annotations
+Move annotations=ملحوظات الحركات
+Bad=سيء
+Doubtful=إرتياب
+Tesuji=تسوجي
+Very bad=سيء جدا
+Interesting=داعي للإهتمام
+Very good tesuji=تسوجي جيد جدا
+
+;-- Text
+Text=نص
+
+;-- Others
+Others=أمور أخرى
+
+;-- Timing
+Black time left=وقت الأسود المتبقي
+White time left=وقت الأبيض المتبقي
+
+;-- Figures
+Insert figure=ضـم شكل
+Show coordinates=أظهر الإحداثيات
+
+;-- Other properties
+Other properties=ميزات أخرى
+Move numbers from=إبدء الترقيم من
+Wrong variation (uliGo)=(uliGo) متغايرة خاطئة
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=أدخل قائمة الميزات مفصولة بفواصل (C,BL,WL) :
+All games in collection=كل مقابلات المجموعة
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=أعد لعب مباراة
+
+;-- Select game
+Select game2=إختيار المباراة
+Loaded game=المباراة الحالية
+Sequential=بالترتيب
+Random=عشوائي
+
+;-- Play with
+Play with=إلعب مع
+Both=كلاهما
+
+;-- Play...
+Play2=إلعب...
+Full game=مباراة تامة
+Fuseki=فوسكي
+From current position=من الوضعية الحالية
+From current position (only for current game)=(من الوضعية الحالية (للمباراة الحالية فقط
+
+;-- Move number in Fuseki
+Move number in Fuseki=عدد الحركات في الفوسكي
+
+;-- Number of attempts per move
+Number of attempts per move=عدد المحاولات في كل حركة
+Only one=واحد فقط
+Unlimited=غير محدود
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=إحصائيات
+Problems in collection=عدد المسائل
+Visited problems=عدد المسائل المرئية
+Number of attempts=عدد المحاولات
+Number of successes=عدد المحاولات الناجحة
+Show detailed statistics=أظهر إحصائيات مفصلة
+Reset collection statistics=ألغي كل الإحصائيات
+
+;-- Problem order
+Problem order=ترتيب المسائل
+Sequential from current=Séquentiel courant
+Sequential from stored=Séquentiel mémorisé
+Random color=لون عشوائي
+Random position=وضعية عشوائية
+Number of problems=عدد المسائل
+
+;-- Failure ratio
+Include problems incorrectly solved=إعتبر المسائل الغير محلولة 
+don't care=ليس مهمّ
+ratio=proportion
+
+;-- Solution marks
+Solution marks=وضع العلامات على الحلول
+Main line=الخط الرئيسي
+Autodetect=كاشف ذاتي
+
+;-- More popup menu
+Show=أظهر
+Timer=عدّاد الوقت
+Glyphs=Glyphes
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=Choisir la racine pour les noms de fichier :
+Export starting from:=Exporter à partir de :
+Merge... Select files=Réunir... Sélectionner fichiers
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=إحفظ حاوي الملفّات
+Files modified in folder=ملفّات مغيّرة في حاوي الملفّات
+Select files to save:=:إختر ملفّات للحفظ
+Select all=الكل
+Unselect all=لاشيئ
+Ignore=تجاهل
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth= عمق
+Unique moves=حركة وحيدة
+Normalize position of first move=تطبيع موضع الحركة الأولى
+Game reference=معْلم المقابلة
+Filename=إسم الملف
+Games to process=مقابلات للفحص
+Process current tab=إفحص الزاوية الحالية
+Select files or folders to process=إختر الملفات أو حاويات الملفات
+Start=إبدَء
+
+;-- Messages
+Only main branch is processed=يُفحص الجذع الرئيسي فقط
+Move inversions are not detected=Les inversions de coups ne sont pas détectées
+Unable to process file=فحص الملف تماما مستحيل
+Unable to process file completely=فحص الملف مستحيل
+Game ignored (some not alternative moves):=مقابلة مُلغاة (حركات غير متناوبة):
+Game ignored (board size not handled):=مقابلة مُلغاة (حجم الغوبان غير معتَمَد)
+Game tree ready.=شجرة الحركات جاهزة.
+Elapsed time (seconds)=(الثواني)
+Number of games=عدد المقابلات
+percentage and number of games in variation=pourcentage et nombre de parties dans la variation
+winning percentage of move=pourcentage de victoire du coup
+number of unknown results=nombre de résultats inconnus
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=هو برنامج حر
+Version=Version
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo et libkombilo par Ulrich Goertz :
+Credits=الأرصدة
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=كل أنواع الملفات
+BMP files=ملفات BMP
+DOC files=ملفات DOC
+HTML files=ملفات HTML
+JPEG files=ملفات JPEG
+RTF files=ملفات RTF
+SGF files=ملفات SGF
+GIF files=ملفات GIF
+PNG files=ملفات PNG
+MGT files=ملفات MGT
+ASCII files=ملفات ASCII
+PDF files=ملفات PDF
+Database files=ملفات قاعدة معلومات
+Text files=ملفات نص
+
+;-- Export captions
+Export games with HTML format=Exporter jeux en format HTML
+Export games with RTF format=Exporter jeux en format RTF
+Export games to HTML format=Exporter jeux en format HTML
+Export games to RTF format=Exporter jeux en format RTF
+Export games to PDF format=Exporter les parties en format PDF
+Export games to MSWORD format=Exporter les parties en format MSWORD
+
+;-- Select texture dialog
+Select texture=Sélectionner texture
+(empty)=(فارغ)
+Image:=صورة :
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=الحركة الأخيرة
+Black prisoners=الحويصلة السوداء
+White prisoners=الحويصلة البيضاء
+
+;-- Game information
+Game information2=Informations de jeu
+
+;-- Variation list panel
+Next moves=الحركات اللاحقة
+Alternate moves=حركات بديلة
+
+;-- Replay panel
+Game2=Partie rejouée
+You=أنت
+
+;-- Problem panels
+Reference=مرجع
+Problem=مسألة
+Attempt=محاولة
+Attempts=محاولات
+Trial=محاولة
+Trials=محاولات
+Problem status=حالة المسألة
+Attempt status=حالة المحاولة
+Running=En cours
+Success=نجاح
+Failure=فشل
+Assisted=بالمساعدة
+Free=ّحـر
+
+;-- Problem result box
+End of problem session.=Session problème terminée.
+Session result: %d / %d=Score de la session : %d / %d
+Collection score after session: %s=Score de la collection après la session : %s
+More problems?=Encore des problèmes ?
+
+;-- Game result string
+Black wins=الأسود يفوز
+White wins=الأبيض يفوز
+%s wins by %s points=%s يفوز بـ %s نقطة
+Draw=تعادل
+No result=لا نتيجة
+Unknown result=نتيجة مجهولة
+by forfeit=par forfait
+by resignation=بـاستسلام
+on time=بالوقت
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=Ne plus montrer ce message
+Toggling to full screen mode.=
+Restore window mode with %s=
+
+;-- Tab errors
+Unable to create tab=يستحيل إنشاء زاوية
+
+;-- Edit messages
+No move to add variation.=Pas de coup auquel ajouter une variante.
+Move impossible to cancel=Annulation impossible
+Delete whole branch.=Suppression d'une branche.
+File modification.=Modification du fichier.
+Beware game modification will not be updated in database.=Attention ! Les modifications ne sont pas sauvegardées dans la base de données.
+Do you want to proceed?=Voulez-vous continuer ?
+
+;-- File errors
+File not open=Fichier non ouvert
+Bracket not found=Crochet non trouvé
+Error opening file=Problème lecture fichier
+Error opening folder=Problème lecture répertoire
+Line=Ligne
+File partialy read=Lecture incomplète fichier
+File %s is read only.=Fichier %s en lecture seule.
+File %s not saved.=Fichier %s non sauvé.
+Folder %s not saved.=Répertoire %s non sauvé.
+First game not found=Premier jeu non trouvé
+Illegal character=Caractère illégal
+Impossible to save %s.=Impossible de sauver %s.
+Impossible to save.=Impossible de sauver.
+Impossible to write file=Ecriture fichier impossible
+Semicolon not found after parenthesis=Point-virgule non trouvé après ouvrante
+Invalid property name=Nom de propriété invalide
+Memory error=Défaut d'allocation
+Read only file=Fichier en lecture seule
+The loaded game is not Go : GM property=Le jeu chargé ne concerne pas le Go : propriété GM
+Invalid board size=Taille goban invalide
+Size will be set to 19.=La taille va être ramenée à 19.
+Unexpected end of file=Fin de fichier inattendue
+
+;-- File warnings
+Reload and lose modifications?=Recharger et perdre les modifications ?
+Save changes in %s?=Sauvegarder les modifications dans %s ?
+
+;-- Replay messages
+Game with no name. Save to proceed.=Partie sans nom. Sauvegarder pour continuer.
+File not saved. Save to proceed.=Fichier non sauvé. Sauvegarder pour continuer.
+The file doesn't seem to be a game file.=Le fichier ne semble pas être une collection de parties.
+The file doesn't seem to be a problem file.=Le fichier ne semble pas être une collection de problèmes.
+The file is not a problem collection.=Une collection de problèmes n'est pas chargée.
+A problem collection must be loaded to start a problem session.=Une collection de problèmes doit être chargée pour démarrer une session.
+Continue=إستمِـر
+End of fuseki=Fuseki terminé
+End of game=Partie terminée
+Score=Score
+
+;-- Move errors
+Illegal move=Coup illégal
+Illegal ko capture=Reprise de ko illégale ...
+Illegal suicide...=Suicide illégal ...
+Impossible to play there=Intersection occupée ...
+
+;-- Game engine messages
+Abnormal termination of game engine=Terminaison anormale du moteur de jeu
+Do you really want to resign?=Vous êtes sûr d'abandonner ?
+Game aborted=Partie interrompue
+Error=Erreur
+Black has passed=Noir passe
+White has passed=Blanc passe
+Black resigns=Noir abandonne
+White resigns=Blanc abandonne
+Black loses on time=Noir perd au temps
+White loses on time=Blanc perd au temps
+Pass2=مـرّ
+pass3=ّمـر
+Territory=Territoire
+Prisoners=Prisonniers
+Total=Total
+Please select board view before starting game.=Sélectionnez la vue goban avant de lancer une partie à partir de la position courante.
+Current engine is unable to start...=Le moteur de jeu ne peut pas démarrer ...
+Engine configuration file missing. Please check installation.=Le fichier de configuration des moteurs de jeu est absent. Vérifiez l'installation.
+alive=vivant
+dead=mort
+critical=حسَّاس
+
+;-- Export
+Problem while copying in clipboard=Problème en cours de copie dans le presse-papiers
+Problem while saving image=Problème en cours de sauvegarde
+Unable to export...=Impossible d'exporter
+Close Word and restart export.=Fermer Word puis relancer l'export.
+Please, close previous preview to proceed.=Fermer l'aperçu précédent pour continuer.
+File is in use, close to proceed.=Le fichier est en cours d'utilisation, fermez-le pour continuer
+
+;-- Preview
+Sorting is not enabled over %d records.=Tri impossible au-dessus de %d lignes.
+See Options | Preview to change this setting.=Voir Options | Aperçu pour modifier.
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=RetArr           
+Tab=Tab
+Esc=Echap
+Enter=Entrée
+Space=Espace
+PgUp=PagePréc
+PgDn=PageSuiv
+End=Fin
+Home=Origine
+Left=Gauche
+Up=Haut
+Right=Droite
+Down=Bas
+Ins=Ins
+Del=Suppr
+Shift+=Maj+
+Ctrl+=Ctrl+
+Alt+=Alt+
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=Sélectionner des fichiers ou des répertoires
+Clear all=Aucun
+Include subfolders=Inclure les sous-répertoires
+Start2=Démarrer
+Abort=Interrompre
+Save database as=Enregistrer la base de données sous
+Please give database name=Donnez un nom de base de données
+%s already exists.=%s existe déjà.
+Do you want to overwrite it?=Voulez-vous le remplacer ?
+Database open, please close first=Base de données ouverte, fermez d'abord
+Unable to create database=Impossible de créer la base de données
+
+;-- Search dialog
+Pattern=Position
+;Game information=
+Signature=إمضاء
+Reset=Reset
+No database loaded=Pas de base ouverte
+No database loaded... Load or create.=Pas de base ouverte... Ouvrir ou créer. 
+Select database=Sélectionner une base de données
+Search=إبحث
+Search in results=Chercher dans les résultats
+Whole database=كل القاعدة
+Current results=النتائج الأخيرة
+View results in tab=Voir les résultats dans l'onglet
+View results on board=Voir les résultats sur le goban
+View results in game information list=Voir les résultats dans la table des informations
+View results in board thumbnails=Voir les résultats dans les vignettes
+
+;-- Pattern search
+Pattern (right-click to select)=Position (Clique-droit pour sélectionner)
+Wildcard=Joker
+Capture=قبض
+Clear2=إمحِـ
+View:=:منظر
+Results=النتائج
+Frequency=تردٌد
+Urgency=عاجل
+Efficiency=الفعالية
+Fixed:=:ثبِّت
+Position=وضعية
+Next move:=:الحركة اللّاحقة
+%d matches=%d trouvés
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d trouvés (%d/%d), N: %1.1f%%, B: %1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=N|N/T|N+/N|N-/N|B|B/T|N+/B|N-/B
+Right-click to select on board=
+Found games are in database tab=
+
+;-- Information search
+Game information search=Recherche par information
+Search on players=إبحث حسب اللّاعبين
+Any=الكل
+One of both=واحد من الإثنين
+Winner=الفائز
+Loser=الخاسر
+Search on date=إبحث حسب التاريخ
+Day=يوم
+Month=شهر
+Year=سنة
+Range=مجال
+To=إلى
+Search on result=إبحث حسب النتيجة
+wins=يفوز
+wins by=يفوز بـ
+wins by at least=gagne de au moins
+wins by at most=gagne de au plus
+wins by resignation=gagne par abandon
+wins on time=gagne au temps
+wins by forfeit=gagne par forfait
+Other or unknown=Autre ou inconnu
+More conditions=Autres critères
+SQL=SQL
+
+;-- Signature search
+Signature search=Recherche par signature
+
+;-- Settings
+Search settings=Options pour la recherche
+Select or open database=Sélectionner ou ouvrir la base de données
+Pattern search parameters=Paramètres de la recherche de positions
+Fixed color=Couleur fixe
+Fixed position=Position fixe
+Pattern search next move=Prochain coup pour la recherche de position
+Any or none=Noir, Blanc ou aucun
+Pattern search view=Mode vue pour la recherche de position
+Full=كامل
+Digest=Résumé
+
+;-- Messages
+Error opening database=Erreur ouverture base de données
+No search for center empty patterns.=
+No search for center single stone patterns.=
+No search rectangle defined.=Pas de zone de recherche définie.
+Operation aborted by user=Opération interrompue par l'utilisateur
+%d file(s) to process=%d fichier(s) à traiter
+%d games processed, %s elapsed=%d jeux traités (%s)
+%d file(s) processed, %s elapsed=%d fichier(s) traité(s) (%s)
+Unable to process game=Impossible de traiter le jeu
+Unable to process game completely=Impossible de traiter le jeu en entier
+Boardsize not handled=Taille de goban non traitée
+SGF error detected, game inserted=Erreur SGF détectée, jeu inséré
+SGF error detected, game not inserted=Erreur SGF détectée, jeu non inséré
+Duplicate detected=Doublon détecté
+Duplicate ignored=Doublon ignoré
+;%d result(s)=%d résultat(s)
+No game found in %s=Pas de partie trouvée dans %s
+1 game found in %s=1 partie trouvée dans %s
+%d games found in %s=%d parties trouvées dans %s
+Save logfile=Sauver le fichier log
+%d ms.=%d ms.
+%2.2f seconds=%2.2f secondes
+Unable to modify game in database.=Impossible de modifier un jeu de la base de données.
+Extract to a new tab and try again?=Extraire vers un nouvel onglet et recommencer ?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=خيارات متقدمة
+Restore default=إستعمل الخيارات البديلة
+Select=إختَر
+Select all2=إختَر الكل
+Restore=Restaurer
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=Séquence de cliques en édition de position
+Set, remove=Poser, enlever
+Set, swap color, remove=Poser, inverser la couleur, enlever
+Enable moves as books=Permettre numérotation comme dans les livres
+Start variation from 1=Démarrer les variantes en 1
+Start variation with figure=Démarrer les variantes avec une figure
+Start variation settings include main line=Les options "Démarrer les variantes" incluent la ligne principale
+Bold text=Texte en gras
+Maximum font size=Taille de fonte maximum
+Texture tiling with symmetries=Pavage des textures avec symétries
+
+; User interface
+User interface=واجهة المُستعمِل
+Allow only one instance=Ouvrir une seule instance de l'application
+Minimize to tray=Minimiser dans la zone de notification
+Hook content of window when resizing=Accrocher le contenu pendant le redimensionnement
+Anchor panels at bottom=Accrocher les panels en bas
+Show tab close buttons=Montrer les boutons de fermeture d'onglets
+
+; Files
+Save paths relatively to install folder=
+Abort reading on file error=Interrompre le chargement sur une erreur fichier
+Open save dialogs with places bar=Montrer la barre d'emplacements dans les dialogues Ouvrir et Sauver
+
+; Games against engines
+Games against engines=إلعب ضد محرِّك اللعبة
+Ask for saving when closing game=Demande de sauvegarde en fin de partie
+Use again previous game engine tab=Réutiliser l'onglet de jeu précédent
+Enable Undo=إسمح بإعادة التّحريك
+Only after capture=Seulement après capture
+Game engine options are inhibited during game=Options moteur de jeu inhibées en cours de partie
+
+
+; Warning
+Warnings=تنبيهات
+Warn when toggling to full screen=
+Warn at first modification=نَبِّه عند أوَّل تغيير
+Warn at modification in database game=
+Warn at modification in read only mode=Prévenir si tentative de modification en mode lecture seule
+Warn when delete branch=Prévenir si suppression branche
+Warn on invalid move=نَبِّه عند الحركات الغير شرعية
+Warn on game engine pass=Prévenir quand le moteur de jeu passe
+Warn on game engine resignation=Prévenir quand le moteur de jeu abandonne
+Warn when losing on time=نَبِّه عند خسارة بالوقت
+
+; PDF
+Use board color=إستعمل لون الغوبان
+Exact width (mm)=Largeur exacte (mm)
+Added border (N;W;S;E in % of image width)=Bordure ajoutée (N;O;S;E en % largeur image)
+Radius adjustment=معامل تسوية القطر
+Circle width=سمك الدوائر
+Line width=سمك الخطوط
+Double line width=سمك خطوط الحافَّة
+Hoshi stone ratio=Rapport hoshi/pierre
+Marks adjustment (line width;size factor)=Ajustement des marques (épaisseur;facteur de taille)
+Font size adjustment (f or f;f or f;f;f see help)=Facteur d'ajustement de la fonte (f ou f;f ou f;f;f voir aide)
+Line height adjustment=تسوية إرتفاع الخطوط
+
+;---

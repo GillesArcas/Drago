@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Turkish
+$HelpFile=Drago-En.chm
+$TranslationCredit=Çeviri: Bayram Butun
+$Update=4.22
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=Dosya
+View=Görünüm
+Navigation=Seyrüsefer
+Edit=Düzen
+Database=Veritabanı
+Games2=Oyunlar
+Problems=Problemler
+Play=Oyna
+Options=Seçenekler
+Help=Yardım
+
+;-- File
+New=Yeni
+Open=Aç
+Open folder=Tüm klasörü aç
+Save=Kaydet
+Save as=Farklı kaydet
+Save tab content as=Sekme içeriğini kaydet
+Read only=Salt okunabilir
+Close=Kapat
+Close all=Hepsini kapat
+Open from clipboard=Panodan aç
+Save to clipboard=Panoya kaydet
+Collections=Koleksiyonlar
+Favorites=Beğendiklerim
+Index=Dizin
+Game information=Oyun bilgileri
+Print=Yazdır
+Export=İhraç et
+Export position=Pozisyonu ihraç et
+Quit=Drago'yu kapa
+
+;-- Collection
+Append to=Şuna ekle
+Merge=Birleştir
+Extract current=Şimdikini çıkart
+Extract all=Hepsini çıkart
+Delete current game=Mevcut oyunu sil
+Make game tree=Oyun ağacı yap
+
+;-- View
+Full screen mode=Tam ekran modu
+View board=Tahtaya bak
+Preview game information=Oyun bilgisine gözat
+Preview board thumbnails=Tahta görüncüklerine gözat
+Reference view=Referans görünümü
+Mirror=Yanlamasına çevir
+Flip=Boylamasına çevir
+Opponent view=Rakibin manzarası
+Rotate 90 clockwise=90º saat yönünde döndür
+Rotate 90 counter clockwise=90º saatin aksi yönünde döndür
+Swap colors=Renkleri değiştir
+Show toolbars=Araç çubuklarını göster
+Toolbar settings=Araç çubuğu ayarları
+Board settings=Tahta ayarları
+Preview settings=Önizleme ayarları
+
+;-- Navigation
+First game=İlk oyun
+Previous game=Önceki oyun
+Next game=Sonraki oyun
+Last game=Son oyun
+Select game=Oyun seç
+Start position=Başlangıç pozisyonu
+Previous move=Önceki hamle
+Next move=Sonraki hamle
+End position=Bitiş pozisyonu
+Go to move=Şu hamleye git
+Previous target=Önceki hedef
+Next target=Sonraki hedef
+Auto replay=Oyunu oynat
+Navigation settings=Seyrüsefer ayarları
+Next variation=Sonraki varyasyon
+Previous variation=Önceki varyasyon
+Pointer up=İmleç yukarı
+Pointer down=İmleç aşağı
+Pointer left=İmleç sola
+Pointer right=İmleç sağa
+
+;-- Edit
+Undo move=Hamleyi geri al
+Delete branch=Dalı sil
+Game edit=Oyunu düzenle
+Game edit Black first=Oyunu düzenle, ilk Siyah
+Game edit White first=Oyunu düzenle, ilk Beyaz
+Add Black=Siyah taş ekle
+Add White=Beyaz taş ekle
+Empty=Boş
+Current markup=Şimdiki işaret
+Player=Oyuncu
+Black to play=Oynama sırası Siyahın
+White to play=Oynama sırası Beyazın
+Insert pass=Araya Pas ekle
+Insert=Araya ekle
+Make main branch=Ana dal yap
+Promote variation=Varyasyonu yükselt
+Demote variation=Varyasyonu düşür
+Remove properties=Özellikleri kaldır
+Insert empty node=Boş düğüm ekle
+Click at pointer=İmleçe tıkla
+Ctrl-click at pointer=İmleçe Ctrl-tıkla
+
+;-- Markup
+Cross=Çarpı
+Triangle=Üçgen
+Circle=Çember
+Square=Kare
+Letter=Harf
+Number=Numara
+Label=Etiket
+Black territory=Siyah alan
+White territory=Beyaz alan
+
+;-- Database
+Create database=Veritabanı yarat
+Open database=Veritabanı aç
+Add to database=Veritabanına ekle
+Search in database=Veritabanında ara
+One click search=Bir tıkla ara
+Database settings=Veritabanı ayarları
+
+;-- Games
+Replay session=Tekrar oynama oturumu
+Replay index=Tekrar oynama dizini
+Cancel replay session=Tekrar oynamayı iptal et
+
+;-- Problems
+Solve problems=Problem çöz
+Problem index=Problem dizini
+Hint=İpucu
+Free mode=Serbest mod
+Problem mode=Problem modu
+Cancel problem session=Problem oturumunu iptal et
+
+;-- Play
+New engine game=Yeni motor oyunu
+Pass=Pas
+Resign=Terk et
+Cancel game=Oyunu iptal et
+Score estimate=Skoru tahminen hesapla
+Suggest move=Hamle öner
+Show influence regions=Etki alanlarını göster
+Engine settings=Oyun motoru ayarları
+
+;-- Options
+Sidebar settings=Kenar çubuğu ayarları
+Language settings=Dil ayarları
+Advanced settings=Gelişmiş ayarlar
+Toggle coordinates=Koordinatları aç/kapa
+Toggle move markers=Hamle işaretçilerini aç/kapa
+View settings=Görünüm ayarları
+Game tree settings=Oyun ağacı ayarları
+
+;-- Help
+Display help=Yardımı göreyim
+Web site=
+Donate=
+About=Hakkında
+
+;-- Tabs popup menu
+New in tab=Sekmede yeni
+Open in tab=Sekmede aç
+Open folder in tab=Sekmede klasörü aç
+Reload current file=Mevcut dosyayı tekrar yükle
+
+;-- Sidebar menu
+Show in current tab=Mevcut sekmede göster
+
+;-- Tray icon menu
+Restore window=Pencereyi eski haline getir
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=&Yardım
+Ok=Tamam
+Cancel=Vazgeç
+Clipboard=Pano
+No=Hayır
+Yes=Evet
+Send=Gönder
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=Drago'ya hoşgeldin
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=Boyut
+Komi=Komi
+Handicap=Handikap
+Free placement=Serbest handi
+Create in=Şöyle oluştur...
+New file=Yeni bir dosyada
+Current file=Şimdiki dosyada
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=Oyun motoru
+Name=İsim
+Level=Seviye
+not defined=tanımlı değil
+Not available=Mevcut değil
+More engines=Başka oyun motorları
+
+;-- Start position
+New game=Yeni oyun
+Current position=Şu anki pozisyon
+Auto handicap=Otomatik handikap
+Engine plays with=Oyun motoru: 
+Black=Siyah
+White=Beyaz
+
+;-- Time settings
+Time settings=Zaman ayarları
+No time limit=Zaman limiti yok
+Total time=Toplam süre
+Time per move=Her hamle için süre
+Initial time plus over time=İlk süre + zaman aşımı
+Initial time=İlk süre
+Over time=Zaman aşımı
+Timing only for engine=Zamanlama sadece oyun motoru için
+
+;-- Game settings
+Game settings=Oyun ayarları
+Boardsize=Tahta boyutu
+
+;-- Scoring
+Scoring=Puanlama
+Territory counting=Japon usulü (Territory)
+Area counting=Çin usulü (Area)
+
+;-- Messages
+More=Daha
+No engine defined. Please select 'More...' then 'More engines...'=Oyun motoru tanımlanmamış. 'Daha...'ya tıklayıp 'Başka oyun motorları...'nı seçiniz
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=Mevcut oyun motoru bulunamadı. 'Daha...'ya tıklayıp 'Oyun motoru ayarları...'nı seçiniz ve yerini kontrol ediniz.
+Not all functions are supported by the engine currently selected.=Mevcut oyun motoru tarafından desteklenmeyen fonksiyonlar var.
+
+;-- GTP window
+GTP window=GTP penceresi
+Show GTP window=GTP penceresini göster
+Enter and send GTP command (no feedback on main board):=GTP komutunu gir ve gönder (ana tahta üzerinde geribildirim olmayacak):
+No engine running=Hiçbir oyun motoru çalışmıyor
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=Handikap taşlarını yerleştirmek için Goban'a tıklayınız.
+Click again on a stone to remove it.=Taşı kaldırmak için üzerine tekrar tıklayın.
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=Şimdikini ekle
+Add=Ekle
+Add favorite=Şukela olarak ekle
+Add game file=Oyun dosyası ekle
+Add folder=Klasör ekle
+Add database=Veritabanı ekle
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=Özet
+
+;-- Event
+Game=Oyun
+Event=Etkinlik
+Round=Tur
+Place=Yer
+Date=Tarih
+
+;-- Players
+Players=Oyuncular
+Rank=Derece
+Team=Takım
+
+;-- Rules
+Rules=Kurallar
+Time=Zaman
+hr=s
+mn=dk
+Byo-Yomi=Byo-Yomi
+
+;-- Sources
+Sources=Kaynaklar
+User=Kullanıcı
+Annotation=Bilgi notu
+Source=Kaynak
+Copyright=Telif hakkı
+
+;-- Comment
+Comment=Oyun Hakkında
+
+;-- Misc
+Misc=Muhtelif
+Application=Uygulama
+SGF format=SGF formatı
+Style=Stil
+No style defined for current game=Şimdiki oyun için hiç stil tanımlanmamış
+Show alternate moves - Allow board markup=Alternatif hamleleri göster - Tahta işaretlerine izin ver
+Show alternate moves - No board markup=Alternatif hamleleri göster - Tahta işaretleri olmasın
+Show next moves - Allow board markup=Sonraki hamleleri göster - Tahta işaretlerine izin ver
+Show next moves - No board markup=Sonraki hamleleri göster - Tahta işaretleri olmasın 
+Charset=Karakter seti
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=Önizleme
+Export figures=Figürleri ihraç et
+Export games=Oyunları ihraç et
+ESC to cancel=İptal etmek için ESC
+
+;-- Games and figure
+Games and figures=Oyunlar ve figürler
+
+;-- Games
+Games=Oyunlar
+Current game=Şimdiki oyun
+All=Hepsi
+to:=-      
+from:= 
+
+;-- Include information
+Include information=Oyun bilgisi içerilecek mi?
+at start of game=Oyunun başında
+as name of figure 1=Figür 1 in adı olarak
+Format=Düzen
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (S) ile \PW (B), \DT
+
+;-- Figures
+Figures=Figürler
+Position at move number=Şu hamledeki pozisyon...
+One figure every N moves=Her N hamle için bir figür
+One figure every %d moves=Her %d hamle için bir figür
+One figure every markup or comment=Her işaret ya da yorumda bir figür
+File figures=SGF  dosyasındaki figürler
+Variations=Varyasyonlar
+
+;-- Comments
+Comments=Yorumlar
+Include comments=Yorumları dahil et
+Remind figure titles=Figür başlıklarını hatırlat
+remind figure titles2=figür başlıklarını hatırlat
+Remind move numbers=Hamle numaralarını hatırlat
+remind move numbers2=hamle numaralarını hatırlat
+
+;-- Figure title
+Figure title=Figür başlığı
+Print title=Başlığı göster
+Relative numbers=Görece numaralar
+relative numbers2=görece numaralar
+Figure format=Figür formatı
+Variation format=Varyasyon formatı
+
+;-- Default formats for title
+Diagram \figure=Diyagram \figure
+Figure \figure (\moves)=Figür \figure (\moves)
+Game \game (\moves)=Oyun \game (\moves)
+Game \game - Diagram \figure=Oyun \game - Diyagram \figure
+Game \game - Figure \figure (\moves)=Oyun \game - Figür \figure (\moves)
+Game \game=Oyun \game
+Problem \game - Figure \figure=Problem \game - Figür \figure
+Problem \game=Problem \game
+
+;-- Layout tab
+Layout=Yerleşim
+
+;-- Header and footer
+Header and footer=Üstnot ve altnot
+Print header=Üstnotu bas
+Print footer=Altnotu bas
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\left 'Sayfa ' \page \right \date
+
+;-- Layout
+Layout2=Yerleşim
+First figure alone in the line=İlk figür satırda yalnız olsun
+1st figure alone=İlk figür tekbaşına
+1st figure ratio=İlk figürün oranı
+Figures per line=Her sırada figür
+Figure ratio=Figür oranı
+
+;-- Margins
+Margins (mm)=Sayfa kenar boşlukları (mm)
+Left2=Sol
+Right2=Sağ
+Top=Üst
+Bottom=Alt
+
+;-- Font
+Font=Font
+Name:=İsmi:
+Size:=Boyutu:
+
+;-- Styles
+Styles=Stiller
+Remove=Çıkart
+Add current print options as style with name:=Şimdiki print seçeneklerini şu isimle ekle:
+Remove style=Stili kaldır
+
+;-- Style description strings not yet listed
+Games from %d to %d=%d den %d e kadarki oyunlar
+Include variations=Varyasyonlar da dahil mi?
+with format=biçim: 
+with formats=biçimler: 
+with ratio=oran ile
+absolute numbers=gerçek numaralar
+
+;-- Formats
+Formats=Formatlar
+Formats for exporting games=Oyunları ihraç etmek için formatlar
+Formats for exporting figures=Figürleri ihraç etmek için formatlar
+Paper=Kağıt
+Letter2=Letter
+Landscape=Yatay
+Settings=Ayarlar
+PDF compression=PDF sıkıştırma
+Jpeg quality (1-100)=JPEG kalitesi (1-100)
+
+;-- Printing as book
+%d at %d= %d > %d
+%d at %s= %d > %s
+%d above %d= %d > %d in üstünde
+%d below %d= %d > %d in altında
+%d at left of %d= %d > %d in solunda
+%d at right of %d= %d > %d in sağında
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=Figür koordinatları
+Dimensions (mm)=Boyutlar (mm)
+Dimensions (px)=Boyutlar (px)
+Stone diameter=Taş çapı
+As books=Kitap olarak
+Mode=Mod
+Moves from 1 to 10=1'den 10'a kadar hamleler
+Black with circle=Siyah, daire ile
+Black with square=Siyah, kare ile
+White with circle=Beyaz, daire ile
+White with square=Beyaz, kare ile
+Draw edge=Kenarı çiz
+H=Boy
+W=En
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=İlk sayfa
+Previous page=Önceki sayfa
+Next page=Sonraki sayfa
+Last page=Son sayfa
+Zoom in=Yakınlaştır
+Zoom out=Uzaklaştır
+Page %d of %d=%1:d sayfanın %0:d.si
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=Goban
+
+;-- Board
+Board=Goban
+Board1=Tahta
+Default texture=Varsayılan doku
+Custom texture=Özel doku
+Color=Renk
+Thick edges=Kalın kenarlar
+Hoshis=Hoshi'ler
+
+;-- Stones
+Stones=Taşlar
+
+;-- Coordinates
+Coordinates=Koordinatlar
+None2=Yok
+Korschelt=Korschelt
+
+;-- Coordinate background
+Coordinate background=Koordinat arkaplanı
+As board=Tahta gibi
+
+;-- Displayed zone
+Displayed zone=Gösterilen bölge
+Whole board=Tahtanın tümü
+Zoom on corner=Köşeye yakınlaş
+
+;-- Moves tab
+Moves=Hamleler
+
+;-- Show moves
+Show moves=Hamle gösterimi
+All moves with number=Bütün hamleleri, numarayla
+Last move with number=Son hamleyi, numarasıyla
+Last move with markup=Son hamleyi, işaretle
+Last %d moves with number=Son %d hamleyi, numarayla
+Number of visible move numbers:=Görünür son hamle sayısı:
+
+;-- Show variations as
+Show variations as...=Varyasyonları şöyle göster...
+
+;-- Markup of variations on goban
+Markup of variations on goban=Varyasyonların gobandaki gösterim şekli
+None=Yok
+Ghost stones=Hayaletimsi taşlarla
+Uppercase letters=Büyük harflerle
+Lowercase letters=Küçük harflerle
+
+;-- Move numbers
+Move numbers=Hamle numaraları
+Display only two last digits=Sadece son iki rakamı göster
+
+;-- Game tree tab
+Game tree=Oyun ağacı
+
+;-- Background
+Background=Arkaplan
+
+;-- Stone radius
+Radius=Yarıçap
+
+;-- Move number position
+No2=Yok
+On the side=Kenarda
+On the stones=Taşların üstünde
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=Pencere arkaplanı
+
+;-- Light source
+Light source=Işık kaynağı
+Top left=Sol-üstten
+Top right=Sağ-üstten
+
+;-- Skins
+Menu and toolbar skins=Menü ve araç çubuğu kaplamaları
+
+;-- Preview tab
+Preview2=Önizleme
+Definition of information columns=Gösterilen bilgi sütunları
+Black player=Siyah oyuncu
+Black rank=Siyah'ın derecesi
+Result=Sonuç
+White player=Beyaz oyuncu
+White rank=Beyaz'ın derecesi
+Select property etc.=Özellikleri seçip okları kullanın, ya da tutup taşıyın.
+Sorting of information records=Bilgi kayıtlarının sıralanması
+Enabled if record number is less than=Kayıt sayısı N den küçük ise etkin
+Thumbnail preview=Minik resimli önizleme
+Stone radius=Taş yarıçapı
+
+;-- Sidebar tab
+Sidebar=Kenarçubuğu
+Default visibility of panels when creating a tab=Sekme oluştururken panoların varsayılan görünümü
+Always visible=Hep görünecekler
+Visible if needed=Gerekirse görünecekler
+Timing=Zamanlama
+Node name=Düğüm ismi
+Variation list=Varyasyon listesi
+Game information panel=Oyun bilgisi panosu
+Display images=Resimleri göster
+Image directory=Resim klasörü
+Comment font=Yorum fontu
+
+;-- Text panels
+Text panels=Metin panoları
+
+;-- Shortcuts tab
+Shortcuts=Kısayollar
+Select category:=Kategori seç:
+Engine=Oyun motoru
+Replay=Oynat
+Select command:=Komut seç:
+Click in box and type shortcut:=Kutuya tıkla ve kısayolu tuşla:
+Assigned to:=Zaten şuna atanmış:
+(none)=(yok)
+Assign=Atayıver
+Clear=Temizle
+Assign shortcut to selected command=Kısayolu seçili komuta ata
+Clear shortcut of selected command=Seçili komuttaki kısayolu temizle
+
+;-- Toolbars tab
+Toolbars=Araç çubukları
+Select toolbar:=Araç çubuğu seç:
+Misc2=Muhtelif
+Select command and toolbar etc.=Komutu ve araç çubuğunu seçin, ok butonlarını kullanarak ya da taşıyarak komutu araç çubuğuna bırakın.
+(Separator)=(Ayraç)
+
+;-- Sounds tab
+Sounds=Sesler
+Enable sounds=Sesleri etkinleştir
+Invalid move=Geçersiz hamle
+Engine move=Oyun motoru hamlesi
+Default=Varsayılan
+Custom=Özel
+Test=Test
+Sound files=Ses dosyaları
+Select sound file=Ses dosyası seç
+
+;-- Files tab
+Files=Dosyalar
+
+;-- File association
+File associations=Doğrudan açılacak dosyalar
+Unable to update file association!=Dosya açma protokolü değiştirilemiyor!
+Check user rights.=Kullanıcı haklarını kontrol ediniz.
+
+;-- Starting
+Starting=Başlangıç
+Start with last files=Son dosyalarla başla
+Start with last move=Hatta, son bıraktığım hamlede olsun
+
+;-- Properties
+Properties=Özellikler
+Save with 10 moves on each line=Her satırda 10 hamle ile kaydet
+New file with full SGF properties=Yeni dosyayı bütün SGF özelliklerine sahip olarak aç
+Change player with SGF property=Oyuncuyu SGF özelliğiyle değiştir
+Compress lists of points=Puan listesini sıkıştır
+Accept long property names=Uzun özellik isimlerini kabul et lütfen
+
+;-- Navigation tab
+Move targets=Hamle nişanları
+Every N moves=Her N hamle
+Starts of variation=Varyasyon başları
+Ends of variation=Varyasyon sonları
+Time between two moves=İki hamle arasındaki zaman
+Use timing properties when available=Mevcutsa zamanlama özelliklerini kullan
+Stop at targets=Hamle nişanlarında dur
+
+;-- Database tab
+General=Genel
+Cache=Önbellek
+Creation=Yarat
+Create with extended algorithms=Genişletilmiş algoritmalarla yarat
+Process variations=Varyasyonları işle
+Detect duplicates=Tekrarlayan dosyaları algıla
+by using signature=imza kullanarak
+by using final position=son pozisyonu karşılaştırarak
+Omit duplicates when detected=Bulursan tekrarları dahil etme
+Omit games with SGF errors=SGF hataları olanları dahil etme
+Pattern search=Desen ara
+Search in variations=Varyasyonlarda ara
+Move limit=Hamle limiti
+
+;-- Game engine tab
+
+Game engines=Oyun motorları
+List of engines=Oyun motoru listesi
+Analysis=Analiz
+
+;-- Binary
+Path=Konum
+Select engine path=Oyun motoru konumu
+Parameters=Parametreler
+Usage=Kullanım
+Use for game=Oyun için kullan
+Use for analysis=Analiz için kullan
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=Kurallar, zamanlama, tahta boyutu ve seviye argümanları otomatik ayarlanmış. Mevcut oyun motoru için başka ayarlar buradan girilebilir.
+
+;-- Lists of features
+Playing features=Oynama özellikleri
+Chinese rules=Çin kuralları
+Japanese rules=Japon kuralları
+Fixed handicap=Sabit handikap
+Free handicap=Serbest handikap
+Time per game=Her oyun için zaman
+Undo=Geri al
+Detailed game results=Detaylı oyun sonuçları
+Analysis features=Analiz özellikleri
+Move suggestion=Hamle önerisi
+Influence region=Etki bölgesi
+Group status=Grubun vaziyeti
+
+;-- Predefined engines
+Select predefined engine=Önceden tanımlanmış oyun motorunu seç
+Open browser, download and install=İnternete gir, indir ve yükle
+Already installed=Zaten yüklenmiş
+Press Ok (then you will have to enter executable installation path) or cancel.= Tamam'a (sonra exe dosyasının yüklendiği yeri seçmeniz gerekiyor) ya da Vazgeç'e tıkla.
+If the engine motor you want to play with is not in the list, edit the following file:=Oynamak istediğiniz oyun motoru listede yoksa, şu dosyayı düzenlemeniz gerekiyor:
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Kurallar, zamanlama, tahta boyutu ve seviye argümanları önceden tanımlanmış. Mevcut oyun motoru için ek argümanlar buradan girilebilir.
+Current parameters=Mevcut parametreler
+Additional parameters=Ek parametreler
+
+;-- Language tab
+
+Language=Dil
+Select language for user interface=Kullanıcı arayüzü için dil seçin
+Select code page for game files=Oyun dosyaları için kod sayfasını seçin
+Create game files using...=Oyun dosyalarını şunu kullanarak yarat...
+Unicode=Unicode
+System default code page=Sistemde varsayılan kod sayfası
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=Özel taş seç
+Path for Black stones=Siyah taş dosyası
+Path for White stones=Beyaz taş dosyası
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=Taş isimleri çapı belirten bir sayı içermelidir. Eğer isimleri ikinci bir sayı içerirse, bu grafiksel ifadedeki değişiklikleri gösterir.
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=Bilgi notları
+
+;-- Position annotations
+Position annotations=Pozisyon notları
+Good for Black=Siyah için iyi
+Good for White=Beyaz için iyi
+Balanced position=Dengeli pozisyon
+Unclear position=Belirsiz durum
+Very good for Black=Siyah için çok iyi
+Very good for White=Beyaz için çok iyi
+Very balanced position=Çok dengeli pozisyon
+Very unclear position=Çok belirsiz durum
+Hot spot=Sıcak nokta
+Very hot spot=Çok sıcak nokta
+
+;-- Move annotations
+Move annotations=Hamle açıklama notları
+Bad=Kötü
+Doubtful=Şüpheli
+Tesuji=Tesuji
+Very bad=Çok kötü
+Interesting=İlginç
+Very good tesuji=Çok iyi tesuji
+
+;-- Text
+Text=Metin
+
+;-- Others
+Others=Diğer...
+
+;-- Timing
+Black time left=Siyahın kalan zamanı
+White time left=Beyazın kalan zamanı
+
+;-- Figures
+Insert figure=Figür ekle 
+Show coordinates=Koordinatları göster
+
+;-- Other properties
+Other properties=Diğer özelikler
+Move numbers from=Başlama hamle numarası
+Wrong variation (uliGo)=Yanlış varyasyon (uliGo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=Özellikleri virgülle ayrılmış halde giriniz
+All games in collection=Koleksiyondaki bütün oyunlar
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=Oyunu tekrar oyna
+
+;-- Select game
+Select game2=Oyunu seç
+Loaded game=Yüklenmiş oyun
+Sequential=Sırasıyla
+Random=Rastgele
+
+;-- Play with
+Play with=Şu renkle oyna
+Both=İkisiyle de
+
+;-- Play...
+Play2=Oyun...
+Full game=Tüm oyun
+Fuseki=Fuseki
+From current position=Şimdiki pozisyondan
+From current position (only for current game)=Şimdiki pozisyondan (sadece bu oyun için)
+
+;-- Move number in Fuseki
+Move number in Fuseki=Fuseki'deki hamle sayısı
+
+;-- Number of attempts per move
+Number of attempts per move=Her hamle için teşebbüs sayısı
+Only one=Sadece bir
+Unlimited=Limitsiz
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=İstatistikler
+Problems in collection=Koleksiyondaki problemler
+Visited problems=Ziyaret edilmiş problemler
+Number of attempts=Teşebbüs sayısı
+Number of successes=Başarı sayısı
+Show detailed statistics=Detaylı istatistikleri göster
+Reset collection statistics=Koleksiyon istatistiklerini sıfırla
+
+;-- Problem order
+Problem order=Problem sırası
+Sequential from current=Şimdikinden itibaren sırayla
+Sequential from stored=Kaydedilmiş olandan sırayla
+Random color=Rastgele renkle
+Random position=Rastgele pozisyonla
+Number of problems=Problem sayısı
+
+;-- Failure ratio
+Include problems incorrectly solved=Yanlış çözülen problemleri de say
+don't care=boşver
+ratio=yüzde
+
+;-- Solution marks
+Solution marks=Çözüm yolu işaretleri
+Main line=Ana çözüm yolu
+Autodetect=Otomatik olarak anla
+
+;-- More popup menu
+Show=Göster
+Timer=Süre-ölçer
+Glyphs=Glyphs
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=Dosya isimleri için kökü seç:
+Export starting from:=Şundan başlayarak ihraç et:
+Merge... Select files=Birleştir... Dosyaları seç
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=Klasörü kaydet
+Files modified in folder=Klasördeki değiştirilmiş dosyalar, 
+Select files to save:=Kaydedilecek dosyaları seç:
+Select all=Hepsini
+Unselect all=Hiçbirini
+Ignore=Boşver
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=Derinlik
+Unique moves=Özgün hamleler
+Normalize position of first move=İlk hamle pozisyonunu normalize et
+Game reference=Oyun referansı
+Filename=Dosya adı
+Games to process=İşlenecek oyun
+Process current tab=Mevcut sekmeyi işle
+Select files or folders to process=İşlenecek dosyaları ya da klasörleri seç
+Start=Başla
+
+;-- Messages
+Only main branch is processed=Sadece ana dal işlendi
+Move inversions are not detected=Hamle evirimleri algılanmadı
+Unable to process file=Dosyayı işleyemiyorum
+Unable to process file completely=Doayayı tamamen işleyemiyorum
+Game ignored (some not alternative moves):=Oyun yok sayıldı (alternatif hamle olmaması vs):
+Game ignored (board size not handled):=Oyun yok sayıldı (tahta boyutuyla başa çıkamadım)
+Game tree ready.=Oyun ağacı hazır.
+Elapsed time (seconds)=Geçen zaman (saniye)
+Number of games=Oyun sayısı
+percentage and number of games in variation=varyasyondaki oyun yüzdesi ve sayısı
+winning percentage of move=hamlenin kazanma yüzdesi
+number of unknown results=bilinemeyen sonuç sayısı
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=ücretsiz bir yazılımdır
+Version=Versiyon
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo ve libkombilo Ulrich Goertz'indir:
+Credits=Hakkı verilesiler
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=Bütün dosyalar
+BMP files=BMP dosyaları
+DOC files=DOC dosyaları
+HTML files=HTML dosyaları
+JPEG files=JPEG dosyaları
+RTF files=RTF dosyaları
+SGF files=SGF dosyaları
+GIF files=GIF dosyaları
+PNG files=PNG dosyaları
+MGT files=MGT dosyaları
+ASCII files=ASCII dosyaları
+PDF files=PDF dosyaları
+Database files=Veritabanı dosyaları
+Text files=Metin dosyaları
+
+;-- Export captions
+Export games with HTML format=HTML formatındaki oyunları ihraç et
+Export games with RTF format=RTF formatındaki oyunları ihraç et
+Export games to HTML format=HTML formatındaki oyunları ihraç et
+Export games to RTF format=RTF formatındaki oyunları ihraç et
+Export games to PDF format=PDF formatındaki oyunları ihraç et
+Export games to MSWORD format=MSWORD formatındaki oyunları ihraç et
+
+;-- Select texture dialog
+Select texture=Deseni seç
+(empty)=(boş)
+Image:=Resim:
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=Son hamle
+Black prisoners=Siyah esirler
+White prisoners=Beyaz esirler
+
+;-- Game information
+Game information2=Oyun bilgisi
+
+;-- Variation list panel
+Next moves=Sonraki hamleler
+Alternate moves=Alternatif hamleler
+
+;-- Replay panel
+Game2=Oyun
+You=Siz
+
+;-- Problem panels
+Reference=Referans
+Problem=Problem
+Attempt=Teşebbüs
+Attempts=Teşebbüsler
+Trial=Teşebbüs
+Trials=Teşebbüsler
+Problem status=Problemin durumu
+Attempt status=Teşebbüs durumu
+Running=Devam ediyor
+Success=Çözüldü ^^
+Failure=Olmadı
+Assisted=Zorla çözüldü!
+Free=Serbest
+
+;-- Problem result box
+End of problem session.=Problem oturumunun sonu.
+Session result: %d / %d= Oturum sonucu: %d / %d
+Collection score after session: %s=Oturum sonu koleksiyon skoru: %s
+More problems?=Daha çok problem çözmek ister misiniz?
+
+;-- Game result string
+Black wins=Siyah kazanmış
+White wins=Beyaz kazanmış
+%s wins by %s points=%s %s puanla kazanmış
+Draw=Berabere
+No result=Sonuçsuz
+Unknown result=Sonuç bilinmiyor
+by forfeit= (diğeri ceza almış)
+by resignation= (terk ile)
+on time= (zaman ile)
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=Bu mesajı bi daha gösterme
+Toggling to full screen mode.=Tam ekran moduna geçiyor.
+Restore window mode with %s=Pencere modu %s ile eski haline döner
+
+;-- Tab errors
+Unable to create tab=Sekme yaratılamıyor
+
+;-- Edit messages
+No move to add variation.=Varyasyona ekleyecek hamle yok.
+Move impossible to cancel=Hamle iptal edilemiyor 
+Delete whole branch.=Bütün dalı sil.
+File modification.=Dosya değişikliği.
+Beware game modification will not be updated in database.=Bil ki, oyun değişikliği veritabanında güncellenmeyecek..
+Do you want to proceed?=Devam etmek istiyor musunuz?
+
+;-- File errors
+File not open=Dosya açık değil
+Bracket not found=Parantez bulunamadı
+Error opening file=Dosyayı açmada hata oldu
+Error opening folder=Klasörü açmada hata oluştu
+Line=Çizgi
+File partialy read=Dosya kısmen okunabildi
+File %s is read only.=Dosya %s salt okunabilir.
+File %s not saved.=Dosya %s kaydedilmedi.
+Folder %s not saved.=Klasör %s kaydedilmedi.
+First game not found=İlk oyun bulunamadı
+Illegal character=Geçersiz karakter
+Impossible to save %s.=Ben bunu kaydedemiyorum, %s .
+Impossible to save.=Kaydetmem mümkün değil.
+Impossible to write file=Dosyayı yazmam imkansız.
+Semicolon not found after parenthesis=Parantezden sonra noktalı virgül bulunamadı.
+Invalid property name=Geçersiz özellik adı
+Memory error=Hafıza hatası
+Read only file=Salt okunur dosya
+The loaded game is not Go : GM property=Yüklenen oyun Go oyunu değil: GM özelliği
+Invalid board size=Geçersiz tahta boyutu
+Size will be set to 19.=Boyut 19x19'a ayarlanacak.
+Unexpected end of file=Beklenmeyen dosya sonu
+
+;-- File warnings
+Reload and lose modifications?=Tekrar yükle ve değişiklikler kaybolsun?
+Save changes in %s?=%s 'deki değişiklikleri kaydet?
+
+;-- Replay messages
+Game with no name. Save to proceed.=İsmi olmayan oyun. Devam etmek için kaydedin.
+File not saved. Save to proceed.=Dosya kaydedilmedi. Devam etmek için kaydedin.
+The file doesn't seem to be a game file.=Dosya, bir oyun dosyası değil gibi görünüyor.
+The file doesn't seem to be a problem file.=Dosya, bir problem dosyası değil gibi görünüyor.
+The file is not a problem collection.=Dosya bir problem koleksiyon dosyası değil.
+A problem collection must be loaded to start a problem session.=Bir problem oturumu başlatmak için bir problem koleksiyonu yüklenmeli.
+Continue=Devam et
+End of fuseki=Fuseki'nin sonu
+End of game=Oyunun sonu
+Score=Skor
+
+;-- Move errors
+Illegal move=Yasak hamle
+Illegal ko capture=Yasak Ko hamlesi
+Illegal suicide...=Böyle intihar olmaz...
+Impossible to play there=Oraya oynanamıyor maalesef
+
+;-- Game engine messages
+Abnormal termination of game engine=Oyun motorunun anormal bi şekilde kafası karıştı ve kendini kapattı.
+Do you really want to resign?=Gerçekten terk etmek istiyor musun?
+Game aborted=Oyun durduruldu
+Error=Hata
+Black has passed=Siyah pas dedi
+White has passed=Beyaz pas dedi
+Black resigns=Siyah terk eder
+White resigns=Beyaz terk eder
+Black loses on time=Siyah zamanla kaybeder
+White loses on time=Beyaz zamanla kaybeder
+Pass2=Pas
+pass3=pas
+Territory=Alan
+Prisoners=Esirler
+Total=Toplam
+Please select board view before starting game.=Başlamadan önce tahta görünümünü seçin.
+Current engine is unable to start...=Mevcut oyun motoru başlayamıyor...
+Engine configuration file missing. Please check installation.=Oyun motoru ayar dosyası kaybolmuş. Yüklemeyi kontrol edin lütfen.
+alive=canlı
+dead=ölü
+critical=kritik
+
+;-- Export
+Problem while copying in clipboard=Panoya kopyalarken problem oluştu
+Problem while saving image=Resmi kaydederken problem oluştu
+Unable to export...=İhraç edilemedi...
+Close Word and restart export.=Word'u kapa ve ihracı yerinden başlat.
+Please, close previous preview to proceed.=Lütfen, devam etmek için önceki önizlemeyi kapatın.
+File is in use, close to proceed.=Dosya kullanımda, devam etmek için kapatın.
+
+;-- Preview
+Sorting is not enabled over %d records.=Sıralama %d kayıtta etkinleştirilmedi.
+See Options | Preview to change this setting.=Bu ayarı değiştirmek için Seçenekler|Önizleme 'ye bakınız.
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=Backspace
+Tab=Tab
+Esc=Esc
+Enter=Enter
+Space=Space
+PgUp=PgUp
+PgDn=PgDn
+End=End
+Home=Home
+Left=Left
+Up=Up
+Right=Right
+Down=Down
+Ins=Ins
+Del=Del
+Shift+=Shift+
+Ctrl+=Ctrl+
+Alt+=Alt+
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=Dosya ya da klasörleri seç
+Clear all=Hepsini temizle
+Include subfolders=Alt-klasörleri de dahil et
+Start2=Başla
+Abort=Durdur
+Save database as=Veritabanını kaydet...
+Please give database name=Lütfen veritabanına bir isim verin
+%s already exists.=%s zaten var.
+Do you want to overwrite it?=Üzerine yazmak istiyor musun?
+Database open, please close first=Veritabanı açık, lütfen önce kapatın
+Unable to create database=Veritabanı yaratılamıyor
+
+;-- Search dialog
+Pattern=Desen
+;Game information=
+Signature=İmza
+Reset=Sıfırla
+No database loaded=Hiç veritabanı yüklenmemiş
+No database loaded... Load or create.=Veritabanı yüklenmemiş... Yükleyin ya da yaratın.
+Select database=Veritabanı seç
+Search=Ara
+Search in results=Sonuçlarda ara
+Whole database=Bütün veritabanı
+Current results=Halihazırdaki sonuçlar
+View results in tab=Sonuçlara sekmede bak
+View results on board=Sonuçlara tahtada bak
+View results in game information list=Sonuçlara oyun bilgisi listesinde bak
+View results in board thumbnails=Sonuçlara minik tahta resimlerinde bak
+
+;-- Pattern search
+Pattern (right-click to select)=Desen (seçmek için sağ fare tuşu)
+Wildcard=Joker
+Capture=Kapıver
+Clear2=Temizle
+View:=Görünüm:
+Results=Sonuçlar
+Frequency=Sıklık
+Urgency=Aciliyet
+Efficiency=Verimlilik
+Fixed:=Sabit:
+Position=Pozisyon
+Next move:=Sonraki hamle:
+%d matches=%d eşleşme
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d eşleşme (%d/%d), S: %1.1f%%, B: %1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=S|S/T|S+/S|S-/S|B|B/T|S+/B|S-/B
+Right-click to select on board=Seçmek için tahtada sağ tıkla
+Found games are in database tab=Bulunan oyunlar veritabanı sekmesinde
+
+;-- Information search
+Game information search=Oyun bilgisi arama
+Search on players=Oyuncular üzerinde arama
+Any=Herhangi birisi
+One of both=İkisinden birisi
+Winner=Kazanan
+Loser=Kaybeden
+Search on date=Zaman bilgisiyle arama
+Day=Gün
+Month=Ay
+Year=Yıl
+Range=Aralık
+To=ile
+Search on result=Oyun sonucu bilgisiyle arama
+wins=kazanmış
+wins by=N puanla kazanmış
+wins by at least=en az N puanla kazanmış
+wins by at most=en çok N puanla kazanmış
+wins by resignation=terk ile kazanmış
+wins on time=zamanla kazanmış
+wins by forfeit=ceza ile kazanmış
+Other or unknown=Başka bişey ya da meçhul
+More conditions=Daha
+SQL=SQL
+
+;-- Signature search
+Signature search=İmza arama
+
+;-- Settings
+Search settings=Arama ayarları
+Select or open database=Veritabanı seç ya da aç
+Pattern search parameters=Desen arama parametreleri
+Fixed color=Sabit renk
+Fixed position=Sabit pozisyon
+Pattern search next move=Bir sonraki hamleyi desenle ara
+Any or none=Bazı ya da hiç
+Pattern search view=Desen arama görünümü
+Full=Hepsi
+Digest=Derle
+
+;-- Messages
+Error opening database=Veritabanını açarken hata oluştu
+No search for center empty patterns.=Merkezi boş desenler için arama yok.
+No search for center single stone patterns.=Merkezde tek taşlı desenler için arama yok.
+No search rectangle defined.=Arama dikdörtgeni tanımlanmamış.
+Operation aborted by user=İşlem kullanıcı tarafından durduruldu
+%d file(s) to process=İşlenecek %d dosya
+%d games processed, %s elapsed=%d oyun işlendi, süre: %s
+%d file(s) processed, %s elapsed=%d dosya işlendi, süre:%s
+Unable to process game=Oyun işlenemiyor
+Unable to process game completely=Oyun tamamen işlenemedi
+Boardsize not handled=Tahta boyutu işlenemedi
+SGF error detected, game inserted=SGF hatası bulundu, oyun eklendi
+SGF error detected, game not inserted=SGF hatası bulundu, oyun eklenmedi
+Duplicate detected=Tekrar bulundu
+Duplicate ignored=Tekrar ihmal edildi
+;%d result(s)=%d résultat(s)
+No game found in %s=%s 'te hiç oyun bulunamadı
+1 game found in %s=%s 'te tek oyun bulundu
+%d games found in %s=%1:s 'te %0:d oyun bulundu
+Save logfile=Seyir defterini kaydet
+%d ms.=%d ms.
+%2.2f seconds=%2.2f saniye
+Unable to modify game in database.=Veritabanındaki oyunu değiştiremedim.
+Extract to a new tab and try again?=Yeni bir sekmeye ayıklayıp tekrar deneyeyim?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=Gelişmiş
+Restore default=Varsayılanlara geri dön
+Select=Seç
+Select all2=Hepsini seç
+Restore=Geri yükle
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=Taş ayarlama modunda tıklama sırası
+Set, remove=Taş koy, kaldır
+Set, swap color, remove=Taş koy, rengini değiştir, kaldır
+Enable moves as books=Hamlaleri kitap olarak etkinleştir
+Start variation from 1=Varyasyonu 1'den başlat
+Start variation with figure=Varyasyonu figür ile başlat
+Start variation settings include main line=Varyasyon başı ayarları asıl hamle dizisini içersin
+Bold text=Kalın metin
+Maximum font size=Maksimum font büyüklüğü
+Texture tiling with symmetries=Simetri kullanarak doku döşemesi
+
+; User interface
+User interface=Kullanıcı arayüzü
+Allow only one instance=Sadece tek bir programa izin ver
+Minimize to tray=Tepsiye küçült
+Hook content of window when resizing=Boyutlandırırken pencerenin içeriklerini askıda tut
+Anchor panels at bottom=Panelleri dipte sabitle
+Show tab close buttons=Sekme kapat butonlarını göster
+
+; Files
+Save paths relatively to install folder=Klasör yüklemek için yolları göreceli kaydet.
+Abort reading on file error=Dosya hatasında okumayı durdur
+Open save dialogs with places bar=Kaydet diyaloglarını yer barı ile aç
+
+; Games against engines
+Games against engines=Oyun motorlarına karşı oyunlar
+Ask for saving when closing game=Oyunu kapatırken kaydetmek için sor
+Use again previous game engine tab=Tekrar önceki oyun motoru sekmesini kullan
+Enable Undo=Geri al etkin olsun mu?
+Only after capture=Sadece o an taş alınmışsa, evet
+Game engine options are inhibited during game=Oyun motoru seçeneklerini oyun sırasında değiştiremezsiniz.
+
+
+; Warning
+Warnings=İkazlar
+Warn when toggling to full screen=Tam ekrana geçerken uyar
+Warn at first modification=İlk değişiklikte ikaz et
+Warn at modification in database game=Veritabanı oyunu değişikliğinde uyar
+Warn at modification in read only mode=Salt okunabilir mod değişikliğinde uyar
+Warn when delete branch=Varyasyonlarda, bir dalı silerken ikaz et
+Warn on invalid move=Geçersiz hamlede ikaz et
+Warn on game engine pass=Oyun motoru pas dediğinde uyar
+Warn on game engine resignation=Oyun motoru terk ettiğinde uyar
+Warn when losing on time=Zamandan kaybediyorken uyar
+
+; PDF
+Use board color=Tahta rengini kullan
+Exact width (mm)=Tam genişlik (mm)
+Added border (N;W;S;E in % of image width)=Kenar boşlukları (Üst;Sol;Alt;Sağ resim genişliğinin % si)
+Radius adjustment=Yarıçap ayarı
+Circle width=Çember genişliği
+Line width=Çizgi kalınlığı
+Double line width=Çift çizgi genişliği
+Hoshi stone ratio=Hoshi taş genişliği
+Marks adjustment (line width;size factor)=İşaret ayarı (çizgi kalınlığı;boyut faktörü)
+Font size adjustment (f or f;f or f;f;f see help)=Font boyutu ayarı (f ya da f;f ya da f;f;f, yardıma bak)
+Line height adjustment=Satır yüksekliği ayarı
+
+;---

@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Vietnamese
+$HelpFile=Drago-En.chm
+$TranslationCredit=KoKs\nhttp://vncovay.org\ntranphuong@d3zigners.com
+$Update=
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=Tài liệu
+View=Giao diện
+Navigation=Điều hướng
+Edit=Sửa
+Database=Cơ sơ dữ liệu
+Games2=Lập lại ván đấu
+Problems=Cờ thế
+Play=Chơi
+Options=Chọn lựa
+Help=Giúp đỡ
+
+;-- File
+New=Tạo mới
+Open=Mở
+Open folder=Mở thư mục
+Save=Lưu
+Save as=Lưu thành tài liệu khác
+Save tab content as=Lưu nội dung tab
+Read only=Chỉ đọc
+Close=Đóng
+Close all=Đóng hết
+Open from clipboard=
+Save to clipboard=
+Collections=Sưu tập kì phổ
+Favorites=Kì phổ ưa thích
+Index=Mục lục
+Game information=Thông tin kì phổ
+Print=In
+Export=Xuất dữ liệu
+Export position=Xuất vị trí
+Quit=Thoát
+
+;-- Collection
+Append to=Nối lại
+Merge=Hợp nhất
+Extract current=Tách dữ liệu hiện tại
+Extract all=Tách hết
+Delete current game=
+Make game tree=
+
+;-- View
+Full screen mode=
+View board=Xem bàn cờ
+Preview game information=Xem trước thông tin kì phổ
+Preview board thumbnails=Xem trước hình thu nhỏ bàn cờ
+Reference view=Tham khảo
+Mirror=Đối xứng gương
+Flip=Lật ngược
+Opponent view=Xem từ vị trí đối thủ
+Rotate 90 clockwise=90 độ quay theo chiều kim đồng hồ
+Rotate 90 counter clockwise=90độ quay ngược chiều kim đồng hồ
+Swap colors=Đổi màu quân cờ
+Show toolbars=Hiện thanh công cụ
+Toolbar settings=Thiết lập thanh công cụ
+Board settings=Thiết lập bàn cờ
+Preview settings=一Xem trước các thiết lập
+
+;-- Navigation
+First game=Kì phổ đầu tiên
+Previous game=Kì phổ trước
+Next game=Kì phổ tiếp
+Last game=Kì phổ cuối cùng
+Select game=Chọn kì phổ
+Start position=Vị trí bắt đầu
+Previous move=Nước đi trước
+Next move=Nước đi tiếp
+End position=Vị trí kết thúc
+Go to move=Đến nước đi
+Previous target=Mục tiêu trước
+Next target=Mục tiêu tiếp
+Auto replay=Tự đông lập lại ván đấu
+Navigation settings=Thiết lập điều hướng
+Next variation=Biến tiếp
+Previous variation=Biến trước
+Pointer up=Con trỏ lên
+Pointer down=Con trỏ xuống
+Pointer left=Con trỏ trái
+Pointer right=Con trỏ phải
+
+;-- Edit
+Undo move=Đi lại
+Delete branch=Xóa nhánh
+Game edit=Sửa kì phổ
+Game edit Black first=Sửa kì phổ Đen đi trước
+Game edit White first=Sửa kì phổ Trắng đi trước
+Add Black=Thêm Đen
+Add White=Thêm Trắng
+Empty=Xóa
+Current markup=Đánh dấu hiện tại
+Player=Kì thủ
+Black to play=Đen đi
+White to play=Trắng đi
+Insert pass=Chèn nước pass
+Insert=Chèn
+Make main branch=
+Promote variation=
+Demote variation=
+Remove properties=
+Insert empty node=
+Click at pointer=Bấm vào con trỏ
+Ctrl-click at pointer=Giữ Ctrl và bấm vào con trỏ
+
+;-- Markup
+Cross=Dấu thập
+Triangle=Tam giác
+Circle=Hình tròn
+Square=Hình vuông
+Letter=Ký tự
+Number=Số
+Label=Nhãn
+Black territory=Lãnh thổ của đen
+White territory=Lãnh thổ của trắng
+
+;-- Database
+Create database=Tạo cơ sở dữ liệu
+Open database=Mở cơ sở dữ liệu
+Add to database=Thêm vào cơ sở dữ liệu
+Search in database=Tìm kiếm trong cơ sở dữ liệu
+One click search=
+Database settings=Thiết lập cơ sở dữ liệu
+
+;-- Games
+Replay session=Lập lại theo tác vụ
+Replay index=Lập lại theo mục lục
+Cancel replay session=Hủy bỏ tác vụ
+
+;-- Problems
+Solve problems=Giải cờ thế
+Problem index=Mục lục cờ thế
+Hint=Gợi ý
+Free mode=Chế độ tự do
+Problem mode=Chế độ cờ thế
+Cancel problem session=Hủy bỏ tác vụ cờ thế
+
+;-- Play
+New engine game=Chương trình chơi cờ mới
+Pass=Pass
+Resign=Đầu hàng
+Cancel game=Hủy bỏ ván đấu
+Score estimate=Ước lượng điểm số
+Suggest move=Nước gợi ý
+Show influence regions=
+Engine settings=Thiết lập chương trình chơi cờ
+
+;-- Options
+Sidebar settings=
+Language settings=Thiết lập ngôn ngữ
+Advanced settings=
+Toggle coordinates=Tắt/Bật tọa độ bàn cờ
+Toggle move markers=Tắt/Bật đánh dấu nước đi
+View settings=
+Game tree settings=
+
+;-- Help
+Display help=Hiện giúp đỡ
+Web site=
+Donate=
+About=Thông tin về Drago
+
+;-- Tabs popup menu
+New in tab=Tạo ván đấu mới ra tab
+Open in tab=Mở ra tab
+Open folder in tab=Mở thư mục ra tab
+Reload current file=
+
+;-- Sidebar menu
+Show in current tab=
+
+;-- Tray icon menu
+Restore window=
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=Giúp đỡ
+Ok=OK
+Cancel=Hủy bỏ
+Clipboard=Bản ghi tạm
+No=Không
+Yes=Đúng/Có
+Send=
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=Chào mừng bạn đến với phần mềm Drago
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=Kích cỡ
+Komi=Komi
+Handicap=Chấp quân
+Free placement=Đặt quân tự do
+Create in=Tạo trong
+New file=Tài liệu mới
+Current file=Tàu liệu hiện tại
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=Chương trình chơi cờ
+Name=Tên
+Level=Cấp độ
+not defined=
+Not available=Không tồn tại
+More engines=
+
+;-- Start position
+New game=Tạo ván đấu mới
+Current position=Vị trí hiện tại
+Auto handicap=Tự động chấp quân
+Engine plays with=
+Black=Đen
+White=Trắng
+
+;-- Time settings
+Time settings=
+No time limit=
+Total time=
+Time per move=
+Initial time plus over time=
+Initial time=
+Over time=
+Timing only for engine=
+
+;-- Game settings
+Game settings=
+Boardsize=
+
+;-- Scoring
+Scoring=Tính điểm
+Territory counting=Đếm lãnh thổ
+Area counting=Đếm đất
+
+;-- Messages
+More=
+No engine defined. Please select 'More...' then 'More engines...'=
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=
+Not all functions are supported by the engine currently selected.=
+
+;-- GTP window
+GTP window=
+Show GTP window=
+Enter and send GTP command (no feedback on main board):=
+No engine running=
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=Bấm vào bàn cờ để thiết lập số quân chấp
+Click again on a stone to remove it.=Bấm lại vào 1 quân cờ để xóa nó.
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=Thêm hiện tại
+Add=Thêm
+Add favorite=Thêm ưa thích
+Add game file=
+Add folder=
+Add database=
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=Tóm tắt
+
+;-- Event
+Game=Kì phổ
+Event=Sự kiện
+Round=Vòng
+Place=Địa điểm
+Date=Thời gian
+
+;-- Players
+Players=Kì thủ
+Rank=Cấp bậc
+Team=Đội
+
+;-- Rules
+Rules=Luật
+Time=Thời gian
+hr=giờ
+mn=phút
+Byo-Yomi=Byo-Yomi
+
+;-- Sources
+Sources=Nguồn
+User=Người dùng
+Annotation=Chú thích
+Source=Nguồn
+Copyright=Bản quyền
+
+;-- Comment
+Comment=Bình luận
+
+;-- Misc
+Misc=Linh tinh
+Application=Phần mềm
+SGF format=Định dạng SGF
+Style=Kiểu
+No style defined for current game=Kì phổ hiện tại không có kiểu định nghĩa trước nào
+Show alternate moves - Allow board markup=Hiện các biến-Cho phép đánh dấu trên bàn cờ
+Show alternate moves - No board markup=Hiện các biến-Không cho phép đánh dấu trên bàn cờ
+Show next moves - Allow board markup=Hiện các nước tiếp theo-Cho phép đánh dấu trên bàn cờ
+Show next moves - No board markup=Hiện các nước tiếp theo-Không cho phép đánh dấu trên bàn cờ
+Charset=Bộ ký tự
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=Xem trước
+Export figures=Xuất thế cờ
+Export games=Xuất các kì phổ
+ESC to cancel=Nhấn ESC để hủy bỏ
+
+;-- Games and figure
+Games and figures=Các kì phổ và các thế cờ
+
+;-- Games
+Games=Kì phổ
+Current game=Kì phổ hiện tại
+All=Tất cả
+to:=tới
+from:=từ
+
+;-- Include information
+Include information=Bao gồm thông tin
+at start of game=tại điểm khởi đầu kì phổ
+as name of figure 1=như tên của thế cờ 1
+Format=Định dạng
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=
+
+;-- Figures
+Figures=Thế cờ
+Position at move number=Vị trí tại nước đi thứ
+One figure every N moves=Một thế cờ sau N nước đi
+One figure every %d moves=Một thế cờ sau %d nước đi
+One figure every markup or comment=Một thế cờ sau sau mỗi đánh dấu hay bình luận
+File figures=Thư viện thế cờ
+Variations=Các biến
+
+;-- Comments
+Comments=Bình luận
+Include comments=Bao gồm bình luận
+Remind figure titles=Tựa đề thế cờ
+remind figure titles2=Đầu mục thế cờ
+Remind move numbers=Thứ tự nước đi
+remind move numbers2=Trật từ nước đi
+
+;-- Figure title
+Figure title=Tựa đề thế cờ
+Print title=In tựa đề
+Relative numbers=Thứ tự có liên quan
+relative numbers2=Trật tự có liên quan
+Figure format=Định dạng thế cờ
+Variation format=Định dạng biến
+
+;-- Default formats for title
+Diagram \figure=Hình \thế cờ
+Figure \figure (\moves)=Hình \thế cờ (\nước đi)
+Game \game (\moves)=Kì phổ \game (\nước đi)
+Game \game - Diagram \figure=Kì phổ \game - Hình \thế cờ
+Game \game - Figure \figure (\moves)=Kì phổ \game - Hình \thế cờ (\nước đi)
+Game \game=Kì phổ \game
+Problem \game - Figure \figure=Cờ thế \game - Hình \Thế cờ
+Problem \game=Cò thế \game
+
+;-- Layout tab
+Layout=Thiết kế
+
+;-- Header and footer
+Header and footer=Đầu trang và chân trang
+Print header=In đầu trang
+Print footer=In chân trang
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\trái 'Trang ' \trang \phải \ngày
+
+;-- Layout
+Layout2=Bồ trí
+First figure alone in the line=Thế cờ đầu tiên đứng 1 mình trong dòng kẻ
+1st figure alone=Thế cờ đầu tiên 1 mình
+1st figure ratio=Tỷ lệ thế cờ đầu tiên
+Figures per line=Số thế cờ từng dòng
+Figure ratio=Tỷ lệ thế cờ
+
+;-- Margins
+Margins (mm)=Dung sai(mm)
+Left2=Biên trái
+Right2=Biên phải
+Top=Biên trên
+Bottom=Biên đáy
+
+;-- Font
+Font=Định dạng chữ
+Name:=Tên
+Size:=Kích cỡ
+
+;-- Styles
+Styles=Kiểu
+Remove=Gỡ bỏ
+Add current print options as style with name:=Thêm lựa chọn in hiện tại bằng kiểu có tên:
+Remove style=Gỡ bỏ kiểu
+
+;-- Style description strings not yet listed
+Games from %d to %d=Kì phổ từ nước %d tới nước %d
+Include variations=Bao gồm biến
+with format=với định dạng
+with formats=với các định dạng
+with ratio=với tỉ lệ
+absolute numbers=số tuyệt đối
+
+;-- Formats
+Formats=Các định dạng
+Formats for exporting games=Định dạng xuất kì phổ
+Formats for exporting figures=Định dạng xuất thế cờ
+Paper=Giấy
+Letter2=Ký tự
+Landscape=Quang cảnh
+Settings=Các thiết lập
+PDF compression=Nén PDF
+Jpeg quality (1-100)=Chất lượng Jpeg
+
+;-- Printing as book
+%d at %d=%d với %d
+%d at %s=%d với %s
+%d above %d=%d trên %d
+%d below %d=%d dưới%d
+%d at left of %d=%d ở bên trái %d
+%d at right of %d=%d ở bên phải %d
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=Tọa độ thế cờ
+Dimensions (mm)=Kích thước(mm)
+Dimensions (px)=Kích thước(px)
+Stone diameter=Đường kính quân cờ
+As books=Ra dạng sách
+Mode=Mode
+Moves from 1 to 10=Nước đi từ 1 đến 10
+Black with circle=Đen với dấu hình tròn
+Black with square=Đen với dấu hình vuông
+White with circle=Trắng với dấu hình tròn
+White with square=Trắng với dầu hình vuông
+Draw edge=Vẽ biên
+H=Chiều cao
+W=Chiều rộng
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=Trang đầu tiên
+Previous page=Trang trước
+Next page=Trang tiếp
+Last page=Trang cuối
+Zoom in=Phóng to
+Zoom out=Thu nhỏ
+Page %d of %d=Trang %d/%d
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=Bàn cờ
+
+;-- Board
+Board=Bàn cờ
+Board1=Chất liệu bàn cờ
+Default texture=Nền mặc định
+Custom texture=Chỉnh sửa nền bàn cờ
+Color=Màu sắc
+Thick edges=Biên dày
+Hoshis=Điểm sao
+
+;-- Stones
+Stones=Quân cờ
+
+;-- Coordinates
+Coordinates=Tọa độ
+None2=Giấu
+Korschelt=Korschelt
+
+;-- Coordinate background
+Coordinate background=Nền tọa độ
+As board=Giống bàn cờ
+
+;-- Displayed zone
+Displayed zone=Khu vực được hiển thị
+Whole board=Toàn bàn cờ
+Zoom on corner=Phóng to ở góc
+
+;-- Moves tab
+Moves=Nước đi
+
+;-- Show moves
+Show moves=
+All moves with number=
+Last move with number=
+Last move with markup=
+Last %d moves with number=
+Number of visible move numbers:=
+
+;-- Show variations as
+Show variations as...=Hiển thị biến như...
+
+;-- Markup of variations on goban
+Markup of variations on goban=Đánh dấu biến trên bàn cờ
+None=Không đánh dấu
+Ghost stones=Hiển thị bằng quân cờ 
+Uppercase letters=Hiển thị bằng chữ cái hoa
+Lowercase letters=Hiển thị bằng chữ cái thường
+
+;-- Move numbers
+Move numbers=Thứ tự nước đi
+Display only two last digits=Chỉ hiển thị duy nhất 2 chữ số cuối cùng
+
+;-- Game tree tab
+Game tree=Cây kì phổ
+
+;-- Background
+Background=Nền
+
+;-- Stone radius
+Radius=Bán kính
+
+;-- Move number position
+No2=Không thiết lập
+On the side=Ở biên
+On the stones=Trên quân cờ
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=Nền cửa sổ
+
+;-- Light source
+Light source=Vị trí của ánh sáng
+Top left=Trên bên trái
+Top right=Trên bên phải
+
+;-- Skins
+Menu and toolbar skins=Hiệu ứng trình đơn và thanh công cụ
+
+;-- Preview tab
+Preview2=Xem trước
+Definition of information columns=Định nghĩa các cột thông tin
+Black player=Kì thủ cầm cờ đen
+Black rank=Cấp bậc của kì thủ cầm cờ đen
+Result=Kết quả
+White player=Kì thủ cầm cờ trắng
+White rank=Cấp bậc của kì thủ cầm cờ trắng
+Select property etc.=Chọn 1 giá trị rồi sử dụng các phím mũi tên, hoặc kéo và thả
+Sorting of information records=Sắp xếp các hồ sơ thông tin
+Enabled if record number is less than=Cho phép nếu số hồ sơ ít hơn
+Thumbnail preview=Xem trước hình thu nhỏ
+Stone radius=Bán kính quân cờ
+
+;-- Sidebar tab
+Sidebar=
+Default visibility of panels when creating a tab=
+Always visible=Luôn hiển thị
+Visible if needed=Hiển thị nếu cần
+Timing=Thời gian
+Node name=Tên node
+Variation list=Danh sách biến
+Game information panel=
+Display images=
+Image directory=
+Comment font=Định dạng chữ bình luận
+
+;-- Text panels
+Text panels=Chữ trong bản điều khiển 
+
+;-- Shortcuts tab
+Shortcuts=Phím tắt
+Select category:=Chọn hạng mục
+Engine=Chương trình chơi cờ
+Replay=Lập lại
+Select command:=Chọn lệnh
+Click in box and type shortcut:=Bấm vào ô vuông và thiết lập phím tắt
+Assigned to:=Thiết lập cho
+(none)=(Không)
+Assign=Thiết lập
+Clear=Xóa
+Assign shortcut to selected command=Thiết lập phím tắt cho lệnh đã chọn
+Clear shortcut of selected command=Xóa phím tắt cho lệnh đã chọn
+
+;-- Toolbars tab
+Toolbars=Thanh công cụ
+Select toolbar:=Chọn thanh công cụ
+Misc2=Linh tinh
+Select command and toolbar etc.=Chọn lệnh và thanh công cụ, dùng các phìm mũi tên, hoặc lệnh kéo và thả ở thanh công cụ.
+(Separator)=(Chia cắt)
+
+;-- Sounds tab
+Sounds=Âm thanh
+Enable sounds=Bật tiếng
+Invalid move=Nước đi không hợp lệ
+Engine move=Nước đi của máy
+Default=Mặc định
+Custom=Chỉnh sửa
+Test=Thử nghiệm
+Sound files=Hồ sơ dữ liệu âm thanh
+Select sound file=Chọn dữ liệu âm thanh
+
+;-- Files tab
+Files=Dữ liệu
+
+;-- File association
+File associations=Các liên kết dữ liệu
+Unable to update file association!=
+Check user rights.=
+
+;-- Starting
+Starting=Bắt đầu
+Start with last files=Bắt đầu với dữ liệu cuối cùng lần trước
+Start with last move=Bắc đầu với nước đi cuối cùng lần trước
+
+;-- Properties
+Properties=Tính năng
+Save with 10 moves on each line=Lưu lại với 10 nước đi trên mỗi hàng
+New file with full SGF properties=Tạo dữ liệu mới với đầy đủ các tính năng định dạng SGF
+Change player with SGF property=Đổi kì thủ với đặc tính của định dạng SGF
+Compress lists of points=Nén danh sách điểm 
+Accept long property names=Chấp nhận tên tính năng dài
+
+;-- Navigation tab
+Move targets=Điểm nhấn ở mỗi nước đi
+Every N moves=Cứ N nước đi
+Starts of variation=Bắt đầu của biến
+Ends of variation=Kết thúc biến
+Time between two moves=Thời gian giữa 2 nước đi
+Use timing properties when available=Sử dụng tính năng tính thời gian nếu cho phép
+Stop at targets=Dừng tại các điểm nhấn
+
+;-- Database tab
+General=Tổng hợp
+Cache=Vùng nhớ đệm
+Creation=Cài đặt
+Create with extended algorithms=Tạo với thuật toán mở rộng
+Process variations=Xử lý các biến
+Detect duplicates=Phát hiện trùng lắp
+by using signature=bằng kí hiệu
+by using final position=bằng vị trí cuối cùng
+Omit duplicates when detected=Xóa dữ liệu bị trùng khi phát hiện
+Omit games with SGF errors=Xóa dữ liệu có lỗi SGF
+Pattern search=Tìm kiếm mẫu
+Search in variations=Tìm kiếm biến
+Move limit=Giới hạn nước đi
+
+;-- Game engine tab
+
+Game engines=
+List of engines=
+Analysis=
+
+;-- Binary
+Path=
+Select engine path=
+Parameters=Các tham số
+Usage=
+Use for game=
+Use for analysis=
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=
+
+;-- Lists of features
+Playing features=
+Chinese rules=
+Japanese rules=
+Fixed handicap=
+Free handicap=
+Time per game=
+Undo=
+Detailed game results=
+Analysis features=
+Move suggestion=
+Influence region=
+Group status=
+
+;-- Predefined engines
+Select predefined engine=
+Open browser, download and install=
+Already installed=
+Press Ok (then you will have to enter executable installation path) or cancel.=
+If the engine motor you want to play with is not in the list, edit the following file:=
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=
+Current parameters=
+Additional parameters=
+
+;-- Language tab
+
+Language=Ngôn ngữ
+Select language for user interface=Chọn ngôn ngữ cho giao diện người sử dụng
+Select code page for game files=Chọn trang code cho dữ liệu kì phổ
+Create game files using...=Tạo dữ liệu kì phổ sử dụng...
+Unicode=Unicode
+System default code page=Trang code mặc định của hệ thống
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=
+Path for Black stones=
+Path for White stones=
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=Chú thích
+
+;-- Position annotations
+Position annotations=Chú thích vị trí
+Good for Black=Tốt cho Đen
+Good for White=Tốt cho Trắng
+Balanced position=Vị trí cân bằng cho đôi bên
+Unclear position=Vị trí chưa rõ ràng
+Very good for Black=Rất tốt cho Đen
+Very good for White=Rất tốt cho Trắng
+Very balanced position=Vị trí rất cân bằng cho đôi bên
+Very unclear position=Vị trí rất không rõ ràng
+Hot spot=Điểm nóng
+Very hot spot=Điểm cực nóng
+
+;-- Move annotations
+Move annotations=Chú thích nước đi
+Bad=Xấu
+Doubtful=Không tốt
+Tesuji=Tesuji
+Very bad=Rất xấu
+Interesting=Thú vị
+Very good tesuji=Tesuji rất tốt
+
+;-- Text
+Text=Văn bản
+
+;-- Others
+Others=Linh tinh
+
+;-- Timing
+Black time left=Thời gian còn lại của Đen
+White time left=Thời gian còn lại của Trắng
+
+;-- Figures
+Insert figure=Chèn thế cờ
+Show coordinates=Hiển thị tọa độ
+
+;-- Other properties
+Other properties=Những tình năng khác
+Move numbers from=Thứ tự nước đi từ
+Wrong variation (uliGo)=Biến sai(uliGo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=
+All games in collection=
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=Lập lại ván đấu
+
+;-- Select game
+Select game2=Lựa chọn kì phổ
+Loaded game=Kì phổ đã mở
+Sequential=Thứ tự
+Random=Bất kì
+
+;-- Play with
+Play with=Chơi bằng quân
+Both=Cả hai
+
+;-- Play...
+Play2=Hiển thị
+Full game=Toàn ván đấu
+Fuseki=Chỉ khai cuộc
+From current position=
+From current position (only for current game)=
+
+;-- Move number in Fuseki
+Move number in Fuseki=Thứ tự nưốc đi trong khai cuộc
+
+;-- Number of attempts per move
+Number of attempts per move=
+Only one=
+Unlimited=
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=
+Problems in collection=
+Visited problems=
+Number of attempts=
+Number of successes=
+Show detailed statistics=
+Reset collection statistics=
+
+;-- Problem order
+Problem order=Thứ tự cờ thế
+Sequential from current=Theo thứ tự từ dữ liệu hiện tại
+Sequential from stored=Theo thứ tự từ dữ liệu đã lưu
+Random color=Màu bất kì
+Random position=Vị trí bất kì
+Number of problems=Số cờ thế
+
+;-- Failure ratio
+Include problems incorrectly solved=
+don't care=
+ratio=
+
+;-- Solution marks
+Solution marks=Đánh dấu đáp án
+Main line=Hướng đi chính
+Autodetect=Tự động phát hiện
+
+;-- More popup menu
+Show=
+Timer=
+Glyphs=
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=Chọn gốc cho tên dữ liệu
+Export starting from:=Bắt đầu xuất từ:
+Merge... Select files=Hợp nhất... Chọn dữ liệu
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=Lưu thư mục
+Files modified in folder=Dữ liệu đã chỉnh sửa trong thư mục
+Select files to save:=Chọn dữ liệu để lưu
+Select all=Chọn toàn bộ
+Unselect all=Bỏ chọn toàn bộ
+Ignore=Bỏ qua
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=
+Unique moves=
+Normalize position of first move=
+Game reference=
+Filename=
+Games to process=
+Process current tab=
+Select files or folders to process=
+Start=
+
+;-- Messages
+Only main branch is processed=
+Move inversions are not detected=
+Unable to process file=
+Unable to process file completely=
+Game ignored (some not alternative moves):=
+Game ignored (board size not handled):=
+Game tree ready.=
+Elapsed time (seconds)=
+Number of games=
+percentage and number of games in variation=
+winning percentage of move=
+number of unknown results=
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=là phần mêm miễn phí
+Version=Phiên bản
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo và libkombilo bởi Ulrich Goertz:
+Credits=Credits
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=Toàn bộ dữ liệu
+BMP files=Dữ liệu định dạng BMP
+DOC files=Dữ liệu định dạng DOC
+HTML files=Dữ liệu định dạng HTML
+JPEG files=Dữ liệu định dạng JPEG
+RTF files=Dữ liệu định dạng RTF
+SGF files=Dữ liệu định dạng SGF
+GIF files=Dữ liệu định dạng GIF
+PNG files=Dữ liệu định dạng PNG
+MGT files=Dữ liệu định dạng MGT
+ASCII files=Dữ liệu định dạng ASCII
+PDF files=Dữ liệu định dạng PDF
+Database files=Hồ sơ cơ sở dữ liệu
+Text files=Dữ liệu văn bản
+
+;-- Export captions
+Export games with HTML format=Xuất kì phổ định dạng HTML
+Export games with RTF format=Xuất kì phổ định dạng RTF
+Export games to HTML format=Xuất kì phổ định dạng HTML
+Export games to RTF format=Xuất kì phổ định dạng RTF
+Export games to PDF format=Xuất kì phổ định dạng PDF
+Export games to MSWORD format=Xuất kì phổ định dạng MSWORD
+
+;-- Select texture dialog
+Select texture=Chọn nền
+(empty)=(Trống)
+Image:=Hình ảnh
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=Nước đi cuối cùng
+Black prisoners=Tù bình của Đen
+White prisoners=Tù binh của Trắng
+
+;-- Game information
+Game information2=
+
+;-- Variation list panel
+Next moves=Nước đi tiếp theo
+Alternate moves=Biến
+
+;-- Replay panel
+Game2=Ván đấu
+You=Bạn
+
+;-- Problem panels
+Reference=Tham khảo
+Problem=Cờ thế
+Attempt=
+Attempts=
+Trial=
+Trials=
+Problem status=
+Attempt status=
+Running=Chạy
+Success=Thành công
+Failure=Thất bại
+Assisted=Hỗ trợ
+Free=Tự do
+
+;-- Problem result box
+End of problem session.=
+Session result: %d / %d=
+Collection score after session: %s=
+More problems?=Giải nhiều cờ thế nữa?
+
+;-- Game result string
+Black wins=Đen thắng
+White wins=Trắng thắng
+%s wins by %s points=%s thắng %s mục
+Draw=Hòa
+No result=Không có kết quả
+Unknown result=Kết quả không rõ
+by forfeit=vì đối thủ phạm luật
+by resignation=bằng đầu hàng
+on time=bằng thời gian
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=Không hiển thị thông báo này lần sau
+Toggling to full screen mode.=
+Restore window mode with %s=
+
+;-- Tab errors
+Unable to create tab=Không thể tạo tab
+
+;-- Edit messages
+No move to add variation.=Không có nước đi để thêm biến
+Move impossible to cancel=Không thể hủy bỏ nước đi
+Delete whole branch.=Xóa toàn bộ nhánh.
+File modification.=Sửa đổi dữ liệu
+Beware game modification will not be updated in database.=Lưu ý sửa đổi của kì phổ sẽ không được cập nhật trong cơ sở dữ liệu.
+Do you want to proceed?=Bạn có muốn tiếp tục?
+
+;-- File errors
+File not open=Dữ liệu không được mở
+Bracket not found=Không tìm thấy dấu ngoặc
+Error opening file=Có lỗi trong mở dữ liệu
+Error opening folder=Có lỗi trong mở thư mục
+Line=Dòng
+File partialy read=Đọc từng phần dữ liệu 
+File %s is read only.=Dữ liệu %s chỉ được đọc.
+File %s not saved.=Dữ liệu %s chưa được lưu.
+Folder %s not saved.=Thư mục %s chưa được lưu
+First game not found=Kì phổ đầu tiên không tìm thấy
+Illegal character=Ký tự không hợp lệ
+Impossible to save %s.=Không thể lưu %s.
+Impossible to save.=Không thể lưu.
+Impossible to write file=Không thể ghi dữ liệu.
+Semicolon not found after parenthesis=Dấu chấm phẩy không tìm thấy sau dấu ngoặc
+Invalid property name=Tên tình năng không hợp lệ
+Memory error=Bộ nhớ có lỗi
+Read only file=Dữ liệu chỉ được đọc
+The loaded game is not Go : GM property=Kì phổ đã đọc không phải Go: (đặc tính GM)
+Invalid board size=Kích cỡ bàn cờ không hợp lệ
+Size will be set to 19.=Kích cỡ sẽ được thiết lập theo bàn 19.
+Unexpected end of file=Dữ liệu đột ngột bị dừng.
+
+;-- File warnings
+Reload and lose modifications?=Nạp lại và mất các sửa đổi?
+Save changes in %s?=Lưu các sửa đổi trong %s?
+
+;-- Replay messages
+Game with no name. Save to proceed.=Kì phổ không có tên. Lưu để tiếp tục
+File not saved. Save to proceed.=Dữ liệu chưa lưu. Lưu để tiếp tục
+The file doesn't seem to be a game file.=Dữ liệu này hình như không phải là dữ liệu của kì phổ
+The file doesn't seem to be a problem file.=Dữ liệu này hình như không phải là dữ liệu của cờ thế
+The file is not a problem collection.=Dữ liệu này không phải là sưu tập của cờ thế.
+A problem collection must be loaded to start a problem session.=Một bộ sưu tập cờ thế phải được đọc để bắt đầu giải cờ thế.
+Continue=Tiếp tục
+End of fuseki=Kết thúc khai cuộc
+End of game=Kết thúc ván đấu
+Score=Điểm số
+
+;-- Move errors
+Illegal move=Nước đi không hợp lệ
+Illegal ko capture=Ko(Cướp) không hợp lệ
+Illegal suicide...=Tự tử không hợp lệ...
+Impossible to play there=Không thể đi ở đó
+
+;-- Game engine messages
+Abnormal termination of game engine=Chương trình chơi cờ đột ngột bị hủy
+Do you really want to resign?=Bạn thật sự muốn đầu hàng?
+Game aborted=Hủy bỏ ván đấu
+Error=Lỗi
+Black has passed=
+White has passed=
+Black resigns=Đen đầu hàng
+White resigns=Trắng đầu hàng
+Black loses on time=
+White loses on time=
+Pass2=Pass
+pass3=Pass
+Territory=Lãnh thổ
+Prisoners=Tù binh
+Total=Tổng cộng
+Please select board view before starting game.=
+Current engine is unable to start...=
+Engine configuration file missing. Please check installation.=
+alive=
+dead=
+critical=
+
+;-- Export
+Problem while copying in clipboard=Có lỗi khi chép từ bản ghi tạm
+Problem while saving image=Có lỗi khi lưu hình ảnh
+Unable to export...=Không thể xuất...
+Close Word and restart export.=Đóng Word và khởi động lại quá trình xuất
+Please, close previous preview to proceed.=Xin đóng cửa sổ xem trước trước khi tiếp tục.
+File is in use, close to proceed.=Dữ liệu đang được dùng, đóng lại để tiếp tục
+
+;-- Preview
+Sorting is not enabled over %d records.=Sắp xếp không được cho phép vì nhiều hơn %d hồ sơ. 
+See Options | Preview to change this setting.=Xem các lựa chọn|Xem trước để thay đổi thiết lập này
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=
+Tab=
+Esc=
+Enter=
+Space=
+PgUp=
+PgDn=
+End=
+Home=
+Left=
+Up=
+Right=
+Down=
+Ins=
+Del=
+Shift+=
+Ctrl+=
+Alt+=
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=Chọn dữ liệu hoặc thư mục
+Clear all=Xóa hết
+Include subfolders=Bao gồm thư mục con
+Start2=Bắt đầu
+Abort=Hủy bỏ
+Save database as=Lưu cơ sở dữ liệu
+Please give database name=Xin đặt tên cho cơ sở dữ liệu
+%s already exists.=%s đã tồn tại
+Do you want to overwrite it?=Bạn có muốn ghi đè?
+Database open, please close first=Cơ sở dữ liệu đang mở, làm ơn đóng trước đã.
+Unable to create database=Không thể tạo cơ sở dữ liệu.
+
+;-- Search dialog
+Pattern=Mẫu
+;Game information=
+Signature=Kí hiệu
+Reset=Xác lập lại
+No database loaded=Không có cơ sở dữ liệu nào được đọc
+No database loaded... Load or create.=Không có cơ sở dữ liệu nào được đọc...Đọc hoặc tạo mới
+Select database=Chọn cơ sở dữ liệu
+Search=Tìm kiếm
+Search in results=
+Whole database=Toàn bộ cơ sở dữ liệu
+Current results=Kết quả hiện tại
+View results in tab=Xem kết quả qua tab
+View results on board=Xem kết quả qua bàn cờ
+View results in game information list=Xem kết quả qua danh sách thông tin kì phổ
+View results in board thumbnails=Xem kết quả qua hình ảnh thu nhỏ của bàn cờ
+
+;-- Pattern search
+Pattern (right-click to select)=Mẫu(bấm chuột phải để chọn)
+Wildcard=Ký tự đại diện
+Capture=Bắt
+Clear2=Xóa
+View:=Xem
+Results=Kết quả
+Frequency=Tần suất
+Urgency=Mức độ khẩn cấp
+Efficiency=Hiệu quả
+Fixed:=Cố định
+Position=Vị trí
+Next move:=Nước đi tiếp theo
+%d matches=Có %d ván
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=Có %d ván (%d/%d), Đen:%1.1f%%, Trắng:%1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=Đen|Đen/T/Đen+/Đen|Đen-/Đen|Trắng|Trắng/T|Đen+/Trắng|B-/Trắng
+Right-click to select on board=
+Found games are in database tab=
+
+;-- Information search
+Game information search=Tìm kiếm thông tin kì phổ
+Search on players=Tìm theo kì thủ
+Any=Bất kì
+One of both=Một trong hai
+Winner=Người thắng
+Loser=Người thua
+Search on date=Tìm theo thời gian
+Day=Ngày
+Month=Tháng
+Year=Năm
+Range=Khoản thời gian
+To=Tới
+Search on result=Tìm theo kết quả
+wins=thắng
+wins by=thắng với
+wins by at least=thắng với ít nhất
+wins by at most=thắng với nhiều nhất
+wins by resignation=thắng bằng đầu hàng
+wins on time=thắng bằng thời gian
+wins by forfeit=thắng vì đối thủ phạm luật
+Other or unknown=Khác hoặc không rõ
+More conditions=Mở rộng
+SQL=SQL
+
+;-- Signature search
+Signature search=Tìm kiếm theo kí hiệu
+
+;-- Settings
+Search settings=
+Select or open database=
+Pattern search parameters=
+Fixed color=
+Fixed position=
+Pattern search next move=
+Any or none=
+Pattern search view=
+Full=Toàn bộ
+Digest=Phân loại
+
+;-- Messages
+Error opening database=Có lỗi khi mở cơ sở dữ liệu
+No search for center empty patterns.=
+No search for center single stone patterns.=
+No search rectangle defined.=
+Operation aborted by user=Quá trình bị hủy bỏ bởi người dùng
+%d file(s) to process=Xử lý %d dữ liệu
+%d games processed, %s elapsed=Đã xử lý %d kì phổ, đã lướt %s 
+%d file(s) processed, %s elapsed=Đã xử lý %d dữ liệu, đã lướt %s 
+Unable to process game=Không thể xử lý kì phổ
+Unable to process game completely=
+Boardsize not handled=Không thể xử lý kích cỡ bàn cờ
+SGF error detected, game inserted=Phát hiện lỗi SGF, kì phổ đã chèn
+SGF error detected, game not inserted=Phát hiện lỗi SGF, kì phổ không được chèn
+Duplicate detected=Phát hiện dữ liệu bị trùng
+Duplicate ignored=Bỏ qua dữ liệu bị trùng
+;%d result(s)=%d résultat(s)
+No game found in %s=
+1 game found in %s=
+%d games found in %s=
+Save logfile=Lưu nhật ký 
+%d ms.=%d mili giây
+%2.2f seconds=%2.2f giây
+Unable to modify game in database.=
+Extract to a new tab and try again?=
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=Cao cấp
+Restore default=Hồi phục chế độ mặc định
+Select=Chọn
+Select all2=Chọn toàn bộ
+Restore=Hồi phục
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=Bấm vào chuỗi trong mode thiết lập quân cờ
+Set, remove=Thiết lập, gỡ bỏ
+Set, swap color, remove=Thiết lập, đổi màu, gỡ bỏ
+Enable moves as books=Cho phép nước đi như sách
+Start variation from 1=Bắt đầu biến từ 1
+Start variation with figure=Bắt đầu biến từ thế cờ
+Start variation settings include main line=Bắc đầu các thiết lập biến bao gồm hướng đi chính
+Bold text=Chữ đậm
+Maximum font size=Cỡ chữ tối đa
+Texture tiling with symmetries=Nền lớp với tính đối xứng
+
+; User interface
+User interface=Giao diện người dùng
+Allow only one instance=Chỉ cho phép 1 đối tượng
+Minimize to tray=
+Hook content of window when resizing=Cập nhật nội dung cửa sổ khi thay đổi kích cỡ
+Anchor panels at bottom=Mấu neo bản điều khiển ở phía dưới
+Show tab close buttons=Hiển thị nút đóng tab
+
+; Files
+Save paths relatively to install folder=
+Abort reading on file error=Hủy bỏ thao tác đọc file có lỗi
+Open save dialogs with places bar=Mở/Lưu các hộp thoại có thanh điều hướng nhanh
+
+; Games against engines
+Games against engines=Ván đấu với chương trình chơi cờ
+Ask for saving when closing game=Xác định lệnh lưu khi thoát khỏi ván đấu
+Use again previous game engine tab=Mở ván đấu mới trong tab đã tạo
+Enable Undo=Cho phép đi lại(Undo)
+Only after capture=Chỉ sau khi bị giết
+Game engine options are inhibited during game=Các thiết lập của chương trình chơi cờ bị khóa trong ván đấu
+
+
+; Warning
+Warnings=Cảnh báo
+Warn when toggling to full screen=
+Warn at first modification=Cảnh báo lần đầu sửa đổi
+Warn at modification in database game=
+Warn at modification in read only mode=
+Warn when delete branch=Cảnh báo khi xóa nhánh
+Warn on invalid move=Cảnh báo nước đi không hợp lệ
+Warn on game engine pass=
+Warn on game engine resignation=
+Warn when losing on time=
+
+; PDF
+Use board color=Dùng màu bàn cờ
+Exact width (mm)=Chính xác chiều rộng(mm)
+Added border (N;W;S;E in % of image width)=Thêm viền khung(Bắc;Đông;Tây;Nam trong % của chiều rộng hình ảnh)
+Radius adjustment=Thay đổi bán kính
+Circle width=Chiều rộng hình tròn
+Line width=Chiều rộng dòng kẻ
+Double line width=Nhân đôi chiều rộng dòng kẻ
+Hoshi stone ratio=Tỷ lệ điểm sao
+Marks adjustment (line width;size factor)=Chỉnh đổi đánh dấu(chiều rộng dòng kẻ;chỉ số kích cỡ)
+Font size adjustment (f or f;f or f;f;f see help)=Chỉnh đổi kích cỡ chữ(f hoặc f;f hoặc f;f;f xem giúp đỡ)
+Line height adjustment=Chỉnh đổi chiều cao của dòng kẻ
+
+;---

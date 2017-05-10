@@ -1,6 +1,6 @@
 object fmMain: TfmMain
-  Left = 348
-  Top = 150
+  Left = 276
+  Top = 176
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
   AutoScroll = False
@@ -1788,11 +1788,6 @@ object fmMain: TfmMain
       Caption = 'Actions with shortcut'
     end
   end
-  object OneInstance: TOneInstance
-    OnInstanceStarted = OneInstanceInstanceStarted
-    Left = 352
-    Top = 120
-  end
   object pmTrayIcon: TPopupMenu
     Images = Actions.ImageList
     Left = 88
@@ -1803,5 +1798,10 @@ object fmMain: TfmMain
     object Quit1: TTntMenuItem
       Action = Actions.acQuit
     end
+  end
+  object OneInstance: TOneInstance
+    OnInstanceStarted = OneInstanceInstanceStarted
+    Left = 416
+    Top = 168
   end
 end

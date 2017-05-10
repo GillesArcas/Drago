@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Russian
+$HelpFile=Drago-En.chm
+$TranslationCredit=Русский перевод:\nЕвгений Матвеев\nsorenjin@gmail.com
+$Update=4.22
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=Файл
+View=Вид
+Navigation=Перемещение
+Edit=Правка
+Database=База данных
+Games2=Партии
+Problems=Задачи
+Play=Игра
+Options=Параметры
+Help=Справка
+
+;-- File
+New=Создать
+Open=Открыть
+Open folder=Открыть папку
+Save=Сохранить
+Save as=Сохранить как
+Save tab content as=Сохранить содержимое вкладки
+Read only=Только для чтения
+Close=Закрыть
+Close all=Закрыть все
+Open from clipboard=Вставить из буфера
+Save to clipboard=Скопировать в буфер
+Collections=Коллекции
+Favorites=Избранное
+Index=Каталог
+Game information=Информация
+Print=Печать
+Export=Экспорт
+Export position=Экспорт позиции
+Quit=Выход
+
+;-- Collection
+Append to=Добавить к
+Merge=Объединить
+Extract current=Извлечь текущую партию
+Extract all=Извлечь все
+Delete current game=Удалить текущую партию
+Make game tree=Построить дерево партий
+
+;-- View
+Full screen mode=Полноэкранный режим
+View board=Доска
+Preview game information=Информация о партиях
+Preview board thumbnails=Эскизы
+Reference view=Исходное состояние
+Mirror=Вертикальная симметрия
+Flip=Горизонтальная симметрия
+Opponent view=Со стороны противника
+Rotate 90 clockwise=На 90° по часовой стрелке
+Rotate 90 counter clockwise=На 90° против часовой стрелки
+Swap colors=Поменять цвета
+Show toolbars=Показывать панели
+Toolbar settings=Настройка панелей
+Board settings=Настройка доски
+Preview settings=Настройка просмотра
+
+;-- Navigation
+First game=Первая партия
+Previous game=Предыдущая партия
+Next game=Следующая партия
+Last game=Последняя партия
+Select game=Выбор партии
+Start position=Начальная позиция
+Previous move=Предыдущий ход
+Next move=Следующий ход
+End position=Конечная позиция
+Go to move=Перейти к
+Previous target=Предыдущая цель
+Next target=Следующая цель
+Auto replay=Воспроизведение
+Navigation settings=Настройка перемещения
+Next variation=Следующий вариант
+Previous variation=Предыдущий вариант
+Pointer up=Вверх
+Pointer down=Вниз
+Pointer left=Влево
+Pointer right=Вправо
+
+;-- Edit
+Undo move=Отменить ход
+Delete branch=Удалить ветвь
+Game edit=Правка
+Game edit Black first=Правка/Ход черных
+Game edit White first=Правка/Ход белых
+Add Black=Добавить черный
+Add White=Добавить белый
+Empty=Удалить
+Current markup=Текущий маркер
+Player=Ход
+Black to play=Ход черных
+White to play=Ход белых
+Insert pass=Вставить пас
+Insert=Вставить
+Make main branch=Преобразовать в главную ветвь
+Promote variation=Повысить вариант
+Demote variation=Понизить вариант
+Remove properties=Удалить свойства
+Insert empty node=Вставить пустой узел
+Click at pointer=Щелчок под курсором
+Ctrl-click at pointer=Ctrl-щелчок под курсором
+
+;-- Markup
+Cross=Крест
+Triangle=Треугольник
+Circle=Круг
+Square=Квадрат
+Letter=Буква
+Number=Номер
+Label=Надпись
+Black territory=Территория черных
+White territory=Территория белых
+
+;-- Database
+Create database=Создать базу данных
+Open database=Открыть базу данных
+Add to database=Добавить в базу данных
+Search in database=Поиск в базе данных
+One click search=Поиск "одним щелчком"
+Database settings=Настройка баз данных
+
+;-- Games
+Replay session=Сеанс
+Replay index=Каталог
+Cancel replay session=Отмена
+
+;-- Problems
+Solve problems=Решение задач
+Problem index=Каталог
+Hint=Подсказка
+Free mode=Свободный режим
+Problem mode=Решение задач
+Cancel problem session=Отмена
+
+;-- Play
+New engine game=Новая игра с программой
+Pass=Пас
+Resign=Сдаться
+Cancel game=Отменить партию
+Score estimate=Оценка счета
+Suggest move=Предложить ход
+Show influence regions=Показать зоны влияния
+Engine settings=Настройка программы
+
+;-- Options
+Sidebar settings=Настройка боковой панели
+Language settings=Настройка языка
+Advanced settings=Дополнительно
+Toggle coordinates=Координаты вкл/выкл
+Toggle move markers=Режимы пометки ходов
+View settings=Настройка вида
+Game tree settings=Настройка дерева игры
+
+;-- Help
+Display help=Вывод справки
+Web site=
+Donate=
+About=О программе
+
+;-- Tabs popup menu
+New in tab=Создать на вкладке
+Open in tab=Открыть на вкладке
+Open folder in tab=Открыть папку на вкладке
+Reload current file=Перезагрузить текущий файл
+
+;-- Sidebar menu
+Show in current tab=Показать в текущей вкладке
+
+;-- Tray icon menu
+Restore window=Развернуть окно
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=&Справка
+Ok=Ok
+Cancel=Отмена
+Clipboard=В буфер
+No=Нет
+Yes=Да
+Send=Отправить
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=Добро пожаловать в Drago
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=Размер
+Komi=Коми
+Handicap=Фора
+Free placement=Расстановка
+Create in=Создать в
+New file=Новый файл
+Current file=Текущий файл
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=Игровая программа
+Name=Название
+Level=Уровень
+not defined=не определено
+Not available=Недоступно
+More engines=Другие программы
+
+;-- Start position
+New game=Новая партия
+Current position=Текущая позиция
+Auto handicap=Авто фора
+Engine plays with=За кого играет программа
+Black=Черные
+White=Белые
+
+;-- Time settings
+Time settings=Время
+No time limit=Время не ограничено
+Total time=Общее время
+Time per move=Время на ход
+Initial time plus over time=Исходное и дополнительное время
+Initial time=Исходное время
+Over time=Дополнительное
+Timing only for engine=Контроль времени только для программы
+
+;-- Game settings
+Game settings=Параметры
+Boardsize=Размер доски
+
+;-- Scoring
+Scoring=Правила подсчета
+Territory counting=Японские
+Area counting=Китайские
+
+;-- Messages
+More=Далее
+No engine defined. Please select 'More...' then 'More engines...'=Программа не определена. Выберите 'Далее...' > 'Другие программы...'
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=Текущая программа не найдена. Выберите 'Далее...' > 'Настройка программы...' и проверьте путь.
+Not all functions are supported by the engine currently selected.=Некоторые выбранные возможности не поддерживаются текущей программой.
+
+;-- GTP window
+GTP window=Окно GTP
+Show GTP window=Показать окно GTP
+Enter and send GTP command (no feedback on main board):=Ввод и выполнение команды GTP (без отражения на основной доске)
+No engine running=Нет работающей программы
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=Щелкните на доске, чтобы установить форовые камни.
+Click again on a stone to remove it.=Снова щелкните на камне, чтобы удалить его.
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=Текущая
+Add=Добавить
+Add favorite=Добавить в Избранное
+Add game file=Добавить файл
+Add folder=Добавить папку
+Add database=Добавить базу данных
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=Сводка
+
+;-- Event
+Game=Партия
+Event=Турнир
+Round=Тур
+Place=Место
+Date=Дата
+
+;-- Players
+Players=Игроки
+Rank=Рейтинг
+Team=Команда
+
+;-- Rules
+Rules=Правила
+Time=Время
+hr=ч
+mn=мн
+Byo-Yomi=Бёёми
+
+;-- Sources
+Sources=Источники
+User=Пользователь
+Annotation=Комментатор
+Source=Источник
+Copyright=Copyright
+
+;-- Comment
+Comment=Комментарий
+
+;-- Misc
+Misc=Прочие
+Application=Приложение
+SGF format=Формат SGF
+Style=Стиль
+No style defined for current game= Стиль для текущей партии не определен 
+Show alternate moves - Allow board markup=Показывать альтернативные ходы - Разрешить пометки
+Show alternate moves - No board markup=Показывать альтернативные ходы - Без пометок
+Show next moves - Allow board markup=Показывать следующие ходы - Разрешить пометки
+Show next moves - No board markup=Показывать следующие ходы - Без пометок
+Charset=Кодировка
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=Просмотр
+Export figures=Экспорт диаграмм
+Export games=Экспорт партий
+ESC to cancel=ESC — отменить
+
+;-- Games and figure
+Games and figures=Партии и диаграммы
+
+;-- Games
+Games=Партии
+Current game=Текущая партия
+All=Все
+to:=до:
+from:=от:
+
+;-- Include information
+Include information=Выводить информацию
+at start of game=В начале партии
+as name of figure 1=В подписи диаграммы 1
+Format=Формат
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (Ч) - \PW (Б), \DT
+
+;-- Figures
+Figures=Диаграммы
+Position at move number=Позиция после хода
+One figure every N moves=На каждые N ходов
+One figure every %d moves=На каждые %d ходов
+One figure every markup or comment=Одна диаграмма на каждый маркер или комментарий
+File figures=Взять из файла
+Variations=Варианты
+
+;-- Comments
+Comments=Комментарии
+Include comments=Выводить комментарии
+Remind figure titles=Напоминать названия диаграмм
+remind figure titles2=напоминать названия диаграмм
+Remind move numbers=Напоминать номера ходов
+remind move numbers2=напоминать номера ходов
+
+;-- Figure title
+Figure title=Названия диаграмм
+Print title=Выводить названия
+Relative numbers=Нумерация относит.
+relative numbers2=относительная нумерация
+Figure format=Формат
+Variation format=Формат
+
+;-- Default formats for title
+Diagram \figure=Диаграмма \figure
+Figure \figure (\moves)=Диаграмма \figure (\moves)
+Game \game (\moves)=Партия \game (\moves)
+Game \game - Diagram \figure=Партия \game - Диаграмма \figure
+Game \game - Figure \figure (\moves)=Партия \game - Диаграмма \figure (\moves) 
+Game \game=Партия \game
+Problem \game - Figure \figure=Задача \game - Диаграмма \figure
+Problem \game=Задача \game
+
+;-- Layout tab
+Layout=Макет страницы
+
+;-- Header and footer
+Header and footer=Колонтитулы
+Print header=Верхний
+Print footer=Нижний
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\left 'Стр. ' \page \right \date
+
+;-- Layout
+Layout2=Расположение
+First figure alone in the line=Первая диаграмма в отдельной строке
+1st figure alone=Первая отдельно
+1st figure ratio=Масштаб 1-й
+Figures per line=В строке
+Figure ratio=Масштаб
+
+;-- Margins
+Margins (mm)=Поля (мм)
+Left2=Левое
+Right2=Правое
+Top=Верхнее
+Bottom=Нижнее
+
+;-- Font
+Font=Шрифт
+Name:=Имя:
+Size:=Размер:
+
+;-- Styles
+Styles=Стили
+Remove=Удалить
+Add current print options as style with name:=Добавить текущие настройки печати как стиль с именем:
+Remove style=Удалить стиль
+
+;-- Style description strings not yet listed
+Games from %d to %d=Партии от %d до %d
+Include variations=Включить варианты
+with format=в формате
+with formats=в форматах
+with ratio=в масштабе
+absolute numbers=абсолютная нумерация
+
+;-- Formats
+Formats=Формат
+Formats for exporting games=Формат экспорта партий
+Formats for exporting figures=Формат экспорта диаграмм
+Paper=Бумага
+Letter2=Letter
+Landscape=Альбомная
+Settings=Параметры
+PDF compression=Сжатие PDF
+Jpeg quality (1-100)=Качество jpeg (1-100)
+
+;-- Printing as book
+%d at %d=%d на %d
+%d at %s=%d на %s
+%d above %d=%d над %d
+%d below %d=%d под %d
+%d at left of %d=%d слева от %d
+%d at right of %d=%d справа от %d
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=Координаты на диаграмме
+Dimensions (mm)=Размеры (мм)
+Dimensions (px)=Размеры (px)
+Stone diameter=Диаметр камня
+As books=Как в книгах
+Mode=Режим
+Moves from 1 to 10=Ходы с 1 по 10
+Black with circle=Черные+круг
+Black with square=Черные+квадрат
+White with circle=Белый+круг
+White with square=Белые+квадрат
+Draw edge=Рисовать края
+H=H
+W=W
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=Первая страница
+Previous page=Предыдущая страница
+Next page=Следующая страница
+Last page=Последняя страница
+Zoom in=Увеличить
+Zoom out=Уменьшить
+Page %d of %d=Страница %d из %d
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=Гобан
+
+;-- Board
+Board=Доска
+Board1=Доска
+Default texture=Стандартная
+Custom texture=Выбор текстуры
+Color=Выбор цвета
+Thick edges=Толстые края
+Hoshis=Хоси
+
+;-- Stones
+Stones=Камни
+
+;-- Coordinates
+Coordinates=Координаты
+None2=Нет
+Korschelt=Буква+цифра
+
+;-- Coordinate background
+Coordinate background=Фон координат
+As board=Как на доске
+
+;-- Displayed zone
+Displayed zone=Показывать
+Whole board=Всю доску
+Zoom on corner=Угол с увеличением
+
+;-- Moves tab
+Moves=Ходы
+
+;-- Show moves
+Show moves=Помечать ходы
+All moves with number=Все (номер)
+Last move with number=Последний (номер)
+Last move with markup=Последний (маркер)
+Last %d moves with number=Последние %d (номер)
+Number of visible move numbers:=Количество ходов с номерами:
+
+;-- Show variations as
+Show variations as...=Показывать варианты как...
+
+;-- Markup of variations on goban
+Markup of variations on goban=Помечать варианты на доске
+None=Нет
+Ghost stones=Прозрачные камни
+Uppercase letters=Прописные буквы
+Lowercase letters=Строчные буквы
+
+;-- Move numbers
+Move numbers=Номера ходов
+Display only two last digits=Показывать только две последние цифры
+
+;-- Game tree tab
+Game tree=Дерево игры
+
+;-- Background
+Background=Фон
+
+;-- Stone radius
+Radius=Радиус
+
+;-- Move number position
+No2=Нет
+On the side=В стороне
+On the stones=На камнях
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=Фон окна
+
+;-- Light source
+Light source=Источник света
+Top left=Наверху слева
+Top right=Наверху справа
+
+;-- Skins
+Menu and toolbar skins=Скины меню и панелей инструментов
+
+;-- Preview tab
+Preview2=Просмотр
+Definition of information columns=Выбор полей
+Black player=Черные
+Black rank=Рейтинг (ч)
+Result=Результат
+White player=Белые
+White rank=Рейтинг (б)
+Select property etc.=Выберите и переместите свойство
+Sorting of information records=Сортировка записей
+Enabled if record number is less than=Активна, если записей меньше
+Thumbnail preview=Эскизы
+Stone radius=Радиус камня
+
+;-- Sidebar tab
+Sidebar=Боковая панель
+Default visibility of panels when creating a tab=Отображение панелей при создании вкладки
+Always visible=Показывать всегда
+Visible if needed=При необходимости
+Timing=Время
+Node name=Имя узла
+Variation list=Список вариантов
+Game information panel=Панель игровой информации
+Display images=Показывать графику
+Image directory=Каталог графики
+Comment font=Шрифт комментариев
+
+;-- Text panels
+Text panels=Текстовые панели
+
+;-- Shortcuts tab
+Shortcuts=Клавиатура
+Select category:=Выберите категорию:
+Engine=Программа
+Replay=Просмотр
+Select command:=Выберите команду:
+Click in box and type shortcut:=Щелкните в поле и нажмите клавиши:
+Assigned to:=Назначено:
+(none)=(нет)
+Assign=Назначить
+Clear=Отменить
+Assign shortcut to selected command=Назначить выбранной команде
+Clear shortcut of selected command=Отменить назначение клавиш
+
+;-- Toolbars tab
+Toolbars=Панели инструментов
+Select toolbar:=Выберите панель:
+Misc2=Разное
+Select command and toolbar etc.=Выберите команду или панель инструментов
+(Separator)=(Разделитель)
+
+;-- Sounds tab
+Sounds=Звук
+Enable sounds=Включить звук
+Invalid move=Недопустимый ход
+Engine move=Ход программы
+Default=По умолчанию
+Custom=Другие
+Test=Тест
+Sound files=Звуковые файлы
+Select sound file=Выберите звуковой файл
+
+;-- Files tab
+Files=Файлы
+
+;-- File association
+File associations=Файловые ассоциации
+Unable to update file association!=Ошибка при обновлении ассоциаций!
+Check user rights.=Проверить права пользователя
+
+;-- Starting
+Starting=Начинать
+Start with last files=С последних файлов
+Start with last move=С последнего хода
+
+;-- Properties
+Properties=Свойства
+Save with 10 moves on each line=Сохранять по 10 ходов в строке
+New file with full SGF properties=Полный набор свойств SGF при создании файла
+Change player with SGF property=Менять игрока при помощи свойства SGF
+Compress lists of points=Сжимать списки пунктов
+Accept long property names=Принимать длинные имена свойств
+
+;-- Navigation tab
+Move targets=Цели при перемещении
+Every N moves=Каждые N ходов
+Starts of variation=Начало вариантов
+Ends of variation=Конец вариантов
+Time between two moves=Время между двумя ходами
+Use timing properties when available=По возможности использовать свойства
+Stop at targets=Останавливаться на целях
+
+;-- Database tab
+General=Общие
+Cache=Кэш
+Creation=Создание
+Create with extended algorithms=Использовать расширенные алгоритмы
+Process variations=Обрабатывать варианты
+Detect duplicates=Выявлять дубликаты
+by using signature=по сигнатуре
+by using final position=по итоговой позиции
+Omit duplicates when detected=Пропускать обнаруженные дубликаты
+Omit games with SGF errors=Пропускать партии с ошибками SGF
+Pattern search=Поиск по шаблону
+Search in variations=Поиск по вариантам
+Move limit=Лимит ходов
+
+;-- Game engine tab
+
+Game engines=Игровые программы
+List of engines=Список игровых программ
+Analysis=Анализ
+
+;-- Binary
+Path=Путь
+Select engine path=Путь к игровой программе
+Parameters=Параметры
+Usage=Применение
+Use for game=Для игры
+Use for analysis=Для анализа
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=Правила, время, размер доски и уровень фиксированы. Здесь можно ввести другие аргументы для текущей программы.
+
+;-- Lists of features
+Playing features=Игровые возможности
+Chinese rules=Китайские правила
+Japanese rules=Японские правила
+Fixed handicap=Фиксированная фора
+Free handicap=Свободная фора
+Time per game=Время на партию
+Undo=Отмена
+Detailed game results=Подробные результаты
+Analysis features=Функции анализа
+Move suggestion=Предложение хода
+Influence region=Зона влияния
+Group status=Статус группы
+
+;-- Predefined engines
+Select predefined engine=Выбрать программу из стандартного списка
+Open browser, download and install=Открыть браузер, загрузить и установить
+Already installed=Программа уже установлена
+Press Ok (then you will have to enter executable installation path) or cancel.=Выберите OK (и введите путь к установленной программе) или Отмена.
+If the engine motor you want to play with is not in the list, edit the following file:=Если нужная программа отсутствует в списке, отредактируйте следующий файл:
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Правила, время, размер доски и уровень фиксированы. Здесь можно ввести другие аргументы для текущей программы.
+Current parameters=Текущие параметры
+Additional parameters=Дополнительные параметры
+
+;-- Language tab
+
+Language=Язык
+Select language for user interface=Выберите язык интерфейса
+Select code page for game files=Выберите кодировку игровых файлов
+Create game files using...=Кодировка для создания игровых файлов
+Unicode=Юникод
+System default code page=Системная кодировка по умолчанию
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=Выбрать пользовательские камни
+Path for Black stones=Путь к черным камням
+Path for White stones=Путь к белым камням
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=Имена камней должны содержать число, обозначающее диаметр. Если имя содержит второе число, то оно определяет вариант графики.
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=Примечания
+
+;-- Position annotations
+Position annotations=Примечания к позиции
+Good for Black=Хорошо для черных
+Good for White=Хорошо для белых
+Balanced position=Равная позиция
+Unclear position=Неясная позиция
+Very good for Black=Очень хорошо для черных
+Very good for White=Очень хорошо для белых
+Very balanced position=Сбалансированная позиция
+Very unclear position=Крайне неясная позиция
+Hot spot=Важный пункт
+Very hot spot=Очень важный пункт
+
+;-- Move annotations
+Move annotations=Примечания к ходу
+Bad=Плохо
+Doubtful=Сомнительно
+Tesuji=Тэсудзи
+Very bad=Очень плохо
+Interesting=Интересно
+Very good tesuji=Очень хорошее тэсудзи
+
+;-- Text
+Text=Текст
+
+;-- Others
+Others=Прочие
+
+;-- Timing
+Black time left=Осталось времени (черные)
+White time left=Осталось времени (белые)
+
+;-- Figures
+Insert figure=Вставить
+Show coordinates=Вывести координаты
+
+;-- Other properties
+Other properties=Другие свойства
+Move numbers from=Нумерация ходов с
+Wrong variation (uliGo)=Неверный вариант (uliGo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=Введите список свойств, разделенных запятыми (C,BL,WL):
+All games in collection=Все партии в коллекции
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=Воспроизведение партии
+
+;-- Select game
+Select game2=Выбор партии
+Loaded game=От текущей
+Sequential=По порядку
+Random=Случайный
+
+;-- Play with
+Play with=Играть за
+Both=Обе стороны
+
+;-- Play...
+Play2=Просмотреть...
+Full game=Вся партия
+Fuseki=Фусэки
+From current position=От текущей позиции
+From current position (only for current game)=От текущей позиции (только для текущей партии)
+
+;-- Move number in Fuseki
+Move number in Fuseki=Ходов в фусэки
+
+;-- Number of attempts per move
+Number of attempts per move=Количество попыток на ход
+Only one=Только одна
+Unlimited=Без ограничений
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=Статистика
+Problems in collection=Количество задач в коллекции
+Visited problems=Использовано в сеансе
+Number of attempts=Количество попыток
+Number of successes=Правильные ответы
+Show detailed statistics=Показать подробную статистику
+Reset collection statistics=Сбросить статистику коллекции
+
+;-- Problem order
+Problem order=Порядок решения задач
+Sequential from current=По порядку от текущей
+Sequential from stored=По порядку от сохраненной
+Random color=Случайный цвет
+Random position=Случайная ориентация
+Number of problems=Количество задач
+
+;-- Failure ratio
+Include problems incorrectly solved=Включение неверно решенных задач
+don't care=не учитывать
+ratio=соотношение
+
+;-- Solution marks
+Solution marks=Пометка ответов
+Main line=Главная ветвь
+Autodetect=Автопоиск
+
+;-- More popup menu
+Show=Показывать
+Timer=Таймер
+Glyphs=Глифы
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=Выберите основу для имен файлов:
+Export starting from:=Экспортировать в:
+Merge... Select files=Объединить... Выбор файлов
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=Папка для сохранения
+Files modified in folder=Измененные файлы в папке
+Select files to save:=Выберите файлы для сохранения
+Select all=Выделить все
+Unselect all=Снять выделение
+Ignore=Игнорировать
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=Глубина
+Unique moves=Уникальные ходы
+Normalize position of first move=Нормализация первого хода
+Game reference=Ссылка на партию
+Filename=Имя файла
+Games to process=Партии для обработки
+Process current tab=Обработать текущую вкладку
+Select files or folders to process=Выбрать файлы или папки
+Start=Пуск
+
+;-- Messages
+Only main branch is processed=Обработана только главная ветвь
+Move inversions are not detected=Перестановки ходов не обнаружены
+Unable to process file=Не удалось обработать файл
+Unable to process file completely=Не удалось полностью обработать файл
+Game ignored (some not alternative moves):=Партия исключена (безальтернативные ходы):
+Game ignored (board size not handled):=Партия исключена (размер доски не обработан):
+Game tree ready.=Дерево игры готово.
+Elapsed time (seconds)=Время (секунды)
+Number of games=Количество партий
+percentage and number of games in variation=проценты и количество партий в варианте
+winning percentage of move=процент побед для хода
+number of unknown results=количество неизвестных результатов
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=распространяется бесплатно
+Version=Версия
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo и libkombilo - Ulrich Goertz:
+Credits=Благодарности
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=Все файлы
+BMP files=Файлы BMP
+DOC files=Файлы DOC
+HTML files=Файлы HTML
+JPEG files=Файлы JPEG
+RTF files=Файлы RTF
+SGF files=Файлы SGF
+GIF files=Файлы GIF
+PNG files=Файлы PNG
+MGT files=Файлы MGT
+ASCII files=Файлы ASCII
+PDF files=Файлы PDF
+Database files=Файлы баз данных
+Text files=Текстовые файлы
+
+;-- Export captions
+Export games with HTML format=Экспорт партий в формате HTML
+Export games with RTF format=Экспорт партий в формате RTF
+Export games to HTML format=Экспорт партий в формате HTML
+Export games to RTF format=Экспорт партий в формате RTF
+Export games to PDF format=Экспорт партий в формат PDF
+Export games to MSWORD format=Экспорт партий в формат MSWORD
+
+;-- Select texture dialog
+Select texture=Выбор текстуры
+(empty)=(пусто)
+Image:=Изображение:
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=Последний ход
+Black prisoners=Захвачено черных
+White prisoners=Захвачено белых
+
+;-- Game information
+Game information2=Информация
+
+;-- Variation list panel
+Next moves=Следующие ходы
+Alternate moves=Альтернативные ходы
+
+;-- Replay panel
+Game2=Партия
+You=Вы
+
+;-- Problem panels
+Reference=В файле
+Problem=Задача
+Attempt=Попытка
+Attempts=Всего попыток
+Trial=Попытка
+Trials=Всего попыток
+Problem status=Статус задачи
+Attempt status=Статус попытки
+Running=В процессе
+Success=Правильно
+Failure=Ошибка
+Assisted=С подсказкой
+Free=Свободный режим
+
+;-- Problem result box
+End of problem session.=Завершение сеанса.
+Session result: %d / %d=Результат сеанса: %d / %d
+Collection score after session: %s=Счет коллекции после сеанса: %s
+More problems?=Продолжить?
+
+;-- Game result string
+Black wins=Черные выиграли
+White wins=Белые выиграли
+%s wins by %s points=%s выиграли %s очков
+Draw=Ничья
+No result=Нет результата
+Unknown result=Результат неизвестен
+by forfeit=техническое поражение
+by resignation=по сдаче
+on time=по времени
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=Больше не показывать это сообщение
+Toggling to full screen mode.=Переход в полноэкранный режим.
+Restore window mode with %s=Возврат к режиму окна - %s
+
+;-- Tab errors
+Unable to create tab=Ошибка при создании вкладки
+
+;-- Edit messages
+No move to add variation.=Нет хода для добавления варианта.
+Move impossible to cancel=Отменить ход невозможно
+Delete whole branch.=Будет удалена вся ветвь.
+File modification.=Файл изменен.
+Beware game modification will not be updated in database.=Изменения в партии не будут отражены в базе данных.
+Do you want to proceed?=Хотите продолжить?
+
+;-- File errors
+File not open=Ошибка открытия файла
+Bracket not found=Скобка не найдена
+Error opening file=Ошибка при открытии файла
+Error opening folder=Ошибка при открытии папки
+Line=Строка
+File partialy read=Файл загружен лишь частично.
+File %s is read only.=Файл %s доступен только для чтения
+File %s not saved.=Файл %s не сохранен
+Folder %s not saved.=Папка %s не сохранена.
+First game not found=Первая партия не найдена
+Illegal character=Недопустимый символ
+Impossible to save %s.=Невозможно сохранить %s.
+Impossible to save.=Сохранение невозможно
+Impossible to write file=Ошибка при записи файла
+Semicolon not found after parenthesis=Не найдена точка с запятой после скобки
+Invalid property name=Недопустимое имя свойства
+Memory error=Недостаточно памяти
+Read only file=Файл доступен только для чтения
+The loaded game is not Go : GM property=У загруженной партии отсутствует свойство Go : GM
+Invalid board size=Недопустимый размер доски
+Size will be set to 19.=Выбран размер доски 19.
+Unexpected end of file=Неожиданное завершение файла
+
+;-- File warnings
+Reload and lose modifications?=Загрузить заново с потерей изменений?
+Save changes in %s?=Сохранить изменения в %s?
+
+;-- Replay messages
+Game with no name. Save to proceed.=Партии не присвоено имя. Сохраните, чтобы продолжить.
+File not saved. Save to proceed.=Файл не сохранен. Сохраните, чтобы продолжить.
+The file doesn't seem to be a game file.=Файл не является файлом партий.
+The file doesn't seem to be a problem file.=Файл не является файлом задач.
+The file is not a problem collection.=Файл не является коллекцией задач.
+A problem collection must be loaded to start a problem session.=Загрузите коллекцию задач.
+Continue=Продолжить
+End of fuseki=Конец фусэки
+End of game=Конец игры
+Score=Результат
+
+;-- Move errors
+Illegal move=Недопустимый ход
+Illegal ko capture=Недопустимое взятие ко
+Illegal suicide...=Запрещенный ход...
+Impossible to play there=Ход невозможен
+
+;-- Game engine messages
+Abnormal termination of game engine=Аварийное завершение игровой программы
+Do you really want to resign?=Вы действительно хотите сдаться?
+Game aborted=Партия прервана
+Error=Ошибка
+Black has passed=Черные спасовали
+White has passed=Белые спасовали
+Black resigns=Черные сдались
+White resigns=Белые сдались
+Black loses on time=Черные проиграли по времени
+White loses on time=Белые проиграли по времени
+Pass2=Пас
+pass3=пас
+Territory=Территория
+Prisoners=Захвачено
+Total=Total
+Please select board view before starting game.=Выберите вид доски перед началом игры.
+Current engine is unable to start...=Текущая игровая программа не запускается...
+Engine configuration file missing. Please check installation.=Отсутствует файл конфигурации. Пожалуйста, проверьте правильность установки.
+alive=жизнь
+dead=смерть
+critical=критично
+
+;-- Export
+Problem while copying in clipboard=Ошибка при копировании в буфер обмена
+Problem while saving image=Ошибка при сохранении изображения
+Unable to export...=Ошибка при экспорте...
+Close Word and restart export.=Закрыть Word и повторить экспорт
+Please, close previous preview to proceed.=Закройте предыдущее окно просмотра, чтобы продолжить
+File is in use, close to proceed.=Файл используется, закройте для продолжения
+
+;-- Preview
+Sorting is not enabled over %d records.=Свыше %d записей сортировка запрещена.
+See Options | Preview to change this setting.=См. Параметры | Просмотр.
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=           
+Tab=
+Esc=
+Enter=
+Space=
+PgUp=
+PgDn=
+End=
+Home=
+Left=
+Up=
+Right=
+Down=
+Ins=
+Del=
+Shift+=
+Ctrl+=
+Alt+=
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=Выберите файлы или папки
+Clear all=Очистить все
+Include subfolders=Включить подкаталоги
+Start2=Выполнить
+Abort=Отменить
+Save database as=Сохранить базу данных как
+Please give database name=Введите имя базы данных
+%s already exists.=%s уже существует.
+Do you want to overwrite it?=Хотите заменить?
+Database open, please close first=База данных открыта, сначала закройте
+Unable to create database=Ошибка при создании базы данных
+
+;-- Search dialog
+Pattern=Шаблон
+;Game information=
+Signature=Сигнатура
+Reset=Сброс
+No database loaded=База данных не загружена
+No database loaded... Load or create.=Загрузите или создайте базу данных.
+Select database=Выберите базу данных
+Search=Поиск
+Search in results=Поиск в результатах
+Whole database=Вся база данных
+Current results=Текущие результаты
+View results in tab=Просмотр результатов на вкладке
+View results on board=Просмотр результатов на доске
+View results in game information list=Просмотр результатов в списке
+View results in board thumbnails=Просмотр результатов в эскизах
+
+;-- Pattern search
+Pattern (right-click to select)=Шаблон (выделите правой кнопкой мыши)
+Wildcard=Джокер
+Capture=Захват
+Clear2=Сброс
+View:=Просмотр
+Results=Результаты
+Frequency=Частота
+Urgency=Актуальность
+Efficiency=Эффективность
+Fixed:=Фиксировано
+Position=Позиция
+Next move:=Следующий ход:
+%d matches=%d совпадений
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d совпадений (%d/%d), Ч: %1.1f%%, Б: %1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=
+Right-click to select on board=Щелкните правой кнопкой мыши, чтобы выбрать на доске
+Found games are in database tab=Найденные партии находятся на вкладке базы данных
+
+;-- Information search
+Game information search=Поиск по игровой информации
+Search on players=Поиск по игрокам
+Any=Любой
+One of both=Один из двух
+Winner=Победитель
+Loser=Проигравший
+Search on date=Поиск по дате
+Day=День
+Month=Месяц
+Year=Год
+Range=Диапазон
+To=До
+Search on result=Поиск по результату
+wins=выигрыш
+wins by=выигрыш (очков)
+wins by at least=выигрыш (не менее)
+wins by at most=выигрыш (не более)
+wins by resignation=выигрыш (по сдаче)
+wins on time=выигрыш (по времени)
+wins by forfeit=выигрыш (технический)
+Other or unknown=Прочее или неизвестно
+More conditions=Дополнительно
+SQL=SQL
+
+;-- Signature search
+Signature search=Поиск по сигнатуре
+
+;-- Settings
+Search settings=Параметры поиска
+Select or open database=Выбор базы данных
+Pattern search parameters=Параметры поиска по шаблону
+Fixed color=Фиксированный цвет
+Fixed position=Фиксированная позиция
+Pattern search next move=Следующий ход
+Any or none=Любой
+Pattern search view=Режим просмотра
+Full=Полный
+Digest=Сводка
+
+;-- Messages
+Error opening database=Ошибка при открытии базы данных
+No search for center empty patterns.=Поиск по пустому шаблону в центре невозможен.
+No search for center single stone patterns.=Поиск по шаблону с одним камнем в центре невозможен.
+No search rectangle defined.=Прямоугольник поиска не определен.
+Operation aborted by user=Операция прервана пользователем
+%d file(s) to process=%d файлов для обработки
+%d games processed, %s elapsed=обработано %d партий за время %s
+%d file(s) processed, %s elapsed=обработано %d файлов за время %s
+Unable to process game=Ошибка при обработке партии
+Unable to process game completely=Не удалось полностью обработать партию
+Boardsize not handled=Размер доски не обработан
+SGF error detected, game inserted=Обнаружена ошибка SGF
+SGF error detected, game not inserted=Ошибка SGF проигнорирована
+Duplicate detected=Обнаружен дубликат
+Duplicate ignored=Дубликат проигнорирован
+;%d result(s)=%d résultat(s)
+No game found in %s=В %s партии не найдены
+1 game found in %s=В %s найдена 1 партия
+%d games found in %s=В %s найдено %d партий
+Save logfile=Сохранение файла журнала
+%d ms.=%d мс.
+%2.2f seconds=%2.2f секунд
+Unable to modify game in database.=Не удалось изменить партию в базе данных.
+Extract to a new tab and try again?=Вынести на новую вкладку и повторить попытку?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=Дополнительно
+Restore default=Восстановить стандартные значения
+Select=Выбрать
+Select all2=Выбрать все
+Restore=Восстановить
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=Последовательность щелчков при расстановке
+Set, remove=Поставить, удалить
+Set, swap color, remove=Поставить, сменить цвет, удалить
+Enable moves as books=Включить режим "как в книгах"
+Start variation from 1=Начинать вариант с 1
+Start variation with figure=Начинать вариант с рисунка
+Start variation settings include main line=Настройки начала варианта применяются к основной ветви
+Bold text=Жирный текст
+Maximum font size=Макс. размер шрифта
+Texture tiling with symmetries=Текстурное заполнение с симметрией
+
+; User interface
+User interface=Интерфейс
+Allow only one instance=Только один экземпляр
+Minimize to tray=Свернуть в системную панель
+Hook content of window when resizing=Привязка содержимого при изменении размеров
+Anchor panels at bottom=Закрепить панели внизу
+Show tab close buttons=Кнопки закрытия вкладок
+
+; Files
+Save paths relatively to install folder=Относительные пути сохранения
+Abort reading on file error=Отмена чтения при ошибке доступа к файлу
+Open save dialogs with places bar=Панель адресов в окнах открытия/сохранения
+
+; Games against engines
+Games against engines=Игра с программой
+Ask for saving when closing game=Запрос на сохранение при закрытии партии
+Use again previous game engine tab=Новая игра с программой на прежней вкладке
+Enable Undo=Разрешить отмену
+Only after capture=Только после захвата
+Game engine options are inhibited during game=Параметры игровой программы недоступны во время игры
+
+
+; Warning
+Warnings=Предупреждения
+Warn when toggling to full screen=При переходе в полноэкранный режим
+Warn at first modification=При первом изменении файла
+Warn at modification in database game=При изменении партии в базе данных
+Warn at modification in read only mode=При изменении в режиме "только для чтения"
+Warn when delete branch=При удалении ветви
+Warn on invalid move=При недопустимом ходе
+Warn on game engine pass=Предупреждать о пасе игровой программы
+Warn on game engine resignation=Предупреждать о сдаче игровой программы
+Warn when losing on time=Предупреждать о проигрыше по времени
+
+; PDF
+Use board color=Использовать цвет доски
+Exact width (mm)=Точная толщина (мм)
+Added border (N;W;S;E in % of image width)=Дополнительная граница (N;W;S;E в % от ширины изображения)
+Radius adjustment=Поправка радиуса
+Circle width=Толщина окружности
+Line width=Толщина линии
+Double line width=Толщина двойной линии
+Hoshi stone ratio=Соотношение "хоси/камень"
+Marks adjustment (line width;size factor)=Поправка на размер пометок (толщина линии;масштаб)
+Font size adjustment (f or f;f or f;f;f see help)=Поправка на размер шрифта (f или f;f или f;f;f - см. справку)
+Line height adjustment=Регулировка высоты строки
+
+;---

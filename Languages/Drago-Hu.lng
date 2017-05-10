@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Magyar
+$HelpFile=Drago-En.chm
+$TranslationCredit=Magyarította Kajtár István
+$Update=4.22
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=Fájl
+View=Alap nézetek
+Navigation=Navigáció
+Edit=Javítás
+Database=Adatbázis
+Games2=Partik
+Problems=Feladványok
+Play=Játék
+Options=Beállítások
+Help=Súgó
+
+;-- File
+New=Új
+Open=Megnyit
+Open folder=Mappát nyit
+Save=Elment
+Save as=Más néven ment
+Save tab content as=Fül tartalmának mentése
+Read only=Csak olvasásra
+Close=Bezár
+Close all=Mindegyiket bezárja
+Open from clipboard=
+Save to clipboard=
+Collections=Gyüjtemények
+Favorites=Kedvencek
+Index=Index
+Game information=Parti info
+Print=Nyomtat
+Export=Export
+Export position=Exportálási kép
+Quit=Kilép
+
+;-- Collection
+Append to=HozzáKapcsol
+Merge=Egyesít
+Extract current=Jelenlegit eltávolítja
+Extract all=Mindet eltávolítja
+Delete current game=Aktuális parti törlés
+Make game tree=
+
+;-- View
+Full screen mode=
+View board=Teljes tábla
+Preview game information=Játszma info
+Preview board thumbnails=Bélyegkép
+Reference view=Referencia nézet
+Mirror=Vizsz. tükrözés
+Flip=Függ. tükrözés
+Opponent view=Ellenoldali nézet
+Rotate 90 clockwise=Jobbra forgat
+Rotate 90 counter clockwise=Balra forgat
+Swap colors=Színt cserél
+Show toolbars=Eszköztárak...
+Toolbar settings=Eszköztár beállítás
+Board settings=Tábla beállítások
+Preview settings=Bemutató beállítások
+
+;-- Navigation
+First game=Első parti
+Previous game=Előző parti
+Next game=Következő parti
+Last game=Utolsó parti
+Select game=Válaszott parti
+Start position=Indulási állás
+Previous move=Előző lépés
+Next move=Következő lépés
+End position=Végső állás
+Go to move=(számú) lépéshez
+Previous target=Előző kulcslépés	
+Next target=Következő kulcslépés
+Auto replay=Automatikus lejátszás
+Navigation settings=Kulcslépés megjelölése
+Next variation=Következő változat
+Previous variation=Előző változat
+Pointer up=Mutató fel
+Pointer down=Mutató le
+Pointer left=Mutató balra
+Pointer right=Mutató jobbra
+
+;-- Edit
+Undo move=Visszalép
+Delete branch=Variációt töröl
+Game edit=Javítás
+Game edit Black first=Fekete lép
+Game edit White first=Fehér lép
+Add Black=Plusz fekete
+Add White=Plusz fehér
+Empty=Üres
+Current markup=Jelzések
+Player=Játékos
+Black to play=Fekete lép
+White to play=Fehér lép
+Insert pass=Passz
+Insert=Szöveg beillesztés
+Make main branch=Fő változat beáll.
+Promote variation=Válaszott változat
+Demote variation=Elvetett változat
+Remove properties=Tulajdonságot töröl
+Insert empty node=
+Click at pointer=Jelzést beilleszt
+Ctrl-click at pointer=Beillesztett jelzést töröl
+
+;-- Markup
+Cross=Kereszt
+Triangle=Háromszög
+Circle=Kör
+Square=Négyzet
+Letter=Betű
+Number=Szám
+Label=Megjelölés
+Black territory=Fekete terület
+White territory=Fehér terület
+
+;-- Database
+Create database=Készítés
+Open database=Megnyitás
+Add to database=Hozzáadás
+Search in database=Keresés
+One click search=
+Database settings=Beállítás
+
+;-- Games
+Replay session=Szakasz ismétlés
+Replay index=Index megjelenítés
+Cancel replay session=Szakasz ismétlés törlése
+
+;-- Problems
+Solve problems=Megoldás
+Problem index=Index
+Hint=Tanács
+Free mode=Szabad mód
+Problem mode=Feladvány mód
+Cancel problem session=Feladvány szakasz törlés
+
+;-- Play
+New engine game=Új parti programmal
+Pass=Passz
+Resign=Feladás
+Cancel game=Parti törlés
+Score estimate=Eredmény becslés
+Suggest move=Javasolt lépés
+Show influence regions=Hatásterületet mutat
+Engine settings=Program beállítás
+
+;-- Options
+Sidebar settings=Oldalmező beállítás
+Language settings=Nyelv beállítás
+Advanced settings=Különleges beállítások
+Toggle coordinates=Koordináta be
+Toggle move markers=Lépés jelölő be
+View settings=
+Game tree settings=
+
+;-- Help
+Display help=angol súgó megjelenítés
+Web site=
+Donate=
+About=A programról
+
+;-- Tabs popup menu
+New in tab=Új fül alatt megnyit
+Open in tab=Régi fül alatt megnyit
+Open folder in tab=Mappát fül alatt megnyit
+Reload current file=Fájlt frissít
+
+;-- Sidebar menu
+Show in current tab=
+
+;-- Tray icon menu
+Restore window=
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=&Súgó
+Ok=Ok
+Cancel=Mégse
+Clipboard=Vágólap
+No=Nem
+Yes=Igen
+Send=Küld
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=Üdvözöllek a Dragóban
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=Méret
+Komi=Komi
+Handicap=Előnykő
+Free placement=Szabadon
+Create in=Parti helye
+New file=Új fájl
+Current file=Jelen fájl
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=Gépi program
+Name=Név
+Level=Szint
+not defined=határozatlan
+Not available=Nem lehetséges
+More engines=Egyéb programok
+
+;-- Start position
+New game=Új parti
+Current position=Jelen helyzet
+Auto handicap=Automatikus előny
+Engine plays with=Gép lép ...val
+Black=Fekete
+White=Fehér
+
+;-- Time settings
+Time settings=Idő beállítás
+No time limit=Korlátlan idő
+Total time=Teljes idő
+Time per move=Lépésenkénti idő
+Initial time plus over time=Lépésenkénti idő byo-yomiban
+Initial time=Lépésenkénti idő
+Over time=Byo-yomi
+Timing only for engine=
+
+;-- Game settings
+Game settings=Játszma beállítások
+Boardsize=Tábla méret
+
+;-- Scoring
+Scoring=Eredmény
+Territory counting=Terület japán számolással
+Area counting=Terület kínai számolással
+
+;-- Messages
+More=Egyebek...
+No engine defined. Please select 'More...' then 'More engines...'=Program nincs beállítva. Válaszd az "Egyebek...", majd a "Programok..." menüpontot
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=A program nem található. Válaszd az "Egyebek...", majd a "Programok..." menüpontot, majd ellenőrizd az útvonalat.
+Not all functions are supported by the engine currently selected.=Az aktuális program nem támogat minden funkciót.
+
+;-- GTP window
+GTP window=GTP ablak
+Show GTP window=GTP ablakot mutat
+Enter and send GTP command (no feedback on main board):=GTP parancsot küld, ami nem frissíti a fő táblát
+No engine running=Nincs futó program
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=Klikkelj az előnykövek helyére.
+Click again on a stone to remove it.=Ismételt klikk visszaveszi a követ.
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=Add hozzá a jelenlegit
+Add=Add
+Add favorite=Add a kedvencekhez
+Add game file=
+Add folder=
+Add database=
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=Összesítés
+
+;-- Event
+Game=Parti
+Event=Verseny
+Round=Forduló
+Place=Hely
+Date=Dátum
+
+;-- Players
+Players=Játékosok
+Rank=Minősítés
+Team=Csapat
+
+;-- Rules
+Rules=Szabályok
+Time=Idő
+hr=h
+mn=p
+Byo-Yomi=Byo-Yomi
+
+;-- Sources
+Sources=Adatok	
+User=Felhasználó
+Annotation=Jegyzet
+Source=Forrás
+Copyright=Copyright
+
+;-- Comment
+Comment=Megjegyzés
+
+;-- Misc
+Misc=Egyéb
+Application=Alkalmazások
+SGF format=SGF
+Style=Stílus
+No style defined for current game=Ehhez a partihoz nincs stílus meghatározva.
+Show alternate moves - Allow board markup=Mutass más lépéseket - Táblán jelölve
+Show alternate moves - No board markup=Mutass más lépéseket - Táblán nincs jelölve
+Show next moves - Allow board markup=Mutasd a következő lépést - Táblán jelölve
+Show next moves - No board markup=Mutasd a következő lépést - Táblán nincs jelölve
+Charset=Betűkészlet
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=Bemutató 
+Export figures=Rész export
+Export games=Parti export
+ESC to cancel=ESC - mégse
+
+;-- Games and figure
+Games and figures=Játszmák és részeik
+
+;-- Games
+Games=Játszmák
+Current game=Aktuális parti
+All=Mind
+to:=meddig
+from:=mettől
+
+;-- Include information
+Include information=Megjegyzéseket is beleértve
+at start of game=A parti elejétől
+as name of figure 1=Az 1-es résztől
+Format=Forma
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (B) vs \PW (W), \DT
+
+;-- Figures
+Figures=Ábrák
+Position at move number=0 és N.-dik lépés közt
+One figure every N moves=Egy ábra N lépéssel
+One figure every %d moves=Egy ábra minden %d lépéssel
+One figure every markup or comment=Kulcspontokig, v. megjegyésig
+File figures=Az egész parti
+Variations=Elemzések
+
+;-- Comments
+Comments=Megjegyzések
+Include comments=Megjegyzésekkel együtt
+Remind figure titles=Részlet címek
+remind figure titles2=Részlet címek
+Remind move numbers=Lépés számozás
+remind move numbers2=Lépés számozás
+
+;-- Figure title
+Figure title=Részlet címe
+Print title=Cím nyomtatása
+Relative numbers=Relativ számok
+relative numbers2=relatív számok
+Figure format=Részlet formátuma
+Variation format=Elemzés formátuma
+
+;-- Default formats for title
+Diagram \figure=Ábra \figure
+Figure \figure (\moves)=Részlet \figure (\moves)
+Game \game (\moves)=Parti \game (\moves)
+Game \game - Diagram \figure=Parti \game - Ábra \figure
+Game \game - Figure \figure (\moves)=Parti \game - Részlet \figure (\moves)
+Game \game=Parti \game
+Problem \game - Figure \figure=Feladvány \game - Részlet \figure
+Problem \game=Feladvány \game
+
+;-- Layout tab
+Layout=Layout
+
+;-- Header and footer
+Header and footer=Fej és lábléc
+Print header=Fejlécet nyomtat
+Print footer=Láblécet nyomtat
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\bal 'Oldal ' \oldal \jobb \dátum
+
+;-- Layout
+Layout2=Elrendezés
+First figure alone in the line=első ábra egyedül a sorban
+1st figure alone=Első ábra egyedül
+1st figure ratio=Első ábra aránya
+Figures per line=Ábrák soronként
+Figure ratio=Ábra arány
+
+;-- Margins
+Margins (mm)=Margók (mm)
+Left2=Bal2
+Right2=Jobb2
+Top=Felső
+Bottom=Alsó
+
+;-- Font
+Font=Betű
+Name:=Név:
+Size:=Méret:
+
+;-- Styles
+Styles=Stílus
+Remove=visszavon
+Add current print options as style with name:=Add hozzá a mostani nyomtatási beállításokat stílusként:
+Remove style=Stílust visszavon
+
+;-- Style description strings not yet listed
+Games from %d to %d=Partik %d -tól %d -ig
+Include variations=Elemzéseket beleértve
+with format=formátummal	
+with formats=formátumokkal
+with ratio=arányokkal
+absolute numbers=abszolút számokkal
+
+;-- Formats
+Formats=formátumok
+Formats for exporting games=Formátumok exportált partikhoz
+Formats for exporting figures=formátumok exportált abrákhoz
+Paper=Papír
+Letter2=Betű
+Landscape=Fekvő
+Settings=Beállítások
+PDF compression=PDF tömörítés
+Jpeg quality (1-100)=Jpeg minőség (1-100)
+
+;-- Printing as book
+%d at %d=%d -ban %d
+%d at %s=%d -ban %s
+%d above %d=%d felül %d
+%d below %d=%d alul %d
+%d at left of %d=%d -tól balra %d
+%d at right of %d=%d -tól jobbra %d
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=Ábra koordináták
+Dimensions (mm)=Méretek (mm)
+Dimensions (px)=Méretek (px)
+Stone diameter=Kő átmérő
+As books=Mint könyvet
+Mode=Mode
+Moves from 1 to 10=Lépések 1-től 10-ig
+Black with circle=Feketét körrel
+Black with square=Feketét négyzettel
+White with circle=Fehéret körrel
+White with square=Fehéret négyzettel
+Draw edge=Él rajzolása
+H=H
+W=W
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=Első oldal
+Previous page=Előző oldal
+Next page=Következő oldal
+Last page=Utolsó oldal
+Zoom in=Zoom be
+Zoom out=Zoom ki
+Page %d of %d=%d oldal %d -ból
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=Tábla nézete
+
+;-- Board
+Board=Tábla
+Board1=Tábla 1
+Default texture=Alap minta
+Custom texture=Egyedi minta
+Color=Szín
+Thick edges=Tábla széle
+Hoshis=Hoshik
+
+;-- Stones
+Stones=Kövek
+
+;-- Coordinates
+Coordinates=Koordináták
+None2=None
+Korschelt=Korschelt
+
+;-- Coordinate background
+Coordinate background=Koordináta háttere
+As board=Mint a tábla
+
+;-- Displayed zone
+Displayed zone=Mutatott terület
+Whole board=Egész tábla
+Zoom on corner=Csak sarok
+
+;-- Moves tab
+Moves=Lépések
+
+;-- Show moves
+Show moves=Lépések mutatása
+All moves with number=Minden lépés számmal
+Last move with number=Utolsó lépés számmal
+Last move with markup=Utolsó lépés jellel
+Last %d moves with number=Utolsó %d lépés számmal
+Number of visible move numbers:=Látható számozott lépések:
+
+;-- Show variations as
+Show variations as...=Elemzéseket mutasd...
+
+;-- Markup of variations on goban
+Markup of variations on goban=Mutasd a variációkat a táblán
+None=Semmi
+Ghost stones=Szellem kövek
+Uppercase letters=Nagy betűk
+Lowercase letters=Kis betűk
+
+;-- Move numbers
+Move numbers=Lépés számozás
+Display only two last digits=Csak az utolsó két számot
+
+;-- Game tree tab
+Game tree=Fa nézet
+
+;-- Background
+Background=Háttér
+
+;-- Stone radius
+Radius=Átmérő
+
+;-- Move number position
+No2=Nem
+On the side=Oldalt
+On the stones=A kövön
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=Ablak háttér
+
+;-- Light source
+Light source=Fény iránya
+Top left=Balra fent
+Top right=jobbra fent
+
+;-- Skins
+Menu and toolbar skins=Menü és eszköztár skin
+
+;-- Preview tab
+Preview2=Bemutató
+Definition of information columns=Info oszlop meghat.
+Black player=Fekete játékos
+Black rank=Erő
+Result=Eredmény
+White player=Fehér játékos
+White rank=Erő
+Select property etc.=Beáll. kiválasztás, stb.
+Sorting of information records=Info rekordok kiválogatása
+Enabled if record number is less than=Bekapcs. Ha a rekordszám kevesebb, mint..
+Thumbnail preview=Bélyegkép nézet
+Stone radius=Kő átmérő
+
+;-- Sidebar tab
+Sidebar=Oldalmező
+Default visibility of panels when creating a tab=
+Always visible=Mindig látható
+Visible if needed=Ha szükséges, látható
+Timing=Idő
+Node name=Köv. lépés címe
+Variation list=Következő lépések
+Game information panel=Játszma tájékoztató
+Display images=Képet mutat
+Image directory=Képek könyvtára
+Comment font=Megjegyzés betűtípusa
+
+;-- Text panels
+Text panels=Szöveg panelek
+
+;-- Shortcuts tab
+Shortcuts=Billentyű parancsok
+Select category:=Kategóriák:
+Engine=Program
+Replay=Visszajátszás
+Select command:=válassz parancsot:
+Click in box and type shortcut:=Klikk a keretbe és írd be a rövidítést:
+Assigned to:=Engedélyezés:
+(none)=(semmi)
+Assign=Kijelöl
+Clear=Tisztáz
+Assign shortcut to selected command=Engedélyezi a parancs helyettesítést
+Clear shortcut of selected command=Törli a parancs helyettesítést
+
+;-- Toolbars tab
+Toolbars=Eszköztárak
+Select toolbar:=Eszköztár választás:
+Misc2=Különféle
+Select command and toolbar etc.=Válassz parancsot és eszköztárat, illeszd be a nyilakkal, vagy egérrel vonszold be a parancsot az eszköztárba.
+(Separator)=(Elválasztó)
+
+;-- Sounds tab
+Sounds=Hangok
+Enable sounds=Engedélyezve
+Invalid move=Érvénytelen lépés
+Engine move=Gépi lépés
+Default=Alapvető
+Custom=Egyedi
+Test=Teszt
+Sound files=Hang fájlok
+Select sound file=Válassz hangfájlt
+
+;-- Files tab
+Files=Fájlok
+
+;-- File association
+File associations=Fájl beállítás
+Unable to update file association!=
+Check user rights.=
+
+;-- Starting
+Starting=Indítás
+Start with last files=Utolsó fájllal indít
+Start with last move=Utolsó lépéssel indít
+
+;-- Properties
+Properties=Beállítások
+Save with 10 moves on each line=soronként 10 lépés metése
+New file with full SGF properties=Új fájl teljes SGF beállításokkal
+Change player with SGF property=Partner váltás SGF beállítással
+Compress lists of points=Pontlista tömörítés
+Accept long property names=Hosszú nevek elfogadása
+
+;-- Navigation tab
+Move targets=Kulcspontok
+Every N moves=Minden N.-dik lépésnél
+Starts of variation=Elemzések kezdete
+Ends of variation=Elemzések befejezése
+Time between two moves=Két lépés közti idő
+Use timing properties when available=Időzítés bekapcsolása, ha lehetséges
+Stop at targets=Kulcslépésnél megáll
+
+;-- Database tab
+General=Általában
+Cache=Gyorsítótár
+Creation=Készítés
+Create with extended algorithms=Kiterjesztett algoritmussal készül
+Process variations=Változatok futtatása
+Detect duplicates=Duplikátumok felkutatása
+by using signature=szignók alapján
+by using final position=végállás alapján
+Omit duplicates when detected=Feltárt duplikátumokat kihagyja
+Omit games with SGF errors=SGF hibás partikat kihagyja
+Pattern search=Minta keresés
+Search in variations=Változat keresés
+Move limit=Lépés limit
+
+;-- Game engine tab
+
+Game engines=Program
+List of engines=Programok listája
+Analysis=Analízis
+
+;-- Binary
+Path=Útvonal
+Select engine path=Program útvonala
+Parameters=Parameterek
+Usage=Használat
+Use for game=Játszmához
+Use for analysis=Elemzéshez
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=Szabályok, idő, méret és szint előre meghatározott. Egyáb szabályokat itt állíthatod be.
+
+;-- Lists of features
+Playing features=Játék fejlesztések
+Chinese rules=Kínai szabályok
+Japanese rules=Japán szabályok
+Fixed handicap=Rögzített hendikep
+Free handicap=Szabad hendikep
+Time per game=Játékidő
+Undo=Vissza
+Detailed game results=Részletes játszma eredmény
+Analysis features=Analízis fejlesztések
+Move suggestion=Lépés ajánlás
+Influence region=Hatás terület
+Group status=Csoport állapot
+
+;-- Predefined engines
+Select predefined engine=Program kiválasztás
+Open browser, download and install=Internet megnyitás, letöltés és telepítés
+Already installed=Már telepített
+Press Ok (then you will have to enter executable installation path) or cancel.=Válaszd az OK-t és add meg a telepítés helyét, vagy Mégse
+If the engine motor you want to play with is not in the list, edit the following file:=Ha a válaszott program nem működik, javítsd a következő fájlt.
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=
+Current parameters=
+Additional parameters=
+
+;-- Language tab
+
+Language=Nyelv
+Select language for user interface=Felhasználói felület nyelve
+Select code page for game files=sgf fájlokhoz "code page"
+Create game files using...=sgf fájl készítéshez felhasznál...
+Unicode=unicode
+System default code page=rendszer alap "code page"
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=
+Path for Black stones=
+Path for White stones=
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=Megjegyzések
+
+;-- Position annotations
+Position annotations=Állás bírálat
+Good for Black=Feketének jó
+Good for White=Fehérnek jó
+Balanced position=Kiegyensúlyozott állás
+Unclear position=Bizonytalan állás
+Very good for Black=Feketének nagyon jó
+Very good for White=Fehérnek nagyon jó
+Very balanced position=Stabil állapot
+Very unclear position=Zavaros állapot
+Hot spot=Fontos pont
+Very hot spot=Nagyon fontos pont
+
+;-- Move annotations
+Move annotations=Lépés bírálat
+Bad=Rossz
+Doubtful=Bizonytalan
+Tesuji=Tesuji
+Very bad=Nagyon rossz
+Interesting=Érdekes
+Very good tesuji=Kiváló tesuji
+
+;-- Text
+Text=Text
+
+;-- Others
+Others=Egyebek
+
+;-- Timing
+Black time left=Fekete maradék ideje
+White time left=Fehér maradék ideje
+
+;-- Figures
+Insert figure=Ábra beszúrás
+Show coordinates=Koordináta mutatás
+
+;-- Other properties
+Other properties=Más beállítások
+Move numbers from=Lépés számozás ..-tól
+Wrong variation (uliGo)=Hibás változat(uliGo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=Lista szerint vesszővel elválasztva (C,BL,WL)
+All games in collection=A teljes gyűjteményt
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=Parti visszajátszás
+
+;-- Select game
+Select game2=Parti választás
+Loaded game=Betöltött parti
+Sequential=Szakaszosan
+Random=Véletlenszerűen
+
+;-- Play with
+Play with=Játék ..-val
+Both=Mindkettő
+
+;-- Play...
+Play2=Play...
+Full game=Teljes parti
+Fuseki=Fuseki
+From current position=
+From current position (only for current game)=
+
+;-- Move number in Fuseki
+Move number in Fuseki=Lépések száma a fusekiben
+
+;-- Number of attempts per move
+Number of attempts per move=Lépésenként a kisérletek száma
+Only one=Csak egy
+Unlimited=Határ nélkül
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=Statisztika
+Problems in collection=Feladatok a gyűjteményben
+Visited problems=Megtekintett feladatok
+Number of attempts=Kisérletek száma
+Number of successes=Eredmények száma
+Show detailed statistics=Részletes statisztika
+Reset collection statistics=Összesített statisztika nullázása
+
+;-- Problem order
+Problem order=Feladványok sorrendje
+Sequential from current=Szakaszosan a jelenlegitől
+Sequential from stored=Szakaszosan a mentettől
+Random color=Véletlenszerű színválasztás
+Random position=Véletlenszerű helyzetválasztás
+Number of problems=Feladványok száma
+
+;-- Failure ratio
+Include problems incorrectly solved=A feladványok helytelen megoldásai
+don't care=nem érdekel
+ratio=arány
+
+;-- Solution marks
+Solution marks=Megoldás megadása
+Main line=Fő vonal
+Autodetect=Autodetect
+
+;-- More popup menu
+Show=Mutat
+Timer=Óra
+Glyphs=Díszítés
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=Fájloknak alap mappa választás:
+Export starting from:=Exportálás kezdve ..(innen):
+Merge... Select files=Összefűzés... Fájlok választása
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=Mappa mentése
+Files modified in folder=Mappákban fájlok módosítása
+Select files to save:=Kiválasztott fájlok mentése:
+Select all=Mind kiválaszt
+Unselect all=Kiválaszttás törlése
+Ignore=Kihagy
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=
+Unique moves=
+Normalize position of first move=
+Game reference=
+Filename=
+Games to process=
+Process current tab=
+Select files or folders to process=
+Start=
+
+;-- Messages
+Only main branch is processed=
+Move inversions are not detected=
+Unable to process file=
+Unable to process file completely=
+Game ignored (some not alternative moves):=
+Game ignored (board size not handled):=
+Game tree ready.=
+Elapsed time (seconds)=
+Number of games=
+percentage and number of games in variation=
+winning percentage of move=
+number of unknown results=
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=is freeware
+Version=Version
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo és libkombilo Ulrich Goertztől:
+Credits=Hitel (credits)
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=Minden fájl
+BMP files=BMP fájlok
+DOC files=DOC fájlok
+HTML files=HTML fájlok
+JPEG files=JPEG fájlok
+RTF files=RTF fájlok
+SGF files=SGF fájlok
+GIF files=GIF fájlok
+PNG files=PNG fájlok
+MGT files=MGT fájlok
+ASCII files=ASCII fájlok
+PDF files=PDF fájlok
+Database files=Adatbázis fájlok
+Text files=Szöveg fájlok
+
+;-- Export captions
+Export games with HTML format=Partikat expotál HTML-lel
+Export games with RTF format=Partikat expotál RTF-fel
+Export games to HTML format=Partikat expotál HTML-be
+Export games to RTF format=Partikat expotál RTF-be
+Export games to PDF format=Partikat expotál PDF-be
+Export games to MSWORD format=Partikat expotál MSWORD-be
+
+;-- Select texture dialog
+Select texture=Válassz mintát
+(empty)=(üres)
+Image:=Image:
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=Utolsó lépés
+Black prisoners=Fekete foglyok
+White prisoners=Fehér foglyok
+
+;-- Game information
+Game information2=Tájékoztatás 2
+
+;-- Variation list panel
+Next moves=Következő lépés
+Alternate moves=Lépés változat
+
+;-- Replay panel
+Game2=Parti 2
+You=Te/Ön
+
+;-- Problem panels
+Reference=Referencia
+Problem=Feladvány
+Attempt=Kisérlet
+Attempts=Kisérletek
+Trial=Kisérlet
+Trials=Kisérletek
+Problem status=Feladvány állapot
+Attempt status=kisérlet állapot
+Running=Futtat
+Success=Sikerült
+Failure=Hiba
+Assisted=Támogatás
+Free=Szabad
+
+;-- Problem result box
+End of problem session.=Nincs több feladvány
+Session result: %d / %d=Gyűjtemény eredménye %d / %d
+Collection score after session: %s=Összesített eredmény: %s
+More problems?=Még?
+
+;-- Game result string
+Black wins=Fekete nyert
+White wins=Fehér nyert
+%s wins by %s points=%s nyer %s ponttal
+Draw=Egyenlő
+No result=Nincs eredmény
+Unknown result=Ismeretlen eredmény
+by forfeit=elveszítve
+by resignation=feladással
+on time=időre
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=Ne mutasd többé
+Toggling to full screen mode.=
+Restore window mode with %s=
+
+;-- Tab errors
+Unable to create tab=Fül nem készíthető
+
+;-- Edit messages
+No move to add variation.=Elemzés nem folytatható.
+Move impossible to cancel=A lépést nem lehet törölni.
+Delete whole branch.=Egész ág törlése.
+File modification.=Fájl módosítás.
+Beware game modification will not be updated in database.=Parti módosítások nem frissülnek az adatbázisban.
+Do you want to proceed?=Akarod folytatni?
+
+;-- File errors
+File not open=Fájl nincs megnyitva.
+Bracket not found=Zárójel nem található.
+Error opening file=Fájl nyitási hiba.
+Error opening folder=Mappa nyitási hiba.
+Line=Sor
+File partialy read=Fájl csak részben olvasható.
+File %s is read only.=%s fájl csak olvasható.
+File %s not saved.=%s fájl nincs elmentve
+Folder %s not saved.=%s mappa nem lett elmentve.
+First game not found=Az első parti nem található.
+Illegal character=Érvénytelen karakter
+Impossible to save %s.=%s fájlt elmenteni lehetetlen.
+Impossible to save.=Lehetetlen menteni.
+Impossible to write file=Fájl nem írható.
+Semicolon not found after parenthesis=Pontosvessző a zárójel után hiányzik.
+Invalid property name=Érvénytelen tulajdonság.
+Memory error=Memória hiba.
+Read only file=Csak olvasható fájl.
+The loaded game is not Go : GM property=A betöltött fájl nem Go : GM tulajdonságú.
+Invalid board size=Érvénytelen tábla méret.
+Size will be set to 19.=A méret max. 19 lehet.
+Unexpected end of file=Váratlan fájlvégződés.
+
+;-- File warnings
+Reload and lose modifications?=Módosítások elvetése és újraindítás?
+Save changes in %s?=Módosítások metése %s -ba?
+
+;-- Replay messages
+Game with no name. Save to proceed.=Parti cím nélkül. Előbb el kell menteni.
+File not saved. Save to proceed.=Fájl nincs elmentve. Előbb el kell menteni.
+The file doesn't seem to be a game file.=Ez a fájl nem parti leírás.
+The file doesn't seem to be a problem file.=Ez a fájl nem feladvány.
+The file is not a problem collection.=Ez a fájl nem feladvány.
+A problem collection must be loaded to start a problem session.=Feladvány gyűjtemény nélkül nem működik.
+Continue=Folytasd
+End of fuseki=Fuseki vége
+End of game=Parti vége
+Score=Eredmény
+
+;-- Move errors
+Illegal move=Érvénytelen lépés
+Illegal ko capture=A ko most nem üthető vissza!
+Illegal suicide...=Öngyilkosság nem lehetséges...
+Impossible to play there=Ide nem lehet lépni.
+
+;-- Game engine messages
+Abnormal termination of game engine=Váratlan hiba miatt leállt.
+Do you really want to resign?=Valóban feladod?
+Game aborted=Parti abbamaradt
+Error=Hiba
+Black has passed=Fekete passzolt
+White has passed=Fehér passzolt
+Black resigns=Fekete feladta
+White resigns=Fehér feladta
+Black loses on time=Fekete ideje lejárt
+White loses on time=Fehér ideje lejárt
+Pass2=Passz 2
+pass3=passz 3
+Territory=Terület
+Prisoners=Foglyok
+Total=Összesen
+Please select board view before starting game.=Kezdés előtt válassz tábla nézetet.
+Current engine is unable to start...=A válaszott program nem indul...
+Engine configuration file missing. Please check installation.=Program fájl beállítási hiba.
+alive=él
+dead=halott
+critical=kérdéses
+
+;-- Export
+Problem while copying in clipboard=Vágólap másolási hiba
+Problem while saving image=Kép mentés hibája
+Unable to export...=Lehetetlen exportálni...
+Close Word and restart export.=A Word-t zárd be és indítsd újra az exporthoz.
+Please, close previous preview to proceed.=Az előző előnézetet az eljárás folytatáshoz be kell zárni.
+File is in use, close to proceed.=Fájl használatban, előbb zárd be.
+
+;-- Preview
+Sorting is not enabled over %d records.=%d rekordszám fölött nincs válogatás.
+See Options | Preview to change this setting.=Lásd a Beállításokat | Ott láthatók a változtatások
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=BkSp
+Tab=Tab
+Esc=Esc
+Enter=Enter
+Space=Space
+PgUp=PgUp
+PgDn=PgDn
+End=End
+Home=Home
+Left=Balra
+Up=Fel
+Right=Jobbra
+Down=Le
+Ins=Ins
+Del=Del
+Shift+=Shift+
+Ctrl+=Ctrl+
+Alt+=Alt+
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=Fájl v. mappa keresés ;kvt
+Clear all=Mindenet töröl
+Include subfolders=Beleértve almappát is
+Start2=Kezd2
+Abort=Kihagy
+Save database as=Adatbázist ment:
+Please give database name=Kérem az adatbázis nevét
+%s already exists.=%s már létezik.
+Do you want to overwrite it?=Felülírod?
+Database open, please close first=A fájl nyitott, előbb zárd be.
+Unable to create database=Adatbázis nem hozható létre.
+
+;-- Search dialog
+Pattern=Minta
+;Game information=
+Signature=Aláírás
+Reset=Újraindít
+No database loaded=Adatbázis nincs betöltve.
+No database loaded... Load or create.=Nincs betöltött adatbázis... Tölts be, vagy készíts újat.
+Select database=Válassz egy adatbázist.
+Search=Keres
+Search in results=
+Whole database=Egész adatbázis
+Current results=Aktuális eredmények.
+View results in tab=Eredmény a fülön.
+View results on board=Végeredmény a táblán.
+View results in game information list=Végeredmény a listán.
+View results in board thumbnails=Végeredmény a bélyegképen.
+
+;-- Pattern search
+Pattern (right-click to select)=Minta (jobb klikk a választáshoz:)
+Wildcard=akármi
+Capture=Elfogás
+Clear2=Tisztít 2
+View:=nézet
+Results=eredmények
+Frequency=gyakoriság
+Urgency=Sürgősség
+Efficiency=Hatásosság
+Fixed:=Javított:
+Position=Helyzet
+Next move:=Köv. lépés:
+%d matches=%d egyezés
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d egyezés (%d/%d), B: %1.1f%%, W: %1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=
+Right-click to select on board=
+Found games are in database tab=
+
+;-- Information search
+Game information search=Játszma info keresés
+Search on players=Játékos szerint keres
+Any=Bárki
+One of both=Kettő közül az egyik
+Winner=Nyertes
+Loser=Vesztes
+Search on date=Dátum szerinti keresés.
+Day=Nap
+Month=Hónap
+Year=Év
+Range=Szint
+To=-nak
+Search on result=végeredméyn szerinti keresés
+wins=nyert
+wins by=Nyer
+wins by at least=Utoljára nyert
+wins by at most=Legtöbbet nyert
+wins by resignation=Feladással nyert
+wins on time=Időben nyert
+wins by forfeit=Idő túllépéssel nyeret
+Other or unknown=Más, vagy ismeretlen
+More conditions=Több
+SQL=SQL
+
+;-- Signature search
+Signature search=Szignó keresés
+
+;-- Settings
+Search settings=
+Select or open database=
+Pattern search parameters=
+Fixed color=
+Fixed position=
+Pattern search next move=
+Any or none=
+Pattern search view=
+Full=teljes
+Digest=Kivonat
+
+;-- Messages
+Error opening database=Adatbázis hiba
+No search for center empty patterns.=
+No search for center single stone patterns.=
+No search rectangle defined.=
+Operation aborted by user=Felhasználói megszakítás
+%d file(s) to process=%d fájl(ok) feldolgozása
+%d games processed, %s elapsed=%d parti feldogozva, %s még hátra van
+%d file(s) processed, %s elapsed=%d fájl feldogozva, %s még hátra van
+Unable to process game=Partit nem lehet feldolgozni
+Unable to process game completely=
+Boardsize not handled=Kezelhetetlen táblaméret
+SGF error detected, game inserted=SGF hiba megállapítva
+SGF error detected, game not inserted=SGF hiba kihagyva
+Duplicate detected=Duplikátum megállaptva
+Duplicate ignored=Duplikátum kihagyva
+;%d result(s)=%d résultat(s)
+No game found in %s=
+1 game found in %s=
+%d games found in %s=
+Save logfile=Logfájl mentés
+%d ms.=%d ms.
+%2.2f seconds=%2.2f mp
+Unable to modify game in database.=
+Extract to a new tab and try again?=
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=Haladó
+Restore default=Alapbeállításra vissza
+Select=Kiválaszt
+Select all2=Mindent kiválaszt
+Restore=Visszaállít
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=Kövek lerakásának kezelése ábra beállításnál
+Set, remove=Lerak, töröl
+Set, swap color, remove=Lerak, színt vált, töröl
+Enable moves as books=
+Start variation from 1=Variáció indítása 1-től
+Start variation with figure=Variáció indítása nézettel
+Start variation settings include main line=Variáció indítása beleértve a fővonalat
+Bold text=Vastag betű
+Maximum font size=Max. betű méret
+Texture tiling with symmetries=
+
+; User interface
+User interface=Felhasználói felület
+Allow only one instance=Csak egy felületet enged
+Minimize to tray=
+Hook content of window when resizing=Átméretezésnél az ablakok tartalma látható
+Anchor panels at bottom=Fülek alul
+Show tab close buttons=Fül záró jel mutatás
+
+; Files
+Save paths relatively to install folder=
+Abort reading on file error=Fájl olvasási hiba kihagyás
+Open save dialogs with places bar=Párbeszédek nyitása-mentése "places bar"-ral
+
+; Games against engines
+Games against engines=Játék a gép ellen
+Ask for saving when closing game=Bezáráskor rákérdez a mentésre
+Use again previous game engine tab=Ismét az előző program ellen játszik
+Enable Undo=Visszalépés engedélyezése
+Only after capture=Csak másolás után
+Game engine options are inhibited during game=A játszó program (pl. gnuGo) beállításai a parti alatt nem módosíthatóak.
+
+
+; Warning
+Warnings=Figyelmeztetések
+Warn when toggling to full screen=
+Warn at first modification=Első módosításnál
+Warn at modification in database game=
+Warn at modification in read only mode=
+Warn when delete branch=Elemzési ág törlésénél
+Warn on invalid move=Érvénytelen lépésnél
+Warn on game engine pass=Ha a program passzol
+Warn on game engine resignation=Ha a program feladja
+Warn when losing on time=Ha az idő lejár
+
+; PDF
+Use board color=Tábla szín használata
+Exact width (mm)=Pontos szélesség (mm)
+Added border (N;W;S;E in % of image width)=Keret hozzáadása
+Radius adjustment=Sugár beállítás
+Circle width=Kör vastagság
+Line width=Vonal vastagság
+Double line width=Dupla vonal szélesség
+Hoshi stone ratio=Hoshi kő arány
+Marks adjustment (line width;size factor)=Jelek kezelése
+Font size adjustment (f or f;f or f;f;f see help)=Betű méret kezelés ??
+Line height adjustment=
+
+;---

@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Suomi
+$HelpFile=Drago-Fi.chm
+$TranslationCredit=Käännös Mika Kaakinen \n mika.kaakinen@gmail.com
+$Update=4.22
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=Tiedosto
+View=Näytä
+Navigation=Valikko
+Edit=Muokkaa
+Database=Tietokanta
+Games2=Pelit
+Problems=Ongelmat
+Play=Pelaa
+Options=Vaihtoehdot
+Help=Apu
+
+;-- File
+New=Uusi
+Open=Avaa
+Open folder=Avaa kansio
+Save=Tallenna
+Save as=Tallenna nimellä
+Save tab content as=Tallenna välilehden sisältö
+Read only=Vain luku
+Close=Sulje
+Close all=Sulje kaikki
+Open from clipboard=Avaa leikepöydältä
+Save to clipboard=Tallenna leikepöydälle
+Collections=Kokoelmat
+Favorites=Suosikit
+Index=Indeksi
+Game information=Pelin tiedot
+Print=Tulosta
+Export=Vie
+Export position=Vie asema
+Quit=Lopeta
+
+;-- Collection
+Append to=Lisää
+Merge=Yhdistä
+Extract current=Erota nykyinen
+Extract all=Erota kaikki
+Delete current game=Poista nykyinen peli
+Make game tree=Tee pelipuu
+
+;-- View
+Full screen mode=Kokoruututila
+View board=Näytä lauta
+Preview game information=Esikatsele pelin tiedot
+Preview board thumbnails=Esikatsele laudan pikkukuvat
+Reference view=Viitenäkymä
+Mirror=Peili
+Flip=Käännä
+Opponent view=Vastustajan näkymä
+Rotate 90 clockwise=Pyöräytä 90 astetta myötäpäivään
+Rotate 90 counter clockwise=Pyöräytä 90 astetta vastapäivään
+Swap colors=Vaihda värit
+Show toolbars=Vaihda työkalupalkit
+Toolbar settings=Työkalupalkin asetukset
+Board settings=Laudan asetukset
+Preview settings=Esikatselun asetukset
+
+;-- Navigation
+First game=Ensimmäinen peli
+Previous game=Edellinen peli
+Next game=Seuraava peli
+Last game=Viimeinen peli
+Select game=Valitse peli
+Start position=Alkuasema
+Previous move=Edellinen peli
+Next move=Seuraava peli
+End position=Loppuasema
+Go to move=Siirry siirtoon
+Previous target=Edellinen kohde
+Next target=Seuraava kohde
+Auto replay=Automaattinen vastaus
+Navigation settings=Navigaation asetukset
+Next variation=Seuraava muunnelma
+Previous variation=Edellinen muunnelma
+Pointer up=Osoitin ylös
+Pointer down=Osoitin alas
+Pointer left=Osoitin vasemmalle
+Pointer right=Osoitin oikealle
+
+;-- Edit
+Undo move=Peruuta siirto
+Delete branch=Poista haara
+Game edit=Pelin muokkaus
+Game edit Black first=Pelin muokkaus musta ensin
+Game edit White first=Pelin muokkaus valkoinen ensin
+Add Black=Lisää musta
+Add White=Lisää valkoinen
+Empty=Tyhjä
+Current markup=Nykyinen merkkaus
+Player=Pelaaja
+Black to play=Mustan siirtovuoro
+White to play=Valkoisen siirtovuoro
+Insert pass=Lisää jättää väliin
+Insert=Lisää
+Make main branch=Tee päähaara
+Promote variation=Ylennä muunnelma
+Demote variation=Alenna muunnelma
+Remove properties=Poista 
+Insert empty node=Lisää tyhjä solmu
+Click at pointer=Napauta osoitinta
+Ctrl-click at pointer=Ctrl-napauta osoitinta
+
+;-- Markup
+Cross=Risti
+Triangle=Kolmio
+Circle=Ympyrä
+Square=Neliö
+Letter=Kirjain
+Number=Numero
+Label=Etiketti
+Black territory=Mustan alue
+White territory=Valkoisen alue
+
+;-- Database
+Create database=Luo tietokanta
+Open database=Avaa tietokanta
+Add to database=Lisää tietokantaan
+Search in database=Etsi tietokannasta
+One click search=Yhden napautuksen haku
+Database settings=Tietokannan asetukset
+
+;-- Games
+Replay session=Pelaa uudestaan istunto
+Replay index=Pelaa uudelleen indeksi
+Cancel replay session=Peruuta uudelleenpeluuistunto
+
+;-- Problems
+Solve problems=Ratkaise ongelmia
+Problem index=Ongelmahakemisto
+Hint=Vinkki
+Free mode=Vapaa moodi
+Problem mode=Ongelmamoodi
+Cancel problem session=Peruuta ongelmaistunto
+
+;-- Play
+New engine game=Uusi ohjelmapeli
+Pass=Jätä väliin
+Resign=Antaudu
+Cancel game=Peru peli
+Score estimate=Pistearvio
+Suggest move=Ehdota siirtoa
+Show influence regions=Näytä vaikutusalueet
+Engine settings=Ohjelman asetukset
+
+;-- Options
+Sidebar settings=Sivupalkin asetukset
+Language settings=Kieliasetukset
+Advanced settings=Edistyneet asetukset
+Toggle coordinates=Käännä koordinaatit päälle/pois
+Toggle move markers=Kännä siirtomrkinnät päälle/pois
+View settings=Näytä asetukset
+Game tree settings=Pelipuun asetukset
+
+;-- Help
+Display help=Näytä apu
+Web site=Kotisivu
+Donate=Lahjoita
+About=Tietoja
+
+;-- Tabs popup menu
+New in tab=Uusi välilehdessä
+Open in tab=Avaa välilehdessä
+Open folder in tab=Avaa kansio välilehdessä
+Reload current file=Lataa uudelleen nykyinen tiedosto
+
+;-- Sidebar menu
+Show in current tab=Näytä nykyisessä välilehdessä
+
+;-- Tray icon menu
+Restore window=Palauta ikkuna
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=&Apu
+Ok=OK
+Cancel=Peruuta
+Clipboard=Leikepöytä
+No=Ei
+Yes=Kyllä
+Send=Lähetä
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=Tervetuloa Dragoon
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=Koko
+Komi=Komi
+Handicap=Tasoitus
+Free placement=Vapaa sijoitus
+Create in=Luo sisällä
+New file=Uusi tiedosto
+Current file=Nykyinen tiedosto
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=Peliohjelma
+Name=Nimi
+Level=Taso
+not defined=Ei määritelty
+Not available=Ei käytettävissä
+More engines=Enemmän ohjelmia
+
+;-- Start position
+New game=Uusi peli
+Current position=Nykyinen asema
+Auto handicap=Automaattinen tasoitus
+Engine plays with=Ohjelma pelaa valkoinen/musta
+Black=Valkoinen
+White=Musta
+
+;-- Time settings
+Time settings=Ajan asetukset
+No time limit=Ei aikarajoituksia
+Total time=Kokonaisaika
+Time per move=Aika siirtoa kohden
+Initial time plus over time=Alkupräinen aika ja lisäaika
+Initial time=Alkuperäinen aika
+Over time=Ajan kanssa
+Timing only for engine=Ajoitus vain ohjelmalle
+
+;-- Game settings
+Game settings=Peliasetukset
+Boardsize=Laudan suuruus
+
+;-- Scoring
+Scoring=Pisteytys
+Territory counting=Alue (Japanilainen)
+Area counting=Alue (Kiinalainen)
+
+;-- Messages
+More=Lisää
+No engine defined. Please select 'More...' then 'More engines...'=Mitään ohjelmaa ei ole määritelty. Ole hyvä ja valitse 'Enemmän...' ja sitten 'Enemmän ohjelmia...'
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=Nykyistä ohjelmaa ei löydy. Ole hyvä ja valitse 'Enemmän...' sitten 'Ohjelman asetukset...' ja tarkista polku.
+Not all functions are supported by the engine currently selected.=Nykyinen valittu ohjelma ei tue kaikkia toimintoja.
+
+;-- GTP window
+GTP window=GTP-ikkuna
+Show GTP window=Näytä GTP-ikkuna
+Enter and send GTP command (no feedback on main board):=Syötä ja lähetä GTP-komento (ei palautetta päälaudalle):
+No engine running=Ohjelmia ei käynnissä
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=Aseta tasoituskivet napsauttamalla gobania
+Click again on a stone to remove it.=Napauta kiveä uudelleen poistaaksesi sen
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=Lisää nykyinen
+Add=Lisää
+Add favorite=Lisää suosikki
+Add game file=Lisää pelitiedosto
+Add folder=Lisää kansio
+Add database=Lisää tietokanta
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=Yhteenveto
+
+;-- Event
+Game=Peli
+Event=Tapahtuma
+Round=Kierros
+Place=Paikka
+Date=Aika
+
+;-- Players
+Players=Pelaajat
+Rank=Taso
+Team=Joukkue
+
+;-- Rules
+Rules=Säännöt
+Time=Aika
+hr=Tunti
+mn=Minuutti
+Byo-Yomi=Byo-Yomi
+
+;-- Sources
+Sources=Lähteet
+User=Käyttäjä
+Annotation=Huomautus
+Source=Lähde
+Copyright=Tekijänoikeudet
+
+;-- Comment
+Comment=Kommentti
+
+;-- Misc
+Misc=Sekalaiset
+Application=Sovellus
+SGF format=SGF-formaatti
+Style=Tyyli
+No style defined for current game=Nykyiselle pelille ei ole määritelty tyyliä
+Show alternate moves - Allow board markup=Näytä vaihtoehtoiset siirrot - Salli laudan merkintä
+Show alternate moves - No board markup=Näytä vaihtoehtoiset siirrot - Ei laudan merkintää
+Show next moves - Allow board markup=Näytä seuraavat siirrot - Salli laudan merkintä
+Show next moves - No board markup=Näytä seuraavat siirrot - Ei laudan merkintää
+Charset=Merkistö
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=Esikatselu
+Export figures=Vie kuviot
+Export games=Vie pelit
+ESC to cancel=Napauta ESC peruuttaaksesi
+
+;-- Games and figure
+Games and figures=Pelit ja kuviot
+
+;-- Games
+Games=Pelit
+Current game=Nykyinen peli
+All=Kaikki
+to:=johonkin
+from:=jostakin
+
+;-- Include information
+Include information=Sisällytä tiedot
+at start of game=pelin alussa
+as name of figure 1=Kuvio 1:n nimi
+Format=Formaatti
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\PB (B) vastaan \PW (W), \DT
+
+;-- Figures
+Figures=Kuviot
+Position at move number=Siirtonumeron asema
+One figure every N moves=Yksi kuvio jokaisen N:n siirron jälkeen
+One figure every %d moves=Yksi kuvio joka %d siirto
+One figure every markup or comment=Yksi kuvio joka merkinnälle tai kommentille
+File figures=Tiedostokuviot
+Variations=Muunnelmat
+
+;-- Comments
+Comments=Huomautukset
+Include comments=Sisällytä huomautukset
+Remind figure titles=Muistuta kuvio-otsakkeet
+remind figure titles2=muistuta kuvion otsikot
+Remind move numbers=Muistuta siirtonumerot
+remind move numbers2=muistuta siirtonumerot
+
+;-- Figure title
+Figure title=Kuvion otsikko
+Print title=Tulosta otsikko
+Relative numbers=Suhteelliset numerot
+relative numbers2=suhteelliset numerot
+Figure format=Kuvioformaatti
+Variation format=Muunnelmaformaatti
+
+;-- Default formats for title
+Diagram \figure=Kaavio \ kuvio
+Figure \figure (\moves)=Kuvio \kuvio (\siirrot)
+Game \game (\moves)=Peli \peli (\siirrot)
+Game \game - Diagram \figure=Peli \peli - Kaavio \kuvio
+Game \game - Figure \figure (\moves)=Peli \peli - Kuvio \kuvio (\siirrot)
+Game \game=Peli \peli
+Problem \game - Figure \figure=Ongelma \peli - Kuvio \kuvio
+Problem \game=Ongelma \peli
+
+;-- Layout tab
+Layout=Sijoittelu
+
+;-- Header and footer
+Header and footer=Ylätunniste ja alatunniste
+Print header=Tulosta ylätunniste
+Print footer=Tulosta alatunniste
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\vasen 'Sivu ' \sivu \oikea \päivämäärä
+
+;-- Layout
+Layout2=Asettelu2
+First figure alone in the line=Ensimmäinen kuvio yksin rivillä
+1st figure alone=Ainoastaan ensimmäinen kuvio
+1st figure ratio=Ensimmäisen kuvion suhde
+Figures per line=Kuviot viivaa kohden
+Figure ratio=Kuviosuhde
+
+;-- Margins
+Margins (mm)=Marginaalit (mm)
+Left2=Vasen
+Right2=Oikea
+Top=Kärki
+Bottom=Pohja
+
+;-- Font
+Font=Fontti
+Name:=Nimi
+Size:=Koko
+
+;-- Styles
+Styles=Tyylit
+Remove=Poista
+Add current print options as style with name:=Lisää nykyiset tulostusvaihtoehdot tyylinä nimellä
+Remove style=Poista tyyli
+
+;-- Style description strings not yet listed
+Games from %d to %d=Pelit  %d:stä %d:hen
+Include variations=Sisällytä muunnelmat
+with format=formaatin kanssa
+with formats=formaattien kanssa
+with ratio=suhteen kanssa
+absolute numbers=absoluuttiset numerot
+
+;-- Formats
+Formats=Formaatit
+Formats for exporting games=Formaatit pelien viemistä varten
+Formats for exporting figures=Formaatit kuvioiden viemistä varten
+Paper=Paperi
+Letter2=Kirjain
+Landscape=Vaakakuva
+Settings=Asetukset
+PDF compression=PDF-pakkaus
+Jpeg quality (1-100)=Jpeg-laatu
+
+;-- Printing as book
+%d at %d=%d %d:ssä
+%d at %s=%d %s:ssä
+%d above %d=%d %d:n yläpuolella
+%d below %d=%d %d:n alapuolella
+%d at left of %d=%d %d:n vasemmalla puolella
+%d at right of %d=%d %d:n oikealla puolella
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=Kuvion koordinaatit
+Dimensions (mm)=Mitat (mm)
+Dimensions (px)=Mitat (px)
+Stone diameter=Kiven halkaisija
+As books=Kirjoina
+Mode=Moodi
+Moves from 1 to 10=Siirrot 1:stä 10:een
+Black with circle=Musta ympyrän kanssa
+Black with square=Musta neliön kanssa
+White with circle=Valkoinen ympyrän kanssa
+White with square=Valkoinen neliön kanssa
+Draw edge=Piirrä reuna
+H=H
+W=W
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=Ensimmäinen sivu
+Previous page=Edellinen sivu
+Next page=Seuraava sivu
+Last page=Viimeinen sivu
+Zoom in=Zuumaa sisään
+Zoom out=Zuumaa ulos
+Page %d of %d=Sivu %d %d:stä
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=Goban
+
+;-- Board
+Board=Lauta
+Board1=Board
+Default texture=Oletustekstuuri
+Custom texture=Muokattu tekstuuri
+Color=Väri
+Thick edges=Paksut reunat
+Hoshis=Hoshit
+
+;-- Stones
+Stones=Kivet
+
+;-- Coordinates
+Coordinates=Koordinaatit
+None2=Ei mitään
+Korschelt=Korschelt
+
+;-- Coordinate background
+Coordinate background=Koordinaattien tausta
+As board=Lautana
+
+;-- Displayed zone
+Displayed zone=Näytetty vyöhyke
+Whole board=Koko lauta
+Zoom on corner=Zuumaa kulmaan
+
+;-- Moves tab
+Moves=Siirrot
+
+;-- Show moves
+Show moves=Näytä siirrot
+All moves with number=Kaikki siirrot numeron kanssa
+Last move with number=Viimeinen siirto numeron kanssa
+Last move with markup=Viimeinen siirto merkinnän kanssa
+Last %d moves with number=Viimeiset %d-siirtoa numeron kanssa
+Number of visible move numbers:=Näkyvien siirtonumeroiden määrä
+
+;-- Show variations as
+Show variations as...=Näytä muunnelmat muodossa...
+
+;-- Markup of variations on goban
+Markup of variations on goban=Muunnelmien merkintä gobanissa
+None=Ei mitään
+Ghost stones=Kummituskivet
+Uppercase letters=Isot kirjaimet
+Lowercase letters=Pienet kirjaimet
+
+;-- Move numbers
+Move numbers=Siirtonumerot
+Display only two last digits=Näytä ainoastaan kaksi viimeistä numeroa
+
+;-- Game tree tab
+Game tree=Pelipuu
+
+;-- Background
+Background=Tausta
+
+;-- Stone radius
+Radius=Säde
+
+;-- Move number position
+No2=Ei
+On the side=Puolilla
+On the stones=Kivillä
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=Ikkunan tausta
+
+;-- Light source
+Light source=Valolähde
+Top left=Ylävasen
+Top right=Yläoikea
+
+;-- Skins
+Menu and toolbar skins=Valikon ja työkalupalkin ulkoasut
+
+;-- Preview tab
+Preview2=Esikatselu
+Definition of information columns=Tietosarakkeiden määritelmä
+Black player=Musta pelaaja
+Black rank=Musta taso
+Result=Tulos
+White player=Valkoinen pelaaja
+White rank=Valkoinen taso
+Select property etc.=Valitse ominaisuus jne. 
+Sorting of information records=Tietotietueiden lajittelu
+Enabled if record number is less than=Mahdollista, jos tietueen numero on vähemmän kuin
+Thumbnail preview=Pikkukuvan esikatselu
+Stone radius=Kiven säde
+
+;-- Sidebar tab
+Sidebar=Sivupalkki
+Default visibility of panels when creating a tab=Paneelien oletusnäkyvyys luodessa välilehteä 
+Always visible=Aina näkyvissä
+Visible if needed=Näkyvissä tarvittaessa
+Timing=Ajoitus
+Node name=Solmun nimi
+Variation list=Muunnelmalista
+Game information panel=Pelitietopaneeli
+Display images=Näytä kuvat
+Image directory=Kuvahakemisto
+Comment font=Huomautusfontti
+
+;-- Text panels
+Text panels=Tekstipaneelit
+
+;-- Shortcuts tab
+Shortcuts=Näppäinyhdistelmät
+Select category:=Valitse luokka
+Engine=Ohjelma
+Replay=Pelaa uudelleen
+Select command:=Valitse komento
+Click in box and type shortcut:=Napauta laatikkoa ja kirjoita näppäinyhdistelmä
+Assigned to:=Nimitty seuraavalle:
+(none)=(ei mikään)
+Assign=Nimitetty
+Clear=Tyhjennä
+Assign shortcut to selected command=Nimitä näppäinyhdistelmä valitulle komennolle
+Clear shortcut of selected command=Tyhjennä valitun komennon näppäinyhdistelmä
+
+;-- Toolbars tab
+Toolbars=Työkalupalkit
+Select toolbar:=Valitse työkalupalkki:
+Misc2=Sekalaiset
+Select command and toolbar etc.=Valitse komento ja työkalupalkki jne.
+(Separator)=(Erotin)
+
+;-- Sounds tab
+Sounds=Äänet
+Enable sounds=Salli äänet
+Invalid move=Väärä siirto
+Engine move=Ohjelman siirto
+Default=Oletus
+Custom=Mukautettu
+Test=Testi
+Sound files=Äänitiedostot
+Select sound file=Valitse äänitiedosto
+
+;-- Files tab
+Files=Tiedostot
+
+;-- File association
+File associations=Tiedostoassosiaatiot
+Unable to update file association!=Tiedostoassosiaatiota ei voida päivittää
+Check user rights.=Tarkista käyttäjän oikeudet
+
+;-- Starting
+Starting=Alkaa
+Start with last files=Aloita viimeisillä tiedostoilla
+Start with last move=Aloita viimeisellä siirrolla
+
+;-- Properties
+Properties=Ominaisuudet
+Save with 10 moves on each line=Tallenna 10 siirtoa jokaista muunnelmaa kohden
+New file with full SGF properties=Uusi tiedosto täysillä SGF-ominaisuuksilla
+Change player with SGF property=Vaihda pelaajaa SGF-ominaisuudella
+Compress lists of points=Pakkaa pisteiden listat
+Accept long property names=Hyväksy pitkät ominaisuusnimet
+
+;-- Navigation tab
+Move targets=Siirtokohteet
+Every N moves=Joka N:s siirto
+Starts of variation=Muunnelman alut
+Ends of variation=Muunnelman loput
+Time between two moves=Kahden siirron välinen aika
+Use timing properties when available=Käytä ajoituksen ominaisuuksia niiden ollessa käytettävissä
+Stop at targets=Pysähdy kohteissa
+
+;-- Database tab
+General=Yleinen
+Cache=Välimuisti
+Creation=Luomus
+Create with extended algorithms=Luo laajennettujen algoritmien kanssa
+Process variations=Käsittele muunnelmat
+Detect duplicates=Huomaa kaksoset
+by using signature=Allekirjoitusta käyttäen
+by using final position=Loppuasemaa käyttäen
+Omit duplicates when detected=Jätä pois havaitut kaksoset
+Omit games with SGF errors=Jätä pois SGF-virheitä sisältävät pelit
+Pattern search=Kuviohaku
+Search in variations=Etsi muunnelmista
+Move limit=Siirtoraja
+
+;-- Game engine tab
+
+Game engines=Peliohjelmat
+List of engines=Ohjelmalista
+Analysis=Analyysit
+
+;-- Binary
+Path=Polku
+Select engine path=Valitse ohjelman polku
+Parameters=Parametrit
+Usage=Käyttö
+Use for game=Käytä peliin
+Use for analysis=Käytä analyysiin
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=Säännöt, ajoitus, laudan koko
+
+;-- Lists of features
+Playing features=Peliominaisuudet
+Chinese rules=Kiinalaiset säännöt
+Japanese rules=Japanilaiset säännöt
+Fixed handicap=Pysyvä tasoitus
+Free handicap=Vapaa tasoitus
+Time per game=Aika peliä varten
+Undo=Kumoa
+Detailed game results=Yksityiskohtaiset pelitulokset
+Analysis features=Analyysin ominaisuudet
+Move suggestion=Siirtoehdotus
+Influence region=Vaikutusalue
+Group status=Ryhmän tila
+
+;-- Predefined engines
+Select predefined engine=Valitse ennakkoonmääritelty ohjelma
+Open browser, download and install=Avaa selain, lataa ja asenna
+Already installed=Jo asennettu
+Press Ok (then you will have to enter executable installation path) or cancel.=Paina OK (tällöin täytyy syöttää latauksen suorituspolku) tai peruuta
+If the engine motor you want to play with is not in the list, edit the following file:=Jos ohjelma, jonka kanssa haluat pelata ei ole listassa, niin
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Säännöt, ajoitus,
+Current parameters=Nykyiset parametrit
+Additional parameters=Lisäparametrit
+
+;-- Language tab
+
+Language=Kieli
+Select language for user interface=Valitse kieli käyttöliittymää varten
+Select code page for game files=Valitse koodisivut pelitiedostoille
+Create game files using...=Luo pelitiedostot käyttäen...
+Unicode=Unicode
+System default code page=Järjestelmän oletuskoodisivu
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=Valitse muokatut kivet
+Path for Black stones=Mustien kivien polku
+Path for White stones=Valkoisten kivien polku
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=Huomautukset
+
+;-- Position annotations
+Position annotations=Asemahuomautukset
+Good for Black=Hyvä mustalle
+Good for White=Hyvä valkealle
+Balanced position=Tasapainoinen asema
+Unclear position=Epäselvä asema
+Very good for Black=Erittäin hyvä mustalle
+Very good for White=Erittäin hyvä valkealle
+Very balanced position=Erittäin tasapainoinen asema
+Very unclear position=Erittäin epäselvä asema
+Hot spot=Kuuma piste
+Very hot spot=Erittäin kuuma piste
+
+;-- Move annotations
+Move annotations=Siirtohuomautukset
+Bad=Huono
+Doubtful=Epäilyttävä
+Tesuji=Tesuji
+Very bad=Erittäin huono
+Interesting=Mielenkiintoinen
+Very good tesuji=Erittäin hyvä tesuji
+
+;-- Text
+Text=Teksti
+
+;-- Others
+Others=Muut
+
+;-- Timing
+Black time left=Mustan jäljelläoleva aika
+White time left=Valkoisen jäljelläoleva aika
+
+;-- Figures
+Insert figure=Lisää kuvio
+Show coordinates=Näytä koordinaatit
+
+;-- Other properties
+Other properties=Muut ominaisuudet
+Move numbers from=Pelinumerot lähtien
+Wrong variation (uliGo)=Väärä muunnelma (uliGo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=Syötä ominaisuuslista pilkuilla erotettuna (C,BL,WL):
+All games in collection=Kaikki kokoelman pelit
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=Pelaa peli uudelleen
+
+;-- Select game
+Select game2=Valitse peli
+Loaded game=Ladattu peli
+Sequential=Peräkkäinen
+Random=Satunnainen
+
+;-- Play with
+Play with=Pelaa kanssa
+Both=Molemmat
+
+;-- Play...
+Play2=Pelaa
+Full game=Koko peli
+Fuseki=Fuseki
+From current position=Nykyisestä asemasta
+From current position (only for current game)=Nykyisestä asemasta (vain nykyistä peliä varten)
+
+;-- Move number in Fuseki
+Move number in Fuseki=Siirtonumero fusekissa
+
+;-- Number of attempts per move
+Number of attempts per move=Yritysten määrä siirtoa kohti
+Only one=Vain yksi
+Unlimited=Rajoittamaton
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=Tilastot
+Problems in collection=Ongelmat kokoelmassa
+Visited problems=Vieraillut ongelmat
+Number of attempts=Yritysten määrä
+Number of successes=Onnistumisten määrä
+Show detailed statistics=Näytä yksityiskohtaiset tilastot
+Reset collection statistics=Nollaa kokoelman tilastot
+
+;-- Problem order
+Problem order=Ongelmien järjestys
+Sequential from current=Vaihettaisesti nykyisestä
+Sequential from stored=Vaiheittaisesti tallennetuista
+Random color=Satunnaisväri
+Random position=Satunnaisasema
+Number of problems=Ongelmien määrä
+
+;-- Failure ratio
+Include problems incorrectly solved=Sisällytä väärin ratkaistut ongelmat
+don't care=älä välitä
+ratio=suhde
+
+;-- Solution marks
+Solution marks=Ratkaisun merkinnät
+Main line=Päämuunnlma
+Autodetect=Automaattinen tunnistus
+
+;-- More popup menu
+Show=Näytä
+Timer=Ajastin
+Glyphs=Kirjoitusmerkit
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=Valitse juuri tiedostonimiä varten
+Export starting from:=Vie alkaen
+Merge... Select files=Yhdistä...Valitse tiedostot
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=Tallenna kansio
+Files modified in folder=Kansiossa muokatut tiedostot
+Select files to save:=Valitse tallennettavat pelit:
+Select all=Valitse kaikki
+Unselect all=Poista valinta kaikista
+Ignore=Sivuuta
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=Syvyys
+Unique moves=Ainutlaatuiset siirrot
+Normalize position of first move=Normalisoi ensimmäisen siirron asema
+Game reference=Peliviittaus
+Filename=Tiedostonimi
+Games to process=Käsiteltävät pelit
+Process current tab=Käsittele nykyinen välilehti
+Select files or folders to process=Valitse käsiteltävät tiedostot tai kansiot
+Start=Aloita
+
+;-- Messages
+Only main branch is processed=Vain päähaara käsitellään
+Move inversions are not detected=Siirtovaihtoja ei ole havaittu
+Unable to process file=Tiedostoa ei voida käsitellä
+Unable to process file completely=Tiedostoa ei voida käsitellä kokonaan
+Game ignored (some not alternative moves):=Peli sivuutettu (joitakin ei vaihtoehtoisia siirtoja):
+Game ignored (board size not handled):=Peli sivuutettu (laudan kokoa ei käsitelty):
+Game tree ready.=Pelipuu valmis
+Elapsed time (seconds)=Kulunut aika (sekunnit)
+Number of games=Pelien määrä
+percentage and number of games in variation=muunnelman prosenttiosuus ja pelien määrä
+winning percentage of move=siirron voittoprosentti
+number of unknown results=tuntemattomien tulosten määrä
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=Ilmaisohjelma
+Version=Versio
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo ja libkombilo ovat Ulrich Goertzin tuotteita:
+Credits=Krediitit
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=Kaikki tiedostot
+BMP files=BMP-tiedostot
+DOC files=DOC-tiedostot
+HTML files=HTML-tiedostot
+JPEG files=JPEG-tiedostot
+RTF files=RTF-tiedostot
+SGF files=SGF-tiedostot
+GIF files=GIF-tiedostot
+PNG files=PNG-tiedostot
+MGT files=MGT-tiedostot-
+ASCII files=ASCII-tiedostot
+PDF files=PDF-tiedostot
+Database files=Tietokantatiedostot
+Text files=Tekstitiedostot
+
+;-- Export captions
+Export games with HTML format=Vie pelit HTML-formaatissa
+Export games with RTF format=Vie pelit RTF-formaatissa
+Export games to HTML format=Vie pelit HTML-formaattiin
+Export games to RTF format=Vie pelit RTF-formaattiin
+Export games to PDF format=Vie pelit PDF-formaattiin
+Export games to MSWORD format=Vie pelit MSWORD-formaattiin
+
+;-- Select texture dialog
+Select texture=Valitse tekstuuri
+(empty)=(tyhjä)
+Image:=Kuva:
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=Viimeinen siirto
+Black prisoners=Mustan vangit
+White prisoners=Valkean vangit
+
+;-- Game information
+Game information2=Pelin tiedot
+
+;-- Variation list panel
+Next moves=Seuraavat siirrot
+Alternate moves=Vaihtoehtoiset siirrot
+
+;-- Replay panel
+Game2=Peli
+You=Sinä
+
+;-- Problem panels
+Reference=Viittaus
+Problem=Ongelma
+Attempt=Yritys
+Attempts=Yritykset
+Trial=Koetus
+Trials=Koetukset
+Problem status=Ongelman tila
+Attempt status=Yrityksen tila
+Running=Käynnissä
+Success=Onnistuminen
+Failure=Epäonnistuminen
+Assisted=Avustettu
+Free=Vapaa
+
+;-- Problem result box
+End of problem session.=Ongelmaistunnon loppu
+Session result: %d / %d=Istunnon tulos: %d / %d
+Collection score after session: %s=Kokoelman tulos istunnon jälkeen: %s
+More problems?=Enemmän ongelmia?
+
+;-- Game result string
+Black wins=Mustan voitot
+White wins=Valkoisen voitot
+%s wins by %s points=%s voittoa %s pisteellä
+Draw=Tasapeli
+No result=Ei lopputulosta
+Unknown result=Tuntematon tulos
+by forfeit=hylkäyksellä
+by resignation=antautumalla
+on time=ajalla
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=Älä näytä tätä viestiä enää
+Toggling to full screen mode.=Vaihto kokoruututilaan
+Restore window mode with %s=Palauta ikkunatila %s:n avulla
+
+;-- Tab errors
+Unable to create tab=Välilehteä ei pystytä luomaan
+
+;-- Edit messages
+No move to add variation.=Ei siirtoa lisättäväksi muunnelmaan.
+Move impossible to cancel=Siirtoa ei voi peruuttaa
+Delete whole branch.=Poista koko haara.
+File modification.=Tiedoston muutos.
+Beware game modification will not be updated in database.=Varo, että pelin muutosta ei päivitetä tietokannassa.
+Do you want to proceed?=Haluatko jatkaa?
+
+;-- File errors
+File not open=Tiedosto ei auki
+Bracket not found=Sulkua ei löytynyt
+Error opening file=Tiedostonavausvirhe
+Error opening folder=Kansionavausvirhe
+Line=Rivi
+File partialy read=Tiedosto osittain luettu
+File %s is read only.=Tiedosto %s on vain luku
+File %s not saved.=Tiedosto %s ei tallennettu.
+Folder %s not saved.=Kansiota %s ei ole tallennettu
+First game not found=Ensimmäistä peliä ei löydy
+Illegal character=Laiton merkki
+Impossible to save %s.=Tallennusta on mahdotonta suorittaa %s.
+Impossible to save.=Tallennusta on mahdotonta suorittaa
+Impossible to write file=Tiedostoon kirjoittaminen mahdotonta
+Semicolon not found after parenthesis=Puolipistettä ei löydetty sulun jälkeen
+Invalid property name=Väärä ominaisuuden nimi
+Memory error=Muistivirhe
+Read only file=Vain luku-tiedosto
+The loaded game is not Go : GM property=Ladattu peli ei ole Go : GM-ominaisuus
+Invalid board size=Väärä laudan koko
+Size will be set to 19.=Koko asetetaan 19:ksi.
+Unexpected end of file=Odottamaton tiedoston loppu
+
+;-- File warnings
+Reload and lose modifications?=Lataa uudelleen ja menetä muutokset?
+Save changes in %s?=Tallenna muutokset %s:ssä?
+
+;-- Replay messages
+Game with no name. Save to proceed.=Peli ilman nimeä. Tallenna jatkaaksesi.
+File not saved. Save to proceed.=Tiedostoa ei ole tallennettu. Tallenna jatkaaksesi.
+The file doesn't seem to be a game file.=Tiedosto ei vaikuta olevan pelitiedosto.
+The file doesn't seem to be a problem file.=Tiedosto ei vaikuta olevan ongelmatiedosto.
+The file is not a problem collection.=Tiedosto ei ole ongelmakokoelma.
+A problem collection must be loaded to start a problem session.=Ongelmakokoelma täytyy ladata ongelmasession aloittamiseksi.
+Continue=Jatka
+End of fuseki=Fusekin loppu
+End of game=Pelin loppu
+Score=Tulos
+
+;-- Move errors
+Illegal move=Laiton siirto
+Illegal ko capture=Laiton ko-vanginta
+Illegal suicide...=Laiton itselyönti
+Impossible to play there=Tuohon kohtaan on mahdotonta pelata
+
+;-- Game engine messages
+Abnormal termination of game engine=Peliohjelman epänormaali päättyminen
+Do you really want to resign?=Haluatko todella antautua?
+Game aborted=Peli keskeytetty
+Error=Virhe
+Black has passed=Musta jätti väliin
+White has passed=Valkoinen jätti väliin
+Black resigns=Musta antautuu
+White resigns=Valkoinen antautuu
+Black loses on time=Musta häviää ajanylityksellä
+White loses on time=Valkoinen häviää ajanylityksellä
+Pass2=Sivuuta
+pass3=sivuuta
+Territory=Alue
+Prisoners=Vangit
+Total=Summa
+Please select board view before starting game.=Ole hyvä ja valitse lautanäkymä ennen pelin aloittamista
+Current engine is unable to start...=Nykyinen ohjelma ei pysty käynnistymään
+Engine configuration file missing. Please check installation.=Ohjelman määritystiedosto puuttuu. Ole hyvä ja tarkista asennus.
+alive=elävä
+dead=kuollut
+critical=kriittinen
+
+;-- Export
+Problem while copying in clipboard=Ongelma leikepöydälle kopioitaessa
+Problem while saving image=Kuvan tallennusongelma
+Unable to export...=Vientiä ei voida suorittaa...
+Close Word and restart export.=Ole hyvä ja sulje Word ja käynnistä uudelleen vienti.
+Please, close previous preview to proceed.=Ole hyvä ja sulje edellinen esikatselu jatkaaksesi.
+File is in use, close to proceed.=Tiedosto käytössä, sulje jatkaaksesi.
+
+;-- Preview
+Sorting is not enabled over %d records.=Tietueita ei voida lajitella
+See Options | Preview to change this setting.=Näe vaihtoehdot | Ennakkokatsele vaihtaaksesi tämän asetuksen.
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=Askelpalautin
+Tab=Sarkain
+Esc=Poistu
+Enter=Syötä
+Space=Välilyönti
+PgUp=Sivu ylös
+PgDn=Sivu alas
+End=Loppu
+Home=Koti
+Left=Vasen
+Up=Ylös
+Right=Oikea
+Down=Alas
+Ins=Lisää
+Del=Poista
+Shift+=Shift+
+Ctrl+=Ctrl+
+Alt+=Alt+
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=Valitse tiedostot tai kansiot
+Clear all=Tyhjennä kaikki
+Include subfolders=Sisällytä alakansiot
+Start2=Aloita
+Abort=Keskeytä
+Save database as=Tallenna tietokanta muodossa
+Please give database name=Ole hyvä ja anna tietokannalle nimi
+%s already exists.=%s on jo olemassa.
+Do you want to overwrite it?=Haluatko kirjoittaa sen päälle?
+Database open, please close first=Tietokanta avattu, ole hyvä ja sulje ensiksi
+Unable to create database=Tietokantaa ei pystytä luomaan
+
+;-- Search dialog
+Pattern=Kuvio
+;Game information=
+Signature=Allekirjoitus
+Reset=Nollaa
+No database loaded=Ei tietokantaa ladattuna
+No database loaded... Load or create.=Ei tietokantaa ladattuna... Lataa tai luo.
+Select database=Valitse tietokanta
+Search=Etsi
+Search in results=Etsi tuloksista
+Whole database=Koko tietokanta
+Current results=Nykyiset tulokset
+View results in tab=Näytä tulokset välilehdessä
+View results on board=Näytä tulokset laudalla
+View results in game information list=Näytä tulokset pelitietolistassa
+View results in board thumbnails=Näytä tulokset laudan pikkukuvissa
+
+;-- Pattern search
+Pattern (right-click to select)=Kuvio (napauta oikealla näppäimellä valitaaksesi)
+Wildcard=Jokerimerkki
+Capture=Vanginta
+Clear2=Tyhjennä
+View:=Näkymä
+Results=Tulokset
+Frequency=Yleisyys
+Urgency=Kiireellisyys
+Efficiency=Tehokkuus
+Fixed:=Pysyvä
+Position=Asema
+Next move:=Seuraava siirto
+%d matches=%d täsmää
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d täsmää (%d/%d), B: %1.1f%%, W: %1.1f%%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W
+Right-click to select on board=Napauta oikealla näppäimellä valitaaksesi laudalla
+Found games are in database tab=Löydetyt pelit ovat tietokantavälilehdessä
+
+;-- Information search
+Game information search=Pelitietohaku
+Search on players=Pelaajahaku
+Any=Mikä tahansa
+One of both=Yksi molemmista
+Winner=Voittaja
+Loser=Häviäjä
+Search on date=Päivämääränhaku
+Day=Päivä
+Month=Kuukausi
+Year=Vuosi
+Range=Vaihteluväli
+To=Jonnekin
+Search on result=Etsi tuloksen perusteella
+wins=voitot
+wins by=voitot mukaisesti
+wins by at least=voitot vähintään
+wins by at most=voitot enintään
+wins by resignation=voitot antautumisella
+wins on time=voitot ajalla
+wins by forfeit=voitot hylkäyksellä
+Other or unknown=Muu tai tuntematon
+More conditions=Enemmän ehtoja
+SQL=SQL
+
+;-- Signature search
+Signature search=Allekirjoituksen haku
+
+;-- Settings
+Search settings=Haun asetukset
+Select or open database=Valitse tai avaa tietokanta
+Pattern search parameters=Kuvion etsinnän parametrit
+Fixed color=Pysyvä väri
+Fixed position=Pysyvä asema
+Pattern search next move=Kuvion etsintä seuraavalla siirrolla
+Any or none=Mikä tahansa tai ei mikään
+Pattern search view=Kuvioetsinnän näkymä
+Full=Täynnä
+Digest=Sulata
+
+;-- Messages
+Error opening database=Tietokannan avaamisvirhe
+No search for center empty patterns.=Ei etsintää keskustan tyhjiä kuvioita varten.
+No search for center single stone patterns.=Ei etsintää keskustan yksinäisiä kivimuotoja varten.
+No search rectangle defined.=Etsintäsuorakulmiota ei ole määritelty.
+Operation aborted by user=Käyttäjä keskeytti toiminnan
+%d file(s) to process=%d tiedosto(a) käsiteltäväksi
+%d games processed, %s elapsed=%d peliä käsitelty, %s kulunut
+%d file(s) processed, %s elapsed=%d tiedosto(a) käsitelty, %s kulunut
+Unable to process game=Peliä ei pystytä käsittelemään
+Unable to process game completely=Peliä ei pystytä käsittelemään kokonaan
+Boardsize not handled=Laudan kokoa ei käsitelty
+SGF error detected, game inserted=SGF-virhe havaittu ja peli lisätty
+SGF error detected, game not inserted=SGF-virhe havaittu, peliä ei liitetty
+Duplicate detected=Kaksonen havaittu
+Duplicate ignored=Kaksonen sivuutettu
+;%d result(s)=%d tulokse(t)
+No game found in %s=Pelejä ei löydetty %s:ssä
+1 game found in %s=Yksi peli löydetty %s:ssä
+%d games found in %s=%d peliä löydetty %s:ssä
+Save logfile=Tallenna lokitiedosto
+%d ms.=%d millisekuntia
+%2.2f seconds=%2.2f sekuntia
+Unable to modify game in database.=Tietokannassa olevaa peliä ei pystytä muokkaamaan
+Extract to a new tab and try again?=Vedä uuteen välilehteen ja yritä uudelleen?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=Edistyneet
+Restore default=Palauta oletus
+Select=Valitse
+Select all2=Valitse kaikki
+Restore=Palauta
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=Napautussarja kiven asetustilassa
+Set, remove=Aseta, poista
+Set, swap color, remove=Aseta, vaihda väri, poista
+Enable moves as books=Salli siirrot kirjana
+Start variation from 1=Aloita muunnelma 1:stä
+Start variation with figure=Aloita muunnelma kuviolla
+Start variation settings include main line=Aloita muunnelman asetukset sisältää päämuunnelman
+Bold text=Lihavoitu teksti
+Maximum font size=Maksimi fontin koko
+Texture tiling with symmetries=Tekstuurilaatoitus symmetrioilla
+
+; User interface
+User interface=Käyttöliittymä
+Allow only one instance=Salli vain yksi tapaus
+Minimize to tray=Pienennä lokeroon
+Hook content of window when resizing=Kytke ikkunan sisältö kokoa muutettaessa
+Anchor panels at bottom=Ankkuripaneelit pohjalla
+Show tab close buttons=Näytä välilehden sulkemispainikkeet
+
+; Files
+Save paths relatively to install folder=Tallenna polut suhteellisesti kansion asentamiseksi
+Abort reading on file error=Keskeytä lukeminen tiedostovirheen kohdalla
+Open save dialogs with places bar=Avaa/tallenna dialogit paikkatyökalupalkilla
+
+; Games against engines
+Games against engines=Pelit ohjelmaa vastaan
+Ask for saving when closing game=Kysy tallennusta peliä suljettaessa
+Use again previous game engine tab=Käytä uudelleen edellistä peliohjelmavälilehteä
+Enable Undo=Salli peruutus
+Only after capture=Vain vangitsemisen jälkeen
+Game engine options are inhibited during game=Peliohjelmavaihtoehdot ovat estetty pelin aikana
+
+
+; Warning
+Warnings=Varoitukset
+Warn when toggling to full screen=Varoita vaihdettaessa kokoruututilaan
+Warn at first modification=Varoita ensimmäisessä muutoksessa
+Warn at modification in database game=Varoita tietokantapelin muutoksessa
+Warn at modification in read only mode=Varoita muutoksesta vain luku-tilassa
+Warn when delete branch=Varoita poistettaessa haaraa 
+Warn on invalid move=Varoita väärästä siirrosta
+Warn on game engine pass=Varoita peliohjelman jättäessä väliin
+Warn on game engine resignation=Varoita peliohjelman antautumisesta
+Warn when losing on time=Varoita ajalla häviämisestä
+
+; PDF
+Use board color=Käytä laudan väriä
+Exact width (mm)=Tarkka leveys (mm)
+Added border (N;W;S;E in % of image width)=Lisätty reunus (N;W;S;E sisässä % kuvion leveys)
+Radius adjustment=Säteen säätö
+Circle width=Ympyrän leveys
+Line width=Viivan levys
+Double line width=Kaksoisviivan leveys
+Hoshi stone ratio=Hoshi-kiven suhde
+Marks adjustment (line width;size factor)=Merkitsee säädön (viivan leveys;kokotekijä)
+Font size adjustment (f or f;f or f;f;f see help)=Fonttikoon säätö (f tai f;f tai f;f;f katso apu)
+Line height adjustment=Rivinkorkeuden säätö
+
+;---

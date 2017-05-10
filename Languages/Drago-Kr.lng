@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=Korean 
+$HelpFile=Drago-Kr.chm
+$TranslationCredit= 韓文編譯 Korean translation: 周子傑 \n a71446886@yahoo.com.tw \n http://tw.myblog.yahoo.com/computer-weiqi
+$Update=
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=파일
+View=이 문서가 적용되는
+Navigation=네비게이션
+Edit=편집
+Database=데이터베이스
+Games2=게임 
+Problems=문제가
+Play=재생
+Options=옵션
+Help=도움말
+
+;-- File
+New=새로운
+Open=열기
+Open folder=오픈 폴더에
+Save=저장
+Save as=다른 이름으로 저장을
+Save tab content as=저장 탭을 콘텐츠를
+Read only=읽기 전용
+Close=닫습니다
+Close all=주변의 모든
+Open from clipboard=클립 보드에서 열기
+Save to clipboard=클립 보드에 저장
+Collections=컬렉션
+Favorites=마음에 드는
+Index=인덱스
+Game information=게임 정보
+Print=인쇄
+Export=수출
+Export position=수출 순위
+Quit=종료
+
+;-- Collection
+Append to=추가를 
+Merge=병합
+Extract current=추출 전류
+Extract all=압축의 모든
+Delete current game=
+Make game tree=게임 트리를 확인
+
+;-- View
+Full screen mode=전체 화면 모드
+View board=이 문서가 적용되는 보드
+Preview game information=미리 경기 정보를
+Preview board thumbnails=미리보기 보드 축소판
+Reference view=참고이 문서가 적용되는
+Mirror=거울
+Flip=플립
+Opponent view=상대방이 문서가 적용되는
+Rotate 90 clockwise=오른쪽으로 90도 회전
+Rotate 90 counter clockwise=카운터 시계 방향으로 90도 회전하기
+Swap colors=스왑 색상
+Show toolbars=스왑 색상
+Toolbar settings=도구 모음 설정
+Board settings=보드 설정
+Preview settings=미리보기 설정
+
+;-- Navigation
+First game=첫번째 게임
+Previous game=이전 게임
+Next game=다음 경기
+Last game=마지막 게임
+Select game=선택 게임
+Start position=시작 위치
+Previous move=이전 이동
+Next move=다음 행마
+End position=최종 순위
+Go to move=이동로 이동
+Previous target=이전 대상
+Next target=다음 표적
+Auto replay=자동 재생
+Navigation settings=사전 설정
+Next variation=다음 변동
+Previous variation=이전 변동
+Pointer up=포인터를
+Pointer down=포인터를 아래
+Pointer left=포인터를 왼쪽
+Pointer right=포인터가 오른쪽
+
+;-- Edit
+Undo move=취소 이동
+Delete branch=삭제 지사
+Game edit=게임 편집
+Game edit Black first=게임 편집 검정 첫 번째
+Game edit White first=게임 편집 흰색 첫 번째
+Add Black=장바구니 블랙
+Add White=장바구니 흰색
+Empty=빈
+Current markup=현재 마크업
+Player=플레이어
+Black to play=검정색을 재생 
+White to play=화이트를 재생
+Insert pass=삽입 패스
+Insert=를 삽입
+Make main branch=주요 지점 확인
+Promote variation=
+Demote variation=
+Remove properties=속성을 제거
+Insert empty node=빈 노드를 삽입
+Click at pointer=다음은 포인터를
+Ctrl-click at pointer=ctrl - 클릭은 포인터가
+
+;-- Markup
+Cross=교차
+Triangle=삼각형
+Circle=동그라미
+Square=스퀘어
+Letter=편지
+Number=번호
+Label=레이블
+Black territory=검정 영토
+White territory=흰색 영토
+
+;-- Database
+Create database=만들 데이터베이스를
+Open database=열 데이터베이스를
+Add to database=장바구니에 데이터베이스를
+Search in database=검색을 데이터베이스
+One click search=하나는 검색 클릭
+Database settings=데이터베이스 설정
+
+;-- Games
+Replay session=재생 세션
+Replay index=재생 인덱스
+Cancel replay session=취소 재생 세션
+
+;-- Problems
+Solve problems=문제를 해결
+Problem index=문제가 지수
+Hint=힌트
+Free mode=무료 모드
+Problem mode=문제가 모드
+Cancel problem session=취소 '문제가 세션을
+
+;-- Play
+New engine game=새로운 엔진을 게임
+Pass=패스
+Resign=사직
+Cancel game=취소 게임
+Score estimate=점수 계산
+Suggest move=제안 이동
+Show influence regions=영향 영역을 표시
+Engine settings=엔진 설정
+
+;-- Options
+Sidebar settings=사이드 바 설정
+Language settings=언어 설정
+Advanced settings=고급 설정
+Toggle coordinates=토글 좌표
+Toggle move markers=토글 이동 마커
+View settings=설정보기
+Game tree settings=게임 트리 설정
+
+;-- Help
+Display help=디스플레이 도움말 
+Web site=
+Donate=
+About=에 대해 
+
+;-- Tabs popup menu
+New in tab=새로운 기능 탭 
+Open in tab=열기 탭을 
+Open folder in tab=오픈 폴더의 탭 
+Reload current file=
+
+;-- Sidebar menu
+Show in current tab=현재 탭에 표시
+
+;-- Tray icon menu
+Restore window=창을 복원
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=& 도움말 
+Ok=확인
+Cancel=취소 
+Clipboard=클립 보드에 
+No=아니오 
+Yes=예 
+Send=보내다
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=오신 것을 환영합니다 Drago
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=크기
+Komi=코미어
+Handicap=핸디캡
+Free placement=무료 배치 
+Create in=만든
+New file=새 파일에 
+Current file=현재 파일을 
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=게임 엔진에 
+Name=이름
+Level=수준
+not defined=
+Not available=사용할 수없습니다 
+More engines=더 많은 엔진
+
+;-- Start position
+New game=새로운 게임 
+Current position=현재 위치 
+Auto handicap=자동 핸디캡 
+Engine plays with=엔진과 함께 연주
+Black=블랙
+White=흰색
+
+;-- Time settings
+Time settings=시간 설정
+No time limit=시간 제한 없음
+Total time=총 시간
+Time per move=이동 당 시간
+Initial time plus over time=초기 시간이 플러스 지남
+Initial time=초기 시간
+Over time=시간이 지남에 따라
+Timing only for engine=단 엔진 타이밍
+
+;-- Game settings
+Game settings=게임 설정
+Boardsize=보드 크기
+
+;-- Scoring
+Scoring=점수
+Territory counting=영토 (일본어) 영토 세고 
+Area counting=지역 (중국) 지역 세고
+
+;-- Messages
+More=더
+No engine defined. Please select 'More...' then 'More engines...'=어떤 엔진은 정의하지 않습니다. 선택하세요 '기타 ...' 다음 '더보기 엔진 ...'
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=현재 엔진은 찾을 수 없습니다. 선택하세요 '기타 ...' 다음 '엔진 설정 ...' 과 경로를 확인합니다.
+Not all functions are supported by the engine currently selected.=모든 기능은 현재 선택한 엔진에 의해 지원됩니다.
+
+;-- GTP window
+GTP window=GTP 창
+Show GTP window=보기 GTP 창
+Enter and send GTP command (no feedback on main board):=입력하고 GTP 명령 (메인 보드에 어떤 의견)을 보내 :
+No engine running=실행 엔진이 없습니다
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=바둑판의 위치를 설정 바위를 클릭하십시오 
+Click again on a stone to remove it.=그것을 제거하는 바위를 다시 클릭하십시오 
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=장바구니 전류
+Add=장바구니
+Add favorite=장바구니 마음에 드는 
+Add game file=게임 파일을 추가
+Add folder=폴더 추가
+Add database=데이터베이스를 추가
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=요약
+
+;-- Event
+Game=게임
+Event=이벤트
+Round=라운드
+Place=위 
+Date=날짜
+
+;-- Players
+Players=플레이어
+Rank=순위 
+Team=팀
+
+;-- Rules
+Rules=규칙
+Time=시간
+hr=시간
+mn=미네소타
+Byo-Yomi=BYO를 허용합니다 - 읽으
+
+;-- Sources
+Sources=소스
+User=사용자
+Annotation=주석 
+Source=소스
+Copyright=저작권
+
+;-- Comment
+Comment=코멘트
+
+;-- Misc
+Misc=기타
+Application=애플 리케이션
+SGF format=sgf 형식으로
+Style=스타일
+No style defined for current game=아니오 스타일 정의에 대한 최신 게임
+Show alternate moves - Allow board markup=다른 행마보기 - 허용 보드 마크업
+Show alternate moves - No board markup=다른 행마보기 - 아니 보드 마크업
+Show next moves - Allow board markup=다음 행마보기 - 허용 보드 마크업
+Show next moves - No board markup=다음 행마보기 - 아니 보드 마크업
+Charset=문자 집합
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=미리보기
+Export figures=수출 인물
+Export games=수출의 게임
+ESC to cancel=esc를 취소
+
+;-- Games and figure
+Games and figures=게임과 인물
+
+;-- Games
+Games=게임
+Current game=현재 게임
+All=모든 
+to:=이 :
+from:=보낸 사람 :
+
+;-- Include information
+Include information=정보가 포함됩니다
+at start of game=게임을 시작합니다
+as name of figure 1=로 이름을 그림 1
+Format=형식
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=\ pb (나) vs \ 주 (승), \ dt
+
+;-- Figures
+Figures=인물
+Position at move number=자리 이동 번호
+One figure every N moves=한 그림 주파수를 이동
+One figure every %d moves=한 그림마다 %d 움직임
+One figure every markup or comment=한 그림 모든 마크업 또는 주석
+File figures=파일을 인물
+Variations=유사 콘텐츠
+
+;-- Comments
+Comments=코멘트
+Include comments=포함 코멘트
+Remind figure titles=상기 그림 제목
+remind figure titles2=상기 그림 제목
+Remind move numbers=상기 행마 번호
+remind move numbers2=상기 행마 번호
+
+;-- Figure title
+Figure title=그림 제목
+Print title=인쇄 제목
+Relative numbers=상대적인 숫자
+relative numbers2=상대적인 숫자
+Figure format=그림 형식으로
+Variation format=유사 형식으로
+
+;-- Default formats for title
+Diagram \figure=다이어그램 \ 그림
+Figure \figure (\moves)=그림 \ 그림 (\ 움직임)
+Game \game (\moves)=게임 \ 게임 (\ 움직임)
+Game \game - Diagram \figure=게임 \ 게임 - 다이어그램 \ 그림
+Game \game - Figure \figure (\moves)=게임 \ 게임 - 그림 \ 그림 (\ 움직임)
+Game \game=게임 \ 게임
+Problem \game - Figure \figure=문제가 \ 게임 - 그림 \ 그림
+Problem \game=문제가 \ 게임
+
+;-- Layout tab
+Layout=레이아웃
+
+;-- Header and footer
+Header and footer=머리글과 바닥글
+Print header=인쇄 헤더
+Print footer=인쇄 꼬리말
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=\ 왼쪽 '페이지'\ 페이지에서 \ 권리 \ 날짜
+
+;-- Layout
+Layout2=레이아웃이
+First figure alone in the line=첫 번째 그림에 홀로 선
+1st figure alone=첫번째 그림 혼자
+1st figure ratio=첫번째 그림 비율 
+Figures per line=인물을 한 줄에 
+Figure ratio=그림 비율
+
+;-- Margins
+Margins (mm)=여백 (㎜)
+Left2=2 왼쪽
+Right2=오른쪽이
+Top=상위
+Bottom=하단
+
+;-- Font
+Font=글꼴
+Name:=이름
+Size:=크기
+
+;-- Styles
+Styles=스타일
+Remove=을 제거
+Add current print options as style with name:=현재 인쇄 옵션을 추가할 스타일과 이름 :
+Remove style=제거하는 스타일
+
+;-- Style description strings not yet listed
+Games from %d to %d=게임에서 %d 를 %d
+Include variations=포함 패턴
+with format=과 형식으로
+with formats=과 형식으로
+with ratio=과 비율
+absolute numbers=절대적인 숫자
+
+;-- Formats
+Formats=형식
+Formats for exporting games=내보내는 형식의 게임
+Formats for exporting figures=형식에 수출 인물
+Paper=종이
+Letter2=편지
+Landscape=프리
+Settings=설정
+PDF compression=pdf 압축
+Jpeg quality (1-100)=jpeg 품질 (1-100)
+
+;-- Printing as book
+%d at %d=%d 에서 %d
+%d at %s=%d 에서 %s
+%d above %d=%d 상기 %d
+%d below %d=%d 아래 %d 
+%d at left of %d=%d 의 왼쪽에있는 %d
+%d at right of %d=%d 의 오른쪽에있는 %d
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=그림 좌표
+Dimensions (mm)=치수 (mm)
+Dimensions (px)=크기 (픽셀)
+Stone diameter=바위 직경
+As books=로 도서
+Mode=모드
+Moves from 1 to 10=이동 1-10 
+Black with circle=검은색과 서클
+Black with square=검은색과 광장
+White with circle=흰색과 서클
+White with square=흰색과 광장
+Draw edge=그리기 에지
+H=홈
+W=승
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=첫 번째 페이지
+Previous page=이전 페이지로
+Next page=다음 페이지
+Last page=마지막 페이지
+Zoom in=확대
+Zoom out=축소
+Page %d of %d=페이지 %d 중 %d
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=바둑판
+
+;-- Board
+Board=보드
+Board1=보드 1
+Default texture=기본 텍스처
+Custom texture=사용자 설정의 텍스처
+Color=색상
+Thick edges=두꺼운 에지
+Hoshis=Hoshis
+
+;-- Stones
+Stones=돌
+
+;-- Coordinates
+Coordinates=좌표 
+None2=없음 
+Korschelt=Korschelt
+
+;-- Coordinate background
+Coordinate background=좌표 배경
+As board=로 보드
+
+;-- Displayed zone
+Displayed zone=표시 영역
+Whole board=전체 보드
+Zoom on corner=줌이 코너
+
+;-- Moves tab
+Moves=이동
+
+;-- Show moves
+Show moves=
+All moves with number=
+Last move with number=
+Last move with markup=
+Last %d moves with number=
+Number of visible move numbers:=
+
+;-- Show variations as
+Show variations as...=유사 콘텐츠로 표시...
+
+;-- Markup of variations on goban
+Markup of variations on goban=패턴을 마크업바둑판
+None=없음
+Ghost stones=귀신 바위
+Uppercase letters=대문자
+Lowercase letters=소문자
+
+;-- Move numbers
+Move numbers=행마 번호
+Display only two last digits=표시 전용 마지막 두 자리 숫자
+
+;-- Game tree tab
+Game tree=게임 트리
+
+;-- Background
+Background=배경
+
+;-- Stone radius
+Radius=반경
+
+;-- Move number position
+No2=아무 2 
+On the side=한쪽 면에
+On the stones=이 돌
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=윈도우 배경 
+
+;-- Light source
+Light source=광원
+Top left=왼쪽 위
+Top right=맨 오른쪽
+
+;-- Skins
+Menu and toolbar skins=메뉴 및 툴바를 스킨
+
+;-- Preview tab
+Preview2=미리보기 2
+Definition of information columns=정의의 정보 컬럼
+Black player=흑인 선수
+Black rank=블랙 순위
+Result=결과
+White player=흰색 플레이어
+White rank=화이트 순위
+Select property etc.=Select a property, then use arrows, or drag and drop
+Sorting of information records=선택의 속성을 선택 속성을 사용 화살표, 또는 드래그 앤 드롭 등등
+Enabled if record number is less than=활성화된 경우 레코드 번호는 미만의
+Thumbnail preview=축소판 미리보기
+Stone radius=바위 반경
+
+;-- Sidebar tab
+Sidebar=사이드 바
+Default visibility of panels when creating a tab=패널의 기본 표시 탭을 만드는
+Always visible=항상 보이는
+Visible if needed=필요한 경우 표시 
+Timing=타이밍
+Node name=노드 이름
+Variation list=변동 목록
+Game information panel=게임 정보 패널
+Display images=이미지 표시
+Image directory=이미지 디렉토리
+Comment font=코멘트를 글꼴 
+
+;-- Text panels
+Text panels=텍스트를 패널
+
+;-- Shortcuts tab
+Shortcuts=단축키
+Select category:=카테고리 선택 : 
+Engine=엔진
+Replay=재생
+Select command:=명령을 선택하십시오 :
+Click in box and type shortcut:=상자를 클릭 및 유형 단축키 :
+Assigned to:=할당 :
+(none)=(없음)
+Assign=할당 
+Clear=취소 
+Assign shortcut to selected command=선택한 단축키를 할당하는 명령을
+Clear shortcut of selected command=단축키가 선택한 지우기 명령을
+
+;-- Toolbars tab
+Toolbars=도구 모음
+Select toolbar:=툴바를 선택하십시오 :
+Misc2=기타 2
+Select command and toolbar etc.=Select command and toolbar, then use arrow buttons, or drag and drop command in toolbar.
+(Separator)=명령 및 도구 모음을 선택 명령 및 도구 모음 등등 
+
+;-- Sounds tab
+Sounds=소리
+Enable sounds=활성화 소리
+Invalid move=유효하지 않은 이동
+Engine move=엔진을 이동
+Default=기본값
+Custom=사용자 정의
+Test=테스트
+Sound files=사운드 파일을
+Select sound file=사운드 파일을 선택하십시오
+
+;-- Files tab
+Files=파일
+
+;-- File association
+File associations=파일 연결
+Unable to update file association!=파일 연결을 업데이트 할 수 없습니다!
+Check user rights.=사용자 권한을 확인합니다.
+
+;-- Starting
+Starting=시작
+Start with last files=마지막으로 파일을
+Start with last move=마지막으로 이동
+
+;-- Properties
+Properties=등록 정보
+Save with 10 moves on each line=10의 움직임도 저장각 라인 
+New file with full SGF properties=새 파일을 전체 sgf 등록 정보를
+Change player with SGF property=변경 선수를 sgf 재산
+Compress lists of points=압축 목록을 포인트
+Accept long property names=수락 긴 속성 이름
+
+;-- Navigation tab
+Move targets=이동 표적
+Every N moves=주파수를 이동
+Starts of variation=를 시작 변동
+Ends of variation=종료 일자 변동
+Time between two moves=시간 사이에 2 개의 움직임
+Use timing properties when available=등록 정보를 사용할 때 타이밍 있음
+Stop at targets=정차 표적
+
+;-- Database tab
+General=일반적인
+Cache=캐시
+Creation=창조
+Create with extended algorithms=확장 알고리즘을 만들기
+Process variations=프로세스 편차
+Detect duplicates=감지 중복
+by using signature=를 사용하여 서명
+by using final position=를 사용하여 최종 순위
+Omit duplicates when detected=를 생략하면 중복 검출
+Omit games with SGF errors=sgf 게임을 생략할오류 
+Pattern search=패턴을 찾기
+Search in variations=검색 패턴
+Move limit=이동 제한
+
+;-- Game engine tab
+
+Game engines=게임 엔진
+List of engines=엔진의 목록
+Analysis=분석
+
+;-- Binary
+Path=통로
+Select engine path=엔진 경로를 선택
+Parameters=매개 변수
+Usage=용법
+Use for game=게임에 사용
+Use for analysis=분석을 위해 사용
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=규칙, 타이밍, boardsize 및 수준 인자는 미리 정의되어 있습니다. 현재 엔진에 대한 더 많은 인수가 여기에 입력 할 수 있습니다.
+
+;-- Lists of features
+Playing features=기능 재생
+Chinese rules=중국어 규칙
+Japanese rules=일본어 규칙
+Fixed handicap=고정 장애
+Free handicap=무료 장애
+Time per game=게임 당 시간
+Undo=
+Detailed game results=자세한 경기 결과
+Analysis features=분석 기능
+Move suggestion=의견을 이동
+Influence region=영향 지역
+Group status=그룹 상태
+
+;-- Predefined engines
+Select predefined engine=미리 정의 된 엔진을 선택
+Open browser, download and install=열려있는 브라우저는 다운로드 및 설치
+Already installed=이미 설치
+Press Ok (then you will have to enter executable installation path) or cancel.=확인을 누르십시오 (다음 실행 설치 경로를 입력해야합니다) 또는 취소 할 수 있습니다.
+If the engine motor you want to play with is not in the list, edit the following file:=당신이 재생하려는 엔진 모터가 목록에없는 경우, 다음과 같은 파일을 편집 :
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=규칙, 타이밍, boardsize 및 수준 인자는 미리 정의되어 있습니다. 현재 엔진에 대한 추가 인수가 여기에 입력 할 수 있습니다.
+Current parameters=현재 매개 변수입니다.
+Additional parameters=추가 매개 변수
+
+;-- Language tab
+
+Language=언어
+Select language for user interface=언어를 선택하십시오 사용자 인터페이스를
+Select code page for game files=게임 파일에 대한 코드 페이지를 선택하십시오
+Create game files using...=를 사용하여 파일 만들기 게임 ...
+Unicode=유니 코드
+System default code page=시스템의 기본 코드 페이지
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=사용자 정의 돌을 선택
+Path for Black stones=블랙 돌에 대한 경로
+Path for White stones=화이트 돌에 대한 경로
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=돌 이름은 직경을 지정하는 번호를 포함해야합니다. 이름이 두 번째 번호를 포함하는 경우, graphism의 일부 변화를 식별합니다.
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=주석
+
+;-- Position annotations
+Position annotations=포지션 주석
+Good for Black=좋은 검은
+Good for White=좋은 흰색
+Balanced position=균형 잡힌 입장
+Unclear position=불명 확한 입장
+Very good for Black=아주 좋은 검은
+Very good for White=아주 좋은 흰색
+Very balanced position=매우 균형 잡힌 입장
+Very unclear position=매우 불투명하다 순위
+Hot spot=핫 스팟
+Very hot spot=매우 핫 스팟
+
+;-- Move annotations
+Move annotations=이동 주석
+Bad=나쁜 
+Doubtful=의문
+Tesuji=맥
+Very bad=아주 나쁜
+Interesting=흥미로운
+Very good tesuji=아주 좋은 맥
+
+;-- Text
+Text=텍스트 
+
+;-- Others
+Others=기타
+
+;-- Timing
+Black time left=검정 시간이 남아
+White time left=하얀 시간이 남아
+
+;-- Figures
+Insert figure=삽입 그림
+Show coordinates=쇼 좌표
+
+;-- Other properties
+Other properties=다른 속성
+Move numbers from=행마 번호로부터
+Wrong variation (uliGo)=잘못된 변동 (uligo)
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=쉼표 (C, BL, WL)으로 구분하여 속성의 목록을 입력 :
+All games in collection=컬렉션의 모든 게임
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=재생 게임
+
+;-- Select game
+Select game2=게임 2 선택
+Loaded game=로드 게임
+Sequential=순차적으로
+Random=임의의
+
+;-- Play with
+Play with=로 재생
+Both=둘 다
+
+;-- Play...
+Play2=2 게임
+Full game=전체 게임
+Fuseki=포석 
+From current position=현재 위치에서
+From current position (only for current game)=현재 위치 (단지 현재 게임)에서
+
+;-- Move number in Fuseki
+Move number in Fuseki=번호를 이동 포석
+
+;-- Number of attempts per move
+Number of attempts per move=이동 당 시도 횟수
+Only one=하나의
+Unlimited=제한없는
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=통계
+Problems in collection=컬렉션의 문제
+Visited problems=방문 문제
+Number of attempts=시도 수
+Number of successes=성공 수
+Show detailed statistics=자세한 통계보기
+Reset collection statistics=수집 통계를 재설정
+
+;-- Problem order
+Problem order=문제를 순서
+Sequential from current=순차적으로 현재
+Sequential from stored=부터 순차적으로 저장
+Random color=임의의 색
+Random position=임의의 위치
+Number of problems=숫자의 문제
+
+;-- Failure ratio
+Include problems incorrectly solved=잘못 해결 문제를 포함
+don't care=상관 없어요
+ratio=비율
+
+;-- Solution marks
+Solution marks=솔루션을 마크
+Main line=메인 라인
+Autodetect=자동 검색
+
+;-- More popup menu
+Show=표시
+Timer=타이머
+Glyphs=상형 문자
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=루트에 대한 파일 이름을 선택하십시오 :
+Export starting from:=수출부터 :
+Merge... Select files=병합 ... 선택한 파일을
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=저장 폴더를
+Files modified in folder=폴더에 파일을 업데이 트
+Select files to save:=선택에 파일을 저장 : 
+Select all=모두 선택
+Unselect all=선택을 해제의 모든
+Ignore=을 무시
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=깊이
+Unique moves=고유 이동
+Normalize position of first move=먼저 공격의 위치를 ​​정상화
+Game reference=게임 참조
+Filename=파일 이름
+Games to process=처리 게임
+Process current tab=현재 탭을 처리
+Select files or folders to process=파일 또는 처리 할 폴더를 선택
+Start=출발
+
+;-- Messages
+Only main branch is processed=만 주요 분기 처리
+Move inversions are not detected=이동 뒤집어가 감지되지 않습니다
+Unable to process file=파일을 처리 할 수 ​​없습니다
+Unable to process file completely=완전히 파일을 처리 할 수 ​​없습니다
+Game ignored (some not alternative moves):=게임 (일부없는 다른 이동) 무시 :
+Game ignored (board size not handled):=게임 (보드 크기가 처리되지 않음) 무시 :
+Game tree ready.=게임 트리 준비.
+Elapsed time (seconds)=경과 시간 (초)
+Number of games=게임 수
+percentage and number of games in variation=비율과 수 게임 변화에
+winning percentage of move=이사 경력 비율
+number of unknown results=알 수없는 결과 수
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=이 프리웨어
+Version=버전
+Kombilo and libkombilo by Ulrich Goertz:=Kombilo and libkombilo by Ulrich Goertz:
+Credits=크레딧 
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=모든 파일을 
+BMP files=bmp 파일을
+DOC files=문서 파일을
+HTML files=파일
+JPEG files=그림 파일 
+RTF files=rtf 파일을
+SGF files=sgf 파일을
+GIF files=이미지 파일
+PNG files=png 파일을
+MGT files=mgt 파일
+ASCII files=ascii 파일을
+PDF files=파일
+Database files=데이터베이스 파일을
+Text files=텍스트 파일을
+
+;-- Export captions
+Export games with HTML format=수출의 게임과 형식
+Export games with RTF format=수출 게임을 rtf 형식으로
+Export games to HTML format=수출 게임을 형식
+Export games to RTF format=수출 게임을 rtf 형식으로
+Export games to PDF format=수출 게임을 형식
+Export games to MSWORD format=수출 게임을 msword 포맷
+
+;-- Select texture dialog
+Select texture=선택의 텍스처
+(empty)=(빈)
+Image:=이미지 :
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=마지막으로 이동
+Black prisoners=흑인 죄수
+White prisoners=백인 포로
+
+;-- Game information
+Game information2=게임 정보 2
+
+;-- Variation list panel
+Next moves=다음 행마
+Alternate moves=대체 움직임
+
+;-- Replay panel
+Game2=게임이
+You=당신
+
+;-- Problem panels
+Reference=도움말
+Problem=문제가
+Attempt=시도
+Attempts=시도
+Trial=시도
+Trials=시도
+Problem status=문제 상태
+Attempt status=시도 상태
+Running=실행 중
+Success=성공
+Failure=실패
+Assisted=보조
+Free=무료
+
+;-- Problem result box
+End of problem session.=문제 세션의 끝.
+Session result: %d / %d=세션 결과 : % d 개 / % d 개
+Collection score after session: %s=세션 후 컬렉션 점수 : % s의
+More problems?=더 많은 문제가 있나요?
+
+;-- Game result string
+Black wins=검정 승 
+White wins=화이트 승
+%s wins by %s points=%s 승 의해 %s 포인트
+Draw=그리기
+No result=결과
+Unknown result=알 수없는 결과를
+by forfeit=을 몰수
+by resignation=에 사표
+on time=이 시간
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=이 메시지가 다시 표시하지 않음
+Toggling to full screen mode.=전체 화면 모드로 전환.
+Restore window mode with %s=% s와 (과) 창 복원 모드
+
+;-- Tab errors
+Unable to create tab=을 만들 수없습니다 탭
+
+;-- Edit messages
+No move to add variation.=지역으로 이동 장바구니 변동 
+Move impossible to cancel=이동 불가능한를 취소 
+Delete whole branch.=전체 분기를 삭제 
+File modification.=파일을 수정 
+Beware game modification will not be updated in database.=주의 게임의 데이터베이스를 업데이 트되지 않습니다 
+Do you want to proceed?=계속하시겠습니까?
+
+;-- File errors
+File not open=파일을 열 수없습니다
+Bracket not found=브래킷을 찾을 수없습니다
+Error opening file=여는 중 오류가 발생 파일
+Error opening folder=폴더를 여는 중 오류가 발생
+Line=선
+File partialy read=파일을 부분적으로 읽을
+File %s is read only.=파일 %s 은 읽기 전용 
+File %s not saved.=파일 %s 저장되지 않습니다
+Folder %s not saved.=폴더 %s 저장되지 않습니다
+First game not found=1 차전을 찾을 수없습니다
+Illegal character=잘못된 문자 
+Impossible to save %s.=불가능에 저장 %s.
+Impossible to save.=불가능을 저장 
+Impossible to write file=불가능을 작성 파일
+Semicolon not found after parenthesis=세미콜론을 찾을 수 없음 뒤 괄호
+Invalid property name=잘못된 속성 이름 
+Memory error=메모리 오류
+Read only file=읽기 전용 파일 
+The loaded game is not Go : GM property=로드 게임은 안 : 유전자 조작 속성
+Invalid board size=유효하지 않은 보드 크기
+Size will be set to 19.=크기를 19으로 설정됩니다
+Unexpected end of file=예상치 못한 종료의 파일
+
+;-- File warnings
+Reload and lose modifications?=로드하고 패 수정?
+Save changes in %s?=변경 사항을 저장 %s 어때?
+
+;-- Replay messages
+Game with no name. Save to proceed.=게임을 아무 이름도합니다. 저장을 진행
+File not saved. Save to proceed.=파일이 저장되지 않았습니다. 저장을 진행
+The file doesn't seem to be a game file.=이 파일 게임 파일을 것 같지 않은데 
+The file doesn't seem to be a problem file.=파일을 파일에 문제가되지 않습니다 
+The file is not a problem collection.=이 파일은 문제가 없다 
+A problem collection must be loaded to start a problem session.=문제를 수집 문제가 세션을 시작하는로드되어야합니다 
+Continue=계속
+End of fuseki=마지막 포석
+End of game=엔드의 게임
+Score=점수 
+
+;-- Move errors
+Illegal move=불법적인 이동
+Illegal ko capture=불법 고 캡쳐
+Illegal suicide...=불법적인 자살 ...
+Impossible to play there=를 재생 불가능한에 해당
+
+;-- Game engine messages
+Abnormal termination of game engine=비정상적인 종료의 게임 엔진
+Do you really want to resign?=이 사직을 진정으로 원하십니까?
+Game aborted=경기가 중단되었습니다
+Error=오류
+Black has passed=블랙 지났습니다
+White has passed=화이트는 지났습니다
+Black resigns=블랙 사퇴
+White resigns=화이트 사퇴
+Black loses on time=블랙 시간에 손실
+White loses on time=화이트 시간에 손실
+Pass2=2 패스
+pass3=3 통과
+Territory=영토
+Prisoners=포로
+Total=합계
+Please select board view before starting game.=게임을 시작하기 전에 보드보기를 선택하십시오.
+Current engine is unable to start...=현재 엔진은 시작할 수없는 ...
+Engine configuration file missing. Please check installation.=엔진 구성 파일이 없습니다. 설치를 확인하시기 바랍니다.
+alive=살아있는
+dead=죽은
+critical=결정적인
+
+;-- Export
+Problem while copying in clipboard=문제의 클립 보드에 복사하는 동안
+Problem while saving image=문제를 저장하는 동안 이미지를
+Unable to export...=을 내보낼 수 없다 ...
+Close Word and restart export.=단어를 다시 시작 수출 닫습니다 .
+Please, close previous preview to proceed.=제발, 이전 미리보기를 진행 닫습니다 
+File is in use, close to proceed.=파일이 사용 근처에 진행 
+
+;-- Preview
+Sorting is not enabled over %d records.=이상 %d 레코드를 정렬 활성화되어 있지 않습니다
+See Options | Preview to change this setting.=옵션을 참조하십시오 | 미리이 설정을 변경
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=BkSp
+Tab=탭 
+Esc=Esc를
+Enter=을 입력
+Space=공간
+PgUp=PgUp
+PgDn=PgDn
+End=종료
+Home=홈페이지
+Left=왼쪽
+Up=업그레이
+Right=오른쪽
+Down=아래
+Ins=드라이버
+Del=델
+Shift+=교대 +
+Ctrl+=ctrl +
+Alt+=alt + 
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=파일이나 폴더를 선택하십시오
+Clear all=모두
+Include subfolders=하위 폴더 포함
+Start2=2 시작
+Abort=중단
+Save database as=저장 데이터베이스로
+Please give database name=데이터베이스를 부탁드립니다 이름
+%s already exists.=%s 가 이미 존재합니다 
+Do you want to overwrite it?=덮어 쓰시겠습니까?
+Database open, please close first=데이터베이스를 열고 닫으십시오 첫 번째
+Unable to create database=데이터베이스를 만들 수없습니다
+
+;-- Search dialog
+Pattern=패턴
+;Game information=
+Signature=서명
+Reset=리셋
+No database loaded=지역 데이터베이스를 로드할
+No database loaded... Load or create.=지역 데이터베이스를로드 중 ... 부하 하시거나
+Select database=데이터베이스를 선택하십시오
+Search=검색
+Search in results=결과에서 검색
+Whole database=전체 데이터베이스
+Current results=현재 검색 결과
+View results in tab=이 문서가 적용되는 결과를 탭
+View results on board=이 문서가 적용되는 결과를 보드
+View results in game information list=이 문서가 적용되는 결과가 게임 정보를 목록
+View results in board thumbnails=이 문서가 적용되는 결과를 보드 축소판
+
+;-- Pattern search
+Pattern (right-click to select)=패턴 (오른쪽 - 클릭하여 선택)
+Wildcard=와일드 카드
+Capture=캡처
+Clear2=clear2 
+View:=이 문서가 적용되는 :
+Results=검색 결과
+Frequency=주파수
+Urgency=긴급 
+Efficiency=효율
+Fixed:=고정 :
+Position=위치
+Next move:=다음 행마 :
+%d matches=%d 와 일치
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=%d 와 일치 (%d / %d), b : %1.1f %%, 쓰기 : %1.1f %%
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=b | b / t | b + / b | b - / b | 승 | 승 / t | b + / w | b - / w
+Right-click to select on board=보드에 선택 마우스 오른쪽 버튼으로 클릭
+Found games are in database tab=발견 게임은 데이터베이스 탭에 있습니다
+
+;-- Information search
+Game information search=게임 정보 검색
+Search on players=검색에서 선수
+Any=어떠한
+One of both=하나 둘 다
+Winner=수상작
+Loser=패자
+Search on date=검색에서 날짜
+Day=일
+Month=월
+Year=년
+Range=범위
+To=를
+Search on result=검색에서 결과
+wins=승
+wins by=승 의해
+wins by at least=승을 적어도
+wins by at most=승으로 최대
+wins by resignation=승을 사퇴
+wins on time=승이 시간
+wins by forfeit=승을 몰수
+Other or unknown=기타 또는 알 수없는
+More conditions=더 많은
+SQL=SQL
+
+;-- Signature search
+Signature search=서명을 찾기
+
+;-- Settings
+Search settings=검색 설정
+Select or open database=데이터베이스를 선택하거나 엽니 다
+Pattern search parameters=패턴 검색 매개 변수
+Fixed color=고정 색상
+Fixed position=자위
+Pattern search next move=패턴 검색 다음 움직임
+Any or none=모든 또는 없음
+Pattern search view=패턴 검색보기
+Full=전체
+Digest=다이제스트
+
+;-- Messages
+Error opening database=여는 중 오류가 발생 데이터베이스를
+No search for center empty patterns.=중앙 빈 패턴에 대한 검색을하지 않습니다.
+No search for center single stone patterns.=센터 하나의 돌 패턴에 대한 검색하지 않습니다.
+No search rectangle defined.=어떤 검색 사각형은 정의하지 않습니다.
+Operation aborted by user=사용자에 의한 작동 중단되었습니다
+%d file(s) to process=%d 파일 (들)을 처리할
+%d games processed, %s elapsed=%d 의 게임 처리, %s 경과
+%d file(s) processed, %s elapsed=%d 파일 (들) 처리, %s 경과
+Unable to process game=를 처리할 수없습니다 게임
+Unable to process game completely=완전히 게임을 처리 할 수 ​​없습니다
+Boardsize not handled=boardsize 처리되지 않습니다
+SGF error detected, game inserted=sgf 오류가 감지, 게임 삽입된
+SGF error detected, game not inserted=sgf 오류가 감지, 게임 안 삽입된
+Duplicate detected=중복 감지
+Duplicate ignored=중복 무시
+;%d result(s)=%d résultat(s)
+No game found in %s=어떤 게임은 % s를 찾을 수 없습니다
+1 game found in %s=1 게임은 % s에서 발견
+%d games found in %s=% d 개 게임은 % s에서 발견
+Save logfile=저장 로그 파일
+%d ms.=%d 미시시피
+%2.2f seconds=%2.2f 초
+Unable to modify game in database.=데이터베이스에 게임을 수정 할 수 없습니다.
+Extract to a new tab and try again?=새 탭으로 추출하고 다시 시도?
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=고급
+Restore default=복원 기본값
+Select=을 선택
+Select all2=모든 2를 선택
+Restore=복원
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=시퀀스를 클릭하십시오 돌을 설치 모드를
+Set, remove=설정을 제거
+Set, swap color, remove=설정, 스왑 색상을 제거
+Enable moves as books=움직임을 활성화 도서
+Start variation from 1=다양성을 시작부터 1
+Start variation with figure=다양성을 시작으로 그림
+Start variation settings include main line=다양성을 시작 설정은 메인 라인
+Bold text=굵은 글씨
+Maximum font size=최대 글꼴 크기
+Texture tiling with symmetries=타일 질감과 대칭
+
+; User interface
+User interface=사용자 인터페이스를
+Allow only one instance=허용 유일한 하나의 인스턴스
+Minimize to tray=트레이에 최소화
+Hook content of window when resizing=때후크 내용을 창의 크기를 조정
+Anchor panels at bottom=앵커 패널 하단
+Show tab close buttons=보기 탭 닫기 버튼
+
+; Files
+Save paths relatively to install folder=폴더를 설치하는 상대적 경로를 저장
+Abort reading on file error=독서에 파일을 중지 오류
+Open save dialogs with places bar=모음
+
+; Games against engines
+Games against engines=경기 엔진
+Ask for saving when closing game=폐쇄 요청을 저장하면 게임
+Use again previous game engine tab=이전 게임 엔진을 탭을 다시 사용
+Enable Undo=사용 취소
+Only after capture=후에만 캡처
+Game engine options are inhibited during game=게임 엔진에 옵션이 금지하는 동안 게임
+
+
+; Warning
+Warnings=경고
+Warn when toggling to full screen=전체 화면으로 전환 할 때 경고
+Warn at first modification=처음에는 경고를 수정
+Warn at modification in database game=데이터베이스 경기에 수정에 경고
+Warn at modification in read only mode=전용 모드 읽으에 수정에 경고
+Warn when delete branch=경고를 삭제하면 지사
+Warn on invalid move=경고에 유효하지 않은 이동
+Warn on game engine pass=게임 엔진 패스에 경고
+Warn on game engine resignation=게임 엔진 퇴직에 경고
+Warn when losing on time=시간에 손실되면 경고
+
+; PDF
+Use board color=사용 보드 색상
+Exact width (mm)=정확한 너비 (mm)
+Added border (N;W;S;E in % of image width)=추가된 테두리 (n; 승;의; 이메일에서 %의 이미지 폭)
+Radius adjustment=반경 조정
+Circle width=동그라미 폭정 
+Line width=선 폭 
+Double line width= 더블 라인 폭 
+Hoshi stone ratio=별의 돌 비율 
+Marks adjustment (line width;size factor)=마크 조정 (행 폭; 크기를 계수)
+Font size adjustment (f or f;f or f;f;f see help)=글꼴 크기를 조정 (f, f, f, f, f, f 자세한 내용은 도움말)
+Line height adjustment=행 높이 조정
+
+;---

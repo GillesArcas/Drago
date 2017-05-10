@@ -1,0 +1,1265 @@
+;-- APPLICATION DATA ---------------------------------------------------
+
+$Language=English
+$HelpFile=Drago-En.chm
+$TranslationCredit=
+$Update=4.22
+
+;-- MENU, TOOLBAR BUTTON, ACTION CAPTIONS ------------------------------
+
+;-- Main menu
+File=
+View=
+Navigation=
+Edit=
+Database=
+Games2=Replay
+Problems=Solve
+Play=
+Options=
+Help=
+
+;-- File
+New=
+Open=
+Open folder=
+Save=
+Save as=
+Save tab content as=
+Read only=
+Close=
+Close all=
+Open from clipboard=
+Save to clipboard=
+Collections=
+Favorites=
+Index=
+Game information=
+Print=
+Export=
+Export position=
+Quit=
+
+;-- Collection
+Append to=
+Merge=
+Extract current=
+Extract all=
+Delete current game=
+Make game tree=
+
+;-- View
+Full screen mode=
+View board=
+Preview game information=
+Preview board thumbnails=
+Reference view=
+Mirror=
+Flip=
+Opponent view=
+Rotate 90 clockwise=
+Rotate 90 counter clockwise=
+Swap colors=
+Show toolbars=
+Toolbar settings=
+Board settings=
+Preview settings=
+
+;-- Navigation
+First game=
+Previous game=
+Next game=
+Last game=
+Select game=
+Start position=
+Previous move=
+Next move=
+End position=
+Go to move=
+Previous target=
+Next target=
+Auto replay=
+Navigation settings=
+Next variation=
+Previous variation=
+Pointer up=
+Pointer down=
+Pointer left=
+Pointer right=
+
+;-- Edit
+Undo move=
+Delete branch=
+Game edit=
+Game edit Black first=
+Game edit White first=
+Add Black=
+Add White=
+Empty=
+Current markup=
+Player=
+Black to play=
+White to play=
+Insert pass=
+Insert=
+Make main branch=
+Promote variation=
+Demote variation=
+Remove properties=
+Insert empty node=
+Click at pointer=
+Ctrl-click at pointer=
+
+;-- Markup
+Cross=
+Triangle=
+Circle=
+Square=
+Letter=
+Number=
+Label=
+Black territory=
+White territory=
+
+;-- Database
+Create database=
+Open database=
+Add to database=
+Search in database=
+One click search=
+Database settings=
+
+;-- Games
+Replay session=
+Replay index=
+Cancel replay session=
+
+;-- Problems
+Solve problems=
+Problem index=
+Hint=
+Free mode=
+Problem mode=
+Cancel problem session=
+
+;-- Play
+New engine game=
+Pass=
+Resign=
+Cancel game=
+Score estimate=
+Suggest move=
+Show influence regions=
+Engine settings=
+
+;-- Options
+Sidebar settings=
+Language settings=
+Advanced settings=
+Toggle coordinates=
+Toggle move markers=
+View settings=
+Game tree settings=
+
+;-- Help
+Display help=
+Web site=
+Donate=
+About=
+
+;-- Tabs popup menu
+New in tab=
+Open in tab=
+Open folder in tab=
+Reload current file=
+
+;-- Sidebar menu
+Show in current tab=
+
+;-- Tray icon menu
+Restore window=Restore
+
+;-- GENERAL BUTTONS ----------------------------------------------------
+
+&Help=
+Ok=
+Cancel=
+Clipboard=
+No=
+Yes=
+Send=
+
+;-- WELCOME DIALOG BOX -------------------------------------------------
+
+Welcome in Drago=
+
+;-- NEW GAME RECORD DIALOG BOX -----------------------------------------
+
+Size=
+Komi=
+Handicap=
+Free placement=
+Create in=
+New file=
+Current file=
+
+;-- NEW GAME WITH ENGINE DIALOG BOX ------------------------------------
+
+Game engine=
+Name=
+Level=
+not defined=
+Not available=
+More engines=
+
+;-- Start position
+New game=
+Current position=
+Auto handicap=
+Engine plays with=
+Black=
+White=
+
+;-- Time settings
+Time settings=
+No time limit=
+Total time=
+Time per move=
+Initial time plus over time=
+Initial time=
+Over time=
+Timing only for engine=
+
+;-- Game settings
+Game settings=
+Boardsize=
+
+;-- Scoring
+Scoring=
+Territory counting=Territory (Japanese)
+Area counting=Area (Chinese)
+
+;-- Messages
+More=
+No engine defined. Please select 'More...' then 'More engines...'=
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=
+Not all functions are supported by the engine currently selected.=
+
+;-- GTP window
+GTP window=
+Show GTP window=
+Enter and send GTP command (no feedback on main board):=
+No engine running=
+
+;-- FREE HANDICAP DIALOG BOX -------------------------------------------
+
+Click on goban to set handicap stones.=
+Click again on a stone to remove it.=
+
+;-- FAVORITES DIALOG BOX -----------------------------------------------
+
+Add current=
+Add=
+Add favorite=
+Add game file=
+Add folder=
+Add database=
+
+;-- GAME INFORMATION DIALOG BOX ----------------------------------------
+
+;-- Summary
+Summary=
+
+;-- Event
+Game=
+Event=
+Round=
+Place=
+Date=
+
+;-- Players
+Players=
+Rank=
+Team=
+
+;-- Rules
+Rules=
+Time=
+hr=h
+mn=mn
+Byo-Yomi=
+
+;-- Sources
+Sources=
+User=
+Annotation=
+Source=
+Copyright=
+
+;-- Comment
+Comment=
+
+;-- Misc
+Misc=
+Application=
+SGF format=
+Style=
+No style defined for current game=
+Show alternate moves - Allow board markup=
+Show alternate moves - No board markup=
+Show next moves - Allow board markup=
+Show next moves - No board markup=
+Charset=
+
+;-- PRINT-EXPORT DIALOG BOX --------------------------------------------
+
+;-- Buttons
+Preview=
+Export figures=
+Export games=
+ESC to cancel=
+
+;-- Games and figure
+Games and figures=
+
+;-- Games
+Games=
+Current game=
+All=
+to:=
+from:=
+
+;-- Include information
+Include information=
+at start of game=
+as name of figure 1=
+Format=
+
+;-- Default format for game info
+\PB (B) vs \PW (W), \DT=
+
+;-- Figures
+Figures=
+Position at move number=
+One figure every N moves=
+One figure every %d moves=
+One figure every markup or comment=
+File figures=
+Variations=
+
+;-- Comments
+Comments=
+Include comments=
+Remind figure titles=
+remind figure titles2=remind figure titles
+Remind move numbers=
+remind move numbers2=remind move numbers
+
+;-- Figure title
+Figure title=
+Print title=
+Relative numbers=
+relative numbers2=relative numbers
+Figure format=
+Variation format=
+
+;-- Default formats for title
+Diagram \figure=
+Figure \figure (\moves)=
+Game \game (\moves)=
+Game \game - Diagram \figure=
+Game \game - Figure \figure (\moves)=
+Game \game=
+Problem \game - Figure \figure=
+Problem \game=
+
+;-- Layout tab
+Layout=
+
+;-- Header and footer
+Header and footer=
+Print header=
+Print footer=
+
+;-- Default format for footer
+\left 'Page ' \page \right \date=
+
+;-- Layout
+Layout2=Layout
+First figure alone in the line=
+1st figure alone=
+1st figure ratio=
+Figures per line=
+Figure ratio=
+
+;-- Margins
+Margins (mm)=
+Left2=Left
+Right2=Right
+Top=
+Bottom=
+
+;-- Font
+Font=
+Name:=
+Size:=
+
+;-- Styles
+Styles=
+Remove=
+Add current print options as style with name:=
+Remove style=
+
+;-- Style description strings not yet listed
+Games from %d to %d=
+Include variations=
+with format=
+with formats=
+with ratio=
+absolute numbers=
+
+;-- Formats
+Formats=
+Formats for exporting games=
+Formats for exporting figures=
+Paper=
+Letter2=Letter
+Landscape=
+Settings=
+PDF compression=
+Jpeg quality (1-100)=
+
+;-- Printing as book
+%d at %d=
+%d at %s=
+%d above %d=
+%d below %d=
+%d at left of %d=
+%d at right of %d=
+
+;-- EXPORT POSITION DIALOG BOX -----------------------------------------
+
+Figure coordinates=
+Dimensions (mm)=
+Dimensions (px)=
+Stone diameter=
+As books=
+Mode=
+Moves from 1 to 10=
+Black with circle=
+Black with square=
+White with circle=
+White with square=
+Draw edge=
+H=
+W=
+
+;-- PRINT PREVIEW WINDOW -----------------------------------------------
+
+First page=
+Previous page=
+Next page=
+Last page=
+Zoom in=
+Zoom out=
+Page %d of %d=
+
+;-- OPTION DIALOG BOX --------------------------------------------------
+
+;-- Goban tab
+Goban=
+
+;-- Board
+Board=
+Board1=Board
+Default texture=
+Custom texture=
+Color=
+Thick edges=
+Hoshis=
+
+;-- Stones
+Stones=
+
+;-- Coordinates
+Coordinates=
+None2=None
+Korschelt=
+
+;-- Coordinate background
+Coordinate background=
+As board=
+
+;-- Displayed zone
+Displayed zone=
+Whole board=
+Zoom on corner=
+
+;-- Moves tab
+Moves=
+
+;-- Show moves
+Show moves=
+All moves with number=
+Last move with number=
+Last move with markup=
+Last %d moves with number=
+Number of visible move numbers:=
+
+;-- Show variations as
+Show variations as...=
+
+;-- Markup of variations on goban
+Markup of variations on goban=
+None=
+Ghost stones=
+Uppercase letters=
+Lowercase letters=
+
+;-- Move numbers
+Move numbers=
+Display only two last digits=
+
+;-- Game tree tab
+Game tree=
+
+;-- Background
+Background=
+
+;-- Stone radius
+Radius=
+
+;-- Move number position
+No2=No
+On the side=
+On the stones=
+
+;-- View tab
+;View=Affichage
+
+;-- Window background
+Window background=
+
+;-- Light source
+Light source=
+Top left=
+Top right=
+
+;-- Skins
+Menu and toolbar skins=
+
+;-- Preview tab
+Preview2=Preview
+Definition of information columns=
+Black player=
+Black rank=
+Result=
+White player=
+White rank=
+Select property etc.=Select a property, then use arrows, or drag and drop
+Sorting of information records=
+Enabled if record number is less than=
+Thumbnail preview=
+Stone radius=
+
+;-- Sidebar tab
+Sidebar=
+Default visibility of panels when creating a tab=
+Always visible=
+Visible if needed=
+Timing=
+Node name=
+Variation list=
+Game information panel=
+Display images=
+Image directory=
+Comment font=
+
+;-- Text panels
+Text panels=
+
+;-- Shortcuts tab
+Shortcuts=
+Select category:=
+Engine=
+Replay=
+Select command:=
+Click in box and type shortcut:=
+Assigned to:=
+(none)=
+Assign=
+Clear=
+Assign shortcut to selected command=
+Clear shortcut of selected command=
+
+;-- Toolbars tab
+Toolbars=
+Select toolbar:=
+Misc2=Misc
+Select command and toolbar etc.=Select command and toolbar, then use arrow buttons, or drag and drop command in toolbar.
+(Separator)=
+
+;-- Sounds tab
+Sounds=
+Enable sounds=
+Invalid move=
+Engine move=
+Default=
+Custom=
+Test=
+Sound files=
+Select sound file=
+
+;-- Files tab
+Files=
+
+;-- File association
+File associations=
+Unable to update file association!=
+Check user rights.=
+
+;-- Starting
+Starting=
+Start with last files=
+Start with last move=
+
+;-- Properties
+Properties=
+Save with 10 moves on each line=
+New file with full SGF properties=
+Change player with SGF property=
+Compress lists of points=
+Accept long property names=
+
+;-- Navigation tab
+Move targets=
+Every N moves=
+Starts of variation=
+Ends of variation=
+Time between two moves=
+Use timing properties when available=
+Stop at targets=
+
+;-- Database tab
+General=
+Cache=
+Creation=
+Create with extended algorithms=
+Process variations=
+Detect duplicates=
+by using signature=
+by using final position=
+Omit duplicates when detected=
+Omit games with SGF errors=
+Pattern search=
+Search in variations=
+Move limit=
+
+;-- Game engine tab
+
+Game engines=
+List of engines=
+Analysis=
+
+;-- Binary
+Path=
+Select engine path=
+Parameters=
+Usage=
+Use for game=
+Use for analysis=
+Rules, timing, boardsize and level arguments are predefined. More arguments for current engine may be entered here.=
+
+;-- Lists of features
+Playing features=
+Chinese rules=
+Japanese rules=
+Fixed handicap=
+Free handicap=
+Time per game=
+Undo=
+Detailed game results=
+Analysis features=
+Move suggestion=
+Influence region=
+Group status=
+
+;-- Predefined engines
+Select predefined engine=
+Open browser, download and install=
+Already installed=
+Press Ok (then you will have to enter executable installation path) or cancel.=
+If the engine motor you want to play with is not in the list, edit the following file:=
+
+;-- Additional parameters
+Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=
+Current parameters=
+Additional parameters=
+
+;-- Language tab
+
+Language=
+Select language for user interface=
+Select code page for game files=
+Create game files using...=
+Unicode=
+System default code page=
+
+;-- CUSTOM STONE DIALOG ------------------------------------------------
+
+Select custom stones=
+Path for Black stones=
+Path for White stones=
+Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=
+
+;-- INSERT DIALOG BOX --------------------------------------------------
+
+;-- Annotations
+Annotations=
+
+;-- Position annotations
+Position annotations=
+Good for Black=
+Good for White=
+Balanced position=
+Unclear position=
+Very good for Black=
+Very good for White=
+Very balanced position=
+Very unclear position=
+Hot spot=
+Very hot spot=
+
+;-- Move annotations
+Move annotations=
+Bad=
+Doubtful=
+Tesuji=
+Very bad=
+Interesting=
+Very good tesuji=
+
+;-- Text
+Text=
+
+;-- Others
+Others=
+
+;-- Timing
+Black time left=
+White time left=
+
+;-- Figures
+Insert figure=
+Show coordinates=
+
+;-- Other properties
+Other properties=
+Move numbers from=
+Wrong variation (uliGo)=
+
+;-- REMOVE PROPERTIES DIAOLOG BOX
+
+Enter list of properties separated by commas (C,BL,WL):=
+All games in collection=
+
+;-- REPLAY GAMES DIALOG BOX --------------------------------------------
+
+Replay game=
+
+;-- Select game
+Select game2=Select game
+Loaded game=
+Sequential=
+Random=
+
+;-- Play with
+Play with=
+Both=
+
+;-- Play...
+Play2=Play...
+Full game=
+Fuseki=
+From current position=
+From current position (only for current game)=
+
+;-- Move number in Fuseki
+Move number in Fuseki=
+
+;-- Number of attempts per move
+Number of attempts per move=
+Only one=
+Unlimited=
+
+;-- SOLVE PROBLEMS DIALOG BOX ------------------------------------------
+
+;-- Statistics
+Statistics=
+Problems in collection=
+Visited problems=
+Number of attempts=
+Number of successes=
+Show detailed statistics=
+Reset collection statistics=
+
+;-- Problem order
+Problem order=
+Sequential from current=
+Sequential from stored=
+Random color=
+Random position=
+Number of problems=
+
+;-- Failure ratio
+Include problems incorrectly solved=
+don't care=
+ratio=
+
+;-- Solution marks
+Solution marks=
+Main line=
+Autodetect=
+
+;-- More popup menu
+Show=
+Timer=
+Glyphs=
+
+;-- EXTRACT / MERGE DIALOG BOXES ---------------------------------------
+
+Select root for file names:=
+Export starting from:=
+Merge... Select files=
+
+;-- SAVE FOLDER DIALOG -------------------------------------------------
+
+Save folder=
+Files modified in folder=
+Select files to save:=
+Select all=
+Unselect all=
+Ignore=
+
+;-- MAKE GAME TREE DIALOG ------------------------------------------
+
+Depth=
+Unique moves=
+Normalize position of first move=
+Game reference=
+Filename=
+Games to process=
+Process current tab=
+Select files or folders to process=
+Start=
+
+;-- Messages
+Only main branch is processed=
+Move inversions are not detected=
+Unable to process file=
+Unable to process file completely=
+Game ignored (some not alternative moves):=
+Game ignored (board size not handled):=
+Game tree ready.=
+Elapsed time (seconds)=
+Number of games=
+percentage and number of games in variation=
+winning percentage of move=
+number of unknown results=
+
+;-- ABOUT DIALOG BOX ---------------------------------------------------
+
+is freeware=
+Version=
+Kombilo and libkombilo by Ulrich Goertz:=
+Credits=
+
+;-- OPEN/READ DIALOGS --------------------------------------------------
+
+;-- Filters
+All files=
+BMP files=
+DOC files=
+HTML files=
+JPEG files=
+RTF files=
+SGF files=
+GIF files=
+PNG files=
+MGT files=
+ASCII files=
+PDF files=
+Database files=
+Text files=
+
+;-- Export captions
+Export games with HTML format=
+Export games with RTF format=
+Export games to HTML format=
+Export games to RTF format=
+Export games to PDF format=
+Export games to MSWORD format=
+
+;-- Select texture dialog
+Select texture=
+(empty)=
+Image:=
+;Preview2=Prévisualiser
+
+;-- PANELS -------------------------------------------------------------
+
+;-- Player panel
+Last move=
+Black prisoners=
+White prisoners=
+
+;-- Game information
+Game information2=Game information
+
+;-- Variation list panel
+Next moves=
+Alternate moves=
+
+;-- Replay panel
+Game2=Game
+You=
+
+;-- Problem panels
+Reference=
+Problem=
+Attempt=
+Attempts=
+Trial=
+Trials=
+Problem status=
+Attempt status=
+Running=
+Success=
+Failure=
+Assisted=
+Free=
+
+;-- Problem result box
+End of problem session.=
+Session result: %d / %d=
+Collection score after session: %s=
+More problems?=
+
+;-- Game result string
+Black wins=
+White wins=
+%s wins by %s points=
+Draw=
+No result=
+Unknown result=
+by forfeit=
+by resignation=
+on time=
+
+;-- MESSAGES -----------------------------------------------------------
+
+;-- Warnings
+Don't show this message again=
+Toggling to full screen mode.=
+Restore window mode with %s=
+
+;-- Tab errors
+Unable to create tab=
+
+;-- Edit messages
+No move to add variation.=
+Move impossible to cancel=
+Delete whole branch.=
+File modification.=
+Beware game modification will not be updated in database.=
+Do you want to proceed?=
+
+;-- File errors
+File not open=
+Bracket not found=
+Error opening file=
+Error opening folder=
+Line=
+File partialy read=
+File %s is read only.=
+File %s not saved.=
+Folder %s not saved.=
+First game not found=
+Illegal character=
+Impossible to save %s.=
+Impossible to save.=
+Impossible to write file=
+Semicolon not found after parenthesis=
+Invalid property name=
+Memory error=
+Read only file=
+The loaded game is not Go : GM property=
+Invalid board size=
+Size will be set to 19.=
+Unexpected end of file=
+
+;-- File warnings
+Reload and lose modifications?=
+Save changes in %s?=
+
+;-- Replay messages
+Game with no name. Save to proceed.=
+File not saved. Save to proceed.=
+The file doesn't seem to be a game file.=The file doesn't seem to be a game collection.
+The file doesn't seem to be a problem file.=The file doesn't seem to be a problem collection.
+The file is not a problem collection.=A problem colection is not loaded.
+A problem collection must be loaded to start a problem session.=
+Continue=
+End of fuseki=
+End of game=
+Score=
+
+;-- Move errors
+Illegal move=
+Illegal ko capture=
+Illegal suicide...=
+Impossible to play there=
+
+;-- Game engine messages
+Abnormal termination of game engine=
+Do you really want to resign?=
+Game aborted=
+Error=
+Black has passed=
+White has passed=
+Black resigns=
+White resigns=
+Black loses on time=
+White loses on time=
+Pass2=Pass
+pass3=pass
+Territory=
+Prisoners=
+Total=
+Please select board view before starting game.=
+Current engine is unable to start...=
+Engine configuration file missing. Please check installation.=
+alive=
+dead=
+critical=
+
+;-- Export
+Problem while copying in clipboard=
+Problem while saving image=
+Unable to export...=
+Close Word and restart export.=Please, close Word and restart export.
+Please, close previous preview to proceed.=
+File is in use, close to proceed.=
+
+;-- Preview
+Sorting is not enabled over %d records.=
+See Options | Preview to change this setting.=
+
+;-- KEYBOARD -----------------------------------------------------------
+
+BkSp=
+Tab=
+Esc=
+Enter=
+Space=
+PgUp=
+PgDn=
+End=
+Home=
+Left=
+Up=
+Right=
+Down=
+Ins=
+Del=
+Shift+=
+Ctrl+=
+Alt+=
+
+;-- DATABASE DIALOGS ---------------------------------------------------
+
+;-- Create/add dialog
+Select files or folders=
+Clear all=
+Include subfolders=
+Start2=Start
+Abort=
+Save database as=
+Please give database name=
+%s already exists.=
+Do you want to overwrite it?=
+Database open, please close first=
+Unable to create database=
+
+;-- Search dialog
+Pattern=
+;Game information=
+Signature=
+Reset=
+No database loaded=
+No database loaded... Load or create.=
+Select database=
+Search=
+Search in results=
+Whole database=
+Current results=
+View results in tab=
+View results on board=
+View results in game information list=
+View results in board thumbnails=
+
+;-- Pattern search
+Pattern (right-click to select)=
+Wildcard=
+Capture=
+Clear2=Clear
+View:=
+Results=
+Frequency=
+Urgency=
+Efficiency=
+Fixed:=
+Position=
+Next move:=
+%d matches=
+%d matches (%d/%d), B: %1.1f%%, W: %1.1f%%=
+B|B/T|B+/B|B-/B|W|W/T|B+/W|B-/W=
+Right-click to select on board=
+Found games are in database tab=
+
+;-- Information search
+Game information search=
+Search on players=
+Any=
+One of both=
+Winner=
+Loser=
+Search on date=
+Day=
+Month=
+Year=
+Range=
+To=
+Search on result=
+wins=
+wins by=
+wins by at least=
+wins by at most=
+wins by resignation=
+wins on time=
+wins by forfeit=
+Other or unknown=
+More conditions=More
+SQL=
+
+;-- Signature search
+Signature search=
+
+;-- Settings
+Search settings=
+Select or open database=
+Pattern search parameters=
+Fixed color=
+Fixed position=
+Pattern search next move=
+Any or none=
+Pattern search view=
+Full=
+Digest=
+
+;-- Messages
+Error opening database=
+No search for center empty patterns.=
+No search for center single stone patterns.=
+No search rectangle defined.=
+Operation aborted by user=
+%d file(s) to process=
+%d games processed, %s elapsed=
+%d file(s) processed, %s elapsed=
+Unable to process game=
+Unable to process game completely=
+Boardsize not handled=
+SGF error detected, game inserted=
+SGF error detected, game not inserted=
+Duplicate detected=
+Duplicate ignored=
+;%d result(s)=%d résultat(s)
+No game found in %s=
+1 game found in %s=
+%d games found in %s=
+Save logfile=
+%d ms.=
+%2.2f seconds=
+Unable to modify game in database.=
+Extract to a new tab and try again?=
+
+;-- ADVANCED OPTIONS ---------------------------------------------------
+
+Advanced=
+Restore default=
+Select=
+Select all2=Select all
+Restore=
+
+; The following strings may be ignored...
+
+; Board
+Click sequence in stone setup mode=
+Set, remove=
+Set, swap color, remove=
+Enable moves as books=
+Start variation from 1=
+Start variation with figure=
+Start variation settings include main line=
+Bold text=
+Maximum font size=
+Texture tiling with symmetries=
+
+; User interface
+User interface=
+Allow only one instance=
+Minimize to tray=
+Hook content of window when resizing=
+Anchor panels at bottom=
+Show tab close buttons=
+
+; Files
+Save paths relatively to install folder=
+Abort reading on file error=
+Open save dialogs with places bar=Open/Save dialogs with places bar
+
+; Games against engines
+Games against engines=
+Ask for saving when closing game=
+Use again previous game engine tab=
+Enable Undo=
+Only after capture=
+Game engine options are inhibited during game=
+
+
+; Warning
+Warnings=
+Warn when toggling to full screen=
+Warn at first modification=
+Warn at modification in database game=
+Warn at modification in read only mode=
+Warn when delete branch=
+Warn on invalid move=
+Warn on game engine pass=
+Warn on game engine resignation=
+Warn when losing on time=
+
+; PDF
+Use board color=
+Exact width (mm)=
+Added border (N;W;S;E in % of image width)=
+Radius adjustment=
+Circle width=
+Line width=
+Double line width=
+Hoshi stone ratio=
+Marks adjustment (line width;size factor)=
+Font size adjustment (f or f;f or f;f;f see help)=
+Line height adjustment=
+
+;---
