@@ -10,7 +10,6 @@ interface
 
 uses
   Classes,
-  Dialogs, //DEBUG
   Define, DefineUi, Properties, UContext, UGoban, UStatus, UInstStatus,
   UGameColl, UGameTree, UKombilo, UGtp;
 
@@ -1029,18 +1028,13 @@ end;
 procedure TView.DoMakeMainBranch;
 var
   gtCurrent : TGameTree;
-  n1,n2 : integer; //DEBUG
 begin
   if gt.IsOnMainBranch
     then exit;
-
+    
   gtCurrent := gt;
-  n1 := gt.Root.NumberOfNodes;
   cl[si.IndexTree] := gt.MakeMainBranch;
   gt := cl[si.IndexTree];
-  n2 := gt.Root.NumberOfNodes;
-  if n1 <> n2
-    then ShowMessage('aie');
   si.FileSave := False;
   StartEvent;
   while gt <> gtCurrent do
