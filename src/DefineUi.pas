@@ -13,9 +13,9 @@ const
 // Identification of application
 
   AppName    = 'Drago';
-  AppVersion = '4.22.03';
+  AppVersion = '4.23';
   kEMail     = 'gilles_arcas@hotmail.com';
-  kCopyright = 'Copyright ' + chr(169) + ' 2004-2016';
+  kCopyright = 'Copyright ' + chr(169) + ' 2004-2017';
 
 // Maximum number of move
 
