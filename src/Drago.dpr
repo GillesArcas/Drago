@@ -153,7 +153,6 @@ uses
   UfmSelectFiles in 'UfmSelectFiles.pas' {fmSelectFiles},
   UFactorization in 'UFactorization.pas',
   UDragoIniFiles in 'UDragoIniFiles.pas',
-  CoolTrayIcon in '..\3rd\CoolTrayIcon\CoolTrayIcon.pas',
   UfmCustomStones in 'UfmCustomStones.pas' {fmCustomStones},
   BoardUtils in 'BoardUtils.pas',
   UfrDBSettingsPanel in 'UfrDBSettingsPanel.pas' {frDBSettingsPanel: TFrame},
@@ -165,7 +164,17 @@ uses
   UImageExporterBMP in 'UImageExporterBMP.pas',
   UImageExporterPDF in 'UImageExporterPDF.pas',
   UImageExporterWMF in 'UImageExporterWMF.pas',
-  UImageExporterTXT in 'UImageExporterTXT.pas';
+  UImageExporterTXT in 'UImageExporterTXT.pas',
+  CoolTrayIcon in '..\3rd\CoolTrayIcon\CoolTrayIcon.pas',
+  SimpleTimer in '..\3rd\CoolTrayIcon\SimpleTimer.pas',
+  hpdf in '..\3rd\HaruPDF\hpdf.pas',
+  hpdf_consts in '..\3rd\HaruPDF\hpdf_consts.pas',
+  hpdf_types in '..\3rd\HaruPDF\hpdf_types.pas',
+  GIFImage in '..\3rd\GifImage\GIFImage.pas',
+  pngextra in '..\3rd\PngImage\pngextra.pas',
+  pngimage in '..\3rd\PngImage\pngimage.pas',
+  pnglang in '..\3rd\PngImage\pnglang.pas',
+  zlibpas in '..\3rd\PngImage\zlibpas.pas';
 
 {$R *.RES}
 
