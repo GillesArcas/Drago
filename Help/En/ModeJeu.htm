@@ -1,0 +1,286 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - The Play mode</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body link="#0000FF" vlink="#800080">
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Games against game engines</h1>
+
+<hr>
+
+<p><strong>Drago</strong> can be interfaced with the game engines
+implementing the Go Text Protocol (GTP) version 2, GNU Go for
+instance. The Play mode proposes several options and remembers
+the result and handicap of the last game to set the handicap for
+a new game.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="#DefinitionAndParameters">Definition and
+        settings of Game engines</a></li>
+    <li><a href="#Lancement">Starting a new game</a></li>
+    <li><a href="#Deroulement">Playing a game</a></li>
+    <li><a href="#Analysis functions">Analysis functions</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="DefinitionAndParameters">Definition and settings of
+game engines</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The definition and the settings of the game engines is done in
+the <a href="Options.htm#GameEngine">Game engines tab</a> of
+option window.</p>
+
+<hr>
+
+<h2><a name="Lancement">Starting a new game</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>A new game is started with the <em>Play/New</em> menu or with
+the <img src="YingYang.gif" align="absmiddle" width="23"
+height="21"> button. A dialog appears, allowing you to select:</p>
+
+<ul>
+    <li>the game engine and possibly its level,</li>
+    <li>the initial position and the color played by the game
+        engine,</li>
+    <li>the board size, handicap and komi.,</li>
+    <li>the time settings,</li>
+    <li>the rules used for scoring.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Selection of game engine and level</h3>
+
+<p><img src="Engine-Select.gif" width="256" height="132"></p>
+
+<p>The game engine may be chosen in the list of engine games
+defined and installed by user. If the list is empty, a message is
+displayed proposing to the user to open the game engine tab in
+option window.</p>
+
+<p>The level can be selected from 1 to 10. This parameter may be
+set only for Gnu Go.</p>
+
+<p><img src="Engine-Level.gif" width="260" height="86"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Starting position and color selection</h3>
+
+<p><img src="Engine-Position.gif" width="259" height="145"></p>
+
+<p>The starting position can be:</p>
+
+<ul>
+    <li>a new game. In this case it is possible to select the
+        color played by the game engine, the board size, the
+        handicap and the komi.</li>
+    <li>the current position. In this case it is only possible to
+        select the color played by the game engine.</li>
+    <li>a new game in auto handicap mode. In this case you can
+        only select the board size. All other parameters (color,
+        handicap and komi) are set by the interface according to
+        the result of the last game, to minimize the difference
+        of strength between the user and the engine. In this
+        mode, the komi is always 0.5 for handicap games and 5.5
+        when there is no handicap.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Board size, handicap and komi selection</h3>
+
+<p><img src="Engine-Param.gif" width="257" height="94"></p>
+
+<p>The possibility to configure theses values depends on the
+initial position mode. When the selection is possible:</p>
+
+<p>- The size can be configured between 5 and 19.</p>
+
+<p>- The values 0, 0.5, 5.5, 6.5, 7.5 or 8 are proposed for the
+komi, although any other value can be entered. For handicap
+games, the komi is given by the <a href="#Score">scoring mode</a>.</p>
+
+<p>- The handicap can be selected between 0 and 9 with the
+following limitations:</p>
+
+<ul>
+    <li>there is no handicap for board sizes smaller than 7,</li>
+    <li>maximum handicap is 4 for board size 7 and all even board
+        sizes,</li>
+    <li>maximum handicap is 9 for all other cases.</li>
+</ul>
+
+<p>- The placement of the handicap stones is free when the
+related box is checked. When the user has to set the handicap
+stones, a dialog is opened showing the remaining stones to set:</p>
+
+<p><img src="FreeHandicap.gif" width="179" height="192"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Selection of time limits</h3>
+
+<p><img src="Engine-Timing.gif" width="238" height="252"></p>
+
+<p>Several time limit modes are available (depending on the game
+engine):</p>
+
+<ul>
+    <li>no time limits,</li>
+    <li>given time for full game,</li>
+    <li>given time for each move,</li>
+    <li>Canadian byo-yomi: an initial time without move
+        limitation, followed by an unlimited number of time
+        periods with limited move number.</li>
+</ul>
+
+<p>The additional check box enables to apply the time limits only
+to the engine and let the user play without any limitation.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Scoring selection">Scoring selection</a></h3>
+
+<p><img src="Engine-Score.gif" width="244" height="96"></p>
+
+<p>Two scoring modes are available depending on the game engine:</p>
+
+<ul>
+    <li>territory counting (used in Japanese rules). Free
+        territory intersections plus prisoners are counted.</li>
+    <li>area counting (used in Chinese rules). Free territory
+        intersections plus living stones are counted. A N stone
+        handicap is taken into account by giving a N+0.5 komi to
+        White.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Other options</h3>
+
+<p>More options relative to undo, starting tab and saving after a
+game are available in <a
+href="AdvancedOptions.htm#GamesAgainstEngines">advanced settings</a>.</p>
+
+<hr>
+
+<h2><a name="Deroulement">Playing a game</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Available commands</h3>
+
+<p>While a game is being played, the following commands are
+available:</p>
+
+<ul>
+    <li>play a move, then the game engine plays the next move</li>
+    <li>go backward one move</li>
+    <li>go backward to the start of the game</li>
+    <li>go forward one move</li>
+    <li>return to the last move played</li>
+    <li>play a pass move, with the <em>Play/Pass</em> menu</li>
+    <li>resign, with the <em>Play/Resign</em> menu</li>
+    <li>undo the last move if undo is enabled</li>
+</ul>
+
+<p>During a game, as well as during other modes, some <a
+href="#Analysis functions">game analysis commands</a> are
+available if the game engine set for these functions makes them
+available.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Resignation</h3>
+
+<p><strong>Drago</strong> handles resignation from the player as
+well as from the game engine, especially from GNU Go which can
+resign on 19x19 games since version 3.6.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Score">Score</a></h3>
+
+<p>The game is ended with two consecutive pass moves. When the
+game is finished, <strong>Drago</strong> displays detailed
+results at the right of the main window:</p>
+
+<p><img src="Result.gif" width="177" height="194"></p>
+
+<p><strong>Drago</strong> uses Japanese counting (territory +
+prisoners) or Chinese counting (territory + stones). The <a
+href="#Scoring selection">selection of the scoring mode</a>
+depends on the engine and is done when starting the game. </p>
+
+<p>For games without handicap, the komi can be set freely before
+starting the game. For no komi games (&quot;one stone
+handicap&quot;), the komi is always set as 0.5. For handicap
+games (H &gt; 1), the komi is set as follow:</p>
+
+<ul>
+    <li>with Japanese counting, the komi is 0.5 whatever the
+        handicap,</li>
+    <li>with Chinese counting, the komi is H+0.5 if handicap is H
+        stones.</li>
+</ul>
+
+<p>Currently, there is no way to dispute the score if there is a
+problem with the result.</p>
+
+<hr>
+
+<h2><a name="Analysis functions">Analysis functions</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>During a game, as well as during other modes, some game
+analysis commands are available if the game engine set for these
+functions makes them available. These commands enable to:</p>
+
+<ul>
+    <li>ask for a score estimate, displayed in the status bar,
+        with the <em>Play/Score</em> menu,</li>
+    <li>ask for a suggestion for the next move, displayed in the
+        status bar and on the board, with the <em>Play/Suggest</em>
+        menu,</li>
+    <li>show influence regions on board, with the <em>Play/Show
+        influence regions</em> menu,</li>
+    <li>show group status, with the <em>Play/Group status</em>
+        menu.</li>
+</ul>
+
+<p>Note that:</p>
+
+<ul>
+    <li>These functions are currently available only for Gnu Go,</li>
+    <li>The relevance of the results given by these commands are
+        of course related to the rank of the engine game.</li>
+</ul>
+
+<hr>
+
+<p><strong>Note</strong></p>
+
+<p>Some commands are available only if the engine game supports
+them. If this is not the case, the associated options are greyed.</p>
+
+<hr>
+</body>
+</html>

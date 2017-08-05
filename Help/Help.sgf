@@ -1,0 +1,10 @@
+(;GM[1]FF[4]AP[Drago:1.32 dev]SZ[19];B[dd]BL[3567];W[fc]N[Nom de noeud]C[Commentaire]WL[3534]
+(;B[df]N[Nom du prochain coup])
+(;B[ec]N[Nom de la 1ère variation])
+(;B[fd]N[Nom de la 2ème variation]))
+(;GM[1]FF[4]AP[Drago:1.32 dev]SZ[19];BL[3567]B[dd];W[fc]N[Node name of current move]C[Comment on current move]WL[3534]
+(;B[df]N[Node name of next move])
+(;B[ec]N[Node name of 1st var])
+(;B[fd]N[Node name of 2rd var]))
+(;GM[1]FF[4]AP[Drago:1.32 dev]SZ[19]HA[2];W[gg]
+AB[bg][cg][dg][eg]AW[fg][hg][ig][jg]MA[bg][kg]TR[cg][lg]CR[dg][mg]SQ[eg][ng]L[fg][og]TB[ig][qg]TW[jg][rg]LB[gg:1][pg:xyz][hg:abc])

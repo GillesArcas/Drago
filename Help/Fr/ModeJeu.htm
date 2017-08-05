@@ -1,0 +1,299 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Le mode Jeu</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago - Le
+mode Jeu</h1>
+
+<hr>
+
+<p><strong>Drago</strong> permet de s'interfacer avec les moteurs
+de jeu utilisant le protocole de communication GTP (Go Text
+Protocol) version 2. Le mode Jeu dispose de plusieurs modalités
+et permet par exemple de mémoriser le résultat de la dernière
+partie jouée pour fixer le handicap en conséquence.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="#DefinitionAndParameters">Définition et paramétrage
+        du moteur de jeu</a></li>
+    <li><a href="#Lancement">Lancement d'une partie</a></li>
+    <li><a href="#Deroulement">Déroulement d'une partie</a></li>
+    <li><a href="#GameAnalysis">Fonctions d'analyse</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="DefinitionAndParameters">Définition et paramétrage
+des moteurs de jeu</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La définition et le paramétrage des moteurs de jeu se fait
+dans l'onglet <a href="Options.htm#Moteur"><em>Moteurs de jeu</em></a>
+de la fenêtre d'options.</p>
+
+<hr>
+
+<h2><a name="Lancement">Lancement d'une partie</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Le lancement d'une nouvelle partie se fait au menu <em>Jouer/Nouveau..</em>.
+ou par le bouton <img src="YingYang.gif" align="absmiddle"
+width="23" height="21">. La fenêtre affichée permet de
+sélectionner :</p>
+
+<ul>
+    <li>le moteur de jeu et son niveau éventuel,</li>
+    <li>le choix de la position initiale et la couleur jouée par
+        le moteur de jeu, </li>
+    <li>la taille du goban, le handicap et le komi,</li>
+    <li>les limites de temps,</li>
+    <li>le mode de décompte des points.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Sélection du moteur de jeu et de son niveau</h3>
+
+<p><img src="Engine-Select.gif" width="262" height="135"></p>
+
+<p>Le moteur de jeu peut être choisi dans la liste des moteurs
+définis et installés par l'utilisateur. Si cette liste est
+vide, un message est affiché proposant à l'utilisateur d'ouvrir
+la fenêtre de définition des moteurs de jeu.</p>
+
+<p>Le niveau peut être choisi entre 1 et 10. Ce paramètre n'est
+actuellement disponible que pour Gnu Go. </p>
+
+<p><img src="Engine-Level.gif" width="259" height="89"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Choix de la position initiale et de la couleur jouée par le
+moteur</h3>
+
+<p><img src="Engine-Position.gif" width="259" height="143"></p>
+
+<p>La position initiale peut être :</p>
+
+<ul>
+    <li>une nouvelle partie pour laquelle on peut sélectionner
+        la couleur jouée par le moteur de jeu, la taille du
+        goban, le handicap et le komi,</li>
+    <li>la position courante sur le goban. On ne peut alors
+        sélectionner que la couleur jouée par le moteur de jeu.</li>
+    <li>une nouvelle partie en mode auto handicap. On ne peut
+        alors sélectionner que la taille du goban. Les autres
+        paramètres (couleur jouée par le moteur, handicap et
+        komi) sont automatiquement déduits du résultat de la
+        dernière partie jouée avec le moteur, le niveau et la
+        taille sélectionnés. Selon que celle-ci a été gagnée
+        ou perdue, le handicap et la couleur sont choisis pour
+        minimiser l'écart de niveau. Dans ce mode, le komi est
+        toujours 0.5 pour les parties à handicap, de 5.5 pour
+        les parties à égalité.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Sélection taille, handicap et komi</h3>
+
+<p><img src="Engine-GameParam.gif" width="257" height="94"></p>
+
+<p>La possibilité de sélectionner ces valeurs dépend du mode
+de position initiale choisi. Quand la sélection est possible :</p>
+
+<p>- La taille peut être sélectionnée avec une valeur entre 5
+et 19.</p>
+
+<p>- Les valeurs proposées pour le komi sont 0, 0.5, 5.5, 6.5,
+7.5 ou 8, bien que toute autre valeur puisse également être
+saisie. Pour une partie à handicap, le komi dépend du <a
+href="#Score">mode de décompte</a> sélectionné pour le moteur
+de jeu.</p>
+
+<p>- Le handicap peut être sélectionné entre 0 et 9 avec les
+précisions suivantes :</p>
+
+<ul>
+    <li>il n'y a pas de handicap possible pour les tailles
+        inférieures à 7,</li>
+    <li>le handicap maximum est 4 pour les gobans de taille 7 et
+        pour toutes les tailles paires,</li>
+    <li>le handicap maximum est 9 dans les autres cas.</li>
+</ul>
+
+<p>- Le placement des pierres de handicap est libre si la case
+correspondante est cochée. Quand c'est à l'utilisateur de
+placer les pierres de handicap, une fenêtre est ouverte montrant
+les pierres qui restent à poser.</p>
+
+<p><img src="FreeHa.gif" width="177" height="183"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Sélection des limites de temps</h3>
+
+<p><img src="Engine-Timing.gif" width="238" height="254"></p>
+
+<p>Plusieurs options de timing sont possibles (et disponibles en
+fonction du moteur de jeu) :</p>
+
+<ul>
+    <li>aucune limitation en temps,</li>
+    <li>le temps total pour toute la partie,</li>
+    <li>le temps alloué à chaque coup,</li>
+    <li>le byo yomi canadien: un temps initial sans limitation du
+        nombre de coups, puis un nombre indéterminé de
+        périodes pour lesquelles le nombre de coups est limité.</li>
+</ul>
+
+<p>La case à cocher additionnelle pemet d'imposer les
+contraintes de temps seulement au moteur de de jeu.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="SelectScore">Sélection du mode de décompte</a></h3>
+
+<p><img src="Engine-Score.gif" width="245" height="94"></p>
+
+<p>Deux modes de décompte sont possibles (et disponibles en
+fonction du moteur de jeu) :</p>
+
+<ul>
+    <li>décompte en règle japonaise (on compte les territoires
+        et les prisonniers)</li>
+    <li>décompte en règle japonaise (on compte les territoires
+        et les pierres posées)</li>
+</ul>
+
+<p>En règle chinoise, un handicap de N pierres est pris en
+compte en utilisant un komi de N+0.5 points.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Autres options</h3>
+
+<p>Des options supplémentaires, relatives à la possibilité de
+reprendre un coup, à l'onglet de démarrage et au contôle de la
+sauvegarde après une partie, sont disponibles dans les <a
+href="AdvancedOptions.htm#GameEngines">options avancées</a>.</p>
+
+<hr>
+
+<h2><a name="Deroulement">Déroulement d'une partie</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Actions disponibles</h3>
+
+<p>Pendant qu'une partie est jouée, les actions suivantes sont
+disponibles :</p>
+
+<ul>
+    <li>jouer un coup, le moteur joue ensuite le coup suivant </li>
+    <li>revenir au coup précédent</li>
+    <li>revenir en début de partie</li>
+    <li>revenir au coup suivant</li>
+    <li>revenir au dernier coup joué</li>
+    <li>passer, au menu <em>Jouer/Passer</em></li>
+    <li>abandonner, au menu <em>Jouer/Abandon</em></li>
+    <li>annuler le dernier coup joué par l'utilisateur, si la
+        reprise d'un coup est permise</li>
+</ul>
+
+<p>Pendant une partie, comme dans les autres modes, les <a
+href="#GameAnalysis">commandes d'analyse</a> sont disponibles si
+le moteur de jeu paramétré pour ces fonctions les proposent.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Abandon</h3>
+
+<p><strong>Drago</strong> gère l'abandon aussi bien de la part
+du joueur que du moteur de jeu, en particulier GNU Go qui sait
+abandonner en 19x19 depuis la version 3.6.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Score">Score</a></h3>
+
+<p>La partie se termine sur deux passes consécutifs. Quand la
+partie est terminée, <b>Drago</b> affiche le résultat
+détaillé dans la barre latérale :</p>
+
+<p><img src="Result.gif" width="174" height="193"></p>
+
+<p><strong>Drago</strong> utilise la règle japonaise (territoire
++ prisonniers) ou la règle chinoise (territoire + pierres). La <a
+href="#SelectScore">sélection du mode de décompte</a> dépend
+du moteur de jeu et se fait au lancement de la partie.</p>
+
+<p>Pour les parties sans handicap, le komi peut être choisi
+librement. Pour les parties sans komi (&quot;1 pierre&quot; ou
+&quot;à sen&quot;), le komi est toujours de 0.5 points. Pour les
+parties à handicap (H &gt; 1), le komi est calculé comme suit :</p>
+
+<ul>
+    <li>en règle japonaise, le komi vaut 0.5 quelque soit le
+        handicap,</li>
+    <li>en règle chinoise, le komi vaut H+0.5 .</li>
+</ul>
+
+<p>Il n'y pas de possibilité de discuter le score en cas de
+désaccord. </p>
+
+<hr>
+
+<h2><a name="GameAnalysis">Fonctions d'analyse</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Pendant une partie, comme dans les autres modes, les commandes
+d'analyse sont disponibles si le moteur de jeu paramétré pour
+ces fonctions les proposent. Ces fonction permettent de :</p>
+
+<ul>
+    <li>demander une estimation du score, au menu <em>Jouer/Score,</em>
+        qui affiche le score dans la barre d'état,</li>
+    <li>demander une suggestion pour le coup suivant, affichée
+        dans la barre d'état et sur le goban, au menu <em>Jouer/Suggérer</em>,</li>
+    <li>montrer les zones d'influence, au menu <em>Jouer/Montrer
+        les zones d'influence</em>,</li>
+    <li>montrer le statut des groupes, au menu <em>Jouer/Statut
+        des groupes</em>.</li>
+</ul>
+
+<p>Notez que :</p>
+
+<ul>
+    <li>Ces fonctions ne sont actuellement disponibles que pour
+        Gnu Go,</li>
+    <li>la pertinence des résultats est évidemment fonction du
+        niveau du moteur de jeu.</li>
+</ul>
+
+<hr>
+
+<h5>Note</h5>
+
+<p>Certaines commandes ne sont disponibles que si les moteurs
+sélectionnés pour le jeu et l'analyse les supportent. Dans le
+cas contraire, ces commandes sont grisées.</p>
+
+<hr>
+</body>
+</html>

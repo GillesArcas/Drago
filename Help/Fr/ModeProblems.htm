@@ -1,0 +1,380 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Le mode Problème</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago - Le
+mode Problème</h1>
+
+<hr>
+
+<p>Le mode Problème permet de résoudre des problèmes stockés
+au format SGF, <b>Drago</b> étant conçu pour traiter des
+fichiers contenant plusieurs problèmes. L'application garde la
+trace des problèmes essayés et du nombre de succès pour
+chacun.</p>
+
+<p>Il faut noter que l'ensemble des solutions n'est pas toujours
+stocké dans une base de problèmes, et qu'une bonne solution
+peut être sanctionnée comme un échec. Soyez indulgent dans ce
+cas, l'intérêt n'est pas le score obtenu mais la pratique et la
+mémorisation d'un grand nombre de problèmes.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="#Lancement">Lancement d'une session</a></li>
+    <li><a href="#Deroulement">Déroulement d'une session</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Lancement">Lancement d'une session</a></h2>
+
+<p>Le paramétrage du mode Problème se fait au lancement d'une
+session (menu <i>Résoudre/Résoudre des problèmes</i>) et porte
+sur :</p>
+
+<ul>
+    <li>le mode de sélection des problèmes, </li>
+    <li>l'orientation ou la couleur aléatoire, </li>
+    <li>la proportion de problèmes non résolus,</li>
+    <li>les conventions de codage des coups corrects et
+        incorrects. </li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Sélection des problèmes</h3>
+
+<p>La sélection des problèmes peut se faire :</p>
+
+<ul>
+    <li>par un index </li>
+    <li>aléatoirement : un ensemble de problèmes est choisi
+        aléatoirement dans le fichier en cours. </li>
+    <li>séquentiellement : la séquence de problèmes à partir
+        du problème en cours, ou du dernier problème fait en
+        mode séquentiel, est proposée. </li>
+</ul>
+
+<p><img src="Problem-Order.gif" width="172" height="104"></p>
+
+<p>Dans chaque cas, l'entrée en session demande le nombre de
+problèmes à résoudre.</p>
+
+<h4>Index</h4>
+
+<p>Un index est disponible dans le menu <i>Résoudre</i>. La
+validation d'un problème dans cet index charge le problème et
+ouvre la fenêtre de lancement de session en mode Sélection à
+partir du problème courant.</p>
+
+<p><a href="ViewIndex.htm#GameInfoView-Problems">Plus sur les
+index ...</a></p>
+
+<h4>Sélection à partir du problème courant</h4>
+
+<p>La session démarre sur le problème affiché et poursuit en
+séquence. S'il reste moins que le nombre de problèmes demandés
+avant la fin du fichier, on reboucle à partir du début.</p>
+
+<h4>Sélection à partir du problème mémorisé</h4>
+
+<p><b>Drago</b> mémorise le dernier problème traité dans ce
+mode. La session démarre sur le problème suivant et poursuit en
+séquence. S'il reste moins que le nombre de problèmes demandés
+avant la fin du fichier, on reboucle à partir du début.</p>
+
+<h4>Sélection aléatoire</h4>
+
+<p>Une table est conservée d'exécution en exécution conservant
+le nombre de fois que chaque problème a été essayé. La
+sélection des problèmes se fait aléatoirement mais en nivelant
+le nombre de fois que chaque problème a été vu. Les problèmes
+sélectionnés sont présentés dans un ordre aléatoire.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Mode orientation et couleur aléatoire</h3>
+
+<p>Pour éviter l'accoutumance à un diagramme, il est possible
+d'activer au démarrage de la session les modes <em>Orientation
+aléatoire</em> et <em>Couleur aléatoire</em>.</p>
+
+<p><img src="Problem-Random.gif" width="170" height="100"></p>
+
+<h4>Mode Orientation aléatoire</h4>
+
+<p>Ce mode visualise chaque problème sur une des 8 orientations
+possibles sur le goban choisie aléatoirement.</p>
+
+<h4>Mode Couleur aléatoire</h4>
+
+<p>Ce mode visualise aléatoirement chaque problème avec les
+couleurs Noir et Blanc du fichier SGF, ou avec les couleurs
+inversées.</p>
+
+<h4>Note</h4>
+
+<p>Si les problèmes sont accompagnés de commentaires faisant
+mention de la position du diagramme (&quot;Tuer le coin
+Nord-Ouest&quot;) ou à la couleur des pierres (&quot;Noir
+joue&quot;), ces modes sont peu appropriés.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Proportion de problèmes non résolus</h3>
+
+<p>Afin de favoriser l'apprentissage des problèmes les moins
+faciles, il est possible de spécifier la proportion de
+problèmes non résolus. Dans ce mode, la session comprend la
+proportion spécifiée de problèmes qui ont nécessité une aide
+(indice ou retour en arrière) pour être résolu. On favorise
+les problèmes dont le taux de succès est le plus faible.</p>
+
+<p><img src="Problem-Ratio.gif" width="345" height="60"></p>
+
+<p>La proportion demandée est un objectif dans le mesure où la
+base peut par exemple ne comporter que des problèmes qui n'ont
+jamais été résolus.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Conventions de codage des coups corrects et incorrects</h3>
+
+<p>Il existe plusieurs modes pour stocker le statut correct ou
+incorrect des coups d'un problème dans un fichier SGF. <strong>Drago</strong>
+traite les cas suivants :</p>
+
+<p><img src="Problem-Encoding.gif" width="345" height="70"></p>
+
+<ul>
+    <li><em>uliGo</em> : les coups incorrects sont marqués par
+        les propriétés TR[] ou WV[] (Wrong Variation) propre à
+        <a href="http://www.uligo.com/">uliGo</a>. </li>
+    <li><em>Goproblems</em> : les séquences de coups corrects
+        sont terminées par un commentaire contenant le mot
+        RIGHT. C'est la convention utilisée par <a
+        href="http://www.goproblems.com/">goproblems</a>. </li>
+    <li><em>Ligne principale</em> : la ligne principale est la
+        bonne solution. </li>
+    <li><em>Autodetect</em> : <strong>Drago</strong> analyse le
+        problème à résoudre et retrouve la convention
+        utilisée.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Statistiques de résolution</h3>
+
+<p>Le taux de réussite pour chaque problème est mémorisé ce
+qui permet d'afficher le taux de visite et le taux de réussite
+globale sur la base. Les statistiques sur la base peuvent être
+remises à zéro en utilisant le menu associé au bouton <em>Plus...
+</em>:</p>
+
+<p><img src="Problem-Plus.gif" width="207" height="112"></p>
+
+<hr>
+
+<h2><a name="Deroulement">Déroulement d'une session</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Une session propose à tour de rôle les problèmes
+sélectionnés par les paramètres du lancement de session. Pour
+passer au problème suivant, ou abandonner le problème en cours,
+il faut utiliser le bouton <em>Jeu suivant</em> <img
+src="../BtNext2.gif" align="absmiddle" width="23" height="22">.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Actions disponibles</h3>
+
+<p>Pendant la résolution d'un problème, les action suivantes
+sont disponibles :</p>
+
+<ul>
+    <li>jouer un coup : <b>Drago</b> répond par un des coups
+        gagnants de la couleur adverse, s'il en existe, sinon un
+        des coups perdants. </li>
+    <li>revenir au coup précédent, </li>
+    <li>revenir en début de problème, </li>
+    <li>passer au problème suivant, </li>
+    <li>demander un indice, </li>
+    <li>passer en mode libre. </li>
+</ul>
+
+<h4>Indices</h4>
+
+<p>Les indices se demandent par le menu <i>Résoudre/Indice</i>.
+S'il existe des coups menant à une solution à partir de la
+position courante, ceux-ci sont affichés comme des pierres
+semi-transparentes. Dans le cas contraire, le dernier coup joué
+est incorrect et est entouré en rouge.</p>
+
+<h4>Mode libre</h4>
+
+<p>On entre dans le mode libre par le menu <i>Résoudre/Mode
+libre</i>. Il est alors possible de tester n'importe quelle
+séquence de coups. La sortie du mode libre se fait par le menu <i>Résoudre/Mode
+problème</i> qui retourne à la position initiale du mode libre.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Résultats</h3>
+
+<p>Quand la séquence jouée aboutit à un des derniers coups
+stockés ou à un coup inconnu, <b>Drago</b> affiche les
+résultats pour l'essai qui vient de se terminer, et pour le
+problème en cours, qui peut comporter plusieurs essais. En
+fonction de la séquence jouée et des actions effectuées
+pendant l'essai, le problème est comptabilisé correct ou non
+pour la session. </p>
+
+<p>Un problème est comptabilisé correct s'il a été résolu
+sans retour en arrière, ni demande d'indices ou de mode libre.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Aide visuelle</h3>
+
+<p>En fonction de l'état de la résolution du problème en
+cours, <b>Drago</b> affiche un message et un symbole pour la
+résolution du problème et pour l'essai en cours. Notez que les
+glyphes (symboles graphiques) sont affichés en utilisant la
+commande <em>Plus... / Montrer... / Glyphes</em>.</p>
+
+<p align="left"><img src="ProblemStatus.gif" width="200"
+height="41"></p>
+
+<p>Les cas suivants peuvent se présenter :</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="586">
+    <tr>
+        <td colspan="3" width="51%"><p align="center">Résolution
+        du problème</p>
+        </td>
+        <td colspan="3" width="51%"><p align="center">Résolution
+        de l'essai</p>
+        </td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">Message</p>
+        </td>
+        <td width="12%"><p align="center">Symbole</p>
+        </td>
+        <td width="27%"><p align="center">Commentaire</p>
+        </td>
+        <td width="12%"><p align="center">Message</p>
+        </td>
+        <td width="12%"><p align="center">Symbole</p>
+        </td>
+        <td width="27%"><p align="center">Commentaire</p>
+        </td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">En cours</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">Premier essai en cours</td>
+        <td width="12%"><p align="center">En cours</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">Premier essai en cours</td>
+    </tr>
+    <tr>
+        <td rowspan="5" width="12%"><p align="center"><font
+        color="#008000">Succès</font></p>
+        </td>
+        <td rowspan="5" width="12%"><p align="center"><font
+        color="#800000" size="6" face="Wingdings">C</font></p>
+        </td>
+        <td rowspan="5" width="27%">Le problème a été résolu
+        au premier essai</td>
+        <td width="12%"><p align="center">En cours</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">Essai supplémentaire en cours</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#008000">Succès</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">C</font></p>
+        </td>
+        <td width="27%">Succès de l'essai</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#FF0000">Echec</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">D</font></p>
+        </td>
+        <td width="27%">Echec sur un essai supplémentaire</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#0000FF">Aidé</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">G</font></p>
+        </td>
+        <td width="27%">Un essai supplémentaire a réussi avec
+        aide (retour en arrière, indice ou mode libre)</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">Abandon</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">I</font></p>
+        </td>
+        <td width="27%">Abandon sur un essai supplémentaire</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#FF0000">Echec</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">D</font></p>
+        </td>
+        <td width="27%">Le problème n'a pas encore été résolu</td>
+        <td colspan="2" width="24%"><p align="center"><font
+        color="#800000" size="5" face="Wingdings">FDI</font></p>
+        </td>
+        <td width="27%">Comme en cas de succès du problème</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#0000FF">Aidé</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">G</font></p>
+        </td>
+        <td width="27%">Le problème est résolu avec aide (plus
+        d'un essai, retour en arrière, indice ou mode libre)</td>
+        <td colspan="2" width="24%"><p align="center"><font
+        color="#800000" size="5" face="Wingdings">FCDGI</font></p>
+        </td>
+        <td width="27%">Comme en cas de succès du problème</td>
+    </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<hr>
+</body>
+</html>

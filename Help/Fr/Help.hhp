@@ -1,0 +1,114 @@
+[OPTIONS]
+Binary Index=No
+Compatibility=1.1 or later
+Compiled file=Drago-Fr.chm
+Contents file=TableOfContents.hhc
+Default Window=DragoWin
+Default topic=Help.htm
+Display compile progress=No
+Full-text search=Yes
+Language=0x40c Français (France)
+
+[WINDOWS]
+DragoWin="Drago - Aide","TableOfContents.hhc",,"Help.htm",,,,,,0x62520,,0x3006,[128,92,926,623],,,,,,,0
+
+
+[FILES]
+Help.htm
+Interface.htm
+Commandes.htm
+Favoris.htm
+ModeNavigation.htm
+ModeEdition.htm
+Insertion.htm
+ModeParties.htm
+ModeProblems.htm
+ModeJeu.htm
+ViewIndex.htm
+Database.htm
+Options.htm
+Impression.htm
+FormatSGF.htm
+Divers.htm
+ExportPos.htm
+AdvancedOptions.htm
+Factorisation.htm
+
+[ALIAS]
+IDH_ModePb           = ModeProblems.htm
+IDH_ModeGm           = ModeParties.htm
+IDH_ViewIndex        = ViewIndex.htm
+IDH_Options          = Options.htm
+IDH_SGF              = FormatSGF.htm
+IDH_Engine           = ModeJeu.htm
+IDH_Favoris          = Favoris.htm
+IDH_Print            = Impression.htm
+IDH_ExpPos           = ExportPos.htm
+IDH_Database         = Database.htm
+IDH_Factorisation    = Factorisation.htm
+IDH_Database_Create        = Database.htm#Create
+IDH_Database_Update        = Database.htm#Update
+IDH_Database_PatternSearch = Database.htm#PatternSearch
+IDH_Database_InfoSearch    = Database.htm#InfoSearch
+IDH_Database_SigSearch     = Database.htm#SigSearch
+IDH_Options_Board      = Options.htm#Goban
+IDH_Options_Moves      = Options.htm#Mouvements
+IDH_Options_GTree      = Options.htm#Arbre
+IDH_Options_View       = Options.htm#View
+IDH_Options_Preview    = Options.htm#Preview
+IDH_Options_Panels     = Options.htm#Panels
+IDH_Options_Shortcuts  = Options.htm#Shortcuts
+IDH_Options_Toolbars   = Options.htm#Toolbar
+IDH_Options_Sounds     = Options.htm#Sounds
+IDH_Options_Files      = Options.htm#Fichiers
+IDH_Options_Navigation = Options.htm#Navigation
+IDH_Options_Edit       = Options.htm#Edit
+IDH_Options_Database   = Options.htm#Database
+IDH_Options_Engine     = Options.htm#Moteur
+IDH_Options_Language   = Options.htm#Langue
+IDH_Options_Advanced   = AdvancedOptions.htm
+IDH_Print_GamesFig   = Impression.htm#GamesAndFigures
+IDH_Print_Layout     = Impression.htm#Layout
+IDH_Print_Styles     = Impression.htm#Styles
+IDH_Print_Formats    = Impression.htm#ExportingFormats
+
+[MAP]
+#define IDH_ModePb    1000
+#define IDH_ModeGm    2000
+#define IDH_ViewIndex 3000
+#define IDH_Options   4000
+#define IDH_SGF       5000
+#define IDH_Engine    6000
+#define IDH_Favoris   7000
+#define IDH_Print     8000
+#define IDH_ExpPos    9000
+#define IDH_Database  10000
+#define IDH_Factorisation 10005
+#define IDH_Database_Create        10010
+#define IDH_Database_Update        10020
+#define IDH_Database_PatternSearch 10030
+#define IDH_Database_InfoSearch    10040
+#define IDH_Database_SigSearch     10050
+#define IDH_Options_Board      4010
+#define IDH_Options_Moves      4020
+#define IDH_Options_GTree      4030
+#define IDH_Options_View       4040
+#define IDH_Options_Preview    4050
+#define IDH_Options_Panels     4060
+#define IDH_Options_Shortcuts  4070
+#define IDH_Options_Toolbars   4080
+#define IDH_Options_Sounds     4090
+#define IDH_Options_Files      4100
+#define IDH_Options_Navigation 4110
+#define IDH_Options_Edit       4120
+#define IDH_Options_Database   4130
+#define IDH_Options_Engine     4140
+#define IDH_Options_Language   4150
+#define IDH_Options_Advanced   4160
+#define IDH_Print_GamesFig   8010
+#define IDH_Print_Layout     8020
+#define IDH_Print_Styles     8030
+#define IDH_Print_Formats    8040
+
+[INFOTYPES]
+

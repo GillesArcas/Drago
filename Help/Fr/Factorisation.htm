@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Construction d'un arbre de coups</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body link="#0000FF" vlink="#800080">
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Construction de l'arbre des coups d'une collection</h1>
+
+<hr>
+
+<p>L'arbre des coups peut être construit à partir:</p>
+
+<ul>
+    <li>des parties dans l'onglet courant,</li>
+    <li>des parties des fichiers et des répertoires
+        sélectionnés.</li>
+</ul>
+
+<hr>
+
+<h2>Paramètres de construction d'un arbre de coups</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les paramètres disponibles sont :</p>
+
+<ul>
+    <li>le nombre minimum de coups dans chaque branche,</li>
+    <li>le nombre de coups uniques, i.e. le nombre de coups dans
+        une branche qui n'appartiennent qu'à une seule partie,</li>
+    <li>la normalisation du premier coup en position standard.</li>
+</ul>
+
+<p>Le premier coup unique dans une branche peut contenir une
+référence vers la partie d'origine. Cette référence si elle
+est présente peut être </p>
+
+<ul>
+    <li>le nom du fichier d'origine,</li>
+    <li>la <a href="Database.htm#SigSearch">signature</a>.</li>
+</ul>
+
+<hr>
+
+<h2>Notes</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Cette fonction a les limitations suivantes :</p>
+
+<ul>
+    <li>elle ne considère que la branche principale des parties
+        à traiter,</li>
+    <li>les inversions de coups ne sont pas détectées. Une
+        même position obtenue par deux chemins différents
+        résulte en deux noeuds différents de l'arbre.</li>
+</ul>
+
+<hr>
+</body>
+</html>

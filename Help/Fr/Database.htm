@@ -1,0 +1,737 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Bases de données</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body link="#0000FF" vlink="#800080">
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Bases de données</h1>
+
+<hr>
+
+<ol>
+    <li><a href="#Create">Création d'une base de données</a></li>
+    <li><a href="#Update">Mise à jour d'une base de données</a></li>
+    <li><a href="#Open">Ouverture d'une base de données</a></li>
+    <li><a href="#SearchDialog">Recherche</a></li>
+    <li><a href="#PatternSearch">Recherche par position</a></li>
+    <li><a href="#InfoSearch">Recherche par information</a></li>
+    <li><a href="#SigSearch">Recherche par signature</a></li>
+</ol>
+
+<hr>
+
+<h2>Crédit</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><strong>Drago</strong> utilise la librairie <a
+href="http://trac.u-go.net/kombilo/wiki/libkombilo">libkombilo</a>
+de Ulrich Goertz. Cette librairie permet d'exploiter toutes les
+fonctionnalités de <a href="http://www.u-go.net/kombilo/">Kombilo</a>
+et <strong>Drago</strong> en reprend l'essentiel. Une aide
+complémentaire peut donc être obtenue en consultant la <a
+href="http://trac.u-go.net/kombilo/wiki/Tutorial">documentation</a>
+de Kombilo.</p>
+
+<hr>
+
+<h2><a name="Create">Création d'une base de données</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La création d'une base de données se fait par la commande <em>Nouvelle
+base de données...</em> dans le menu <em>Base de données</em>
+ou par le bouton <img src="../BtDBCreate.gif" align="absbottom"
+width="23" height="22"> de la barre d'outils.</p>
+
+<ol>
+    <li><a href="#SelectName">Sélection du nom et de
+        l'emplacement d'une base de données</a></li>
+    <li><a href="#SelectFiles">Sélection des fichiers et des
+        répertoires à inclure</a></li>
+    <li><a href="#CreateOptions">Options de création</a></li>
+    <li><a href="#StartCreate">Lancement et déroulement de la
+        création</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SelectName">Sélection du nom et de l'emplacement
+d'une base de données</a></h5>
+
+<p>Le nom et l'emplacement d'une base de données sont
+sélectionnés dans la boite de saisie <em>Enregistrer sous...</em>.
+Le bouton <img src="../MoreXP.gif" align="absbottom" width="23"
+height="22"> ouvre un dialogue standard d'ouverture.</p>
+
+<p><img src="DBName.gif" width="340" height="58"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SelectFiles">Sélection des fichiers et des
+répertoires à inclure</a></h5>
+
+<p>Les fichiers et répertoires à inclure dans une base de
+données sont sélectionnés dans la partie gauche de la fenêtre
+de création. Des cases à cocher permettent de sélectionner, ou
+retirer, les fichiers ou les répertoires à inclure dans la
+base. La liste de ceux-ci est visible dans la partie droite de la
+fenêtre.</p>
+
+<p><img src="../DBCreateSelect.gif" width="500" height="72"></p>
+
+<p>Il est possible de cocher ou décocher d'un coup toutes les
+cases à cocher en utilisant les boutons <em>Tout</em> et <em>Aucun</em>.
+</p>
+
+<p><img src="DBSelect.gif" width="332" height="21"></p>
+
+<p>Par défaut, les sous-répertoires des répertoires cochés ne
+sont pas pris en compte. La case à cocher <em>Inclure les
+sous-répertoires</em> permet de prendre en compte tous les
+fichiers et sous-répertoires inclus dans les répertoires
+cochés.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="CreateOptions">Options de création de base de
+données</a></h5>
+
+<p>Quelques <a href="Options.htm#Database">options avancées</a>
+sont disponibles dans la fenêtre d'options. Ces options
+concernent :</p>
+
+<ul>
+    <li>la taille de la mémoire de travail,</li>
+    <li>le traitement des variantes,</li>
+    <li>le traitement des doublons.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="StartCreate">Lancement et déroulement de la
+création</a></h5>
+
+<p>La création de la base est lancée avec le bouton <img
+src="DBBtStart.gif" align="absbottom" width="68" height="23"> et
+peut être interrompue en cliquant sur le bouton <em><img
+src="DBBtAbort.gif" align="absbottom" width="68" height="23"> </em>qui
+apparait au démarrage.</p>
+
+<p>La création peut afficher des messages relatifs aux erreurs
+rencontrées et à la présence de doublons. Le contenu de la
+fenêtre de messages peut être sauvegardé à la fin de la
+création en frappant la combinaison Ctrl-S.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Ressources</h5>
+
+<p>La création d'une base de données peut être une opération
+coûteuse en temps de calcul et en mémoire si le nombre de
+parties à prendre en compte est élevé et si la configuration
+utilisée est insuffisante. A titre indicatif, la création d'une
+base de données de 40 000 parties a nécessité :</p>
+
+<ul>
+    <li>3 minutes avec un PC 3 GHz, 1Go de RAM, Windows XP,</li>
+    <li>un peu moins de 6 minutes avec un PC 2,4 GHz, 512 Mo de
+        RAM, Windows 2000.</li>
+</ul>
+
+<hr>
+
+<h2><a name="Update">Mise à jour d'une base de données</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La seule opération disponible actuellement pour modifier une
+base de données est l'ajout de fichiers ou de répertoires
+supplémentaires. Ceci se fait par la commande <em>Ajouter à la
+base de données...</em> dans le menu <em>Base de données</em>.</p>
+
+<p>Cette commande n'est disponible que lorsque l'onglet courant
+contient une base de données. La procédure est identique à
+celle de la création d'une base de données.</p>
+
+<hr>
+
+<h2><a name="Open">Ouverture d'une base de données</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'ouverture d'une base de données se fait par la commande <em>Ouvrir
+base de données...</em> dans le menu <em>Base de données</em>
+ou par le bouton <img src="../BtDBOpen.gif" align="absbottom"
+width="23" height="22"> de la barre d'outils.</p>
+
+<hr>
+
+<h2><a name="SearchDialog">Recherche</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Trois méthodes de recherche sont disponibles :</p>
+
+<ul>
+    <li>par position : on sélectionne une position pour trouver
+        toutes les parties de la base de données qui contiennent
+        cette position,</li>
+    <li>par requête sur les informations de partie (joueurs,
+        date, etc.),</li>
+    <li>par signature qui permet de retrouver une partie en ne
+        donnant que les coups 20, 40, 60, 31, 51 et 71 (signature
+        de Dyer).</li>
+</ul>
+
+<ol>
+    <li><a href="#PatternSearch">Recherche par position</a></li>
+    <li><a href="#InfoSearch">Recherche par informations de
+        partie</a></li>
+    <li><a href="#SigSearch">Recherche par signature</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La fenêtre de recherche est ouverte par la commande <em>Chercher
+dans la base de données...</em> dans le menu <em>Base de
+données</em> ou par le bouton <img src="../BtDBSearch.gif"
+align="absbottom" width="23" height="22"> de la barre d'outils. </p>
+
+<p>Trois boutons sont disponibles en haut de la fenêtre de
+recherche pour sélectionner le mode de recherche (position,
+informations de jeu ou signature).</p>
+
+<p><img src="DBToolbar1.gif" width="309" height="41"></p>
+
+<p>Trois autres boutons en bas de la fenêtre de recherche
+permettent de :</p>
+
+<ul>
+    <li>lancer la recherche,</li>
+    <li>configurer la recherche,</li>
+    <li>consulter l'aide.</li>
+</ul>
+
+<p><img src="DBToolbar2.gif" width="308" height="43"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les recherches se font dans la base de données courante. <strong>Drago</strong>
+permet d'ouvrir simultanément plusieurs bases de données dans
+des onglets différents. </p>
+
+<p><img src="../DBTabBar.gif" width="374" height="26"></p>
+
+<p>L'ouverture ou la sélection d'une base de données peut se
+faire dans en cliquant sur <a href="#SearchSettings">Options</a>.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Lancement de la recherche</h5>
+
+<p>Une fois spécifiés les critères de recherche (position,
+informations, signature), la recherche est lancée par le bouton <em>Chercher</em>.
+</p>
+
+<p>Par défaut, la recherche se fait dans la base de données
+complète. On peut restreindre la recherche aux résultats de la
+recherche précédente en utilisant le bouton <em>Chercher dans
+les résultats</em> :</p>
+
+<p><img src="DBToolbar2Open.gif" width="313" height="86"></p>
+
+<p>Le bouton <em>Reset</em> permet de vider tous les résultats
+de recherche.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Résultats de la recherche</h5>
+
+<p>Les parties satisfaisant les critères de recherche sont
+listées dans l'onglet de la base de données courante. Il faut
+sélectionner cet onglet et un des modes de vue (goban, liste ou
+vignette) pour visulaliser les parties.</p>
+
+<p>Le temps écoulé pour une recherche et le nombre de parties
+trouvées pour le critère demandé sont affichés dans la barre
+d'état à la fin de la recherche.</p>
+
+<p><img src="DBStatusBar.gif" width="312" height="24"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SearchSettings">Configuration de la recherche</a></h5>
+
+<p>Le panneau de configuration permet de :</p>
+
+<ul>
+    <li>sélectionner ou ouvrir une base de données</li>
+</ul>
+
+<p><img src="DBNamePicker.gif" width="309" height="61"></p>
+
+<ul>
+    <li>positionner les <a href="#PatternOptions">paramètres de
+        recherche de position</a>.</li>
+</ul>
+
+<hr>
+
+<h3><a name="PatternSearch">Recherche par position</a></h3>
+
+<ol>
+    <li><a href="#SelectPattern">Sélection et dessin de la
+        position recherchée</a></li>
+    <li><a href="#OneClickSearch">Recherche en un clic</a></li>
+    <li><a href="#PatternOptions">Options pour la recherche de
+        position</a></li>
+    <li><a href="#PatternResults">Statistiques pour la recherche
+        de position</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="SelectPattern">Sélection et dessin de la position
+recherchée</a></h4>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Sélection de la position</h5>
+
+<p>La sélection de la position se fait sur le goban. La
+sélection par clic droit sur un des coins de la position puis en
+relachant le bouton droit dans le coin opposé.</p>
+
+<p><img src="../DBSelectOnBoard.gif" width="234" height="183"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Joker</h5>
+
+<p>Des jokers peuvent être ajoutés à la position en cliquant
+sur le bouton <img src="../BtMark.gif" align="absbottom"
+width="36" height="22">. Les jokers ont la signification suivante
+:</p>
+
+<ul>
+    <li>joker sur une intersection vide <img
+        src="../WildCardFree.gif" align="absbottom" width="23"
+        height="23">: l'intersection peut être vide ou contenir
+        une pierre noire ou blanche,</li>
+    <li>joker sur une pierre <img src="../WildCardBlack.gif"
+        align="absbottom" width="23" height="23">: l'intersection
+        peut être vide ou contenir une pierre de la couleur de
+        la pierre.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="OneClickSearch">Recherche en un clic</a></h5>
+
+<p>La recherche en un clic est lancée en pressant le bouton <img
+src="../BtOneClickSearch.gif" align="absbottom" width="23"
+height="22"> dans la barre d'outils de la fenêtre principale ou
+dans la fenêtre de recherche. Dans ce mode, la recherche est
+lancée dès que le rectangle de recherche est sélectionné.</p>
+
+<p>Quand la recherche en un clic est lancée depuis la barre
+d'outils de la fenêtre principale, la recherche se fait sans
+ouvrir la fenêtre de recherhe et les résultats sont affichés
+dans la barre latérale.</p>
+
+<p><img src="DBSideBar.gif" width="292" height="104"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="PatternOptions">Options pour la recherche de
+position</a></h4>
+
+<p>Par défaut, la recherche d'une position retourne des
+solutions :</p>
+
+<ul>
+    <li>dans les coins : pour une configuration incluant un coin,</li>
+    <li>sur les bords : pour une configuration incluant un bord,</li>
+    <li>partout sauf dans les coins et les bords : pour une
+        configuration n'incluant ni coin ni bord,</li>
+    <li>avec les couleurs de la configuration sélectionnée, et
+        en inversant les couleurs de la configuration.</li>
+</ul>
+
+<p>Dans le panneau de configuration, il est possible de fixer :</p>
+
+<ul>
+    <li>la couleur (pour ne ramener que des solutions avec les
+        couleurs de la configuration sélectionnée) en cochant
+        la case <em>Couleur fixe,</em></li>
+    <li>la position (plus précisément la distance aux bords) en
+        cochant la case <em>Position</em> fixe.</li>
+</ul>
+
+<p>Deux options supplémentaires sont disponibles dans le panneau
+de configuration :</p>
+
+<ul>
+    <li>la possibilité d'inhiber la recherche dans les
+        variantes,</li>
+    <li>le dernier coup jusqu'auquel on peut chercher une
+        position.</li>
+</ul>
+
+<p><img src="DBSeachOptions.gif" width="300" height="120"></p>
+
+<p>Par défaut, la recherche de position trouve des parties pour
+lesquelles le coup suivant peut être soit Noir soit Blanc, mais
+aussi des parties pour lesquelles la position apparait au dernier
+coup, c'est à dire sans continuation.</p>
+
+<p>Il est possible d'imposer la couleur du coup suivant comme <em>Noir</em>
+ou <em>Blanc</em> (dans ces deux cas il y aura une suite) ou
+comme <em>Noir, Blanc ou aucun</em> comme dans le mode par
+défaut. </p>
+
+<p><img src="DBNextMove.gif" width="300" height="78"></p>
+
+<p>La sélection du type de coup suivant peut aussi se faire dans
+la fenêtre de recherche en mode recherche de position :</p>
+
+<p><img src="DBNextMove2.gif" width="149" height="47"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="PatternResults">Statistiques pour la recherche de
+position</a></h4>
+
+<p>La recherche de position retourne un certain nombre de
+données numériques sur les solutions trouvées. Ces données
+sont présentées de trois façons différentes :</p>
+
+<p><img src="DBViewRadio.gif" width="300" height="53"></p>
+
+<p>Les solutions sont détaillées en fonction du coup joué
+après le coup créant la position. Ces coups suivants peuvent
+être joués immédiatement ou précédés par des coups ailleurs
+sur le goban (tenuki). Les coups suivants sont identifiés par
+des étiquettes alphabétiques. La couleur de l'étiquette
+indique la couleur du coup suivant: noir, blanc ou gris si les
+deux couleurs sont possibles.</p>
+
+<p><img src="DBLabels.gif" width="175" height="143"></p>
+
+<p>Seuls les coups joués dans la position cherchée sont pris en
+compte dans ces statistiques. En conséquence :</p>
+
+<ul>
+    <li>il peut y avoir plus de positions trouvées que de coups
+        joués après la position,</li>
+    <li>des coups peuvent être joués sur une pierre de la
+        position si celle-ci est capturée par un coup extérieur
+        à la position.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Résultats en mode Kombilo</h5>
+
+<p>Ce mode reprend la présentation des résultats de Kombilo (à
+l'orientation des barres près) :</p>
+
+<p><img src="DBResKombilo.gif" width="309" height="86"></p>
+
+<p>La première ligne contient :</p>
+
+<ul>
+    <li>le nombre de positions trouvées (qui peut être
+        supérieur au nombre de parties trouvées),</li>
+    <li>le nombre de positions trouvées avec les couleurs de la
+        position sélectionnée, et le nombre de positions
+        trouvées avec les couleurs inversées,</li>
+    <li>le nombre de parties gagnées par Noir et par Blanc à
+        partir de cette position.</li>
+</ul>
+
+<p>Chaque ligne contient la description des résultats pour
+chaque coup suivant possible :</p>
+
+<ul>
+    <li>l'étiquette du coup sur le goban,</li>
+    <li>le nombre de positions trouvées avec ce coup suivant,</li>
+    <li>le pourcentage de victoires noires quand Blanc joue en
+        premier,</li>
+    <li>le pourcentage de victoires noires quand Noir joue en
+        premier,</li>
+    <li>les barres indiquent les pourcentages de coups suivants
+        Noir (joués immédiatement en noir, joués après tenuki
+        en gris foncé) et les pourcentages de coups suivants
+        Blanc (joués immédiatement en blanc, joués après
+        tenuki en gris clair).</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Résultats en mode détaillé</h5>
+
+<p>Ce mode présente les résultats de recherche sous une forme
+brute, tels que retournés par la librairie libkombilo.</p>
+
+<p><img src="DBResFull.gif" width="309" height="87"></p>
+
+<p>Pour chaque coup suivant possible, on trouve :</p>
+
+<ul>
+    <li>l'étiquette du coup sur le goban,</li>
+    <li>le nombre de coups suivants Noirs (N),</li>
+    <li>le nombre de coups suivants Noirs joués tenuki (c'est à
+        dire, non joués juste après avoir atteint la position)
+        (N/T),</li>
+    <li>le nombre de victoires noires après un coup suivant Noir
+        (N+/N),</li>
+    <li>le nombre de défaites noires après un coup suivant Noir
+        (N-/N),</li>
+    <li>le nombre de coups suivants Blancs (B),</li>
+    <li>le nombre de coups suivants Blancs joués tenuki (B/T),</li>
+    <li>le nombre de victoires noires après un coup suivant
+        Blanc (N+/B),</li>
+    <li>le nombre de défaites noires après un coup suivant
+        Blanc (N-/B).</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Résultats en mode résumé</h5>
+
+<p>Le mode résumé permet de classer les coups suivants
+possibles en termes de fréquence, urgence et efficacité. Ces
+termes sont utilisés comme suit :</p>
+
+<ul>
+    <li>la fréquence est le pourcentage de fois où le coup est
+        joué relativement au nombre total de coups joués,</li>
+    <li>l'urgence est le pourcentage de fois où le coup est
+        joué immédiatement relativement au nombre de coups
+        joués de la même couleur,</li>
+    <li>l'efficacité est le pourcentage de fois où le coup
+        conduit à une victoire relativement au nombre de coups
+        joués de la même couleur.</li>
+</ul>
+
+<p><img src="DBResDigest.gif" width="307" height="81"></p>
+
+<p>On peut trier les coups en cliquant sur les boutons d'entête.</p>
+
+<hr>
+
+<h3><a name="InfoSearch">Recherche par information</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les fichiers de parties permettent de stocker des informations
+relatives aux joueurs, aux circonstances, etc. La recherche par
+information permet de retrouver les parties contenant ces
+informations. Trois types de critères sont disponibles :</p>
+
+<ul>
+    <li>les critères préformatés pour les noms de joueurs, les
+        dates et les résultats,</li>
+    <li>les critères non formatés qui portent sur toutes les
+        données disponibles,</li>
+    <li>les critères de type SQL, réservés à une utilisation
+        plus avancée, pour lesquels il faut rédiger
+        complètement la requête SQL.</li>
+</ul>
+
+<p>Chaque type de requête doit être coché pour être pris en
+compte. La requête soumise à la base de données est la
+conjonction des requêtes cochées.</p>
+
+<p><img src="DBcbPlayers.gif" width="122" height="16"> <img
+src="DBcbDate.gif" width="108" height="16"> <img
+src="DBcbResult.gif" width="123" height="16"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Recherche par nom de joueur</h5>
+
+<p>La recherche par nom de joueur se fait en cochant la case <em>Chercher
+par joueurs</em>. Elle peut se faire :</p>
+
+<ul>
+    <li>en spécifiant le joueur Noir et le joueur Blanc,</li>
+    <li>en spécifiant les joueurs sans considération de
+        couleur,</li>
+    <li>en spécifiant le vainqueur et le perdant.</li>
+</ul>
+
+<p><img src="DBReqPlayer.gif" width="309" height="115"></p>
+
+<p>La saisie d'un nom se fait :</p>
+
+<ul>
+    <li>en entrant le nom dans la boîte de saisie,</li>
+    <li>ou en ouvrant la liste déroulante et en sélectionnant
+        un nom.</li>
+</ul>
+
+<p>Notez que :</p>
+
+<ul>
+    <li>Il est possible de ne donner qu'une partie du nom. Par
+        exemple, la suite de lettres &quot;aba&quot; permet de
+        retrouver tous les noms contenant &quot;aba&quot;,</li>
+    <li>le premier élément de la liste, &quot;-- Tous --&quot;,
+        permet de remplacer n'importe quel nom. Il est
+        sélectionné rapidement en tapant &quot;-&quot;,</li>
+    <li>la casse des caractères (minuscule ou majuscule) n'est
+        pas prise en compte.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Recherche par date</h5>
+
+<p>La recherche par date se fait en cochant la case <em>Chercher
+par date</em>. Elle peut se faire par date simple ou par
+intervalle de dates :</p>
+
+<ul>
+    <li>par date simple, en sélectionnant Jour dans la liste
+        déroulante sans cocher la case <em>Intervalle</em>,</li>
+    <li>par mois ou année, en sélectionnant Mois ou Année dans
+        la liste déroulante sans cocher la case <em>Intervalle</em>,</li>
+    <li>par intervalle de jour, mois ou année, en cochant la
+        case <em>Intervalle</em>.</li>
+</ul>
+
+<p><img src="DBreqDate.gif" width="309" height="79"></p>
+
+<p>Dans chaque cas, la date ou l'intervalle de dates considéré
+est rappelé entre parenthèses.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Recherche par résultat</h5>
+
+<p>La recherche par résultat se fait en cochant la case <em>Chercher
+par résultat</em>. Elle peut se faire :</p>
+
+<ul>
+    <li>en précisant la couleur du vainqueur,</li>
+    <li>en précisant le type de victoire (au point, abandon,
+        ...), la valeur exacte, minimum ou maximum du nombre de
+        points.</li>
+</ul>
+
+<p><img src="DBReqResult.gif" width="309" height="57"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Recherche par critères non formatés</h5>
+
+<p>La recherche sur tous les critères disponibles se fait en
+cochant la case <em>Autres critères</em>. Ceci ouvre une liste
+configurable de critères.</p>
+
+<p><img src="DBReqAllProp1.gif" width="308" height="78"></p>
+
+<p>Le critère est sélectionné dans la liste déroulante de
+gauche. La valeur demandée est entrée à droite.</p>
+
+<p><img src="DBReqAllProp2.gif" width="309" height="80"></p>
+
+<p>On peut ajouter des critères supplémentaires en cliquant sur
+le bouton <em>Ajouter</em>. Ceci crée une nouvelle ligne dans la
+liste qui peut recevoir un nouveau critère :</p>
+
+<p><img src="DBReqAllProp3.gif" width="309" height="102"> <img
+src="DBReqAllProp4.gif" width="309" height="98"></p>
+
+<p>Le bouton <em>Enlever</em> retire la dernière ligne de la
+liste. Le bouton <em>Effacer</em> retire toutes les lignes.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Recherche par requête SQL</h5>
+
+<p>Toutes les boites de dialogue précédentes construisent une
+requête dans le langage SQL (Search Query Language) qui est un
+langage d'interrogation de base de données. Il est possible de
+visualiser cette requête et de la modifier en ouvrant la boite
+de saisie SQL en cliquant sur la case associée.</p>
+
+<p><img src="../DBReqSQL.gif" width="309" height="81"></p>
+
+<p>L'édition de la requête SQL n'est pas nécessaire pour une
+utilisation courante. Elle permet néanmoins de construire des
+requêtes supplémentaires (utilisation de OU par exemple).</p>
+
+<p>Notez que :</p>
+
+<ul>
+    <li>les noms de champ sont les noms de propriétés SGF,</li>
+    <li>c'est toujours le contenu de la boite de saisie SQL qui
+        est utilisé pour la recherche.</li>
+</ul>
+
+<hr>
+
+<h3><a name="SigSearch">Recherche par signature</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La signature de Dyer est composée des coordonnées SGF des
+coups 20, 40, 60, 31, 51 et 71. Par exemple, la suite des 12
+caractères &quot;cgdijbdqfiod&quot; permet de retrouver, parmi
+40 000 parties, la partie Cho Chikun - Kobayashi jouée en 1999
+pour le Kisei à la Maison du Japon à Paris.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Il existe quatre moyens de saisir une signature :</p>
+
+<ul>
+    <li>en saisissant les coups sur la vignette de la fenêtre de
+        recherche en mode Signature,</li>
+</ul>
+
+<blockquote>
+    <p><img src="..\DBSignature1.gif" width="308" height="77"></p>
+</blockquote>
+
+<ul>
+    <li>en saisissant les coordonnées coup par coup dans les
+        boites de saisie <em>Coups</em>,</li>
+</ul>
+
+<blockquote>
+    <p><img src="DBSignature2.gif" width="309" height="58"></p>
+</blockquote>
+
+<ul>
+    <li>en entrant la signature complète dans la boite de saisie
+        <em>Signature</em>, </li>
+    <li>en utilisant le bouton <em>Capture</em>, ce qui saisit
+        les six coups de la signature de la partie dans l'onglet
+        actif.</li>
+</ul>
+
+<p>Il est possible d'utiliser le caractère &quot;_&quot; comme
+joker dans la signature. Par exemple, les coups 20, 40 et 60
+suffisent pour retrouver la partie précédente.</p>
+
+<blockquote>
+    <p><img src="DBSignature3.gif" width="309" height="56"></p>
+</blockquote>
+
+<hr>
+</body>
+</html>

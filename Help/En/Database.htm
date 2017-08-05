@@ -1,0 +1,697 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Databases</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body link="#0000FF" vlink="#800080">
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Databases</h1>
+
+<hr>
+
+<ol>
+    <li><a href="#Create">Creating a database</a></li>
+    <li><a href="#Update">Updating a database</a></li>
+    <li><a href="#Open">Opening a database</a></li>
+    <li><a href="#SearchDialog">Searching</a></li>
+    <li><a href="#PatternSearch">Pattern search</a></li>
+    <li><a href="#InfoSearch">Game information search</a></li>
+    <li><a href="#SigSearch">Signature search</a></li>
+</ol>
+
+<hr>
+
+<h2>Credit</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><strong>Drago</strong> uses the <a
+href="http://trac.u-go.net/kombilo/wiki/libkombilo">libkombilo</a>
+library from Ulrich Goertz. This library enables to implement all
+the <a href="http://www.u-go.net/kombilo/">Kombilo</a> features
+and <strong>Drago</strong> implements most of them. Therefore,
+more help and information can be found in Kombilo <a
+href="http://trac.u-go.net/kombilo/wiki/Tutorial">tutorial</a>.</p>
+
+<hr>
+
+<h2><a name="Create">Creating a database</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Creating a database is done with the <em>Create database..</em>.
+command in the <em>Database</em> menu or with the <img
+src="../BtDBCreate.gif" align="absbottom" width="23" height="22">
+button in the toolbar.</p>
+
+<ol>
+    <li><a href="#SelectName">Giving the name and the location of
+        the database</a></li>
+    <li><a href="#SelectFiles">Selection of files and folders to
+        include</a></li>
+    <li><a href="#CreateOptions">Create options</a></li>
+    <li><a href="#StartCreate">Creation process</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SelectName">Giving the name and the location of the
+database</a></h5>
+
+<p>The name and the location of the database are selected in the <em>Save
+as...</em> edit box. The <img src="../MoreXP.gif"
+align="absbottom" width="23" height="22"> button starts a
+standard open dialog.</p>
+
+<p><img src="DBName.gif" width="339" height="58"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SelectFiles">Selection of files and folders to
+include</a></h5>
+
+<p>The files and folders to be included in the new database are
+selected in the left panel of the creation window. Check boxes
+enable to select or unselect the files and folders to include.
+The list of files and folders to include is displayed in the left
+side of the creation window.</p>
+
+<p><img src="../DBCreateSelect.gif" width="500" height="72"></p>
+
+<p>It is possible to check and uncheck at once all check boxes by
+using the two buttons <em>Select all</em> and <em>Clear all</em>.</p>
+
+<p><img src="DBSelect.gif" width="299" height="17"></p>
+
+<p>By default, subfolders of the selected folders are not
+included. The <em>Include subfolders</em> check box enables to
+include inner subfolders recursively. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="CreateOptions">Create options</a></h5>
+
+<p>Some <a href="Options.htm#Database">advanced options</a> can
+be found in the option window. These options concern:</p>
+
+<ul>
+    <li>the size of the working memory,</li>
+    <li>the processing of variations,</li>
+    <li>the processing of duplicates.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="StartCreate">Creation process</a></h5>
+
+<p>The creation process is started with the <img
+src="DBBtStart.gif" align="absbottom" width="68" height="23">
+button and can be aborted with the <img src="DBBtAbort.gif"
+align="absbottom" width="68" height="23"> button which appears
+when starting.</p>
+
+<p>The creation process displays some messages related to errors
+and duplicates. The list of messages can be saved at the end of
+the process by keying the combination Ctrl-S.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Resources</h5>
+
+<p>Creating a database can require some time and memory if the
+number of games to process is high and the computer has a small
+configuration. As an example, creating a database with 40 000
+games has required:</p>
+
+<ul>
+    <li>3 minutes with a 3 GHz, 1GB RAM, Windows XP PC,</li>
+    <li>almost 6 minutes with a 2.4 GHz, 512 MB RAM, Windows 2000
+        PC.</li>
+</ul>
+
+<hr>
+
+<h2><a name="Update">Updating a database</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>In the current version, the only way to modify a database is
+by adding files or folders. This is done with the <em>Add to
+database...</em> command in the <em>Database</em> menu.</p>
+
+<p>This function is available only when a database is open in the
+current tab. Adding to a database follows the same steps as
+creation.</p>
+
+<hr>
+
+<h2><a name="Open">Opening a database</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>A database is open with the <em>Open database...</em> command
+in the <em>Database</em> menu or with the <img
+src="../BtDBOpen.gif" align="absbottom" width="23" height="22">
+button in the toolbar.</p>
+
+<hr>
+
+<h2><a name="SearchDialog">Searching</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Three ways of searching are available:</p>
+
+<ul>
+    <li>pattern search: a pattern is selected on the board and
+        the result of searching is made of all the games in the
+        database in which this pattern occurs,</li>
+    <li>game information search: the request is made with
+        information related to the game (players, date, result,
+        etc.),</li>
+    <li>signature search: the request is made of the moves 20,
+        40, 60, 31, 51 and 71 (Dyer signature).</li>
+</ul>
+
+<ol>
+    <li><a href="#PatternSearch">Pattern search</a></li>
+    <li><a href="#InfoSearch">Game information search</a></li>
+    <li><a href="#SigSearch">Signature search</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The search window is open with the <em>Search in database..</em>.
+command in the <em>Database</em> menu or with the <img
+src="../BtDBSearch.gif" align="absbottom" width="23" height="22">
+button in the toolbar. </p>
+
+<p>Three buttons are available at the top of the window to select
+the search mode (pattern, game information or signature).</p>
+
+<p><img src="DBToolbar1.gif" width="307" height="39"></p>
+
+<p>Three more buttons are available at the bottom of the search
+window for:</p>
+
+<ul>
+    <li>launching the search,</li>
+    <li>configuring the search,</li>
+    <li>displaying this help.</li>
+</ul>
+
+<p><img src="DBToolbar2.gif" width="309" height="46"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The search is done in the current database, <strong>Drago</strong>
+enabling to open simultaneously various databases in different
+tabs:</p>
+
+<p><img src="../DBTabBar.gif" width="374" height="26"></p>
+
+<p>By opening the <a href="#SearchSettings">setting panel</a>, it
+is possible to open or select the current database.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Launching the search</h5>
+
+<p>When the search request is specified, the search is launched
+with the search button.</p>
+
+<p>By default, the search is made in the whole database. It is
+possible to limit the search to the previous results by using the
+<em>Search in results</em> button:</p>
+
+<p><img src="DBToolbar2open.gif" width="307" height="98"></p>
+
+<p>The <em>Reset</em> button clears all search results.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Search results</h5>
+
+<p>The games satisfying to the search request are listed in the
+database tab. Navigate to the tab to see the games and use the
+standard buttons to select the view mode.</p>
+
+<p>The elapsed time and the number of games found are displayed
+in the statusbar at the end of the search.</p>
+
+<p><img src="DBStatusBar.gif" width="309" height="24"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SearchSettings">Search settings</a></h5>
+
+<p>Opening the setting panel enables to:</p>
+
+<ul>
+    <li>select or open a database</li>
+</ul>
+
+<p><img src="DBNamePicker.gif" width="308" height="63"></p>
+
+<ul>
+    <li>set the <a href="#PatternOptions">parameters of the
+        pattern search</a>.</li>
+</ul>
+
+<hr>
+
+<h3><a name="PatternSearch">Pattern search</a></h3>
+
+<ol>
+    <li><a href="#SelectPattern">Selection and drawing of the
+        pattern</a></li>
+    <li><a href="#OneClickSearch">One click search</a></li>
+    <li><a href="#PatternOptions">Pattern search options</a></li>
+    <li><a href="#PatternResults">Pattern search results</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="SelectPattern">Selection and drawing of the pattern</a></h4>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Selection of the pattern</h5>
+
+<p>Selecting the pattern is done in the board. Selection is done
+by right clicking at one of the corners of the pattern and
+dragging to the opposite corner.</p>
+
+<p><img src="../DBSelectOnBoard.gif" width="234" height="183"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Wildcards</h5>
+
+<p>Wildcards can be added to the pattern when selecting the
+wildcard markups in the toolbar (under <img src="../BtMark.gif"
+align="absbottom" width="36" height="22">). Wildcards have the
+following meaning:</p>
+
+<ul>
+    <li>wildcard on a free intersection <img
+        src="../WildCardFree.gif" align="absbottom" width="23"
+        height="23">: the intersection can be free or a stone of
+        any color can be on it,</li>
+    <li>wildcard on a stone <img src="../WildCardBlack.gif"
+        align="absbottom" width="23" height="23">: the
+        intersection can be free or a stone of that color can be
+        on it.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="OneClickSearch">One click search</a></h4>
+
+<p>The one click search mode is activated by pressing the <img
+src="../BtOneClickSearch.gif" align="absbottom" width="23"
+height="22"> button in toolbar or search window. When using the
+one click search mode, the pattern search is launched as soon as
+the search area is selected. </p>
+
+<p>When activated from the main toolbar, the pattern search is
+done without opening the search window and results are displayed
+in the sidebar.</p>
+
+<p><img src="DBSideBar.gif" width="313" height="108"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="PatternOptions">Pattern search options</a></h4>
+
+<p>By default, pattern search gives hits:</p>
+
+<ul>
+    <li>in corners: for a pattern including a corner,</li>
+    <li>on sides: for a pattern including a side,</li>
+    <li>anywhere less in corners and sides: for a pattern which
+        does not include a corner or a side,</li>
+    <li>with the colors of the selected pattern, and with
+        reversed colors.</li>
+</ul>
+
+<p>In the setting panel, it is possible to fix:</p>
+
+<ul>
+    <li>the color (to get only hits with the colors of the
+        selected pattern) by checking the <em>Fixed color</em>
+        check box,</li>
+    <li>the position (and more precisely the distance to the
+        border) by checking the <em>Fixed position</em> check
+        box.</li>
+</ul>
+
+<p>Two more settings are available in the setting panel:</p>
+
+<ul>
+    <li>it is possible to avoid searching in variants,</li>
+    <li>it is possible to configure a move limit to search a
+        pattern (1000 as a default to consider whole games).</li>
+</ul>
+
+<p><img src="DBSeachOptions.gif" width="300" height="118"></p>
+
+<p>By default, the pattern search finds games where the pattern
+is found and the next move is either a Black or a White move but
+also positions found at the last move of the game, i.e. with no
+continuation. </p>
+
+<p>It is possible to force the color of continuations as <em>Black</em>
+or <em>White</em> (in that case there must be a follow up move)
+or <em>Any or none</em> as with the default mode.</p>
+
+<p><img src="DBNextMove.gif" width="301" height="78"></p>
+
+<p>The selection of next move is also available in pattern search
+panel of the search window: </p>
+
+<p><img src="DBNextMove2.gif" width="146" height="27"></p>
+
+<p>The setting panel enables to select the pattern result mode as
+described in the next section.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="PatternResults">Pattern search results</a></h4>
+
+<p>Searching patterns gives some statistical results about the
+hits found. These results are presented under three different
+modes selected with the <em>Pattern search view</em> radio
+buttons:</p>
+
+<p><img src="DBViewRadio.gif" width="301" height="52"></p>
+
+<p>Hits are classified by using their continuation (the first
+move inside the pattern, played after the pattern appears on the
+board). Continuations can be played just after creating the
+pattern, or after some other moves, i.e. after tenuki.
+Continuations are identified by alphabetic labels. The color of
+the label specifies the color of the continuation move: Black,
+White or grey for both colors.</p>
+
+<p><img src="DBLabels.gif" width="175" height="143"></p>
+
+<p>Only moves played inside the pattern are described. As a
+consequence:</p>
+
+<ul>
+    <li>it is possible to find more hits than continuations,</li>
+    <li>continuations can be found on stones in the pattern if
+        these stones are captured by moves outside the pattern.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Results in Kombilo mode</h5>
+
+<p>This display mode is similar to the one used in Kombilo (the
+only difference being the orientation of the bars):</p>
+
+<p><img src="DBResKombilo.gif" width="309" height="86"></p>
+
+<p>In the first line can be found:</p>
+
+<ul>
+    <li>the total number of hits (possibly higher that the number
+        of games found),</li>
+    <li>the number of hits found with the color of the pattern,
+        and the number of hits with reversed colors,</li>
+    <li>the ratio of games won by Black and White.</li>
+</ul>
+
+<p>Following the header, each line describes a continuation by
+giving:</p>
+
+<ul>
+    <li>the label of the continuation on the board,</li>
+    <li>the number of hits followed by this continuation,</li>
+    <li>the winning ratio for Black when White plays first,</li>
+    <li>the winning ratio for Black when Black plays first,</li>
+    <li>the bars give the ratios of Black continuations (played
+        immediately in black, after tenuki in dark grey) and the
+        ratios of White continuations (played immediately in
+        white, after tenuki in light grey).</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Results in full mode</h5>
+
+<p>This mode displays the pattern search results in a raw mode as
+given by the libkombilo library:</p>
+
+<p><img src="DBResFull.gif" width="308" height="86"></p>
+
+<p>For each continuation is listed:</p>
+
+<ul>
+    <li>the label of the continuation on the board,</li>
+    <li>the number of black continuations (B),</li>
+    <li>the number of black continuations played after a tenuki
+        (i.e. not just after reaching the position) (B/T),</li>
+    <li>the number of black wins after a black continuation
+        (B+/B),</li>
+    <li>the number of black losses after a black continuation
+        (B-/B),</li>
+    <li>the number of white continuations (W),</li>
+    <li>the number of white continuations played after a tenuki
+        (W/T),</li>
+    <li>the number of black wins after a white continuation
+        (B+/W),</li>
+    <li>the number of black losses after a white continuation
+        (B-/W).</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Results in digest mode</h5>
+
+<p>The digest mode enables to sort continuations by frequency,
+urgency and efficiency. These terms are used as follow:</p>
+
+<ul>
+    <li>frequency is the percentage the continuation is played
+        relatively to the total number of hits,</li>
+    <li>urgency is the percentage the continuation is played
+        immediately relatively to the number of continuations
+        with the same color,</li>
+    <li>efficiency is the percentage the continuation leads to a
+        win relatively to the number of continuations with the
+        same color.</li>
+</ul>
+
+<p><img src="DBResDigest.gif" width="308" height="82"></p>
+
+<p>It is possible to sort the continuations by clicking on the
+header buttons.</p>
+
+<hr>
+
+<h3><a name="InfoSearch">Game information search</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Game files enable to store information related to players,
+date, place, results and so on. Game information search is used
+to retrieve games by giving the requested attributes. Three kinds
+of criteria are available:</p>
+
+<ul>
+    <li>already formatted criteria for players, dates and
+        results,</li>
+    <li>not formatted criteria for all existing attributes,</li>
+    <li>SQL like criteria, reserved to advanced search, for which
+        the complete SQL request has to be written.</li>
+</ul>
+
+<p>Requests must be checked to be taken into account. The final
+request sent to the database is the logical conjunction (AND) of
+all checked requests:</p>
+
+<p><img src="DBcbPlayers.gif" width="106" height="16"> <img
+src="DBcbDate.gif" width="93" height="16"> <img
+src="DBcbResult.gif" width="98" height="16"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Player request</h5>
+
+<p>Searching by player is enabled by checking the <em>Search on
+player...</em> box. It can be done: </p>
+
+<ul>
+    <li>by specifying the Black and White players,</li>
+    <li>by specifying players without giving their colors,</li>
+    <li>by specifying the winner and the loser.</li>
+</ul>
+
+<p><img src="DBReqPlayer.gif" width="309" height="116"></p>
+
+<p>Entering a name is done by:</p>
+
+<ul>
+    <li>keying the name in the edit box,</li>
+    <li>opening the drop down list and selecting the name.</li>
+</ul>
+
+<p>It must be noted that:</p>
+
+<ul>
+    <li>it is possible to enter only part of the name. For
+        instance, keying &quot;aba&quot; will find all the names
+        with &quot;aba&quot; inside,</li>
+    <li>the first element of the list, &quot;-- Any --&quot;, is
+        used to replace any name. It is selected easily by keying
+        the character &quot;-&quot;,</li>
+    <li>character case (upper or lower characters) is not taken
+        into account.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Date request</h5>
+
+<p>Searching by date is enabled by checking the <em>Search on
+date...</em> box. It can be done using single dates or ranges of
+dates:</p>
+
+<ul>
+    <li>by single date, when selecting <em>Day</em> in the drop
+        down list without checking the <em>Range</em> box,</li>
+    <li>by month or year, when selecting <em>Month </em>or <em>Year
+        </em>in the drop down list without checking the <em>Range</em>
+        box,</li>
+    <li>by range of days, months or years, when checking the <em>Range</em>
+        box.</li>
+</ul>
+
+<p><img src="DBreqDate.gif" width="308" height="79"></p>
+
+<p>The date or range is reminded between parentheses.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Result request</h5>
+
+<p>Searching by result is enabled by checking the <em>Search on
+result...</em> box. It is done:</p>
+
+<ul>
+    <li>by giving the color of the winner,</li>
+    <li>by giving the kind of win (by points, by resignation ...)
+        and the exact, lower or higher number of points.</li>
+</ul>
+
+<p><img src="DBReqResult.gif" width="309" height="57"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Unformatted requests</h5>
+
+<p>Searching by unformatted requests is enabled by checking the <em>More...</em>
+box. This opens a configurable list of criteria. </p>
+
+<p><img src="DBReqAllProp1.gif" width="309" height="79"></p>
+
+<p>The criteria are selected in the drop down list in the left
+side. Values are entered in the right edit box.</p>
+
+<p><img src="DBReqAllProp2.gif" width="309" height="77"></p>
+
+<p>It is possible to add criteria by clicking on the <em>Add</em>
+button. </p>
+
+<p><img src="DBReqAllProp3.gif" width="309" height="102"> <img
+src="DBReqAllProp4.gif" width="309" height="98"></p>
+
+<p>The <em>Remove</em> button removes the last line of the list.
+The <em>Clear</em> button clears all lines.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>SQL request</h5>
+
+<p>All the dialog boxes above construct a request in the SQL
+language (Search Query Language). It is possible to see this
+request and to modify it by checking the <em>SQL...</em> box. </p>
+
+<p><img src="../DBReqSQL.gif" width="309" height="81"></p>
+
+<p>Editing the SQL request is not necessary for current use.
+However, this enables to construct more requests (using OR for
+instance).</p>
+
+<p>Note that:</p>
+
+<ul>
+    <li>the name of the fields are the names of the SGF
+        properties,</li>
+    <li>it is always the content of the SQL box which is sent to
+        the database.</li>
+</ul>
+
+<hr>
+
+<h3><a name="SigSearch">Signature search</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The Dyer signature is made of the SGF coordinates for the
+moves 20, 40, 60, 31, 51 and 71. For instance, the 12 characters
+&quot;cgdijbdqfiod&quot; enable to find, within 40 000 games, the
+game between Cho Chikun and Kobayashi played in 1999 for the
+Kisei in Paris.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Four ways to enter a signature are available:</p>
+
+<ul>
+    <li>by entering the moves in the thumbnail of the search
+        window:</li>
+</ul>
+
+<blockquote>
+    <p><img src="..\DBSignature1.gif" width="308" height="77"></p>
+</blockquote>
+
+<ul>
+    <li>by entering the move coordinates in the <em>Moves</em>
+        edit boxes:</li>
+</ul>
+
+<blockquote>
+    <p><img src="DBSignature2.gif" width="309" height="55"></p>
+</blockquote>
+
+<ul>
+    <li>by entering the complete signature in the <em>Signature</em>
+        edit box,</li>
+    <li>by clicking on the <em>Capture</em> button, which enters
+        the six moves from the game in the current tab.</li>
+</ul>
+
+<p>It is possible to use the &quot;_&quot; character as a
+wildcard in the signature. For instance, the moves 20, 40 and 60
+are sufficient to retrieve the previously mentioned game.</p>
+
+<blockquote>
+    <p><img src="DBSignature3.gif" width="309" height="59"></p>
+</blockquote>
+
+<hr>
+</body>
+</html>

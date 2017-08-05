@@ -1,0 +1,1096 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Les options</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago - Les
+options</h1>
+
+<hr>
+
+<ol>
+    <li><img src="../Options-Goban.gif" align="absbottom"
+        width="16" height="16"> <a href="#Goban">Goban</a></li>
+    <li><img src="../Options-Moves.gif" width="16" height="16"> <a
+        href="#Mouvements">Mouvements</a></li>
+    <li><img src="../Options-Tree.gif" align="absbottom"
+        width="16" height="16"> <a href="#Arbre">Arbre de jeu</a></li>
+    <li><img src="../Options-Glasses.gif" width="16" height="16">
+        <a href="#View">Affichage</a></li>
+    <li><img src="../Options-ViewInfo.gif" align="absbottom"
+        width="16" height="16"><a href="#Preview"> Aperçus</a></li>
+    <li><img src="../Options-Layout.gif" width="16" height="16"> <a
+        href="#SideBar">Barre latérale</a></li>
+    <li><img src="../Options-Keyboard.gif" width="16" height="16">
+        <a href="#Shortcuts">Raccourcis</a></li>
+    <li><img src="../Options-Toolbar.gif" width="16" height="16">
+        <a href="#Toolbar">Barres d'outils</a></li>
+    <li><img src="../Options-Sounds.gif" width="16" height="16"> <a
+        href="#Sounds">Sons</a></li>
+    <li><img src="../Options-Files.gif" width="16" height="16"> <a
+        href="#Fichiers">Fichiers</a></li>
+    <li><img src="../Options-Navigation.gif" width="16"
+        height="16"> <a href="#Navigation">Navigation</a></li>
+    <li><img src="../Options-Database.gif" width="16" height="16">
+        <a href="#Database">Base de données</a></li>
+    <li><img src="../Options-Engine.gif" width="16" height="16"> <a
+        href="#Moteur">Moteurs de jeu</a></li>
+    <li><img src="../Options-Language.gif" width="16" height="16">
+        <a href="#Langue">Langue</a></li>
+    <li><img src="../Options-Check.gif" width="16" height="16"> <a
+        href="AdvancedOptions.htm">Options avancées</a></li>
+</ol>
+
+<p><a name="Goban"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Goban.gif" width="16" height="16">
+Options Goban</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="Board">Planche</a></h4>
+
+<blockquote>
+    <p>Sélectionne le tracé du goban en mode : </p>
+    <ul>
+        <li><em>Texture défaut,</em></li>
+        <li><em>Texture custom</em>, qui permet la sélection
+            d'une image en format BMP, JPEG, GIF ou PNG,</li>
+        <li><em>Couleur</em>, qui ouvre une fenêtre de
+            sélection de la couleur.</li>
+    </ul>
+    <p>Deux cases à cocher permettent de configurer :</p>
+    <ul>
+        <li>le tracé épais ou non des lignes externes,</li>
+        <li>l'affichage des hoshis.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="Pierres">Pierres</a></h4>
+
+<blockquote>
+    <p><img src="Stones.gif" width="334" height="70"></p>
+    <p>Permet de choisir les pierres affichées sur le goban
+    entre :</p>
+    <table border="0" cellspacing="0" width="300">
+        <tr>
+            <td width="120"><ul>
+                <li><em>Anti alias :</em></li>
+            </ul>
+            </td>
+            <td valign="top" width="50%"><em><img
+            src="../Pierre1.gif" align="absbottom" width="21"
+            height="21"></em></td>
+        </tr>
+        <tr>
+            <td width="120"><ul>
+                <li><a href="Divers.htm#Pierres"><em>Jago</em></a><em>
+                    : </em></li>
+            </ul>
+            </td>
+            <td valign="top" width="50%"><img
+            src="../Pierre3.gif" width="23" height="23"></td>
+        </tr>
+        <tr>
+            <td width="120"><ul>
+                <li><a href="Divers.htm#Pierres"><em>RubyGo</em></a><em>
+                    :</em></li>
+            </ul>
+            </td>
+            <td valign="top" width="50%"><img
+            src="..\Pierre2.gif" align="absbottom" width="21"
+            height="21"></td>
+        </tr>
+        <tr>
+            <td><ul>
+                <li>Personnalisées</li>
+            </ul>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</blockquote>
+
+<p>Les pierres personnalisées permettent d'afficher des pierres
+définies par l'utilisateur. Les pierres sont stockées en format
+PNG avec transparence. Le nom des images est constitué d'une
+racine et d'un nombre indiquant le diamètre de la pierre.</p>
+
+<blockquote>
+    <p>Pare exemple : black17.png, black19.png, white19.png, ...</p>
+</blockquote>
+
+<p>Si un deuxième nombre, il désigne une variante de l'image.</p>
+
+<blockquote>
+    <p>Par exemple : white17-1.png, white17-2.png, ...</p>
+</blockquote>
+
+<p>Notez aussi que :</p>
+
+<ul>
+    <li><strong>Drago</strong> n'utilise que des images de
+        pierres de diamètre impair.</li>
+    <li>Quand <strong>Drago</strong> doit afficher une pierre
+        d'un diamètre absent, il extrapole une image à partir
+        de l'image du plus proche diamètre supérieur.</li>
+</ul>
+
+<p><strong>Drago</strong> est installé avec les pierres de <a
+href="Divers.htm#Pierres">Sente Goban</a> comme pierre
+personnalisées par défaut.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><em><strong>Coordonnées</strong></em></h4>
+
+<blockquote>
+    <p>Sélectionne le format d'affichage des coordonnées : pas
+    d'affichage, Korschelt (A-T,1-19) ou SGF (a-s,a-s).</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Fond coordonnées</h4>
+
+<blockquote>
+    <p>Permet de sélectionner la texture ou la couleur de la
+    zone d'affichage des coordonnées :</p>
+    <ul>
+        <li><em>Texture défaut,</em></li>
+        <li><em>Texture custom</em>, qui permet la sélection
+            d'une image en format BMP, JPEG, GIF ou PNG,</li>
+        <li><em>Couleur</em>, qui ouvre une fenêtre de
+            sélection de la couleur,</li>
+        <li><em>Comme goban</em>, la texture ou la couleur du
+            goban est utilisée pour la zone des coordonnées.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Zone affichée</h4>
+
+<blockquote>
+    <p>Permet de choisir entre l'affichage du goban complet ou
+    l'affichage du quart de goban, quand c'est possible, où se
+    trouve la totalité des pierres posées ou jouées dans le
+    jeu en cours. Cette option permet d'optimiser l'affichage des
+    positions de coin. Elle n'est active que si le goban est de
+    taille 19x19.</p>
+    <p align="center"><img src="Zoom.gif" width="129"
+    height="129"></p>
+    <p align="left">Le mode d'affichage, goban entier ou zoom sur
+    le coin, est appliqué à l'affichage dans la fenêtre
+    principale, dans l'index, au mode Problème et à
+    l'impression.</p>
+</blockquote>
+
+<p><a name="Mouvements"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Moves.gif" width="16" height="16">
+Options Mouvements</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="ShowMove">Montrer dernier coup</a></h4>
+
+<blockquote>
+    <p>Détermine le mode d'affichage du dernier coup : </p>
+</blockquote>
+
+<blockquote>
+    <ul>
+        <li><em>Non</em> : pas d'affichage, </li>
+        <li><em>Avec numéro</em> : le numéro du dernier coup
+            est affiché, </li>
+        <li><em>Avec marque</em> : le dernier coup est repéré
+            avec une marque particulière,</li>
+        <li><em>Tous</em> : le numéro est affiché pour tous les
+            coups.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Niveau des variantes</h4>
+
+<blockquote>
+    <p>Détermine si les variantes affichées sont :</p>
+    <ul>
+        <li><em>Coups suivants</em> : tous les coups après le
+            coup en cours</li>
+        <li><em>Coups alternatifs</em> : le coup joué et tous
+            les coups jouables à la place de ce coup.</li>
+    </ul>
+    <p>Cette option conditionne l'affichage des marques de
+    variantes sur le goban (option suivante) et le contenu de la <a
+    href="Interface.htm#ListeDesVariantes">liste des variantes</a>.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Marquage des variantes sur le goban</h4>
+
+<blockquote>
+    <p>Détermine comment sont représentées les variantes
+    (coups suivants ou alternatifs) sur le goban. Les
+    possibilités sont :</p>
+    <ul>
+        <li><em>Aucun</em> : aucune marque n'est associée aux
+            variantes</li>
+        <li><em>Pierres fantomes</em> : les variantes sont
+            affichées comme des pierres semi - transparentes</li>
+        <li><em>Majuscules</em> : les variantes sont affichées
+            avec des lettres majuscules</li>
+        <li><em>Minuscules</em> : les variantes sont affichées
+            avec des lettres minuscules.</li>
+    </ul>
+    <p>Note</p>
+    <ul>
+        <li>Pour cacher la liste des variantes dans la barre
+            latérale, il faut utiliser l'option <em>Panels </em>de
+            l'onglet <a href="#SideBar"><em>Barre latérale</em></a>.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="NumerosDeCoups">Numéros de coups</a></h4>
+
+<blockquote>
+    <p>Permet de sélectionner le nombre de chiffres dans
+    l'affichage du numéro de coup. Si la case <em>N'afficher que
+    les deux derniers chiffres</em> n'est pas cochée, on affiche
+    le numéro de coup en entier.</p>
+</blockquote>
+
+<p><a name="Arbre"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Tree.gif" width="16" height="16">
+Options Arbre de jeu</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'arbre de jeu permet de visualiser l'arborescence des coups
+et de se déplacer facilement entre variations. Le paramétrage
+de l'arbre de jeu porte sur le fond, les pierres et la
+numérotation des coups.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Fond</h4>
+
+<blockquote>
+    <p>Détermine la texture ou la couleur de fond :</p>
+    <ul>
+        <li><em>Texture défaut,</em></li>
+        <li><em>Texture custom</em>, qui permet la sélection
+            d'une image en format BMP, JPEG, GIF ou PNG,</li>
+        <li><em>Couleur</em>, qui ouvre une fenêtre de
+            sélection de la couleur,</li>
+        <li><em>Comme goban</em>, la texture ou la couleur du
+            goban est utilisée.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Pierres</h4>
+
+<blockquote>
+    <p><img src="Stones-tree.gif" width="336" height="70"></p>
+    <p>Permet de choisir le style, comme pour le <a
+    href="#Pierres">goban</a>, et le rayon des pierres affichées
+    dans l'arbre de jeu.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Numéros de coups</h4>
+
+<blockquote>
+    <p>Détermine comment sont affichés les numéros de coups :</p>
+    <ul>
+        <li><em>Non</em> : pas d'affichage des numéros de coups</li>
+        <li><em>Sur le coté</em> : les numéros de coups de la
+            branche en cours sont affichés sur le côté gauche
+            de l'arbre de jeu.</li>
+        <li><em>Sur les pierres</em> : les numéros de coups sont
+            affichés sur les pierres.</li>
+    </ul>
+</blockquote>
+
+<p>La visibilité de l'arbre de jeu est contrôlée dans l'onglet
+<a href="#SideBar"><em>Barre latérale</em>.</a></p>
+
+<p><font size="2">Note : L'affichage des numéros de coups prend
+en compte la propriété MN (Move number).</font></p>
+
+<p><a name="View"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Glasses.gif" width="16" height="16">
+Options Affichage</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Fond fenêtre</h4>
+
+<p>Permet de sélectionner la texture ou la couleur de la zone
+d'affichage de la fenêtre (sous le goban) :</p>
+
+<ul>
+    <li><em>Texture défaut,</em></li>
+    <li><em>Texture custom</em>, qui permet la sélection d'une
+        image en format BMP, JPEG, GIF ou PNG,</li>
+    <li><em>Couleur</em>, qui ouvre une fenêtre de sélection de
+        la couleur,</li>
+    <li><em>Comme goban</em>, la texture ou la couleur du goban
+        est utilisée.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Origine de l'éclairage</h4>
+
+<p>Permet de choisir l'origine de la lumière comme étant :</p>
+
+<ul>
+    <li>en haut à gauche,</li>
+    <li>en haut à droite.</li>
+</ul>
+
+<p>Ceci a une influence sur les pierres posées sur le goban ou
+affichées dans l'arbre de jeu.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Apparence des menus et barres d'outils</h4>
+
+<p>Cette option permet de configurer l'apparence de l'interface
+en sélectionnant un style dans un menu déroulant. Ce style ne
+s'applique qu'aux menus et aux barres d'outils.</p>
+
+<p><a name="Preview"></a></p>
+
+<hr>
+
+<h2><img src="../Options-ViewInfo.gif" width="16" height="16">
+Options Aperçus</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'onglet <em>Aperçus</em> permet de configurer :</p>
+
+<ul>
+    <li>dans la vue des informations de jeu :</li>
+</ul>
+
+<blockquote>
+    <p>- les colonnes affichées,</p>
+    <p>- le nombre maximal de lignes au-delà duquel le tri des
+    colonnes est inhibé pour éviter un temps d'attente trop
+    long,</p>
+</blockquote>
+
+<ul>
+    <li>dans la vue des vignettes<p>- le diamètre des pierres,
+        ce qui impose la taille des vignettes.</p>
+    </li>
+</ul>
+
+<p><a href="ViewIndex.htm">Plus sur les vues et les index...</a></p>
+
+<p><a name="SideBar"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Layout.gif" width="16" height="16">
+Options Barre latérale</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Panels</h4>
+
+<p>La barre latérale peut contenir plusieurs boîtes d'affichage
+(panels) dont la visibilité est optionnelle : </p>
+
+<ul>
+    <li>les informations de jeu</li>
+    <li>les propriétés de temps</li>
+    <li>le nom du noeud en cours</li>
+    <li>la liste des variations</li>
+    <li>l'arbre de jeu</li>
+    <li>les commentaires</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<table border="0" width="100%">
+    <tr>
+        <td width="50%">L'onglet <em>Barre latérale</em> permet
+        de contrôler la visibilité de ces six boîtes. Chacune
+        de ces boîtes peut être : <ul>
+            <li>Toujours visible, si elle est cochée dans la
+                liste <em>Toujours visible.</em></li>
+            <li>Affichée seulement si nécessaire (la partie en
+                cours contient des informations à afficher dans
+                la boîte) si elle est cochée dans la liste <em>Visible
+                si besoin.</em></li>
+            <li>Toujours invisible si elle n'est cochée dans
+                aucune case.</li>
+        </ul>
+        </td>
+        <td width="50%"><img src="SideBarPanes.gif" width="311"
+        height="139"></td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Informations de jeu</h4>
+
+<p>Les données affichées dans la boite Informations de jeu de
+la barre latérale sont sélectionnées et formatées avec une
+chaine de format utilisant les balises suivantes :</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="5%">\PB</td>
+        <td width="28%">Joueur Noir</td>
+        <td width="5%">\BT</td>
+        <td width="25%">Equipe Noir</td>
+        <td width="5%">\PC</td>
+        <td width="28%">Lieu</td>
+    </tr>
+    <tr>
+        <td width="5%">\PW</td>
+        <td width="28%">Joueur Blanc</td>
+        <td width="5%">\WT</td>
+        <td width="25%">Equipe Blanc</td>
+        <td width="5%">\RE</td>
+        <td width="28%">Résultat</td>
+    </tr>
+    <tr>
+        <td width="5%">\BR</td>
+        <td width="28%">Niveau Noir</td>
+        <td width="5%">\DT</td>
+        <td width="25%">Date</td>
+        <td width="5%">\GN</td>
+        <td width="28%">Nom de la partie</td>
+    </tr>
+    <tr>
+        <td width="5%">\WR</td>
+        <td width="28%">Niveau Blanc</td>
+        <td width="5%">\EV</td>
+        <td width="25%">Evénement</td>
+        <td width="5%">\KM</td>
+        <td width="28%">Komi</td>
+    </tr>
+</table>
+
+<p>Le formatage est assurée par les deux balises \n pour le saut
+de ligne et \t pour la tabulation. </p>
+
+<p><img src="GameInfoSettings.gif" width="421" height="56"></p>
+
+<p>Par exemple, le format &quot;<font size="2" face="Courier New">\PB
+\BR (B)\n\PW \WR (W)\n\PC, \DT\n\RE</font>&quot; pourrait être
+interprété en :</p>
+
+<p><img src="GameInfoText.gif" width="142" height="69"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Images des joueurs</h4>
+
+<p>La boite Informations de jeu peut afficher optionnellement
+l'image des joueurs de la partie en cours. Le répertoire des
+images est initialisé avec le répertoire d'installation qui
+contient presque 200 images.</p>
+
+<p><img src="GameInfoPlayers.gif" width="400" height="57"></p>
+
+<p>Pour afficher une image, son nom doit commencer par le nom du
+joueur tel qu'il est stocké dans le fichier de la partie en
+cours. Si plusieurs images commencent par le nom du joueur, une
+des images est choisie aléatoirement.</p>
+
+<p>Ce répertoire contient un fichier <font size="2"
+face="Courier New">Synonyms.txt</font> qui permet de gérer les
+cas où un joueur est connu sous plusieurs noms. Par exemple, le
+fichier installé contient :</p>
+
+<p><font size="2" face="Courier New">[Players]<br>
+Fujisawa Shuko=Fujisawa Hideyuki </font></p>
+
+<p>Le nom à gauche ne fait pas partie des noms d'images, mais
+l'image du joueur sera affichée si un fichier qui commence par
+le nom à droite est présent. En cas de besoin, il suffit de
+rajouter des équivalences.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="Fontes des commentaires">Fontes des commentaires</a></h4>
+
+<p>La boîte d'édition <em>Taille</em> permet de contrôler la
+taille de la fonte utilisée pour l'affichage des commentaires.</p>
+
+<p><a name="Shortcuts"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Keyboard.gif" width="16" height="16">
+Options Raccourcis</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Cette boîte de dialogue permet de configurer les raccourcis
+clavier. Ceux-ci peuvent être associés à toutes les commandes
+disponibles dans l'interface.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Pour créer un raccourci, il faut :</p>
+
+<ul>
+    <li>sélectionner une catégorie de commandes (Fichier,
+        Edition, ...),</li>
+    <li>sélectionner une des commandes de la catégorie,</li>
+    <li>cliquer dans la boîte de saisie puis entrer la séquence
+        de touches souhaitées,</li>
+    <li>cliquer sur le bouton <em>Affecter</em> pour valider
+        l'association du raccourci et de la commande.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Lorsqu'un raccourci est déjà utilisé par une commande, ceci
+est rappelé à côté de la boîte de saisie.</p>
+
+<blockquote>
+    <p><img src="Shortcut.gif" width="275" height="42"></p>
+</blockquote>
+
+<p>Après validation, une éventuelle association avec une autre
+commande est perdue. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les combinaisons de touches suivantes sont permises :</p>
+
+<ul>
+    <li>les touches de fonctions, les touches spéciales de
+        déplacement ou d'édition (Droite, Gauche, ...),</li>
+    <li>n'importe quelle touche précédée d'une combinaison des
+        touches Ctrl, Alt et Maj.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Pour supprimer un raccourci, il faut :</p>
+
+<ul>
+    <li>sélectionner une catégorie de commandes (Fichier,
+        Edition, ...),</li>
+    <li>sélectionner une des commandes de la catégorie,</li>
+    <li>cliquer sur le bouton <em>Effacer</em> pour supprimer
+        l'association du raccourci et de la commande.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les créations et suppressions de raccourcis ne sont
+définitivement validées qu'après avoir cliqué le bouton <em>Ok</em>
+de la boîte de dialogue Options.</p>
+
+<p><a name="Toolbar"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Toolbar.gif" width="16" height="16">
+Options Barres d'outils</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'<a href="Interface.htm#BarreOutils">interface</a> comporte
+quatre barres d'outils qui peuvent :</p>
+
+<ul>
+    <li>être accrochées sur n'importe quel bord, ou laissées
+        flottantes,</li>
+    <li>recevoir un bouton outil pour toute les commandes
+        disponibles dans l'interface.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Pour ajouter un bouton à une barre d'outils, il faut :&nbsp;</p>
+
+<ul>
+    <li>sélectionner une liste de commandes (partie gauche) et
+        une barre d'outils (partie droite)</li>
+    <li>sélectionner une commande dans la liste de commandes</li>
+    <li>tirer et lacher la commande à la position voulue dans la
+        barre d'outils ...</li>
+    <li>... ou sélectionner la position dans la barre d'outils
+        où doit s'insérer la commande et cliquer sur le bouton <img
+        src="../BtAddButton.gif" align="absbottom" width="23"
+        height="22">.</li>
+</ul>
+
+<blockquote>
+    <p><font size="1"><img src="ToolbarSettings.gif" width="340"
+    height="113"></font></p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Pour enlever un bouton à une barre d'outils, il faut :</p>
+
+<ul>
+    <li>sélectionner une barre d'outils</li>
+    <li>sélectionner une commande dans la barre d'outils</li>
+    <li>tirer et lacher la commande dans la liste de commandes
+        ...</li>
+    <li>... ou utiliser le bouton <img src="../BtDelButton.gif"
+        align="absbottom" width="23" height="22">.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Note : Le nom donné aux barres d'outils (&quot;Fichier&quot;,
+&quot;Edition&quot;, ...) est indicatif et n'impose pas de
+restriction sur le choix des boutons.</p>
+
+<p><a name="Sounds"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Sounds.gif" width="16" height="16">
+Options Sons</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les sons sont activés ou désactivés selon l'état de la
+case à cocher <em>Activer les sons</em>.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Configuration des sons</h4>
+
+<p>Pour chacun des événements possédant un son, il est
+possible de définir si :</p>
+
+<ul>
+    <li>le son n'est pas émis,</li>
+    <li>le son est émis est le son par défaut,</li>
+    <li>le son est choisi par l'utilisateur. Une boîte de
+        dialogue permet alors de sélectionner un fichier WAV
+        pour l'événement.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Dans la version courante, un son est associé aux événements
+suivants :</p>
+
+<ul>
+    <li>pose d'une pierre sur le goban,</li>
+    <li>pose d'une pierre par le moteur de jeu,</li>
+    <li>pose d'un coup invalide.</li>
+</ul>
+
+<p><a name="Fichiers"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Files.gif" width="16" height="16">
+Options Fichiers</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><strong><i>Associer avec les types de fichiers suivants...</i></strong></p>
+
+<p>Cette option permet d'associer <strong>Drago</strong> avec les
+fichiers de types sélectionnés. Ceci permet d'ouvrir un fichier
+avec <strong>Drago</strong> en double cliquant sur celui-ci dans
+l'explorateur de fichiers.</p>
+
+<p>Lorsqu'un type de fichier est désélectionné, l'association
+est annulée mais une précédente association n'est pas
+restaurée.</p>
+
+<p>Notez également que les éventuelles associations de fichiers
+sont annulées en cas de désinstallation mais que les
+éventuelles associations précédentes ne sont pas restaurées.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Démarrage</h4>
+
+<p><i>Démarrer avec derniers fichiers</i></p>
+
+<blockquote>
+    <p>A l'ouverture de <b>Drago</b>, les derniers fichiers
+    ouverts sont rechargés si la case est cochée.</p>
+</blockquote>
+
+<p><i>Démarrer avec dernier coup</i></p>
+
+<blockquote>
+    <p>A l'ouverture de <b>Drago</b>, si cette option et la
+    précédente sont activées, les derniers fichiers ouverts
+    sont rechargés et les positions au moment de la fermeture
+    des fichiers sont restaurées.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Propriétés</h4>
+
+<p><em>Sauver avec 10 mouvements par ligne</em></p>
+
+<blockquote>
+    <p>Si cette option est activée, les fichiers sont sauvés en
+    stockant dix mouvements par ligne, un coup par ligne dans le
+    cas contraire. </p>
+</blockquote>
+
+<p><i>Nouveau fichier avec propriétés SGF complètes</i></p>
+
+<blockquote>
+    <p>Si cette option est activée, les propriétés GM (Game),
+    FF (FileFormat), AP (Application), SZ (Size) sont stockées
+    dans un fichier à sa création. Si l'option est inactive,
+    seule la propriété SZ est stockée si elle est différente
+    de la valeur par défaut (19).</p>
+</blockquote>
+
+<p><i>Changer joueur avec propriété SGF</i></p>
+
+<blockquote>
+    <p>Si cette option est activée, la commande <i>Edition/Joueur</i>
+    stocke la propriété PL (Player) dans le fichier en cours.</p>
+</blockquote>
+
+<p><em>Compresser les listes d'intersections</em></p>
+
+<blockquote>
+    <p>Cette option permet de remplacer les listes
+    d'intersections par des listes de rectangles plus compactes.</p>
+</blockquote>
+
+<p><em>Accepter les noms de propriété longs</em></p>
+
+<blockquote>
+    <p>Cette option permet de contrôler le chargement de
+    fichiers avec des noms de propriétés de plus de deux
+    caractères. Si cette option est activée, ces fichiers
+    peuvent être chargés, sinon ils sont refusés.</p>
+</blockquote>
+
+<p><a href="FormatSGF.htm">Plus sur les propriétés SGF ...</a></p>
+
+<p><a name="Navigation"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Navigation.gif" width="16" height="16">
+Options Navigation</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Objectifs de déplacement</h4>
+
+<p>Permet de définir les objectifs pour les commandes <em>Objectif
+précédent</em> <img src="../BtPrevTarget.gif" align="absbottom"
+width="23" height="22"> et <em>Objectif suivant</em> <img
+src="../BtNextTarget.gif" align="absbottom" width="32"
+height="22">. Un objectif pour ces commandes est une combinaison
+des endroits suivants dans l'arbre de jeu :</p>
+
+<ul>
+    <li>le N-ième coup avant ou après, N pouvant être défini,</li>
+    <li>les débuts de variantes (coups avec plusieurs suites
+        possibles),</li>
+    <li>les fins de variantes,</li>
+    <li>les coups possédant un commentaire,</li>
+    <li>les coups possédant une <a
+        href="Insertion.htm#InformationsDeFigures">indication de
+        figure</a>,</li>
+    <li>les coups possédant une <a
+        href="Insertion.htm#ProprietesAnnotation">annotation</a>.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Avance automatique</h4>
+
+<p>La commande <em>Avance automatique</em> <img
+src="../BtAutoReplay.gif" align="absbottom" width="32"
+height="22"> permet d'enchainer automatiquement les coups avec
+les options décrites ci-après.</p>
+
+<p><em>Temps entre deux mouvements</em></p>
+
+<blockquote>
+    <p>Un curseur permet de sélectionner un temps d'attente
+    entre deux coups compris entre 0 et 10 secondes.</p>
+</blockquote>
+
+<p><em>Utiliser les propriétés de temps si elles sont
+disponibles</em></p>
+
+<blockquote>
+    <p>Certains éditeurs de parties ou client Internet
+    sauvegardent le temps restant aux joueurs après chaque coup.
+    Quand cette option est cochée, l'avance automatique utilise
+    cette information pour rejouer la partie au rythme avec
+    lequel elle a été jouée.</p>
+</blockquote>
+
+<p><em>S'arrêter aux objectifs de déplacement</em></p>
+
+<blockquote>
+    <p>Quand cette option est cochée, l'avance automatique
+    s'arrête quand elle atteint un des points définis par les
+    objectifs de déplacement.</p>
+    <p>Quand l'option n'est pas cochée, l'avance automatique
+    s'arrête en fin de partie ou lorsque la commande est
+    annulée.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<p><a href="ModeNavigation.htm">Plus sur le mode Navigation ...</a></p>
+
+<p><a name="Database"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Database.gif" width="16" height="16">
+Options Base de données</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les options disponibles pour la configuration de la gestion
+des bases de données concernent :</p>
+
+<ul>
+    <li>le <a href="#DBResources">contrôle des ressources</a>
+        utilisées,</li>
+    <li>la <a href="#DBCreation">création</a> des bases de
+        données,</li>
+    <li>la <a href="#DBPattern">recherche par position</a>.</li>
+</ul>
+
+<p>Le bouton <img src="DBDefault.gif" align="absbottom"
+width="73" height="15"> permet de restaurer les valeurs par
+défaut.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="DBResources">Contrôle des ressources</a></h3>
+
+<p>Le paramètre Cache contrôle la mémoire utilisée en
+création et en recherche. Il est exprimé dans une unité propre
+au gestionnaire de base de données utilisé.</p>
+
+<p><img src="../DBCache.gif" width="301" height="33"></p>
+
+<p>Il est en principe possible de baisser la valeur par défaut
+pour diminuer la quantité de mémoire utilisée.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="DBCreation">Options de création des bases de
+données</a></h3>
+
+<h5>Utilisation des algorithmes étendus pour la recherche</h5>
+
+<p><img src="DBExtended.gif" width="260" height="18"></p>
+
+<p>Par défaut, la création d'une base de données ne crée pas
+les données nécessaires pour l'ensemble des algorithmes de
+recherche disponibles. Ceci permet de diminuer le temps de
+création au prix de temps de recherche supérieurs dans certains
+cas.</p>
+
+<h5>Traitement des variantes</h5>
+
+<p>Cette case à cocher permet de stocker ou non les données
+extraites des variantes :</p>
+
+<p><img src="DBVariations.gif" width="268" height="17"></p>
+
+<h5>Traitement des doublons</h5>
+
+<p>Les doublons (parties identiques) peuvent être seulement
+détectés en fonction de leurs <a href="Database.htm#SigSearch">signatures</a>
+ou bien de leurs positions finales suivant l'état des boutons
+radios suivants :</p>
+
+<p><img src="DBDetectDup.gif" width="268" height="50"></p>
+
+<p>Une fois détectés, les doublons peuvent être ignorés ou
+stockés dans la base en fonction de la case à cocher suivante :</p>
+
+<p><img src="DBIgnoreDup.gif" width="268" height="17"></p>
+
+<p>Comme les doublons, les jeux dans lesquels est trouvée une
+erreur de format SGF peuvent être ignorés ou non. Lorsqu'ils ne
+sont pas ignorés, la création ignore malgré tout le contenu du
+jeu après l'erreur rencontrée.</p>
+
+<p><img src="DBIgnoreErr.gif" width="268" height="17"></p>
+
+<p>Des messages spécifiques pendant la création permettent
+d'identifier les doublons et les jeux dans lesquels est trouvée
+une erreur de format SGF.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="DBPattern">Options de recherche par position</a></h3>
+
+<p>En plus des options disponibles dans la fenêtre de recherche,
+il est possible de préciser pour une recherche par position :</p>
+
+<ul>
+    <li>si la recherche doit se faire aussi dans les variantes,</li>
+    <li>si la recherche ne doit pas considérer les positions
+        trouvées après un numéro de coup donné (1000 par
+        défaut pour considérer les jeux entiers) :</li>
+</ul>
+
+<p><img src="DBSeachOptions.gif" width="338" height="81"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p><a href="Database.htm">Plus sur les bases de données ...</a></p>
+
+<p><a name="Moteur"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Engine.gif" width="16" height="16">
+Options Moteurs de jeu</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><strong>Drago</strong> permet de déclarer plusieurs moteurs
+de jeu et permet de les sélectionner facilement pour jouer ou
+pour les fonctions d'analyse.</p>
+
+<p>La déclaration d'un moteur de jeu se fait dans l'onglet
+&quot;Moteurs de jeu&quot; en deux étapes : Déclarer un des
+moteurs de jeu prédéfinis, puis déclarer son chemin.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Déclaration d'un moteur de jeu prédéfini</h4>
+
+<p>On choisit un des moteurs prédéfinis en pressant la touche
+Ajouter. On peut alors sélectionner un des moteurs dans une
+liste. Six moteurs sont actuellement prédéfinis : Aya,
+DariushGTP, Fuego, Go169, Gnu Go, Mogo.</p>
+
+<p><img src="SelectEngine.gif" width="349" height="100"></p>
+
+<p>En validant ce choix, on peut demander à ouvrir le site de
+téléchargement du moteur puis l'installer si l'option
+&quot;Ouvrir le navigateur internet, télécharger et
+installer&quot; est cochée.</p>
+
+<p><img src="DownloadEngine.gif" width="347" height="53"></p>
+
+<p>Si le moteur de jeu que vous voulez utiliser n'est pas dans la
+liste, éditez le fichier <font size="2" face="Courier New">engines.config</font>
+dans le répertoire d'installation et ajoutez la description du
+moteur.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Déclaration du chemin du moteur de jeu</h4>
+
+<p>Une fois le moteur ajouté à la liste, il faut déclarer son
+chemin dans la boite de saisie &quot;Chemin&quot;.</p>
+
+<p><img src="EnginePath.gif" width="350" height="42"></p>
+
+<p>Quand ces deux opérations sont effectuées, le moteur de jeu
+est recensé dans l'interface et toutes les commandes ou options
+nécessaires pour définir le niveau, les règles utilisées, la
+gestion du temps ou les commandes d'analyse sont connues de <strong>Drago</strong>.
+Les fonctions disponibles varient suivant les moteurs et sont
+affichées dans les deux boites &quot;Fonctions de jeu&quot; et
+&quot;Fonctions d'analyse&quot;.</p>
+
+<p><img src="GameFeatures.gif" width="179" height="62"> <img
+src="AnalysisFeatures.gif" width="179" height="66"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Trois possibilités complémentaires sont également
+disponibles à ce niveau :</p>
+
+<ul>
+    <li>changer le nom avec lequel le moteur est connu dans <strong>Drago</strong>.
+        Ce nom est initialisé par le nom du moteur suivi de la
+        version après la sélection du chemin.</li>
+    <li>définir l'usage du moteur : jouer et/ou associer aux
+        fonctions d'analyse. Le moteur utilisé pour jouer peut
+        aussi être modifié dans la fenêtre de lancement d'une
+        partie.</li>
+    <li>définir des options supplémentaires pour la ligne de
+        commande de lancement du moteur de jeu.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p><a href="ModeJeu.htm">Plus sur le mode Jeu...</a></p>
+
+<p><a name="Langue"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Language.gif" width="16" height="16">
+Options Langue</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Permet de sélectionner la langue pour tous les textes et
+messages de l'interface. L'ajout de traductions est possible.</p>
+
+<hr>
+
+<h2><img src="../Options-Check.gif" width="16" height="16">
+Options Avancées</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><a href="AdvancedOptions.htm">Plus sur les options
+avancées...</a></p>
+
+<hr>
+</body>
+</html>

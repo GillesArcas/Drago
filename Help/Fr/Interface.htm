@@ -1,0 +1,529 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - L'interface</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+L'interface utilisateur</h1>
+
+<hr>
+
+<ol>
+    <li><a href="#BarreDeTitre">Barre de titre</a></li>
+    <li><a href="#Redimensionnement">Redimensionnement</a></li>
+    <li><a href="#BarreOutils">Barres d'outils</a></li>
+    <li><a href="#Barre d'onglets">Onglets et vues</a></li>
+    <li><a href="#SideBar">Barre latérale</a></li>
+    <li><a href="#GameInformation">Informations de jeu</a></li>
+    <li><a href="#Timing">Timing</a></li>
+    <li><a href="#ListeDesVariantes">Liste des variantes</a></li>
+    <li><a href="#Arbre de jeu">Arbre de jeu</a></li>
+    <li><a href="#Zones_de_Saisie">Noms de noeud et commentaires</a></li>
+    <li><a href="#Popup_Marques">Menu déroulant de sélection
+        des marques</a></li>
+    <li><a href="#Passes et selection du joueur">Passes et
+        sélection du joueur</a></li>
+    <li><a href="#Barre_d_etat">Barre d'état</a></li>
+    <li><a href="#Deplacements">Déplacements dans un jeu,
+        molette de la souris</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="BarreDeTitre">Barre de titre</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La barre de titre contient le nom du fichier ou du répertoire
+en cours :</p>
+
+<p><img src="../Interface-TitleBar1.gif" width="402" height="30"></p>
+
+<p>Pour un répertoire, le chemin et le nom de fichier sont
+séparés par un tiret :</p>
+
+<p><img src="../Interface-TitleBar2.gif" width="406" height="29"></p>
+
+<p>Si le fichier a été modifié et non sauvegardé, le nom de
+fichier est suivi par l'indicateur de modification '*' :</p>
+
+<p><img src="../Interface-TitleBar3.gif" width="279" height="30"></p>
+
+<hr>
+
+<h2><a name="Redimensionnement">Redimensionnement</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La fenêtre principale peut être redimensionnée avec les
+actions suivantes :</p>
+
+<ul>
+    <li>Tirer le bord droit vers la droite augmente la zone de
+        commentaires. </li>
+    <li>Pousser le bord droit vers la gauche diminue la zone de
+        commentaires. Si la taille minimum de la zone de
+        commentaires est atteinte, diminue la zone réservée au
+        goban. </li>
+    <li>Tirer ou pousser tous les autres bords et coins agit sur
+        la taille de la zone réservée au goban. </li>
+</ul>
+
+<p>De plus, les zones goban et commentaires sont séparées par
+une barre de redimensionnement permettant de partager la fenêtre
+entre ces deux zones :</p>
+
+<blockquote>
+    <p><img src="Interface-Redim.gif" width="168" height="84"></p>
+</blockquote>
+
+<hr>
+
+<h2><a name="BarreOutils">Barres d'outils</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'interface comporte quatre barres d'outils qui peuvent :</p>
+
+<ul>
+    <li>être accrochées sur n'importe quel bord, ou laissées
+        flottantes,</li>
+    <li>recevoir un bouton outil pour toutes les commandes
+        disponibles dans l'interface.</li>
+</ul>
+
+<p>A l'installation, la barre d'outils a l'aspect suivant :</p>
+
+<p><img src="../Toolbars1.gif" width="758" height="31"></p>
+
+<p>Les barres d'outils peuvent être :</p>
+
+<ul>
+    <li>déplacées en attrapant la barre de déplacement,</li>
+    <li>accrochées à un des quatre bords,</li>
+    <li>laissées flottantes,</li>
+    <li>redimensionnées quand elles sont flottantes.</li>
+</ul>
+
+<table border="0" width="100%" bgcolor="#F5F5F5">
+    <tr>
+        <td align="center"><img src="../Toolbars2.gif"
+        width="357" height="41"></td>
+        <td align="center"><img src="../Toolbars3.gif" width="53"
+        height="137"></td>
+        <td align="center"><img src="../Toolbars4.gif"
+        width="140" height="99"></td>
+    </tr>
+</table>
+
+<p>La position des barres d'outils est mémorisée et rétablie
+à chaque ouverture de <strong>Drago</strong>.</p>
+
+<ol>
+    <li><a href="Options.htm#Toolbar">Plus sur la configuration
+        des boutons ...</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Barre d'onglets">Onglets et vues</a> </h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'interface permet de charger plusieurs fichiers et passer de
+l'un à l'autre par l'intermédiaire de la barre d'onglets:</p>
+
+<p><img src="../TabBar1.gif" width="357" height="32"></p>
+
+<p>Le nombre d'onglets est limité seulement par les ressources
+du système. Les onglets permettent de créer un nombre
+indéterminé de session d'édition, de résolution de
+problèmes, de moteur de jeu, etc.</p>
+
+<p>Chacun des onglets porte un graphisme permettant d'identifier
+le mode dans lequel il se trouve :</p>
+
+<ul>
+    <li><img src="../TabNew.gif" align="absbottom" width="16"
+        height="16"> : onglet nouvellement créé, non associé
+        à un fichier, en cours d'édition,</li>
+    <li><img src="../TabFile.gif" align="absbottom" width="16"
+        height="16"> : onglet dans lequel est ouvert un fichier,</li>
+    <li><img src="../TabFolder.gif" align="absbottom" width="16"
+        height="16"> : onglet dans lequel est ouvert un
+        répertoire,</li>
+    <li><img src="../TabDatabase.gif" width="15" height="15"> :
+        onglet dans lequel se trouve une base de données,</li>
+    <li><img src="../TabTraining.gif" align="absbottom"
+        width="16" height="16"> : onglet associé à une session
+        de problèmes, de partie rejouée ou en cours de jeu avec
+        le moteur de jeu.</li>
+</ul>
+
+<p>Des menus contextuels sont ouverts lorsqu'on clic droit ou
+double clic sur la barre d'onglets. Ces menus sont décrits<a
+href="Commandes.htm#Commandes_Barre_Onglets"> ici</a>.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Chaque onglet indépendamment peut afficher trois types de vue
+:</p>
+
+<ul>
+    <li>la vue goban, sélectionnée avec le bouton <img
+        src="../BtViewBoard.gif" align="absbottom" width="23"
+        height="22">, pour éditer, naviguer, jouer et rejouer,</li>
+    <li>la vue des informations, sélectionnée avec le bouton <img
+        src="../BtViewInfo.gif" align="absbottom" width="23"
+        height="22">, pour afficher une liste d'informations pour
+        toutes les parties contenues dans l'onglet,</li>
+    <li>la vue des vignettes, sélectionnée avec le bouton <img
+        src="../BtViewNail.gif" align="absbottom" width="23"
+        height="22">, pour afficher des pages de gobans
+        miniatures des parties contenues dans l'onglet.</li>
+</ul>
+
+<ol>
+    <li><a href="ViewIndex.htm">Plus sur les vues ...</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Par défaut, chaque onglet porte un bouton de fermeture :</p>
+
+<p><img src="../TabBar2.gif" width="397" height="32"></p>
+
+<p>Ce bouton peut être supprimé avec une des <a
+href="AdvancedOptions.htm">options avancées</a>.</p>
+
+<hr>
+
+<h2><a name="SideBar">Barre latérale</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La barre latérale regroupe plusieurs zones d'affichage
+relatives à la partie et au mode d'utilisation en cours. En
+cliquant sur la zone supérieure, la position de la barre
+latérale peut être modifiée :</p>
+
+<table border="0" width="33%" bgcolor="#F5F5F5">
+    <tr>
+        <td align="center"><img src="SideBarGripper.gif"
+        width="246" height="87"></td>
+    </tr>
+</table>
+
+<p>La barre latérale peut être :</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="33%"><ul>
+            <li>positionnée à droite :</li>
+        </ul>
+        </td>
+        <td width="33%"><ul>
+            <li>positionnée à gauche :</li>
+        </ul>
+        </td>
+        <td width="34%"><ul>
+            <li>laissée flottante sur le bureau :</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" width="33%" bgcolor="#F5F5F5"><img
+        src="../SideBarRight.jpg" width="210" height="175"></td>
+        <td align="center" width="33%" bgcolor="#F5F5F5"><img
+        src="../SideBarLeft.jpg" width="210" height="172"></td>
+        <td align="center" width="34%" bgcolor="#F5F5F5"><img
+        src="../SideBarFloat.jpg" width="210" height="191"></td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La barre latérale peut être redimensionnée en déplaçant
+la barre de redimensionnement verticale.</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="33%">En cliquant au milieu de la barre de
+        redimensionnement, la barre latérale peut également
+        être réduite :</td>
+        <td width="33%">Les informations sur le coup (numéro,
+        prochain joueur, nombre de prisonniers) sont alors
+        affichées dans la barre de statut.</td>
+        <td width="34%">La barre latérale redevient visible en
+        recliquant sur sa partie centrale.</td>
+    </tr>
+    <tr>
+        <td align="center" width="33%" bgcolor="#F5F5F5"><img
+        src="../SideBarHide.gif" width="45" height="113"></td>
+        <td align="center" width="33%" bgcolor="#F5F5F5"><img
+        src="../NodeInfoInStatusBar.gif" width="176" height="49"></td>
+        <td align="center" width="34%" bgcolor="#F5F5F5"><img
+        src="SideBarShow.gif" width="36" height="115"></td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<table border="0">
+    <tr>
+        <td width="66%">La visibilité de six des zones
+        d'affichage est optionnelle. Ce sont les zones
+        d'affichage pour :<ul>
+            <li>les informations de jeu</li>
+            <li>les propriétés de temps </li>
+            <li>le nom du noeud en cours </li>
+            <li>la liste des variations</li>
+            <li>l'arbre de jeu</li>
+            <li>les commentaires </li>
+        </ul>
+        <p>La visibilité par défaut de ces six zones est
+        contrôlée par les options de l'onglet <a
+        href="Options.htm#Panels"><em>Barre latérale</em></a> du
+        menu <em>Options</em>. Il est aussi possible de demander
+        ou empêcher l'affichage d'une des zones pour l'onglet en
+        cours en cliquant sur le bouton <img
+        src="SideBarButton.gif" align="absmiddle" width="63"
+        height="49">.</p>
+        <p>La liste des variations, l'arbre de jeu et la boîte
+        de commentaires sont séparés par une barre de
+        redimensionnement permettant d'ajuster leurs tailles.
+        D'autre part, l'ordre de ces zones peut être modifiée
+        par tirer-déposer.</p>
+        </td>
+        <td align="center" width="34%" bgcolor="#F5F5F5"><img
+        src="SideBar.gif" width="143" height="300"></td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="GameInformation">Informations de jeu</a></h3>
+
+<p>Une des zones permet d'afficher les informations de jeu
+(joueurs, niveaux, date, ...) si elles sont présentes dans la
+partie en cours. Elle permet également d'afficher les images des
+joueurs. Le contenu de cette zone est configurable dans l'onglet <a
+href="Options.htm#SideBar"><em>Barre latérale</em></a> de la
+fenêtre d'options.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Timing">Propriétés de temps</a></h3>
+
+<p>Une des zones permet d'afficher les propriétés de timing
+(temps restant et pierres de byo-yomi). Les propriétés de
+timing sont éditables dans le <a
+href="Insertion.htm#Informations de timing">panel <em>Timing</em>
+du menu <em>Edition/Insérer</em></a>.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="ListeDesVariantes">Liste des variantes</a></h3>
+
+<p>La liste des variantes contient soit la liste des coups
+suivants, soit la liste des coups possibles au niveau en cours,
+selon la valeur des options de l'onglet <em>Mouvements</em> du
+menu <em>Options</em>.</p>
+
+<ol>
+    <li><a href="ModeEdition.htm#EditionSequenceDeJeu">Plus sur
+        l'édition des coups suivants et alternatifs...</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Arbre de jeu">Arbre de jeu</a></h3>
+
+<p>L'arbre de jeu permet de visualiser et de se déplacer parmi
+les variantes d'un jeu. Cliquer sur une pierre permet de se
+positionner sur la position correspondante.</p>
+
+<blockquote>
+    <p><img src="../Tree.gif" width="148" height="91"></p>
+</blockquote>
+
+<p>Des points de suspension sont affichés sur les pierres si un
+commentaire ou une marque sont associés au coup correspondant.</p>
+
+<ol>
+    <li><a href="ModeNavigation.htm#Déplacements dans un jeu">Plus
+        sur les déplacements dans un jeu ...</a></li>
+    <li><a href="Options.htm#SideBar">Plus sur la visibilité de
+        l'arbre de jeu ...</a></li>
+    <li><a href="Options.htm#Arbre">Plus sur les options de
+        l'arbre de jeu ...</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Zones_de_Saisie">Noms de noeud et commentaire</a>s</h3>
+
+<p>L'affichage et la saisie des noms de noeud et des commentaires
+pour le coup ou la position courante se font dans les deux zones
+associées sur le coté droit de l'interface. Si ces zones sont
+cachées, en fonction des options de l'onglet <a
+href="Options.htm#Panels"><em>Barre latérale</em></a> du menu <em>Options</em>,
+il est possible de saisir les noms de noeud et les commentaires
+avec le dialogue <a href="Insertion.htm"><em>Edition/Insérer.. </em></a><em>.</em></p>
+
+<p>Le nom du noeud permet donner une description concise du coup
+ou de la position courante, le commentaire n'est pas limité en
+taille.</p>
+
+<p>Une <a href="Options.htm#Fontes des commentaires">option</a>
+permet de spécifier la taille de la fonte utilisée pour la
+boîte de commentaires.</p>
+
+<hr>
+
+<h2><a name="Popup_Marques">Menu déroulant de sélection des
+marques</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les marques permettent de repérer un coup ou une
+intersection. Elles peuvent être sélectionnées avec le menu <em>Edition/Marque</em>
+ou en cliquant sur la flèche du bouton <em>Marque</em> de la
+barre d'outils :</p>
+
+<blockquote>
+    <p><img src="Interface-MenuMarkup.gif" width="109"
+    height="67"></p>
+</blockquote>
+
+<hr>
+
+<h2><a name="Passes et selection du joueur">Passes et sélection
+du joueur</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>En cours d'édition d'une partie :</p>
+
+<ul>
+    <li>Le joueur peut être sélectionné avec le menu <em>Edition/Joueur</em></li>
+    <li>Un coup passe est inséré avec le menu <em>Edition/Insérer
+        passe</em></li>
+</ul>
+
+<blockquote>
+    <p><img src="Interface-JoueurPasse.gif" width="301"
+    height="63"></p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Au <a href="ModeJeu.htm#Lancement">démarrage d'une partie</a>
+avec le moteur de jeu :</p>
+
+<ul>
+    <li>La couleur jouée par le moteur de jeu est sélectionnée
+        dans le panel <em>Position initiale</em> (sauf en mode
+        Auto handicap)</li>
+</ul>
+
+<blockquote>
+    <p><img src="EngineColor.gif" width="244" height="26"></p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Pendant une partie avec le moteur de jeu :</p>
+
+<ul>
+    <li>Un coup passe est joué en cliquant dans le menu <em>Jouer/Passer</em></li>
+</ul>
+
+<blockquote>
+    <p><img src="Interface-JouerPasser.gif" width="203"
+    height="175"></p>
+</blockquote>
+
+<hr>
+
+<h2><a name="Barre_d_etat">Barre d'état</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La barre d'état comporte six champs :</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="420">
+    <tr>
+        <td valign="top" width="55%">le numéro du jeu en cours
+        et le nombre de jeux dans le fichier</td>
+        <td valign="top" width="45%"><img src="status1.gif"
+        width="83" height="26"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="55%">l'affichage de la position
+        du dernier coup, quand le numéro de coup devrait être
+        affiché sur une marque</td>
+        <td valign="top" width="45%"><img src="status2.gif"
+        width="71" height="26"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="55%">les propriétés SGF non
+        traitées ou inconnues</td>
+        <td valign="top" width="45%"><img src="status3.gif"
+        width="106" height="26"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="55%">un champ affichant une icone
+        qui précise le contenu du champ suivant (annotation,
+        passe, résultat d'une des fonctions d'analyse de
+        position).</td>
+        <td valign="top" width="45%"><img src="status4.gif"
+        width="27" height="25"> <img src="status4a.gif"
+        width="27" height="25"> ...</td>
+    </tr>
+    <tr>
+        <td valign="top" width="55%">l'affichage des propriétés
+        d'annotation, du passe ou d'un résultat d'analyse de
+        position</td>
+        <td valign="top" width="45%"><img src="status5.gif"
+        width="114" height="27"><p><img src="status6.gif"
+        width="90" height="27"></p>
+        </td>
+    </tr>
+    <tr>
+        <td>l'affichage des informations sur le dernier coup
+        joué quand la barre latérale est diminuée.</td>
+        <td><img src="status7.gif" width="156" height="25"></td>
+    </tr>
+</table>
+
+<ol>
+    <li><a href="Insertion.htm#ProprietesAnnotation">Plus sur
+        l'insertion des annotations...</a></li>
+    <li><a href="#SideBar">Plus sur la barre latérale...</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Deplacements">Déplacements dans un jeu, molette de
+la souris</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="ModeNavigation.htm">Plus sur les commandes de
+        navigation ...</a></li>
+</ol>
+
+<hr>
+</body>
+</html>

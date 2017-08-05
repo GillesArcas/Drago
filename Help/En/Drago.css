@@ -1,0 +1,22 @@
+/* Drago Help Styles */
+
+//body { background: url(Texture.jpg) }
+
+p, h1, h2, h3, h4, h5, li, td, a, h6 { font-family: Arial, sans-serif; color: black }
+p, li, td, h6 { font-size: 10pt }
+
+h1 { font-size: 24pt; font-weight: bold }
+h2 { font-size: 18pt; font-weight: bold }
+h3 { font-size: 12pt; font-weight: bold }
+h4 { font-size: 10pt; font-weight: bold; font-style: italic }
+h5 { font-size: 10pt; font-weight: bold }
+h6 { font-weight: normal; font-style: italic  }
+li { line-height: 150% }
+td { vertical-align: middle }
+
+a:link    { color: blue }
+a:active  { color: maroon }
+a:visited { color: blue }
+
+ul.none {list-style-type: none;}
+ol {margin-left: 0; padding-left: 0; border-left: -10; list-style-type: none; }

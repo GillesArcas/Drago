@@ -1,0 +1,162 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago -The replay mode</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Replaying games in guess mode</h1>
+
+<hr>
+
+<p>The guess mode enable to replay games stored in SGF
+collections, giving a result depending on the number of correctly
+guessed moves. <strong>Drago</strong> stores the list of the
+replayed games and the best scores for each one.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="#Lancement">Starting a game session</a></li>
+    <li><a href="#Deroulement">Description of a game session</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Lancement">Starting a game session</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>A game session is started with the <em>Replay/Replay session</em>
+menu. The options of the session are:</p>
+
+<ul>
+    <li>the selection mode of the game to be replayed,</li>
+    <li>the color to be played,</li>
+    <li>the number of moves to replay,</li>
+    <li>the number of attempts per move.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Game selection</h3>
+
+<p><b><img src="Replay-Select.gif" width="346" height="54"></b></p>
+
+<p>The selection of the game to be replayed can be done as
+follows:</p>
+
+<ul>
+    <li><em>Loaded game</em>: the current game is replayed.</li>
+    <li><em>Sequential</em>: the game following the last game
+        played in this mode is replayed.</li>
+    <li><em>Random</em>: a game randomly selected from the
+        current file is replayed.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Color selection</h3>
+
+<p><b><img src="Replay-Color.gif" width="349" height="57"></b></p>
+
+<p>A game can be replayed with the user playing with Black, White
+or both colors.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Number of moves to replay</h3>
+
+<p><img src="Replay-Number.gif" width="341" height="114"></p>
+
+<p>A game can be fully replayed, limited to its beginning by
+choosing the <em>Fuseki</em> mode or started from the current
+position of the current game. In fuseki mode, an input box
+enables to select the number of moves to replay.</p>
+
+<p>It is possible to start from the current position only when
+the current game is selected.</p>
+
+<p><img src="Replay-Number-From.gif" width="341" height="87"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Selection of the number of attempts per move</h3>
+
+<p><img src="Replay-Attempts.gif" width="347" height="55"></p>
+
+<p>It is possible to have only one attempt per move. In that
+case, the correct move is played as soon as the user has played
+an incorrect move. It is also possible to have an unlimited
+number of attempts. In that case, a hint is displayed to inform
+about the distance to the correct move.</p>
+
+<hr>
+
+<h2><a name="Deroulement">Description of a game session</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Available commands</h3>
+
+<p>While replaying a game, the following commands are available:</p>
+
+<ul>
+    <li>play a move: if it is correct, <strong>Drago</strong>
+        answers with the next move (if the user is not playing
+        both colors). If the move is wrong, it is surrounded
+        briefly in red, then removed. If only one attempt has
+        been select, the correct move is played and surrounded in
+        green.</li>
+    <li>go backward one move, </li>
+    <li>go to the beginning of the game, </li>
+    <li>go forward one move without going beyond the last
+        replayed move,</li>
+    <li>go to the last replayed move. </li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Distance to the correct move</h3>
+
+<p><img src="Replay-Hint.gif" width="200" height="40"></p>
+
+<p>If an unlimited number of attempts has been selected, a hint
+is displayed to inform about the distance to the correct move. If
+the correct move cannot be found, it is possible to go forward by
+using the next move command.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Scores</h3>
+
+<p>When the game is over, <strong>Drago</strong> displays the
+score for the replayed game. The score is the number of correctly
+replayed moves expressed as a percentage of the number of moves
+in the game.</p>
+
+<p><img src="Replay-Result.gif" width="199" height="37"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The best scores reached for a game are stored and can be
+displayed with the <em>Replay/Index</em> command. This index
+stores for each game: the number of times the game has been
+replayed, the best scores for the three possible selections of
+color (Black, White or both) and for the full game or fuseki
+modes.</p>
+
+<p><a href="ViewIndex.htm#GameInfoView-Replay">More about
+indexes...</a></p>
+
+<hr>
+</body>
+</html>

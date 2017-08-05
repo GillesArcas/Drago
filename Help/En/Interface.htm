@@ -1,0 +1,506 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - User interface</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+User interface</h1>
+
+<hr>
+
+<ol>
+    <li><a href="#BarreDeTitre">Title bar</a></li>
+    <li><a href="#Redimensionnement">Resizing</a></li>
+    <li><a href="#Toolbars">Toolbars</a></li>
+    <li><a href="#Tabbar">Tabs and views</a></li>
+    <li><a href="#SideBar">Side bar</a></li>
+    <li><a href="#Game information">Game information</a></li>
+    <li><a href="#Timing">Timing</a></li>
+    <li><a href="#VariationList">Variation list</a></li>
+    <li><a href="#GameTree">Game tree</a></li>
+    <li><a href="#Zones_de_Saisie">Node names and comments</a></li>
+    <li><a href="#Popup_Marques">Drop down menu for markup
+        selection</a></li>
+    <li><a href="#PassesEtSelectionJoueur">Pass moves and player
+        selection</a></li>
+    <li><a href="#Barre_d_etat">Status bar</a></li>
+    <li><a href="#Deplacements">Game navigation, mouse wheel</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="BarreDeTitre">Title bar</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The title bar shows the name of the current file or current
+folder:</p>
+
+<p><img src="../Interface-TitleBar1.gif" width="402" height="30"></p>
+
+<p>For a folder, the path and the name of the file being loaded
+are separated by a dash:</p>
+
+<p><img src="../Interface-TitleBar2.gif" width="406" height="29"></p>
+
+<p>If the file has been modified but not saved, the name of the
+file is followed by the modification indicator :</p>
+
+<p><img src="../Interface-TitleBar3.gif" width="279" height="30"></p>
+
+<hr>
+
+<h2><a name="Redimensionnement">Resizing</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The main window can be resized as follows:</p>
+
+<ul>
+    <li>Dragging the right side to the right increases the size
+        of the comment panel.</li>
+    <li>Dragging the right side to the left decreases the size of
+        the comment panel. When the minimum size of the comment
+        panel is reached, the size of the goban panel is
+        decreased.</li>
+    <li>Dragging any other side or corner changes the size of the
+        goban panel.</li>
+</ul>
+
+<p>Furthermore, the goban and comment panels are separated by a
+resize bar dividing the main window between these two panels:</p>
+
+<blockquote>
+    <p><img src="Interface-Redim.gif" width="168" height="84"></p>
+</blockquote>
+
+<hr>
+
+<h2><a name="Toolbars">Toolbars</a></h2>
+
+<p>In the user interface, below the menu bar, are located four
+toolbars, which can be:</p>
+
+<ul>
+    <li>docked on one of the four sides, or let floating anywhere
+        in the screen,</li>
+    <li>configured by adding, or removing, buttons for any of the
+        commands available in the user interface.</li>
+</ul>
+
+<p>After installation, the toolbars are as follow:</p>
+
+<p><img src="../Toolbars1.gif" width="758" height="31"></p>
+
+<p>The toolbars can be:</p>
+
+<ul>
+    <li>dragged and dropped by catching the handle,</li>
+    <li>docked on each of the borders,</li>
+    <li>let floating anywhere on the screen,</li>
+    <li>resized when they are floating.</li>
+</ul>
+<div align="center"><center>
+
+<table border="0" width="100%" bordercolor="#008000"
+bordercolordark="#0000FF" bordercolorlight="#00FFFF">
+    <tr>
+        <td align="center" bgcolor="#F5F5F5"><img
+        src="../Toolbars2.gif" width="357" height="41"></td>
+        <td align="center" bgcolor="#F5F5F5"><img
+        src="../Toolbars3.gif" width="53" height="137"></td>
+        <td align="center" bgcolor="#F5F5F5"><img
+        src="../Toolbars4.gif" width="140" height="99"></td>
+    </tr>
+</table>
+</center></div>
+
+<p>The location of the toolbars is stored and restored when
+starting <strong>Drago</strong>.</p>
+
+<ol>
+    <li><a href="Options.htm#Toolbar">More on adding and removing
+        buttons in toolbars...</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Tabbar">Tab bar</a> and views</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The user interface enables to load several files in the same
+time and to choose the one displayed using a tab bar:</p>
+
+<p><img src="../TabBar1.gif" width="357" height="32"></p>
+
+<p>The number of tabs is limited only by the resources of the
+system. Tabs enable to create an undefined number of editing
+sessions, problem solving sessions, game engine sessions, etc..</p>
+
+<p>Each tab has a title with a glyph enabling to identifying its
+current mode:</p>
+
+<ul>
+    <li><img src="../TabNew.gif" align="absbottom" width="16"
+        height="16"> : the tab is just created, it is not yet
+        associated to a file, and is under editing,</li>
+    <li><img src="../TabFile.gif" width="16" height="16"> : the
+        tab is associated to a file and is under editing,</li>
+    <li><img src="../TabFolder.gif" width="16" height="16"> : the
+        tab is associated to a folder,</li>
+    <li><img src="../TabDatabase.gif" width="15" height="15"> :
+        the tab is associated with a database,</li>
+    <li><img src="../TabTraining.gif" width="16" height="16"> :
+        the tab is associated with a game against the game
+        engine, a replay session or a problem session.</li>
+</ul>
+
+<p>Pop up menus are open when right clicking or double clicking
+on the tab bar. These menus are described <a
+href="Commandes.htm#Commandes_Barre_Onglets">here</a>.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Each tab can independently display three different views:</p>
+
+<ul>
+    <li>the board view, selected with the <img
+        src="../BtViewBoard.gif" align="absbottom" width="23"
+        height="22"> button, for editing, browsing, playing and
+        replaying,</li>
+    <li>the game information view, selected with the <img
+        src="../BtViewInfo.gif" align="absbottom" width="23"
+        height="22"> button, which displays a table with pieces
+        of information stored in the games (player names, date,
+        result),</li>
+    <li>the thumbnail view, selected with the <img
+        src="../BtViewNail.gif" align="absbottom" width="23"
+        height="22"> button, which displays pages of small boards
+        for the games in the tab.</li>
+</ul>
+
+<ol>
+    <li><a href="ViewIndex.htm">More about views...</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<p>By default, each tab has a close button:</p>
+
+<p><img src="../TabBar2.gif" width="397" height="32"></p>
+
+<p>This button can be hidden with the <a
+href="AdvancedOptions.htm">advanced settings</a>.</p>
+
+<hr>
+
+<h2><a name="SideBar">Side bar</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The side bar gathers several panels related to the current
+game and current mode. By clicking on the upper area, the
+position of the side bar may be modified:</p>
+
+<table border="0" width="33%">
+    <tr>
+        <td align="center" bgcolor="#F5F5F5"><img
+        src="SideBarGripper.gif" width="209" height="95"></td>
+    </tr>
+</table>
+
+<p>The side bar may be:</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td><ul>
+            <li>put on the right side:</li>
+        </ul>
+        </td>
+        <td><ul>
+            <li>put on the left side:</li>
+        </ul>
+        </td>
+        <td><ul>
+            <li>left floating on the desktop:</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" bgcolor="#F5F5F5"><img
+        src="SideBarRight.gif" width="210" height="174"></td>
+        <td align="center" bgcolor="#F5F5F5"><img
+        src="SideBarLeft.gif" width="210" height="175"></td>
+        <td align="center" bgcolor="#F5F5F5"><img
+        src="SideBarFloat.gif" width="210" height="177"></td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The side bar may be resized by clicking on the vertical split
+bar.</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="33%">By clicking on the center part of the
+        split bar, the side bar may be minimized.</td>
+        <td width="33%">When the side bar is minimized, the node
+        information (move number, next player, prisoners) is
+        displayed in the status bar.</td>
+        <td width="34%">The side bar position is restored by
+        clicking again on its center part.</td>
+    </tr>
+    <tr>
+        <td width="33%" bgcolor="#F5F5F5"><p align="center"><img
+        src="../SideBarHide.gif" width="45" height="113"></p>
+        </td>
+        <td width="33%" bgcolor="#F5F5F5"><p align="center"><img
+        src="NodeInfoInStatusBar.gif" width="176" height="49"></p>
+        </td>
+        <td width="34%" bgcolor="#F5F5F5"><p align="center"><img
+        src="SideBarShow.gif" width="36" height="115"></p>
+        </td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<table border="0">
+    <tr>
+        <td width="66%">The visibility of six of the panels is
+        optional. These six panels are:<ul>
+            <li>the game information</li>
+            <li>the timing properties</li>
+            <li>the node name</li>
+            <li>the list of variations</li>
+            <li>the game tree</li>
+            <li>the comments</li>
+        </ul>
+        <p>The default visibility of these panels is controlled
+        by the settings in the <a href="Options.htm#View">Side
+        bar</a> tab of the <em>Options</em> dialog. It is also
+        possible to show or hide one of these panels for the
+        current tab by clicking on the tool button <img
+        src="SideBarButton.gif" align="middle" width="63"
+        height="49">.</p>
+        <p>The list of variations, the game tree and the comment
+        panels are separated by resizing bars enabling their
+        sizes to be adjusted. Additionaly, their relative order
+        may be changed by drag ad drop.</p>
+        </td>
+        <td align="center" width="34%" bgcolor="#F5F5F5"><img
+        src="SideBar.gif" width="133" height="300"></td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Game information">Game information</a></h3>
+
+<p>The game information panel enables to display some game
+information (players, ranks, date, ...) as stored in the current
+game file. The panel enables also to display the player images.
+The content of this panel can be configured in the <a
+href="Options.htm#View">Side bar</a> tab of the option dialog.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Timing">Timing</a></h3>
+
+<p>This panel displays the timing properties (time left and
+byo-yomi stones). Timing properties can be inserted with the <a
+href="Insertion.htm#InformationsTiming">timing dialog box</a> of
+the <em>Edit/Insert</em> menu.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="VariationList">Variation list</a></h3>
+
+<p>The list of variations displays the followups to the current
+move, depending on settings in the <em>Moves</em> tab of the <em>Options</em>
+dialog.</p>
+
+<ol>
+    <li><a href="ModeEdition.htm#EditionSequenceDeJeu">More about
+        editing next moves and alternate moves...</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="GameTree">Game tree</a></h3>
+
+<p>The game tree lets you view and traverse the variations of a
+game. Clicking on a stone enables to go to the related position.</p>
+
+<p><img src="../Tree.gif" width="148" height="91"></p>
+
+<ol>
+    <li><a href="ModeNavigation.htm#GameNavigation">More about
+        game navigation...</a></li>
+    <li><a href="Options.htm#View">More about game tree
+        visibility...</a></li>
+    <li><a href="Options.htm#GameTree">More about game tree
+        settings...</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Zones_de_Saisie">Node names and comments</a></h3>
+
+<p>The node name and the comments for the current move or current
+position are displayed in the associated display panels. If these
+panels are not visible, depending on the settings of the <a
+href="Options.htm#View"><em>Side bar</em> tab</a> of the <em>Options</em>
+dialog, it is possible to edit the node names and comments with
+the <a href="Insertion.htm"><em>Edit/Insert...</em> dialog</a>.</p>
+
+<p>The node name enables you to give a short description of the
+current move or position. Comments have no size limitation.</p>
+
+<p>An <a href="Options.htm#CommentFont">option</a> enables to
+customize the size of the font used for comments.</p>
+
+<hr>
+
+<h2><a name="Popup_Marques">Drop down menu for markup selection</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Markups enable you to identify a move or an intersection. They
+are selected with the <em>Edit/Markup</em> menu or by right
+clicking on the <em>Markup</em> button of the toolbar:</p>
+
+<blockquote>
+    <p><img src="Interface-MenuMarkup.gif" width="100"
+    height="66"></p>
+</blockquote>
+
+<hr>
+
+<h2><a name="PassesEtSelectionJoueur">Pass moves and player
+selection</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>When editing a game:</p>
+
+<ul>
+    <li>The player can be selected with the <em>Edit/Player</em>
+        menu</li>
+    <li>A pass move is inserted with the <em>Edit/Insert pass</em>
+        menu</li>
+</ul>
+
+<blockquote>
+    <p><img src="InterfacePlayerPass.gif" width="276" height="63"></p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<p>When <a href="ModeJeu.htm">starting a game</a> with the game
+engine:</p>
+
+<ul>
+    <li>The color played by the engine game is selected in the <em>Game
+        engine</em> panel (unless in Auto handicap mode)</li>
+</ul>
+
+<blockquote>
+    <p><img src="Engine-Color.gif" width="237" height="28"></p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<p>While playing a game with the game engine:</p>
+
+<ul>
+    <li>A pass move is played by clicking on the <em>Play/Pass</em>
+        menu</li>
+</ul>
+
+<blockquote>
+    <p><img src="Interface-JouerPasser.gif" width="159"
+    height="147"></p>
+</blockquote>
+
+<hr>
+
+<h2><a name="Barre_d_etat">Status bar</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The status bar has six fields showing:</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="420">
+    <tr>
+        <td valign="top" width="55%">the number of the current
+        game and the number of games in the current file</td>
+        <td valign="top" width="45%"><img src="status1.gif"
+        width="83" height="26"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="55%">the position of the last
+        move, when the move number should be displayed on a
+        markup</td>
+        <td valign="top" width="45%"><img src="status2.gif"
+        width="71" height="26"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="55%">unknown or not handled SGF
+        properties</td>
+        <td valign="top" width="45%"><img src="status3.gif"
+        width="106" height="26"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="55%">icons clarifying the content
+        of the next filed (annotation, pass, result of game
+        analysis functions)</td>
+        <td valign="top" width="45%"><img src="status4.gif"
+        width="27" height="25"> <img src="status4a.gif"
+        width="27" height="25"> ...</td>
+    </tr>
+    <tr>
+        <td valign="top" width="55%">display of annotation, pass
+        or result of game analysis functions</td>
+        <td valign="top" width="45%"><img src="status5.gif"
+        width="108" height="27"><p><img src="status6.gif"
+        width="87" height="27"></p>
+        </td>
+    </tr>
+    <tr>
+        <td>display of node information (move number, next
+        player, prisoners) when the side bar is minimized</td>
+        <td><img src="status7.gif" width="156" height="26"></td>
+    </tr>
+</table>
+
+<ol>
+    <li><a href="Insertion.htm">More about inserting
+        annotations...</a></li>
+    <li><a href="#SideBar">More about the side bar...</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Deplacements">Game navigation, mouse wheel</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="ModeNavigation.htm">More about navigation...</a></li>
+</ol>
+
+<hr>
+</body>
+</html>

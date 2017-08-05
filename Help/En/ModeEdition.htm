@@ -1,0 +1,325 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Editing mode</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Edition</h1>
+
+<hr>
+
+<ol>
+    <li><a href="#Summary of editing commands">Summary of editing
+        commands</a></li>
+    <li><a href="#EditionSequenceDeJeu">Game editing</a></li>
+    <li><a href="#Edition d'une position">Position editing</a></li>
+    <li><a href="#Markup editing">Markup editing</a></li>
+    <li><a href="Insertion.htm">Insertion of miscellaneous
+        information</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Summary of editing commands">Summary of editing
+commands</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><br>
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0" width="632">
+    <tr>
+        <td align="center"><strong>Tool</strong></td>
+        <td align="center"><strong>Menu</strong></td>
+        <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtUndo.gif" width="23"
+        height="22"></td>
+        <td><em>Undo move</em></td>
+        <td>Delete the last entered move</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtCut.gif" width="23"
+        height="22"> </td>
+        <td><em>Delete branch</em></td>
+        <td>Delete the whole branch from the current move, i.e.
+        the current move and all the following moves</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtPlay.gif" width="23"
+        height="22"></td>
+        <td><em>Game edit</em></td>
+        <td>Select game editing mode: each color is played in
+        turn with verification of move validity</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtBlack.gif" width="23"
+        height="22"></td>
+        <td><em>Add Black</em></td>
+        <td>Select black stone only editing mode</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtWhite.gif" width="23"
+        height="22"></td>
+        <td><em>Add White</em></td>
+        <td>Select white stone only editing mode</td>
+    </tr>
+    <tr>
+        <td align="center">&nbsp;</td>
+        <td><em>Empty</em></td>
+        <td>Select delete black or white stone mode</td>
+    </tr>
+    <tr>
+        <td><img src="../BtMark.gif" width="36" height="22"></td>
+        <td><em>Markup</em></td>
+        <td>Select markup editing mode. Markup selection is done
+        in the submenu of the menu bar or the drop down menu of
+        the button.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><em>Player</em></td>
+        <td>Select player of next move. The associated property
+        is stored if the <em>Change player with SGF property</em>
+        option is checked.</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtPass.gif" width="15"
+        height="16"></td>
+        <td><em>Insert pass</em></td>
+        <td>Insert a pass move</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtInsert.gif" width="23"
+        height="22"></td>
+        <td><em>Insert...</em></td>
+        <td>Insert, or delete, annotations or other SGF
+        properties for the current position</td>
+    </tr>
+</table>
+
+<p><br>
+</p>
+
+<hr>
+
+<h2><a name="EditionSequenceDeJeu">Game editing</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Activation</h3>
+
+<p>When editing a game, alternating colors and the capture rule
+are handled. This mode is activated with the <em>Edit/Game edit</em>
+menu or with the toolbar button <img src="../BtPlay.gif"
+align="absbottom" width="23" height="22">.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Editing</h3>
+
+<p>Game editing is done by clicking on the goban. <strong>Drago</strong>
+handles the color to be played and the captures.</p>
+
+<h4>Click on goban</h4>
+
+<p>Clicking on the goban creates a new move, <em><strong>unles</strong></em>
+a next move already exists at this position or an alternate move
+is visible at this position. In these cases, the goban is set at
+the existing next or alternate move.</p>
+
+<p>Next or alternate moves are displayed on the goban as semi
+transparent stones, or uppercase or lowercase letters, depending
+on the option <em>Markup of variations on goban</em>.</p>
+
+<ol>
+    <li><a href="Options.htm#Moves">More about displaying next
+        and alternate moves...</a></li>
+</ol>
+
+<p><em><strong>Ctrl-Click on goban</strong></em></p>
+
+<p>Clicking on the goban, while holding down the control key,
+sets the goban on an alternate move, if there is one at this
+position, else creates a new alternate move.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Modification of current move</h3>
+
+<p>It is possible to modify the current move, even if it is not
+the last one, by clicking the stone and dragging it to its new
+position.<br>
+<font color="#FF0000" size="3" face="Arial"><strong>!</strong></font>&nbsp;This
+is the only way to modify a move in the middle of a game without
+editing explicitly the SGF file.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Undo</h3>
+
+<p>Undoing a move is possible only for the last move of a game.
+This is done with the <em>Edit/Undo</em> menu or the toolbar
+button <img src="../BtUndo.gif" align="absbottom" width="23"
+height="22">. Undo is active only for moves and not for other
+editing commands (stone settings, comments...). Furthermore, when
+undoing a move, all information associated with this move is also
+deleted (actually the whole node is deleted).</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Deleting a branch</h3>
+
+<p>The <em>Delete branch</em> menu or the toolbar button <img
+src="../BtCut.gif" align="absbottom" width="23" height="22">
+enable to delete the whole branch from the current move,
+including the current move and all the following moves.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Player</h3>
+
+<p>It is possible to change the player to play with the <em>Edit/Player/Black</em>
+or <em>Edit/Player/White</em> menus. When the <em>Change player
+with SGF property</em> option is checked, the player selection
+stores in the file the associated SGF property (PL).</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Pass moves</h3>
+
+<p>A pass move can be inserted by using <em>Edit/Insert pass</em>
+menu. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Inserting an empty node</h3>
+
+<p>An empty node can be inserted by using <em>Edit/Insert empty
+node</em> menu. This enables for instance to define different
+positions, by setting black and white stones, under the same
+root.</p>
+
+<hr>
+
+<h2><a name="Edition d'une position">Position editing</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Position editing enables you to freely place stones on the
+goban. This mode is activated with the <em>Edit/Add Black</em>, <em>Edit/Add
+White</em>, <em>Edit/Empty</em> and <em>Edit/Markup</em> menus or
+the associated toolbar buttons.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Adding stones</h3>
+
+<p>Stones are added by clicking on the goban after selecting the
+color with the <em>Edit/Add Black</em> or <em>Edit/Add White</em>
+menus, or the toolbar buttons <img src="../BtBlack.gif"
+align="absbottom" width="23" height="22"> and <img
+src="../BtWhite.gif" align="absbottom" width="23" height="22">.
+It is possible to add stones continuously by holding down the
+left button of the mouse.</p>
+
+<p>When left clicking, stones of the selected color are added.
+When right clicking, stones of the opposite color are added.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Deleting stones</h3>
+
+<p>To delete stones:</p>
+
+<ul>
+    <li>select the <em>Edit/Empty</em> menu and click on the
+        stones to delete. Holding down the mouse left button can
+        also be used to delete stones continuously.</li>
+    <li>while in the <em>Edit/Add Black</em> or <em>Edit/Add
+        White</em> modes, clicking on a stone deletes it.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Color inversion</h3>
+
+<p>It is possible a more complete adding mode enabling the
+following sequences of actions:</p>
+
+<ul>
+    <li>clicking on an empty intersection add a stone of the
+        selected color,</li>
+    <li>clicking this stone swaps its color,</li>
+    <li>clicking a third time remove the stone.</li>
+</ul>
+
+<p>This &quot;Set, swap, remove&quot; can be selected in the <a
+href="Options.htm#Click sequence">Edit</a> tab of Options dialog.</p>
+
+<hr>
+
+<h2><a name="Markup editing">Markup editing</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The markups enable you to label stones or intersections for
+reference in a game comment. The available markups are:</p>
+
+<ul>
+    <li><em>Cross</em>, <em>Triangle</em>, <em>Circle</em>, <em>Square</em>,
+    </li>
+    <li><em>Letter</em>, drawing a letter on the intersection.
+        The letter displayed is determined by the order of
+        clicks, starting with the letter 'A'.</li>
+    <li><em>Number</em>, which is valid only on a move and
+        displays the number of the move.</li>
+    <li><em>Label</em>, allowing a text label of at most three
+        characters,</li>
+    <li>black and white territory markups.</li>
+</ul>
+
+<p align="center"><img src="Marks.gif" width="481" height="32"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Adding markups</h3>
+
+<p>Adding or deleting markups is done by selecting the <em>Edit/Markup</em>
+menu or the toolbar button <img src="../BtMark.gif"
+align="absbottom" width="36" height="22">. This selects the
+markup drawn on the menu and the button. To add or delete
+markups, click or drag on the goban.</p>
+
+<p>Markup selection is done in the sub-menu <em>Edit/Markup</em>
+or in the drop down menu of the toolbar button <img
+src="../BtMark.gif" align="absbottom" width="36" height="22">. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Deleting markups</h3>
+
+<p>To delete a markup, use the same tool that was used to create
+it.</p>
+
+<hr>
+
+<h2>Insertion of miscellaneous information</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The <a href="Insertion.htm"><i>Edit/Insert...</i></a> menu
+allows you to insert SGF properties at the current position.</p>
+
+<hr>
+</body>
+</html>

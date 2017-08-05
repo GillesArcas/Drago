@@ -1,0 +1,174 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Exporting a position</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32"><font
+face="Arial">&nbsp;Drago - Exporting a position</font></h1>
+
+<hr>
+
+<table border="0" cellspacing="10" width="100%">
+    <tr>
+        <td colspan="2"><strong>Drago</strong> enables to print
+        and export full games with a lot of settings with the <em>Print...</em>
+        and <em>Export...</em> commands. It enables also to
+        export positions selected on the goban with the <em>Export
+        position...</em> command described here.<hr size="1"
+        color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>The dialog box <em>Export position... </em>enables
+        to:<ul>
+            <li>select a rectangular area on the goban</li>
+            <li>export the position into one of the following
+                formats: WMF, GIF, PNG, JPEG, BMP, ASCII for
+                rec.games.go or ASCII for Sensei's Library, SGF.</li>
+        </ul>
+        <p>In each case, export can be done to a file. If the
+        format is WMF, BMP or ASCII, export can also make a Copy
+        of the figure to the clipboard ready to Paste in another
+        application.</p>
+        <p>When exporting a position to SGF, the selected
+        position is saved as a SGF file with no moves, but with
+        the required commands to set up the position on the go
+        board.</p>
+        </td>
+        <td width="150"><img src="ExpPos.gif" width="137"
+        height="300"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr>
+        <h2>Selecting an area on the goban</h2>
+        <hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>When the <em>Export position...</em> dialog is open,
+        the mouse pointer takes the shape of a red cross when
+        over the goban. It is then possible to select a
+        rectangular area by clicking and moving the cursor.</td>
+        <td width="150"><img src="../ExpPosZone.gif" width="150"
+        height="149"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>Coordinates of the selected zone are echoed in the <em>Figure
+        coordinates </em>edit box. It is possible to edit
+        directly the coordinates to specify an area of the goban.</td>
+        <td width="150"><img src="ExpPosCoord.gif" width="202"
+        height="37"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr>
+        <h2>Settings of the diagram</h2>
+        <hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>The image dimensions are set with the <em>Dimensions</em>
+        box.<p>Note that dimensions are expressed with
+        millimeters for WMF format, with pixels for other cases.
+        The dimensions are irrelevant for the ASCII and SGF
+        formats.</p>
+        <p>It is possible to set the diameter of the stones, or
+        the width or height of the diagram. When setting one of
+        the values, the two other ones are updated.</p>
+        </td>
+        <td width="150"><img src="ExpPosDim.gif" width="203"
+        height="61"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>When clicking on the first <img src="../BtPlus.gif"
+        width="10" height="10"> button, an additional option box
+        opens. This zone is used to specify whether the captured
+        stones are displayed in the diagram or not (<em>As books</em>
+        or <em>As goban</em> values).</td>
+        <td width="150"><img src="ExpPosMore1.gif" width="205"
+        height="32"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr>
+        <h2>Settings of the format</h2>
+        <hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>Format selection is made with the radio buttons of
+        the <em>Format</em> box.</td>
+        <td><img src="../ExpPosFormat.gif" width="211"
+        height="102"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>When clicking on the <img src="../BtPlus.gif"
+        width="10" height="10"> button, an additional option box
+        opens. This box is used to set the options specific to
+        each format.<p>In the current version, these specific
+        options are:</p>
+        <ul>
+            <li>quality ratio for JPEG format</li>
+            <li>type selection (rec.games.go or Sensei'Library)
+                and rec.games.go setting for ASCII format.</li>
+        </ul>
+        </td>
+        <td><img src="ExpPosRgg.gif" width="217" height="126"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr>
+        <h2>ASCII Formats</h2>
+        <hr size="1" color="#C0C0C0">
+        <p><strong>Drago</strong> respects the reference
+        specifications for the rec.games.go and Sensei's Library
+        diagram ASCII formats.</p>
+        <h4>rec.games.go format</h4>
+        <p>This format is more generally used for exchanging
+        position by email. Its description is given in the <a
+        href="http://senseis.xmp.net/?RGGFAQPart4Section6">section
+        4.6 of the rec.games.go FAQ</a>.</p>
+        <h4>Sensei's Library format</h4>
+        <p>This is the format used to insert a diagram in a page
+        of the Sensei's Library wiki. Its description can be
+        found in the <a
+        href="http://senseis.xmp.net/?HowDiagramsWork">HowDiagramsWork</a>
+        page. The <a
+        href="http://senseis.xmp.net/?SLDiagramsWithDrago">SL
+        Diagrams with Drago</a> page describes with some details
+        the generation of SL diagrams with <strong>Drago</strong>.</p>
+        </td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>SGF format</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>When exporting a position to SGF, the selected position is
+saved as a SGF file with no moves, but with the required commands
+to set up the position on the go board.</p>
+
+<hr>
+</body>
+</html>

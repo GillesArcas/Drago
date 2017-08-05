@@ -1,0 +1,1031 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - The options</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Options</h1>
+
+<hr>
+
+<ol>
+    <li><img src="../Options-Goban.gif" align="absbottom"
+        width="16" height="16"> <a href="#Goban">Board</a></li>
+    <li><img src="../Options-Moves.gif" align="absbottom"
+        width="16" height="16"> <a href="#Moves">Moves</a></li>
+    <li><img src="../Options-Tree.gif" width="16" height="16"> <a
+        href="#GameTree">Game tree</a></li>
+    <li><img src="../Options-Glasses.gif" width="16" height="16">
+        <a href="#View">View</a></li>
+    <li><img src="../Options-ViewInfo.gif" width="16" height="16">
+        <a href="#Preview">Preview</a></li>
+    <li><img src="../Options-Layout.gif" width="16" height="16"> <a
+        href="#Panels">Side bar</a></li>
+    <li><img src="../Options-Keyboard.gif" width="16" height="16">
+        <a href="#Shortcuts">Shortcuts</a></li>
+    <li><img src="../Options-Toolbar.gif" width="16" height="16">
+        <a href="#Toolbar">Toolbars</a></li>
+    <li><img src="../Options-Sounds.gif" width="16" height="16"> <a
+        href="#Sounds">Sounds</a></li>
+    <li><img src="../Options-Files.gif" width="16" height="16"> <a
+        href="#Files">Files</a></li>
+    <li><img src="../Options-Navigation.gif" width="16"
+        height="16"> <a href="#Navigation">Navigation</a></li>
+    <li><img src="../Options-Database.gif" width="16" height="16">
+        <a href="#Database">Databases</a></li>
+    <li><img src="../Options-Engine.gif" width="16" height="16"> <a
+        href="#GameEngine">Game engines</a></li>
+    <li><img src="../Options-Language.gif" width="16" height="16">
+        <a href="#Language">Language</a></li>
+    <li><img src="../Options-Check.gif" width="16" height="16"> <a
+        href="AdvancedOptions.htm">Advanced</a></li>
+</ol>
+
+<p><a name="Goban"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Goban.gif" width="16" height="16">
+Options for Board</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Board</h4>
+
+<blockquote>
+    <p>Used to select the background of the board with the
+    following options:</p>
+    <ul>
+        <li><em>Default texture</em>,</li>
+        <li><em>Custom texture</em>, which opens a file selection
+            dialog to choose the background in BMP, JPEG, GIF or
+            PNG format,</li>
+        <li><em>Color</em>, which opens a color selection dialog.</li>
+    </ul>
+    <p>Two check boxes enable to control:</p>
+    <ul>
+        <li>if the edge of the board (first line) is displayed as
+            a bold line,</li>
+        <li>if the hoshis (star points) are displayed.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="Stones">Stones</a></h4>
+
+<blockquote>
+    <p><img src="Stones.gif" width="334" height="68"></p>
+    <p>Used to select between stones displayed as:</p>
+    <table border="0" cellspacing="0" width="300">
+        <tr>
+            <td width="120"><ul>
+                <li><em>Anti alias :</em></li>
+            </ul>
+            </td>
+            <td valign="top" width="50%"><em><img
+            src="../Pierre1.gif" align="absbottom" width="21"
+            height="21"></em></td>
+        </tr>
+        <tr>
+            <td width="120"><ul>
+                <li><a href="Divers.htm#Stones"><em>Jago</em></a><em>
+                    : </em></li>
+            </ul>
+            </td>
+            <td valign="top" width="50%"><img
+            src="../Pierre3.gif" width="23" height="23"></td>
+        </tr>
+        <tr>
+            <td width="120"><ul>
+                <li><a href="Divers.htm#Stones"><em>RubyGo</em></a><em>
+                    :</em></li>
+            </ul>
+            </td>
+            <td valign="top" width="50%"><img
+            src="../Pierre2.gif" align="absbottom" width="21"
+            height="21"></td>
+        </tr>
+        <tr>
+            <td><ul>
+                <li>Custom</li>
+            </ul>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</blockquote>
+
+<blockquote>
+    <p>Custom stones enable to display user defined images. The
+    stones are stored as PNG images with transparency. The names
+    of the images are made of a common root and a number
+    specifying the diameter of the stone.</p>
+    <blockquote>
+        <p>For instance: black17.png, black19.png, white19.png,
+        ...</p>
+    </blockquote>
+    <p>If a second number is present, it specifies some variation
+    of the image.</p>
+    <blockquote>
+        <p>For instance: white17-1.png, white17-2.png, ...</p>
+    </blockquote>
+    <p>Note also that:</p>
+    <ul>
+        <li><strong>Drago</strong> uses currently stone images
+            with odd diameter.</li>
+        <li>When the image for the diameter to be displayed is
+            missing, <strong>Drago</strong> computes the
+            requested image from the nearest upper diameter.</li>
+    </ul>
+    <p>As a default for custom stones, <strong>Drago</strong> is
+    installed with the stone images from <a
+    href="Divers.htm#Stones">Sente Goban</a>.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Coordinates</h4>
+
+<blockquote>
+    <p style="height: 16px;">Selects coordinate display: no
+    display of coordinates, standard (A-T,1-19) or SGF (a-s,a-s).</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Coordinate background</h4>
+
+<blockquote>
+    <p>Used to select the texture or color of the coordinate zone
+    background:</p>
+</blockquote>
+
+<blockquote>
+    <ul>
+        <li><em>Default texture</em>,</li>
+        <li><em>Custom texture</em>, which opens a file selection
+            dialog to choose the background in BMP, JPEG, GIF or
+            PNG format,</li>
+        <li><em>Color</em>, which opens a color selection dialog,</li>
+        <li><em>As board</em>, the texture or color selected for
+            the board is used for the coordinate zone.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Displayed zone</h4>
+
+<blockquote>
+    <p>Used to select between the display of the whole board and
+    the display of the quarter of the board, when possible, where
+    all stones are set or played in the current game. This option
+    is used to optimize the display of corner positions. It is
+    active only on 19x19 boards.</p>
+    <p align="center"><img src="Zoom.gif" width="129"
+    height="129"></p>
+    <p align="left">The selection of the displayed zone, whole
+    board or corner, is applied to the display in the main window
+    and in the index, to the problem mode, and to printing and
+    exporting.</p>
+</blockquote>
+
+<p><a name="Moves"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Moves.gif" width="16" height="16">
+Options for Moves</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Show last move</h4>
+
+<blockquote>
+    <p>The last move number can be displayed with the following
+    options:</p>
+</blockquote>
+
+<blockquote>
+    <ul>
+        <li><em>No</em>, the last move is not displayed, </li>
+        <li><em>With number</em>, the number of the last move is
+            displayed,</li>
+        <li><em>With markup</em>, the last move is displayed with
+            a dedicated markup,</li>
+        <li><em>All</em>, all move numbers are displayed.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Show variations as...</h4>
+
+<blockquote>
+    <p>Select variation display as:</p>
+    <ul>
+        <li><em>Next moves</em> : all moves after current move</li>
+        <li><em>Alternate moves</em> : current move plus all the
+            playable moves in place of the current one.</li>
+    </ul>
+    <p>This option determines the display of the variation
+    markups on the goban (next option) and what is displayed in
+    the <a href="Interface.htm#VariationList">variation list</a>.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Markup of variations on goban</h4>
+
+<blockquote>
+    <p>Select the way variations (next or alternate moves) are
+    displayed on the goban. Available options are:</p>
+    <ul>
+        <li><em>None</em> : no mark is displayed to show
+            variations</li>
+        <li><em>Ghost stones</em> : variations are displayed as
+            semi-transparent stones</li>
+        <li><em>Uppercase letters</em> : variations are displayed
+            as uppercase letters</li>
+        <li><em>Lowercase letters</em> : variations are displayed
+            as lowercase letters</li>
+    </ul>
+    <p>Note</p>
+    <ul>
+        <li>To hide the variation list on the right panel, use
+            the <em>Panels</em> option of the <a href="#View"><em>View</em></a>
+            tab.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="MoveNumbers">Move numbers</a></h4>
+
+<blockquote>
+    <p>Used to select the number of digits shown when displaying
+    the move numbers. If the box <em>Display only two last digits</em>
+    is not checked the whole move number is displayed.</p>
+</blockquote>
+
+<p><a name="GameTree"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Tree.gif" width="16" height="16">
+Options for Game tree</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The game tree displays the tree of moves and can be used to
+move easily through the variations. The settings on the game tree
+affect the background, the stones and the number of moves.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Background</h4>
+
+<blockquote>
+    <p>Selects the background of the game tree:</p>
+</blockquote>
+
+<blockquote>
+    <ul>
+        <li><em>Default texture</em>,</li>
+        <li><em>Custom texture</em>, which opens a file selection
+            dialog to choose the background in BMP, JPEG, GIF or
+            PNG format,</li>
+        <li><em>Color</em>, which opens a color selection dialog,</li>
+        <li><em>As board</em>, the texture or color selected for
+            the board is used for the game tree background.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Stones</h4>
+
+<blockquote>
+    <p><img src="Stones-tree.gif" width="334" height="67"></p>
+    <p>Used to select the style, as for the <a href="#Stones">goban</a>,
+    and the radius of the stones displayed in the game tree.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Move numbers</h4>
+
+<blockquote>
+    <p>Selects the move number display:</p>
+    <ul>
+        <li><em>No</em>: the move numbers are not displayed.</li>
+        <li><em>On the side</em>: the move numbers of the current
+            branch are displayed on the left side of the game
+            tree.</li>
+        <li><em>On the stones</em>: the move numbers are
+            displayed on the stones.</li>
+    </ul>
+</blockquote>
+
+<p>The visibility of the game tree is controlled by the <a
+href="#View"><em>View</em></a> tab.</p>
+
+<p><font size="2">Note : The display of the move numbers handles
+the MN(Move Number) property correctly.</font></p>
+
+<p><a name="View"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Glasses.gif" width="16" height="16">
+Options for View</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Window background</h4>
+
+<p>Selects the background of the main window (under the board):</p>
+
+<ul>
+    <li><em>Default texture</em>,</li>
+    <li><em>Custom texture</em>, which opens a file selection
+        dialog to choose the background in BMP, JPEG, GIF or PNG
+        format,</li>
+    <li><em>Color</em>, which opens a color selection dialog,</li>
+    <li><em>As board</em>, the texture or color selected for the
+        board is used for the window background.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Light source</h4>
+
+<p>Enables to choose the source of the light as being:</p>
+
+<ul>
+    <li>in the upper left,</li>
+    <li>or in the upper right.</li>
+</ul>
+
+<p>The light source changes the display of the stones on the
+board and in the game tree.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Menu and toolbar skins</h4>
+
+<p>This option enables to configure the style of the user
+interface by selecting a skin in a list. This skin applies only
+to the main menu and toolbars.</p>
+
+<p><a name="Preview"></a></p>
+
+<hr>
+
+<h2><img src="../Options-ViewInfo.gif" width="16" height="16">
+Options for Preview</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The <em>Preview</em> tab enables to configure:</p>
+
+<ul>
+    <li>for the game information view:</li>
+</ul>
+
+<blockquote>
+    <p>- the number and content of the columns which are
+    displayed,</p>
+    <p>- the maximal number of lines which can be sorted. This is
+    implemented to avoid waiting too much while sorting a very
+    long list of games.</p>
+</blockquote>
+
+<ul>
+    <li>for the thumbnail view:<p>- the diameter of the stones.
+        This enables to control the size of the thumbnails.</p>
+    </li>
+</ul>
+
+<p><a href="ViewIndex.htm">More about views and indexes...</a></p>
+
+<p><a name="Panels"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Layout.gif" width="16" height="16">
+Options for Side bar</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Panels </h4>
+
+<p>The side bar may display several panels with optional
+visibility:</p>
+
+<ul>
+    <li>the game information,</li>
+    <li>the time properties,</li>
+    <li>the name of the current node,</li>
+    <li>the list of variations,</li>
+    <li>the game tree,</li>
+    <li>the comments.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<table border="0" width="100%">
+    <tr>
+        <td width="50%">The <em>Side bar </em>tab controls the
+        visibility of these six panels. Each of these panels can
+        be: <ul>
+            <li>Always visible, if it is checked in the<em>
+                Always visible</em> list.</li>
+            <li>Visible only if needed, i.e. if there is
+                something to fill the panel somewhere in the
+                current game tree, when it is checked in the <em>Visible
+                if needed</em> list.</li>
+            <li>Never visible, if it not checked.</li>
+        </ul>
+        </td>
+        <td width="50%"><img src="SideBarPanes.gif" width="313"
+        height="139"></td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Game information</h4>
+
+<p>The data displayed in the game information pane of the side
+bar is selected and formated with a format specification using
+the following tags:</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="5%">\PB</td>
+        <td width="28%">Black player</td>
+        <td width="5%">\BT</td>
+        <td width="25%">Black team</td>
+        <td width="5%">\PC</td>
+        <td width="28%">Place</td>
+    </tr>
+    <tr>
+        <td width="5%">\PW</td>
+        <td width="28%">White player</td>
+        <td width="5%">\WT</td>
+        <td width="25%">White team</td>
+        <td width="5%">\RE</td>
+        <td width="28%">Result</td>
+    </tr>
+    <tr>
+        <td width="5%">\BR</td>
+        <td width="28%">Black rank</td>
+        <td width="5%">\DT</td>
+        <td width="25%">Date</td>
+        <td width="5%">\GN</td>
+        <td width="28%">Game name</td>
+    </tr>
+    <tr>
+        <td width="5%">\WR</td>
+        <td width="28%">White rank</td>
+        <td width="5%">\EV</td>
+        <td width="25%">Event</td>
+        <td width="5%">\KM</td>
+        <td width="28%">Komi</td>
+    </tr>
+</table>
+
+<p>Some layout may be done by using the tags \n for inserting a
+line break, and \t for inserting a tabulation.</p>
+
+<p><img src="GameInfoSettings.gif" width="416" height="59"></p>
+
+<p>For instance, the format &quot;<font size="2"
+face="Courier New">\PB \BR (B)\n\PW \WR (W)\n\PC&quot; </font>could
+be displayed as:</p>
+
+<p><img src="GameInfoText.gif" width="124" height="68"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Player images</h4>
+
+<p>The game information pane may display images of the players
+from the current game. The image folder is initializes with an
+installation folder which contains almost 200 images.</p>
+
+<p>To display an image, its name must start with the name of the
+player as stored in the game file. When several images start with
+the name of the player, one of them is chosen randomly.</p>
+
+<p>The image folder contains a file names <font size="2"
+face="Courier New">Synonyms.txt</font> enabling to handle the
+case where a player is known under several names (or writings).
+For instance, this contains the following:</p>
+
+<p><font size="2" face="Courier New">[Players]<br>
+Fujisawa Shuko=Fujisawa Hideyuki </font></p>
+
+<p>The name on the left is not one of the image file names.
+However, the player image will be displayed if an image name
+starts with the name on the right. If necessary, just add some
+equivalences.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="CommentFont">Comment font</a></h4>
+
+<p>The <em>Size</em> box enables to control the size of the font
+used to display the comments.</p>
+
+<p><a name="Shortcuts"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Keyboard.gif" width="16" height="16">
+Options for Shortcuts</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>This dialog enables to create shortcuts for all the commands
+available in the user interface.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>To create a shortcut, you have to:</p>
+
+<ul>
+    <li>select a category of commands (File, Edit, ...),</li>
+    <li>select one of the commands in the category,</li>
+    <li>click in the shortcut input box, and key the shortcut,</li>
+    <li>click on the <em>Assign</em> button to validate the
+        association between the command and the shortcut.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>When a shortcut is already assigned to a command, this is
+shown on the right side of the input box:</p>
+
+<blockquote>
+    <p><img src="Shortcut.gif" width="259" height="45"></p>
+</blockquote>
+
+<p>Once validated, an association with a previous shortcut is
+lost.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The following combination of keys are allowed:</p>
+
+<ul>
+    <li>the function keys and the special editing keys (Home,
+        End, arrows, ...)</li>
+    <li>all keys preceded by any combination of the Ctrl, Alt and
+        Shift keys.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>To remove a shortcut, you have to:</p>
+
+<ul>
+    <li>select a category of commands (File, Edit, ...),</li>
+    <li>select one of the commands in the category,</li>
+    <li>click on the <em>Clear</em> button to delete the
+        association between the command and the shortcut.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Creating or removing shortcuts is definitely validated when
+clicking on the <em>Ok</em> button of the Options dialog box.</p>
+
+<p><a name="Toolbar"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Toolbar.gif" width="16" height="16">
+Options for Toolbars</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>In the <a href="Interface.htm#Toolbars" rel="me">user
+interface</a>, below the menu bar, are located four toolbars,
+which can be:</p>
+
+<ul>
+    <li>docked on one of the four sides, or let floating anywhere
+        in the screen,</li>
+    <li>configured by adding, or removing, buttons for any of the
+        commands available in the user interface.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>To add a button to a toolbar, you have to:</p>
+
+<ul>
+    <li>select a list of commands (left side) and a toolbar
+        (right side),</li>
+    <li>select a command in the list of commands,</li>
+    <li>drag and drop the command at the position you choose in
+        the toolbar, ...</li>
+    <li>... or select the position in the toolbar and click on
+        the <img src="../BtAddButton.gif" align="absbottom"
+        width="23" height="22"> button.</li>
+</ul>
+
+<blockquote>
+    <p><img src="ToolbarSettings.gif" width="342" height="105"></p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<p>To remove a button from a toolbar, you have to:</p>
+
+<ul>
+    <li>select the toolbar,</li>
+    <li>select a command in the toolbar (right part),</li>
+    <li>drag and drop the command in the list of commands (left
+        part), ...</li>
+    <li>... or click on the <img src="../BtDelButton.gif"
+        align="absbottom" width="23" height="22"> button.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Note: The name of the toolbars (File, Edit, ...) gives only
+the initial purpose of the toolbars, but any button can be add to
+any toolbar.</p>
+
+<p><a name="Sounds"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Sounds.gif" width="16" height="16">
+Options for Sounds</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>It is possible to activate the sounds in the interface through
+the <em>Enable sounds</em> check box.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Sound settings</h4>
+
+<p>For each event for which a sound is available, it can be
+chosen among the following:</p>
+
+<ul>
+    <li>the sound is not emitted,</li>
+    <li>the emitted sound is the default one,</li>
+    <li>the sound is a WAV file selected by the user.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>In the current version, sounds are associated to the following
+events:</p>
+
+<ul>
+    <li>a stone is played on the board,</li>
+    <li>a stone is played by the game engine,</li>
+    <li>an invalid move is played.</li>
+</ul>
+
+<p><a name="Files"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Files.gif" width="16" height="16">
+Options for Files</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>File associations</h4>
+
+<p>This options enables to associate <strong>Drago</strong> with
+the files which type extensions are selected. This enables to
+open files by double clicking on their names in the file
+explorer.</p>
+
+<p>When a file type is unchecked, the association is deleted but
+a possible previous association is not restored.</p>
+
+<p>Please note also that all associations with <strong>Drago</strong>
+are deleted when uninstalling but previous ones are not restored.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Starting</h4>
+
+<p><i>Start with last files</i></p>
+
+<blockquote>
+    <p>When starting <strong>Drago</strong>, the last current
+    game of the last open files are loaded when this option is
+    checked.</p>
+</blockquote>
+
+<p><i>Start with last move</i></p>
+
+<blockquote>
+    <p>When starting <strong>Drago</strong>, when this option and
+    the previous are checked, the last open files are loaded and
+    the positions when closing are restored.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Properties</h4>
+
+<p><em>Save with 10 moves on each line</em></p>
+
+<blockquote>
+    <p>When checked, files are saved with 10 moves per line.</p>
+</blockquote>
+
+<p><i>New file with full SGF properties</i></p>
+
+<blockquote>
+    <p>When checked, the properties GM (Game), FF (FileFormat),
+    AP (Application) and SZ (Size) are stored in a new file when
+    it is created. If this option is not checked, only the size
+    property (SZ) is stored and only if the size is different
+    from the default (19).</p>
+</blockquote>
+
+<p><i>Change player with SGF property</i></p>
+
+<blockquote>
+    <p>When checked, the option <em>Edit/Player</em> adds a
+    player property (PL) in the current file.</p>
+</blockquote>
+
+<p><em>Compress lists of points</em></p>
+
+<blockquote>
+    <p>Save lists of points as more compact lists of rectangles.</p>
+</blockquote>
+
+<p><em>Accept long property names</em></p>
+
+<blockquote>
+    <p>When this option is checked, SGF files with property names
+    with more than 2 characters can be loaded, otherwise they are
+    rejected.</p>
+</blockquote>
+
+<p><a href="FormatSGF.htm">More about SGF properties...</a></p>
+
+<p><a name="Navigation"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Navigation.gif" width="16" height="16">
+Options for Navigation</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Move targets</h4>
+
+<p>This option enables to define the targets for the commands
+Previous target <img src="../BtPrevTarget.gif" align="absbottom"
+width="23" height="22">and Next target <img
+src="../BtNextTarget.gif" align="absbottom" width="32"
+height="22">. A target for these commands can be a selection of
+the following locations in the game trees:</p>
+
+<ul>
+    <li>the nth move before or after the current move. N can be
+        defined.</li>
+    <li>starts of variations (moves with several follow-ups),</li>
+    <li>ends of variations,</li>
+    <li>moves with a comment,</li>
+    <li>moves with a <a href="Insertion.htm#InformationsFigures">figure
+        property</a>,</li>
+    <li>moves with an <a
+        href="Insertion.htm#ProprietesAnnotation">annotation</a>.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Autoreplay</h4>
+
+<p>The Autoreplay command <img src="../BtAutoReplay.gif"
+align="absbottom" width="32" height="22"> enables to repeat
+forward move commands with the following settings:</p>
+
+<h6>Time between two moves</h6>
+
+<blockquote>
+    <p>A trackbar enables to select the delay between two moves.
+    This delay can be set from 0 to 10 seconds.</p>
+</blockquote>
+
+<h6>Use timing properties when available</h6>
+
+<blockquote>
+    <p>Some SGF editors or clients save the time remaining to
+    play after each move. When this option is checked, the auto
+    replay mode uses this information to replay the game with the
+    same timing it was played with.</p>
+</blockquote>
+
+<h6>Stop at targets</h6>
+
+<blockquote>
+    <p>When this option is checked, the auto replay mode stops at
+    each location defined for move targets. </p>
+    <p>When the option is not checked, the auto replay mode stops
+    at the end of the game or when the command is canceled.</p>
+</blockquote>
+
+<p><a name="Database"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Database.gif" width="16" height="16">
+Options for Databases</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>The available options for database handling are related to:</p>
+
+<ul>
+    <li><a href="#DBResources">control of resources</a>,</li>
+    <li><a href="#DBCreation">creation</a>.</li>
+</ul>
+
+<p>The <img src="DBDefault.gif" align="absbottom" width="73"
+height="15"> button enables to restore the default settings.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="DBResources">Control of resources</a></h3>
+
+<p>The Cache parameter controls the size of the memory used for
+creation and search. It is expressed in units proper to the
+database library used.</p>
+
+<p><img src="../DBCache.gif" width="301" height="33"></p>
+
+<p>It is in principle possible to decrease its default value to
+lower the amount of required memory.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="DBCreation">Settings for database creation</a></h3>
+
+<h5>Use of extended search algorithms</h5>
+
+<p><img src="DBExtended.gif" width="268" height="17"></p>
+
+<p>By default, all the data required to use the whole set of
+search algorithms is not created. This enables to decrease the
+time for database creation, but can lead to higher search time
+for some cases.</p>
+
+<h5>Variation processing</h5>
+
+<p>The following check box enables or not the processing of game
+variations:</p>
+
+<p><img src="DBVariations.gif" width="268" height="17"></p>
+
+<h5>Duplicate processing</h5>
+
+<p>Duplicates (i.e. identical games) can be detected by using
+their <a href="Database.htm#SigSearch">signatures</a> or their
+final position depending on these radio buttons:</p>
+
+<p><img src="DBDetectDup.gif" width="268" height="52"></p>
+
+<p>When detected, duplicates can be stored in the database or
+ignored depending on the following check box:</p>
+
+<p><img src="DBIgnoreDup.gif" width="268" height="18"></p>
+
+<p>As for duplicates, games with SGF format errors can be ignored
+or stored. When stored, the moves starting from the error are
+nevertheless ignored.</p>
+
+<p><img src="DBIgnoreErr.gif" width="269" height="17"></p>
+
+<p>During the creation process, messages are displayed allowing
+to identify the duplicates or the games with SGF errors.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p><a href="Database.htm">More about databases...</a></p>
+
+<p><a name="GameEngine"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Engine.gif" width="16" height="16">
+Options for Game engines</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><strong>Drago</strong> enables to define at the same time
+several game engines. These game engines may be selected easily
+for playing or to be used for analysis functions.</p>
+
+<p>Defining a game engine is done in the game engine tab with two
+steps: selecting a predefined engines, then selecting its path.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Selecting a predefined engine</h4>
+
+<p>One of the predefined engines is selected by pressing the Add
+button. It is then possible to select an engine within the list
+of the six engines currently defined: Aya, DariushGTP, Fuego,
+Go169, Gnu Go, Mogo.</p>
+
+<p><img src="SelectEngine.gif" width="339" height="82"></p>
+
+<p>After validating this selection, it is possible to open the
+download web site to download and install the engine, by
+selecting the related option:</p>
+
+<p><img src="DownloadEngine.gif" width="222" height="46"></p>
+
+<p>If the game engine you want to use is not in the list, edit
+the file <font size="2" face="Courier New">engines.config</font>
+in install folder.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Selecting the engine path</h4>
+
+<p>When the engine is added to the list of defined engines, it is
+requested to declare its path in the dedicated edit box:</p>
+
+<p><img src="EnginePath.gif" width="347" height="35"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>When the engine is declared, the engine is known in the user
+interface as well as all commands and settings related to level,
+rules, timing and analysis functions.</p>
+
+<p>The available features depend on the engine and are displayed
+in the two boxes &quot;Game features&quot; and &quot;Analysis
+features&quot;.</p>
+
+<p><img src="GameFeatures.gif" width="171" height="96"> <img
+src="AnalysisFeatures.gif" width="171" height="96"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Three additional settings are also available at this point:</p>
+
+<ul>
+    <li>It is possible to change the name used in the user
+        interface. This name is initialized with the name and the
+        version as returned by the engine after selecting the
+        path.</li>
+    <li>It is possible to define how the engine will be used: to
+        play and/or for analysis function. The engine used to
+        play may also be changed when starting a game.</li>
+    <li>It is possible to declare additional arguments for the
+        engine command line.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p><a href="ModeJeu.htm">More about the Play mode...</a></p>
+
+<p><a name="Language"></a></p>
+
+<hr>
+
+<h2><img src="../Options-Language.gif" width="16" height="16">
+Options for Language</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Used to select the language for all text and messages of the
+interface.</p>
+
+<p>It is possible to add translations and the format should be
+intuitive. Contact me if you are interested in.</p>
+
+<hr>
+</body>
+</html>

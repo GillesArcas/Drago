@@ -1,0 +1,528 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Options avancées</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Options avancées</h1>
+
+<hr>
+
+<p>L'onglet <em>Options avancées</em> permet de configurer
+certains paramètres de fonctionnement non nécessaires à une
+utilisation courante, ou réservés à des besoins particuliers.</p>
+
+<p>Il est recommandé de consulter la documentation avant de
+modifier les valeurs de ces options. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Il est toujours possible de revenir aux valeurs par défaut en
+sélectionnant les sections ou les paramètres à rétablir puis
+en utilisant le bouton <em>Restaurer</em>. La sélection des
+sections ou paramètres se fait:</p>
+
+<ul>
+    <li>soit en pressant le bouton <em>Sélectionner</em> puis en
+        cochant les valeurs concernées,</li>
+    <li>soit en pressant le bouton <em>Sélectionner tout</em>.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="#Board">Goban</a></li>
+    <li><a href="#UserInterface">Interface utilisateur</a></li>
+    <li><a href="#Files">Fichiers</a></li>
+    <li><a href="#GameEngines">Moteurs de jeu</a></li>
+    <li><a href="#Warnings">Avertissements</a></li>
+    <li><a href="#PDF">PDF</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<p><a href="Options.htm">Plus sur les autres options...</a></p>
+
+<hr>
+
+<h2><a name="Board"></a>Goban</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="Séquence de cliques">Séquence de clics</a> en
+édition de position</h4>
+
+<blockquote>
+    <p>Lorsque l'interface est en mode d'ajout de pierres noires
+    ou blanches, cliquer sur une pierre déjà posée a les
+    effets suivants :</p>
+</blockquote>
+
+<blockquote>
+    <ul>
+        <li>en mode &quot;Poser, enlever&quot; : cliquer sur une
+            pierre l'efface,</li>
+        <li>en mode &quot;Poser, inverser la couleur,
+            enlever&quot; : cliquer sur une pierre change sa
+            couleur. Cliquer une deuxième fois l'efface.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Permettre numérotation comme dans les livres</h4>
+
+<blockquote>
+    <p>Quand cette option est activée, elle ajoute un cinquième
+    mode à l'option <a href="Options.htm#ShowMove"><em>Montrer
+    dernier coup</em></a> de l'onglet <em>Mouvements:</em></p>
+    <p><img src="MovesAsBooks.gif" width="335" height="76"></p>
+    <p>Le mode <em>Comme livres</em> active un mode d'affichage
+    reproduisant les figures dans les livres :</p>
+    <ul>
+        <li>Affiche tous les numéros de coups</li>
+        <li>Affiche le premier coup joué sur une intersection,
+            autrement dit, les prisonniers ne sont pas retirés.</li>
+        <li>Si une propriété de figure est spécifiée sur un
+            coup, les pierres jouées avant ce coup sont
+            montrées sans prisonniers et sans numéros.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Démarrer les variantes en 1</h4>
+
+<blockquote>
+    <p>Démarre systématiquement la numérotation des variantes
+    en 1. Quand la valeur de cette option est changée, tous les
+    jeux chargés dans l'interface sont ramenés à leur position
+    initiale.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Démarrer les variantes avec une figure</h4>
+
+<blockquote>
+    <p>Crée systématiquement une nouvelle figure en début de
+    variante pendant l'impression ou l'export (ou sur le goban
+    principal si l'option <em>Comme livres</em> est cochée).
+    Quand la valeur de cette option est changée, tous les jeux
+    chargés dans l'interface sont ramenés à leur position
+    initiale.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Les options &quot;Démarrer les variantes&quot; incluent la
+ligne principale</h4>
+
+<blockquote>
+    <p>Quand cette option est cochée, les deux options
+    précédentes s'appliquent à tous les embranchements y
+    compris la ligne principale.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Texte en gras</h4>
+
+<blockquote>
+    <p>Affiche les numéros de coups et les labels en caractères
+    gras.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Taille de fonte maximum</h4>
+
+<blockquote>
+    <p>Spécifie la taille maximum de la fonte utilisée pour
+    afficher les numéros de coups et les labels sur le goban.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Pavage des textures avec symétries</h4>
+
+<blockquote>
+    <p>Utilise l'image de texture choisie pour le goban
+    complétée par les images symétriques horizontalement et
+    verticalement. Par exemple, si l'image sélectionnée pour la
+    texture est <img src="Tile.gif" width="16" height="16"> alors
+    le pavage par défaut et le pavage avec symétries donne
+    respectivement les remplissages suivants :</p>
+    <p><img src="../StdTiling.gif" align="absmiddle" width="64"
+    height="64"> <img src="../SymTiling.gif" align="absmiddle"
+    width="64" height="64"></p>
+    <p>Cette option s'applique aussi aux autres textures
+    utilisées (fond de fenêtre et arbre de jeu).</p>
+</blockquote>
+
+<hr>
+
+<h2><a name="UserInterface"></a>Interface utilisateur</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Ouvrir une seule instance de l'application</h4>
+
+<blockquote>
+    <p>Quand cette option est activée et que <strong>Drago</strong>
+    est déjà lancé, un double clic sur un fichier ouvre un
+    nouvel onglet dans l'instance en cours. Si l'option n'est pas
+    activée, une deuxième instance de <strong>Drago</strong>
+    est démarrée.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Accrocher le contenu de la fenêtre pendant le
+redimensionnement</h4>
+
+<blockquote>
+    <p>Cette option permet de contrôler le comportement du
+    contenu de la fenêtre pendant le redimensionnement :</p>
+    <ul>
+        <li>si elle est activée, le contenu de la fenêtre est
+            mis à jour pendant le redimensionnement,</li>
+        <li>sinon le contenu ne change pas pendant le
+            redimensionnement, et est mis à jour lorsque le
+            bouton droit de la souris est relaché.</li>
+    </ul>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Montrer les boutons de fermeture d'onglets</h4>
+
+<blockquote>
+    <p>Permet de contrôler la présence des boutons de fermeture
+    d'onglets.</p>
+</blockquote>
+
+<hr>
+
+<h2><a name="Files"></a>Fichiers</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Interrompre le chargement sur une erreur fichier</h4>
+
+<blockquote>
+    <p>Si cette option est cochée, le chargement d'un fichier
+    est interrompu sur la première erreur, sinon l' erreur est
+    ignorée. Dans ce cas, l'erreur peut entrainer un chargement
+    incomplet de la partie.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Montrer la barre d'emplacements dans les dialogues Ouvrir et
+Sauver</h4>
+
+<blockquote>
+    <p>Permet de contrôler la présence de la barre
+    d'emplacements dans les dialogues d'ouverture et de
+    sauvegarde.</p>
+</blockquote>
+
+<blockquote>
+    <p>La barre d'emplacements est la zone située sur la gauche
+    de ces dialogues et contenant des icones donnant accès
+    directement au bureau, au dossier Mes documents, etc.</p>
+</blockquote>
+
+<blockquote>
+    <p><img src="PlacesBar.gif" width="229" height="105"></p>
+</blockquote>
+
+<hr>
+
+<h2><a name="GameEngines"></a>Moteurs de jeu</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Demande de sauvegarde en fin de partie</h4>
+
+<blockquote>
+    <p>Quand cette option est activée, un message est affiché
+    à la fin de la partie pour vérifier si la partie qui vient
+    d'être jouée doit être sauvegardée.</p>
+    <p>Si cette option n'est pas activée, il n'y a pas de
+    demande de sauvegarde quand on change de fichier ou qu'on
+    démarre un nouveau jeu. Ceci permet d'éviter une saisie
+    quand on veut enchainer librement des parties.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Réutiliser l'onglet de jeu précédent</h4>
+
+<blockquote>
+    <p>Si cette option est cochée, une partie est lancée dans
+    l'onglet utilisée pour la partie précédente, sinon un
+    nouvel onglet est créé.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Permettre Undo</h4>
+
+<blockquote>
+    <p>Cette option permet de revenir sur un coup avec les
+    modalités suivantes :</p>
+    <ul>
+        <li><em>Non</em>, le Undo n'est pas permis en cours de
+            partie,</li>
+        <li><em>Oui</em>, le Undo est toujours permis, ou bien</li>
+        <li><em>Seulement après une capture</em>.</li>
+    </ul>
+    <p>Le dernier coup est repris à l'aide de la commande <em>Annuler
+    coup </em>ou du bouton <img src="../BtUndo.gif"
+    align="absbottom" width="23" height="22">. </p>
+</blockquote>
+
+<hr>
+
+<h2><a name="Warnings"></a>Avertissements</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Chacune des options suivantes concernent des messages émis
+sur des événements particuliers. L'affichage de ces messages
+peut être supprimé en cochant &quot;Ne plus montrer ce
+message&quot;. Les options suivantes permettent de rétablir ces
+avertissements.</p>
+
+<p><img src="DontShow.gif" width="182" height="60"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Prévenir à la première modification</h4>
+
+<blockquote>
+    <p>Si cette option est activée, la première modification
+    d'un fichier affiche un avertissement.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Prévenir si tentative de modification d'un jeu de la base de
+données</h4>
+
+<blockquote>
+    <p>Si cette option est activée, essayer de modifier une
+    partie d'une base de donnée affiche un avertissement pour
+    prévenir l'utilisateur que cette modification n'est pas
+    possible. Le message propose de continuer en extrayant la
+    partie dans un nouvel onglet où elle peut être modifiée.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Prévenir si suppression branche</h4>
+
+<blockquote>
+    <p>Si cette option est activée, l'utilisation de la commande
+    <em>Supprimer branche</em> affiche une fenêtre de
+    confirmation.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Prévenir si coup illégal</h4>
+
+<blockquote>
+    <p>Si cette option est activée, la pose d'un coup illégal
+    déclenche l'affichage d'un message d'avertissement. Si cette
+    option n'est pas cochée, la pose d'un coup illégal
+    déclenche l'émission d'un <a href="#Sounds">son</a> qui
+    peut lui-même être configuré.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Prévenir quand le moteur de jeu passe</h4>
+
+<blockquote>
+    <p>Avertissement en complément de l'affichage de la mention
+    PASS dans la barre de statut.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Prévenir quand le moteur de jeu abandonne</h4>
+
+<h4>Prévenir sur une défaite au temps</h4>
+
+<blockquote>
+    <p>Avertissements en complément de l'affichage du résultat
+    de la partie dans la barre latérale.</p>
+</blockquote>
+
+<hr>
+
+<h2><a name="PDF"></a>PDF</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Utiliser la couleur du goban</h4>
+
+<blockquote>
+    <p>Utilise la couleur définie pour le goban dans l'onglet <em>Goban</em>
+    pour l'export en PDF.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Largeur exacte (mm)</h4>
+
+<blockquote>
+    <p>Spécifie la largeur exacte en millimètres des figures
+    exportées avec la fenêtre <em>Exporter position</em>, ou en
+    mode <em>Exporter figures</em> dans la fenêtre <em>Exporter</em>.</p>
+    <p>Si cette largeur est égale à 0, la valeur spécifiée
+    dans la fenêtre <em>Exporter position</em> ou calculée par <em>Exporter
+    figures</em> est utilisée.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Bordure ajoutée (N;O;S;E en % largeur image)</h4>
+
+<blockquote>
+    <p>Valeurs décimales. Permet d'ajouter une bordure autour du
+    goban de la couleur choisie pour le goban. Les tailles de
+    bordure sur les 4 bords sont spécifiées dans l'ordre Nord,
+    Ouest, Sud et Est et exprimées en pourcentage de la largeur
+    totale de l'image exportée.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Facteur d'ajustement du rayon</h4>
+
+<blockquote>
+    <p>Valeur décimale. Permet d'ajuster le rayon des pierres
+    par un facteur égal à la valeur du paramètre (i.e. rayon =
+    facteur * rayon par défaut).</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Epaisseur des cercles</h4>
+
+<blockquote>
+    <p>Valeur décimale. Spécifie l'épaisseur du bord des
+    pierres blanches en point (1/72 ième de pouce, à peu près
+    0,35 mm).</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Epaisseur des lignes</h4>
+
+<blockquote>
+    <p>Valeur décimale. Spécifie l'épaisseur des lignes du
+    goban en point (1/72 ième de pouce, à peu près 0,35 mm).</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Epaisseur des lignes de bord</h4>
+
+<blockquote>
+    <p>Valeur décimale. Spécifie l'épaisseur des lignes de
+    bord du goban en point (1/72 ième de pouce, à peu près
+    0,35 mm). Ce paramètre n'est actif que si l'option <em>Bord
+    épais</em> de l'<a href="Options.htm#Goban">onglet <em>Goban</em></a>
+    est cochée.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Rapport hoshi/pierre</h4>
+
+<blockquote>
+    <p>Valeur décimale. Permet de controler le rayon des hoshis
+    en spécifiant le rapport entre ce rayon et le rayon des
+    pierres.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Ajustement des marques</h4>
+
+<blockquote>
+    <p>Valeurs décimales. Permet de controler l'épaisseur des
+    traits et la taille des marques. Le paramètre spécifie
+    l'épaisseur du trait en points (1/72 ième de pouce, à peu
+    près 0,35 mm) et la taille en pourcentage de la taille par
+    défaut, les deux valeurs étant séparées par un
+    point-virgule (par exemple &quot;0.5;0.5&quot;).</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Facteurs d'ajustement de la fonte</h4>
+
+<blockquote>
+    <p>Valeurs décimales. Permet d'ajuster la taille de la fonte
+    utilisée pour les numéros de coups et les labels. De un à
+    trois facteurs de correction peuvent être stockés,
+    séparés par des points-virgules (i.e. &quot;1.1&quot; ou
+    &quot;1.1;1.3&quot; ou &quot;1.1;1.3;1.4&quot;). L'ajustement
+    est obtenu par l'expression : taille de fonte = facteur *
+    taille par défaut. Le fonctionnement est décrit en fonction
+    du nombre de valeurs stockées :</p>
+    <p>Une seule valeur : c'est le facteur d'ajustement pour tous
+    les numéros et labels.</p>
+    <p>Deux valeurs : La première valeur concerne l'ajustement
+    des numéros et labels d'au moins deux caractères, la
+    deuxième valeur concerne les numéros et labels sur un seul
+    caractère.</p>
+    <p>Trois valeurs : La première valeur concerne l'ajustement
+    des numéros et labels d'au moins deux caractères, la
+    deuxième valeur concerne les numéros sur un seul
+    caractère, la troisième valeur concerne les labels
+    alphabétiques sur un seul caractère.</p>
+    <p>Remarque : lorsqu'on cherche à optimiser une figure avec
+    des numéros sur au plus deux caractères, il peut être
+    utile de positionner l'option <a
+    href="Options.htm#NumerosDeCoups"><em>N'afficher que les deux
+    derniers chiffres</em></a> de l'onglet <em>Mouvements.</em></p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Texte en gras</h4>
+
+<blockquote>
+    <p>Exporte les figures en PDF avec les numéros de coups et
+    les labels en caractères gras.</p>
+</blockquote>
+
+<hr size="1" color="#C0C0C0">
+
+<h4>Ajustement de la hauteur des lignes</h4>
+
+<blockquote>
+    <p>Valeur décimale. Permet d'ajuster la hauteur des lignes
+    de commentaires. La valeur est un facteur de correction
+    appliqué à la taille par défaut.</p>
+</blockquote>
+
+<hr>
+</body>
+</html>

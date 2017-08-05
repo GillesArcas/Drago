@@ -1,0 +1,357 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - The Problem mode</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Solving problems</h1>
+
+<hr>
+
+<p>The Problem mode is for solving problems from collections in
+SGF format. <strong>Drago</strong> keeps track of the solved
+problems and of the number of successes for each one.</p>
+
+<p>Note that some solutions are sometimes missing from files,
+leading <strong>Drago</strong> to consider correct moves as
+failures. Be indulgent if this occurs, the goal is not the score
+but rather to practice and memorize a lot of problems.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="#Lancement">Starting a problem session</a></li>
+    <li><a href="#Deroulement">Description of a problem session</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Lancement">Starting a problem session</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>A problem session is started with the <em>Problems/Solve
+problems </em>menu. The options of the session are:</p>
+
+<ul>
+    <li>the problem selection mode,</li>
+    <li>the random orientation or random color of the position,</li>
+    <li>the ratio of previously failed problems,</li>
+    <li>the way the correct or incorrect moves are encoded.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Problem selection</h3>
+
+<p>Problems can be selected:</p>
+
+<ul>
+    <li>from an index</li>
+    <li>randomly: a set of problems is randomly selected in the
+        current file.</li>
+    <li>sequentially: the problems are given in order from the
+        current or last tested problem.</li>
+</ul>
+
+<p><img src="Problem-Order.gif" width="170" height="102"></p>
+
+<p>In each case, the number of problems to solve must be entered.</p>
+
+<h4>Index</h4>
+
+<p>An index is available in the <em>Problem</em> menu. Selecting
+a problem in this index opens the problem session selecting by
+default the <em>Sequential from current</em> mode. </p>
+
+<p><a href="ViewIndex.htm#GameInfoView-Problems">More about
+indexes...</a></p>
+
+<h4>Sequential from current</h4>
+
+<p>The session starts with the current problem and goes on in
+order. If the last problem in the file is reached, the session
+continues with the first problem in the file.</p>
+
+<h4>Sequential from stored</h4>
+
+<p><b>Drago</b> stores the reference of the last problem tested
+in this mode. The session starts with the following problem in
+the file and goes on in order. If the last problem in the file is
+reached, the session continues with the first problem in the
+file.</p>
+
+<h4>Random mode</h4>
+
+<p><b>Drago</b> stores a list of the number of times each problem
+has been tested. In the <em>Random</em> mode, the problems are
+randomly selected taking care to select first the least tested
+problems. Once selected, the problems are proposed in a random
+order.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Random orientation and color</h3>
+
+<p>To avoid memorizing an exact position, it is possible to check
+the <em>Random orientation</em> and <em>Random color</em> modes
+when starting a session.</p>
+
+<p><img src="Problem-Random.gif" width="171" height="101"></p>
+
+<h4>Random position</h4>
+
+<p>This mode displays each problem choosing randomly one of the
+eight possible symmetries.</p>
+
+<h4>Random color</h4>
+
+<p>This mode displays each problem with the stone colors as
+stored in the file or with the colors inverted.</p>
+
+<h4>Note</h4>
+
+<p>If the problems are stored with comments quoting the position
+(&quot;Kill upper right corner&quot;) or the color (&quot;Black
+to kill&quot;), these modes should not be selected.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Ratio of previous failures</h3>
+
+<p>Aiming at working more on the more difficult problems, it is
+possible to select the ratio of problems previously not solved
+with success. A problem is not successfully if it has required
+some help (hint, free mode or move backward) to be solved. The
+problems with the lower success ratio are chosen first.</p>
+
+<p><img src="Problem-Ratio.gif" width="342" height="58"></p>
+
+<p>The requested ratio is an objective which perhaps cannot be
+reached. This occurs for instance when the problem collection has
+never been visited.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Right and wrong move encoding</h3>
+
+<p>There are several ways of coding the right and wrong moves in
+a SGF file. <strong>Drago</strong> handles the following cases:</p>
+
+<p><img src="Problem-Encoding.gif" width="344" height="67"></p>
+
+<ul>
+    <li><em>Main line</em>: the correct solution is on the main
+        line.</li>
+    <li><em>uliGo</em>: wrong moves are identified with TR or WV
+        (Wrong Variation). This is the way chosen by <a
+        href="http://www.uligo.com/">uliGo</a>. </li>
+    <li><em>Goproblems</em>: the last move of a correct sequence
+        has a comment with the word RIGHT. This is the way chosen
+        by <a href="http://www.goproblems.com/">goproblems</a>. </li>
+    <li><em>Autodetect</em>: <strong>Drago</strong> analyses the
+        problem and detects the type of encoding. This is the
+        default mode.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Collection statistics</h3>
+
+<p>The success ratio of each problem is stored and this enables
+to display the visit and success ratios for the complete
+collection. These statistics may be reset by using the related
+menu command associated with the <em>More..</em>. button:</p>
+
+<p><img src="Problem-More.gif" width="178" height="107"></p>
+
+<hr>
+
+<h2><a name="Deroulement">Description of a problem session</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Problem sessions enable you to solve each problem selected
+with the starting options. After a problem has been solved, or to
+skip to the next problem, use the <em>Next game</em> toolbar
+button <img src="../BtNext2.gif" align="absmiddle" width="23"
+height="22">.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Available commands</h3>
+
+<p>While solving a problem, the following commands are available:</p>
+
+<ul>
+    <li>play a move: <strong>Drago</strong> answers with one of
+        the winning moves of its color if there is one, one of
+        the losing moves otherwise.</li>
+    <li>go backward one move,</li>
+    <li>return to the initial position, </li>
+    <li>skip to next problem,</li>
+    <li>ask for a hint,</li>
+    <li>play in free mode.</li>
+</ul>
+
+<h4>Hints</h4>
+
+<p>You can get hints by using the <em>Problem/Hint</em> menu. If
+there are moves leading to a solution, they are displayed as semi
+transparent stones. Otherwise, the last user move is wrong and it
+is surrounded in red.</p>
+
+<h4>Free mode</h4>
+
+<p>Free mode is entered with the <em>Solve/Free mode</em> menu.
+Free mode allows you to test any sequence of moves. Free mode is
+exited with the <em>Solve/Problem mode</em> menu which goes back
+to the position from which you entered free mode.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Results</h3>
+
+<p>When the last played move has no follow up or is unknown, <strong>Drago</strong>
+displays the result for the current problem and trial. Depending
+on what has been played, the problem is considered correct or not
+for the session.</p>
+
+<p>A problem is considered as correct if it has been solved
+without backward moves, hints, or free mode.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Status display</h3>
+
+<p>Depending on the result of the problem and of the current
+trial, <strong>Drago</strong> displays a message and a symbol.</p>
+
+<p align="left"><img src="Problem-Status.gif" width="203"
+height="48"></p>
+
+<p>The following cases are possible:</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="586">
+    <tr>
+        <td colspan="3" width="51%">Problem resolution</td>
+        <td colspan="3" width="51%">Trial resolution</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">Message</p>
+        </td>
+        <td width="12%"><p align="center">Symbol</p>
+        </td>
+        <td width="27%"><p align="center">Comment</p>
+        </td>
+        <td width="12%"><p align="center">Message</p>
+        </td>
+        <td width="12%"><p align="center">Symbol</p>
+        </td>
+        <td width="27%"><p align="center">Comment</p>
+        </td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">Running</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">First trial in progress</td>
+        <td width="12%">Running</td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">First trial in progress</td>
+    </tr>
+    <tr>
+        <td rowspan="5" width="12%"><p align="center"><font
+        color="#008000">Success</font></p>
+        </td>
+        <td rowspan="5" width="12%"><p align="center"><font
+        color="#800000" size="6" face="Wingdings">C</font></p>
+        </td>
+        <td rowspan="5" width="27%">Problem has been solved on
+        first try</td>
+        <td width="12%"><p align="center">Running</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">One more try in progress</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#008000">Success</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">C</font></p>
+        </td>
+        <td width="27%">Trial success</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#FF0000">Failure</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">D</font></p>
+        </td>
+        <td width="27%">Failure after first trial</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#0000FF">Assisted</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">G</font></p>
+        </td>
+        <td width="27%">Assisted success after first trial
+        (backward move, hint or free mode)</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">Resign</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">I</font></p>
+        </td>
+        <td width="27%">Resignation after first trial</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#FF0000">Failure</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">D</font></p>
+        </td>
+        <td width="27%">The problem is not yet solved</td>
+        <td colspan="2" width="24%"><p align="center"><font
+        color="#800000" size="5" face="Wingdings">FDI</font></p>
+        </td>
+        <td width="27%">Same as success case</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#0000FF">Assisted</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">G</font></p>
+        </td>
+        <td width="27%">The problem is solved with some help (two
+        trials or more, backward move, hint or free mode)</td>
+        <td colspan="2" width="24%"><p align="center"><font
+        color="#800000" size="5" face="Wingdings">FCDGI</font></p>
+        </td>
+        <td width="27%">Same as success case</td>
+    </tr>
+</table>
+
+<p><br>
+</p>
+
+<hr>
+</body>
+</html>

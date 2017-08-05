@@ -1,0 +1,255 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Vues et index</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Vues et index</h1>
+
+<hr>
+
+<p>Il est possible de visionner le contenu de chaque onglet
+indépendamment sous trois formes:</p>
+
+<ul>
+    <li>la <a href="#BoardView">vue goban</a>, dans laquelle le
+        jeu en cours peut être parcouru coup par coup,</li>
+    <li>la <a href="#GameInfoView">vue des informations</a>, qui
+        présente une table des informations de jeu (joueurs,
+        date, résultat, ...) pour l'ensemble des parties
+        chargées dans l'onglet,</li>
+    <li>la <a href="#ThumbnailView">vue des vignettes</a>, qui
+        présente des imagettes de goban pour l'ensemble des
+        parties chargées dans l'onglet.</li>
+</ul>
+
+<p>Les vues sont sélectionnées avec les commandes <em>Voir
+goban</em>, <em>Voir informations de jeu</em> et <em>Voir
+vignettes</em> du menu <em>Affichage</em>, ou par les boutons <img
+src="../BtViewBoard.gif" align="absbottom" width="23" height="22">,
+<img src="../BtViewInfo.gif" align="absbottom" width="23"
+height="22"> et <img src="../BtViewNail.gif" align="absbottom"
+width="23" height="22"> de la barre d'outils.</p>
+
+<table border="1">
+    <tr>
+        <td><img src="../ViewBoard.jpg" width="200" height="149"></td>
+        <td><img src="../ViewInfo.jpg" width="200" height="149"></td>
+        <td><img src="../ViewNail.jpg" width="200" height="149"></td>
+    </tr>
+    <tr>
+        <td><img src="../BtViewBoard.gif" align="absbottom"
+        width="23" height="22"> Vue goban</td>
+        <td><img src="../BtViewInfo.gif" align="absbottom"
+        width="23" height="22"> Vue des informations de jeu</td>
+        <td><img src="../BtViewNail.gif" align="absbottom"
+        width="23" height="22"> Vue des vignettes</td>
+    </tr>
+</table>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les commandes <em>Index</em> des menus <em>Rejouer</em> et<em>
+Résoudre</em> affichent des listes d'informations propres aux
+modes Parties et Problèmes.</p>
+
+<ul>
+    <li><a href="#GameInfoView-Replay">Index des informations en
+        mode Parties</a></li>
+    <li><a href="#GameInfoView-Problems">Index des informations
+        en mode Problèmes</a></li>
+</ul>
+
+<hr>
+
+<h2><a name="BoardView">La vue goban</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>C'est la vue principale permettant de naviguer et éditer les
+parties, ou de rejouer des parties ou jouer contre GNU Go. </p>
+
+<ul>
+    <li><a href="Interface.htm#BoardView">Interface en mode goban</a></li>
+    <li><a href="Options.htm#Goban">Options de la vue goban</a></li>
+</ul>
+
+<hr>
+
+<h2><a name="GameInfoView">La vue des informations de jeu</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La vue des informations de jeu présente les informations des
+parties contenues dans l'onglet sous forme de table: </p>
+
+<p><img src="ViewInfoBig.jpg" width="600" height="51"></p>
+
+<p>Le nombre et le contenu des colonnes peuvent être configurés
+dans l'<a href="Options.htm#Preview">onglet <em>Aperçus</em></a>
+de la fenêtre d'options. La largeur des colonnes peut être
+modifiée en cliquant entre deux boutons d'entête:</p>
+
+<p><img src="ViewInfoRedim.gif" width="240" height="24"></p>
+
+<p>La liste des informations peut être triée sur le contenu
+d'une colonne, en ordre croissant ou décroissant, en cliquant
+sur les boutons d'entête:</p>
+
+<p><img src="ViewInfoSort.gif" width="138" height="27"></p>
+
+<p>Pour éviter un temps d'attente trop long, le tri est inhibé
+si le nombre de lignes est supérieur à une valeur spécifiée
+dans l'<a href="Options.htm#Preview">onglet <em>Aperçus</em></a>
+de la fenêtre d'options (1000 par défaut). Dans ce cas, le
+symbole <img src="../GlyphSort.gif" width="9" height="11"> est
+absent.</p>
+
+<p>Notez également que :</p>
+
+<ul>
+    <li>Le jeu sélectionné est encadré en bleu. Le bouton <img
+        src="../BtViewBoard.gif" align="absbottom" width="23"
+        height="22"> ou la touche Entrée, ou un double clic sur
+        une ligne, place l'onglet en vue goban sur le jeu
+        sélectionné.</li>
+    <li>La commande <em>Informations...</em> du menu <em>Fichier</em>
+        ou le bouton <img src="../BtInfo.gif" align="absbottom"
+        width="23" height="22"> affiche une fénêtre affichant
+        l'ensemble des informations disponibles pour le jeu
+        sélectionné.</li>
+</ul>
+
+<hr>
+
+<h2><a name="ThumbnailView">La vue des vignettes</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La vue des vignettes affiche des pages de goban miniatures
+contenant les parties chargées dans l'onglet. La taille des
+vignettes est configarable en précisant le diamètre des pierres
+dans l'<a href="Options.htm#Preview">onglet <em>Aperçus</em></a>
+de la fenêtre d'options.</p>
+
+<p><img src="../ViewNailBig.jpg" width="600" height="94"></p>
+
+<p>La position affichée dans les vignettes est controlée par
+les boutons de déplacement à l'intérieur d'un jeu <img
+src="../BtMoves.gif" align="absbottom" width="115" height="22">
+de la façon suivante :</p>
+
+<table border="1" cellpadding="4" cellspacing="0" width="632">
+    <tr>
+        <td align="center"><img src="../BtFirst.gif" width="23"
+        height="22"></td>
+        <td width="25%"><em>Position initiale</em></td>
+        <td width="75%">Met tous les gobans à la position
+        initiale</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtPrev.gif" width="23"
+        height="22"></td>
+        <td width="25%"><em>Coup précédent</em></td>
+        <td width="75%">Décrémente le numéro de coup de
+        position intermédiaire et met tous les gobans sur ce
+        coup</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtNext.gif" width="23"
+        height="22"></td>
+        <td width="25%"><em>Coup suivant</em></td>
+        <td width="75%">Incrémente le numéro de coup de
+        position intermédiaire et met tous les gobans sur ce
+        coup</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtLast.gif" width="23"
+        height="22"></td>
+        <td width="25%"><em>Position finale</em></td>
+        <td width="75%">Met tous les gobans à la position finale</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtGoto.gif" width="23"
+        height="22"></td>
+        <td width="25%"><em>Aller à</em></td>
+        <td width="75%">Lit un numéro de coup de position
+        intermédiaire et met tous les gobans sur ce coup</td>
+    </tr>
+</table>
+
+<p>Notez également que :</p>
+
+<ul>
+    <li>Le jeu sélectionné est encadré en bleu. Le bouton <img
+        src="../BtViewBoard.gif" align="absbottom" width="23"
+        height="22"> ou la touche Entrée, ou un double clic sur
+        une vignette, place l'onglet en vue goban sur le jeu
+        sélectionné.</li>
+    <li>La commande <em>Informations...</em> du menu <em>Fichier</em>
+        ou le bouton <img src="../BtInfo.gif" align="absbottom"
+        width="23" height="22"> affiche une fenêtre affichant
+        l'ensemble des informations disponibles pour le jeu
+        sélectionné.</li>
+</ul>
+
+<hr>
+
+<h3><a name="GameInfoView-Replay">Vue information en mode <i>Parties</i></a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'index est activé en mode texte. Celui-ci affiche pour
+chaque partie :</p>
+
+<ul>
+    <li>les attributs GameInfo de base (joueurs, lieu, date et
+        résultat), </li>
+    <li>le nombre de fois qu'elle a été rejouée (#), </li>
+    <li>le plus haut score obtenu avec Noir (GB), avec Blanc (GW)
+        et avec les deux (G) en rejouant la partie complète, </li>
+    <li>le plus haut score obtenu avec Noir (FB), avec Blanc (FW)
+        et avec les deux (F) en rejouant le fuseki (début de
+        partie). </li>
+</ul>
+
+<p align="center"><img src="Index.gif" align="left" hspace="0"
+width="234" height="83"></p>
+
+<p align="center">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Le nombre de coups attribués au fuseki est paramétré au
+démarrage d'une partie et vaut 30 par défaut. Le bouton Ok, la
+touche Enter ou un double clic sur une partie démarrent une
+session Parties en activant le mode <i>Partie chargée</i>.</p>
+
+<p><a href="ModeJeu.htm">Plus sur le mode Jeu ...</a></p>
+
+<hr>
+
+<h3><a name="GameInfoView-Problems">Vue information en mode <i>Problèmes</i></a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'index est activé en mode graphique. Le mode texte affiche
+en plus pour chaque problème le nombre de fois qu'il a été
+essayé et résolu, et le pourcentage de réussite. Le bouton Ok,
+la touche Enter ou un double clic sur un problème démarrent une
+session Problèmes en activant le mode <i>Séquentiel courant</i>.</p>
+
+<p><a href="ModeProblems.htm">Plus sur le mode Problème ...</a></p>
+
+<hr>
+</body>
+</html>

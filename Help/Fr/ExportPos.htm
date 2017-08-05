@@ -1,0 +1,179 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Exportation d'une position</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Exportation d'une position</h1>
+
+<hr>
+
+<p><strong>Drago</strong> permet d'<a href="Impression.htm">imprimer
+et d'exporter des parties entières</a> sous différentes formes
+grâce aux commandes <em>Imprimer...</em> et <em>Exporter...</em>,
+mais il peut aussi exporter des positions sélectionnées sur le
+goban grâce à la commande <em>Exporter position...</em>
+décrite ici.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<table border="0" cellspacing="10" width="100%">
+    <tr>
+        <td>La boîte de dialogue <em>Exporter position... </em>permet
+        de:<ul>
+            <li>sélectionner et paramétrer une zone
+                rectangulaire du goban</li>
+            <li>exporter la position dans un des formats suivants
+                : WMF, GIF, PNG, JPEG, BMP, ASCII rec.games.go ou
+                ASCII Sensei's Library, SGF.</li>
+        </ul>
+        <p>Dans tous les cas, l'exportation peut se faire dans un
+        fichier. Si le format choisi est parmi WMF, BMP ou ASCII,
+        l'exportation peut aussi faire une copie de l'image dans
+        le presse-papiers pour être ensuite collée dans une
+        autre application.</p>
+        <p>L'export en SGF consiste à produire un fichier sans
+        mouvements mais avec une position initiale identique à
+        celle qui est capturée.</p>
+        </td>
+        <td width="150"><img src="ExpPos.gif" width="137"
+        height="300"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr>
+        <h2>Sélection d'une zone sur le goban</h2>
+        <hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>Quand le dialogue <em>Exporter position...</em> est
+        ouvert, le curseur prend la forme d'une croix rouge en
+        passant sur le goban. Il est alors possible de
+        sélectionner une zone rectangulaire en cliquant puis
+        déplaçant la souris.</td>
+        <td width="150"><img src="../ExpPosZone.gif" width="150"
+        height="149"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>Les coordonnées de la zone sélectionnée sont
+        reportées dans la boîte d'édition <em>Coordonnées
+        figure</em>. Il est également possible d'éditer
+        directement ces coordonnées pour spécifier une zone de
+        l'image.</td>
+        <td width="150"><img src="ExpPosCoord.gif" width="202"
+        height="36"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr>
+        <h2>Paramétrage de la figure</h2>
+        <hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>Les dimensions de l'image et le diamètre des pierres
+        sont choisies avec la boîte <em>Dimensions</em>.<p>Notez
+        que les coordonnées sont exprimées en millimètres pour
+        le format WMF, en pixels dans les autres cas. Ces
+        coordonnées sont non significatives dans le cas des
+        formats ASCII et SGF.</p>
+        </td>
+        <td width="150"><img src="ExpPosDim.gif" width="201"
+        height="60"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>En cliquant sur le premier bouton <img
+        src="../BtPlus.gif" width="10" height="10">, une zone
+        d'options supplémentaire est ouverte. Cette zone permet
+        de spécifier si les pierres capturées doivent être
+        vues ou non (valeurs <em>Comme livre</em> ou <em>Comme
+        goban</em>).</td>
+        <td width="150"><img src="ExpPosMore1.gif" width="205"
+        height="32"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr>
+        <h2>Paramétrage du format</h2>
+        <hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>La sélection du format se fait avec les boutons
+        radios de la boîte <em>Format</em>.</td>
+        <td><img src="../ExpPosFormat.gif" width="211"
+        height="102"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr size="1" color="#C0C0C0">
+        </td>
+    </tr>
+    <tr>
+        <td>En cliquant sur le bouton <img src="../BtPlus.gif"
+        width="10" height="10">, une zone d'options
+        supplémentaire est ouverte. Cette zone permet de
+        sélectionner les options propres au format choisi.<p>Dans
+        la version courante, ces options spécifiques sont :</p>
+        <ul>
+            <li>pour le format JPEG : le facteur de qualité</li>
+            <li>pour le format ASCII : la sélection du type de
+                format (rec.games.go ou Sensei'Library) et les
+                options du format rec.games.go.</li>
+        </ul>
+        </td>
+        <td><img src="ExpPosRgg.gif" width="216" height="126"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><hr>
+        <h2>Formats ASCII</h2>
+        <hr size="1" color="#C0C0C0">
+        <p><strong>Drago</strong> respecte les conventions
+        spécifiées pour les formats ASCII rec.games.go et
+        Sensei's Library.</p>
+        <h4>Format rec.games.go</h4>
+        <p>Ce format est généralement utilisé pour les
+        échanges de position par email. On peut trouver sa
+        description dans la <a
+        href="http://senseis.xmp.net/?RGGFAQPart4Section6">section
+        4.6 de la FAQ rec.games.go</a>.</p>
+        <h4>Format Sensei's Library</h4>
+        <p>C'est le format utilisé pour l'ajout d'un diagramme
+        dans le wiki Sensei's Library. Sa description se trouve
+        à la page <a
+        href="http://senseis.xmp.net/?HowDiagramsWork">HowDiagramsWork</a>.
+        La page <a
+        href="http://senseis.xmp.net/?SLDiagramsWithDrago">SL
+        Diagrams with Drago</a> décrit plus complètement la
+        génération de diagrammes Sensei's Library avec <strong>Drago</strong>.</p>
+        </td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>Format SGF</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'export en SGF consiste à produire un fichier sans
+mouvements mais avec une position initiale identique à celle qui
+est capturée.</p>
+
+<hr>
+</body>
+</html>

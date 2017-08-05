@@ -1,0 +1,495 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Version" content="8.0.3429">
+<meta name="Date" content="11/28/96">
+<meta name="Template" content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+
+<title>Drago - SGF Format</title><link rel="StyleSheet" href="Drago.css" type="text/css"></head>
+
+<body>
+
+<h1><img src="Drago.gif" height="32" width="32">&nbsp;Drago - SGF
+format </h1>
+
+<hr>
+
+<h2>Reference</h2>
+
+<hr color="#c0c0c0" size="1">
+
+<p>The SGF format, Smart Game Format, is the most used format on
+the Internet to store games of Go. It is specified at <a href="http://www.red-bean.com/sgf/">SGF specification </a>.</p>
+
+<p><b>Drago</b> is almost fully compliant with the SGF format
+version FF[4]. The description of its conformance and of the
+differences with the specification is done below. </p>
+
+<p>Note that it is not necessary to know the format to use <strong>Drago</strong>
+(and the other SGF editors as well).</p>
+
+<hr>
+
+<h2>SGF Properties</h2>
+
+<hr color="#c0c0c0" size="1">
+
+<p>The following table lists all the properties defined for the
+game of Go in the FF[3] and FF[4] SGF specifications. The table
+gives for each property its compliance status in <strong>Drago</strong>
+implementation.</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="458">
+    <tbody><tr>
+        <td width="13%">AB</td>
+        <td width="25%">Add Black</td>
+        <td width="62%">Compliant, cf. <i>Setup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">AE</td>
+        <td width="25%">Add Empty</td>
+        <td width="62%">Compliant, cf. <i>Setup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">AN</td>
+        <td width="25%">Annotation</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">AP</td>
+        <td width="25%">Application</td>
+        <td width="62%">Compliant, cf. <i>Root properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">AR</td>
+        <td width="25%">Arrow</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">AW</td>
+        <td width="25%">Add White</td>
+        <td width="62%">Compliant, cf. <i>Setup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">B</td>
+        <td width="25%">Black</td>
+        <td width="62%">Compliant</td>
+    </tr>
+    <tr>
+        <td width="13%">BL</td>
+        <td width="25%">Black time left</td>
+        <td width="62%">Compliant</td>
+    </tr>
+    <tr>
+        <td width="13%">BM</td>
+        <td width="25%">Bad Move</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">BR</td>
+        <td width="25%">Black Rank</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">BT</td>
+        <td width="25%">Black Team</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">C</td>
+        <td width="25%">Comment</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">CA</td>
+        <td width="25%">Charset</td>
+        <td width="62%">Compliant, cf.&nbsp;<i>Root properties</i> </td>
+    </tr>
+    <tr>
+        <td width="13%">CP</td>
+        <td width="25%">Copyright</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">CR</td>
+        <td width="25%">Circle</td>
+        <td width="62%">Compliant, cf. <i>Markup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">DD</td>
+        <td width="25%">Dim points</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">DM</td>
+        <td width="25%">Even Position</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">DO</td>
+        <td width="25%">Doubtful</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">DT</td>
+        <td width="25%">Date</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">EV</td>
+        <td width="25%">Event</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">FF</td>
+        <td width="25%">File format</td>
+        <td width="62%">Cf. <i>Root properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">FG</td>
+        <td width="25%">Figure</td>
+        <td width="62%">Entered with figure name and coordinate
+        flag</td>
+    </tr>
+    <tr>
+        <td width="13%">GB</td>
+        <td width="25%">Good for Black</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">GC</td>
+        <td width="25%">Game comment</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">GM</td>
+        <td width="25%">Game</td>
+        <td width="62%">Cf. <i>Root properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">GN</td>
+        <td width="25%">Game name</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">GW</td>
+        <td width="25%">Good for White</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">HA</td>
+        <td width="25%">Handicap</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">HO</td>
+        <td width="25%">Hotspot</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">IT</td>
+        <td width="25%">Interesting</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">KM</td>
+        <td width="25%">Komi</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">KO</td>
+        <td width="25%">KO</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">L</td>
+        <td width="25%">Letter</td>
+        <td width="62%">Compliant, cf. <i>Markup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">LB</td>
+        <td width="25%">Label</td>
+        <td width="62%">Compliant, cf. <i>Markup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">LN</td>
+        <td width="25%">Line</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">M</td>
+        <td width="25%">Simple markup</td>
+        <td width="62%">Compliant, cf. <i>Markup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">MA</td>
+        <td width="25%">Mark with X</td>
+        <td width="62%">Compliant, cf. <i>Setup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">MN</td>
+        <td width="25%">Move number</td>
+        <td width="62%">Compliant. Interpreted and edited in the <em>Edit/Insert</em>
+        control box. A MN property on a node without move applies
+        on the next move.</td>
+    </tr>
+    <tr>
+        <td width="13%">N</td>
+        <td width="25%">Node name</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">OB</td>
+        <td width="25%">Black moves left</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">ON</td>
+        <td width="25%">Opening</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">OT</td>
+        <td width="25%">Overtime</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">OW</td>
+        <td width="25%">White moves left</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">PB</td>
+        <td width="25%">Player Black</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">PC</td>
+        <td width="25%">Place</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">PL</td>
+        <td width="25%">Player</td>
+        <td width="62%">Compliant, stored if the option <em>Change
+        player with SGF property</em> is checked.</td>
+    </tr>
+    <tr>
+        <td width="13%">PM</td>
+        <td width="25%">Print numbers</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">PW</td>
+        <td width="25%">Player White</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">RE</td>
+        <td width="25%">Result</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">RO</td>
+        <td width="25%">Round</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">RU</td>
+        <td width="25%">Rules</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">SL</td>
+        <td width="25%">Selected points</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">SO</td>
+        <td width="25%">Source</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">SQ</td>
+        <td width="25%">Square</td>
+        <td width="62%">Compliant, cf. <i>Markup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">ST</td>
+        <td width="25%">Style</td>
+        <td width="62%">Compliant, cf. <i>Root properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">SZ</td>
+        <td width="25%">Size</td>
+        <td width="62%">Handles every board size within 3 and 19.</td>
+    </tr>
+    <tr>
+        <td width="13%">TB</td>
+        <td width="25%">Territory Black</td>
+        <td width="62%">Compliant</td>
+    </tr>
+    <tr>
+        <td width="13%">TE</td>
+        <td width="25%">Tesuji</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">TM</td>
+        <td width="25%">Time limit</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">TR</td>
+        <td width="25%">Triangle</td>
+        <td width="62%">Compliant, cf. <i>Markup properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">TW</td>
+        <td width="25%">Territory White</td>
+        <td width="62%">Compliant</td>
+    </tr>
+    <tr>
+        <td width="13%">UC</td>
+        <td width="25%">Unclear</td>
+        <td width="62%">Compliant, cf. <i>Annotation properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">US</td>
+        <td width="25%">User</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">V</td>
+        <td width="25%">Node value</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">VW</td>
+        <td width="25%">View part</td>
+        <td width="62%">Not handled</td>
+    </tr>
+    <tr>
+        <td width="13%">W</td>
+        <td width="25%">White</td>
+        <td width="62%">Compliant</td>
+    </tr>
+    <tr>
+        <td width="13%">WL</td>
+        <td width="25%">White time left</td>
+        <td width="62%">Compliant</td>
+    </tr>
+    <tr>
+        <td width="13%">WR</td>
+        <td width="25%">White Rank</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+    <tr>
+        <td width="13%">WT</td>
+        <td width="25%">White Team</td>
+        <td width="62%">Compliant, cf. <i>Game-info properties</i></td>
+    </tr>
+</tbody></table>
+
+<p>Furthermore, <b>Drago</b> handles the WV property (Wrong
+Variation) used by uliGo to identify an incorrect variation for
+problem solving.</p>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Root properties</h4>
+
+<p>Root properties give a general description of a game.</p>
+
+<p>Notes :</p>
+
+<ul>
+    <li>The game, application, file format and size properties
+        (GM, AP, FF, SZ) are stored when creating a file if the
+        option <em>New file with full SGF properties</em> is
+        checked. Otherwise, only the size property is stored if
+        its value is different from the default value 19.</li>
+    <li>The game property (GM) gives a warning if its value is
+        not 1. The file format property (FF) is recognized but
+        does nothing: <strong>Drago</strong> relies on the
+        display of unknown properties in the status bar.</li>
+    <li>The application and style properties (AP and ST) can be
+        edited in the <em>Information</em> control.</li>
+    
+    <li>The file format property (FF) is displayed but cannot be
+        edited.</li>
+    <li>The style property temporarily changes the values of the <em>Show
+        Next Moves</em> and <em>Show Alternate Moves</em>
+        options. If these options are not modified during the
+        current game, they are restored when loading the next
+        game.</li><li>If a game file has no CA property (ChArset), the code page specified in the "Select default code page for game files" (<a href="Options.htm#Language">Language</a> tab in option dialog) is used. The code pages handled by <span style="font-weight: bold;">Drago</span> are listed in this option.</li>
+</ul>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Game-info properties</h4>
+
+<p>Game-info properties are used to give a general description of
+a game. They are displayed and edited with the <em>Game
+information</em> command.</p>
+
+<p>Notes:</p>
+
+<ul>
+    <li>There is no validation when editing a date property (DT).
+        The format should be YYYY-MM-DD. See specification for
+        complete description.</li>
+    <li>There is no validation when editing a result property
+        (RE).The format should be of the form B+1.5. See
+        specification for complete description.</li>
+    <li>There is no validation when editing a rule property (RU).
+        See specification for description.</li>
+</ul>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Annotation properties</h4>
+
+<p>Annotation properties are used to qualify a move or a
+position:</p>
+
+<ul>
+    <li>C and N properties (Comment and Name) are edited and
+        displayed in the main window.</li>
+    <li>The properties DM, GB, GW, HO, UC, BM, DO, IT and TE are
+        edited with the <em>Edit/Insert</em> menu and display a
+        message in the status bar.</li>
+    <li>The V property (Value) is not handled.</li>
+</ul>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Markup properties</h4>
+
+<p>Markup properties accept rectangular zones like SQ[ab:cd]. The
+single markup property (M) is obsolete; it is displayed (as a
+triangle markup) but can not be entered with <strong>Drago</strong>.
+The label property (LB) is displayed, but limited to 3
+characters. The <em>Edit/Markup/Number</em> command is used to
+add the number of a move as the LB property for the node.</p>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Setup properties</h4>
+
+<p>The setup properties AB, AE and AW accept rectangular zones
+like AB[ab:cd].</p>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Unknown and not handled properties</h4>
+
+<p>The properties which are not in the preceding table are
+reported with a message in the status bar. For instance: <img src="status3.gif" align="absbottom" height="23" width="110"></p>
+
+<p>Property names with more than two characters are accepted if
+the <em>Accept long property names</em> of the <a href="Options.htm#Files">Options/Files</a> tab is checked.</p>
+
+<hr>
+</body></html>

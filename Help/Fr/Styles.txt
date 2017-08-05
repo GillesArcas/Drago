@@ -1,0 +1,3 @@
+Titre1   Arial 18 Gras
+Titre2   Arial 12 Gras
+Titre3   Arial 10 Gras Italique

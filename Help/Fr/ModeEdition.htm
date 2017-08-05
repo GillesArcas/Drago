@@ -1,0 +1,351 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Version" content="8.0.3429">
+<meta name="Date" content="11/28/96">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Le mode Edition</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32"><font
+face="Arial">&nbsp;Drago - Le mode Edition</font></h1>
+
+<hr>
+
+<ol>
+    <li><a href="#Sommaire">Sommaire des commandes d'édition</a></li>
+    <li><a href="#EditionSequenceDeJeu">Edition d'une séquence
+        de jeu</a></li>
+    <li><a href="#Edition d'une position">Edition d'une position</a></li>
+    <li><a href="#Edition des marques">Edition des marques</a></li>
+    <li><a href="Insertion.htm">Insertion d'informations diverses</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Sommaire">Sommaire des commandes d'édition</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><br>
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0" width="632">
+    <tr>
+        <td align="center"><strong>Outil</strong></td>
+        <td align="center"><strong>Menu</strong></td>
+        <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtUndo.gif" width="23"
+        height="22"></td>
+        <td><em>Annuler&nbsp;coup</em></td>
+        <td>Supprime le dernier coup saisi et les propriétés
+        associées à ce coup (commentaires, etc.)</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtCut.gif" width="23"
+        height="22"></td>
+        <td><em>Supprimer branche</em></td>
+        <td>Supprime toute la branche à partir du coup en cours,
+        c'est à dire le coup en cours et tous les coups qui
+        suivent</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtPlay.gif" width="23"
+        height="22"></td>
+        <td><em>Editer jeu</em></td>
+        <td>Sélectionne la saisie en mode Jeu : chaque joueur à
+        tour de rôle en vérifiant la validité des coups</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtBlack.gif" width="23"
+        height="22"></td>
+        <td><em>Placer Noir</em></td>
+        <td>Sélectionne la saisie en mode pierres noires
+        seulement</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtWhite.gif" width="23"
+        height="22"></td>
+        <td><em>Placer Blanc</em></td>
+        <td>Sélectionne la saisie en mode pierres blanches
+        seulement</td>
+    </tr>
+    <tr>
+        <td align="center">&nbsp;</td>
+        <td><em>Vide</em></td>
+        <td>Sélectionne la saisie en mode effacement</td>
+    </tr>
+    <tr>
+        <td><img src="../BtMark.gif" width="36" height="22"></td>
+        <td><em>Marque</em></td>
+        <td>Sélectionne la saisie en mode marques. Le choix de
+        la marque se fait dans le sous menu associé ou le menu
+        déroulant du bouton outil.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><em>Joueur</em></td>
+        <td>Sélectionne la couleur du prochain coup</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtPass.gif" width="15"
+        height="16"></td>
+        <td><em>Insérer passe</em></td>
+        <td>Passe au joueur suivant sans jouer de coup</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="../BtInsert.gif" width="23"
+        height="22"></td>
+        <td><em>Insérer ...</em></td>
+        <td>Insertion, ou suppression, des propriétés SGF
+        d'annotation ou autres à la position courante</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><em>Mettre en branche principale</em></td>
+        <td>Transforme la branche courante en branche principale</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><em>Enlever des propriétés...</em></td>
+        <td>Permet de spécifier des propriétés SGF et de les
+        enlever du jeu courant ou de la collection chargée dans
+        l'onglet</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><em>Insérer un noeud vide</em></td>
+        <td>Permet d'insérer un noeud vide (sans coup ni
+        propriété) après le noeud courant</td>
+    </tr>
+</table>
+
+<p><br>
+</p>
+
+<hr>
+
+<h2><a name="EditionSequenceDeJeu">Edition d'une séquence de jeu</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Activation</h3>
+
+<p>L'édition d'une séquence de jeu respecte l'alternance des
+couleurs et la règle de capture. Ce mode est activé par le menu
+<i>Edition/Editer jeu</i> ou le bouton <img src="../BtPlay.gif"
+align="absbottom" width="23" height="22"> de la barre d'outils.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Edition</h3>
+
+<p>L'édition d'une séquence se fait en cliquant sur le goban. <b>Drago</b>
+gère la couleur du joueur qui a le trait et les captures.</p>
+
+<h4>Clic goban</h4>
+
+<p>Un clic sur le goban crée un coup suivant, sauf si un coup
+suivant existe déjà à cette position, auquel cas le goban est
+positionné sur ce coup suivant, et <em><strong>sauf</strong></em>
+si un coup alternatif est visible sur cette intersection, auquel
+cas le goban est positionné sur ce coup alternatif.</p>
+
+<p>Les coups suivants ou alternatifs sont représentés sur le
+goban par des pierres semi-transparentes, ou des lettres
+majuscules ou minuscules en fonction de l'option <i>Marquage des
+variantes sur le goban</i>.</p>
+
+<ol>
+    <li><a href="Options.htm#Mouvements">Plus sur l'affichage des
+        coups suivants ou alternatifs ...</a></li>
+</ol>
+
+<h4>Ctrl-Clic goban</h4>
+
+<p>Cliquer sur le goban en maintenant la touche Contrôle
+enfoncée, place le goban sur un coup alternatif si il y en a un
+à cette position, sinon en crée un.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Modification du coup en cours</h3>
+
+<p>On peut modifier le coup en cours, même s'il est suivi par
+d'autres coups, en le cliquant puis en le tirant à une nouvelle
+position.<br>
+<font color="#FF0000" size="3" face="Arial"><strong>!</strong></font>
+&nbsp;C'est le seul moyen de corriger un coup en milieu de
+séquence sans avoir à éditer explicitement le ficher SGF.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Annulation du dernier coup</h3>
+
+<p>L'annulation n'est possible que pour le dernier coup et ne
+concerne que les mouvements et non les autres opérations
+(pierres placées, marques, commentaires, etc.). De plus,
+l'annulation d'un mouvement supprime également les informations
+associées au coup (pour être exact, c'est le n&#156;ud entier
+qui est supprimé). L'annulation du dernier coup est obtenue par
+le menu <em>Edition/Annuler</em> ou le bouton <img
+src="../BtUndo.gif" align="absbottom" width="23" height="22"> de
+la barre d'outils.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Suppression d'une branche</h3>
+
+<p>La commande <em>Supprimer branche </em>au menu ou par le
+bouton <img src="../BtCut.gif" align="absbottom" width="23"
+height="22"> permet de supprimer toute la branche à partir du
+coup en cours.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Trait</h3>
+
+<p>Il est possible de changer la couleur qui doit jouer au menu <i>Edition/Joueur/Noir</i>
+ou <i>Edition/Joueur/Blanc</i>. Quand l'option <i>Changer joueur
+avec propriété SGF</i> est activée, la sélection d'une
+couleur par ce menu stocke de plus l'information du joueur qui
+doit jouer au coup suivant dans le fichier en cours (propriété
+PL).</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Passer</h3>
+
+<p>Le passe est obtenu au menu <i>Edition/Insérer passe</i>. Il
+change la couleur du joueur au trait et stocke dans le fichier
+l'information requise.</p>
+
+<hr>
+
+<h2><a name="Edition d'une position">Edition d'une position</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'édition d'une position correspond à un placement libre des
+pierres sur le goban. Ce mode est activé par les menus <i>Edition/Placer
+Noir, Edition/Placer Blanc</i>, <i>Edition/Vide</i> et <i>Edition/Marque</i>,
+ainsi que par les boutons associés de la barre d'outils.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Ajout des pierres</h3>
+
+<p>L'ajout de pierres se fait par les menus <i>Edition/Placer
+Noir</i> ou <i>Edition/Placer Blanc</i> ou les boutons <img
+src="../BtBlack.gif" align="absbottom" width="23" height="22"> et
+<img src="../BtWhite.gif" align="absbottom" width="23"
+height="22">, puis en cliquant sur le goban. En maintenant le
+bouton gauche de la souris, il est possible de poser des pierres
+de façon continue.</p>
+
+<p>Le clic gauche pose des pierres de la couleur sélectionnée
+alors que le clic droit pose des pierres de la couleur opposée.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Effacement des pierres</h3>
+
+<p>L'effacement des pierres se fait :</p>
+
+<ul>
+    <li>soit par la commande <i>Edition/Vide</i> puis en cliquant
+        sur les pierres à effacer. Le maintien du bouton gauche
+        de la souris est également actif dans ce mode. </li>
+    <li>Soit en restant dans le mode <i>Edition/Placer Noir</i>
+        ou <i>Edition/Placer Blanc</i> et en recliquant sur la
+        pierre à effacer.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Inversion de la couleur d'une pierre</h3>
+
+<p>Il est possible de sélectionner un mode plus complet
+permettant la séquence d'actions suivantes:</p>
+
+<ul>
+    <li>un clic sur une intersection vide place une pierre de la
+        couleur sélectionnée,</li>
+    <li>un clic sur cette pierre inverse sa couleur,</li>
+    <li>un troisième clic efface la pierre.</li>
+</ul>
+
+<p>Ce mode &quot;Poser, inverser, enlever&quot; est sélectionné
+dans l'onglet <a href="Options.htm#Séquence de cliques">Edition</a>
+du dialogue Options.</p>
+
+<hr>
+
+<h2><a name="Edition des marques">Edition des marques</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Les marques permettent de repérer les pierres ou les
+intersections dans un commentaire de partie. Les marques
+disponibles sont :</p>
+
+<ul>
+    <li><em>Croix</em>, <em>Triangle</em>, <em>Cercle</em>, <em>Carré</em>,
+    </li>
+    <li><em>Lettre</em>, qui affiche une lettre sur une
+        intersection. La valeur de la lettre affichée est
+        déterminée par l'ordre des clics en commençant par le
+        caractère 'A'. </li>
+    <li><em>Numéro</em>, qui n'est valide que sur un coup légal
+        et affiche le numéro du coup,</li>
+    <li><em>Label</em>, qui permet d'afficher un texte d'au plus
+        3 caractères,</li>
+    <li>les marques de territoire noir et blanc.</li>
+</ul>
+
+<p align="center"><img src="Marks.gif" width="481" height="32"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Ajout des marques</h3>
+
+<p>L'ajout et l'effacement des marques sont activés par le menu <i>Edition/Marque</i>
+ou le bouton <img src="../BtMark.gif" align="absbottom"
+width="36" height="22">&nbsp;de la barre d'outils. Ceux-ci
+sélectionnent la marque apparaissant sur le bouton ou au menu <i>Edition</i>.
+L'ajout et l'effacement se font alors par clic sur le goban.</p>
+
+<p>La sélection de la marque en cours se fait en rentrant dans
+le sous-menu <i>Edition/Marque</i> ou en faisant apparaitre le
+menu déroulant en cliquant sur la flèche du bouton <img
+src="../BtMark.gif" align="absbottom" width="36" height="22">. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Effacement des marques</h3>
+
+<p>L'effacement d'une marque se fait en redessinant la marque à
+effacer.</p>
+
+<hr>
+
+<h2>Insertion d'informations diverses</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La commande <a href="Insertion.htm"><i>Edition/Insérer...</i></a>
+permet d'ajouter à la position courante un certain nombre
+d'informations d'annotation, de timing ou de figures.</p>
+
+<hr>
+</body>
+</html>
