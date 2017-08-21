@@ -7,3 +7,6 @@ It enables also to connect to game engines providing a user friendly interface.
 Nineteen translations of the user interface are currently available.
 
 [Home page](http://www.godrago.net)
+
+Drago has been developped with Delphi 7. Installing a free version of Delphi 7 and setting up
+the developpement environment to compile Drago is described in the wiki.
