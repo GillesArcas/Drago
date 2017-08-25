@@ -495,8 +495,8 @@ implementation
 uses
   {$ifndef FPC}
   WinUtils,
-  {$endif}
   TntForms,
+  {$endif}
   Std, SysUtilsEx, UPrintStyles;
 
 // ---------------------------------------------------------------------------

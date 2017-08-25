@@ -293,7 +293,7 @@ end;
 
 function WideApplicationExeName : WideString;
 begin
-  Result := Application.ExeName
+  Result := WideString(ParamStr(0))
 end;
 
 {$endif}
