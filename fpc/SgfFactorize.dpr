@@ -78,7 +78,6 @@ begin
 end;
 
 begin
-  writeln(ParamCount);
   if ParamCount <> 2
     then writeln('Usage: SgfFactorize <multigame sgf file> <factorized sgf file>')
   else
