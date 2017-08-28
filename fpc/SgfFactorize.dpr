@@ -3,8 +3,10 @@ program SgfFactorize;
 {$APPTYPE CONSOLE}
 
 uses
-  SysUtils, Classes,
+  SysUtils, 
+  Classes,
   IniFiles,
+  BoardUtils        in '..\src\BoardUtils.pas',
   ClassesEx         in '..\src\ClassesEx.pas',
   CodePages         in '..\src\CodePages.pas',
   Crc32             in '..\src\Crc32.pas',
@@ -15,20 +17,18 @@ uses
   Properties        in '..\src\Properties.pas',
   Sgfio             in '..\src\Sgfio.pas',
   Std               in '..\src\Std.pas',
-  Ux2y              in '..\src\Ux2y.pas',
   SysUtilsEx        in '..\src\SysUtilsEx.pas',
   Translate         in '..\src\Translate.pas',
   UApply            in '..\src\UApply.pas',
-  BoardUtils        in '..\src\BoardUtils.pas',
   UBoardView        in '..\src\UBoardView.pas',
   UBookBoard        in '..\src\UBookBoard.pas',
   UContext          in '..\src\UContext.pas',
   UDragoIniFiles    in '..\src\UDragoIniFiles.pas',
   UFactorization    in '..\src\UFactorization.pas',
-  UGameTreeTests    in '..\src\UGameTreeTests.pas',
-  UGameTree         in '..\src\UGameTree.pas',
   UGameColl         in '..\src\UGameColl.pas',
-  UGmisc            in '..\src\UGmisc.pas',
+  UGameTree         in '..\src\UGameTree.pas',
+  UGameTreeTests    in '..\src\UGameTreeTests.pas',
+  UGMisc            in '..\src\UGMisc.pas',
   UGoban            in '..\src\UGoban.pas',
   UGoBoard          in '..\src\UGoBoard.pas',
   UGtp              in '..\src\UGtp.pas',
@@ -40,7 +40,8 @@ uses
   UPrintStyles      in '..\src\UPrintStyles.pas',
   URandom           in '..\src\URandom.pas',
   UStatus           in '..\src\UStatus.pas',
-  UView             in '..\src\UView.pas';
+  UView             in '..\src\UView.pas',
+  Ux2y              in '..\src\Ux2y.pas';
 
 procedure OnStep(x : integer);
 begin
