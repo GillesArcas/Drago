@@ -10,39 +10,39 @@
 
 ------
 
-##### TGoban
+__TGoban__
 
 Full class with logic and display capabilities.
 
-##### TGoBoard
+__TGoBoard__
 
 Only logic: position, capture, ko, etc.
 
-##### TBoardView
+__TBoardView__
 
 How the board is displayed, subclassed for display in graphic or text form.
 
-##### TBoardViewMetric
+__TBoardViewMetric__
 
 Graphic display as pdf or bitmaps.
 
-##### TBoardViewAscii
+__TBoardViewAscii__
 
 Board display in text format, subclassed into __TBoardViewSL__, **TBoardViewRGG** and **TBoardViewTRC** respectively to export to Sensei Library diagram format, rec.games.go diagram format and to the format used for Drago testing.
 
-##### TBoardViewCanvas
+__TBoardViewCanvas__
 
 Board display in graphic format (bitmap, WMF).
 
-##### TBoardViewVector
+__TBoardViewVector__
 
 Board display in WMF format.
 
-##### TBoardViewScript
+__TBoardViewScript__
 
 Export the board as a list of text commands to be used when exporting to PDF (see UImageExporterPDF).
 
-##### TBookBoard
+__TBookBoard__
 
 In charge, of exporting a position as in books, i.e. prisoners are not removed and following moves are indicated with the number of the captured stone (e.g. move 56 at 34).
 
