@@ -10,15 +10,15 @@
 
 ------
 
-#####TGoban
+##### TGoban
 
 Full class with logic and display capabilities.
 
-#####TGoBoard
+##### TGoBoard
 
 Only logic: position, capture, ko, etc.
 
-#####TBoardView
+##### TBoardView
 
 How the board is displayed, subclassed for display in graphic or text form.
 
@@ -26,7 +26,7 @@ How the board is displayed, subclassed for display in graphic or text form.
 
 Graphic display as pdf or bitmaps.
 
-#####TBoardViewAscii
+##### TBoardViewAscii
 
 Board display in text format, subclassed into __TBoardViewSL__, **TBoardViewRGG** and **TBoardViewTRC** respectively to export to Sensei Library diagram format, rec.games.go diagram format and to the format used for Drago testing.
 
@@ -34,11 +34,11 @@ Board display in text format, subclassed into __TBoardViewSL__, **TBoardViewRGG*
 
 Board display in graphic format (bitmap, WMF).
 
-#####TBoardViewVector
+##### TBoardViewVector
 
 Board display in WMF format.
 
-#####TBoardViewScript
+##### TBoardViewScript
 
 Export the board as a list of text commands to be used when exporting to PDF (see UImageExporterPDF).
 
