@@ -1,0 +1,11 @@
+; Test and bench game tree API
+
+; call main proc
+Main
+
+Define Main
+
+TestGameTreeApi 1000000
+
+EndDef Main
+

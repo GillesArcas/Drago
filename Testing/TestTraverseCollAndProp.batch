@@ -1,0 +1,15 @@
+; Bench spanning collection
+
+; call main proc
+Main
+
+Define Main
+
+; folder path is relative to /.../Drago/Testing directory
+LoadFolder TestFolder
+StartTimer
+TraverseCollectionAndProperties
+StopTimer
+
+EndDef Main
+

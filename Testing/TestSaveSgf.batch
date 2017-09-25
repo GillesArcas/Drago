@@ -1,0 +1,27 @@
+; Test saving sgf to file
+
+; call main proc
+Main
+
+Define Main
+
+; path is relative to /.../Drago/Testing directory
+LoadSgf TestFolder/1739-DangHuGames.sgf
+
+StartTimer
+Options.SaveCompact=0
+Options.CompressList=0
+SaveSgf
+Options.SaveCompact=1
+Options.CompressList=0
+SaveSgf
+Options.SaveCompact=0
+Options.CompressList=1
+SaveSgf
+Options.SaveCompact=1
+Options.CompressList=1
+SaveSgf
+StopTimer
+
+EndDef Main
+

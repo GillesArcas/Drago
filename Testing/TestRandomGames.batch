@@ -1,0 +1,29 @@
+; Test random games
+
+; call main proc
+Main
+
+Define Main
+
+; games to print (0: current, 1: all, 2:FromTo)
+Print.Games=1
+; figures to print (0: start, 1: end, 2: move number, ...) 
+Print.Figures=1
+; export to TRC=11
+;Print.ExportPos=11 
+Print.ExportFigure=11 
+; show moves as in book=4
+Board.ShowMoveMode=4
+Test1
+
+EndDef Main
+
+Define Test1
+
+StartTimer
+RandomGames 100
+StopTimer
+ExportToTxt
+
+EndDef Test1
+

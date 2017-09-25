@@ -1,0 +1,31 @@
+; Test TGoBoard API
+; -----------------
+
+; call main proc
+Main
+
+Define Main
+
+; show moves as in board=3
+Board.ShowMoveMode=3
+
+; export to TRC=11
+Print.ExportPos=11
+
+; don't draw coord
+Goban.CoordStyle=0
+
+; don't draw edges
+Ascii.DrawEdge=0
+
+; N valid moves, no Undo, no illegal moves
+RandomMovesOnBoard 100000
+ExportToAscii
+; N valid moves, 10% Undo, no illegal moves
+RandomMovesOnBoard 100000 10
+ExportToAscii
+; N valid or invalid moves, 10% undo
+RandomMovesOnBoard 100000 10 1
+ExportToAscii
+
+EndDef Main

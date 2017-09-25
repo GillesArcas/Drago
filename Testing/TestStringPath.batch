@@ -1,0 +1,15 @@
+; Test and bench game tree API
+
+; call main proc
+Main
+
+Define Main
+
+; CreateRandomColl numTrees, numEditOps, prDelTerminal, prDelBranch, prAddVar
+CreateRandomColl 1000 1000 5 2 10
+StartTimer
+TestStringPath
+StopTimer
+
+EndDef Main
+

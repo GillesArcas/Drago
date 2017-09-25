@@ -1,0 +1,116 @@
+; Test empty boards from all sizes and all handicaps
+
+; call main proc
+Main
+
+Define Main
+
+; export to RGG=7, SL=8, TRC=11
+Print.ExportPos=7
+Test1
+Print.ExportPos=8
+Test1
+Print.ExportPos=11
+Test1
+
+EndDef Main
+
+Define Test1
+
+; don't draw coord
+Goban.CoordStyle=0
+
+; don't draw edges
+Ascii.DrawEdge=0
+Test2
+
+; draw edges
+Ascii.DrawEdge=1
+Test2
+
+; draw coord
+Goban.CoordStyle=1
+
+; don't draw edges
+Ascii.DrawEdge=0
+Test2
+
+; draw edges
+Ascii.DrawEdge=1
+Test2
+
+EndDef Test1
+
+Define Test2
+
+New.BoardSize=3
+Test3
+New.BoardSize=4
+Test3
+New.BoardSize=5
+Test3
+New.BoardSize=6
+Test3
+New.BoardSize=7
+Test3
+New.BoardSize=8
+Test3
+New.BoardSize=9
+Test3
+New.BoardSize=10
+Test3
+New.BoardSize=11
+Test3
+New.BoardSize=12
+Test3
+New.BoardSize=13
+Test3
+New.BoardSize=14
+Test3
+New.BoardSize=15
+Test3
+New.BoardSize=16
+Test3
+New.BoardSize=17
+Test3
+New.BoardSize=18
+Test3
+New.BoardSize=19
+Test3
+
+EndDef Test2
+
+Define Test3
+
+New.Handicap=0
+NewGame
+ExportToAscii
+New.Handicap=1
+NewGame
+ExportToAscii
+New.Handicap=2
+NewGame
+ExportToAscii
+New.Handicap=3
+NewGame
+ExportToAscii
+New.Handicap=4
+NewGame
+ExportToAscii
+New.Handicap=5
+NewGame
+ExportToAscii
+New.Handicap=6
+NewGame
+ExportToAscii
+New.Handicap=7
+NewGame
+ExportToAscii
+New.Handicap=8
+NewGame
+ExportToAscii
+New.Handicap=9
+NewGame
+ExportToAscii
+
+EndDef Test3

@@ -1,0 +1,70 @@
+; call main proc
+Main
+
+; --------------------------------------
+Define Main
+
+; export to TRC=11
+Print.ExportFigure=11
+
+TestCollection
+
+EndDef Main
+
+; --------------------------------------
+Define TestCollection
+; 50 games, no variations, one figure every 50 moves
+
+; path is relative to /.../Drago/Testing directory
+LoadSgf TestFolder/cho1995-2002.sgf
+
+; games to print (0: current, 1: all, 2:FromTo)
+Print.Games=2
+Print.GamesFrom=1
+Print.GamesTo=50
+; one figures every 50 moves
+Print.Figures=4
+Print.Step=50
+TestFile
+
+EndDef TestCollection
+
+; --------------------------------------
+Define TestFile
+Test1
+EndDef TestFile
+
+; --------------------------------------
+Define Test1
+; show moves with number
+Board.ShowMoveMode=1
+Test2
+; show moves with mark
+Board.ShowMoveMode=2
+Test2
+; show moves as in board=3
+Board.ShowMoveMode=3
+Test2
+; show moves as in book=4
+Board.ShowMoveMode=4
+Test2
+; show N moves=5
+Board.ShowMoveMode=5
+Board.NumberOfVisibleMoveNumbers=5
+Test2
+; show N moves=50
+Board.ShowMoveMode=5
+Board.NumberOfVisibleMoveNumbers=50
+Test2
+EndDef Test1
+
+; --------------------------------------
+Define Test2
+
+; draw coord and edges
+Goban.CoordStyle=1
+Ascii.DrawEdge=1
+
+ExportToTxt
+
+EndDef Test2

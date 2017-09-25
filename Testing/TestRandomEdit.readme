@@ -1,0 +1,10 @@
+2012/10/06
+Jusqu'à 4.12, il y a un seul triangle affiché sur la position en diff. A 
+partir de 4.20, 2 triangles sont affichés comme dans les autres modes.
+Pas de raison trouvée pour expliquer le changement, mais on considère à
+partir de maintenant que l'affichage avec deux triangles est correct et
+on change la référence.
+
+2014/11/15
+Mise à jour référence suite à suppression de la propriété runtime pr_F
+plus utilisée.
