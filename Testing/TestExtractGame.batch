@@ -1,0 +1,20 @@
+; test ExtractGame function from UGameTree
+
+; export to TRC=11
+Print.ExportFigure=11
+; print current game (0: current, 1: all, 2:FromTo)
+Print.Games=1
+; one figures every 50 moves
+Print.Figures=4
+Print.Step=50
+; include variations
+Print.InclVariations=1
+; show moves as in book=4
+Board.ShowMoveMode=4
+
+; path is relative to /.../Drago/Testing directory
+LoadSgf TestFolder\gtl3.sgf
+StartTimer
+TestExtractGame
+StopTimer
+ExportToTxt

@@ -1,0 +1,105 @@
+; Test saving sgf to file
+
+; call main proc
+Main
+
+Define Main
+
+; path is relative to /.../Drago/Testing directory
+
+StartTimer
+
+; depth
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=20
+Options.FactorizeNbUnique=0
+Options.FactorizeNormPos=1
+Options.FactorizeReference=2
+Factorize
+SaveSgf
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=1
+Options.FactorizeNbUnique=0
+Options.FactorizeNormPos=1
+Options.FactorizeReference=2
+Factorize
+SaveSgf
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=200
+Options.FactorizeNbUnique=0
+Options.FactorizeNormPos=1
+Options.FactorizeReference=2
+Factorize
+SaveSgf
+
+; NbUnique
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=20
+Options.FactorizeNbUnique=5
+Options.FactorizeNormPos=1
+Options.FactorizeReference=2
+Factorize
+SaveSgf
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=5
+Options.FactorizeNbUnique=5
+Options.FactorizeNormPos=1
+Options.FactorizeReference=2
+Factorize
+SaveSgf
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=20
+Options.FactorizeNbUnique=200
+Options.FactorizeNormPos=1
+Options.FactorizeReference=2
+Factorize
+SaveSgf
+
+; All moves
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=1000
+Options.FactorizeNbUnique=1000
+Options.FactorizeNormPos=1
+Options.FactorizeReference=2
+Factorize
+SaveSgf
+
+; NormPos
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=20
+Options.FactorizeNbUnique=0
+Options.FactorizeNormPos=0
+Options.FactorizeReference=2
+Factorize
+SaveSgf
+
+; Reference
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=20
+Options.FactorizeNbUnique=0
+Options.FactorizeNormPos=1
+Options.FactorizeReference=0
+Factorize
+SaveSgf
+
+LoadSgf TestFolder/cho1962-1984.sgf
+Options.FactorizeDepth=20
+Options.FactorizeNbUnique=0
+Options.FactorizeNormPos=1
+Options.FactorizeReference=1
+Factorize
+SaveSgf
+
+StopTimer
+
+EndDef Main
+
