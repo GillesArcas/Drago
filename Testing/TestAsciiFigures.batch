@@ -1,0 +1,68 @@
+; Test figure exporting to ascii (RGG, SL, TRC) with all combinations of DrawEdge and DrawCoord
+; Full board plus 9 partial areas
+
+; call main proc
+Main
+
+Define Main
+
+; path is relative to /.../Drago/Testing directory
+LoadSgf TestFolder/kitani.sgf
+GotoLastMove
+
+; show moves as in board=3
+Board.ShowMoveMode=3
+
+; export to RGG=7, SL=8, TRC=11
+Print.ExportPos=7
+Test1
+Print.ExportPos = 8
+Test1
+Print.ExportPos=11
+Test1
+
+EndDef Main
+
+Define Test1
+
+; don't draw coord
+Goban.CoordStyle=0
+
+; don't draw edges
+Ascii.DrawEdge=0
+Test2
+
+; draw edges
+Ascii.DrawEdge=1
+Test2
+
+; draw coord
+Goban.CoordStyle=1
+
+; don't draw edges
+Ascii.DrawEdge=0
+Test2
+
+; draw edges
+Ascii.DrawEdge=1
+Test2
+
+EndDef Test1
+
+Define Test2
+
+ExportToAscii
+
+ExportToAscii 01 01 06 09
+ExportToAscii 01 07 06 15
+ExportToAscii 01 11 06 19
+
+ExportToAscii 07 01 13 09
+ExportToAscii 07 07 13 15
+ExportToAscii 07 11 13 19
+
+ExportToAscii 14 01 19 09
+ExportToAscii 14 07 19 15
+ExportToAscii 14 11 19 19
+
+EndDef Test2
