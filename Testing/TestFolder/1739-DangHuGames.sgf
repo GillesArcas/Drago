@@ -1,0 +1,6311 @@
+Hi everyone!
+
+It's an undeserved honor but a great pleasure to present a series of
+Ancient Chinese Go games here.
+
+The games were played in the year 1739, when my great great great
+grandfather was openning a small tea shop somewhere in Southern China :).
+The two players, Fan and Shi, were among the most famous ones in Chinese Go
+history.  Their fighting strength are said to be stronger than some pro 9
+dans of today, and they were called, fittingly, "great national hands"
+(ever heard of an artistic term for "playing go" -- "hand talk"?).
+
+Both players were born at a same county, which was exactly the same place
+where these game were played.  The county was called "Ping Hu", also known
+as "Dang Hu", and these games were concequently called "Dang Hu Games."
+
+In this year, 1739, Fan was 31 years old, and Shi 30.  Both were at their
+prime time.  These games showed their extraordinary skills and imagination;
+these games were not only the Go Bible of those days, but even today, they
+are regarded as the best classic work of Go in China.
+
+They played more than 10 games, but it seems to be a tradition that people
+prefer round numbers for important collections.  Today, for example, they
+have the annual "top ten news of the year", and fans vote for the "top ten
+athletics of the year", etc. in China.  Same thing happened to these "Dang
+Hu Games"; people later only collected 10 of them.
+
+But aren't 10 enough?  I think every single game could bring us enough
+excitement.  To make it a lasting event, I won't post 10 games altogether;
+I will post one game every two or three days. (Hey that's a good excuse.
+The truth is, I just finished the editing of the comments on Game 1 :-)
+
+The comments are based on a book written by Chinese pro 9 dan Mr. Chen
+Zu-De, who was once the number one Go player in China before the younger
+Nie.  My translation could be full of mistakes (which many people can't
+find :-), and for those who *can* see the mistakes, I will be greatly
+appreciated if you point them out.
+
+Finally, actually most importantly, I wouldn't have started to do this if I
+were not inspired by players on IGS (Internet Go Server; if you have not
+heard it, I am sorry you have missed an half year of fun).  In fact, to
+express my special thanks to people (related to Go) who have greatly
+influenced me, I will dedicate each editted game to a person (anyone on
+IGS, watch out :-).
+
+Enough said.  Better read the games than my words. :)
+
+jzy, NR ^_^
+(
+;
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[
+Here is the first of 10 commented Dang Hu Games I am going to post.  As I mentioned, each game will be dedicated to a person that has helped me to improve my Go and that has inspired me to do this work.  I wish I can do more than 10 games since people I want to thank are definitely more than 10. (BTW, I might not reveal this person's real name, since I might have never seen him before, but only get to know each other through IGS -- so, I will use his name on IGS if possible.)
+This first game is dedicated to *jansteen 3d*, who has posted quite a few games here (Honinbo, Tengen, etc.).  What I am doing is nothing but to follow his footstep.
+-jzy NR ^_^]
+AddWhite[dd][pp]
+AddBlack[dp][pd]
+Comment[Game 1
+
+White: Shi Xiang-Xia
+
+Black: Fan Xi-Ping
+
+Date: 1739   Place: Dang Hu
+
+
+Four stones are placed on the board \(as shown\) before the first move \(white\).  They are called "seated stones."  Because of these "seated stones," the opening of ancient Chinese games were rather simple and dull.  However, the midgame fights became extremely violent, and ancient Chinese players were good at fighting.]
+;
+White[qf]
+;
+Black[qk]
+Comment[A move hardly seen in modern games.  It's hard to understand why B would allow enough space for W to play R11.  Apparently, ancient Chinese players were confident of their fighting strength.]
+;
+White[qm]
+;
+Black[fc]
+;
+White[cn]
+;
+Black[kq]
+;
+Comment[Ancient style.]
+White[en]
+;
+Black[fo]
+;
+White[fn]
+;
+Comment[F5 and G6 is a common joseki.]
+Black[gn]
+;
+White[go]
+;
+Black[fp]
+;
+White[ho]
+;
+Black[gm]
+;
+White[hq]
+;
+Black[gq]
+;
+White[hr]
+;
+Comment[Attacking W while B's corner is not yet settled.  Fan \(playing B\), however, abandoned such a fierce move later in his career; he chose \(B first\) C5, B5, B4, B6, F2, and J6 instead.  The latter choice would be more acceptable by modern players.]
+Black[jn]
+;
+White[in]
+;
+Black[im]
+;
+White[jo]
+;
+Black[ko]
+;
+Comment[If W atari at L6, B would gain outside potential.  Also, when W C3 invading the corner, B has \(B first\) C4, B3, and a good B move at B6.]
+White[jm]
+;
+Black[kn]
+;
+White[hm]
+;
+Black[il]
+;
+White[gl]
+;
+Black[fm]
+;
+White[hn]
+;
+Comment[This is a common technique under this situation.]
+Black[dm]
+;
+White[em]
+;
+Black[fl]
+;
+White[el]
+;
+Black[fk]
+;
+White[hl]
+;
+Black[ik]
+;
+White[gj]
+;
+Black[fj]
+;
+Comment[By far we've witnessed a wonderful fight starting with B #18 \(K6\). The moves are tight and strong.  Breathless.]
+White[dj]
+;
+Black[gi]
+;
+White[hj]
+;
+Black[di]
+;
+Comment[E11 extremely strong!  And later moves will prove that this is the right move.  Looking back, B G11 should play at D11 directly. \(G11 was a "casual move."\)]
+White[ei]
+;
+Black[dk]
+;
+White[dh]
+;
+Black[ek]
+;
+White[dn]
+;
+Black[ck]
+;
+White[cp]
+;
+Black[cq]
+;
+Comment[C4 and D3 are good moves.  And at the good time.]
+White[dq]
+;
+Black[eq]
+;
+White[bq]
+;
+Black[dr]
+;
+Comment[Up to here, W has on one hand strengthened his upper left part, on the other hand, he could kill B corner with F2.  Great success by W.]
+White[br]
+;
+Black[fi]
+;
+White[ij]
+;
+Comment[If B plays G2 now, W F16 and B is cut into two parts, which will do no good to B.  F15 on the other hand, strengthens F17 and aims at W corner.]
+Black[fe]
+;
+Comment[Strong move to defend.]
+White[ef]
+;
+Black[ci]
+;
+White[ec]
+;
+Black[eb]
+;
+White[db]
+;
+Black[fb]
+;
+Comment[E17 was sente, then F2 to capture B team.  W is clearly leading.]
+White[fr]
+;
+Black[cc]
+;
+White[cd]
+;
+Black[dc]
+;
+White[bc]
+;
+Black[cb]
+;
+White[ch]
+;
+Black[bi]
+;
+White[bb]
+;
+Black[ed]
+;
+Comment[W chooses a simple way to settle the corner.  Not a bad choice when he's leading. \(Actually, B18 could play directly at B12.\)]
+White[bh]
+;
+Black[gr]
+;
+White[gs]
+;
+Black[jj]
+;
+White[ji]
+;
+Black[kj]
+;
+White[ki]
+;
+Comment[Locally speaking, M11 is too strong.  But B is trailing, so to make the situation complicated might help him.]
+Black[li]
+;
+Comment[Hits at the right spot.  If M10, then B L8 and W has no good move to follow.]
+White[kl]
+;
+Comment[It's better to play at L9.  Then after W J12, B M12 would be strong.]
+Black[km]
+;
+White[lj]
+;
+Black[jl]
+;
+White[ih]
+;
+Black[mi]
+;
+Comment[To here, B's shape is not thick, thus the chance to effectively capture the 3 W stones doesn't stand good.]
+White[ll]
+;
+Comment[Attempting to surround W stones in a big way.]
+Black[on]
+;
+White[mn]
+;
+Black[mo]
+;
+Comment[Not too good.  M5 would be a strong move, and W is promised to have some profit.  Q6 is a safe move for the leading W.]
+White[pn]
+;
+Black[om]
+;
+White[no]
+;
+Comment[If N7 instead, then W simply N4 atari, and that would give W sente to play R11.]
+Black[oo]
+;
+White[lo]
+;
+Black[op]
+;
+Comment[Could also consider to play K9.]
+White[mp]
+;
+Comment[Tests W's reaction.  Great timing!  W probably overlooked this good move by B.]
+Black[hp]
+;
+Comment[Mediocre move.  But variations show that W can't have good result anyway, so even though he knows that K4 isn't a good move, he has not better choice.]
+White[jp]
+;
+Comment[Now B has N3 and B stones at lower left have a chance to live again!]
+Black[kp]
+;
+White[jk]
+;
+Black[kk]
+;
+White[lk]
+;
+Black[jk]
+;
+White[lm]
+;
+Black[mq]
+;
+White[nq]
+;
+Black[np]
+;
+White[mr]
+;
+Black[lq]
+;
+White[oq]
+;
+Black[pq]
+;
+White[pr]
+;
+Black[lp]
+;
+White[qq]
+;
+Comment[M4 and N5 don't reduce W's liberties from outside, and that's against common sense.  Obviously, B is preparing for revival of the lower left corner.]
+Black[mo]
+;
+Comment[Good.  Force B to protect at O9.]
+White[pj]
+;
+Black[nk]
+;
+Comment[Capturing a B stone; gain big.]
+White[pk]
+;
+Black[pi]
+;
+White[oi]
+;
+Black[ph]
+;
+White[qj]
+;
+Black[pf]
+;
+White[nj]
+;
+Black[mj]
+;
+White[mk]
+;
+Black[ok]
+;
+White[og]
+;
+Black[pg]
+;
+White[lh]
+;
+Black[mh]
+;
+White[mg]
+;
+Black[lg]
+;
+White[kh]
+;
+Black[ng]
+;
+Comment[W sacrifices the upper right stone, strengthening the middle and getting sente.  Now, if W can finish the lower left corner cleanly, it's still W's game.]
+White[mf]
+;
+Black[nh]
+;
+Comment[But at this very key moment, B8 is unexpected.  Should be B7.  Now the corner is not clean.]
+White[bl]
+;
+Black[co]
+;
+White[bp]
+;
+Comment[C5 and B5, good.]
+Black[bo]
+;
+White[bn]
+;
+Black[do]
+;
+White[ao]
+;
+Black[cm]
+;
+White[bm]
+;
+Black[ap]
+;
+White[an]
+;
+Black[er]
+;
+Comment[Mistake!  W apparently miscalculated here.  No matter it's about liberties, or territory, or preventing B from living, F3 should be the move.  W's miscalculation could have started with B8.  With the big mistake by W, the table is turned around.]
+White[fs]
+;
+Black[cr]
+;
+White[eo]
+;
+Black[ep]
+;
+White[cs]
+;
+Black[bs]
+;
+White[bk]
+;
+Black[bj]
+;
+White[as]
+;
+Black[gp]
+;
+White[jq]
+;
+Black[aq]
+;
+Comment[W better save this exchange with E1.]
+White[ds]
+;
+Comment[Up to this point, lower left B stones can live either by seki or ko, while W has lost every chance.]
+Black[es]
+;
+White[gg]
+;
+Black[fg]
+;
+Comment[If W plays E12 instead, B can escape with H13.]
+White[ff]
+;
+Black[eh]
+;
+White[eg]
+;
+Black[fh]
+;
+White[ge]
+;
+Black[bs]
+;
+White[cs]
+;
+Comment[Test W's reaction.  Good timing.]
+Black[cf]
+;
+White[be]
+;
+Black[ah]
+;
+White[ag]
+;
+Black[aj]
+;
+Comment[If plays at B13, B has \(B first\) J3 \(there's no W stone at J4 yet\), J2, H1, and F3 \(later K2\).]
+White[ip]
+;
+Black[bg]
+;
+White[dg]
+;
+Black[ee]
+;
+White[de]
+;
+Black[af]
+;
+White[ba]
+;
+Black[gd]
+;
+White[hs]
+;
+Black[hg]
+;
+White[hh]
+;
+Comment[O14 solid.]
+Black[nf]
+;
+White[me]
+;
+Black[pl]
+;
+White[ql]
+;
+Black[ri]
+;
+White[rk]
+;
+Black[po]
+;
+White[qo]
+;
+Comment[With a series of sente ending moves, up to this point, B can either take the corner or the side, and B's victory is insured.]
+Black[md]
+;
+White[qc]
+;
+Black[pc]
+;
+White[ld]
+;
+Black[mc]
+;
+White[qd]
+;
+Black[rg]
+;
+White[rf]
+;
+Black[qb]
+;
+White[rb]
+;
+Black[pb]
+;
+White[ra]
+;
+Black[df]
+;
+White[gf]
+;
+Black[ae]
+;
+White[ad]
+;
+Black[cg]
+;
+White[bf]
+;
+Black[ag]
+;
+White[ab]
+;
+Black[jd]
+;
+White[mp]
+;
+Black[nn]
+;
+White[id]
+;
+Black[ie]
+;
+White[je]
+;
+Black[hd]
+;
+White[if]
+;
+Black[he]
+;
+White[hf]
+;
+Black[ak]
+;
+White[al]
+;
+Black[ej]
+;
+White[kd]
+;
+Black[jc]
+;
+White[kc]
+;
+Black[ke]
+;
+White[jf]
+;
+Black[kb]
+;
+White[le]
+;
+Black[lb]
+;
+White[kr]
+;
+Black[lr]
+;
+White[ls]
+;
+Black[mo]
+;
+White[jr]
+;
+Black[pm]
+;
+White[qn]
+;
+Black[oj]
+;
+White[ne]
+;
+Black[sd]
+;
+White[qg]
+;
+Black[rh]
+;
+White[re]
+;
+Black[oe]
+;
+White[rc]
+;
+Black[ca]
+;
+White[nd]
+;
+Black[nc]
+;
+White[od]
+;
+Black[pe]
+Comment[Black wins by 7 zi. \(one 'zi' is about equivalent to 2 points of the normal count.\)]
+)
+
+(
+;
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[
+Hi, everyone.
+
+Here is the 2nd game in the Dang Hu series.
+
+This one is dedicated to *panx*!  My "brother" on IGS :-)  Panx was clearly
+the best among the kibitzers, and his commentating was so attractive that
+we have missed him badly since he "disappeared" from IGS.  Yes, he will be
+back, but sooner the better.
+
+An interesting observation: panx' real name, Pan Xiao Feng, has initials of
+pxf, while one of the two great players we introduce here, Fan Xi Ping, has
+initials of fxp.  So, pxf and fxp. :-)
+
+Where are you, brother?!
+
+jzy, NR ^_^]
+AddBlack[dp][pd]
+AddWhite[dd][pp]
+Comment[Game 2
+
+White: Fan Xi-Ping
+
+Black: Shi Xiang-Xia]
+;
+White[qf]
+;
+Black[fc]
+;
+White[kc]
+;
+Black[qk]
+;
+White[fq]
+;
+Black[kq]
+;
+White[ck]
+;
+Black[mc]
+;
+White[qi]
+;
+Black[cm]
+;
+White[mq]
+;
+Black[qn]
+;
+Comment[Obviously, W intends to develop a potential at the left.]
+White[fd]
+;
+Black[gd]
+;
+White[ec]
+;
+Black[fb]
+;
+White[ge]
+;
+Black[fe]
+;
+White[ed]
+;
+Black[hd]
+;
+Comment[To here, it's a joseki even used today.]
+White[gf]
+;
+Black[eb]
+;
+Comment[Here is a difference: D18 would be at C17 nowadays.  This is due to the different Go philosophy: Today, players would hate B to peak at C17; those days, however, players would rather have a "bad shape" of stones, they wouldn't let opponents to easily settle down \(note D18's effect on B F18 group\).]
+White[db]
+;
+Black[cc]
+;
+White[dc]
+;
+Comment[This point \(J17\) is related to the "roots" of both sides; extremely important.]
+Black[ic]
+;
+White[ke]
+;
+Black[if]
+;
+Comment[O16 is a common invading play seen in ancient records.  Today, W would play P15.  After B P16 and W O15, B has to protect the corner with S16.  Then W can play at L13, smoothly going.]
+White[nc]
+;
+Black[nd]
+;
+White[mb]
+;
+Black[oc]
+;
+White[nb]
+;
+Comment[Q14 is to protect W P15 \(if B plays N16 now, W P15 would give B headache\).]
+Black[pf]
+;
+White[qe]
+;
+Black[md]
+;
+White[ob]
+;
+Black[pb]
+;
+White[lc]
+;
+Black[qd]
+;
+White[pg]
+;
+Comment[B certainly wants to play K18.  However, W Q15 would be difficult to handle.]
+Black[pe]
+;
+Comment[W could consider K18 first.  After B J18, W L13; that would be better.]
+White[kg]
+;
+Black[ph]
+;
+White[pi]
+;
+Black[og]
+;
+White[qh]
+;
+Black[qg]
+;
+White[rg]
+;
+Black[jb]
+;
+Comment[Good timing.]
+White[qb]
+;
+Black[pa]
+;
+White[qc]
+;
+Black[pc]
+;
+White[rd]
+;
+Black[kb]
+;
+White[lb]
+;
+Black[rc]
+;
+White[qo]
+;
+Black[rn]
+;
+White[pg]
+;
+Black[re]
+;
+Comment[Let's pause and take a look.  Locally, W is advantageous -- after taking two B stones, W is thick and thus weakened the three B stones on the right.  Globally, however, B lived all the stones at the top side \(quite a bit of territory\), and B gains sente \(remember W played first\).  So B should be satisfied.]
+White[oh]
+;
+Comment[Invade.  Biggest point on the board.]
+Black[ci]
+;
+Comment[B still has C18.]
+White[cg]
+;
+Black[eq]
+;
+Comment[Interesting note: to E3, W normally plays either F4 or F2.  But in almost all the ancient Chinese games, W responded with F2.  Can't guess why.  However in this case, F2 is correct.]
+White[fr]
+;
+Black[ei]
+;
+White[er]
+;
+Black[dr]
+;
+White[fo]
+;
+Black[ro]
+;
+White[rp]
+;
+Comment[B certainly would like to have E6.  But after W L5 and B M4, Q6 would be a very good point for W.]
+Black[hq]
+;
+White[cr]
+;
+Comment[C2 tests B's reaction, and B doesn't give in.  Thus conceives some unexpected variations later on.]
+Black[ds]
+;
+Comment[Better to play H5 directly.]
+White[pn]
+;
+Black[pm]
+;
+White[om]
+;
+Black[on]
+;
+White[po]
+;
+Comment[Now W can't kill this B group: if \(W first\) S8, S9, S7, B has then good moves of T7 \(then W O7\) and P9.]
+Black[pl]
+;
+Comment[So W wisely chooses W H3 and L3 as the new targets.]
+White[ho]
+;
+Black[qq]
+Comment[W has to make a decision here.  If Q3, B S3 and the corner becomes B; also, the B group at the right is easily settled.  Then W has to bet all his money on the attacking upon H3 and L3.]
+;
+White[qp]
+Comment[W obviously can't make up his mind \(to give up attacking B Q7 group\).  With this R3, Q3 exchange, B O3 would be powerful.]
+;
+Black[nq]
+Comment[Now, if W plays O4, then \(B first\) N2, O2, P3, M2, and B P4 would force a collapse of W.  If W plays N4, after B N2 and W M2, B has a good move in P2, and W's corner would be killed.  If W plays another variation at M3, W would still fail after \(B first\) O4, L4, and Q3.]
+;
+White[nr]
+Comment[So O2 is the only choice.]
+;
+Black[oq]
+;
+White[pq]
+;
+Black[or]
+;
+White[pr]
+;
+Black[mr]
+;
+White[lr]
+;
+Black[lq]
+;
+White[ms]
+;
+Black[mp]
+;
+White[nm]
+;
+Black[no]
+Comment[To here, W only manages to live a small part, and B is clearly successful.  Fortunately for W, he gets sente to have a play at the lower left corner.]
+;
+White[rl]
+Comment[Too early.  Should save.]
+;
+Black[rk]
+;
+White[rm]
+;
+Black[nk]
+;
+White[dn]
+;
+Black[cn]
+;
+White[co]
+Comment[C5 is the only do-or-die strong move.  If D5, B would play C4 and W's territory would come up short.]
+;
+Black[do]
+;
+White[cq]
+;
+Black[dq]
+;
+White[bo]
+;
+Black[eo]
+Comment[E5 looks clumsy, but it's in fact the key point.  If F4, expecting W G4, then B F4 would be a very good move.  However, against F4, W has E5 instead, and the result would be W swallowing C11 and E11 two B stones.]
+;
+White[fn]
+;
+Black[en]
+;
+White[dm]
+;
+Black[em]
+;
+White[dl]
+;
+Black[fp]
+;
+White[gp]
+;
+Black[fm]
+Comment[F4 and F7 are powerful.]
+;
+White[hr]
+Comment[W certainly likes E9, but giving up H7 to B, and W's lower group could be in danger.]
+;
+Black[ir]
+;
+White[gq]
+;
+Black[cp]
+;
+White[bp]
+;
+Black[cl]
+Comment[Great move!!  B is showing some tremendous calculation ability here.]
+;
+White[dk]
+;
+Black[bk]
+;
+White[bj]
+;
+Black[bl]
+;
+White[cj]
+;
+Black[bn]
+;
+White[br]
+;
+Black[ar]
+;
+White[aq]
+;
+Black[bs]
+Comment[B makes no mistake and creates a big ko.]
+;
+White[ak]
+;
+Black[iq]
+;
+White[hm]
+;
+Black[cs]
+;
+White[as]
+;
+Black[gn]
+;
+White[go]
+;
+Black[ar]
+;
+White[ok]
+Comment[W doesn't have any good ko threats.]
+;
+Black[ol]
+;
+White[nl]
+;
+Black[mk]
+;
+White[pk]
+;
+Black[sm]
+;
+White[lm]
+;
+Black[so]
+Comment[Good move to live.  If T8, which looks like a move to live, W would have T10, hitting the right spot, and B would have to live by ko. \(The sequence after W T10: S11, T11, T5, T9, R7, T6, T8, S10, R8, T7, T8, T7, and S7; ko.\)]
+;
+White[as]
+;
+Black[ao]
+;
+White[nn]
+;
+Black[oo]
+;
+Comment[Losing move.  Right now the corner is a so-called "loose ko"; that is, no matter who wins the ko, he needs one more move to capture.  So F9 is an important point for W now.]
+White[am]
+;
+Black[ar]
+;
+White[sl]
+;
+Black[ql]
+;
+White[as]
+;
+Comment[Mistake.  Should play E9 now.]
+Black[sp]
+;
+Comment[W missed the chance.  F9 is still the crucial point.  After B G8, W A2 and the outcome of the game is still uncertain.]
+White[ar]
+;
+Comment[With this move and a series of sente moves followed, B gains global thickness, while W is in pieces.  Game over.]
+Black[ek]
+;
+Comment[Editor: okay it's not over. :-\)  There are about 130 moves left, so I need to explain somewhat: each player put some bets down before teh game; the more one would win on the board, the more money he would win.  So they would play till the end. \(No comments rest of the way execpt an overview at the end.\)]
+White[rq]
+;
+Black[bi]
+;
+White[an]
+;
+Black[sq]
+;
+White[sr]
+;
+Black[rr]
+;
+White[rs]
+;
+Black[ss]
+;
+White[sn]
+;
+Black[qm]
+;
+White[sr]
+;
+Black[dj]
+;
+White[al]
+;
+Black[ss]
+;
+White[fj]
+;
+Black[ej]
+;
+White[sr]
+;
+Black[el]
+;
+White[bm]
+;
+Black[ss]
+;
+White[sc]
+;
+Black[sd]
+;
+White[sr]
+;
+Black[kn]
+;
+White[lo]
+;
+Black[ln]
+;
+White[ll]
+;
+Black[ss]
+;
+White[os]
+;
+Black[mo]
+;
+White[sr]
+;
+Black[jl]
+;
+White[jm]
+;
+Black[km]
+;
+White[il]
+;
+Black[jk]
+;
+White[gm]
+;
+Black[ik]
+;
+White[hk]
+;
+Black[hj]
+;
+White[gk]
+;
+Black[eg]
+;
+White[lk]
+;
+Black[ss]
+;
+White[op]
+;
+Black[np]
+;
+White[sr]
+;
+Black[in]
+;
+White[hn]
+;
+Black[ss]
+;
+White[fi]
+;
+Black[fh]
+;
+White[sr]
+;
+Black[hh]
+;
+White[li]
+;
+Black[ss]
+;
+White[gh]
+;
+Black[gg]
+;
+White[sr]
+;
+Black[kh]
+;
+White[qr]
+;
+Black[lh]
+;
+White[mi]
+;
+Black[nj]
+;
+White[oj]
+;
+Black[ri]
+;
+White[io]
+;
+Black[jn]
+;
+White[jh]
+;
+Black[ki]
+;
+White[kj]
+;
+Black[ji]
+;
+White[jj]
+;
+Black[mh]
+;
+White[rj]
+;
+Black[qj]
+;
+White[ni]
+;
+Black[ij]
+;
+White[im]
+;
+Black[mr]
+;
+White[dh]
+;
+Black[eh]
+;
+White[ff]
+;
+Black[ef]
+;
+White[ee]
+;
+Black[cf]
+;
+White[bf]
+;
+Black[ce]
+;
+White[cd]
+;
+Black[be]
+;
+White[bd]
+;
+Black[hf]
+;
+White[gi]
+;
+Black[he]
+;
+White[ng]
+;
+Black[mg]
+;
+White[bg]
+;
+Black[dg]
+;
+White[ae]
+;
+Black[ns]
+;
+White[si]
+;
+Black[sj]
+;
+White[sh]
+;
+Black[sk]
+;
+White[nr]
+;
+Black[kr]
+;
+White[mq]
+;
+Black[hs]
+;
+White[mn]
+;
+Black[lp]
+;
+White[fk]
+;
+Black[df]
+;
+White[nf]
+;
+Black[mf]
+;
+White[ne]
+;
+Black[me]
+;
+White[mr]
+;
+Black[da]
+;
+White[ca]
+;
+Black[ea]
+;
+White[cb]
+;
+Black[ah]
+;
+White[jp]
+;
+Black[gr]
+;
+White[ch]
+;
+Black[di]
+;
+White[af]
+;
+Black[rf]
+Comment[Black wins by 15 1/2 zi.
+
+Overview: althogh each player made some mistakes, this is still a great game.  W 105 turned a black corner white, but B came right back with a great move 124.  Wonderful game.]
+)
+
+(
+;
+EVent[Dang Hu Games: Game 3]
+PlayerBlack[Fan Xi-Ping]
+PlayerWhite[Shi Xiang-Xia]
+DaTe[1739]
+PlaCe[Dang Hu, China]
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[
+Hi everyone!
+
+I have received a few suggestions thus far.  Thanks a lot.  However, some
+changes will not be made immediately (such as adding some variations) since
+it will take too much time.  My plan is to post these games first, and
+re-edit the comments and add variations in the future.  When *that* is
+finished, I will probably submit these commented games to milton ftp site.
+
+This is the 3rd game, and this game is dedicated to *ychen 6d*.  He has
+been a good friend I made on IGS although we've never met.  I respect him
+not just because he's one of the best players on the server (in fact, I
+wasn't so happy when he beat me up :) but also, he is one of the nicest
+person around.
+
+If ychen 6d had the honor to play Jiang Zhujiu pro 9 dan's first game on
+IGS, then I had the honor to play *his* first game on IGS. :-)
+
+jzy NR ^_^]
+GameName[Shi vs. Fan]
+REsult[B+29]
+KoMi[-2]
+Comment[Game 3
+
+White: Shi Xiang-Xia
+
+Black: Fan Xi-Ping]
+AddBlack[dp][pd]
+AddWhite[dd][pp]
+;
+White[qf]
+;
+Black[qk]
+;
+White[fq]
+;
+Black[kq]
+;
+White[kc]
+;
+Black[ci]
+;
+White[mq]
+;
+Black[fc]
+;
+White[ck]
+;
+Black[cm]
+;
+White[fo]
+Comment[Ancient style.  One on hand, it isolates B L3; on the other hand, it offers help to W C9.  Nowadays, however, this move is usually played at C13 since W C9 won't be easily attacked.]
+;
+Black[qn]
+Comment[Again, today, this move would be played at C14 to isolate W C9.]
+;
+White[cg]
+Comment[Overall, despite the different styles, the principle of Go has been the same.]
+;
+Black[ic]
+Comment[Very common in ancient Chinese games.  But in this game, this move is not appropriate.]
+;
+White[dn]
+;
+Black[cn]
+;
+White[dm]
+Comment[W D6 and D7 are tight and strong, great timing too.  Perhaps B overlooked this severe move by his opponent.]
+;
+Black[do]
+Comment[If played at C4, B looks like to get sente but in fact he will not \(after B C4 and W C8, if B plays somewhere else, W has D2\).]
+;
+White[dl]
+Comment[Previously isolated C9 and F3 two W stones now are connected, thus W obtains remarkable potential.  This is clearly B J17's fault --J17 should have been at E6 or E7.]
+;
+Black[er]
+Comment[D2 looks more flexible, but W E2 would give B some headache.]
+;
+White[fr]
+;
+Black[eq]
+Comment[Important.  Otherwise W can play C3 next.]
+;
+White[ko]
+Comment[Cap.  Good!  \(Fan, playing B, later explained in one of his books how B should play after W cap: If M4, W Q6 and B is difficult.  So B should try O3, the so-called "3-6 invasion."\)]
+;
+Black[ei]
+Comment[Escaping one stone and reduce W's middle potential.  Important.]
+;
+White[bp]
+;
+Black[bo]
+;
+White[cq]
+;
+Black[br]
+Comment[Against W B4 and C3, B B5 and B2 are appropriate.  However, B is safe only because his stones have more liberties.  Therefore, B's outside actions are limited.]
+;
+White[gi]
+Comment[Key point of the whole board.  The two caps of L5 and G11 display Shi's \(playing W\) extraordinary feeling and skill.]
+;
+Black[fn]
+Comment[Too early.]
+;
+White[eo]
+;
+Black[cf]
+Comment[Maybe better at E13.  C14 invasion could lead a heavy shape of B.]
+;
+White[df]
+;
+Black[bg]
+;
+White[dg]
+;
+Black[be]
+;
+White[ce]
+;
+Black[bf]
+;
+White[bd]
+;
+Black[ee]
+;
+White[de]
+;
+Black[cj]
+;
+White[bk]
+;
+Black[cc]
+Comment[Too casual.  After W D17, B won't have any good moves to follow.]
+;
+White[dc]
+;
+Black[fi]
+;
+White[gj]
+;
+Black[fg]
+;
+White[fd]
+Comment[Powerful.  And B C17's inappropriateness is even more clear.]
+;
+Black[gh]
+;
+White[ek]
+;
+Black[fj]
+;
+White[fk]
+;
+Black[gk]
+Comment[B F10 and G9 seem to be too strong.  But B is clearly trailing, so there is no way but applying a fierce attack on W's corner, hoping a result that would influence the center.]
+;
+White[ij]
+;
+Black[gl]
+;
+White[il]
+;
+Black[cb]
+Comment[Key point of attack.]
+;
+White[cd]
+Comment[Almost the losing move.  G17 is simple and clear.  If B C16 to get the corner, W F18 and B's overall territory still can't compete with W.  F18 could be the strongest move against W G17, but W G16 is cool.  After B G18 and W J16, W's lead is clear.]
+;
+Black[db]
+;
+White[ec]
+;
+Black[eb]
+;
+White[gc]
+;
+Black[fb]
+;
+White[gf]
+Comment[Thin, but no other choice.  If W doesn't attempt to reduce B's forces at middle, upper left's W group would be in a more dangerous situation.]
+;
+Black[ih]
+;
+White[ii]
+;
+Black[ef]
+Comment[Big mistake.]
+;
+White[ff]
+;
+Black[eg]
+;
+White[ed]
+Comment[To here, a seemingly won game by B becomes complicated again.  B E14 sould be at J15.]
+;
+Black[ie]
+;
+White[hd]
+;
+Black[id]
+;
+White[hb]
+;
+Black[gb]
+;
+White[hc]
+;
+Black[ib]
+;
+White[ia]
+;
+Black[jb]
+;
+White[bb]
+;
+Black[bc]
+;
+White[ac]
+;
+Black[ab]
+;
+White[aa]
+;
+Black[he]
+;
+Comment[B H15 and W G16 are both mistakes.  When B H15, W H19 and W can kill B corner by one liberty -- B H15 wouldn't have worked and W G16 missed it.  This kind of calculation should have been trivial to Fan and Shi.  It's incredible that they made these mistakes.]
+White[gd]
+;
+Black[ca]
+;
+White[ha]
+;
+Black[ba]
+;
+White[hg]
+;
+Black[hh]
+;
+White[ig]
+;
+Black[jg]
+;
+White[jf]
+;
+Black[if]
+;
+White[kb]
+;
+Black[kf]
+;
+White[jh]
+;
+Black[kg]
+;
+White[ja]
+;
+Black[ji]
+;
+White[jj]
+;
+Comment[Up to here, local fight comes to a pause.  B captures two stones, thick and easy.  On the other hand, W escaped from line one, extremely painful.  B takes the upper hand in the battle, but also lost G8 and G9.  The outcome is still in doubt.]
+Black[ki]
+;
+Comment[Too strong.  Although "psychologically", L10 seems to be absolute, but when the big group on the top is yet settled, L10 is too much.]
+White[kj]
+;
+Comment[M16 should be at O17, then W would be difficult.]
+Black[ld]
+;
+White[li]
+;
+Black[kh]
+;
+White[mc]
+;
+Black[oc]
+;
+Comment[W N17 and L16 are good order.]
+White[kd]
+;
+Black[ke]
+;
+White[me]
+;
+Comment[B has no choice.  If M15, after WN16, B O14 wouldn't be able to cover W \(W has N14 and P15 etc\).]
+Black[nf]
+;
+White[le]
+;
+Black[nb]
+;
+White[ne]
+;
+Black[of]
+;
+White[mg]
+;
+Black[mf]
+;
+White[lf]
+;
+Black[lg]
+;
+White[mh]
+;
+Black[oe]
+;
+White[ad]
+;
+Black[ab]
+;
+White[bh]
+;
+Black[ch]
+;
+White[bi]
+;
+Black[bj]
+;
+White[ae]
+;
+Black[ai]
+;
+White[ag]
+;
+Black[ah]
+;
+White[bh]
+;
+Black[bi]
+;
+White[af]
+;
+Black[bh]
+;
+White[dh]
+;
+Black[di]
+;
+Comment[Absolutely necessary.  If omitted, B A9 and B can kill W with a "worry-free" ko.  Now it's a seki between the two big teams.]
+White[ak]
+;
+Comment[Cut.  Can't win without this.]
+Black[lj]
+;
+White[mj]
+;
+Black[lk]
+;
+White[mk]
+;
+Black[ll]
+;
+Comment[Not good.  Should be P9, light and flexible.  After P9, if B M6, W N7, B M7, and W J6.  W would be in a good form to fight.]
+White[ml]
+;
+Black[lm]
+;
+Comment[W now has to protect.  If N7, B J7 is a good move.]
+White[jm]
+;
+Comment[Powerful.  W is now difficult.]
+Black[mm]
+;
+Comment[Losing move.  Should be P8.]
+White[nm]
+;
+Comment[Apparently, W didn't expect B to cut, but when B does cut, it's too late for W to regret.]
+Black[nl]
+;
+Comment[No choice.  If O6, B O9 is good move, and W can't escape.]
+White[oj]
+;
+Comment[Good move.  Since B O11 is sente, W can't atari at P8.]
+Black[ok]
+;
+White[pj]
+;
+Black[nn]
+;
+White[om]
+;
+Black[pk]
+;
+White[qj]
+;
+Black[on]
+;
+White[pm]
+;
+Comment[B captures three W stones and is clearly winning.]
+Black[pn]
+;
+White[oh]
+;
+Black[go]
+;
+White[gn]
+;
+Comment[Sente to reduce W's territory.]
+Black[lp]
+;
+White[ho]
+;
+Comment[Beautiful invasion to solidify upper right corner.]
+Black[qh]
+;
+White[pg]
+;
+Black[ni]
+;
+White[mi]
+;
+Black[nh]
+;
+White[ng]
+;
+Black[og]
+;
+White[oi]
+;
+Black[ph]
+;
+White[rf]
+;
+Black[rh]
+;
+White[ri]
+;
+Black[pf]
+;
+White[qg]
+;
+Black[qe]
+;
+White[sh]
+;
+Black[sg]
+;
+White[si]
+;
+Black[re]
+;
+White[qi]
+;
+Black[rk]
+;
+White[pi]
+;
+Comment[With sente, B gets the lower right corner.  B is extending his winning margin.]
+Black[qq]
+;
+White[pq]
+;
+Black[pr]
+;
+White[or]
+;
+Black[rr]
+;
+White[ps]
+;
+Black[qr]
+;
+White[kr]
+;
+Black[gp]
+;
+White[hp]
+;
+Black[jr]
+;
+White[lr]
+;
+Black[hn]
+;
+White[gm]
+;
+Black[io]
+;
+White[hq]
+;
+Black[jp]
+;
+White[jo]
+;
+Black[hm]
+;
+White[fm]
+;
+Black[np]
+;
+White[ep]
+;
+Black[dq]
+;
+White[cr]
+;
+Black[bs]
+;
+White[ir]
+;
+Black[ks]
+;
+White[mp]
+;
+Black[kn]
+;
+White[mo]
+;
+Black[jn]
+;
+White[hl]
+;
+Black[lo]
+;
+White[no]
+;
+Black[in]
+;
+White[qp]
+;
+Black[rp]
+;
+White[mb]
+;
+Black[nc]
+;
+White[lc]
+;
+Black[la]
+;
+White[ka]
+;
+Comment[Black wins by 14 1/2 zi.
+
+Overview: W grabbed an early lead.  But in the battle at the upper left corner, W 59, a huge mistake, gave B the chance.  B thereafter played better and better, looking like a complete different player from the "first half."
+
+Quite a few good moves in the game.  However, casual moves like B 68, B 86 and W 87 left some "spots on the jade."]
+Black[ma]
+)
+
+(
+;
+EVent[Dang Hu Games]
+PlayerBlack[Shi Xiang-Xia]
+PlayerWhite[Fan Xi-Ping]
+DaTe[1739]
+PlaCe[Dang Hu, China]
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[
+Hi everyone!
+
+This is Game 4.  It's dedicated to *dfs 6d*, who gave me the first
+impression how a real strong player plays.  True, I had some Go books
+containing some pro game records (which are supposedly better), but to see
+it really happening, to see it move by move (LIVE :), i first experienced
+it when watching a dfs game on IGS.
+
+Of course, dfs is not a pro and he doesn't play pro game either.  But had
+he been a pro, i wonder if i ever had the chance to make him a friend. :-)
+
+jzy NR ^_^]
+GameName[Fan vs. Shi]
+REsult[W+15]
+KoMi[-2]
+Comment[Game 4
+
+White: Shi Xiang-Xia
+
+Black: Fan Xi-Ping]
+AddWhite[dd][pp]
+AddBlack[dp][pd]
+;
+White[qf]
+;
+Black[qk]
+;
+White[fq]
+;
+Black[kq]
+;
+White[qm]
+;
+Black[nq]
+;
+White[iq]
+;
+Black[cm]
+;
+White[ck]
+;
+Black[fc]
+;
+White[nc]
+Comment[W R14 and O17 are called "double birds" \("double flying swallows" in Chinese :-\) These two moves initiate a typical joseki in ancient Chinese games \(this joseki is still quite common today\).]
+;
+Black[pf]
+Comment[Shi, in one of his book on Go theories, explained the direction of B #12.  If O16, after W N16, B O15, and W P17, W will be able to play K17, a good point since it salso presses B F17.  Therefore, the correct direction for B #12 isQ14, as Fan played here.]
+;
+White[pg]
+;
+Black[of]
+;
+White[qe]
+;
+Black[nd]
+;
+White[md]
+Comment[This move can be also played at R16, then B should P17.  However, ancient players, who preferred "potentials", almost always played N16 here.  Today's players are probably in favor of R16 -- therefore, today, B would play R16 \(instead of O16\) to prevent W \(Note if W plays Q15 after B R16, B would give up P14 and Q14 and swallow W O17.  B would be better\).]
+;
+Black[oc]
+;
+White[nb]
+;
+Black[qd]
+;
+White[ob]
+;
+Black[pb]
+;
+White[qb]
+;
+Black[oa]
+Comment[Some readers must question this: what if W plays R17 now.  After B Q17, W has S16 to get the corner.  Yes, you're right.  But again, ancient players preferred potentials \(relatively speaking, of course\).  Since B has N17, he is not worried by W R17.]
+;
+White[lc]
+;
+Black[rd]
+;
+White[qh]
+;
+Black[rg]
+;
+White[qg]
+Comment[R13 is correct.  If P13, after B O14 and W S12, B has a very good point at K17.  Now with R13, W doesn't give B chance to play K17.]
+;
+Black[mf]
+Comment[Necessary.  If omitted, W has O15 and O13 to cover B with *sente* -- if B ignores W O13, W has S19 to kill B corner with a ko \(that's the reason W didn't make the "favorable" exchange of W O19 and B Q19\).]
+;
+Comment[Key point.
+
+It would be quite common today to see B to play C17 next.  However, Fan and Shi never played 3-3 invasion under this situation.  Not only a 3-3 invasion here doesn't fit their style, but also, at that time, the way of scoring was different --]
+White[ic]
+;
+Comment[At that time, experts realized two eyes for each group were the minimal condition to live.  Therefore, each group should leave two eyes \(2 points\) to be not counted.  As a result, more groups a player had more than his opponent, more points it would cost him.  And a 3-3 invasion could easily create an "extra group" for his own.]
+Black[fe]
+;
+White[ef]
+;
+Black[ff]
+;
+Comment[From today's point of view, to play this move at E13 is enough, since no matter how strong B \(potential\) is here, W's top group is not in any danger to be attacked.  Yet Fan and Shi thought E13 instead of F13 would be "weak."]
+White[fg]
+;
+Black[hc]
+;
+White[id]
+;
+Comment[This is a planned move when B played H17.  However, it seems that B should make an exchange at J18 with W K18 first.]
+Black[de]
+;
+White[ee]
+;
+Black[ed]
+;
+Comment[Only move.  If C15 atari, B D17 gets the corner easily.]
+White[dc]
+;
+Black[ce]
+;
+White[eg]
+;
+Black[bc]
+;
+White[bb]
+;
+Black[bd]
+Comment[Correct.  B C17 then E17 \(with W C18 in between\) can't kill W easily \(W may manage to create a ko\) and could leave a burden for B himself.]
+;
+White[fb]
+;
+Black[gb]
+;
+White[eb]
+;
+Black[hd]
+;
+White[cb]
+;
+Black[ch]
+;
+White[ib]
+Comment[B's group doesn't have complete eyeshape, so B will have to escape.  On the other hand, W's top group is as solid as a rock, and there is no way for B to take advantage of.  \(Shi, playing W, later pointed out that B should have played J18 before E16.  Had he did, B would be in a much better shape.\)]
+;
+Black[hf]
+;
+White[ec]
+;
+Black[fd]
+;
+White[hh]
+;
+Comment[Too strong.  J13 to settle the top group is emergent.  The left B group, although thin, is not in immediate danger.]
+Black[di]
+;
+Comment[B's situation is now worse.]
+White[ig]
+;
+Black[ie]
+;
+White[ei]
+;
+Black[ej]
+;
+Comment[W E11 and F11 prevent W G12 and create D10 cut as well.]
+White[fi]
+;
+Comment[If B protects D10 here, W J14 and B can't escape.  But K14 is not good.  Should be at J14 and B needs just one more move to live.]
+Black[jf]
+;
+White[dj]
+;
+Comment[If E9, W has B13 and this B group would be dead.]
+Black[bi]
+;
+White[ne]
+;
+Black[od]
+;
+Comment[If W O15 was played at E9 to capture B E10 stone, W would be already in a commanding lead.  But Shi is showing a good Go spirit here: if he could attack, he wouldn't turn conservative; if he could win more, he wouldn't be satisfied to win less.  O15 and O14 are extremely strong.]
+White[nf]
+;
+Black[og]
+;
+White[lf]
+;
+Black[ab]
+;
+White[da]
+;
+Black[jg]
+;
+Comment[W moves are tight and strong, taking good advantage of B's weak groups.]
+White[oh]
+;
+Black[nh]
+;
+White[ng]
+;
+Black[oi]
+;
+White[jh]
+;
+Black[kh]
+;
+Comment[Good move to cut B.]
+White[lh]
+;
+Black[ki]
+;
+White[kg]
+;
+Black[gg]
+;
+White[li]
+;
+Black[gh]
+;
+White[gi]
+;
+Black[kj]
+;
+Comment[Force B to live with gote.  Then Q12.]
+White[ij]
+;
+Black[ge]
+;
+White[ph]
+;
+Comment[Struggling persistently.]
+Black[nj]
+;
+Comment[Too careless.  Should play R10 -- if B Q10, W S10 and B has to play S18 to save the corner, and B's middle group is in trouble; if B S10 against W R10, W has Q10 and B is difficult.]
+White[pj]
+;
+Comment[Now both sides are on "tiger's back," the situation becomes complicated.]
+Black[pi]
+;
+White[qi]
+;
+Black[qj]
+;
+White[pk]
+;
+Black[pl]
+;
+White[ok]
+;
+Comment[Should S7 directly.  W would have to play P8, then B plays N9.  B would be better than he actually played.]
+Black[nk]
+;
+White[ol]
+;
+Black[rm]
+;
+White[pm]
+;
+Black[rl]
+;
+Comment[If S6, B would be able to increase liberties to kill W group.]
+White[rj]
+;
+Black[rk]
+;
+Comment[If T11 instead, B can S12 peak first and leave a big aji at the corner while use sente to play somewhere else \(to get the lower right corner, for example\).]
+White[rh]
+;
+Black[sj]
+;
+White[si]
+;
+Black[ri]
+;
+White[nl]
+;
+Black[lj]
+;
+White[rj]
+;
+Black[me]
+;
+White[mg]
+;
+Black[ri]
+;
+Comment[W O8 and N9 are doing two things: one, they are ko threats; two, they make B stones heavy.]
+White[mk]
+;
+Black[mj]
+;
+White[rj]
+;
+Black[mc]
+;
+Comment[Correct.  If N18, B later has M15 to create two more ko threats.]
+White[le]
+;
+Black[ri]
+;
+White[ni]
+;
+Black[mi]
+;
+White[rj]
+;
+Black[qo]
+;
+White[sk]
+;
+Comment[B gets the corner, quite a profit...]
+Black[qp]
+;
+Comment[...but W gets sente to attack B's middle group.  It's still W's game.]
+White[kl]
+;
+Black[jk]
+;
+Comment[Seems strange, but it's deeper than one expects upon first look.  B is likely to atari at H13, and W J12.  Now, B probably would play K16 to save two W stones, and W gains J7.  Without the move at J14 \(and thus J12\), W J7 wouldn't work since B would have J11 and H9 \(with B H11 in between\).]
+White[if]
+;
+Comment[B sees W's trap.]
+Black[jl]
+;
+White[km]
+;
+Comment[It becomes complicated again.]
+Black[ek]
+;
+Comment[Good move at this point.]
+White[fl]
+;
+Black[hl]
+;
+White[je]
+;
+Black[hg]
+;
+White[he]
+;
+Black[re]
+;
+White[rf]
+;
+Black[ie]
+;
+White[ih]
+;
+Comment[B plays here despite the big ko at the top, showing his "do-or-die" determination.]
+Black[jn]
+;
+White[jm]
+;
+Black[im]
+;
+Comment[W of course counterattacks.]
+White[in]
+;
+Black[hn]
+;
+White[io]
+;
+Black[ho]
+;
+Comment[No choice.  If K5, B H3 is strong.]
+White[ip]
+;
+Black[kn]
+;
+White[ln]
+;
+Black[ko]
+;
+White[np]
+;
+Black[mp]
+;
+White[no]
+;
+Black[mo]
+;
+Comment[If N6, B O6 cut is good.  After W P6, M5 is sente for B, so B's lower group is out of danger and B can play F4.]
+White[oq]
+;
+Black[lm]
+;
+White[qq]
+;
+Black[rq]
+;
+White[rr]
+;
+Black[qr]
+;
+White[pq]
+;
+Black[ro]
+;
+White[sq]
+;
+Black[nn]
+;
+White[po]
+;
+Black[on]
+;
+White[pn]
+;
+Black[sp]
+;
+White[rp]
+;
+Black[jd]
+;
+White[kf]
+;
+Black[rq]
+;
+White[ll]
+;
+Black[mm]
+;
+Comment[Could play S4.  B doesn't have good ko threats.]
+White[ml]
+;
+Comment[B lost his last chance.  Should play O2 so that W's lower right can't live without winning the ko.  Although this doesn't mean B can turn it around, but such a possibility would then exist.  Now B has lost for sure.]
+Black[fp]
+;
+White[gm]
+;
+Black[hm]
+;
+White[eq]
+;
+Black[ep]
+;
+White[dq]
+;
+Black[cq]
+;
+White[cr]
+;
+Black[gq]
+;
+White[gr]
+;
+Black[gp]
+;
+White[hr]
+;
+Black[br]
+;
+White[jr]
+;
+Black[mr]
+;
+White[rp]
+;
+Black[dr]
+;
+White[er]
+;
+Black[rq]
+;
+White[ik]
+;
+Black[il]
+;
+White[rp]
+;
+Black[cs]
+;
+White[so]
+;
+Black[mb]
+;
+White[lb]
+;
+Black[na]
+;
+White[he]
+;
+Black[es]
+;
+White[kr]
+;
+Black[lr]
+;
+White[kp]
+;
+Black[jp]
+;
+White[jq]
+;
+Black[lp]
+;
+White[is]
+;
+Black[ie]
+;
+White[nr]
+;
+Black[mq]
+;
+White[he]
+;
+Black[gk]
+;
+White[fr]
+;
+Black[ie]
+;
+White[jo]
+;
+Black[kp]
+;
+White[he]
+;
+Black[sl]
+;
+White[sg]
+;
+Black[ie]
+;
+White[fk]
+;
+Black[fj]
+;
+White[he]
+;
+Black[gj]
+;
+Comment[White wins by 7 1/2 zi \(15 points\).]
+White[ie]
+)
+
+(
+;
+EVent[Dang Hu Games: Game 5]
+PlayerBlack[Shi Xiang-Xia]
+PlayerWhite[Fan Xi-Ping]
+DaTe[1739]
+PlaCe[Dang Hu, China]
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[Hi everyone!
+
+This is Game 5, which means we've reached the half-point.  That's worth
+celebrating, isn't it? :)  Therefore, this game should be dedicated to
+someone special, like someone that everyone on IGS would like to thank.
+Okay, this time, this "someone" is *tim*, who has been the "Keeper of the
+Server."
+
+Thanks, tim!!
+
+And personally, I have this special memory of being kicked out once from
+the Server by tim. :-)
+
+jzy, NR ^_^]
+GameName[Shi vs. Fan]
+REsult[W+29]
+KoMi[-2]
+AddWhite[dd][pp]
+AddBlack[dp][pd]
+Comment[Game 5
+
+White: Fan Xi-Ping
+
+Black: Shi Xiang-Xia]
+;
+White[qf]
+;
+Black[qk]
+;
+White[qm]
+;
+Black[nq]
+;
+White[iq]
+;
+Black[mc]
+;
+White[cn]
+;
+Black[ci]
+;
+White[cg]
+;
+Black[fc]
+;
+White[kc]
+;
+Black[gq]
+;
+White[qi]
+;
+Black[no]
+Comment[Now R9 becomes weaker, so B O5 to strengthen O3 on the other side.  O5 can be also played at L3.]
+;
+White[ck]
+Comment[Same principle: after B O5, W J3 becomes weaker, so W C9 to strengthen C6 on the other side.]
+;
+Black[ic]
+Comment[Again, after W C9, B F17 becomes weaker, so B J17 to strengthen F17.  All O5, C9, and J17 are examples of avoiding weak stones on "two sides."]
+;
+White[on]
+Comment[The efficient way to attack R9 is to press O3 and O5.]
+;
+Black[nn]
+;
+White[oq]
+;
+Black[or]
+;
+White[pr]
+;
+Black[nr]
+;
+White[nm]
+Comment[Today's players may choose P7, but Shi and Fan thought P7 would be "slow." This is again the different styles between now and then.]
+;
+Black[mm]
+;
+White[nl]
+;
+Black[ml]
+;
+White[mk]
+Comment[Strong move.  Shi explained: if W plays O9 instead, B would have J5 and B would be better \(W corner is not clean\).  W O9, Shi continued, would be correct only when R11 is at P14.]
+;
+Black[qr]
+PLayer[B]
+Comment[To exchange with W Q1.  Good order.]
+;
+White[ps]
+;
+Black[nk]
+Comment[Seems to be casual.  Q5 would be sharp.]
+;
+White[oo]
+Comment[Clever.]
+;
+Black[np]
+Comment[Since W P5 created a cutting point at N6, B has to connect at O4.  With this exchange, B's future activity at the corner has been limited.]
+;
+White[ok]
+;
+Black[nj]
+;
+White[oj]
+Comment[W P9 and P10 look mediocre, but W really can't go with other choices.  Q7 \(instead of O9\) seems to be a move to defend here, but the result isn't quite clean -- B has S6 to live the corner.]
+;
+Black[qn]
+Comment[Slightly late.]
+;
+White[rn]
+PLayer[W]
+Comment[Now if B plays R5, W S5 is good and B can't live here.]
+;
+Black[ri]
+Comment[W has to be careful here.  If W casually plays S12, B has Q11 sente.  After W R12 and B O11, W has to play M9 and B would have a good move at Q7.  That would be a big headache to W.]
+;
+White[qh]
+Comment[Calm.  Now look back, B had better saved S11.]
+;
+Black[op]
+;
+White[pq]
+;
+Black[po]
+;
+White[om]
+;
+Black[ro]
+;
+Comment[The corner is not settled.  However, if B plays the corner now, although he could create a ko or live with seki, he doesn't have ko threats or, with seki, he would lose sente.  So a better choice for B is to play somewhere else.]
+White[rm]
+;
+Black[ni]
+;
+White[lk]
+;
+Comment[Urgent.]
+Black[oi]
+;
+Comment[Let B to save a few stones \(R9 etc.\).  Smart choice.  If W plays Q11 instead, B now can live the corner with seki *without* losing sente -- B would have Q8 \(now Q8 is not a threat because of W R4\).]
+White[qp]
+;
+Comment[To here, W gets 20 plus points at the lower right.  B gains some outside potential, but this potential has been damaged by W M9.  Plus the faulty B S11, it can be judged that W is leading.]
+Black[pj]
+;
+White[of]
+;
+Black[pg]
+;
+White[qg]
+;
+Black[li]
+;
+White[ki]
+;
+Black[kh]
+;
+Comment[W L11 then M7, good order.]
+White[lm]
+;
+Comment[Should N6 directly, saving moves at L6 and L7.]
+Black[ll]
+;
+White[kl]
+;
+Black[mn]
+;
+White[kj]
+;
+Black[jh]
+;
+Comment[Good point.  Not only completely destroies B's potential, but also threatens B's lower right team.]
+White[ko]
+;
+Black[kq]
+;
+White[kr]
+Comment[If W plays this move directly at J5, it's already W's advantage.  L2 is tight, leaving little breathing room for B.
+
+Editor: L2 is not just good; it's deep.  Chen 9p used nine variation diagrams to explain why L2 is good.  Unfortunatly, I am unable to include all these variation here since gasoline today is so expensive. :\) Hope I *will* be able to include them when I re-edit these comments.]
+;
+Black[jk]
+;
+White[kk]
+;
+Black[jp]
+;
+Comment[Good move related to L2.]
+White[io]
+;
+Black[ip]
+;
+White[lq]
+;
+Black[lp]
+;
+White[hp]
+;
+Comment[No choice.  If H3 cut, B's lower right team would be in danger.]
+Black[kp]
+;
+White[hq]
+;
+Comment[Locally speaking, B H5 is better at K7.  But because of previous K4 and J4, B's lower left corner is hurt.  So if B wants to win, H5 is probably the only choice.]
+Black[ho]
+;
+Comment[W uses the most severe moves, obtains the best result.  Fan's \(playing W\) great skills are shown here.]
+White[hn]
+;
+Black[go]
+;
+White[gp]
+;
+Black[in]
+;
+White[jo]
+;
+Black[jm]
+;
+White[im]
+;
+Black[jn]
+;
+White[lo]
+;
+Comment[If K8 instead, W would capture L4 five B stones.  Although B then is able to get W's middle stones, B couldn't turn the game around.]
+Black[lr]
+;
+White[fo]
+;
+Black[gn]
+;
+White[hm]
+;
+Black[fn]
+;
+White[jl]
+;
+Black[eo]
+;
+White[fp]
+;
+Black[gl]
+;
+White[jr]
+;
+Black[mq]
+;
+Comment[W's lead is comfortable.]
+White[hk]
+;
+Black[gk]
+;
+White[gm]
+;
+Black[en]
+;
+White[fm]
+;
+Comment[B is very persistent, fighting hard.  However, W's charge is so strong that B can do nothing but trying to keep up the pace.]
+Black[dl]
+;
+White[em]
+;
+Black[dm]
+;
+White[dn]
+;
+Black[cq]
+;
+White[dk]
+;
+Black[el]
+;
+White[ek]
+;
+Black[fl]
+;
+White[bm]
+;
+Black[hj]
+;
+White[ik]
+;
+Black[eq]
+;
+White[fq]
+;
+Black[er]
+;
+White[fr]
+;
+Black[gj]
+;
+White[ii]
+;
+Black[ei]
+;
+White[bp]
+;
+Black[bq]
+;
+White[cp]
+;
+Comment[Damage W's eyeshape, but B's own corner is not clean yet.]
+Black[do]
+;
+White[br]
+;
+Black[ar]
+;
+White[cr]
+;
+Black[dr]
+;
+Comment[It seems that W can play B1 to create a ko, but it's a ko that W needs two moves to win.]
+White[bi]
+;
+Comment[B must play B10, otherwise it would be like saying "resign."]
+Black[bj]
+;
+Comment[The following moves of both sides are tight and well calculated.]
+White[di]
+;
+Black[ch]
+;
+White[dh]
+;
+Black[bk]
+;
+White[bl]
+;
+Black[bg]
+;
+Comment[Technique to make D10 sente.]
+White[bh]
+;
+Black[cj]
+;
+White[dj]
+;
+Black[ah]
+;
+White[bf]
+;
+Black[ai]
+;
+White[bh]
+;
+Black[bi]
+;
+White[cl]
+;
+Black[cf]
+;
+White[dg]
+;
+Black[ce]
+;
+Comment[Key point.  If F12 instead, since J10 is sente for B, B can play H12 and W's weakness would be exposed.]
+White[hh]
+;
+Black[gh]
+;
+White[gg]
+;
+Comment[B is persistent.]
+Black[hg]
+;
+White[fh]
+;
+Black[gi]
+;
+White[hf]
+;
+Black[ig]
+;
+White[ij]
+;
+Black[fg]
+;
+White[gf]
+;
+Black[ff]
+;
+White[fe]
+;
+Black[eh]
+;
+White[ee]
+;
+Black[df]
+;
+White[ef]
+;
+Black[eg]
+;
+White[gd]
+;
+Black[co]
+;
+White[bo]
+;
+Comment[B has to live the corner.]
+Black[bs]
+;
+Comment[If A4, W is also winning, but globally speaking, K15 is clearly more important.]
+White[je]
+;
+Black[ap]
+;
+White[ao]
+;
+Black[bn]
+;
+White[aq]
+;
+Black[cm]
+;
+White[dq]
+;
+Comment[To here, B is advantageous locally...]
+Black[an]
+;
+Comment[...but W gains K15 and now L14 two key points, thus simplifed the situation.  Correct policy.]
+White[kf]
+;
+Black[ng]
+;
+White[ne]
+;
+Comment[Last struggle.]
+Black[me]
+;
+White[mf]
+;
+Black[nf]
+;
+White[oe]
+;
+Black[lf]
+;
+White[le]
+;
+Black[mg]
+;
+Comment[W is flawless.]
+White[md]
+;
+Black[cd]
+;
+White[mf]
+;
+Black[qo]
+;
+White[rp]
+;
+Black[me]
+;
+White[cn]
+;
+Black[dn]
+;
+White[mf]
+;
+Black[pl]
+;
+White[pm]
+;
+Black[me]
+;
+White[am]
+;
+Black[cn]
+;
+White[mf]
+;
+Black[ol]
+;
+Comment[Winning ko with sente.  Victory is unshakable.]
+White[lg]
+;
+Black[lh]
+;
+White[cc]
+;
+Black[kb]
+;
+White[bc]
+;
+Black[be]
+;
+White[jb]
+;
+Black[lb]
+;
+White[jc]
+;
+Black[pc]
+;
+Comment[W continues to fight even though he has won for sure.]
+White[rd]
+;
+Black[rc]
+;
+Comment[Good technique.]
+White[rb]
+;
+Black[qc]
+;
+White[sc]
+;
+Black[re]
+;
+White[rf]
+;
+Black[qd]
+;
+Comment[W is confident to win this ko.]
+White[se]
+;
+Black[sd]
+;
+White[og]
+;
+Black[nh]
+;
+White[rd]
+;
+Black[hl]
+;
+White[il]
+;
+Black[sd]
+;
+White[mj]
+;
+Black[mi]
+;
+White[rd]
+;
+Black[ln]
+;
+White[kn]
+;
+Black[sd]
+;
+White[ej]
+;
+Black[fi]
+;
+White[rd]
+;
+Black[ji]
+;
+White[km]
+;
+Black[sd]
+;
+White[mo]
+;
+Black[mp]
+;
+White[rd]
+;
+Black[sp]
+;
+White[pn]
+;
+Black[sd]
+;
+White[ql]
+;
+Black[pk]
+;
+White[rd]
+;
+Black[so]
+;
+White[sq]
+;
+Black[sd]
+;
+White[os]
+;
+Black[ms]
+;
+White[rd]
+;
+Black[jj]
+;
+White[jn]
+;
+Black[sd]
+;
+White[nc]
+;
+Black[nb]
+;
+White[rd]
+;
+Black[if]
+;
+Comment[W ignores B J14 -- let B "come in" but R15 kills B upper right. W's winning margin is now bigger.]
+White[qe]
+;
+Black[ie]
+;
+White[lc]
+;
+Black[ib]
+;
+White[ja]
+;
+Black[eb]
+;
+White[db]
+;
+Black[ec]
+;
+White[dc]
+;
+Comment[If B doesn't protect, W H17 can cut down three B stones.]
+Black[hd]
+;
+White[ad]
+;
+Black[bd]
+;
+White[ac]
+;
+Black[ae]
+;
+White[ba]
+;
+Black[cq]
+;
+White[cs]
+;
+Black[rk]
+;
+White[ge]
+;
+Black[rh]
+;
+White[gb]
+;
+Black[gc]
+;
+Comment[White wins by 14.5 zi \(29 pts\).
+
+Overview: B had some loss in the lower right corner fight.  With the resulting advantage, W frequently attacked B with tight and clever moves.  Although B fought very hard, there was no chance -- W's calculation was flawless, good moves were endless, and his attacks were breathless.  Fan's masterpiece.]
+White[ia]
+)
+
+(
+;
+EVent[Dang Hu Games: Game 6]
+PlayerBlack[Shi Xiang-Xia]
+PlayerWhite[Fan Xi-Ping]
+DaTe[1739]
+PlaCe[Dang Hu, China]
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[Hi everyone!
+
+This is Game 6.  This time, I would like to thank another "keeper of the
+server," only this time I am referring to the server in France, the first
+IGS outside U.S.  Although that server has not been as active as lacerta
+(New Mexico) nor icsi (Berkeley), it has served many players in Europe
+well.  So, thank you, *fmc*, this game is dedicated to you.
+
+jzy NR ^_^]
+GameName[]
+REsult[B+19]
+KoMi[-2]
+AddWhite[dd][pp]
+AddBlack[dp][pd]
+Comment[Game 6
+
+White: Fan Xi-Ping
+
+Black: Shi Xiang-Xia]
+;
+White[cn]
+;
+Black[ci]
+;
+White[cg]
+;
+Black[qn]
+;
+White[qi]
+;
+Black[fc]
+;
+Comment[Normally W plays L17 at that time.  Perhaps Fan \(playing W\) was interested in some change.]
+White[nc]
+;
+Comment[B K17 thus becomes an absolute move.]
+Black[jc]
+;
+White[ne]
+;
+Black[qg]
+;
+Comment[Fan later judged this move with one word: hasty.  And it was criticized by experts of that time.  Well, didn't they love to fight?  The fact was, they did not criticize this "violent" move itself, but rather, the inappropriate timing.]
+White[hc]
+;
+Black[fe]
+;
+White[id]
+Comment[In some even more ancient games, this W move was played at D18.  Fan, playing W, must knew it.  Perhaps he was "experimenting" some new moves here.]
+;
+Black[jd]
+;
+White[if]
+;
+Black[je]
+;
+White[ie]
+;
+Black[kg]
+;
+White[ec]
+;
+Black[eb]
+;
+White[db]
+;
+Black[fb]
+Comment[Now B has H18.  W is in disadvantage.]
+;
+White[ib]
+;
+Black[jb]
+Comment[Although W J18 was sente, but this exchange hurts W O15 and O17.]
+;
+White[fg]
+Comment[W's shape is thin, and B doesn't need to worry.]
+;
+Comment[Creates a cutting point at H16.]
+Black[ic]
+;
+White[hb]
+;
+Comment[Key point.]
+Black[de]
+;
+White[ce]
+;
+Black[df]
+;
+White[cf]
+;
+Black[cc]
+;
+White[cb]
+;
+Black[cd]
+;
+White[bd]
+;
+Black[bc]
+;
+Comment[W B16 and B18 are a technique against B C16.]
+White[bb]
+;
+Black[be]
+;
+White[ac]
+;
+Black[ad]
+;
+White[ab]
+;
+Comment[Although W gains at the corner, B is able to escape, connecting with C11.  So overall, it's B's success.]
+Black[dg]
+;
+Comment[Tight and urgent.  If J12 instead, B can play C12.]
+White[jg]
+;
+Black[kh]
+;
+White[ch]
+;
+Black[dh]
+;
+Comment[W C12 and D17 are good moves.  Not only ensure the territory, but also force B to settle.]
+White[dc]
+;
+Black[gd]
+;
+White[hd]
+;
+Comment[B G16 and G14 prevent W from cutting at F16.  Important.]
+Black[gf]
+;
+White[jh]
+;
+Black[ji]
+;
+Comment[Casual.  H12 would be a good shape -- after B K14, *then* G13.  W would be a much better shape.]
+White[gg]
+;
+Black[hh]
+;
+White[hg]
+;
+Comment[B H12 and J11 severe.  B now controls teh middle, while giving W only a narrow way to escape.  B's profit is remarkable.]
+Black[ii]
+;
+Comment[Extremely painful but no other choice.  Let B play here and W would lose an eye.]
+White[jf]
+;
+Black[kf]
+;
+White[fi]
+;
+Comment[In this battle, due to some awkward plays by W, especially a casual move at G13, B is clearly better.]
+Black[dj]
+;
+Comment[F9 would be a "text move," but that would give B no pressure.  E9 is clearly a challenge to B.]
+White[ek]
+;
+Comment[B probably likes to play E10 then F9 cut.  But the situation would be very complicated adn B decides to avoid such a not-so-sure fight.  Thus, however, B gives W a break.]
+Black[dm]
+;
+Comment[W seizes the chance and counterattacks immediately.]
+White[ki]
+;
+Black[li]
+;
+White[kj]
+;
+Comment[Should play M10 to increase B's moyo.]
+Black[ik]
+;
+Comment[Powerful.]
+White[lj]
+;
+Black[mi]
+;
+White[mj]
+;
+Comment[O11 would be common today.  O10 is strong, reducing W L10 team liberties.  This again show ancient "warlike" style.]
+Black[nj]
+;
+Comment[A test move.  On one hand it asks for "a ride home" at K19, on the other hand it threatens a L15 cut.]
+White[kb]
+;
+Black[lc]
+;
+White[lb]
+;
+Comment[B M17 and L19 seem to be strong moves to fail W's both plans, but too strong.  B M16 \(rather than M17\) is a text move, and it's better.]
+Black[ka]
+;
+Comment[Fierce.  Difficult for B to answer.]
+White[lh]
+;
+Comment[If N14, since W has L15 cut, he \(W\) can play N13.]
+Black[mg]
+;
+White[mh]
+;
+Black[ni]
+;
+White[nh]
+;
+Comment[B O14 probably should be at O9, but B worries about W M13, Shi, playing B, later noted.]
+Black[nf]
+;
+White[of]
+;
+Black[og]
+;
+White[oh]
+;
+Black[pg]
+;
+White[nk]
+;
+Black[oj]
+;
+White[pi]
+;
+Black[ng]
+;
+White[ok]
+;
+Comment[Urgent.  In this fight, W captures O11 five B stones, forming potential at the middle. B corner is big, but not clean yet.  Therefore, it can be judged that W has gained back his loss during the upper left corner fight.]
+Black[pc]
+;
+White[ld]
+;
+Comment[Appropriate against W M16.]
+Black[kc]
+;
+White[ke]
+;
+Comment[Good move when W L15 cut.]
+Black[mc]
+;
+Comment[Common play for this shape.]
+White[eo]
+;
+Black[ej]
+;
+White[fj]
+;
+Comment[B E10 then F9 prevent W D9.]
+Black[fk]
+;
+White[gk]
+;
+Black[fl]
+;
+White[gl]
+;
+Black[gm]
+;
+White[fm]
+;
+Black[el]
+;
+White[mb]
+;
+Black[nb]
+;
+White[ob]
+;
+Comment[B O18 and O19 are good answer to W N18 test.]
+Black[na]
+;
+White[oa]
+;
+Black[md]
+;
+White[me]
+;
+Black[lf]
+;
+White[il]
+;
+Black[hm]
+;
+White[em]
+;
+Black[dl]
+;
+White[hl]
+;
+Black[fo]
+;
+White[ep]
+;
+Comment[Captures two W stones.  Important.]
+Black[en]
+;
+Comment[W F4 is probably casual again \(it was said Fan often played without much thinking -- playing fast, that is -- thus making some casual mistakes once in a while\).  D3 for W here is a text move.  Although B would still have C3 aji and perhaps B can even live the corner, W's outside would be much thicker had he played D3 instead of F4.]
+White[fp]
+;
+Black[pj]
+;
+White[qj]
+;
+Comment[B Q10 and P5 prepare for some future moves, but lost too much of territory -- deep moves but unnecessary at this point.  S12 to secure 50 plus points at the upper right seem to be better, and make things simpler.]
+Black[oo]
+;
+White[op]
+;
+Comment[K8 is B's plan when Q10 and P5.]
+Black[jl]
+;
+Comment[Big mistake.]
+White[jk]
+;
+Comment[J7 is B's sente here.  W K9 is better to play at J7.]
+Black[im]
+;
+White[kl]
+;
+Black[jm]
+;
+White[hj]
+;
+Black[dq]
+;
+White[do]
+;
+Black[er]
+;
+White[fr]
+;
+Comment[B easily lives the corner, plus G3 aji, B has taken the upper hand.]
+Black[bp]
+;
+White[jq]
+;
+Black[gq]
+;
+White[gr]
+;
+Comment[H3 seems to be B's sente to gain some profit...]
+Black[hq]
+;
+White[go]
+;
+Black[gn]
+;
+Comment[...but after W G5 and H4, B doesnt' have strong moves to follow.  B H3 should O4 directly, saving H3 variation.]
+White[hp]
+;
+Comment[Still good move, but B has been hurt at the bottom.]
+Black[np]
+;
+Comment[Losing move.  Should E3 first.  After B D2, *then* M3, thus to capture two B stones \(G3 and H3\) *cleanly*.  After that, if W can gain sente in the lower right fight, he can then have some plays at upper right.  This way, W would have a chance.]
+White[lq]
+;
+Black[nq]
+;
+White[or]
+;
+Comment[Now it's difficult for W to find a good response.]
+Black[iq]
+;
+White[ip]
+;
+Black[jr]
+;
+Comment[Already too late.]
+White[fn]
+;
+Black[fo]
+;
+White[fn]
+;
+Black[kq]
+;
+White[jp]
+;
+Black[kr]
+;
+Comment[If W F7 cuts, B M5, W would have to play L7 to capture six B stones, then B S4 to attack W corner.  W fails.]
+White[kp]
+;
+Black[km]
+;
+White[ln]
+;
+Comment[On first look, N6 is quite incomprehensible.  Only after careful calculation that N6 is found to be an extraordinary move.  W is likely to play M7, but after B M8, B would be able to use O10 six stones to either create a ko or even save them back.]
+Black[mn]
+;
+Comment[No choice.]
+White[pk]
+;
+Black[lm]
+;
+White[mo]
+;
+Black[lo]
+;
+White[lp]
+;
+Black[no]
+;
+White[ko]
+;
+Black[nm]
+;
+White[lr]
+;
+Black[fq]
+;
+White[eq]
+;
+Black[dr]
+;
+White[nr]
+;
+Comment[B has won for sure.]
+Black[fm]
+;
+Comment[R18 is a move conceived long ago.]
+White[qb]
+;
+Black[pb]
+;
+White[rc]
+;
+Black[rd]
+;
+White[pa]
+;
+Black[oc]
+;
+White[ma]
+;
+Comment[Good move.  If casually played at O18, after W O16, B M15, W R16 and B is unable to kill W.]
+Black[qc]
+;
+White[ra]
+;
+Black[sb]
+;
+Comment[Great move.  If simply O16, B M15 and W will get killed.]
+White[pe]
+;
+Comment[Calm.  Good.  If O16, after W O18 and B S18, W P16 creates a ko.]
+Black[le]
+;
+White[re]
+;
+Black[rb]
+;
+White[rg]
+;
+Black[qf]
+;
+White[qe]
+;
+Black[rf]
+;
+White[sf]
+;
+Black[nd]
+;
+Comment[To here, W successfully invaded B's territoy, but the outcome is not to be changed.  In this fight, both sides showed flawless calculations.]
+White[rh]
+;
+Comment[Great move.  Creates one more ko threat.]
+Black[kk]
+;
+White[lk]
+;
+Black[qq]
+;
+White[qp]
+;
+Black[rp]
+;
+White[ro]
+;
+Black[rr]
+;
+White[sp]
+;
+Black[oq]
+;
+White[pq]
+;
+Black[rq]
+;
+White[qo]
+;
+Black[pr]
+;
+White[ps]
+;
+Black[qs]
+;
+Comment[Ko, but W doesn't have enough ko threats.]
+White[qr]
+;
+Black[bf]
+;
+White[bd]
+;
+Black[pr]
+;
+White[gp]
+;
+Black[hr]
+;
+White[qr]
+;
+Black[cd]
+;
+White[cc]
+;
+Black[pr]
+;
+White[hs]
+;
+Black[ir]
+;
+White[qr]
+;
+Black[jj]
+;
+White[kk]
+;
+Black[pr]
+;
+White[ks]
+;
+Black[fs]
+;
+White[qr]
+;
+Black[ll]
+;
+White[mk]
+;
+Black[pr]
+;
+White[js]
+;
+Black[gs]
+;
+White[qr]
+;
+Black[gj]
+;
+White[gi]
+;
+Black[pr]
+;
+White[nn]
+;
+Black[os]
+;
+White[mm]
+;
+Black[rn]
+;
+White[ns]
+;
+Black[on]
+;
+White[ps]
+;
+Black[qr]
+;
+White[rm]
+;
+Black[qm]
+;
+White[rl]
+;
+Black[ql]
+;
+White[rk]
+;
+Black[sn]
+;
+White[bo]
+;
+Black[bm]
+;
+White[cm]
+;
+Black[bl]
+;
+White[ck]
+;
+Black[cl]
+;
+White[bi]
+;
+Black[bh]
+;
+White[bg]
+;
+Black[bj]
+;
+White[ah]
+;
+Black[mn]
+;
+White[cp]
+;
+Black[bq]
+;
+White[kn]
+;
+Black[mq]
+;
+White[nn]
+;
+Black[ml]
+;
+White[jn]
+;
+Black[mn]
+;
+White[mp]
+;
+Black[aj]
+Comment[Black wins by 9.5 zi \(19 pts\).
+
+Overview: Although both sides have questionable moves, good moves are remarkably remarkable. :\)  The spectacular fight around the upper right corner, and B #160 \(N6\), are moves that can't be thought of by ordinary players.  Shi and Fan were truly "great national hands."]
+)
+
+(
+;
+EVent[Dang Hu Games: Game 7]
+PlayerBlack[Shi Xiang-Xia]
+PlayerWhite[Fan Xi-Ping]
+DaTe[1739]
+PlaCe[Dang Hu, China]
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[This is Game 7.  After tim and fmc, people on IGS are probably expecting
+*tweet* next -- yes, this game is dedicated to *tweet*.  Who's tweet?  Let
+me put it this way: tweet to IGS is like the Godfather to the Mafia. :-)
+He was involved in the establishment of all three existing Go servers, so
+it's not surprising that tweet knows everything on IGS.  And tweet knows
+everything on IGS for one single reason -- he does his best to serve everyone.
+
+Thank you, tweet. *bow* :)
+
+jzy NR ^_^
+
+P.S. I apologize that I have not mentioned a tiny yet important detail
+about viewing these Dang Hu Games.  If you want to read the game, please
+cut the part below the following line and save *that* part to some file and
+view it with mgt.  If you include the part above the line in your mgt file,
+you might run into some bugs, such as the setup stones might be skipped.]
+REsult[White+Resign]
+KoMi[-2]
+Comment[Game 7
+
+White: Fan Xi-Ping
+
+Black: Shi Xiang-Xia]
+AddBlack[dp][pd]
+AddWhite[dd][pp]
+;
+White[qf]
+;
+Black[qk]
+;
+White[qm]
+;
+Black[cf]
+;
+White[ck]
+;
+Black[nq]
+;
+White[fq]
+;
+Black[jq]
+;
+White[fo]
+;
+Black[cm]
+;
+White[of]
+;
+Black[mc]
+;
+White[lq]
+Comment[Invasion to initiate a fight.  So far it's almost the same as Game 6, which was won by Shi \(played B too\).  It's understandable that Shi preferred the same openning, but Fan also decided to go with it -- he was of course prepared.  For example, an exchange of W P14 and B N17 \(more pressure on B R9\) before W M3.]
+;
+Black[no]
+;
+White[kp]
+;
+Black[jp]
+;
+White[kn]
+;
+Black[jo]
+;
+White[ko]
+;
+Black[im]
+;
+White[pr]
+Comment[Another improvement by Fan.  In Game 6, Fan played P3 and lost advantage in the early going.]
+;
+Black[eq]
+Comment[B does not play P2 but plays E3 instead, showing his aggressive attitude.  W Q2 hoped B to play P2 but failed, so later Fan improved this move once again: W would play Q2 right after W L4, then, without B K4, K5, and J7 stones, B is not strong enough to attack W left, so B would have to play P2 and W Q2 would get what he wants.]
+;
+White[er]
+;
+Black[dr]
+;
+White[fr]
+Comment[Although W E2 and F2 were common plays, but not appropriate under this situation.  Fan, playing W, later preferred E2 and E4 \(not F2\) to gain outside thickness, while Shi preferred W H3 \(not E2\), B F2, and W G2.  Both disagreed with W's plays in this game.  Now B has sente.]
+;
+Black[en]
+Comment[Attack, but somewhat "shallow."  B D9 would be good.  Then W C2 \(after B D9\) is good order, followed by B C3, a text move.  After that, \(W first\) D1, D3, F7, and C8.  Although B corner is hurt, he gains quite a bit at the left.]
+;
+White[fn]
+;
+Black[em]
+;
+White[fm]
+;
+Black[fl]
+;
+White[gl]
+;
+Black[gm]
+Comment[Only move.]
+;
+White[cr]
+Comment[Leave some aji at the corner; good timing.]
+;
+Black[ds]
+;
+White[el]
+Comment[If atari at H7 instead, W would lose the outside potential.  Now E8, after B F9, W H7 would be a good order.]
+;
+Black[fk]
+;
+White[hm]
+;
+Black[hl]
+;
+White[gn]
+;
+Black[hk]
+;
+White[in]
+;
+Black[jn]
+;
+White[jm]
+;
+Black[il]
+;
+White[hr]
+;
+Black[km]
+;
+White[jl]
+;
+Black[jk]
+;
+White[kl]
+;
+Black[lm]
+;
+White[kk]
+;
+Black[mr]
+Comment[If M2 instead, after W N2, B L3, and W M4, B N1 would be a good move to create a ko.  Unfortunately for B, W has G9 and later F10 to create several ko threats, and B can't win the ko.  So he chose N2 instead of M2.]
+;
+White[lr]
+;
+Black[ir]
+;
+White[hq]
+;
+Black[ln]
+;
+White[ks]
+Comment[L1 is the key point of liberties.]
+;
+Black[js]
+;
+White[kq]
+Comment[Ko.]
+;
+Black[io]
+;
+White[hn]
+;
+Black[ho]
+;
+White[go]
+;
+Black[ek]
+Comment[B temporarily doesn't have enough ko threats, so it's necessary to defend here.  If not, W has E9, after B F10, W C6 is good move.]
+;
+White[iq]
+;
+Black[kr]
+;
+White[jr]
+;
+Black[ef]
+;
+White[gc]
+;
+Black[qq]
+;
+White[pq]
+;
+Black[qn]
+Comment[B R3 adn R6 are clever moves, but wrong time!  B R3 should play L2.  Since B now has plenty of ko threats, B would be able to thicken his outside.  *Then* R6 would be much more powerful.]
+;
+White[pn]
+;
+Black[kr]
+Comment[Already late.]
+;
+White[mq]
+Comment[Good move.]
+;
+Black[or]
+;
+White[ms]
+;
+Black[nr]
+;
+White[hp]
+Comment[To here, W not only "finishes" the ko, but also leave some weakness in B's shape.]
+;
+Black[pm]
+;
+White[om]
+Comment[Atari at R5 instead would be a mediocre moe.  After \(B first\) S6, P7, Q8, and P6, when B N9, W would have to play L10, and B S5 would almost kill W corner.  Even if W would escape, there is no way for W to win.]
+;
+Black[pl]
+;
+White[on]
+Comment[P7 and P6 are the only moves.]
+;
+Black[mk]
+;
+White[kj]
+;
+Black[ol]
+Comment[P8 seems to be a text move, but it's almost the losing move.  B should play R5.  It \(R5\) doesn't just gain profit, but more importantly, it's directly related to the life/death of B's right.]
+;
+White[rn]
+;
+Black[qo]
+;
+Comment[W S6 and then R4 is a technique.]
+White[qp]
+;
+Comment[No choice.  If S5, W would play S7 and B's liberties are one shorter.]
+Black[rm]
+;
+Comment[W gets the corner, plus L10 "sticking out," B is hurt badly. Also, B's right is not clean.  W has turned it around.]
+White[ro]
+;
+Comment[Important.  Otherwise W C3 and B5 can live the corner, and B's territory would be definitely short.]
+Black[cl]
+;
+White[nm]
+;
+Black[ll]
+;
+Comment[If W O7 or this Q10 played at R11, W would be enough.  Now Q10 is a fierce attack!  W is really showing his attitude.]
+White[pj]
+;
+Black[qj]
+;
+White[pi]
+;
+Black[qi]
+;
+Comment[W saves sentes at Q12, R12, and a cut at O8; R17 tests B's reaction, smart thinking and clever position.]
+White[qc]
+;
+Black[qd]
+;
+White[pc]
+;
+Black[od]
+;
+White[ph]
+;
+Black[nl]
+;
+White[oc]
+;
+Comment[B S15 and later S13 are to settle B's big group.]
+Black[re]
+;
+Comment[Calm.]
+White[rc]
+;
+Black[rg]
+;
+White[rf]
+;
+Black[sf]
+;
+White[rh]
+;
+Black[qh]
+;
+Comment[Several W moves here perpare for coming O16.]
+White[qg]
+;
+Black[sg]
+;
+White[nd]
+;
+Black[nc]
+;
+White[md]
+;
+Comment[B certainly wants to play M16, but W can cut at M17 since, if B M18, W has T12 and S16, then B R15 and W P15 is sente to prevent B's ladder.  After B S11, W L17.  B fails.  So M17 is a move when no other choice.]
+Black[lc]
+;
+Comment[W thus gets this good point.]
+White[jc]
+;
+Black[jd]
+;
+White[id]
+;
+Comment[Should play K15.  W would have to play N14, then B J15, W J17 and B M16; B goes out smoothly this way.]
+Black[ld]
+;
+White[mf]
+;
+Black[lf]
+;
+White[rd]
+;
+Black[qe]
+;
+White[je]
+;
+Black[kd]
+;
+Comment[W K15 and J14 powerful.  Now B's left is thin.]
+White[if]
+;
+Black[he]
+;
+White[ie]
+;
+Black[mg]
+;
+White[oe]
+;
+Black[ri]
+;
+White[ng]
+;
+Black[mh]
+;
+White[nh]
+;
+Black[mi]
+;
+White[me]
+;
+Comment[W lives.  Although B also connects, W has started to lead.]
+Black[kf]
+;
+Comment[W invades with determination.  This is not just courage, but also percise calculations.]
+White[dg]
+;
+Black[df]
+;
+Comment[W's way to live D13 is very smart.  First C3: it's not to live the corner, but to guarantee a sente at D9.]
+White[cq]
+;
+Black[dq]
+;
+White[bo]
+;
+Black[cp]
+;
+White[bp]
+;
+Black[br]
+;
+White[bq]
+;
+Black[cs]
+;
+White[di]
+;
+Black[eh]
+;
+White[ei]
+;
+Black[fi]
+;
+White[dk]
+;
+Comment[Let's see why W D9 is sente: if B connects at E13 instead of D8, W D8 is sente to save get E8 back.  Then W has F10 \(B F9 three stones are to be cut at this moment\) and B can't kill W.]
+Black[dl]
+;
+White[bh]
+;
+Black[bl]
+;
+White[dh]
+;
+Black[eg]
+;
+Comment[W lives in B's territory; great skills!  Note: later if B C13, W B10 is key point to live.  Then, \(B first\) E10, D10, C11, C12, A9, B13, B14, and A13, W lives.]
+White[bk]
+;
+Comment[B's left is destroyed, but B gets E17 to somewhat gain back his loss.]
+Black[ec]
+;
+White[ed]
+;
+Comment[Beautiful order.]
+Black[hc]
+;
+White[hd]
+;
+Black[fc]
+;
+White[fd]
+;
+Black[gb]
+;
+White[gd]
+;
+Comment[To here, either D17 or J17, B gets one.  So like W's success at teh left, B's invasion is also successful.]
+Black[hb]
+;
+Comment[Unnecessary.  There are not many ending game moves left, if W simply plays D17, D18 and then B16, he has won for sure.]
+White[fh]
+;
+Black[gh]
+;
+White[dc]
+;
+Black[ic]
+;
+White[fg]
+;
+Black[gf]
+;
+White[gi]
+;
+Black[fj]
+;
+White[gg]
+;
+Black[hg]
+;
+White[hh]
+;
+Black[ff]
+;
+White[gh]
+;
+Black[ig]
+;
+White[ji]
+;
+Black[hf]
+;
+Comment[Again, W should simply protect upper left corner.  Now K13 makes things complicated again.]
+White[jg]
+;
+Black[bg]
+;
+White[ci]
+;
+Black[cg]
+;
+White[bj]
+;
+Black[bd]
+;
+White[bc]
+;
+Comment[Good move.]
+Black[bb]
+;
+Comment[If A17, B can make seki after \(B first\) J12, J11, C18, B15, D18, K12, and K14.  Then W would lose the game.]
+White[cc]
+;
+Black[ih]
+;
+White[ii]
+;
+Black[jh]
+;
+White[kh]
+;
+Black[kg]
+;
+White[jf]
+;
+Black[ac]
+;
+White[be]
+;
+Black[af]
+;
+White[cd]
+;
+Comment[B D10 should throw in at L11, then W must capture L11.  The variation after that is extremely complicated.  If W is careful, he still wins, but a slight carelessness would cost W the game.  This is B's last chance and he missed it.]
+Black[dj]
+;
+White[ej]
+;
+Black[ah]
+;
+White[ai]
+;
+Black[ch]
+;
+White[ag]
+;
+Black[hj]
+;
+White[hi]
+;
+Black[ah]
+;
+White[eo]
+;
+Black[do]
+;
+White[ag]
+;
+Black[ls]
+;
+Comment[W finishes the ko.]
+White[ah]
+;
+Comment[Too late.]
+Black[ki]
+;
+White[ip]
+;
+Black[lh]
+;
+White[jj]
+;
+Comment[Another ko, but the situation is already simple.]
+Black[ae]
+;
+White[ad]
+;
+Black[jr]
+;
+White[hs]
+;
+Black[bd]
+;
+White[dn]
+;
+Black[cn]
+;
+White[ad]
+;
+Black[mp]
+;
+White[is]
+;
+Black[bd]
+;
+White[bs]
+;
+Black[as]
+;
+White[ad]
+;
+Black[pg]
+;
+White[pf]
+;
+Black[bd]
+;
+White[fb]
+;
+Black[eb]
+;
+White[ad]
+;
+Black[ps]
+;
+White[qr]
+;
+Black[bd]
+;
+White[db]
+;
+Black[fa]
+;
+White[ad]
+;
+Black[oi]
+;
+White[oh]
+;
+Black[bd]
+;
+White[ea]
+;
+Black[da]
+;
+White[ad]
+;
+Black[bf]
+;
+White[ca]
+;
+Black[ea]
+;
+Comment[W wins for sure.]
+White[ab]
+;
+Black[ql]
+;
+White[nb]
+;
+Black[mb]
+;
+White[ob]
+;
+Black[ce]
+;
+White[bd]
+;
+Black[sn]
+;
+White[rp]
+;
+Black[qs]
+;
+White[rs]
+;
+Black[os]
+;
+White[rr]
+;
+Black[bn]
+;
+White[al]
+;
+Black[am]
+;
+White[ak]
+;
+Black[ik]
+;
+White[lo]
+;
+Black[mn]
+;
+White[ni]
+;
+Black[nj]
+;
+White[lj]
+;
+Black[oj]
+;
+White[mj]
+;
+Black[na]
+;
+White[sd]
+;
+Black[se]
+;
+White[oa]
+;
+Black[ma]
+;
+White[so]
+;
+Black[sm]
+;
+White[ep]
+;
+Black[es]
+;
+White[fs]
+;
+Black[co]
+;
+White[ok]
+;
+Black[nk]
+;
+White[pk]
+;
+Comment[White wins.
+
+Overview: At the beginning, B's attack at the lower left was successful, thus B began to lead.  B's mistakes \(#70 and #86\), however, cost him the lead.  W played very well afterwards: #93 and #95's sharp attack, and #99's great thinking put W on the winning track.  Later, during W's invasion to B's left and B's invasion to W's top, both players showed tremendous skills.  A spectacular game indeed.]
+Black[ns]
+)
+
+(
+;
+EVent[Dang Hu Games: Game 8]
+PlayerBlack[Shi Xiang-Xia]
+PlayerWhite[Fan Xi-Ping]
+DaTe[1739]
+PlaCe[Dang Hu, China]
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[Hi everyone!
+
+Game 8, and two more to go. :-)
+
+This game is dedicated to our dearest *UFO 30k*, probably/perhaps/maybe the
+"strongest 30k" in the solar system (he once claimed to be from Mars :-).
+
+That's not all about UFO; he's one of the most special because he was the
+organizer of IGSWCT '92.  The tournament offered a great chance for players
+to meet some opponents never faced before, and thus to make more friends on
+IGS, so it was probably one of the most precious experience for many of the
+participants.  But this would have been impossible without our
+"UnForgettable Orginizer."
+
+Fact: IGSWCT '92 had a total of over 300 games, while an NFL (pro football)
+regular season consists only 224 games. :)
+
+Nice job, UFO!
+
+jzy, NR ^_^]
+GameName[]
+REsult[W+13]
+KoMi[-2]
+Comment[Game 8
+
+White: Fan Xi-Ping
+
+Black: Shi Xiang-Xia]
+AddBlack[dp][pd]
+AddWhite[dd][pp]
+;
+White[qf]
+;
+Black[qk]
+;
+White[qm]
+;
+Black[cf]
+;
+White[ck]
+;
+Black[kq]
+;
+White[fq]
+;
+Black[cm]
+;
+White[nc]
+;
+Black[oe]
+Comment[When to play P15 and when to play Q14?  This is rather a difficult question.  Fan's later work showed that if B plays Q14 here, W will be able to get P9 point.  Probably for this reason, B \(Shi\) decided to play P15. \(Nowadays, however, P15 is seldom seen, for most modern playes don't like W to get in the corner with R17.\)]
+;
+White[jc]
+Comment[K17 is a key point, nothing wrong with it.  Also, ancient players were never hasty to enter the corner because they preferred to "leave some aji."]
+;
+Black[qh]
+Comment[Certainly.]
+;
+White[qg]
+Comment[Heavy.  Fan \(W\) later said, "Casual." \(Editor: it seems all the "casual" moves in Dang Hu Games were belonged to Fan. :-\) W should play P14, then after B O14, W Q14, good.]
+;
+Black[rh]
+Comment[Normally B would play Q12 instead.  S12 can be also considered...]
+;
+White[og]
+;
+Black[ph]
+Comment[...but Q12 now is questionable.  B should play N15, Fan later pointed out, and when W Q12, B S15.]
+;
+White[of]
+;
+Black[me]
+Comment[Again inappropriate.  Should be at O15.]
+;
+White[qd]
+Comment[Two consecutive questionable moves by B, and W now has a great chance.]
+;
+Black[qc]
+;
+White[pe]
+;
+Black[od]
+;
+White[pc]
+;
+Black[rd]
+;
+White[qe]
+;
+Black[qb]
+Comment[Lives the corner.  No other choice -- if B S16 played at P17, the loss of corner would be too big.]
+;
+White[ne]
+;
+Black[nd]
+;
+White[md]
+;
+Black[nf]
+;
+White[oc]
+;
+Black[ne]
+;
+White[ld]
+;
+Black[le]
+;
+White[pb]
+;
+Black[re]
+;
+White[rf]
+;
+Black[rb]
+;
+White[ng]
+;
+Black[ke]
+;
+White[ni]
+Comment[W indeed catches B's mistakes, and with a series of good moves, W team comes out.  Meanwhile, B has unsettled teams on each side.  W has undoubtly taken the upper hand.]
+;
+Comment[B might be also thinking L17: after W L16, B K16.  Now B wishes W to play L18 but W would in fact counterattack at K15.]
+Black[nk]
+;
+White[mk]
+;
+Comment[O8 would be B's move under normal circumstance.  Here B tries very hard to turn it around, but O10 is somewhat awkward.]
+Black[nj]
+;
+White[mj]
+;
+Black[mi]
+;
+Comment[Facing B's challenge, W's replies are appropriate.]
+White[lg]
+;
+Black[li]
+;
+White[oi]
+;
+Black[nl]
+;
+White[jg]
+;
+Black[jf]
+;
+White[ml]
+;
+Black[nm]
+;
+Comment[Urgent.  K16 prevents B L17.]
+White[jd]
+;
+Black[ig]
+;
+White[jh]
+;
+Black[hf]
+;
+Comment[W captures B two stones, and B's challenge has failed.]
+White[kj]
+;
+Comment[Key point.  It connects B team at right, and at the same time, it extends B's moyo at the left.]
+Black[ef]
+;
+Comment[W E9 would be a move that will take away a target to attack from B, thus making it difficult for B to win.  But such an "unhurried" move doesn't seem to fit their "taste." Now S9 attacks; sharp.]
+White[rk]
+;
+Comment[No way for B to give in here.  Otherwise the whole B right team would be "floating."]
+Black[rl]
+;
+White[ql]
+;
+Black[rm]
+;
+White[rn]
+;
+Black[rj]
+;
+White[pk]
+;
+Black[qj]
+;
+Comment[W strengthens his lower right corner, and B four stones are cut down.  W's fighting beginning with S9 is fruitful.]
+White[qn]
+;
+Comment[B hopes to build a huge territory at the left by attacking W F3 stone.  Only way for B to win.]
+Black[eq]
+;
+Comment[F4 would be simpler -- after B E6 and W J3, when B E9 to attack W D9 stone, W has N3 and W's moyo at the bottom looks even bigger than B's moyo at the left.]
+White[fr]
+;
+Comment[Now B gets this key point \(H3\).  Although W is still better, but it has become complicated.]
+Black[hq]
+;
+White[fo]
+;
+Black[en]
+;
+White[er]
+;
+Black[dr]
+;
+Comment[W E2 and C2 to leave some aji at the corner, then F6; good order.]
+White[cr]
+;
+Black[ds]
+;
+White[fn]
+;
+Black[fm]
+;
+White[gm]
+;
+Black[fl]
+;
+White[gl]
+;
+Comment[B F7 and G9 try to fence a territory as big as possible.]
+Black[gk]
+;
+White[fk]
+;
+Black[dm]
+;
+White[do]
+;
+Black[eo]
+;
+Comment[W D5 is a technique.  After B E5, then F4.  This way, W leaves a good chance to live the corner.]
+White[fp]
+;
+Black[hk]
+;
+White[il]
+;
+Comment[Leaving the bottom B stones in danger, B is showing his determination to win by struggle.]
+Black[hi]
+;
+Comment[Very big.]
+White[mq]
+;
+Comment[It's actually not difficult for B to live here.  For example, B J5, W J7, and B M5 will probably do it \(especially when lower right W corner is not solid\).  However B doesn't what to lose sente to W, who in turn might do some damage at lower left corner.]
+Black[mp]
+;
+White[np]
+;
+Comment[B just tries to create a complicated fight which might help him to win.]
+Black[kl]
+;
+Comment[Good move -- "one stone hits two birds."  On one hand it prevents B H8 cut, on the other hand it continues to threaten bottom B stones.]
+White[jn]
+;
+Comment[If M10, W N5 and it would be hard for B to settle both top and bottom.]
+Black[hl]
+;
+White[hm]
+;
+Comment[Tries to settle the bottom team.]
+Black[ho]
+;
+Comment[Common play against H5.  W is waiting for B H4, then W H6...]
+White[ip]
+;
+Black[io]
+;
+White[jo]
+;
+Comment[...but B applies strong counterattack.  And now W can't play J3, but has to play H6.  In other words, W J4 didn't work and should be skipped -- W should have played H6 directly.  J4 almost cost W the game.]
+Black[jp]
+;
+White[hn]
+;
+Black[ko]
+;
+White[kn]
+;
+Comment[Now B has a good shape.]
+Black[mo]
+;
+White[cp]
+;
+Comment[After this W C4 and B E4 exchange, W's next move is very difficult.  W O3 seems to be the correct move, but after B M6, W M7 and B N7, B gets either M10 or J6.  Another choice for W is M5, but B woudl then cut at O3.]
+Black[ep]
+;
+Comment[W finally decides to abandon all the other variations \(Editor: unfortunately I didn't include all of them here\) and plays N6.]
+White[mn]
+;
+Comment[Sharp and powerful, catching B's weakness in time.  A normal feeling for B here is to play O5 instead, but O5 wouldn't do any good for B here.]
+Black[ln]
+;
+White[lm]
+;
+Black[lo]
+;
+White[no]
+;
+Black[mm]
+;
+White[kp]
+;
+Black[lp]
+;
+White[lq]
+;
+Black[nn]
+;
+White[jq]
+;
+Black[kp]
+;
+White[kr]
+;
+Comment[To here every move seems certain.  Although W makes an ugly shape out of B stones, his own stones have weakness everywhere.]
+Black[mn]
+;
+White[ik]
+;
+Black[ij]
+;
+Comment[Prevents B J6; no choice.]
+White[hp]
+;
+Comment[Too greedy!  B doesn't want W to settle cleanly with just one move \(H4\), but B M10 would be as big as K2.  And W's only move against M10 would be K2.  Then B has K7 and L7, and K10 is yet another sente \(W has to play Q10\).  This way, W would be winning.]
+Black[jr]
+;
+White[cq]
+;
+Black[dq]
+;
+Comment[W lives the corner in sente.]
+White[bo]
+;
+Black[bl]
+;
+White[jj]
+;
+Comment[Since W F10 is sente, B has to play J12.]
+Black[ih]
+;
+Comment[W thus fixed his weakness.  B K2 probably cost him the only chance to win.  Worst yet, B hasn't got sente.]
+White[lj]
+;
+Black[gp]
+;
+White[in]
+Comment[W could have skipped this move to play somewhere else, but he doesn't want B to get 2 points here in sente -- not giving up even inches.]
+;
+Black[po]
+;
+White[op]
+;
+Black[or]
+Comment[B Q5 and P2 try hard to get sente.  Now, for example, if W plays Q2 next, B can play another place right away since B O6 group can live.  If W plays O2 next, after B R5 and W R4, B can again skip a move here since B has a way to connect with S7 stones.]
+;
+White[sm]
+Comment[W believes B would have to play T9 here.  After than, whenever B skips a move, W can kill B O6 group.  However B can in fact skip T9 since B has \(after W T8\) P10 and Q11 sente to live right group.  Fortunately for W, this miscalculation will not hurt him.]
+;
+Black[qq]
+Comment[Seems incomprehensible.  Normally should cut at O3, but W O2 would be a good move, and B still doesn't get the sente.  Now R3 is hoping W to play R4, then B O3 would get the sente.]
+;
+White[nr]
+Comment[But W has a strong move in O2.]
+;
+Black[qp]
+;
+White[qo]
+;
+Black[pq]
+;
+White[on]
+;
+Black[oq]
+;
+White[nq]
+;
+Black[iq]
+Comment[To here, B paid about 10 points \(losing Q5 and yielding T7 to W\) at the right to get a corner that is yet clean \(W still has S2\).  More importantly, B is still gote.  So the conclusion \(by Chen 9p\) is that B failed in this fight at lower right quadrant.
+
+\(Editor: This fight from W #93 to B #150 is the most complex and most difficult fight in all Dang Hu Games.  When Chen 9p made the above conclusion, he was not very confident.  "Save for later people to study further," he also said.\)]
+;
+Comment[With this sente, W starts actions toward B's "headquarter" -- B's left moyo.]
+White[ie]
+;
+Black[if]
+;
+White[fj]
+;
+Black[bj]
+;
+White[ci]
+;
+Black[bi]
+;
+White[gi]
+;
+Black[hj]
+;
+Comment[W's long waited move.]
+White[ff]
+;
+Comment[Only move.  B can't play F15.]
+Black[fg]
+;
+Comment[Good move.]
+White[gg]
+;
+Comment[No choice.  If B F15 instead, after \(W first\) G14, G15, E13, F12, G12, E15, and D12, W has two eyes for sure.]
+Black[gf]
+;
+White[fe]
+;
+Black[eg]
+;
+White[gh]
+;
+Comment[B again has no choice.  If B G16 instead, W has G15.  B might eventually get the corner, but his big team \(J14\) would be in danger due to lack of liberties.]
+Black[hd]
+;
+White[gd]
+;
+Black[he]
+;
+Comment[Good timing test.  If B answers with B12, W can either live inside with sente or create numerous ko threats -- thus guarantees the living of W lower left corner -- plus, W T8 would kill B right.]
+White[ch]
+;
+Black[ei]
+;
+Comment[Good move.]
+White[eh]
+;
+Black[fh]
+;
+White[fi]
+;
+Black[cj]
+;
+White[dj]
+;
+Black[dh]
+;
+White[di]
+;
+Comment[W's E12 shortened B's liberties, and B has to play E16 here.]
+Black[ed]
+;
+Comment[W thus easily gets to play G17.]
+White[gc]
+;
+Black[cg]
+;
+White[bh]
+;
+Black[bk]
+;
+Comment[W is now clearly winning.]
+White[hc]
+;
+Black[ee]
+;
+White[ec]
+;
+Black[id]
+;
+White[je]
+;
+Black[kf]
+;
+White[ic]
+;
+Black[bg]
+;
+White[ah]
+;
+Black[dc]
+;
+Comment[If W plays D9 instead, then it's a seki between W D9 group and B J14 group.  Now W T8 kills B right, which has about the same value \(as seki\).]
+White[sl]
+;
+Black[dk]
+;
+White[db]
+;
+Black[cc]
+;
+White[cb]
+;
+Black[bc]
+;
+White[se]
+;
+Black[sc]
+;
+White[ge]
+;
+Black[ag]
+;
+White[ej]
+;
+Black[eh]
+;
+White[bb]
+;
+Black[ab]
+;
+White[kd]
+;
+Black[ai]
+;
+White[bq]
+;
+Black[rp]
+;
+White[lr]
+;
+Black[bn]
+;
+White[mf]
+;
+Black[hh]
+;
+White[kg]
+;
+Black[hg]
+;
+White[hr]
+;
+Black[ir]
+;
+White[el]
+;
+Black[em]
+;
+White[lf]
+;
+Black[cl]
+;
+Comment[White wins by 6.5 zi \(13 points\).]
+White[gr]
+)
+
+(
+;
+EVent[Dang Hu Games: Game 9]
+PlayerBlack[Fan Xi-Ping]
+PlayerWhite[Shi Xiang-Xia]
+DaTe[1739]
+PlaCe[Dang Hu, China]
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[
+Hi everyone!
+
+This is Game 9; one to go! :)
+
+This game is dedicated to *dmitri*, who in real life is my roommate.  He was
+probably the only unbeaten player in IGSWCT'92 (he won a game and dropped
+off :-).  Well, he didn't drop off to keep this "unbeaten record"; rather,
+he was very busy.  He has been working very hard on his violin.  He works
+so hard on violin that I would be ashamed if I don't work hard on Go. :) Of
+course, violin will be his profession, while Go will not be my profession.
+:(
+
+Go is my life.
+
+jzy NR ^_^]
+GameName[]
+REsult[W+9]
+KoMi[-2]
+Comment[Game 9
+
+White: Shi Xiang-Xia
+
+Black: Fan Xi-Ping]
+AddBlack[dp][pd]
+AddWhite[dd][pp]
+;
+White[qf]
+;
+Black[qk]
+;
+White[fq]
+;
+Black[kq]
+;
+White[qm]
+;
+Black[nq]
+;
+White[iq]
+;
+Black[cm]
+;
+White[ck]
+;
+Black[cf]
+;
+White[of]
+;
+Comment[From modern point of view, W P14 to exchange with B N17 is a disadvantageous move territory-wise.  But ancient players liked P14 since now P9 would be a good point for W.]
+Black[mc]
+;
+White[kc]
+;
+Black[ic]
+;
+White[gc]
+;
+Black[qh]
+;
+White[oh]
+;
+Black[rd]
+;
+White[re]
+;
+Comment[Apparently, both sides think that P9 is important.]
+Black[ok]
+;
+Comment[Powerful.  It covers B's corner; at the same time connects with his own stones, thus isolating B J17 stone.  Therefore, looking back, B R12 was questionable.  It should be at N15, and when W P9, B Q11.]
+White[md]
+;
+Comment[No choice.  O16 would be a common method for B, but that would hurt J17 stone even more.]
+Black[nc]
+;
+White[ld]
+;
+Black[qe]
+;
+White[rf]
+;
+Comment[If O15 is skipped, W would have S17 to squeeze B corner, and B J17 stone would be swallowed.  Still O15 is somewhat awkward, although it's B R12's fault.]
+Black[ne]
+;
+White[nd]
+;
+Black[od]
+;
+White[oe]
+;
+Black[nf]
+;
+White[og]
+;
+Black[mg]
+;
+White[rc]
+;
+Black[qc]
+;
+White[sd]
+;
+Black[rb]
+;
+Comment[To here, W is almost alive, and the effect that B cut W has been greatly reduced.]
+White[qd]
+;
+Black[pb]
+;
+White[mh]
+;
+Black[lh]
+;
+White[li]
+;
+Black[mi]
+;
+White[nh]
+;
+Black[lg]
+;
+Comment[The last few W moves are solid and strong, thus W is in the driving seat.]
+White[ki]
+;
+Black[jg]
+;
+White[ib]
+;
+Black[mj]
+;
+White[pj]
+;
+Black[pk]
+;
+White[nj]
+;
+Black[nk]
+;
+Comment[W Q10 first then O10 and N9 are good moves that take care of both offense and defense.  Without O10 and N9, B could play Q15.  Although W S11 would be a good move in this case, B R11 would force W to play S12 and B would become very thick.  But now with O10, when B R11, W could play R10 cut.]
+White[mk]
+;
+Black[lj]
+;
+White[ii]
+;
+Comment[B is hoping W to connect at K11, then W could prevent W L9 with sente.]
+Black[jj]
+;
+Comment[W sees B's plan.  Now if B L13, W J12 and B's escaping path would be narrow.]
+White[kh]
+;
+Black[je]
+;
+Comment[Should play J16 directly.]
+White[ig]
+;
+Black[if]
+;
+White[hg]
+;
+Black[hf]
+;
+Comment[W can't play G13 but has to play J16 to capture B stone.  Painful.]
+White[id]
+;
+Comment[Powerful.  To W, this is J13's fault.]
+Black[gg]
+;
+Comment[Too strong.  Should be at H11 to "wait and see," and W would still be leading.]
+White[gh]
+;
+Comment[Strong move.]
+Black[fh]
+;
+Comment[W is now "on tiger's back"; no way but cut to fight.]
+White[gf]
+;
+Black[fg]
+;
+White[kj]
+;
+Black[lk]
+;
+White[ff]
+;
+Black[gd]
+;
+White[hd]
+;
+Comment[Great move.  Only way to "cover" W.]
+Black[gj]
+;
+White[kg]
+;
+Black[kk]
+;
+White[kf]
+;
+Comment[To here, B determinedly gives up nine stones.  Although that's a 30-point loss, but B manages to relieve a heavy burden, gaining a remarkable outside potential.  Plus B has the sente.  B is now in a much better shape.]
+Black[ef]
+;
+White[fd]
+;
+Comment[Severe.]
+Black[qq]
+;
+Comment[Normally, facing a strong potential that B has now, W Q3 would play R4 \(followed by, B first, Q3, P4, P3, and P6\) to try to live.  But one, this \(R4 etc.\) probably wouldn't fit the ancient style; two, W must not be optimistic about his game, so he decides to risk and cut B apart.]
+White[pq]
+;
+Black[qp]
+;
+White[qr]
+;
+Black[rr]
+;
+White[pr]
+;
+Black[qn]
+;
+White[pn]
+;
+Black[rn]
+;
+White[np]
+;
+Black[mq]
+;
+Comment[W tries to use offense as defense.  Very tough.]
+White[lo]
+;
+Black[ip]
+;
+White[hq]
+;
+Comment[Can B N5 \(instead of K4\) to cut? The variation here is extremely complicated \(Editor: sorry I am skipping these variations again *giggle*\) and the result is not in favor of B.]
+Black[jp]
+;
+White[jn]
+;
+Comment[Again it's not a good time for B to play N5.]
+Black[in]
+;
+White[im]
+;
+Comment[L6 here seems to be a better move for B.  B H6 intends to give the whole W group an attack, but it's not as tight as L6 would be.]
+Black[hn]
+;
+Comment[W finally gets a break.]
+White[lm]
+;
+Comment[Sharp, but a little bit late.]
+Black[mn]
+;
+White[om]
+;
+Black[rm]
+;
+White[mm]
+;
+Black[nn]
+;
+White[nm]
+;
+Black[km]
+;
+White[rq]
+;
+Black[rp]
+;
+Comment[Only way to prevent a B cut after B L7.]
+White[kl]
+;
+Black[jl]
+;
+White[jm]
+;
+Comment[Seems to be a miscalculation by B.  But in fact it's a hard-thought, deep move.  L6 deprives a possible eye at L5 for W, and it also prevents W from skipping a move here to play D2.  However, W now has M2, but that won't deny the fact that a move at L6 first is better than B M8 directly.]
+Black[kn]
+;
+White[ko]
+;
+Black[ll]
+;
+White[ln]
+;
+Black[gm]
+;
+White[hp]
+;
+Black[io]
+;
+White[lr]
+;
+Comment[Absolutely.  If M3, W K3 is good order, and B wouldn't be able to attack bottom W team.]
+Black[kr]
+;
+White[lq]
+;
+Black[ls]
+;
+Comment[Good.]
+White[mr]
+;
+Comment[If B plays O2 instead, W L4 is sente.  Then when B K3, W N1 to get three B stones.  Or, when W L4 cut, B plays N1 instead, then W K3 to cut down B group and kill it.
+
+Now B turn to play E2 to attack W team.  This is probably the last fight for B; that is, if W lives here, B's territory won't be enough.]
+Black[er]
+;
+White[fn]
+;
+Comment[Prevents W D3.]
+Black[ep]
+;
+White[fp]
+;
+Comment[Necessary.  If B E8 directly, W can live.]
+Black[go]
+;
+White[fo]
+;
+Black[el]
+;
+Comment[Seems to be incomprehensible.  Normally W D6, but then B B5 is a good move and W can't escape.  After thoughout study, W C5 is found to be an most extraordinary move.  With this move, W team is out of danger.]
+White[co]
+;
+Comment[B certainly wants to play D6, but after \(W first\) D5, E5, E6, C4, D7 and C6, W has F8.]
+Black[cp]
+;
+White[do]
+;
+Black[bo]
+;
+White[bn]
+;
+Comment[Neither E5 nor C6 here would work for B.]
+Black[bp]
+;
+White[cn]
+;
+Black[bm]
+;
+White[dm]
+;
+Black[dl]
+;
+White[fr]
+;
+Black[eo]
+;
+White[fm]
+;
+Black[fl]
+;
+White[dn]
+;
+Comment[No choice.  If B tries to damage W's eyeshape here, W plays D2 and B later might have to live the corner with a ko -- and W would then have no problem to live by playing this ko.]
+Black[dr]
+;
+Comment[Good move.  Aiming a cut at G8, also prepares a way home.]
+White[il]
+;
+Black[hm]
+;
+White[jq]
+;
+Black[kp]
+;
+Comment[K3 and K2 are the only way to live.]
+White[jr]
+;
+Comment[If B plays G4 instead, W would throw in at L1 to create a ko.  Since W has C8 cut, B has no way to win this ko.]
+Black[fs]
+;
+White[gs]
+;
+Black[hr]
+;
+White[gp]
+;
+Black[gr]
+;
+White[js]
+;
+Black[lp]
+;
+White[nr]
+;
+Black[ks]
+;
+White[es]
+;
+Black[hs]
+;
+White[cl]
+;
+Black[an]
+;
+White[fs]
+;
+Comment[Again B has no choice.  If B tries to kill W here, W has A5 then D1 to kill B's corner.]
+Black[ao]
+;
+White[gn]
+;
+Black[ho]
+;
+White[ir]
+;
+Black[mp]
+;
+White[ik]
+;
+Black[oj]
+;
+White[gk]
+;
+Black[gl]
+;
+White[hi]
+;
+Black[gi]
+;
+Comment[W starts to utilize a few dead stones here to fence the upper left corner.  Thus W's victory is in the bag.]
+White[ch]
+;
+Black[bj]
+;
+White[bf]
+;
+Black[be]
+;
+White[bg]
+;
+Black[ce]
+;
+White[cj]
+;
+Black[bi]
+;
+White[ej]
+;
+Black[hk]
+;
+White[hj]
+;
+Black[fk]
+;
+White[hh]
+;
+Black[ei]
+;
+White[di]
+;
+Black[bh]
+;
+White[cg]
+;
+Black[am]
+;
+White[bc]
+;
+Black[eg]
+;
+White[ee]
+;
+Black[de]
+;
+White[bd]
+;
+Black[ad]
+;
+White[ac]
+;
+Black[ae]
+;
+White[cd]
+;
+Black[jk]
+;
+White[ij]
+;
+Black[oo]
+;
+White[po]
+;
+Black[oq]
+;
+White[or]
+;
+Black[op]
+;
+White[ds]
+;
+Black[br]
+;
+White[pe]
+;
+Black[lb]
+;
+White[kb]
+;
+Black[rs]
+;
+White[cr]
+;
+Black[bs]
+;
+White[eq]
+;
+Black[dq]
+;
+White[cs]
+;
+Black[cq]
+;
+White[ri]
+;
+Black[rh]
+;
+White[qi]
+;
+Black[pi]
+;
+White[sh]
+;
+Black[sg]
+;
+White[si]
+;
+Black[qj]
+;
+White[rg]
+;
+Black[rj]
+;
+White[sf]
+;
+Black[sj]
+;
+White[sg]
+;
+Black[ql]
+;
+White[pm]
+;
+Black[kl]
+;
+White[jo]
+;
+Black[ph]
+;
+White[la]
+;
+Black[ma]
+;
+White[ka]
+;
+Black[mb]
+;
+White[sb]
+;
+Black[ra]
+;
+White[hl]
+;
+Black[gk]
+;
+White[ml]
+;
+Black[ni]
+;
+White[oi]
+Comment[White wins by 4.5 zi \(9 pts\).
+
+Overview: Both sides had questionable moves, but there were quite a few good moves as well.  For example, W #51, #53, and B #74 etc.  Especially W #131!  If I \(Chen 9p, not the editor :-\) can learn just this move, I would be greatly satisfied.]
+)
+
+(
+;
+EVent[Dang Hu Games: Game 10]
+PlayerBlack[Shi Xiang-Xia]
+PlayerWhite[Fan Xi-Ping]
+DaTe[1739]
+PlaCe[Dang Hu, China]
+GaMe[1]
+VieW[]
+SiZe[19]
+Comment[
+Hi, everyone!
+
+Here we go -- the final game of the Dang Hu Games.  This game actually
+appeared in this same newsgroup before, posted by jansteen.  On first look
+they looked like two different games, but a closer look told me that they
+were the same game shown from two different angles.
+
+Thus an idea stroke me; I would like to take this opportunity to post the
+following question: Assume a Go game is highly asymmetric (which is the
+case in almost all played Go games), how many outlooks a single game can
+have?  That is, you can turn the Go board 90 degrees or 270 degrees, for
+example, but you know that is the same game you're looking at.
+
+Of course, the board has to be always upright standing on the screen of
+your terminal; you can not turn the board by, say, 1 degree or 2 -- that
+will be very uninteresting.
+
+Simple, isn't it?  Well, that's what I have in mind.  After playing so
+many hard games, I would like everyone to do some simple exercises like
+this.  But, please, answer it!
+
+So I can laugh at you . :)))))
+
+Okay so I hope everyone to have some fun, and I certainly have not
+forgotten my promise to dedicate every game to a person who has helped me
+to learn and play Go.  This game, Game 10 of Dang Hu Games, is dedicated to
+*eightk*, who is not an 8 kyu. :)
+
+He taught me Go.
+
+jzy 2k ^_^]
+GameName[]
+REsult[B+5]
+KoMi[-2]
+AddBlack[dp][pd]
+AddWhite[dd][pp]
+Comment[Game 10
+
+White: Fan Xi-Ping
+
+Black: Shi Xiang-Xia]
+;
+White[qf]
+;
+Black[qk]
+;
+White[qm]
+;
+Black[cf]
+;
+White[ck]
+;
+Black[kq]
+;
+White[fq]
+;
+Black[cm]
+;
+White[iq]
+;
+Black[nq]
+;
+White[kc]
+;
+Black[ic]
+;
+White[gc]
+;
+Black[mc]
+;
+White[ch]
+Comment[To here, it's a typical ancient openning.]
+;
+Black[ef]
+;
+White[fe]
+;
+Black[ff]
+;
+White[ce]
+Comment[The order of W F15 and C15 doesn't look right; W C15 *then* F15 seems to be the correct order.  Now B can play B15 then D15, and later when B G15, W F16, B J14, and W L17 is isolated.  Had W played C15 first \(without W F15 and B F14 yet\), when B B15 and W B16, B would have to play B14 instead of a possible D15.]
+;
+Black[bf]
+Comment[But B playes B14 here.  In other words, both players didn't think that there is anything wrong with the order of W F15 then C15.  Later, however, they changed their mind and started to adopt the "correct order" of W C15 then F15.]
+;
+White[gf]
+;
+Black[gg]
+;
+Comment[Thin.  H15 would be thick.  Now B has ways to invade W corner.]
+White[hf]
+;
+Black[be]
+;
+White[bd]
+;
+Black[bc]
+;
+White[ad]
+;
+Black[hg]
+;
+Comment[Too strong.  W tries to emphasize F13 cut here, but W has weakness in his own stones.  Fan, playing W, abandoned this move in his later works.]
+White[ig]
+;
+Comment[B counterattacks immediately.]
+Black[if]
+;
+White[jf]
+;
+Black[ie]
+;
+White[ge]
+;
+Black[ed]
+;
+White[ee]
+;
+Comment[B E16 and D14, good.  Not only repair B's holes, but also leave stones at W's corner.]
+Black[df]
+;
+Comment[It seems that W should play E17 to take care of one B stone, but to let B play K15 is unbearable.]
+White[je]
+;
+Black[de]
+;
+Comment[No choice.  W can't give in a bit \(like to play D17\) here since B J14, J15 and J17 three stones are not completely captured.]
+White[cd]
+;
+Black[jd]
+;
+White[kd]
+;
+Black[ec]
+;
+White[db]
+;
+Black[eb]
+;
+White[dc]
+;
+Comment[If B plays D19 now, it would be no good.  Without G18 first, when B D19, W would have G18 later.]
+Black[gb]
+;
+Comment[Only move.  If H16 first, B simply J16.  Then when W H18, B F17 is good.  Thus B would create a ko, and W wouldn't have any ko threats while B has at least one in J12.]
+White[hb]
+;
+Comment[Good timing.  Normally, W will have to get B19 now to live, but in this shape, B would have G16.]
+Black[da]
+;
+Comment[So W has no choice but atari.]
+PLayer[W]
+White[ca]
+;
+Black[hc]
+;
+White[hd]
+;
+Black[fc]
+;
+White[id]
+;
+Comment[Thus B gets a great move in B19 after H17 and F17.  Without D19, this sequence might work too, but the result wouldn't be the best.]
+Black[ba]
+;
+Comment[No choice.  If E19 instead, B can play G16 first, then C18, and W corner is killed.]
+White[cb]
+;
+Black[gd]
+;
+White[he]
+;
+Black[bb]
+;
+White[ea]
+;
+Comment[Key.  If atari at F19, W A18 and it becomes a seki.]
+Black[ac]
+;
+White[fa]
+;
+Black[ae]
+;
+White[ab]
+;
+Black[ib]
+;
+White[fd]
+;
+Black[fb]
+;
+Comment[Mistake.  Should play G17.  Althought B can create a ko no matter W plays G17 or K18, but with W G17, it would be a more difficult ko for B to win \(or an easier ko for W to win\).  Now with K18, W gives the ko advantage to B.  W K18 is a casual move.]
+White[jb]
+;
+Comment[B gets an advantageous ko in hand, so B is clearly successful here.  However, W corner is not completely dead yet, plus B's upper right corner is still thin.  Therefore, it's still too early to judege that B's situation is optimistic.]
+Black[ga]
+;
+Comment[W could also consider R17.  But that way, after exchanges at the corner, W wouldn't be able to take the advantage of W's thickness at the left.  Now W P14, hoping to attack B R9 by threatening B's upper right corner.]
+White[of]
+;
+Comment[B's corner was already thin before W P14, so B should strengthen his corner here, it seems.  B R12 is rather unexpected, showing a great deal of toughness -- also showing his confidence to live the corner.  Indeed, W's invasion into the corner right now wouldn't be effective.]
+Black[qh]
+;
+White[oq]
+;
+Black[np]
+;
+Comment[So W decides to give B R9 and R12 two stones some indirect pressure by strengthening his lower right.  If W can generate plenty of ko threats during the process, he can hope to gain by playing a ko with B at upper left.]
+White[on]
+;
+Black[rd]
+;
+White[re]
+;
+Comment[B S16 was sente, and B is able to play P12.  Thus W loses apparent attacking targets.]
+Black[oh]
+;
+White[rc]
+;
+Black[qc]
+;
+White[sd]
+;
+Black[qd]
+;
+Comment[Since it's hard for W to continue to attack, W G17 is to test B's response.]
+White[gc]
+;
+Black[da]
+;
+White[ea]
+;
+Black[gd]
+;
+White[rb]
+;
+Black[qb]
+;
+White[gc]
+;
+Comment[B H19 would be steady and solid. O15 is to use offense as a defense, quite severe.  However it's very risky since now W can make the upper left a tight ko at anytime, and if B is to lose this ko, eh's lose territory worth nearly 60 points.  Why so risky? Apparently B isn't optimistic about the situation.]
+Black[ne]
+;
+White[nf]
+;
+Black[mf]
+;
+Comment[A cool move to prevent a B cut at Q14.]
+White[pg]
+;
+Black[le]
+;
+White[ph]
+;
+Black[pi]
+;
+White[oi]
+;
+Black[qi]
+;
+White[ni]
+;
+Black[gd]
+;
+White[md]
+;
+Black[ld]
+;
+White[gc]
+;
+Black[mg]
+;
+White[rg]
+;
+Black[ok]
+;
+Comment[Both sides struggle for the ko.  To here, W thinks it's time to make it a tight ko.]
+White[ia]
+;
+Black[ha]
+;
+White[ja]
+;
+Black[gd]
+;
+White[nc]
+;
+Black[nd]
+;
+White[gc]
+;
+Comment[Should look for a ko threat at J14 instead.]
+Black[nh]
+;
+Comment[Great move.  Obviously, W had foreseen this move when he played Q13 \(#91\).]
+White[mh]
+;
+Comment[No choice.  If N11 atari, W can ignore it and finish the ko -- when B R13, W has P15 then R15 to live.]
+Black[ng]
+;
+Comment[W could also consider G16 connect to finish the ko -- although that means to give up the upper right corner, W would gain sente to play G11 key point to attack.]
+White[ra]
+;
+Black[gd]
+;
+White[lh]
+;
+Black[rh]
+;
+White[sg]
+;
+Black[fa]
+;
+White[mb]
+;
+Black[lc]
+;
+White[oc]
+;
+Black[pe]
+;
+White[qg]
+;
+Black[lb]
+;
+White[nb]
+;
+Black[kb]
+;
+White[gc]
+;
+Black[da]
+;
+White[qa]
+;
+Black[pb]
+;
+Comment[To here W damages B's eyeshape with some clever moves.]
+White[pa]
+;
+Comment[Only key point to ensure an eye.]
+Black[lg]
+;
+White[mj]
+;
+Black[kh]
+;
+Comment[W turns to attack B stones at the right.]
+White[nl]
+;
+Black[rm]
+;
+White[rn]
+;
+Black[pm]
+;
+White[pn]
+;
+Black[ql]
+;
+White[qn]
+;
+Comment[To here B lives at the right, and the fight here comes to a pause.  B captures upper left, thus leads in territory.  But W has also gained: 1. Lower right; 2. Weakened three B stones at the bottom; 3. Upper right B team is not completely alive; 4. Upper left W team is not completely dead, providing numerous ko threats.]
+Black[oj]
+;
+White[cn]
+;
+Comment[Not too good.  Normally against this type of "3-6 invasion" \(C6\), B should play C5.]
+Black[dn]
+;
+White[co]
+;
+Black[dm]
+;
+White[do]
+;
+Black[eo]
+;
+White[bm]
+;
+Comment[Seems to be the absolute move, but it's in fact questionable here.  B could try B8 to isolate W C9 and C12 two stones.  That way, who's leading would be unclear.]
+Black[eq]
+;
+White[fp]
+;
+Black[ep]
+;
+Comment[To here, W has greatly strengthened his two stones at the left, while B's corner is almost gone.  W is successful at this corner.]
+White[bo]
+;
+Black[mk]
+;
+Comment[W tries to save five stones.  Wrong decision.  Should play C3 to get the corner and thus deprive the "root" from lower left B team.]
+White[lj]
+;
+Black[ih]
+;
+White[jh]
+;
+Black[ji]
+;
+White[jg]
+;
+Black[nj]
+;
+White[mi]
+;
+Comment[These B moves are tight and strong.]
+Black[kk]
+;
+White[lk]
+;
+Black[ll]
+;
+White[ml]
+;
+Black[kj]
+;
+White[nk]
+;
+Comment[To here, although W manages to save a few stones, B's middle is considerably thickened, thus the lower left weak B team gets a big help.  Moreover, the upper left "store of ko threats" for W has lost its value \(later when B takes D16 stones, W will have to play L15 to make an eye\), and B has P7 to threaten a cut.  B has turned it around to take the lead.]
+Black[kg]
+;
+White[lm]
+;
+Black[kl]
+;
+White[jq]
+;
+Black[om]
+;
+White[nn]
+;
+Black[kp]
+;
+White[jo]
+;
+Comment[Nice.  Make it difficult for W to attack.]
+Black[kn]
+;
+Comment[And W has to strengthen his own group; no choice.]
+White[er]
+;
+Black[dr]
+;
+White[fr]
+;
+Comment[If B plays C4 to live the corner, it would be enough for him.  Now B O7 attempts to "win it faster."]
+Black[nm]
+;
+Comment[If connect at N7 immediately, B has K4 first then N6 cut, and W wouldn't have a good answer to it.]
+White[fn]
+;
+Black[fo]
+;
+White[go]
+;
+Comment[B F5 and G6 are too strong.  Should calmly connect at E6.]
+Black[gn]
+;
+White[fm]
+;
+Black[ho]
+;
+White[gp]
+;
+Black[en]
+;
+Comment[B now has to live inside.  Quite a loss by B.]
+White[el]
+;
+Black[cp]
+;
+White[bp]
+;
+Black[bq]
+;
+Comment[W C2 is to force B to make B A4 and W B8 exchange, thus to strengthen W's outside.]
+White[cr]
+;
+Comment[Extremely good timing.]
+Black[fl]
+;
+Comment[No choice.  If atari at G7, B has B2 to get more liberties at the corner first, then B D9.  At that time, B E7 cut would be severe.]
+White[em]
+;
+Black[ap]
+;
+White[bl]
+;
+Black[ds]
+;
+White[cs]
+;
+Black[bs]
+;
+White[br]
+;
+Comment[Ko to live for B.]
+Black[ar]
+;
+White[as]
+;
+Black[ao]
+;
+White[bn]
+;
+Black[bs]
+;
+White[mm]
+;
+Comment[W N7 saved a few stones, and B has to finish the ko here.]
+Black[cq]
+;
+White[ko]
+;
+Black[lo]
+;
+White[ln]
+;
+Black[jp]
+;
+White[ip]
+;
+Black[mo]
+;
+White[km]
+;
+Black[jn]
+;
+White[io]
+;
+Black[jm]
+;
+White[jl]
+;
+Black[il]
+;
+White[im]
+;
+Black[jk]
+;
+White[in]
+;
+Black[jl]
+;
+White[mn]
+;
+Black[or]
+;
+White[pr]
+;
+Black[nr]
+;
+Comment[W gains at lower left.  B's loss here is due to a couple of too strong moves by him earlier.]
+White[hl]
+;
+Black[hi]
+;
+White[kr]
+;
+Black[lr]
+;
+Comment[W is not careful.  Very likely another casual move by W \(Fan\).  W thinks that this will be a "worry-free" ko for him, but in fact he's short on ko threats.  W should play K2, and when later get the sente, W can play F9.  This way, it would be very close.]
+White[ls]
+;
+Black[jr]
+;
+White[js]
+;
+Black[ks]
+;
+White[ol]
+;
+Black[pl]
+;
+White[kr]
+;
+Black[gd]
+;
+White[jc]
+;
+Black[ks]
+;
+White[sh]
+;
+Black[rj]
+;
+White[kr]
+;
+Black[cc]
+;
+White[ke]
+;
+Black[ks]
+;
+White[pj]
+;
+Black[pk]
+;
+White[kr]
+;
+Black[sf]
+;
+White[se]
+;
+Black[ks]
+;
+Comment[W loses half point here.]
+White[oe]
+;
+Black[od]
+;
+White[kr]
+;
+Black[ps]
+;
+Comment[Here W loses 2 points.]
+White[qr]
+;
+Black[ks]
+;
+White[rl]
+;
+Black[rk]
+;
+White[kr]
+;
+Black[sc]
+;
+White[sb]
+;
+Black[ks]
+;
+Comment[Another 2-point loss by W.]
+White[sj]
+;
+Black[sl]
+;
+White[kr]
+;
+Comment[B decides to give in.  On surface W wins the ko, but the ko is worth only less than a point, while W has lost 4 plus points during the process.]
+Black[ms]
+;
+White[ir]
+;
+Black[lq]
+;
+White[sn]
+;
+Black[sm]
+;
+White[si]
+;
+Black[sk]
+;
+White[ij]
+;
+Black[ii]
+;
+White[fi]
+;
+Black[fj]
+;
+White[gj]
+;
+Black[ek]
+;
+White[gl]
+;
+Black[fk]
+;
+White[dl]
+;
+Black[ei]
+;
+White[gi]
+;
+Black[gk]
+;
+White[hj]
+;
+Black[hk]
+;
+White[ik]
+;
+Black[jj]
+;
+White[ri]
+;
+Black[qj]
+;
+White[dk]
+;
+Black[ej]
+;
+Comment[Ko again.  The result is that W will lose a little bit, and at the end, W will lose the game by 5 points.]
+White[ki]
+;
+Black[li]
+;
+White[mr]
+;
+Black[mq]
+;
+White[ki]
+;
+Black[hh]
+;
+White[fg]
+;
+Black[li]
+;
+White[fh]
+;
+Black[mk]
+;
+White[eh]
+;
+Black[bh]
+;
+White[bi]
+;
+Black[cg]
+;
+White[ci]
+;
+Black[qs]
+;
+White[rs]
+;
+Black[os]
+;
+White[rr]
+;
+Black[op]
+;
+White[pq]
+;
+Black[dh]
+;
+White[di]
+;
+Black[eg]
+;
+White[dg]
+;
+Black[ai]
+;
+White[aj]
+;
+Black[dh]
+;
+White[dj]
+;
+Black[ah]
+;
+White[gc]
+;
+Black[hb]
+;
+White[an]
+;
+Black[ks]
+;
+White[jr]
+;
+Black[es]
+;
+White[fs]
+;
+Black[oo]
+;
+White[po]
+;
+Black[qe]
+;
+White[rf]
+;
+Black[aq]
+;
+Comment[B wins by 2.5 zi \(5 points\).
+
+Overview: In this game, the variations at upper left, upper right, and lower left three corners were interesting and spectacular.  A remarkable fact was that even W seemed to lose at the upper left, from a global point of view, W wasn't exactly lagging.  In other words, Fan and Shi had the ability to control the global situation over local details.  They once again lived up
+with the title of "Great National Hands."]
+White[kf]
+)
+

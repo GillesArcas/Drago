@@ -1,0 +1,257 @@
+(;GM[1]
+FF[4]
+AP[Hibiscus:2.1]
+SZ[19]
+ST[3]
+C[The 14th New Physical Education Cup
+White: Chen Zude, 9-dan
+Black: Nei Weiping, 9-dan
+Played in late 1992.
+Result: White wins by 1/2 point.
+Source: Go World #70, p. 63.
+Recorded by Chris Greene using GoScribe 2.0
+The New Physical Education Cup, China's oldest newspaper title, has been
+discontinued after 14 years, but thanks to the efforts of the Chinese Ki-in,
+a new title has been founded to fill the gap.
+The new title is called the Da Guo Shou Tournament, which means something
+like the National Championship Tournament.
+Da Guo Shou is a traditional term for a great champion and at one time was
+confered on Go Seigen by Taiwan (he refused the more exhaulted term of
+qisheng - kesi in Japanese - which means "go saint" or "go sage").
+The new tournament is a four round knockout in which 32 players nominated by
+the Chinese Ki-in compete.
+The big news of the first tournament was the successful comeback of Qian
+Yuping after an absence of close to two years.
+Qian forfeited the final of the 4th Fujitsu Cup to Cho Chikun in August
+1991; according to the Chinese side, he was suffering from headaches. 
+]
+;B[qc]
+;W[dd]
+;B[qq]
+;W[dq]
+;B[cn]
+C[Black 5. 
+]
+LB[qc:1][dd:2][qq:3][dq:4];W[fp]
+;B[ck]
+;W[jc]
+;B[cf]
+C[Black 9. 
+]
+LB[cn:5][fp:6][ck:7][jc:8];W[fd]
+;B[cc]
+;W[cd]
+;B[bd]
+;W[dc]
+;B[bb]
+;W[cb]
+;B[bc]
+;W[qj]
+C[White 18. 
+]
+LB[cf:9][fd:10][cc:11][cd:12][bd:13][dc:14][bb:15][cb:16][bc:17];B[ql]
+;W[pf]
+;B[nc]
+C[Black 21. 
+]
+LB[qj:18][ql:19][pf:20];W[qd]
+;B[pd]
+;W[qe]
+;B[rc]
+;W[pp]
+C[White 26. 
+]
+LB[nc:21][qd:22][pd:23][qe:24][rc:25];B[qp]
+;W[qm]
+C[Chen is known for his originality and his dislike of sticking in the
+professional rut.
+Here he puts his own flavor on the game very quickly with the unconventional
+combination of 26 and 28.
+He succeeds in cutting off a group to chase. 
+]
+LB[pp:26][qp:27];B[pm]
+;W[qo]
+;B[qn]
+;W[pn]
+;B[rm]
+;W[ro]
+;B[pq]
+;W[no]
+;B[nq]
+;W[nm]
+C[White 38. 
+]
+LB[qm:28][qm:28][pm:29][qo:30][qn:31][pn:32][rm:33][ro:34][pq:35][no:36][nq:37];B[nl]
+;W[mm]
+;B[lq]
+;W[ml]
+;B[oj]
+C[Black 43. 
+]
+LB[nm:38][nl:39][mm:40][lq:41][ml:42];W[qh]
+;B[rk]
+;W[mj]
+;B[oh]
+;W[nf]
+;B[om]
+C[A very interesting fight follows Black 49. 
+]
+LB[oj:43][qh:44][rk:45][mj:46][oh:47][nf:48];W[np]
+;B[mh]
+;W[od]
+;B[oc]
+;W[ni]
+;B[oi]
+C[Black 55. 
+]
+LB[om:49][np:50][mh:51][od:52][oc:53][ni:54];W[nh]
+;B[ng]
+;W[og]
+;B[mg]
+;W[nk]
+;B[ok]
+;W[ol]
+;B[op]
+C[Black 63. 
+]
+LB[oi:55][nh:56][ng:57][og:58][mg:59][nk:60][ok:61][ol:62];W[po]
+;B[pg]
+C[Black 65. 
+]
+LB[op:63][po:64];W[of]
+;B[qg]
+;W[ph]
+;B[rg]
+;W[rh]
+;B[sf]
+;W[pk]
+C[White 72. 
+]
+LB[pg:65][of:66][qg:67][ph:68][rg:69][rh:70][sf:71];B[pl]
+;W[nj]
+;B[nl]
+C[Black 75 takes ko. 
+]
+LB[pk:72][pl:73][nj:74];W[rf]
+;B[se]
+;W[ol]
+C[White 78 takes ko. 
+]
+LB[nl:75][rf:76][se:77][nl:75];B[gd]
+;W[ge]
+;B[nl]
+C[Black 81 takes ko. 
+]
+LB[ol:78][gd:79][ge:80][ol:78];W[sh]
+;B[sg]
+;W[ol]
+C[White 84 takes ko. 
+]
+LB[nl:81][sh:82][sg:83][nl:81];B[hd]
+;W[nl]
+C[White 86 connects
+and ends the ko.
+We can only assume
+that the trade in
+the ko fight is more
+or less even. 
+]
+LB[ol:84][hd:85];B[he]
+;W[gf]
+;B[je]
+;W[rn]
+C[White 90. 
+]
+LB[nl:86][he:87][gf:88][je:89];B[mf]
+;W[gb]
+;B[hb]
+;W[jq]
+;B[ne]
+;W[cp]
+C[White 96. 
+]
+LB[rn:90][mf:91][gb:92][hb:93][jq:94][ne:95];B[ef]
+;W[gc]
+;B[hc]
+;W[ee]
+;B[fg]
+;W[ha]
+;B[ia]
+;W[ga]
+;B[ib]
+;W[db]
+C[White 106. 
+]
+LB[cp:96][ef:97][gc:98][hc:99][ee:100][fg:101][ha:102][ia:103][ga:104][ib:105];B[bo]
+;W[dj]
+;B[cj]
+;W[di]
+;B[el]
+;W[fj]
+;B[gp]
+C[Black 113. 
+]
+LB[db:106][bo:107][dj:108][cj:109][di:110][el:111][fj:112];W[fo]
+;B[ip]
+;W[jp]
+;B[hn]
+;W[gm]
+;B[jo]
+;W[lp]
+;B[iq]
+;W[kp]
+;B[fq]
+;W[eq]
+;B[gr]
+;W[fr]
+;B[gq]
+;W[dm]
+C[White 128. 
+]
+LB[gp:113][fo:114][ip:115][jp:116][hn:117][gm:118][jo:119][lp:120][iq:121][kp:122][fq:123][eq:124][gr:125][fr:126][gq:127];B[ci]
+;W[dl]
+;B[dk]
+;W[ek]
+;B[cl]
+;W[ce]
+;B[be]
+;W[df]
+;B[cg]
+;W[hm]
+C[White 138. 
+]
+LB[dm:128][ci:129][dl:130][dk:131][ek:132][cl:133][ce:134][be:135][df:136][cg:137];B[er]
+;W[dr]
+;B[pe]
+;W[oe]
+;B[pc]
+;W[qf]
+;B[rd]
+;W[pi]
+;B[nd]
+;W[pj]
+C[White 148. 
+]
+LB[hm:138][er:139][dr:140][pe:141][oe:142][pc:143][qf:144][rd:145][pi:146][nd:147];B[fs]
+;W[in]
+C[The game turns into
+an ordinary endgame,
+so we have omitted
+the remaining moves.
+Moves 151 to 248
+omitted.
+The result is a 1/2
+point win for Chen.
+This game certainly
+shows that Chen,
+approaching his 50th
+birthday, is still a
+formidable
+competitor.
+Unfortunately, we
+don't have any
+information on how
+he's doing in other
+tournaments. 
+]
+LB[pj:148][fs:149])

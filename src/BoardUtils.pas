@@ -270,7 +270,7 @@ end;
 // -- Definition of handicap stones ------------------------------------------
 
 const
-  haStones_v1 : array[1 .. 19] of string =
+  haStones : array[1 .. 19] of string =
   ('',                                      //  1
    '',                                      //  2
    '',                                      //  3
@@ -291,7 +291,7 @@ const
    '[do][od][dd][oo]',                      // 18
    '[dp][pd][dd][pp][dj][pj][jp][jd][jj]'); // 19
 
-  haStones : array[1 .. 19] of string =
+  haStones_v2 : array[1 .. 19] of string =
   ('',                                      //  1
    '',                                      //  2
    '',                                      //  3

@@ -1,0 +1,1363 @@
+(
+;
+GaMe[1]
+PLayer[B]
+PlayerBlack[Go Seigen]
+BlackRank[9 dan]
+PlayerWhite[Kaku Takagawa]
+WhiteRank[8 dan]
+PlaCe[Atami, Japan]
+DaTe[20-21 February, 1957]
+Comment[Go Seigen (Wu) vs. Takagawa
+
+(The 1st Japan's Strongest Deciding Matches)
+
+Black: Go Seigen (Wu), 9d
+
+White: Honinbo Shukaku (Takagawa), 8d
+
+Date:  February 20-21, 1957
+
+Place: Atami]
+EVent[1st Japan's Strongest Deciding Match]
+KoMi[0]
+REsult[B+resign]
+;
+Black[qd]
+Comment[(* This game between Go Seigen 9-dan and Takagawa Honinbo is the first one since their 1956 10-game series. *)]
+;
+White[dp]
+Comment[(* This game was played in a hotel in Atami on February 20 and 21, 1957.  On this day, Sakata Eio 9-dan and Hashimoto Utaro 9-dan's game was also played here.  Kitani [Minoru\] 9-dan and Fujisawa [Hosai\] 9-dan also came to watch the games.   All six participants of the Strongest Deciding Matches gathered at the same place -- indeed a rare opportunity. *)]
+;
+Black[cd]
+Comment[(* In this game, Go Seigen 9-dan defied the traditional way of playing the so-called "great avalanche" joseki, making a revolutionary new variation that shocked Japan's Go world. *)
+
+(* Generally speaking, new variations in josekis are made due to the following two reasons:
+
+(* First, based on the surrounding situation, any known joseki moves is not satisfactory.  Therefore, to fit the current situation, one decides to make a change, thus a new move.
+
+(* Second, contrary to the above case, one has fully studied a new move 
+already, and he attempts to apply it in practice on purpose; or, in a game under appropriate situation, he suddenly realizes it's time to make this new move.
+
+(* In the first case, a new move is made by chance under a special situation, therefore its application is quite limited.
+
+(* Only the new moves made in the second case are purely new moves. The new variation Go Seigen 9-dan made has a fundamentally difference in the order of moves with the way everyone had been playing in the most popular "great avalanche" joseki.  Strictly speaking, it's a "revolutionary 
+joseki." This joseki is extremely valuable for study, and it will be widely used hereafter. *)]
+;
+White[pp]
+Comment[Playing at hoshi points [stars\] is what Mr. Takagawa likes. In the creation of New Fuseki Era, Mr. Kitani and I had studied san-ren-sei fuseki, and we often played at hoshi points.  Recently Mr. Takagawa often chooses these openings.]
+;
+Black[oc]
+Comment[B #5 to enclose at [a\] is also a beautiful move.]
+;
+White[ed]
+Comment[W #6 also can approach from a lower position, point [a\].
+
+W played hoshi points at the two corners at the lower side, so he tries to get a high position at the top side as well.  To here, it's an opening also commonly seen if the colors are reversed -- That is, if B gets two hoshi points at the lower side, and W plays two komoku [3-4 points\] at the upper side, B would then play [E16\].]
+Letters[ec]
+;
+Black[ec]
+Comment[With #7, Black is expecting that W will choose the "avalanche" joseki.
+]
+(
+;
+White[dd]
+;
+Black[dc]
+;
+White[ce]
+(
+;
+Black[fc]
+;
+White[pj]
+Comment[W #12 is the biggest point on the board.
+
+This move to play [a\] at the lower side to form san-ren-sei is also a pretty strong formation, but W #12 also prevents B from extending from the komoku shimari [corner enclosure\] at the upper right.  Therefore, #12 is the biggest point.]
+Letters[jp]
+;
+Black[nq]
+Letters[jq]
+Comment[In the past, B #13 had been normally played at [a\] to split the side, but nowadays it's more often played as shown to approach the corner.
+
+B[a\] to split the corner shows an unhurried manner, while B #13 kakari tends to settle a local shape quickly.  This [B #13\] implies the severity of modern fuseki.
+]
+(
+;
+White[pn]
+Comment[The choice of Q6 is an important diverging point in the fuseki. Other valid choices are 'a' and 'b'.]
+Letters[jp][lq]
+;
+Black[pr]
+Letters[jq][qq][kq]
+;
+White[lq]
+Comment[In this game, W's strategy is to form moyo in the center, so White decides to prevent Black's extension to 'a']
+Letters[kq]
+;
+Black[qq]
+Comment[Black must therefore take R3 to establish a base.]
+;
+White[oq]
+(
+;
+Black[or]
+;
+White[np]
+(
+;
+Black[ro]
+;
+White[rn]
+Letters[nr][qm]
+Comment[If White instead plays the cut at 'a', Black "flies" out with 'b' [An interesting note: in Chinese Go terminology, the character or word for "keima" is "flying."\], and B is better]
+;
+Black[qo]
+;
+White[qn]
+;
+Black[mp]
+Comment[If Black simply connects at 'a' giving White N4, White's centre influence is too huge. Black N4 places a burr under White's saddle.]
+Letters[nr]
+;
+White[mq]
+;
+Black[nr]
+;
+White[mo]
+Comment[Now Black is caught in a ladder but White must eventually spend one more move to finish it. Gaining this aji behind is an important asset for Black and the reason why he didn't simply play O2 instead of N4.]
+(
+;
+Black[dj]
+Comment[Black D10 breaks the ladder and claims a big point.]
+;
+White[lp]
+Comment[Capture when your opponent plays a ladder block.]
+(
+;
+Black[dn]
+(
+;
+White[fd]
+Marked[dj][dn]
+Comment[When there are the two marked B stones, this White move is normally considered too strong.  The reason W plays so is because he has spent two moves to capture [N4\] stone, so W is now trying to utilize this thickness.
+
+Since W has invested for thickness, he now will have to make most out of this investment so that he will have the advantage in future battles.  This is certainly expected.]
+;
+Black[gd]
+Comment[B #33 absolutely cannot give in to play [a\] ([G17\]).  B #33 hane is called "great avalanche" joseki.]
+Letters[gc]
+;
+White[cc]
+;
+Black[bd]
+;
+White[cb]
+Comment[So far, these moves follow the joseki known at that time (1957)]
+(
+;
+Black[bc]
+Comment[(* #37 this new move shocked the Go world.
+
+Wu Qing Yuan:
+
+"Since the normal [traditional\] way doesn't seem ideal, I thought of #37 to bend inward.  This was a move that I had studied before.  Even without [D10\] stone [marked\], this [#37\] would be a powerful move.
+
+"'Great avalanche' joseki had been used since 20 years ago [20 years before 1957\].  Why had professional players never found this move [#37 bending inward\]?  I think the reason was that the shape of this move didn't look good, thus it was overlooked, becoming a blind spot."
+]
+Marked[dj]
+(
+;
+White[bb]
+;
+Black[be]
+;
+White[gc]
+;
+Black[hc]
+Comment[In the traditional joseki (see previous variation), Black had to accept the loss of the three stones. But with the new B17 B18 exchange, Black wins the semeai.
+]
+;
+White[gb]
+;
+Black[fb]
+;
+White[hb]
+;
+Black[db]
+Comment[B #45 blocks, and the three W stones at the corner are captured.
+
+Next, even if W[a\], B[b\] and B wins the semeai by one liberty.
+
+(* Two days after Go Seigen 9-dan played this new variation, Sakata Eio 9-dan immediately applied this move (B17) in NHK sponsored lightning games, even astonishing his opponent Shimamura 8-dan.
+
+(* Hasegawa 8-dan published an article, "My Study Notes", on "Igo" magazine (1957.5).  In the article, he studied the new move.
+
+(* Maeda Nobuaki 9-dan carefully explained the development of "great avalanche" joseki in an article "The Changes in a Joseki." In the article, he especially mentioned the new move by Go Seigen. *)
+
+(* Would this joseki [after the change\] be widely used afterwards?  If "great avalanche" joseki thereafter disappeared in the games, then it would mean that people had the conclusion: #37 was indeed a great move [for B\], and it led good results for B. If a variation is only favorable to one side, then it cannot be joseki, and it would certainly disappear in the games. *)]
+Letters[ab][ca]
+;
+White[ea]
+Letters[ic]
+Comment[W #46 to play [a\] ([J17\]) hane directly is better.]
+;
+Black[da]
+Comment[After W #46 and B #47 exchange, W[a\] is no longer sente. i.e. if White plays 'a' without E19-D19 exchange, Black must respond or White will capture the marked Black stones.]
+Letters[cf]
+Marked[bc][bd][be][cd]
+;
+White[ic]
+;
+Black[ge]
+Comment[Now White probably feels unhappy about removing C14 sente.]
+;
+White[ef]
+Comment[The "vital point of three stones" as in the proverb.]
+;
+Black[cf]
+Letters[fg]
+Comment[B #51 was also considered to play at [a\] to block W inside, 
+but W #51 would live locally and even if B builds up thickness around 
+this area, it would not be of much use, since W has thickness at lower 
+right to balance out any B's thickness here.]
+;
+White[ff]
+Letters[eh][ee][df][fg]
+Comment[W #52 is the only move.
+
+If W[a\] jump instead, B[b\] and three W stones are captured; or if 
+W[c\] for #52, this time B[d\] would force W in trouble.
+
+How should B play the next move, #53?
+]
+(
+;
+Black[gi]
+Marked[ge][gd][hc]
+Comment[B chooses an ogeima [large knight's move\] for #53.
+
+B #53's plan is to treat [marked\] three stones lightly -- sacrifice if necessary -- and emphasize on reducing W thickness at lower right.
+]
+(
+;
+White[fh]
+;
+Black[fi]
+Comment[This exchange is painful, but as the previous variation demonstrated, White had no choice.]
+;
+White[hg]
+(
+;
+Black[lc]
+Marked[ge][gd][hc]
+Comment[Locally speaking, B loses by sacrificing three stones, and it's also unfavorable to let W settle, but what B gets in return is the simplification of the situation.]
+;
+White[ie]
+Comment[When W #58 captures three B stones, sente now belongs to B. 
+I think if B can get sente to occupy the big point at lower side, 
+B is not dissatisfied.
+]
+(
+;
+Black[ep]
+Comment[Hence B #59 attaches on W stone from outside, starting to 
+reduce W moyo.
+]
+(
+;
+White[eq]
+Comment[White must strive to keep Black from pushing him down.]
+(
+;
+Black[dq]
+(
+;
+White[cp]
+(
+;
+Black[cq]
+Comment[The shape of a takamoku [5-4 point\] joseki unexpectedly appears (see variation diagram).]
+;
+White[bq]
+;
+Black[br]
+;
+White[bp]
+Comment[(* This game was played quite fast, especially by Go Seigen 
+9-dan.  A new move like #37 took him only 17 minutes. *)]
+;
+Black[er]
+;
+White[fq]
+;
+Black[fr]
+(
+;
+White[eo]
+Comment[Normal joseki is G3, but this gives White a bad result (see variation).]
+(
+;
+Black[hq]
+Comment[Black can pull out the E4 stone, but this can create a problem (see variation). Therefore, Black chooses the keima.]
+;
+White[cm]
+Comment[W #72 normally plays W[a\] to eat one B stone.  But in this case, 
+B would certainly play [b\] to fence the territory at left side.  Playing 
+this way W[a\] would be weak and conservative.]
+Letters[fp][bn]
+;
+Black[fp]
+Comment[So Black gets F4 after all.
+
+B #73 to play at [a\] ([R12\]) is also very big.  Next if W #73 [F4\] to take one B stone, B[b\] to expand the upper right corner. However, currently the connection among B stones on the left side is not solid -- for example, W[c\] would weaken the three B stones in the center -- So B #73 chooses to get the two W stones.]
+Letters[qh][oi][cg]
+;
+White[qf]
+Comment[W #74 is the last big point on the board.]
+(
+;
+Black[jd]
+(
+;
+White[je]
+Comment[White cannot timidly connect (see variation). White must either press at K15  as shown or exchange 'a' (L16) for 'b' (L17) and then take K15.]
+Letters[kd][kc]
+;
+Black[ke]
+;
+White[kd]
+Comment[W #76 [K15\] and #78 are tesuji to gain sente.]
+;
+Black[ld]
+;
+White[rd]
+Comment[After he obtained sente, W #80...]
+;
+Black[rc]
+;
+White[pd]
+Comment[...And #82.  These two moves are to strengthen the formation 
+of the two [marked\] stones.]
+Marked[qf][pj]
+(
+;
+Black[qe]
+Comment[B absolutely cannot play the way shown in the variation.  B #83 extends to resist]
+;
+White[pe]
+;
+Black[qc]
+Comment[After W #84 [Q15\] and B #85, W now has a cutting point [Q14\]. 
+Next if B[a\]-W[b\], B could capture one stone in sente.
+
+Next move (W #86) is the key move to decide the game.]
+(
+;
+White[pf]
+Comment[W #86 simply connects.  This move is too simple and somewhat 
+tasteless.]
+;
+Black[id]
+;
+White[hd]
+;
+Black[kc]
+;
+White[pc]
+Comment[W tenukis and pushes through here...]
+;
+Black[pb]
+;
+White[re]
+Comment[And #92 saves one stone.  W plays this way because [first\] B [S15\] would be a sente move and W would suffer a 7-point loss, and [secondly\] now W has [a\] ([P18\]) cut.
+
+If W #92 jumps at [b\], B would play #92 to capture one stone.]
+Letters[ob][jg]
+;
+Black[he]
+Comment[But, after B #93...]
+;
+White[hc]
+;
+Black[if]
+;
+White[jf]
+;
+Black[ig]
+Comment[W's moyo is gone. Thus the game is decided.]
+;
+White[hf]
+;
+Black[jg]
+;
+White[kf]
+;
+Black[lg]
+Comment[B #101 to W #108 sequence is a certainty.]
+;
+White[jc]
+;
+Black[kd]
+;
+White[lf]
+;
+Black[mf]
+Comment[If B builds up thickness here, W moyo to the right would only have a limited development.]
+;
+White[gf]
+;
+Black[kg]
+;
+White[fe]
+;
+Black[nb]
+Comment[After blocking W in sente, B #109 to defend a move [against 
+W[a\] cut\].
+
+W played a move [S15; marked\] at the right side to save a stone 
+and gained 7 points.  By comparison, B built up thickness in the center. 
+Judging from this result, W didn't really gain much.]
+Letters[ob]
+Marked[re]
+;
+White[mg]
+Comment[Now W has no other choice but to cut and start a fight.]
+;
+Black[mh]
+;
+White[ng]
+;
+Black[nh]
+Comment[B #111 [N12\] and #113 to sacrifice a stone [N14\]...]
+;
+White[og]
+;
+Black[nj]
+Comment[Then #115 jumps.  This way, not only W moyo to the right is suddenly gone, B more or less could probably gain some territory at the center.  To here, B's lead is obvious.]
+(
+;
+White[ii]
+Comment[White is better off with the M11 variation.]
+;
+Black[ki]
+;
+White[ik]
+;
+Black[kk]
+;
+White[fo]
+;
+Black[gp]
+;
+White[dm]
+Comment[W #122 is a good point, eliminating the B[a\] cut.
+]
+;
+Black[hl]
+;
+White[il]
+;
+Black[hn]
+Comment[B #123 [H8\] and #125 on one hand attack W team at the middle, 
+aiming at B[a\] on the other hand.]
+Letters[en]
+;
+White[fl]
+Comment[W #126 has to defend.]
+;
+Black[hj]
+;
+White[ij]
+;
+Black[gl]
+Comment[But after B #129, B[a\] is good again.]
+Letters[en]
+(
+;
+White[oi]
+Comment[W #130 prevents a B tesuji (see variation).]
+;
+Black[nl]
+;
+White[ok]
+;
+Black[nk]
+;
+White[bj]
+;
+Black[sd]
+;
+White[rf]
+;
+Black[ol]
+;
+White[pl]
+;
+Black[en]
+Comment[B #139 to extend out is a move aimed at early on.]
+;
+White[go]
+;
+Black[fm]
+Comment[If B #141 plays at [H5\], W would play #141 and B stones [D6\]-[E6\] are captured.]
+;
+White[ho]
+;
+Black[im]
+;
+White[kl]
+Comment[W #144 connects at [a\] ([H12\]) would be safe, but W sees that 
+the situation is so bad that he has to gamble for the last chance.]
+Letters[hh]
+;
+Black[jl]
+;
+White[jk]
+;
+Black[jm]
+Comment[B #145 [K8\] and #147 look risky, but in fact this is already 
+carefully calculated.]
+;
+White[kj]
+Comment[Again, if #148 plays at [a\] ([H12\]) to connect would be safe, 
+but W's hope is gone fast...]
+;
+Black[lk]
+;
+White[lj]
+Comment[When W played #150, he was ready to resign.]
+;
+Black[ih]
+Comment[(* B #151, and W's team at middle is completely captured. 
+*)
+]
+(
+;
+White[tt]
+Comment[Black wins by resignation.
+Total of 151 moves.
+Time given: 10 hours apiece
+Time consumed:
+White: 6 hours 45 minutes
+Black: 4 hours 25 minutes
+]
+)
+(
+;
+White[mk]
+Comment[Even if W continues to struggle...]
+;
+Black[ll]
+;
+White[ml]
+;
+Black[lm]
+;
+White[mj]
+;
+Black[mm]
+;
+White[ni]
+;
+Black[mi]
+;
+White[nm]
+;
+Black[om]
+;
+White[nn]
+;
+Black[li]
+Comment[To here, W is one liberty short in the semeai.
+
+Or if W starts with W[a\], after B[b\], W is still short on liberties.
+
+All these variations were already clear to both players when B played [K8\]-[K7\], needless to say.]
+Letters[hh][hi]
+)
+)
+(
+;
+AddBlack[pi]
+PLayer[W]
+Comment[Without W [P11\], B can play [Q11\].]
+Marked[pi]
+;
+White[oi]
+;
+Black[oj]
+;
+White[qi]
+;
+Black[pk]
+;
+White[qj]
+;
+Black[ol]
+Comment[To here, W's territory is further reduced.]
+)
+)
+(
+;
+White[li]
+Comment[W [M11\] to peep first...]
+;
+Black[lh]
+;
+White[ji]
+;
+Black[ii]
+;
+White[ij]
+;
+Black[ih]
+;
+White[hj]
+;
+Black[gh]
+;
+White[lk]
+Comment[This variation is better for W than actually played.  However, this much of difference is too small to shake up the overall situation.
+
+Now W only has a territory at the right side, and that's not nearly enough to compete with B's four corners.  W's thickness after capturing a stone at lower right [N4\] was never fully taken advantage of.
+]
+)
+)
+(
+;
+White[pc]
+Comment[If W pushes through, the variations are complicated and difficult.]
+(
+;
+Black[pb]
+Comment[If B blocks...]
+;
+White[ob]
+Comment[W cuts and...]
+;
+Black[nb]
+;
+White[re]
+Comment[[S15\] would save [S16\] in sente.]
+;
+Black[oa]
+;
+White[of]
+Comment[Then W [P14\] a "hanging connection" is good -- better than a W[a\] connection.  This variation has a roughly 7-point difference with B [S15\] and W [14\] exchange.]
+Letters[pf]
+)
+(
+;
+Black[pf]
+Comment[If B cuts...]
+;
+White[of]
+;
+Black[pg]
+;
+White[ob]
+;
+Black[oe]
+;
+White[od]
+;
+Black[ne]
+;
+White[nd]
+;
+Black[me]
+;
+White[qb]
+;
+Black[qg]
+Comment[To here, an exchange between W and B.
+
+Although it is hard to say this result is good for W, there remain other variations.  Anyway, if W rushes a move at [Q17\], it would certainly lead a complicated situation.]
+)
+)
+)
+(
+;
+Black[qc]
+Comment[If instead Black connects...]
+;
+White[qe]
+Comment[W pushes.  W will have W[a\] sente move, and W shape is thick here.]
+Letters[od]
+)
+)
+(
+;
+White[id]
+Comment[If W connects...]
+;
+Black[ph]
+(
+;
+White[qh]
+;
+Black[pg]
+;
+White[qg]
+;
+Black[pi]
+;
+White[qi]
+;
+Black[oj]
+;
+White[ok]
+;
+Black[pk]
+;
+White[qj]
+;
+Black[nk]
+;
+White[ol]
+;
+Black[ni]
+Comment[To here, since B already got four corners, if W can only fence a territory to this small extent, W cannot compete with B on territory.]
+)
+(
+;
+White[of]
+Comment[More agressive...]
+;
+Black[nh]
+;
+White[nj]
+;
+Black[lh]
+Comment[B jumps out.  With this picture in mind, the original peep move of [K16\] seems to be useful as well. So based on this reading, Black made the peep.]
+)
+)
+)
+(
+;
+Black[of]
+Comment[Suppose B big jumps to here...]
+;
+White[pe]
+;
+Black[oe]
+;
+White[pd]
+;
+Black[pc]
+;
+White[qc]
+;
+Black[rc]
+;
+White[qb]
+;
+Black[rd]
+;
+White[od]
+;
+Black[nd]
+;
+White[qg]
+;
+Black[nc]
+;
+White[rb]
+;
+Black[sb]
+;
+White[qe]
+;
+Black[pb]
+;
+White[re]
+;
+Black[qa]
+;
+White[oh]
+Comment[To here, although B built up thickness to the left [O16 etc.\], 
+but it's almost useless, while W got quite a bit of territory.]
+)
+(
+;
+Black[oe]
+Comment[If Black jumps here...]
+;
+White[of]
+;
+Black[nf]
+;
+White[og]
+Comment[Black is helping White.]
+)
+)
+(
+;
+Black[fp]
+Comment[If B extends...]
+;
+White[gq]
+;
+Black[gp]
+;
+White[hq]
+;
+Black[hp]
+;
+White[iq]
+Comment[The moves to here are obligatory given Black F4.]
+;
+Black[do]
+;
+White[cm]
+;
+Black[cn]
+;
+White[bn]
+;
+Black[bm]
+;
+White[bl]
+;
+Black[bo]
+;
+White[am]
+;
+Black[ao]
+Comment[To B [A5\]; although B can thus capture four W stones...]
+;
+White[ci]
+Comment[But W [C11\] takes out B's territory on the left side.]
+;
+Black[tt]
+Comment[If the play moves elsewhere, later on...]
+;
+White[dm]
+Comment[White exploits E6 to press Black]
+;
+Black[en]
+;
+White[em]
+;
+Black[fn]
+;
+White[fm]
+Marked[dj][fi][gi]
+Comment[And all of a sudden the three Black stones are in trouble.]
+)
+)
+(
+;
+White[gq]
+Comment[If White continues joseki with G3...]
+;
+Black[eo]
+;
+White[cm]
+Comment[According to the joseki, W[a\]-B[b\] exchange *then* [C7\] jump.  But here, W to jump directly is better.]
+;
+Black[cn]
+;
+White[bn]
+;
+Black[bo]
+;
+White[co]
+;
+Black[bl]
+;
+White[ao]
+;
+Black[cl]
+Comment[To here, B gets one W stone.]
+;
+White[aq]
+Marked[fi][gi]
+Comment[And since B has [marked\] two stones [F11-G11\], B doesn't 
+have to eat this stone now...]
+;
+Black[gr]
+;
+White[hq]
+;
+Black[hr]
+;
+White[iq]
+Comment[Now Black has sente]
+;
+Black[qh]
+Comment[And Black gets the big point at R12.  So this variation is no good for white.]
+)
+)
+(
+;
+AddEmpty[cp][dq][dp][dn][eq]
+PLayer[W]
+Marked[ep]
+Comment[[E4\] point is a takamoku.]
+;
+White[cp]
+;
+Black[dn]
+;
+White[eq]
+;
+Black[dq]
+;
+White[dp]
+;
+Black[cq]
+Comment[To here, it's a takamoku joseki, and the shape is exactly the same as in the game, but the order of the moves is different.]
+)
+)
+(
+;
+White[cq]
+Comment[If White is more agressive...]
+;
+Black[dr]
+;
+White[eo]
+;
+Black[fp]
+;
+White[do]
+;
+Black[cr]
+Comment[Black bends and White's corner is gone.]
+)
+)
+(
+;
+Black[fp]
+Comment[Suppose B extends instead of the cross cut...]
+;
+White[do]
+;
+Black[en]
+;
+White[fq]
+Comment[To here, B shape leaves some cutting points, not so good.]
+)
+)
+(
+;
+White[dq]
+Comment[If White draws back...]
+;
+Black[do]
+;
+White[eq]
+;
+Black[fp]
+;
+White[fq]
+;
+Black[gp]
+Comment[W moyo would be pressed to a low position, and the thickness to the right loses its power.  This is an ideal picture for B.]
+)
+)
+(
+;
+Black[fp]
+Comment[If B chooses a double high kakari...]
+;
+White[eo]
+;
+Black[cq]
+;
+White[dq]
+;
+Black[cp]
+;
+White[en]
+;
+Black[dm]
+;
+White[em]
+Comment[To here, W forms a wide moyo.  This way, it would become a 
+complicated and difficult game.]
+)
+)
+(
+;
+Black[ie]
+Comment[If instead Black tries to escape,]
+;
+White[lc]
+;
+Black[ke]
+;
+White[ih]
+;
+Black[md]
+;
+White[ij]
+Comment[This picture can be expected.  As soon as W gets [J12\] and [J10\], the W moyo at the bottom starts to expand.  B has to take this into account.
+]
+)
+)
+(
+;
+White[hg]
+Comment[If W [H13\] keima...]
+;
+Black[ie]
+;
+White[lc]
+Comment[When W answers this way...]
+;
+Black[gf]
+;
+White[gg]
+;
+Black[fg]
+Comment[B severely cuts.  W is in danger.
+]
+)
+)
+(
+;
+Black[ie]
+Comment[This jump is also a strong move, and locally speaking, it is appropriate.  But under the current circumstances, this move is worth deeper consideration.]
+;
+White[fh]
+Comment[W cannot extend to [a\] ([M17\]).  If W[a\], B[b\] and W would be in trouble.  So W certainly would play [F12\] or [b\] to escape.]
+;
+Black[kd]
+;
+White[kb]
+Comment[The formation to here is expected.  Since W already has a stone on the right side [Q10\] [marked\], so even if B [J15\]-[L16\] two moves form some moyo, it wouldn't have much effect.  This way, B cannot be satisfied.
+]
+)
+)
+(
+;
+White[gc]
+Comment[Now if White cuts, Black's atari at 'a' works.]
+Letters[hc]
+;
+Black[hc]
+;
+White[gb]
+;
+Black[db]
+;
+White[ic]
+;
+Black[ge]
+Letters[hb][ef]
+Comment['a' and 'b' are now miai.]
+)
+)
+(
+;
+Black[be]
+Comment[This was the traditional move at this point in the joseki.]
+;
+White[gc]
+;
+Black[ge]
+Letters[hc]
+Comment[An atari at 'a' does not work so Black must accept the sacrifice of the three stones.]
+Marked[dc][ec][fc]
+;
+White[df]
+;
+Black[cf]
+;
+White[de]
+;
+Black[dg]
+;
+White[db]
+;
+Black[hc]
+;
+White[gb]
+;
+Black[ef]
+;
+White[fb]
+;
+Black[cg]
+Marked[dj]
+Comment[The end of the traditional joseki. But in this situation, the marked stone at D19 is now inefficient, being too close to the Black wall. Here, it would be better to have the D10 stone at 'a' (R12), for example.]
+Letters[qh]
+;
+White[en]
+Comment[White can enlarge the bottom moyo. Black begins to look crowded.]
+)
+)
+(
+;
+White[fp]
+Comment[If W jumps here...]
+;
+Black[bd]
+Comment[B sagaris]
+;
+White[dl]
+;
+Black[ek]
+;
+White[el]
+;
+Black[fl]
+;
+White[em]
+;
+Black[fk]
+;
+White[ef]
+Comment[when White defends]
+;
+Black[cq]
+Comment[Black smartly invades the corner]
+;
+White[cp]
+;
+Black[dr]
+;
+White[fr]
+;
+Black[bp]
+;
+White[bo]
+;
+Black[br]
+;
+White[ap]
+;
+Black[bq]
+Comment[Black has destroyed White's corner and White gets nothing.]
+)
+)
+(
+;
+Black[bd]
+Comment[If Black sagari (extending downwards) here, expecting White to defend cut at 'a' ...]
+Letters[ef]
+;
+White[cl]
+Comment[W would probably press B [D10\] stone with an extension]
+;
+Black[ef]
+Comment[Then, when B attacks...]
+;
+White[ek]
+Comment[W could ignore it and play [E9\] keima, building a big moyo at lower side to compete with B.  This way, not only W is forming a huge moyo, the thickness built by capturing [N4\] stone will also show 
+its power to maximum.]
+)
+)
+(
+;
+Black[dn]
+Comment[Alternatively, Black might try D6]
+(
+;
+White[fp]
+Comment[And hope White will nicely play F4]
+;
+Black[dj]
+;
+White[lp]
+;
+Black[bd]
+;
+White[ef]
+;
+Black[ge]
+Comment[This is very good for Black, but of course White will not be so accommodating.]
+)
+(
+;
+White[dj]
+Comment[Instead, White D16 is an ideal move, combining an extension and an attack.]
+;
+Black[fp]
+;
+White[eo]
+;
+Black[cq]
+;
+White[dq]
+;
+Black[cp]
+;
+White[en]
+;
+Black[dm]
+;
+White[em]
+Comment[To W [E7\], B is blocked inside, and W forms a deep moyo, and 
+W has a nice and wide formation.  This will be a great advantage for W in future fights.]
+)
+)
+)
+(
+;
+Black[rn]
+Comment[B could also choose ogeima [big knight move\]]
+;
+White[nr]
+;
+Black[qo]
+Comment[And this shape is formed.
+
+Wu Qing Yuan:
+
+"When I once played with Mr. Kitani, I chose this variation.  If W [Q10\] [marked\] was at [a\] ([R10\]), a lower position, this ogeima variation could certainly be considered. But in this game, [Q10\] is high, and I didn't want to choose this variation."
+]
+Marked[pj]
+Letters[qj]
+)
+)
+(
+;
+Black[op]
+Comment[If the top left corner were different, Black would have this tesuji.]
+;
+White[np]
+;
+Black[oo]
+;
+White[pq]
+;
+Black[po]
+;
+White[qp]
+;
+Black[qo]
+;
+White[rp]
+;
+Black[mp]
+Comment[But this ladder doesn't work.]
+)
+)
+(
+;
+White[jp]
+Comment[Alternatively, White could play a 3-space high pincer.]
+;
+Black[qq]
+Comment[Black goes into the corner.]
+;
+White[pq]
+Comment[White chooses best direction.]
+;
+Black[qp]
+;
+White[po]
+;
+Black[pr]
+;
+White[or]
+;
+Black[qr]
+;
+White[oq]
+;
+Black[qn]
+;
+White[pn]
+;
+Black[qm]
+;
+White[pm]
+Comment[\[]
+)
+(
+;
+White[lq]
+Comment[Or a tight pincer]
+;
+Black[qq]
+;
+White[qp]
+;
+Black[pq]
+;
+White[op]
+;
+Black[nr]
+;
+White[mo]
+)
+)
+(
+;
+Black[fd]
+Comment[If Black tries the small avalanche joseki, he gets a poor result.]
+;
+White[cc]
+;
+Black[bd]
+;
+White[cb]
+;
+Black[be]
+;
+White[cf]
+(
+;
+Black[bf]
+;
+White[fc]
+;
+Black[ee]
+;
+White[de]
+;
+Black[cg]
+;
+White[df]
+;
+Black[ef]
+;
+White[dg]
+Comment[This ladder does not work.]
+)
+(
+;
+Black[fe]
+;
+White[ef]
+;
+Black[db]
+;
+White[fc]
+;
+Black[fb]
+;
+White[gc]
+;
+Black[bb]
+;
+White[gb]
+;
+Black[bc]
+Marked[fe][fd]
+Comment[Now, the two Black stones [marked\] are "floating" and it is
+hard to settle them well.]
+)
+)
+)
+(
+;
+White[fc]
+Comment[If W chooses this joseki...]
+;
+Black[dc]
+;
+White[fd]
+;
+Black[de]
+;
+White[jc]
+Comment[Because of the strong B formation at the upper right, White's extension to K17 is unsatisfactory. So White did not choose this joseki.
+]
+)
+)

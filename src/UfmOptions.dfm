@@ -430,7 +430,7 @@ object fmOptions: TfmOptions
           Top = 27
           Width = 145
           Height = 21
-          ItemHeight = 13
+          ItemHeight = 0
           TabOrder = 0
           Text = 'cbThemes'
         end
@@ -765,28 +765,11 @@ object fmOptions: TfmOptions
         Width = 341
         Height = 374
         TabOrder = 0
-        inherited Label0: TTntLabel
-          Width = 79
-        end
-        inherited Label1: TTntLabel
-          Width = 81
-        end
-        inherited Label2: TTntLabel
-          Width = 146
-        end
-        inherited lbAssignedTo1: TTntLabel
-          Width = 60
-        end
-        inherited lbAssignedTo2: TTntLabel
-          Width = 32
-        end
         inherited Label3: TTntLabel
           Left = 87
-          Width = 178
         end
         inherited Label4: TTntLabel
           Left = 87
-          Width = 172
         end
       end
     end
@@ -798,12 +781,6 @@ object fmOptions: TfmOptions
         Width = 539
         Height = 374
         TabOrder = 0
-        inherited Label1: TTntLabel
-          Width = 81
-        end
-        inherited Label2: TTntLabel
-          Width = 70
-        end
       end
     end
     object TabSheetSounds: TTntTabSheet
@@ -1513,15 +1490,6 @@ object fmOptions: TfmOptions
         DesignSize = (
           347
           359)
-        inherited SpTBXLabel2: TSpTBXLabel
-          Width = 119
-        end
-        inherited btOpenBrowser: TSpTBXRadioButton
-          Width = 190
-        end
-        inherited btAlreadyInstalled: TSpTBXRadioButton
-          Width = 97
-        end
       end
     end
     object TabSheetEngineOld: TTntTabSheet

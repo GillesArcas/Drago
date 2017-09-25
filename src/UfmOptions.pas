@@ -301,7 +301,8 @@ uses
   DefineUi, Std, Properties, UFileAssoc, Main, UGameTree, Translate,
   TranslateVcl, HtmlHelpAPI, UfmMsg,
   UGmisc, UActions, UAutoReplay,
-  CodePages, UThemes, UDialogs, UApply, UStatusMain, UMainUtil,
+  CodePages, UThemes,
+  UDialogs, UApply, UStatusMain, UMainUtil,
   VclUtils, UfmCustomStones, UStones;
 
 {$R *.DFM}

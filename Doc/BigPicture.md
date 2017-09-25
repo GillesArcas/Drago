@@ -62,8 +62,30 @@ TExporter copes with full games.
 
 TExporterImage concerns only board images making TExportedImage to be used by TExporter.
 
-TExporterDOC, TExporterHTM, TExporterPDF, ExporterRTF, TExporterTXT
+__TExporterPRE__
 
-Are respectively used to export to
+Exports to a canvas to be displayed in the preview window.
 
-TExporterIMG, TExporterNFG, TExporterPRE
+__TExporterDOC, TExporterHTM, TExporterPDF, ExporterRTF, TExporterTXT__
+
+Are respectively used to export to MsWord, Html, Pdf, Rtf and text format.
+
+__TExporterIMG__
+
+Exports only the figures.
+
+__TExporterNFG__
+
+Only counts the number of figures.
+
+__TImageExporterBMP__
+
+Exports figures to BMP format which are finally saved into the various graphic formats (JPG, PNG, GIF and BMP).
+
+__TImageExporterPDF__
+
+Exports figures into a list of text comments to be interpreted and inserted in PDF files.
+
+__TImageExporterTXT, TImageExporterWMF__
+
+Exports figures into TXT format, or to WMF format (to be inserted in RTF files).

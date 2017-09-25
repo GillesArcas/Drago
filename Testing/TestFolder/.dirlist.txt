@@ -1,0 +1,25 @@
+The content of this folder is used for testing. It should not 
+be modified unless updating tests references.
+
+9x9.sgf
+1739-DangHuGames.sgf
+BGA-vrac.sgf
+Camellia.sgf
+CHEN.SGF
+cho1962-1984.sgf
+cho1985-1994.sgf
+cho1995-2002.sgf
+cj.sgf
+dosaku.sgf
+fuseki_db.sgf
+HONINBO1.SGF
+HONINBO2.SGF
+Hoshi.sgf
+judan.sgf
+KITANI.SGF
+Kogo's Joseki Dictionary.sgf
+lee changhao - lee seidol.sgf
+meijin.sgf
+sansan.sgf
+TAKAGAWA.SGF
+tengen.sgf

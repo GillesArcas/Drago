@@ -1,0 +1,199 @@
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+PB[Miyamoto Naoki]
+PW[Go Seigen]
+DT[1968]
+RE[B+4]
+
+C[This was the first of a two game match on 9x9, played
+to try to decide the proper komi for this board size.];B[de]
+;W[fe];B[ee];W[fd];B[ff];W[gf];B[gg];W[fg];B[ef];W[gh];B[hg]
+;W[hh];B[eg];W[fh];B[ge];W[hf];B[he];W[ig];B[fc];W[gd];B[gc]
+;W[hd];B[ed];W[be];B[hc];W[ie];B[bc];W[cg];B[cf];W[bf];B[ch]
+;W[cc];B[cb];W[dg];B[dh];W[bh];B[eh];W[dc];B[bd];W[ec];B[cd]
+;W[fb];B[gb];W[bb];B[eb];W[db];B[fa];W[ca];B[ea];W[da];B[df]
+;W[bg];B[bi];W[ab];B[ah];W[ci];B[di];W[ag];B[ae];W[ac];B[ad]
+;W[ha];B[hb];W[fi];B[ce];W[ai];B[ci];W[ei];B[ah];W[ic];B[ib]
+;W[ai];B[ba];W[aa];B[ah];W[ga];B[ia];W[ai];B[ga];W[id];C[Black wins by 4 points]
+)
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Aragaki Shumu (6 dan)]
+PW[Ishida Atsushi (5 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[B+4.5]
+
+C[
+ Black: Aragaki Shumu (6 dan)
+ White: Ishida Atsushi (5 dan)];B[ff];W[fc];B[ce];W[cf];B[de]
+;W[df];B[ef];W[be];B[bd];W[bf];B[dc];W[bc];B[gd];W[cc];B[db]
+;W[hd];B[he];W[gc];B[fd];W[hb];B[id];W[ic];B[hc];W[ed];B[ec]
+;W[hd];B[ie];W[ge];B[fe];W[gf];B[gg];W[hf];B[hc];W[cd];B[ib]
+;W[dd];B[fb];W[eh];B[fh];W[eg];B[fg];W[cb];B[ei];W[da];B[gb]
+;W[dh];B[di];W[ci];B[fi];W[ch];B[ea];W[ee];B[ca];W[ba];B[da]
+C[Black wins by 4 1/2 point])
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[Unknown...]
+PB[Go Seigen]
+PW[Miyamoto Naoki]
+DT[1968]
+RE[B+4]
+
+C[This was the second and last game in a two game match on 9x9,
+played to try to decide the proper komi for this board size.]
+;B[ee];W[cc];B[cd];W[bd];B[dc];W[db];B[dd];W[bb];B[be];W[fc]
+;B[ad];W[bc];B[gc];W[fb];B[fd];W[eg];B[dh];W[dg];B[cg];W[eh]
+;B[gg];W[ch];B[bh];W[di];B[bg];W[gh];B[hh];W[fg];B[hg];W[hi]
+;B[gb];W[gf];B[hf];W[ge];B[he];W[ff];B[ga];W[gd];B[hd];W[df]
+;B[cf];W[fa];B[ba];W[cb];B[da];W[eb];B[bi];W[ci];B[ac];W[ab]
+;B[ae];W[ca];B[ih];C[Black wins by 4 points])
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Kurahashi Masayuki (6 dan)]
+PW[Ishida Atsushi (5 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[W+]
+
+C[
+ Black: Kurahashi Masayuki (6 dan)
+ White: Ishida Atsushi (5 dan)];B[eg];W[fc];B[fd];W[ec];B[de]
+;W[gd];B[ge];W[be];B[gc];W[hd];B[gb];W[he];B[fe];W[gf];B[dc]
+;W[cc];B[db];W[ed];B[dd];W[ee];B[ff];W[ef];B[fg];W[df];B[cf]
+;W[dg];B[gg];W[fb];B[ce];W[hf];B[hg];W[hb];B[dh];W[cg];B[ch]
+;W[bg];B[bf];W[af];B[bd];W[ae];B[ad];W[ag];B[bb];W[ig];B[ih]
+;W[if];B[hh];W[bh];B[bi];W[eh];B[fh];W[ai];B[ah];W[ci]C[Black forfeits on time]
+)
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Enda Hideki (6 dan)]
+PW[Aragaki Shumu (6 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[W+3.5]
+
+C[
+ Black: Enda Hideki (6 dan)
+ White: Aragaki Shumu (6 dan)];B[ee];W[ce];B[cd];W[dd];B[de]
+;W[cc];B[bd];W[cf];B[dg];W[cg];B[dc];W[ed];B[fd];W[ec];B[db]
+;W[eb];B[cb];W[fe];B[eg];W[be];B[bc];W[gd];B[ch];W[bh];B[gf]
+;W[ff];B[fg];W[gg];B[ge];W[fc];B[hg];W[gh];B[hh];W[dh];B[ef]
+;W[fd];B[hd];W[hc];B[he];W[ei];B[fh];W[gb];B[ic];W[ib];B[id]
+;W[ad];B[ac];W[ae];B[eh];W[ci];B[ea];W[fa];B[da]C[White wins by 3 1/2 point]
+)
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Sasaka Shiro (4 dan)]
+PW[Kin Pyon Min (1 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[W+4.5]
+
+C[
+ Black: Sasaka Shiro (4 dan)
+ White: Kin Pyon Min (1 dan)];B[fg];W[fd];B[ed];W[fc];B[ee]
+;W[fe];B[ff];W[be];B[ec];W[he];B[hf];W[cg];B[hd];W[eb];B[db]
+;W[fb];B[ge];W[dc];B[ce];W[cc];B[bd];W[de];B[bf];W[ef];B[eg]
+;W[cf];B[ae];W[dd];B[bc];W[bb];B[bg];W[bh];B[dh];W[ch];B[cd]
+;W[ac];B[ag];W[ab];B[ad];W[gd];B[ie];W[hc];B[ic];W[hb];B[dg]
+;W[df];B[ib];W[ah];B[ci];W[bi];B[di];W[ha]C[White wins by 4 1/2 point]
+)
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Yata Naoki (5 dan)]
+PW[Yanagawa Hiromasa (5 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[B+0.5]
+
+C[
+ Black: Yata Naoki (5 dan)
+ White: Yanagawa Hiromasa (5 dan)];B[ce];W[fe];B[ff];W[cf];B[ee]
+;W[fd];B[ed];W[gf];B[gg];W[ec];B[df];W[fg];B[ef];W[hg];B[fc]
+;W[gh];B[ge];W[gd];B[gc];W[hd];B[hc];W[he];B[dc];W[eb];B[db]
+;W[cg];B[be];W[ic];B[ib];W[id];B[gb];W[bh];B[bf];W[bg];B[dg]
+;W[dh];B[eg];W[eh];B[ag];W[af];B[ae];W[ah];B[af];W[ha];B[ea]
+C[Black wins by 1/2 point])
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Yamada Kimio (4 dan)]
+PW[Nakamura Shinya (2 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[B+T]
+
+C[
+ Black: Yamada Kimio (4 dan)
+ White: Nakamura Shinya (2 dan)];B[gd];W[ef];B[ce];W[ed];B[gf]
+;W[cg];B[dc];W[gc];B[hc];W[dd];B[cd];W[cc];B[cb];W[bc];B[db]
+;W[bb];B[ba];W[ec];B[bd];W[hb];B[fg];W[he];B[hd];W[ge];B[hf]
+;W[fe];B[ie];W[eg];B[fh];W[ib];B[gb];W[fc];B[ha];W[fb];B[hh]
+;W[bf];B[ci];W[dh];B[di];W[bi];B[eh];W[ch];B[ei];W[bh];B[de]
+C[White forfeits on time])
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Kitano Ryo (2 dan)]
+PW[Kin Pyon Min (1 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[W+11.5]
+
+C[
+ Black: Kitano Ryo (2 dan)
+ White: Kin Pyon Min (1 dan)
+(61 moves, 42 recorded)];B[ed];W[eg];B[ff];W[ef];B[ee];W[fg]
+;B[gf];W[gg];B[df];W[dg];B[cf];W[gd];B[ge];W[ec];B[dc];W[db]
+;B[fc];W[eb];B[gc];W[cc];B[cd];W[bd];B[be];W[dd];B[de];W[ce]
+;B[hg];W[hh];B[cd];W[hf];B[bc];W[bb];B[ad];W[he];B[fd];W[ab]
+;B[hd];W[bg];B[fb];W[ea];B[dc];W[cb]C[White wins by 11 1/2 point]
+)
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Saito Tadashi (4 dan)]
+PW[Kin Pyon Min (1 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[B+0.5]
+
+C[
+ Black: Saito Tadashi (4 dan)
+ White: Kin Pyon Min (1 dan)];B[ee];W[ge];B[ce];W[be];B[bd]
+;W[cf];B[de];W[dg];B[eg];W[eh];B[fh];W[fg];B[ef];W[ch];B[ei]
+;W[dh];B[gd];W[hd];B[gc];W[gg];B[hc];W[he];B[bf];W[bg];B[ae]
+;W[ic];B[ib];W[id];B[hb];W[fe];B[fd];W[df];B[ff];W[gf];B[ag]
+;W[ah];B[af]C[Black wins by 1/2 point])
+(;FF[4]GM[1]SZ[9]AP[SGFC:1.13b]VW[]
+
+EV[TV game]
+PB[Aragaki Shumu (6 dan)]
+PW[Yanagawa Hiromasa (5 dan)]
+KM[5.5]
+DT[1992]
+PC[Osaka]
+RE[B+5.5]
+
+C[
+ Black: Aragaki Shumu (6 dan)
+ White: Yanagawa Hiromasa (5 dan)];B[ff];W[dd];B[de];W[ce];B[ed]
+;W[ec];B[ee];W[fc];B[cd];W[dc];B[cf];W[be];B[bf];W[ge];B[gf]
+;W[hf];B[hg];W[bd];B[hd];W[hc];B[bc];W[cc];B[ad];W[gd];B[ae]
+;W[bb];B[cd];W[he];B[if];W[ie];B[ig];W[ab];B[fe];W[ac];B[bd]
+C[Black wins by 5 1/2 point])
