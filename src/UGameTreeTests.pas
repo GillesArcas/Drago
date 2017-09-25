@@ -118,7 +118,6 @@ begin
       then continue;
 
     n1 := gt.NumberOfNodes;
-    n2 := gt.NumberOfNodes;
     n := URandom.Random(n1);
 
     gt := gt.NthNode(n).MovesToNode;
