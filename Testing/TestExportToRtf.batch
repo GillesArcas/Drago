@@ -1,0 +1,92 @@
+; test RTF exporting
+; removed, no invariance when repeating rtf test
+; --------------------------------------
+
+Main
+
+Define Main
+
+; two figures per line
+Print.FigPerLine=2
+; avoid date 
+Print.FooterFormat=\left 'Page ' \page
+
+TestCollection
+TestVariations
+TestKogo
+
+EndDef Main
+
+; --------------------------------------
+Define TestCollection
+; 100 games, no variations, one figure every 50 moves
+
+LoadSgf TestFolder/cho1995-2002.sgf
+; all games (0: current, 1: all, 2:FromTo)
+;;;;;;Print.Games=2
+Print.Games=0
+Print.GamesFrom=1
+Print.GamesTo=20
+; one figures every 50 moves
+Print.Figures=4
+Print.Step=50
+
+TestFile
+
+EndDef TestCollection
+
+; --------------------------------------
+Define TestVariations
+; one game, many variations, one figure every 50 moves for each variation
+
+LoadSgf TestFolder/kitani.sgf
+; all games (0: current, 1: all, 2:FromTo)
+Print.Games=0
+; one figures every 50 moves
+Print.Figures=4
+Print.Step=50
+Print.InclVariations=1
+TestFile
+
+EndDef TestVariations
+
+; --------------------------------------
+Define TestKogo
+; many variations
+
+LoadSgf TestFolder/sansan.sgf
+; all games (0: current, 1: all, 2:FromTo)
+Print.Games=0
+; one figures every 50 moves
+Print.Figures=4
+Print.Step=50
+Print.InclVariations=1
+TestFile
+
+EndDef TestKogo
+
+; --------------------------------------
+Define TestFile
+Test1
+EndDef TestFile
+
+; --------------------------------------
+Define Test1
+; show moves as in board=3
+Board.ShowMoveMode=3
+Test2
+; show moves as in book=4
+Board.ShowMoveMode=4
+Test2
+EndDef Test1
+
+; --------------------------------------
+Define Test2
+
+; draw coord and edges
+Goban.CoordStyle=1
+Ascii.DrawEdge=1
+
+ExportToRtf
+
+EndDef Test2
