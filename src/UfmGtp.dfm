@@ -85,8 +85,14 @@ object fmGtp: TfmGtp
     Width = 373
     Height = 432
     Align = alClient
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Courier New'
+    Font.Style = []
     Lines.Strings = (
       'Memo')
+    ParentFont = False
     ScrollBars = ssVertical
     TabOrder = 0
   end

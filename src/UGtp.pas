@@ -660,7 +660,7 @@ begin
 
   LastMove := OutputString;
 
-  if (Context as TView).gb.IsValid (i, j, col, status)
+  if (Context as TView).gb.IsValid(i, j, col, status)
     then Play4
     else
       begin
