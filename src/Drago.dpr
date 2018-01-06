@@ -190,7 +190,7 @@ end;
 
 begin
   // beware memchk is not unicode enabled.
-  // comment before release 
+  // comment before release
   //MemChk;
 
   Application.Initialize;

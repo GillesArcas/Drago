@@ -1289,7 +1289,7 @@ procedure Trace(const s : string);
 var
   s2 : string;
 begin
-  s2 := Trim(s);
+  s2 := TrimRight(s);
   s2 := StringReplace(s2, #10 , ' ', [rfReplaceAll]);
   if Assigned(fmGtp)
     then fmGtp.Memo.Lines.Add(s2)

@@ -22,7 +22,7 @@ type
     FmSearchPlace   : string;
     FmGtpPlace      : string;
     FirstRestore    : boolean;
-    GtpMessages     : TWideStringList;
+    GtpMessages     : TWideStringList; // used to retrieve GTP messages when opening GTP window
 
     constructor Create;
     destructor Destroy; override;
