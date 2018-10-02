@@ -106,7 +106,6 @@ end;
 begin
   if ParamCount <> 3
     then writeln('Usage: SgfFactorize <inifile> <multigame sgf file> <trace text>')
-  else
-    Main(ParamStr(1), ParamStr(2), ParamStr(3))
+    else Main(ParamStr(1), ParamStr(2), ParamStr(3))
 end.
 
