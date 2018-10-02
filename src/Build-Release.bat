@@ -14,7 +14,7 @@ goto compile
 :use_cfg_argument
 set cfg=%1
 
-rem drago.cfg is saved and restored. Note however, it will be overiden each time new options are saved in the IDE.
+rem drago.cfg is saved and restored. Note however, it will be overridden each time new options are saved in the IDE.
 
 :compile
 copy Drago.cfg Drago.cfg.bak > nul
