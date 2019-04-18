@@ -333,7 +333,7 @@ begin
   try
     for i := 0 to fileList.Count - 1 do
       begin
-        fn   := fileList [i];
+        fn   := fileList[i];
         path := ExtractFilePath(fn);
         name := ExtractFileName(fn);
 
@@ -359,7 +359,7 @@ begin
             // get sgf string by reading from file or printing to string
             if single
               then sgf := FileToString(fn)
-              else sgf := TreeToString(cl [k]);
+              else sgf := TreeToString(cl[k]);
 
             // process event and add it to collection or error list
             r := view.kh.Process(sgf, path, name, flags);
@@ -367,7 +367,7 @@ begin
             // if error when parsing made by libkombilo, try parsing by Drago
             if (r = 0) and single then
               begin
-                sgf := TreeToString(cl [k]);
+                sgf := TreeToString(cl[k]);
                 r := view.kh.Process(sgf, path, name, flags);
               end;
 
@@ -447,9 +447,9 @@ begin
           currentReadGame := filename
         end;
 
-      view.cl.Add(x [index], filename, index);
+      view.cl.Add(x[index], filename, index);
       // avoid freeing games in cl
-      x [index] := nil;
+      x[index] := nil;
     end;
 
   x.Free
@@ -705,7 +705,7 @@ begin
 
   for i := i1 to i2 do
     for j := j1 to j2 do
-      case gb.Board [i, j] of
+      case gb.Board[i, j] of
         Black : Result := Result + iff(gb.IsWildcard(i, j), 'x', 'X');
         White : Result := Result + iff(gb.IsWildcard(i, j), 'o', 'O');
         else    Result := Result + iff(gb.IsWildcard(i, j), '*', '.');
@@ -725,7 +725,7 @@ begin
       begin
         n := 0;
         for i := 1 to Length(s) do
-          if s [i] in ['O', 'X']
+          if s[i] in ['O', 'X']
             then inc(n);
         Result := n
       end
@@ -818,7 +818,7 @@ var
   k, nB, nW, color : integer;
 begin
   for k := 0 to gl.Continuations.Count - 1 do
-    with TKContinuation(gl.Continuations.Items [k]) do
+    with TKContinuation(gl.Continuations.Items[k]) do
       begin
         nB := B; // number of Black continuations
         nW := W; // number of White continuations
