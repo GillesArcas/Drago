@@ -213,10 +213,12 @@ var
   FInifile : TMemIniFile;
   i, h : integer;
   pd : TPanelDescriptor;
-  tmpIni : WideString;
+  ini_name : String;
 begin
-  tmpIni := WideExtractFilePath(Application.ExeName) + 'tmp.ini';
-  FInifile := TMemIniFile.Create(tmpIni);
+  // name is irrelevant as meminifile is not updated ie not saved on disk 
+  ini_name := '';
+
+  FInifile := TMemIniFile.Create(ini_name);
   SpTBIniSavePositions(FSupport, FInifile, '');
 
   for i := 0 to FLayout.Count - 1 do
@@ -229,10 +231,8 @@ begin
       FInifile.WriteBool   (pd.FName, 'Visible', pd.FVisible);
     end;
 
-  //FInifile.UpdateFile;
   SpTBIniLoadPositions(FSupport, FInifile, '');
-  FIniFile.Free;
-  //DeleteFile(tmpIni)
+  FIniFile.Free
 end;
 {$endif}
 
