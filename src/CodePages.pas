@@ -421,10 +421,10 @@ begin
     Result := ''
   else
   begin
-    l := MultiByteToWideChar(codePage, MB_PRECOMPOSED, PChar(@s[1]), - 1, nil, 0);
+    l := MultiByteToWideChar(codePage, MB_PRECOMPOSED, PAnsiChar(@s[1]), - 1, nil, 0);
     SetLength(Result, l - 1);
     if l > 1 then
-      MultiByteToWideChar(CodePage, MB_PRECOMPOSED, PChar(@s[1]),
+      MultiByteToWideChar(CodePage, MB_PRECOMPOSED, PAnsiChar(@s[1]),
         - 1, PWideChar(@Result[1]), l - 1);
   end;
 end;
