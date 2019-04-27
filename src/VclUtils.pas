@@ -355,7 +355,9 @@ begin
         then // nop
       else if winCtrls[i] is TTntMemo
         then // nop
-      else IdeAssert(False, 'add type to AvoidFlickering!')
+      else
+        // if running from IDE, warn developer otherwise ignore
+        Assert(DebugHook = 0, 'add type to AvoidFlickering!')
     end
 end;
 

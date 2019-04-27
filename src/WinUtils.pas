@@ -13,10 +13,10 @@ uses
   Types,
   ShlObj, ActiveX;
 
-procedure IDEAssert(expr : boolean; const msg: string = '');
 function  IsXP : boolean;
 function  GetWindowsDirectory : string;
 function  GetLocalAppData : string;
+function  GetLocalAppDataW : WideString;
 function  GetCommonAppData : string;
 function  GetTempPath : string;
 function  MkTempDir(const s : string) : string;
@@ -45,13 +45,6 @@ uses
   Windows, Messages, SysUtils, ComObj, ShellAPI,
   ShFolder;
 
-// -- Assert procedure restricted to calls inside IDE ------------------------
-
-procedure IDEAssert(expr : boolean; const msg : string = '');
-begin
-  Assert((DebugHook  = 0) or expr, msg);
-end;
-
 // -- Search for Windows folder ----------------------------------------------
 
 function GetWindowsDirectory : string;
@@ -75,6 +68,16 @@ var
   path : array[0 .. MAX_PATH] of char;
 begin
   SHGetFolderPath(0, CSIDL_LOCAL_APPDATA, 0, SHGFP_TYPE_CURRENT, @path[0]);
+  Result := path
+end;
+
+function GetLocalAppDataW : WideString;
+const
+  SHGFP_TYPE_CURRENT = 0;
+var
+  path : array[0 .. MAX_PATH] of WideChar;
+begin
+  SHGetFolderPathW(0, CSIDL_LOCAL_APPDATA, 0, SHGFP_TYPE_CURRENT, @path[0]);
   Result := path
 end;
 
@@ -459,7 +462,7 @@ begin
     myInfo.nShow := SW_SHOWNORMAL;
   // start file
   ExitCode := 0;
-  Result := ShellExecuteEx(@myInfo);
+  //!!Result := ShellExecuteEx(@myInfo);
   // if process could be started
   if Result then
   begin
