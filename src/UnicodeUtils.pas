@@ -5,12 +5,9 @@ unit UnicodeUtils;
 interface
 
 uses
-  Types, Graphics, Windows, StrUtils, TntGraphics;
+  Types, Windows, StrUtils;
 
 function IsAnsiString(const s : WideString) : boolean;
-function WideMinimizeName(const Filename: WideString;
-                          Canvas: TCanvas;
-                          MaxLen: Integer): WideString;
 function WidePos(const F: WideString; const S: WideString; const StartIndex: Integer): Integer;
 function WideReplaceStr(const s : WideString; const old, new : string) : WideString;
 
@@ -103,109 +100,6 @@ begin
 
   Result := UTF8Decode(s2)
 end;
-
-// -- WideMinimizeName -- (using MFC) ----------------------------------------
-
-{.$define WideMinimizeNameMFC}
-{$ifdef WideMinimizeNameMFC}
-
-function WideMinimizeName(const Filename: WideString;
-                          Canvas: TCanvas;
-                          MaxLen: Integer): WideString;
-var
-  can : TCanvas;
-  s : string;
-  rect : TRect;
-  r : integer;
-begin
-  can := TCanvas.Create;
-  can.Font.Assign(Canvas.Font);
-  s := UTF8Encode(Filename);
-  rect.Left := 0;
-  rect.Top := 0;
-  rect.Right := MaxLen;
-  rect.Bottom := can.Font.Height;
-  r := DrawText(Canvas.Handle, PAnsiChar(s), Length(s),
-                rect,
-                DT_PATH_ELLIPSIS or DT_MODIFYSTRING);
-
-  if r = 0
-    then Result := Filename
-    else Result := UTF8Decode(s);
-
-  can.Free
-end;
-
-// -- WideMinimizeName -- (adapted from FileCtrl.pas in VCL source files) ----
-
-{$else}
-
-procedure CutFirstDirectory(var S: WideString);
-var
-  Root: Boolean;
-  P: Integer;
-begin
-  if S = '\' then
-    S := ''
-  else
-  begin
-    if S[1] = '\' then
-    begin
-      Root := True;
-      Delete(S, 1, 1);
-    end
-    else
-      Root := False;
-    if S[1] = '.' then
-      Delete(S, 1, 4);
-    P := WidePos('\',S,1);
-    if P <> 0 then
-    begin
-      Delete(S, 1, P);
-      S := '...\' + S;
-    end
-    else
-      S := '';
-    if Root then
-      S := '\' + S;
-  end;
-end;
-
-function WideMinimizeName(const Filename: WideString; Canvas: TCanvas;
-  MaxLen: Integer): WideString;
-var
-  Drive: WideString;
-  Dir: WideString;
-  Name: WideString;
-begin
-  Result := FileName;
-  Dir := WideExtractFilePath(Result);
-  Name := WideExtractFileName(Result);
-
-  if (Length(Dir) >= 2) and (Dir[2] = ':') then
-  begin
-    Drive := Copy(Dir, 1, 2);
-    Delete(Dir, 1, 2);
-  end
-  else
-    Drive := '';
-  while ((Dir <> '') or (Drive <> '')) and
-         (WideCanvasTextWidth(Canvas, Result) > MaxLen) do
-  begin
-    if Dir = '\...\' then
-    begin
-      Drive := '';
-      Dir := '...\';
-    end
-    else if Dir = '' then
-      Drive := ''
-    else
-      CutFirstDirectory(Dir);
-    Result := Drive + Dir + Name;
-  end;
-end;
-
-{$endif}
 
 // -- WideCopy (is it useful?) -----------------------------------------------
 

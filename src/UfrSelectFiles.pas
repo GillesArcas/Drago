@@ -66,7 +66,7 @@ implementation
 {$R *.dfm}
 
 uses
-  UStatus, UnicodeUtils, SysUtilsEx, WinUtils;
+  UStatus, UnicodeUtils, VclUtils, SysUtilsEx, WinUtils;
 
 const
   clMinimizeName = $505050;

@@ -49,7 +49,7 @@ implementation
 
 uses
   SysUtilsEx,
-  Translate, TranslateVcl, SgfIo, UnicodeUtils, UStatus;
+  Translate, TranslateVcl, SgfIo, VclUtils, UStatus;
 
 // -- Display entry point ----------------------------------------------------
 

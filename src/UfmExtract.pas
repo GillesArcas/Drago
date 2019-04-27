@@ -47,7 +47,7 @@ implementation
 
 uses
   SysUtils, SysUtilsEx,
-  DefineUi, Translate, TranslateVcl, UDialogs, UnicodeUtils;
+  DefineUi, Translate, TranslateVcl, UDialogs, VclUtils;
 
 {$R *.dfm}
 

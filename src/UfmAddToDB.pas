@@ -108,7 +108,7 @@ implementation
 uses
   SysUtilsEx,
   Define, Std, Main, UStatus, UDatabase, Translate, TranslateVCL, WinUtils, UActions,
-  UGCom, HtmlHelpAPI, UfmMsg, UDialogs, UnicodeUtils, UViewMain;
+  UGCom, HtmlHelpAPI, UfmMsg, UDialogs, UnicodeUtils, VclUtils, UViewMain;
 
 {$R *.dfm}
 

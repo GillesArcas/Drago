@@ -28,6 +28,9 @@ procedure EnableControl(control : TWinControl; value : boolean);
 procedure UpdateMemoComment(memo : TTntMemo; const s : WideString);
 function  ShortenString(canvas : TCanvas; const s : string; width : integer;
                         ellipsisWidth : integer = 0) : string;
+function WideMinimizeName(const Filename: WideString;
+                          Canvas: TCanvas;
+                          MaxLen: Integer): WideString;
 function WideMinimizeLabel(labl : TSpTBXLabel; const s : WideString) : WideString;
 procedure AvoidFlickering(winCtrls : array of TWinControl);
 procedure LockControl(c: TWinControl; bLock: Boolean);
@@ -39,8 +42,8 @@ implementation
 uses
   
   SysUtils, Types, Menus, Printers,
-  ExtCtrls, ComCtrls, Grids, TntForms, TntComCtrls,
-  Std, WinUtils, UnicodeUtils;
+  ExtCtrls, ComCtrls, Grids, TntForms, TntComCtrls, TntGraphics,
+  Std, WinUtils, UnicodeUtils, SysUtilsEx;
 
 // -- Placement of window ----------------------------------------------------
 //
@@ -300,6 +303,73 @@ begin
     end;
 
   Result := Copy(S, 1, L) + '...'
+end;
+
+// -- WideMinimizeName -- (adapted from FileCtrl.pas in VCL source files) ----
+
+procedure CutFirstDirectory(var S: WideString);
+var
+  Root: Boolean;
+  P: Integer;
+begin
+  if S = '\' then
+    S := ''
+  else
+  begin
+    if S[1] = '\' then
+    begin
+      Root := True;
+      Delete(S, 1, 1);
+    end
+    else
+      Root := False;
+    if S[1] = '.' then
+      Delete(S, 1, 4);
+    P := WidePos('\',S,1);
+    if P <> 0 then
+    begin
+      Delete(S, 1, P);
+      S := '...\' + S;
+    end
+    else
+      S := '';
+    if Root then
+      S := '\' + S;
+  end;
+end;
+
+function WideMinimizeName(const Filename: WideString; Canvas: TCanvas;
+  MaxLen: Integer): WideString;
+var
+  Drive: WideString;
+  Dir: WideString;
+  Name: WideString;
+begin
+  Result := FileName;
+  Dir := WideExtractFilePath(Result);
+  Name := WideExtractFileName(Result);
+
+  if (Length(Dir) >= 2) and (Dir[2] = ':') then
+  begin
+    Drive := Copy(Dir, 1, 2);
+    Delete(Dir, 1, 2);
+  end
+  else
+    Drive := '';
+  while ((Dir <> '') or (Drive <> '')) and
+         (WideCanvasTextWidth(Canvas, Result) > MaxLen) do
+  begin
+    if Dir = '\...\' then
+    begin
+      Drive := '';
+      Dir := '...\';
+    end
+    else if Dir = '' then
+      Drive := ''
+    else
+      CutFirstDirectory(Dir);
+    Result := Drive + Dir + Name;
+  end;
 end;
 
 // -- Shortening of a label --------------------------------------------------
