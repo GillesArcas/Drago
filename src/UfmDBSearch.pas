@@ -770,6 +770,7 @@ begin
   // fill game collection in DB tab
   with DBSearchContext do
     begin
+      // TODO: clarify
 (*
       ** moved to each TerminateSearch **
 
