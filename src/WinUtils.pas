@@ -23,19 +23,13 @@ function  MkTempDir(const s : string) : string;
 procedure RdTempDir(const dir : string);
 function  GetLogicalDrives : string;
 function  AvailPhysicalMem : int64;
-procedure RawProcessMessages;
 function  MicroTimer : int64;
 function  IsFileInUse(fileName: string) : boolean;
 function  LoadCursorFromFile(curName : string) : LongWord;
 function  IsOLEInstalled(name : string) : boolean;
 function  IsOLERunning(name : string) : boolean;
 procedure Sleep(ms : integer);
-procedure MakeNumericOnly(Handle: THandle);
-function  IsMetafileCanvas(canvas : TCanvas) : boolean;
-procedure CancelXPMan(x : TComponent);
 procedure OverwriteProcedure(OldProcedure, NewProcedure: pointer);
-function  Sto_ShellExecute(const FileName, Parameters: String; var ExitCode: DWORD;
-                           const Wait: DWORD = 0; const Hide: Boolean = False): Boolean;
 
 // ---------------------------------------------------------------------------
 
@@ -161,31 +155,6 @@ var
 begin
   GlobalMemoryStatus(memStatus);
   Result := memStatus.dwAvailPhys
-end;
-
-// -- Console process messages -----------------------------------------------
-
-function RawProcessMessage(var msg : TMsg) : boolean;
-begin
-  Result := False;
-
-  if PeekMessage(msg, 0, 0, 0, PM_REMOVE)
-    then
-      if msg.Message = WM_QUIT
-        then Result := False
-        else
-          begin
-            Result := True;
-            TranslateMessage(msg);
-            DispatchMessage(msg)
-          end
-end;
-
-procedure RawProcessMessages;
-var
-  msg : TMsg;
-begin
-  while RawProcessMessage(msg) do {loop}
 end;
 
 // -- Microsecond timer ------------------------------------------------------
@@ -369,214 +338,7 @@ begin
   Windows.Sleep(ms)
 end;
 
-// -- Misc -------------------------------------------------------------------
-// ES_RIGHT available
-
-procedure MakeNumericOnly(Handle: THandle);
-begin
-  SetWindowLong(Handle, GWL_STYLE, GetWindowLong(Handle, GWL_STYLE) or ES_NUMBER);
-end;
-
-function IsMetafileCanvas(canvas : TCanvas) : boolean;
-var
-  x : integer;
-begin
-  x := GetDeviceCaps(canvas.Handle, TECHNOLOGY);
-  Result := (x and DT_METAFILE) = DT_METAFILE
-end;
-
-procedure CancelXPMan(x : TComponent);
-var
-  i : integer;
-begin
-  with x do
-    begin
-      for i := 0 To ComponentCount - 1 do
-        begin
-          (*
-          //if Components[i] is TWinControl
-          //   then SetWindowTheme(TWinControl(Components[i]).Handle, nil, ' ');
-          if Components[i] is TButton
-            then SetWindowTheme(TButton(Components[i]).Handle, nil, ' ');
-          if Components[i] is TPanel
-            then
-              if TPanel(Components[i]).Name = 'OpenPictureDialog'
-                then
-                else SetWindowTheme(TPanel(Components[i]).Handle, nil, ' ');
-          CancelXPMan(Components[i])
-          *)
-        end
-    end
-end;
-
-// -- Interface to ShellExecute ----------------------------------------------
-
-(*
-procedure ShellExecuteModal(exeFile, args, dir : string; var exitCode : integer);
-var
-  SEInfo : TShellExecuteInfo;
-  exitValue : DWORD;
-begin
-  FillChar(SEInfo, SizeOf(SEInfo), 0);
-  SEInfo.cbSize := SizeOf(TShellExecuteInfo);
-
-  with SEInfo do
-    begin
-      fMask := SEE_MASK_NOCLOSEPROCESS;
-      Wnd := Application.Handle;
-      lpFile := PChar(exeFile);
-      lpParameters := PChar(args);
-      lpDirectory := PChar(dir);
-      nShow := SW_SHOWNORMAL
-    end;
-
-  if not ShellExecuteEx(@SEInfo)
-    then exitCode := -1
-    else
-      begin
-        repeat
-          //Application.ProcessMessages;
-          GetExitCodeProcess(SEInfo.hProcess, exitValue);
-        until (ExitCode <> STILL_ACTIVE) or Application.Terminated;
-
-        exitCode := exitValue
-      end
-end;
-*)
-
-function Sto_ShellExecute(const FileName, Parameters: String; var ExitCode: DWORD;
-  const Wait: DWORD = 0; const Hide: Boolean = False): Boolean;
-var
-  myInfo: SHELLEXECUTEINFO;
-  iWaitRes: DWORD;
-begin
-  // prepare SHELLEXECUTEINFO structure
-  ZeroMemory(@myInfo, SizeOf(SHELLEXECUTEINFO));
-  myInfo.cbSize := SizeOf(SHELLEXECUTEINFO);
-  myInfo.fMask := SEE_MASK_NOCLOSEPROCESS or SEE_MASK_FLAG_NO_UI;
-  myInfo.lpFile := PChar(FileName);
-  myInfo.lpParameters := PChar(Parameters);
-  if Hide then
-    myInfo.nShow := SW_HIDE
-  else
-    myInfo.nShow := SW_SHOWNORMAL;
-  // start file
-  ExitCode := 0;
-  //!!Result := ShellExecuteEx(@myInfo);
-  // if process could be started
-  if Result then
-  begin
-    // wait on process ?
-    if (Wait > 0) then
-    begin
-    iWaitRes := WaitForSingleObject(myInfo.hProcess, Wait);
-    // timeout reached ?
-    if (iWaitRes = WAIT_TIMEOUT) then
-    begin
-        Result := False;
-        TerminateProcess(myInfo.hProcess, 0);
-    end;
-    // get the exitcode
-    GetExitCodeProcess(myInfo.hProcess, ExitCode);
-    end;
-    // close handle, because SEE_MASK_NOCLOSEPROCESS was set
-    CloseHandle(myInfo.hProcess);
-  end;
-end;
-
-// --
-
-// V1 by Pat Ritchey, V2 by P.Below
-function WinExecAndWait32(CommandLine: string; ShowWindow: Word): DWORD;
- 
-  procedure WaitFor(ProcessHandle: THandle);
-  var
-    msg: TMsg;
-    ret: DWORD;
-  begin
-    repeat
-      ret := MsgWaitForMultipleObjects(
-               1,             { 1 handle to wait on }
-               ProcessHandle, { the handle }
-               False,         { wake on any event }
-               INFINITE,      { wait without timeout }
-               QS_PAINT or    { wake on paint messages }
-               QS_SENDMESSAGE { or messages from other threads }
-               );
-      if ret = WAIT_FAILED then Exit; { can do little here }
-      if ret = (WAIT_OBJECT_0 + 1) then
-      begin
-        { Woke on a message, process paint messages only. Calling
-          PeekMessage gets messages send from other threads processed. }
-        while PeekMessage(msg, 0, WM_PAINT, WM_PAINT, PM_REMOVE) do
-          DispatchMessage(msg)
-      end
-    until ret = WAIT_OBJECT_0
-  end;
- 
-var
-  zAppName: array[0..512] of Char;
-  StartupInfo: TStartupInfo;
-  ProcessInfo: TProcessInformation;
-begin
-  StrPCopy(zAppName, CommandLine);
-  FillChar(StartupInfo, Sizeof(StartupInfo), #0);
-  StartupInfo.cb := Sizeof(StartupInfo);
-  StartupInfo.dwFlags := STARTF_USESHOWWINDOW;
-  StartupInfo.wShowWindow := ShowWindow;
-  if not CreateProcess(nil,
-    zAppName,             { pointer to command line string }
-    nil,                  { pointer to process security attributes }
-    nil,                  { pointer to thread security attributes }
-    False,                { handle inheritance flag }
-    CREATE_NEW_CONSOLE or { creation flags }
-    NORMAL_PRIORITY_CLASS,
-    nil,                  { pointer to new environment block }
-    nil,                  { pointer to current directory name }
-    StartupInfo,          { pointer to STARTUPINFO }
-    ProcessInfo)          { pointer to PROCESS_INF }
-  then
-    Result := DWORD(-1)   { failed, GetLastError has error code }
-  else
-  begin
-     WaitFor(ProcessInfo.hProcess);
-     GetExitCodeProcess(ProcessInfo.hProcess, Result);
-     CloseHandle(ProcessInfo.hProcess);
-     CloseHandle(ProcessInfo.hThread)
-  end
-end;
-
 // ---------------------------------------------------------------------------
 
 end.
-
-// -- Version number ---------------------------------------------------------
-// -- not used
-
-function Version : string;
-var
-  S         : string;
-  n, Len    : DWORD;
-  Buf, Value: PChar;
-begin
-  S := Application.ExeName;
-  n := GetFileVersionInfoSize(PChar(S), n) * 2;
-  if n = 0
-    then Result := ''
-    else
-      begin
-        Buf := AllocMem(n);
-        GetFileVersionInfo(PChar(S), 0, n, Buf);
-        if VerQueryValue(Buf,
-                    PChar('StringFileInfo\040904E4\' +
-                      //'Version du fichier'),
-                      'Organisation'),
-                    Pointer(Value), Len)
-          then Result := Value
-          else Result := '';
-        FreeMem(Buf, n)
-      end
-end;
-
-// ---------------------------------------------------------------------------
 
