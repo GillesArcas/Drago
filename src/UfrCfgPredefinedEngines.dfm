@@ -17,7 +17,7 @@ object frCfgPredefinedEngines: TfrCfgPredefinedEngines
   object SpTBXLabel2: TSpTBXLabel
     Left = 15
     Top = 16
-    Width = 119
+    Width = 118
     Height = 13
     Caption = 'Select predefined engine'
   end
@@ -48,7 +48,7 @@ object frCfgPredefinedEngines: TfrCfgPredefinedEngines
   object btOpenBrowser: TSpTBXRadioButton
     Left = 15
     Top = 221
-    Width = 190
+    Width = 186
     Height = 15
     Caption = 'Open browser, download and install'
     TabOrder = 1
@@ -56,7 +56,7 @@ object frCfgPredefinedEngines: TfrCfgPredefinedEngines
   object btAlreadyInstalled: TSpTBXRadioButton
     Left = 15
     Top = 245
-    Width = 97
+    Width = 94
     Height = 15
     Caption = 'Already installed'
     TabOrder = 2
@@ -73,13 +73,13 @@ object frCfgPredefinedEngines: TfrCfgPredefinedEngines
     AutoSize = False
     Wrapping = twWrap
   end
-  object SpTBXLabel3: TSpTBXLabel
+  object lbEditEnginesConfig: TSpTBXLabel
     Left = 15
     Top = 340
-    Width = 70
+    Width = 69
     Height = 14
     Caption = 'engines.config'
-    OnClick = SpTBXLabel3Click
+    OnClick = lbEditEnginesConfigClick
     LinkText = 'engines.config'
     SkinType = sknWindows
     Underline = True

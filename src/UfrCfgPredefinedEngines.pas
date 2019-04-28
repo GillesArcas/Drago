@@ -16,10 +16,10 @@ type
     btAlreadyInstalled: TSpTBXRadioButton;
     Bevel1: TBevel;
     SpTBXLabel1: TSpTBXLabel;
-    SpTBXLabel3: TSpTBXLabel;
+    lbEditEnginesConfig: TSpTBXLabel;
     procedure btOkClick(Sender: TObject);
     procedure btCancelClick(Sender: TObject);
-    procedure SpTBXLabel3Click(Sender: TObject);
+    procedure lbEditEnginesConfigClick(Sender: TObject);
   private
     GameEngineTab : TfrCfgGameEngines;
   public
@@ -90,9 +90,9 @@ begin
   //
 end;
 
-procedure TfrCfgPredefinedEngines.SpTBXLabel3Click(Sender: TObject);
+procedure TfrCfgPredefinedEngines.lbEditEnginesConfigClick(Sender: TObject);
 begin
-  ShellExecute(0, 'open', PChar('NotePad'), PChar('engines.config'), nil, SW_SHOW)
+  ShellExecute(0, 'open', PChar('NotePad'), PChar(EnginesConfig), nil, SW_SHOW)
 end;
 
 end.
