@@ -13,11 +13,11 @@ uses
   UViewMain;
 
 var
-  PbProfile    : TMemIniFile;
+  PbProfile    : TIniFile;
   PbNumber     : integer;
   PbLoadedFile : string;
 
-  GmProfile    : TMemIniFile;
+  GmProfile    : TIniFile;
   GmNumber     : integer;
   GmLoadedFile : string;
 
@@ -282,9 +282,7 @@ var
 begin
   s := GetGmNth(index);
   UpdateScores(s, mode, play, score);
-  SetGmNth(index, s);
-
-  gmProfile.UpdateFile
+  SetGmNth(index, s)
 end;
 
 // -- Problems
@@ -303,9 +301,7 @@ begin
 
   SetPbNth(index, format('%d %d', [n, nOk]));
   if storeLast
-    then PbSetLast(index);
-
-  pbProfile.UpdateFile
+    then PbSetLast(index)
 end;
 
 // -- Access to last game in sequence mode -----------------------------------
@@ -333,9 +329,9 @@ end;
 // ---------------------------------------------------------------------------
 
 initialization
-  PbProfile := TMemIniFile.Create(ChangeFileExt(ParamStr(0), '.pb'));
+  PbProfile := TIniFile.Create(ChangeFileExt(ParamStr(0), '.pb'));
   PbLoadedFile := '';
-  GmProfile := TMemIniFile.Create(ChangeFileExt(ParamStr(0), '.gm'));
+  GmProfile := TIniFile.Create(ChangeFileExt(ParamStr(0), '.gm'));
   GmLoadedFile := ''
 finalization
   PbProfile.Free;
