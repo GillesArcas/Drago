@@ -2,6 +2,11 @@
 // -- DRAGO -- Project ------------------------------------------ DRAGO.DPR --
 // ---------------------------------------------------------------------------
 
+// TODO: save settings in user directory
+// TODO: insert move
+// TODO: figures are not centered in print preview or rtf preview
+// TODO: fix "engine motor" caption (and change all translation files)
+
 program Drago;
 
 {$R 'UGraphic.res' 'UGraphic.rc'}
@@ -174,7 +179,8 @@ uses
   pngextra in '..\3rd\PngImage\pngextra.pas',
   pngimage in '..\3rd\PngImage\pngimage.pas',
   pnglang in '..\3rd\PngImage\pnglang.pas',
-  zlibpas in '..\3rd\PngImage\zlibpas.pas';
+  zlibpas in '..\3rd\PngImage\zlibpas.pas',
+  TntIniFiles in 'TntIniFiles.pas';
 
 {$R *.RES}
 
