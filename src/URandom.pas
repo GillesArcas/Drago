@@ -63,7 +63,7 @@ end;
 
 function RandomBoolean(pr : double = 0.5) : boolean;
 begin
-  Result := Random < pr
+  Result := URandom.Random() < pr
 end;
 
 end.
