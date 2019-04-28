@@ -509,7 +509,7 @@ end;
 
 function TGameTree.MakeMainBranch : TGameTree;
 var
-  y, z : TGameTree;
+  y : TGameTree;
 begin
   y := Self;
   while y <> nil do
