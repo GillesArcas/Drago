@@ -20,6 +20,7 @@ uses
   SysUtilsEx        in '..\src\SysUtilsEx.pas',
   Translate         in '..\src\Translate.pas',
   UApply            in '..\src\UApply.pas',
+  UBackground_FPC   in '..\src\UBackground_FPC.pas',
   UBoardView        in '..\src\UBoardView.pas',
   UBoardViewAscii   in '..\src\UBoardViewAscii.pas',
   UBookBoard        in '..\src\UBookBoard.pas',

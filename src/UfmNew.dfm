@@ -1,6 +1,7 @@
 object fmNew: TfmNew
-  Left = 414
-  Top = 137
+  Left = 542
+  Top = 271
+  Anchors = []
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = '__Drago - New game'
@@ -13,8 +14,9 @@ object fmNew: TfmNew
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  Position = poDesktopCenter
+  OnClose = TntFormClose
   OnCreate = fmNewCreate
+  OnShow = TntFormShow
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel

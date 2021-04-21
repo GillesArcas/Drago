@@ -179,8 +179,7 @@ uses
   pngextra in '..\3rd\PngImage\pngextra.pas',
   pngimage in '..\3rd\PngImage\pngimage.pas',
   pnglang in '..\3rd\PngImage\pnglang.pas',
-  zlibpas in '..\3rd\PngImage\zlibpas.pas',
-  TntIniFiles in 'TntIniFiles.pas';
+  zlibpas in '..\3rd\PngImage\zlibpas.pas';
 
 {$R *.RES}
 

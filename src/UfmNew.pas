@@ -36,6 +36,8 @@ type
     procedure cbSizeChange(Sender: TObject);
     procedure btHelpClick(Sender: TObject);
     procedure fmNewCreate(Sender: TObject);
+    procedure TntFormClose(Sender: TObject; var Action: TCloseAction);
+    procedure TntFormShow(Sender: TObject);
   private
     function  Enter : integer;
     procedure SetupValues(size : integer);
@@ -50,7 +52,7 @@ implementation
 
 uses
   SysUtils,
-  DefineUi, Std, Translate, UStatus, TranslateVcl, BoardUtils,
+  DefineUi, Std, Translate, UStatus, TranslateVcl, BoardUtils, UStatusMain,
   Counting, VclUtils;
 
 {$R *.DFM}
@@ -75,6 +77,8 @@ end;
 
 function TfmNew.Enter : integer;
 begin
+  Top := 200;
+  Left := 200;
   Caption := AppName + ' - ' + U('New');
   TranslateForm(Self);
   SetupValues(Settings.BoardSize);
@@ -86,6 +90,18 @@ begin
   btHelp.Visible       := False;
 
   Result := ShowModal
+end;
+
+procedure TfmNew.TntFormShow(Sender: TObject);
+begin
+  SetWinStrPosition(self, StatusMain.FmNewPlace);
+end;
+
+// -- Close windows ----------------------------------------------------------
+
+procedure TfmNew.TntFormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  StatusMain.FmNewPlace := GetWinStrPlacement(self)
 end;
 
 // -- Update of size+handicap+komi panel -------------------------------------

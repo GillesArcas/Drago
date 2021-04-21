@@ -15,6 +15,7 @@ type
     MinimizeToTray  : boolean;
     fmMainPlace     : string;
     Maximized       : boolean;
+    FmNewPlace      : string;
     FmInsertPlace   : string;
     FmOptionPlace   : string;
     FmExpPosPlace   : string;
@@ -101,6 +102,7 @@ begin
       fmMainPlace     := ReadString('Windows', 'Main', '');
       SetMainPlacement(fmMainPlace, Maximized);
       FirstRestore    := Maximized;
+      FmNewPlace      := ReadString('Windows', 'New',    '');
       FmInsertPlace   := ReadString('Windows', 'Insert', '');
       FmOptionPlace   := ReadString('Windows', 'Options', '');
       FmExpPosPlace   := ReadString('Windows', 'ExpPos', '');
@@ -132,6 +134,7 @@ begin
       WriteBool  ('Windows' , 'OneInstance', OneInstance);
       WriteBool  ('Windows' , 'MinimizeToTray', MinimizeToTray);
       WriteString('Windows' , 'Main'       , GetMainPlacement);
+      WriteString('Windows' , 'New'        , FmNewPlace);
       WriteString('Windows' , 'Insert'     , FmInsertPlace);
       WriteString('Windows' , 'Options'    , FmOptionPlace);
       WriteString('Windows' , 'ExpPos'     , FmExpPosPlace);
