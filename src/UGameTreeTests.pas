@@ -106,7 +106,7 @@ end;
 
 procedure TestExtractGame(cl : TGameColl);
 var
-  i, n, n1, n2 : integer;
+  i, n, n1 : integer;
   gt : TGameTree;
 begin
   URandom.RandSeed := 123456789;
