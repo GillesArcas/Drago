@@ -5,7 +5,6 @@
 // TODO: save settings in user directory
 // TODO: insert move
 // TODO: figures are not centered in print preview or rtf preview
-// TODO: fix "engine motor" caption (and change all translation files)
 
 program Drago;
 

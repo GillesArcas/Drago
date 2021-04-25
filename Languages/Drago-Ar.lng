@@ -689,7 +689,7 @@ Select predefined engine=إختر محرِّك للُّعبة معرَّف مس�
 Open browser, download and install=إفتح جوَّال الواب, حمِّل ثم ثبِّت
 Already installed=مُثبَّت مسَبَّقا
 Press Ok (then you will have to enter executable installation path) or cancel.=Appuyer sur Ok (puis vous aurez à entrer le chemin d'installation) ou annuler.
-If the engine motor you want to play with is not in the list, edit the following file:=Si le moteur de jeu que vous voulez utiliser n'est pas dans la liste, éditez le fichier suivant :
+If the game engine you want to play with is not in the list, edit the following file:=Si le moteur de jeu que vous voulez utiliser n'est pas dans la liste, éditez le fichier suivant :
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=.وسائط قوانين اللعبة, التوقيت الحجم و الرتبة هي معرّفة مسبّقا. هنا يمكن إضافة وسائط مكمِّلة

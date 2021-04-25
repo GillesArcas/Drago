@@ -689,7 +689,7 @@ Select predefined engine=
 Open browser, download and install=
 Already installed=
 Press Ok (then you will have to enter executable installation path) or cancel.=
-If the engine motor you want to play with is not in the list, edit the following file:=
+If the game engine you want to play with is not in the list, edit the following file:=
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=

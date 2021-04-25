@@ -689,7 +689,7 @@ Select predefined engine=選擇預設定的引擎
 Open browser, download and install=開啟流覽器，下載並安裝
 Already installed=已安裝
 Press Ok (then you will have to enter executable installation path) or cancel.=點擊“確定”（隨後您將需要輸入可執行檔路徑）或取消。
-If the engine motor you want to play with is not in the list, edit the following file:=如果您所喜好的對弈引擎不在此清單中，請編輯以下檔：
+If the game engine you want to play with is not in the list, edit the following file:=如果您所喜好的對弈引擎不在此清單中，請編輯以下檔：
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=規則，計時，棋盤尺寸與等級參數以預先設定。對於當前引擎的附加的參數可在此處輸入。

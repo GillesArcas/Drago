@@ -689,7 +689,7 @@ Select predefined engine=Valitse ennakkoonmääritelty ohjelma
 Open browser, download and install=Avaa selain, lataa ja asenna
 Already installed=Jo asennettu
 Press Ok (then you will have to enter executable installation path) or cancel.=Paina OK (tällöin täytyy syöttää latauksen suorituspolku) tai peruuta
-If the engine motor you want to play with is not in the list, edit the following file:=Jos ohjelma, jonka kanssa haluat pelata ei ole listassa, niin
+If the game engine you want to play with is not in the list, edit the following file:=Jos ohjelma, jonka kanssa haluat pelata ei ole listassa, niin
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Säännöt, ajoitus,

@@ -689,7 +689,7 @@ Select predefined engine=Vybrať preddefinovaný engine
 Open browser, download and install=Otvoriť prehliadač, stiahnuť a inštalovať
 Already installed=Už nainštalovaný
 Press Ok (then you will have to enter executable installation path) or cancel.=Stlačte OK (následne bude potrebné zadať cestu k spustiteľnému súboru), alebo zrušiť.
-If the engine motor you want to play with is not in the list, edit the following file:=Ak engine, ktorý chcete použiť, sa nenachádza v zozname, upravte tento súbor:
+If the game engine you want to play with is not in the list, edit the following file:=Ak engine, ktorý chcete použiť, sa nenachádza v zozname, upravte tento súbor:
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Argumenty pre pravidlá, čas, veľkosť dosky a úroveň sú preddefinované. Ďalšie argumenty pre aktuálny engine môžete zadať sem.

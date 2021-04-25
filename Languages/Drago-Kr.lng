@@ -689,7 +689,7 @@ Select predefined engine=미리 정의 된 엔진을 선택
 Open browser, download and install=열려있는 브라우저는 다운로드 및 설치
 Already installed=이미 설치
 Press Ok (then you will have to enter executable installation path) or cancel.=확인을 누르십시오 (다음 실행 설치 경로를 입력해야합니다) 또는 취소 할 수 있습니다.
-If the engine motor you want to play with is not in the list, edit the following file:=당신이 재생하려는 엔진 모터가 목록에없는 경우, 다음과 같은 파일을 편집 :
+If the game engine you want to play with is not in the list, edit the following file:=당신이 재생하려는 엔진 모터가 목록에없는 경우, 다음과 같은 파일을 편집 :
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=규칙, 타이밍, boardsize 및 수준 인자는 미리 정의되어 있습니다. 현재 엔진에 대한 추가 인수가 여기에 입력 할 수 있습니다.

@@ -689,7 +689,7 @@ Select predefined engine=Wybierz zdefiniowany silnik do gry
 Open browser, download and install=Otwórz przeglądarke, zapisz i zainstaluj
 Already installed=Ten silnik gry jest już zainstalowany
 Press Ok (then you will have to enter executable installation path) or cancel.=Naciśnik Ok (następnie wprowadź ścieżkę do programy)
-If the engine motor you want to play with is not in the list, edit the following file:=Jeśli silink gry nie jest na pokazany na liście, zmień następujący plik:
+If the game engine you want to play with is not in the list, edit the following file:=Jeśli silink gry nie jest na pokazany na liście, zmień następujący plik:
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Zasady, czas, wielkość planszy oraz poziom są zdefinowane z góry. Inne argumenty dla programu mogą być wprowadzone tutaj. 

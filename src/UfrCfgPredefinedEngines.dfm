@@ -67,8 +67,8 @@ object frCfgPredefinedEngines: TfrCfgPredefinedEngines
     Width = 431
     Height = 17
     Caption = 
-      'If the engine motor you want to play with is not in the list, ed' +
-      'it the following file:'
+      'If the game engine you want to play with is not in the list, edi' +
+      't the following file:'
     Anchors = [akLeft, akTop, akRight]
     AutoSize = False
     Wrapping = twWrap

@@ -689,7 +689,7 @@ Select predefined engine=Выбрать программу из стандарт
 Open browser, download and install=Открыть браузер, загрузить и установить
 Already installed=Программа уже установлена
 Press Ok (then you will have to enter executable installation path) or cancel.=Выберите OK (и введите путь к установленной программе) или Отмена.
-If the engine motor you want to play with is not in the list, edit the following file:=Если нужная программа отсутствует в списке, отредактируйте следующий файл:
+If the game engine you want to play with is not in the list, edit the following file:=Если нужная программа отсутствует в списке, отредактируйте следующий файл:
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Правила, время, размер доски и уровень фиксированы. Здесь можно ввести другие аргументы для текущей программы.

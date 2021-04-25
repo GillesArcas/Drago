@@ -689,7 +689,7 @@ Select predefined engine=Seleccionar un motor predefinido
 Open browser, download and install=Abrir el browser, cargar y instalar
 Already installed=El motor ya está instalado
 Press Ok (then you will have to enter executable installation path) or cancel.=Pulsar Ok (después tendrá que entrar el camino del motor) o cancelar.
-If the engine motor you want to play with is not in the list, edit the following file:=Si el motor de juego que desea utilizar no está en la lista, editar el fichero siguiente:
+If the game engine you want to play with is not in the list, edit the following file:=Si el motor de juego que desea utilizar no está en la lista, editar el fichero siguiente:
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Los parámetros de reglas, tiempo, nivel y dimensión están predefinidos. Se puede entrar parámetros adicionales aqui.

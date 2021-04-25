@@ -689,7 +689,7 @@ Select predefined engine=Önceden tanımlanmış oyun motorunu seç
 Open browser, download and install=İnternete gir, indir ve yükle
 Already installed=Zaten yüklenmiş
 Press Ok (then you will have to enter executable installation path) or cancel.= Tamam'a (sonra exe dosyasının yüklendiği yeri seçmeniz gerekiyor) ya da Vazgeç'e tıkla.
-If the engine motor you want to play with is not in the list, edit the following file:=Oynamak istediğiniz oyun motoru listede yoksa, şu dosyayı düzenlemeniz gerekiyor:
+If the game engine you want to play with is not in the list, edit the following file:=Oynamak istediğiniz oyun motoru listede yoksa, şu dosyayı düzenlemeniz gerekiyor:
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Kurallar, zamanlama, tahta boyutu ve seviye argümanları önceden tanımlanmış. Mevcut oyun motoru için ek argümanlar buradan girilebilir.

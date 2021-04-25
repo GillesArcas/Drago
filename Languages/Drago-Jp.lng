@@ -689,7 +689,7 @@ Select predefined engine=事前定義された対局プログラムの選択
 Open browser, download and install=プラウザを起動してダウンロードとインストールをする
 Already installed=既にインストールされている
 Press Ok (then you will have to enter executable installation path) or cancel.=OK(あとでインストールした場所の入力が必要)またはキャンセルを押します
-If the engine motor you want to play with is not in the list, edit the following file:=リストに希望の対局エンジンがなければ、以下のファイルを編集してください
+If the game engine you want to play with is not in the list, edit the following file:=リストに希望の対局エンジンがなければ、以下のファイルを編集してください
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=ルール、時間、盤面のサイズ、レベルは事前設定されていますが、その他に設定があればここに入力できます

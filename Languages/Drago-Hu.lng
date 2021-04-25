@@ -689,7 +689,7 @@ Select predefined engine=Program kiválasztás
 Open browser, download and install=Internet megnyitás, letöltés és telepítés
 Already installed=Már telepített
 Press Ok (then you will have to enter executable installation path) or cancel.=Válaszd az OK-t és add meg a telepítés helyét, vagy Mégse
-If the engine motor you want to play with is not in the list, edit the following file:=Ha a válaszott program nem működik, javítsd a következő fájlt.
+If the game engine you want to play with is not in the list, edit the following file:=Ha a válaszott program nem működik, javítsd a következő fájlt.
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=
