@@ -13,7 +13,7 @@ object fmPrint: TfmPrint
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  Position = poDesktopCenter
+  Position = poMainFormCenter
   OnActivate = FormActivate
   OnCreate = FormCreate
   OnShow = FormShow

@@ -13,7 +13,7 @@ object fmUserSaveFolder: TfmUserSaveFolder
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  Position = poDesktopCenter
+  Position = poMainFormCenter
   OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 16

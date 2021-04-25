@@ -13,7 +13,7 @@ object fmExtract: TfmExtract
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  Position = poDesktopCenter
+  Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 16
   object sbMore: TSpeedButton

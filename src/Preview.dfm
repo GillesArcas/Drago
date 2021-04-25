@@ -12,7 +12,7 @@ object PreviewForm: TPreviewForm
   Font.Style = []
   KeyPreview = True
   OldCreateOrder = True
-  Position = poDefaultPosOnly
+  Position = poMainFormCenter
   OnClose = FormClose
   OnCreate = FormCreate
   OnKeyPress = FormKeyPress
@@ -21,8 +21,8 @@ object PreviewForm: TPreviewForm
   TextHeight = 13
   object StatusBar1: TTntStatusBar
     Left = 0
-    Top = 635
-    Width = 616
+    Top = 630
+    Width = 608
     Height = 19
     Panels = <
       item
@@ -41,7 +41,7 @@ object PreviewForm: TPreviewForm
   object ToolBar1: TTntToolBar
     Left = 0
     Top = 0
-    Width = 616
+    Width = 608
     Height = 26
     AutoSize = True
     EdgeBorders = [ebTop, ebBottom]

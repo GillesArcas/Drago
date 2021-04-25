@@ -13,7 +13,7 @@ object fmInputQueryInt: TfmInputQueryInt
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
-  Position = poDesktopCenter
+  Position = poMainFormCenter
   OnCreate = TntFormCreate
   PixelsPerInch = 96
   TextHeight = 13
