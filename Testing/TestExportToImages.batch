@@ -87,6 +87,9 @@ EndDef TestFile
 
 ; --------------------------------------
 Define Test1
+; show no moves
+Board.ShowMoveMode=0
+Test2
 ; show moves as in board=3
 Board.ShowMoveMode=3
 Test2

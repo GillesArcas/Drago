@@ -1,7 +1,5 @@
 ; test PDF exporting
 ; --------------------------------------
-; reference made without Clear Type screen fonts
-; --------------------------------------
 
 Main
 
@@ -11,12 +9,12 @@ Define Main
 Print.CompressPDF=0
 ; two figures per line
 Print.FigPerLine=2
-; avoid date 
+; avoid date
 Print.FooterFormat=\left 'Page ' \page
 
 TestCollection
 TestVariations
-TestKogo
+;TestKogo
 
 EndDef Main
 
