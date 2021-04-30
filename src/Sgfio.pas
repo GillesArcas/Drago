@@ -97,7 +97,7 @@ implementation
 
 uses
   SysUtils, SysUtilsEx, ClassesEx,
-  Std, Ux2y, Properties;
+  Std, WinUtils, Ux2y, Properties;
 
 // == Reading of SGF format ==================================================
 
@@ -1133,7 +1133,7 @@ begin
                   matchFileName)
     else
       begin
-        tmpName := UniqueFileName(ExtractFilePath(ParamStr(0)), '.sgf');
+        tmpName := UniqueFileName(GetTempPath, '.sgf');
 
         PrintSgf(cl, tmpName, mode, aCompressList, aSaveCompact,
                  matchFileName);

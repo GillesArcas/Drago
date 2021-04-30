@@ -9,7 +9,7 @@ unit UMRUList;
 interface
 
 uses
-  Classes, IniFiles, SysUtils,
+  Classes, TntIniFiles, SysUtils,
   Define;
 
 type
@@ -51,8 +51,8 @@ type
     function  GetItem(n : integer) : TMRUItem;
     function  GetPath(n : integer) : WideString;
     function  GetTrans(n : integer) : TCoordTrans;
-    procedure LoadFromIni(iniFile : TMemIniFile; section : string);
-    procedure SaveToIni(iniFile : TMemIniFile; section : string);
+    procedure LoadFromIni(iniFile : TTntMemIniFile; section : string);
+    procedure SaveToIni(iniFile : TTntMemIniFile; section : string);
 
     property MaxCount : integer read FMaxCount write SetMaxCount;
     property MRUItems[n : integer] : TMRUItem read GetItem; default;
@@ -224,7 +224,7 @@ end;
 //
 // Folders and filenames are stores in UTF8.
 
-procedure TMRUList.LoadFromIni(iniFile : TMemIniFile; section : string);
+procedure TMRUList.LoadFromIni(iniFile : TTntMemIniFile; section : string);
 var
   i : integer;
   s : string;
@@ -247,7 +247,7 @@ begin
     end
 end;
 
-procedure TMRUList.SaveToIni(iniFile : TMemIniFile; section : string);
+procedure TMRUList.SaveToIni(iniFile : TTntMemIniFile; section : string);
 var
   i, n : integer;
 begin

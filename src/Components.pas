@@ -13,7 +13,8 @@ interface
 uses 
   StdCtrls, Classes, SysUtils, ExtCtrls, Messages, Windows, IniFiles,
   Graphics, Controls, Forms, Dialogs, ComCtrls, Grids, TntGrids,
-  TntStdCtrls;
+  TntStdCtrls,
+  UDragoIniFiles;
 
 type
     TIntEdit = class(TEdit)
@@ -107,7 +108,7 @@ type
 type
   TColorDialogSaveCustom = class(TColorDialog)
   public
-    IniFile : TMemIniFile;
+    IniFile : TDragoIniFile;
     function Execute: Boolean; override;
   private
     procedure LoadIniFile;

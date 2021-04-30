@@ -11,7 +11,7 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, Grids, TntGrids, SpTBXControls, StdCtrls, TntStdCtrls, SpTBXItem,
-  IniFiles, Buttons,
+  TntIniFiles, Buttons,
   EngineSettings, SpTBXEditors, ExtCtrls, CheckLst,
   TntCheckLst, ImgList;
 
@@ -70,9 +70,9 @@ type
     procedure GetEngineInformation(fromPathInput : boolean);
     procedure SetPathEditBoxText(text : WideString);
   public
-    procedure Initialize(iniFile : TMemIniFile);
+    procedure Initialize(iniFile : TTntMemIniFile);
     procedure Finalize;
-    procedure UpdateIniFile(iniFile : TMemIniFile);
+    procedure UpdateIniFile(iniFile : TTntMemIniFile);
     procedure PredefineEngine(engineName : string);
   end;
 
@@ -90,7 +90,7 @@ uses
 
 // -- Initialization, finalization and update of frame -----------------------
 
-procedure TfrCfgGameEngines.Initialize(iniFile : TMemIniFile);
+procedure TfrCfgGameEngines.Initialize(iniFile : TTntMemIniFile);
 var
   playingEngine, i : integer;
 begin
@@ -127,7 +127,7 @@ begin
   FEngineList.Free
 end;
 
-procedure TfrCfgGameEngines.UpdateIniFile(iniFile : TMemIniFile);
+procedure TfrCfgGameEngines.UpdateIniFile(iniFile : TTntMemIniFile);
 begin
   FEngineList.SaveIni(iniFile, Settings.UsePortablePaths, Status.AppPath)
 end;

@@ -25,7 +25,7 @@ U=1
 V=1
 W=0
 X=1
-Y=0
+Y=2
 Z=1
 ShowHints=1
 ShowWarnings=1
@@ -94,7 +94,7 @@ OutputDir=..\.
 UnitOutputDir=..\dcu
 PackageDLLOutputDir=
 PackageDCPOutputDir=
-SearchPath=
+SearchPath=..\dcu;D:\Borland\Delphi7\3rd\TNT\Source;D:\Borland\Delphi7\3rd\TB2K\Source;D:\Borland\Delphi7\3rd\SpTBXLib\Source;D:\Borland\Delphi7\3rd\Virtual Treeview\Source;D:\Gilles\Go\Drago\3rd\OneInstance;D:\Gilles\Go\Drago\3rd\FloatSpinEdit
 Packages=vcl;rtl;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;vclx;dbrtl;soaprtl;dsnap;VclSmp;dbexpress;vcldb;dbxcds;adortl;ibxpress;vclactnband;bdertl;vclshlctrls;dclOfficeXP;tb2k_d7;TntUnicodeVcl_R70;SpTBXLib_d7;VirtualTreesD7
 Conditionals=
 DebugSourceDirs=
@@ -109,7 +109,7 @@ DebugCWD=
 IncludeVerInfo=1
 AutoIncBuild=0
 MajorVer=4
-MinorVer=23
+MinorVer=24
 Release=0
 Build=0
 Debug=0
@@ -122,11 +122,24 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=www.godrago.net
 FileDescription=
-FileVersion=4.23.0.0
+FileVersion=4.24.0.0
 InternalName=
-LegalCopyright=Gilles Arcas-Luque 2004-2017
+LegalCopyright=Gilles Arcas-Luque 2004-2021
 LegalTrademarks=
 OriginalFilename=
 ProductName=Drago
-ProductVersion=4.23
+ProductVersion=4.24
 Comments=
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlSearchPath]
+Count=2
+Item0=..\dcu;D:\Borland\Delphi7\3rd\TNT\Source;D:\Borland\Delphi7\3rd\TB2K\Source;D:\Borland\Delphi7\3rd\SpTBXLib\Source;D:\Borland\Delphi7\3rd\Virtual Treeview\Source;D:\Gilles\Go\Drago\3rd\OneInstance;D:\Gilles\Go\Drago\3rd\FloatSpinEdit
+Item1=..\dcu;D:\Borland\Delphi7\3rd\TNT\Source;D:\Borland\Delphi7\3rd\TB2K\Source;D:\Borland\Delphi7\3rd\SpTBXLib\Source;D:\Borland\Delphi7\3rd\Virtual Treeview\Source;D:\Gilles\Go\Drago\3rd\OneInstance
+[HistoryLists\hlUnitOutputDirectory]
+Count=1
+Item0=..\dcu
+[HistoryLists\hlOutputDirectorry]
+Count=1
+Item0=..\.

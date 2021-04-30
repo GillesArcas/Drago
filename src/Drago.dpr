@@ -178,7 +178,8 @@ uses
   pngextra in '..\3rd\PngImage\pngextra.pas',
   pngimage in '..\3rd\PngImage\pngimage.pas',
   pnglang in '..\3rd\PngImage\pnglang.pas',
-  zlibpas in '..\3rd\PngImage\zlibpas.pas';
+  zlibpas in '..\3rd\PngImage\zlibpas.pas',
+  TntIniFiles in 'TntIniFiles.pas';
 
 {$R *.RES}
 
@@ -190,13 +191,11 @@ var
 begin
   UnregisterAsso(Application.ExeName, '.sgf', 'Drago.Document', ok);
   UnregisterAsso(Application.ExeName, '.mgt', 'Drago.Document', ok);
+  // TODO: could/should also remove LOCALAPPDATA\Drago directory
+  // TntSysUtils WideRemoveDir WideDeleteFile      fmCreate
 end;
 
 begin
-  // beware memchk is not unicode enabled.
-  // comment before release
-  //MemChk;
-
   Application.Initialize;
   Application.ShowMainForm := False;
 

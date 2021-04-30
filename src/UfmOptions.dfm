@@ -430,7 +430,7 @@ object fmOptions: TfmOptions
           Top = 27
           Width = 145
           Height = 21
-          ItemHeight = 0
+          ItemHeight = 13
           TabOrder = 0
           Text = 'cbThemes'
         end

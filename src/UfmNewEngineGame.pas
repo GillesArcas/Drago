@@ -9,7 +9,7 @@ unit UfmNewEngineGame;
 interface
 
 uses
-  Windows, Messages, Classes, Graphics, Controls, Forms, IniFiles, Dialogs,
+  Windows, Messages, Classes, Graphics, Controls, Forms, TntIniFiles, Dialogs,
   StdCtrls, ExtCtrls,
   DefineUi, EngineSettings, SpTBXControls, TntForms, TntStdCtrls, TntExtCtrls,
   SpTBXItem, ComCtrls, TntComCtrls, SpTBXEditors, UTimePicker, Menus,
@@ -79,7 +79,7 @@ type
     procedure btMoreEnginesClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure cbEnginesChange(Sender: TObject);
-    procedure SetupEngineList(iniFile : TMemIniFile);
+    procedure SetupEngineList(iniFile : TTntMemIniFile);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure TimeButtonClick(Sender: TObject);
     procedure mnEngineSettingsClick(Sender: TObject);
@@ -347,7 +347,7 @@ end;
 
 // -- Load list of engines and setup engines combo ---------------------------
 
-procedure TfmNewEngineGame.SetupEngineList(iniFile : TMemIniFile);
+procedure TfmNewEngineGame.SetupEngineList(iniFile : TTntMemIniFile);
 var
   playingEngine : integer;
 begin

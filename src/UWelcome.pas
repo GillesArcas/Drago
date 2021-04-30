@@ -53,7 +53,7 @@ uses
 
 procedure WelcomeFirstTime;
 begin
-  if not WideFileExists(WideChangeFileExt(TntApplication.ExeName, '.ini')) then
+  if not WideFileExists(DragoIniFileName) then
      begin
         fmWelcome := TfmWelcome.Create(Application);
         fmWelcome.ShowModal;
@@ -65,6 +65,7 @@ procedure TfmWelcome.FormCreate(Sender: TObject);
 var
   languages : TWideStringList;
   i : integer;
+  b: boolean;
 begin
   Caption := AppName;
 
@@ -102,7 +103,7 @@ var
   ok : boolean;
 begin
   // create 
-  IniFile := TDragoIniFile.Create(ChangeFileExt(ParamStr(0), '.ini'));
+  IniFile := TDragoIniFile.Create(DragoIniFileName);
   CreateIniFile(IniFile);
   Actions.DefaultShortCut(Inifile);
 

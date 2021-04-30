@@ -15,7 +15,7 @@ object frDBPickerCaption: TfrDBPickerCaption
   object Label1: TTntLabel
     Left = 10
     Top = 0
-    Width = 31
+    Width = 32
     Height = 13
     Caption = 'Label1'
     Transparent = False

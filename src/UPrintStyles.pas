@@ -9,18 +9,18 @@ unit UPrintStyles;
 interface
 
 uses
-  IniFiles, Classes;
+  TntIniFiles, TntClasses;
 
 type
   TPrintSettings = array[1 .. 29] of string;
 
-procedure CreatePrintIniFile(IniFile : TMemIniFile);
-procedure LoadPrintIniFile(iniFile : TMemIniFile);
-procedure SavePrintStyle(IniFile : TMemIniFile; style : string);
-procedure SavePrintIniFile(iniFile : TMemIniFile);
+procedure CreatePrintIniFile(IniFile : TTntMemIniFile);
+procedure LoadPrintIniFile(iniFile : TTntMemIniFile);
+procedure SavePrintStyle(IniFile : TTntMemIniFile; style : string);
+procedure SavePrintIniFile(iniFile : TTntMemIniFile);
 
-procedure LoadPrintStyle(IniFile : TMemIniFile; style : string);
-procedure WritePrintStyle(IniFile  : TMemIniFile;
+procedure LoadPrintStyle(IniFile : TTntMemIniFile; style : string);
+procedure WritePrintStyle(IniFile  : TTntMemIniFile;
                           Style    : string;
                           Settings : TPrintSettings);
 
@@ -377,7 +377,7 @@ uses
 
 // ---------------------------------------------------------------------------
 
-procedure WritePrintStyle(IniFile  : TMemIniFile;
+procedure WritePrintStyle(IniFile  : TTntMemIniFile;
                           Style    : string;
                           Settings : TPrintSettings);
 var
@@ -390,7 +390,7 @@ end;
 
 // -- Loading of a printing style --------------------------------------------
 
-procedure LoadPrintStyle(IniFile : TMemIniFile; style : string);
+procedure LoadPrintStyle(IniFile : TTntMemIniFile; style : string);
 var
   n : integer;
   st : TStatus;
@@ -445,7 +445,7 @@ begin
 
 // -- Saving of a printing style ---------------------------------------------
 
-procedure SavePrintStyle(IniFile : TMemIniFile; style : string);
+procedure SavePrintStyle(IniFile : TTntMemIniFile; style : string);
 var
   st : TStatus;
 begin
@@ -496,7 +496,7 @@ end;
 
 // -- Creation in inifile of predefined printing styles ----------------------
 
-procedure CreatePrintIniFile(IniFile : TMemIniFile);
+procedure CreatePrintIniFile(IniFile : TTntMemIniFile);
 begin
   WritePrintStyle(IniFile, 'Print'                   , Print_Default);
   WritePrintStyle(IniFile, 'Print-Default'           , Print_Default);
@@ -511,11 +511,11 @@ end;
 
 // -- Loading of printing settings -------------------------------------------
 
-procedure LoadPrintIniFile(iniFile : TMemIniFile);
+procedure LoadPrintIniFile(iniFile : TTntMemIniFile);
 var
   st : TStatus;
   n : integer;
-  list : TStringList;
+  list : TTntStringList;
 begin
   st := Settings;
 
@@ -540,16 +540,16 @@ begin
       st.PrExportPosDiam := ReadInteger('Print', 'ExportPosDiam', 20);
       st.PrDPI           := ReadInteger('Print', 'DPI'        , 360);
       st.AscDrawEdge     := ReadBool   ('Ascii', 'DrawEdge'   , True);
-      st.AscBlackChar    := ReadString ('Ascii', 'BlackChar'  , 'X')[1];
-      st.AscWhiteChar    := ReadString ('Ascii', 'WhiteChar'  , 'O')[1];
-      st.AscHoshi        := ReadString ('Ascii', 'Hoshi'      , ',')[1];
+      st.AscBlackChar    := AnsiChar(ReadString('Ascii', 'BlackChar', 'X')[1]);
+      st.AscWhiteChar    := AnsiChar(ReadString('Ascii', 'WhiteChar', 'O')[1]);
+      st.AscHoshi        := AnsiChar(ReadString('Ascii', 'Hoshi'    , ',')[1]);
 
       // read current style
       LoadPrintStyle(iniFile, 'Print');
 
       // read list of styles
       Status.PrStyles.Clear;
-      list := TStringList.Create;
+      list := TTntStringList.Create;
       ReadSections(list);
       for n := 0 to list.Count - 1 do
         if Copy(list[n], 1, 5) = 'Print' then
@@ -562,7 +562,7 @@ end;
 
 // -- Saving of printing settings --------------------------------------------
 
-procedure SavePrintIniFile(iniFile : TMemIniFile);
+procedure SavePrintIniFile(iniFile : TTntMemIniFile);
 var
   st : TStatus;
 begin

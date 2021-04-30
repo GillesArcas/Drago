@@ -10,8 +10,8 @@ interface
 
 uses
   SysUtils,
-  IniFiles,
   Classes, ClassesEx,
+  TntIniFiles,
   Define, DefineUi, UDragoIniFiles,
   {$ifndef FPC}UBackground{$else}UBackground_FPC{$endif},
   EngineSettings,
@@ -352,7 +352,7 @@ type
 
     procedure LoadIniFile(iniFile : TDragoIniFile);
     procedure SaveIniFile(iniFile : TDragoIniFile);
-    procedure UpdateIniFile(iniFile : TMemIniFile);
+    procedure UpdateIniFile(iniFile : TTntMemIniFile);
     procedure Default_Database;
 
     function  VarStyle  : TVarStyle;
@@ -360,8 +360,8 @@ type
   private
     procedure LoadGobanIniFile(iniFile : TDragoIniFile);
     procedure SaveGobanIniFile(iniFile : TDragoIniFile);
-    procedure LoadTreeIniFile(iniFile : TMemIniFile);
-    procedure SaveTreeIniFile(iniFile : TMemIniFile);
+    procedure LoadTreeIniFile(iniFile : TDragoIniFile);
+    procedure SaveTreeIniFile(iniFile : TDragoIniFile);
     procedure LoadIniFile_Database(iniFile : TDragoIniFile);
     procedure SaveIniFile_Database(iniFile : TDragoIniFile);
   end;
@@ -482,11 +482,14 @@ const
 
 // ---------------------------------------------------------------------------
 
-procedure CreateIniFile(IniFile : TMemIniFile);
+procedure CreateIniFile(IniFile : TDragoIniFile);
 function Status : TStatus;
 function Settings : TStatus;
 function AppRelativePath(const path : WideString) : WideString;
 function AppAbsolutePath(const path : WideString) : WideString;
+
+function SettingsDirectory : WideString;
+function DragoIniFileName : WideString;
 
 // ---------------------------------------------------------------------------
 
@@ -497,6 +500,7 @@ uses
   WinUtils,
   TntForms,
   {$endif}
+  TntSysUtils, TntSystem,
   Std, SysUtilsEx, UPrintStyles;
 
 // ---------------------------------------------------------------------------
@@ -504,6 +508,43 @@ uses
 
 var
   startingDir : WideString;
+
+// Names
+// TODO: check versus functions in UDragoIniFiles
+
+function UserDir : WideString;
+begin
+  Result := GetLocalAppDataW + '\Drago'
+end;
+
+function SettingsDirectory : WideString;
+// In case of portable install: return the calling directory by detecting the
+// file DragoPortable.ini (which is added by the install)
+// In case of standard install: return the path LOCALAPPDATA\Drago making sure
+// it exists.
+var
+  userDir, exeDir : WideString;
+begin
+  userDir := GetLocalAppDataW + '\Drago';
+  exeDir := WideExtractFilePath(WideParamStr(0));
+  if WideFileExists(exeDir + '\DragoPortable.ini')
+    then Result := exeDir
+    else                                            
+      begin
+          WideForceDirectories(userDir);
+          Result := userDir
+      end
+end;
+
+function DragoIniFileName : WideString;
+begin
+  Result := SettingsDirectory + '\Drago.ini'
+end;
+
+function IniFullName(const basename : string) : WideString;
+begin
+  Result := UserDir + '\' + basename
+end;
 
 // == Implementation of application status ===================================
 //
@@ -530,6 +571,8 @@ begin
 end;
 
 // -- Access, destruction ----------------------------------------------------
+
+//TODO: use Settings. when relevant
 
 // should be used for data not accessible to user
 function Status : TStatus;
@@ -702,7 +745,7 @@ end;
 
 // -- Creation (when installing) of Ini file ---------------------------------
 
-procedure CreateIniFile(IniFile : TMemIniFile);
+procedure CreateIniFile(IniFile : TDragoIniFile);
 begin
   with IniFile do
     begin
@@ -801,7 +844,7 @@ end;
 
 // -- Saving and loading of game tree settings -------------------------------
 
-procedure TStatus.LoadTreeIniFile(iniFile : TMemIniFile);
+procedure TStatus.LoadTreeIniFile(iniFile : TDragoIniFile);
 const
   section = 'Tree';
 begin
@@ -817,7 +860,7 @@ begin
     end
 end;
 
-procedure TStatus.SaveTreeIniFile(iniFile : TMemIniFile);
+procedure TStatus.SaveTreeIniFile(iniFile : TDragoIniFile);
 const
   section = 'Tree';
 begin
@@ -1372,7 +1415,7 @@ begin
   Result := (n11 < n21) or (n12 < n22) or (n13 < n23)
 end;
 
-procedure TStatus.UpdateIniFile(iniFile : TMemIniFile);
+procedure TStatus.UpdateIniFile(iniFile : TTntMemIniFile);
 var
   version : string;
   x : boolean;
@@ -1413,6 +1456,7 @@ end;
 // ---------------------------------------------------------------------------
 
 initialization
+  // TODO: remove startingDir ?
   startingDir := WideExtractFilePath(WideApplicationExeName);
   TStatus.Create;
 finalization

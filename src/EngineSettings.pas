@@ -5,7 +5,8 @@ unit EngineSettings;
 interface
 
 uses
-  Classes, IniFiles, ClassesEx;
+  Classes, IniFiles, ClassesEx,
+  TntIniFiles;
 
 const
   EnginesConfig = 'engines.config';
@@ -66,19 +67,19 @@ type
   private
     function  EncodeFeatures : integer;
     procedure DecodeFeatures(code : integer);
-    procedure LoadIni(iniFile : TMemIniFile; index : integer;
+    procedure LoadIni(iniFile : TTntMemIniFile; index : integer;
                       usePortablePaths : boolean;
                       const appPath : WideString);
-    procedure SaveIni(iniFile : TMemIniFile; index : integer;
+    procedure SaveIni(iniFile : TTntMemIniFile; index : integer;
                       usePortablePaths : boolean;
                       const appPath : WideString);
     function  MatchKey(boardsize, level : integer) : string;
   public
     constructor Create(const name : string = '');
-    procedure LoadPlayingEngine(iniFile : TMemIniFile;
+    procedure LoadPlayingEngine(iniFile : TTntMemIniFile;
                                 usePortablePaths : boolean;
                                 const appPath : WideString);
-    procedure LoadAnalysisEngine(iniFile : TMemIniFile;
+    procedure LoadAnalysisEngine(iniFile : TTntMemIniFile;
                                  usePortablePaths : boolean;
                                  const appPath : WideString);
     procedure ReadPredefinedSettings(iniFile : TMemIniFile; const engineName : string); overload;
@@ -87,10 +88,10 @@ type
     function  IsConcerned(const value : string) : boolean;
     function  IsGtpTimeCommandRequired : boolean;
     procedure SetFeaturesFromString(const commands : string);
-    procedure ReadMatch(iniFile : TMemIniFile;
+    procedure ReadMatch(iniFile : TTntMemIniFile;
                         boardsize, level : integer;
                         var engineColor, handicap : integer);
-    procedure SaveMatch(iniFile : TMemIniFile;
+    procedure SaveMatch(iniFile : TTntMemIniFile;
                         boardsize, level : integer;
                         engineColor, handicap : integer;
                         engineWin : boolean);
@@ -100,11 +101,11 @@ type
   public
     destructor  Destroy; override;
     procedure Clear; override;
-    procedure LoadIni(iniFile : TMemIniFile;
+    procedure LoadIni(iniFile : TTntMemIniFile;
                       usePortablePaths : boolean; const appPath : WideString);
-    procedure SaveIni(iniFile : TMemIniFile;
+    procedure SaveIni(iniFile : TTntMemIniFile;
                       usePortablePaths : boolean; const appPath : WideString);
-    function  IndexOfPlayingEngine(iniFile : TMemIniFile) : integer;
+    function  IndexOfPlayingEngine(iniFile : TTntMemIniFile) : integer;
     function  Nth(index : integer) : TEngineSettings;
     procedure ToggleGameUsage(index : integer);
     procedure ToggleAnalysisUsage(index : integer);
@@ -269,22 +270,24 @@ const
 // Load description number "index" in inifile, for instance:
 // 1=GNU Go 3.8;Gnu Go;D:\GnuGo\gnugo-3.8rc1.exe;;959;1;0
 
-procedure TEngineSettings.LoadIni(iniFile : TMemIniFile;
+procedure TEngineSettings.LoadIni(iniFile : TTntMemIniFile;
                                   index : integer;
                                   usePortablePaths : boolean;
                                   const appPath : WideString);
 var
   key, s : string;
+  ws : WideString;
   strings : TStringDynArray;
 begin
   key := IntToStr(index);
-  s := iniFile.ReadString('Engine', key, '');
+  ws := iniFile.ReadString('Engine', key, '');
+  s := string(ws);
   Split(s, strings, ';');
   SetLength(strings, geDescrLength);
 
-  FName            := UTF8Decode(strings[geName]);
+  FName            := string(strings[geName]); ///ICI UTF8Decode(strings[geName]);
   FRefEngine       := strings[geRef];
-  FPath            := UTF8Decode(strings[gePath]);
+  FPath            := string(strings[gePath]); ///ICI UTF8Decode(strings[gePath]);
   if usePortablePaths
     then FPath := WideAbsolutePath(FPath, appPath);
   FCustomArgs      := strings[geCustomArgs];
@@ -292,18 +295,19 @@ begin
   FUsedForAnalysis := strings[geUsedForScore] = '1';
   FLevel           := StrToIntDef(strings[geLevel], DefaultLevel);
 
-  ReadPredefinedSettings(ExtractFilePath(iniFile.FileName), FRefEngine);
+  ///ICIReadPredefinedSettings(ExtractFilePath(iniFile.FileName), FRefEngine);
+  ReadPredefinedSettings(appPath, FRefEngine);
   DecodeFeatures(StrToIntDef(strings[geFeatures], 0));
 
   // must be set again as they are reset by ReadPredefinedSettings
-  FName := UTF8Decode(strings[geName]);
-  FPath := UTF8Decode(strings[gePath]);
+  FName := string(strings[geName]); ///ICI UTF8Decode(strings[geName]);
+  FPath := string(strings[gePath]); ///ICI UTF8Decode(strings[gePath]);
   FCustomArgs := strings[geCustomArgs]
 end;
 
 // Index of user engines
 
-function IndexOfUserEngine(iniFile : TMemIniFile; const key : string) : integer;
+function IndexOfUserEngine(iniFile : TTntMemIniFile; const key : string) : integer;
 begin
   Result := iniFile.ReadInteger('Engine', 'Count', 0);
 
@@ -320,7 +324,7 @@ end;
 
 // Load playing and analysis engines
 
-procedure TEngineSettings.LoadPlayingEngine(iniFile : TMemIniFile;
+procedure TEngineSettings.LoadPlayingEngine(iniFile : TTntMemIniFile;
                                             usePortablePaths : boolean;
                                             const appPath : WideString);
 var
@@ -332,7 +336,7 @@ begin
     else LoadIni(iniFile, index, usePortablePaths, appPath)
 end;
 
-procedure TEngineSettings.LoadAnalysisEngine(iniFile : TMemIniFile;
+procedure TEngineSettings.LoadAnalysisEngine(iniFile : TTntMemIniFile;
                                              usePortablePaths : boolean;
                                              const appPath : WideString);
 var
@@ -353,7 +357,7 @@ end;
 
 // Construction of string engine description
 
-procedure TEngineSettings.SaveIni(iniFile : TMemIniFile;
+procedure TEngineSettings.SaveIni(iniFile : TTntMemIniFile;
                                   index : integer;
                                   usePortablePaths : boolean;
                                   const appPath : WideString);
@@ -388,7 +392,7 @@ end;
 
 // Save or retry from inifile player and handicap for engine, boardsize, level
 
-procedure TEngineSettings.ReadMatch(iniFile : TMemIniFile;
+procedure TEngineSettings.ReadMatch(iniFile : TTntMemIniFile;
                                     boardsize, level : integer;
                                     var engineColor, handicap : integer);
 var
@@ -410,7 +414,7 @@ begin
       end
 end;
 
-procedure TEngineSettings.SaveMatch(iniFile : TMemIniFile;
+procedure TEngineSettings.SaveMatch(iniFile : TTntMemIniFile;
                                     boardsize, level : integer;
                                     engineColor, handicap : integer;
                                     engineWin : boolean);
@@ -495,7 +499,7 @@ end;
 
 // Read the list of engine descriptions in inifile
 
-procedure TEngineSettingList.LoadIni(iniFile : TMemIniFile;
+procedure TEngineSettingList.LoadIni(iniFile : TTntMemIniFile;
                                      usePortablePaths : boolean;
                                      const appPath : WideString);
 var
@@ -513,7 +517,7 @@ begin
     end
 end;
 
-procedure TEngineSettingList.SaveIni(iniFile : TMemIniFile;
+procedure TEngineSettingList.SaveIni(iniFile : TTntMemIniFile;
                                      usePortablePaths : boolean;
                                      const appPath : WideString);
 var
@@ -532,7 +536,7 @@ begin
     Nth(i).SaveIni(iniFile, i + 1, usePortablePaths, appPath)
 end;
 
-function TEngineSettingList.IndexOfPlayingEngine(iniFile : TMemIniFile) : integer;
+function TEngineSettingList.IndexOfPlayingEngine(iniFile : TTntMemIniFile) : integer;
 begin
   Result := IndexOfUserEngine(iniFile, 'PlayingEngine')
 end;

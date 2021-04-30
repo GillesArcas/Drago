@@ -10,7 +10,8 @@ interface
 
 uses
   SysUtils, Classes, Controls, StdActns, Forms, Menus, ActnList, ComCtrls,
-  Windows, IniFiles, ImgList, Dialogs, TntActnList, TntClasses,
+  Windows, IniFiles, ImgList, Dialogs,
+  TntActnList, TntClasses, TntIniFiles,
   UViewMain;
 
 type
@@ -310,7 +311,7 @@ type
     procedure EnableAll(state : boolean);
     procedure EnableCategory(aCategory : string; state : boolean);
     procedure EnableEditShortcuts(enable : boolean);
-    procedure DefaultShortCut(iniFile : TMemIniFile);
+    procedure DefaultShortCut(iniFile : TTntMemIniFile);
     function  ModeInterToAction(kmi : integer) : TAction;
     procedure SetModeInter(mode : integer);
   end;
@@ -1384,7 +1385,7 @@ end;
 
 // -- Default shortcuts ------------------------------------------------------
 
-procedure TActions.DefaultShortCut(iniFile : TMemIniFile);
+procedure TActions.DefaultShortCut(iniFile : TTntMemIniFile);
 
 procedure Default(ident : string; key : word; shift: TShiftState);
 begin

@@ -639,8 +639,7 @@ var
   filename : string;
 begin
   // alloc and init context (use GetLocalAppData if needed)
-  IniFile := TDragoIniFile.Create(ChangeFileExt(ParamStr(0), '.ini'));
-  //IniFile := TDragoIniFile.Create(GetCommonAppData + '\Drago.ini');
+  IniFile := TDragoIniFile.Create(DragoIniFileName);
   Status.Default;
   CurrentViewMain  := nil;
   CurrentViewBoard := nil;

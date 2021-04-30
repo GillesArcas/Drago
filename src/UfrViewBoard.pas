@@ -10,7 +10,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, 
-  ExtCtrls, ComCtrls, TntStdCtrls, SpTBXControls, StdCtrls, Types, IniFiles,
+  ExtCtrls, ComCtrls, TntStdCtrls, SpTBXControls, StdCtrls, Types, TntIniFiles,
   UfrVariations, Components,
   UViewMain, TB2Dock, SpTBXItem, SpTBXDkPanels, TB2Item,
   ImgList, TB2Toolbar, Menus, SpTBXEditors, USideBar, TntForms,
@@ -232,8 +232,8 @@ type
     procedure Translate;
     procedure EnterView;
     procedure ExitView;
-    procedure SaveIniFile(iniFile : TMemIniFile; section : string);
-    procedure LoadIniFile(iniFile : TMemIniFile; section : string);
+    procedure SaveIniFile(iniFile : TTntMemIniFile; section : string);
+    procedure LoadIniFile(iniFile : TTntMemIniFile; section : string);
     procedure ResizeGoban;
     procedure ResizeAutoReplayBars;
     procedure SetEngineTimer(player : integer; state : boolean);
@@ -261,8 +261,8 @@ type
                                    Button : TMouseButton;
                                    Shift  : TShiftState;
                                    X, Y   : Integer);
-    procedure SaveSideBar(iniFile : TMemIniFile; section : string);
-    procedure LoadSideBar(iniFile : TMemIniFile; section : string);
+    procedure SaveSideBar(iniFile : TTntMemIniFile; section : string);
+    procedure LoadSideBar(iniFile : TTntMemIniFile; section : string);
     procedure ShowPanelAtPos(dp : TSpTBXDockablePanel; pos : integer);
     procedure ShowPanelAtDefaultPos(dp : TSpTBXDockablePanel);
     procedure TogglePanel(dp : TSpTBXDockablePanel);
@@ -280,7 +280,7 @@ implementation
 {$R *.dfm}
 
 uses
-  Dialogs, StrUtils,
+  Dialogs, StrUtils, IniFiles,
   TntGraphics,
   Define, DefineUi, Std, Translate, UStatus, Main, UViewBoardPanels,
   UMainUtil, VclUtils, UGoban, UViewBoard, Ugcom, UActions, UView,
@@ -768,7 +768,7 @@ end;
 
 // -- Persistence ------------------------------------------------------------
 
-procedure TfrViewBoard.SaveIniFile(iniFile : TMemIniFile; section : string);
+procedure TfrViewBoard.SaveIniFile(iniFile : TTntMemIniFile; section : string);
 begin
   iniFile.WriteBool(section, 'VSpliterMiniMized', VSplitter.Minimized);
   if VSplitter.Minimized
@@ -777,7 +777,7 @@ begin
   SaveSideBar(inifile, section)
 end;
 
-procedure TfrViewBoard.LoadIniFile(iniFile : TMemIniFile; section : string);
+procedure TfrViewBoard.LoadIniFile(iniFile : TTntMemIniFile; section : string);
 begin
   LoadSideBar(inifile, section);
 
@@ -1603,14 +1603,34 @@ end;
 
 // -- Persistence
 
-procedure TfrViewBoard.SaveSideBar(iniFile : TMemIniFile; section : string);
+procedure SpTBTntIniSavePositions(owner: TComponent; iniFile : TTntMemIniFile; section : string);
+var
+  tmpIni : TMemIniFile;
 begin
-  SpTBIniSavePositions(self, inifile, section);
+  tmpIni := TMemIniFile.Create('');
+  SpTBIniSavePositions(owner, tmpIni, section);
+  CopyIniToTntIni(tmpIni, iniFile);
+  tmpIni.Free;
 end;
 
-procedure TfrViewBoard.LoadSideBar(iniFile : TMemIniFile; section : string);
+procedure SpTBTntIniLoadPositions(owner: TComponent; iniFile : TTntMemIniFile; section : string);
+var
+  tmpIni : TMemIniFile;
 begin
-  SpTBIniLoadPositions(self, inifile, section);
+  tmpIni := TMemIniFile.Create('');
+  CopyTntIniToIni(iniFile, tmpIni, section);
+  SpTBIniLoadPositions(owner, tmpIni, section);
+  tmpIni.Free;
+end;
+
+procedure TfrViewBoard.SaveSideBar(iniFile : TTntMemIniFile; section : string);
+begin
+  SpTBTntIniSavePositions(self, inifile, section)
+end;
+
+procedure TfrViewBoard.LoadSideBar(iniFile : TTntMemIniFile; section : string);
+begin
+  SpTBTntIniLoadPositions(self, iniFile, section);
   if dpGameInfo.Visible
     then (View as TViewBoard).UpdateGameInformation
 end;

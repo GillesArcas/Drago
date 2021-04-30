@@ -43,7 +43,7 @@ procedure WaitWhileGtpActive(gtp : TGtp);
 implementation
 
 uses
-  Types, DateUtils, IniFiles,
+  Types, DateUtils, TntIniFiles,
   DosCommand,
   Define, DefineUi, Std, Ux2y, Properties, Main, UActions, UGcom, UGmisc, UMainUtil,
   UfmNewEngineGame, UStatusMain, Sgfio,
@@ -657,7 +657,7 @@ end;
 
 // -- Update auto handicap
 
-procedure UpdateMatch(iniFile : TMemIniFile;
+procedure UpdateMatch(iniFile : TTntMemIniFile;
                       engineColor, handi : integer; engineWin : boolean);
 begin
   Settings.PlayingEngine.SaveMatch(iniFile, Settings.BoardSize,

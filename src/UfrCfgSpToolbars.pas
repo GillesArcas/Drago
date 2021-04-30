@@ -11,7 +11,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ComCtrls, ActnList, IniFiles,
+  Dialogs, StdCtrls, ComCtrls, ActnList,
   TB2Item, TB2Toolbar, TB2Dock, Buttons, ExtCtrls,
   TntStdCtrls, TntClasses, TntComCtrls, TntActnList, TntSystem,
   SpTBXItem;
@@ -59,7 +59,8 @@ implementation
 
 {$R *.dfm}
 
-uses Std, UActions, Main, Translate;
+uses 
+  Std, UActions, Main, Translate, IniFiles, TntIniFiles, UDragoIniFiles;
 
 // -- Forwards ---------------------------------------------------------------
 
@@ -425,6 +426,26 @@ end;
 
 // -- Saving and loading of toolbars configuration ---------------------------
 
+procedure TBTntIniSavePositions(owner: TComponent; iniFile : TDragoIniFile; section : string);
+var
+  tmpIni : TMemIniFile;
+begin
+  tmpIni := TMemIniFile.Create('');
+  TBIniSavePositions(owner, tmpIni, section);
+  CopyIniToTntIni(tmpIni, iniFile);
+  tmpIni.Free;
+end;
+
+procedure TBTntIniLoadPositions(owner: TComponent; iniFile : TDragoIniFile; section : string);
+var
+  tmpIni : TMemIniFile;
+begin
+  tmpIni := TMemIniFile.Create('');
+  CopyTntIniToIni(iniFile, tmpIni, section);
+  TBIniLoadPositions(owner, tmpIni, section);
+  tmpIni.Free;
+end;
+
 // -- Saving
 
 procedure SaveToolbarIniFile;
@@ -433,7 +454,7 @@ var
   tb : TSpTBXToolbar;
   s : string;
 begin
-  TBIniSavePositions(fmMain, fmMain.IniFile, 'Toolbars-');
+  TBTntIniSavePositions(fmMain, fmMain.IniFile, 'Toolbars-');
 
   with fmMain do
     for k := 0 To ComponentCount - 1 do
@@ -475,7 +496,7 @@ var
   s, ac : string;
   list : TList;
 begin
-  TBIniLoadPositions(fmMain, fmMain.IniFile, 'Toolbars-');
+  TBTntIniLoadPositions(fmMain, fmMain.IniFile, 'Toolbars-');
 
   list := ListOfToolbars;
 

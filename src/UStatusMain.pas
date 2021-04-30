@@ -3,7 +3,7 @@ unit UStatusMain;
 interface
 
 uses
-  SysUtils, IniFiles, ClassesEx;
+  SysUtils, TntIniFiles, ClassesEx;
 
 type
   TStatusMain = class
@@ -27,12 +27,12 @@ type
 
     constructor Create;
     destructor Destroy; override;
-    procedure LoadIniFile(iniFile : TMemIniFile);
-    procedure SaveIniFile(iniFile : TMemIniFile);
-    procedure LoadTabs(iniFile : TMemIniFile);
-    procedure SaveTabs(iniFile : TMemIniFile);
+    procedure LoadIniFile(iniFile : TTntMemIniFile);
+    procedure SaveIniFile(iniFile : TTntMemIniFile);
+    procedure LoadTabs(iniFile : TTntMemIniFile);
+    procedure SaveTabs(iniFile : TTntMemIniFile);
   private
-    procedure CleanDeadIniTabs(iniFile : TMemIniFile);
+    procedure CleanDeadIniTabs(iniFile : TTntMemIniFile);
   end;
 
 function StatusMain : TStatusMain;
@@ -44,7 +44,7 @@ const
 implementation
 
 uses
-  Classes, StrUtils,
+  TntClasses, StrUtils,
   DefineUi, UActions, UfrCfgSpToolbars, UfrCfgShortcuts, UfmMsg, UStatus,
   UGCom, Main, UViewBoard, UThemes, UMainUtil, UInstStatus;
 
@@ -89,7 +89,7 @@ begin
   Result := TheSingleton as TStatusMain
 end;
 
-procedure TStatusMain.LoadIniFile(iniFile : TMemIniFile);
+procedure TStatusMain.LoadIniFile(iniFile : TTntMemIniFile);
 var
   s : string;
   n : integer;
@@ -126,7 +126,7 @@ begin
   UfrCfgSpToolbars.LoadToolbarIniFile;
 end;
 
-procedure TStatusMain.SaveIniFile(iniFile : TMemIniFile);
+procedure TStatusMain.SaveIniFile(iniFile : TTntMemIniFile);
 begin
   with iniFile do
     begin
@@ -153,7 +153,7 @@ end;
 
 // -- Loading and saving tabs ------------------------------------------------
 
-procedure TStatusMain.LoadTabs(iniFile : TMemIniFile);
+procedure TStatusMain.LoadTabs(iniFile : TTntMemIniFile);
 var
   i, n1, n2, index, l1, l2, l3, l4, view, side : integer;
   section, path : AnsiString;
@@ -209,7 +209,7 @@ begin
   result := (si.FileName <> '') and (si.ModeInter <> kimTU)
 end;
 
-procedure TStatusMain.SaveTabs(iniFile : TMemIniFile);
+procedure TStatusMain.SaveTabs(iniFile : TTntMemIniFile);
 var
   i, count, activeIndex, vm : integer;
   view : TViewBoard;
@@ -262,13 +262,13 @@ begin
   CleanDeadIniTabs(iniFile)
 end;
 
-procedure TStatusMain.CleanDeadIniTabs(iniFile : TMemIniFile);
+procedure TStatusMain.CleanDeadIniTabs(iniFile : TTntMemIniFile);
 var
-  listOfSections : TStringList;
+  listOfSections : TTntStringList;
   i, k, count : integer;
   section : AnsiString;
 begin
-  listOfSections := TStringList.Create;
+  listOfSections := TTntStringList.Create;
 
   try
     iniFile.ReadSections(listOfSections);

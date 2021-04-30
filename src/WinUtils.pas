@@ -36,8 +36,7 @@ procedure OverwriteProcedure(OldProcedure, NewProcedure: pointer);
 implementation
 
 uses
-  Windows, Messages, SysUtils, ComObj, ShellAPI,
-  ShFolder;
+  Windows, Messages, SysUtils, ComObj, ShellAPI, ShFolder;
 
 // -- Search for Windows folder ----------------------------------------------
 

@@ -9,7 +9,7 @@ unit UBackGround;
 interface
 
 uses
-  Windows, Graphics, IniFiles,
+  Windows, Graphics, TntIniFiles,
   DefineUi;
 
 type
@@ -27,10 +27,10 @@ type
     procedure   Assign(source : TBackground);
     procedure   Update;
     procedure   Apply(canvas : TCanvas; rect : TRect);
-    procedure   LoadIni(iniFile : TMemIniFile;
+    procedure   LoadIni(iniFile : TTntMemIniFile;
                         const section, prefixe : string;
                         defaultStyle : TBackStyle = bsDefaultTexture);
-    procedure   SaveIni(iniFile : TMemIniFile;
+    procedure   SaveIni(iniFile : TTntMemIniFile;
                         const section, prefixe : string);
   end;
 
@@ -166,7 +166,7 @@ end;
 
 // -- Loading of ini file
 
-procedure TBackground.LoadIni(iniFile : TMemIniFile;
+procedure TBackground.LoadIni(iniFile : TTntMemIniFile;
                               const section, prefixe : string;
                               defaultStyle : TBackStyle = bsDefaultTexture);
 var
@@ -185,7 +185,7 @@ end;
 
 // -- Saving of ini file
 
-procedure TBackground.SaveIni(iniFile : TMemIniFile;
+procedure TBackground.SaveIni(iniFile : TTntMemIniFile;
                               const section, prefixe : string);
 begin
   with iniFile do

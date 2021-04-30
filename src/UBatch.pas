@@ -65,10 +65,10 @@ procedure ApplyBatch(batchName, reference, result : string; logProc : TLogProc;
 var
   view : TView;
   IniFile : TDragoIniFile;
-  iniName, bakName : string;
+  iniName, bakName : WideString;
 begin
-  iniName := ChangeFileExt(ParamStr(0), '.ini');
-  bakName := ChangeFileExt(ParamStr(0), '.ini.bak');
+  iniName := DragoIniFileName;
+  bakName := DragoIniFileName + '.bak';
 
   PartialTiming := -1;
   MilliTimer;
@@ -234,7 +234,7 @@ begin
 
   if not ok then
     begin
-      IniFile := TDragoIniFile.Create(ChangeFileExt(ParamStr(0), '.ini'));
+      IniFile := TDragoIniFile.Create(DragoIniFileName);
       IniFile.WriteString(section, key, value);
       IniFile.UpdateFile;
       Settings.LoadIniFile(IniFile);

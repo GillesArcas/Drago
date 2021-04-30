@@ -1,6 +1,6 @@
 object fmMain: TfmMain
-  Left = 276
-  Top = 176
+  Left = 230
+  Top = 149
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
   AutoScroll = False

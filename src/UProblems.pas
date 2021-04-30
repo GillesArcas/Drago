@@ -9,7 +9,7 @@ unit UProblems;
 interface
 
 uses
-  Dialogs, Sysutils, Classes, Types, StdCtrls, Forms, Controls, Graphics,
+  Dialogs, Sysutils, TntClasses, Types, StdCtrls, Forms, Controls, Graphics,
   TntStdCtrls,
   UViewMain, UViewBoard, UfrViewBoard;
 
@@ -291,10 +291,10 @@ end;
 
 procedure ClearSections(const prefix : string);
 var
-  sections : TStringList;
+  sections : TTntStringList;
   i : integer;
 begin
-  sections := TStringList.Create;
+  sections := TTntStringList.Create;
   try
     fmMain.IniFile.ReadSections(sections);
     for i := 0 to sections.Count - 1 do

@@ -10,7 +10,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ComCtrls, Menus, IniFiles, Buttons, ExtCtrls, ActnList, 
+  Dialogs, StdCtrls, ComCtrls, Menus, TntIniFiles, Buttons, ExtCtrls, ActnList, 
   ShortCutEdit,
   TntComCtrls, TntSystem, TntActnList, 
   TntStdCtrls;
@@ -48,8 +48,8 @@ type
     procedure Update    (al : TActionList);
   end;
 
-procedure SaveToIni  (al : TActionList; iniFile : TMemIniFile);
-procedure LoadFromIni(al : TActionList; iniFile : TMemIniFile);
+procedure SaveToIni  (al : TActionList; iniFile : TTntMemIniFile);
+procedure LoadFromIni(al : TActionList; iniFile : TTntMemIniFile);
 procedure UpdateMenuForShortcuts(al : TActionList);
 
 // ---------------------------------------------------------------------------
@@ -305,7 +305,7 @@ end;
 
 // -- Saving
 
-procedure SaveToIni(al : TActionList; iniFile : TMemIniFile);
+procedure SaveToIni(al : TActionList; iniFile : TTntMemIniFile);
 var
   i : integer;
 begin
@@ -319,7 +319,7 @@ end;
 
 // -- Loading
 
-procedure LoadFromIni(al : TActionList; iniFile : TMemIniFile);
+procedure LoadFromIni(al : TActionList; iniFile : TTntMemIniFile);
 var
   i : integer;
   s : string;

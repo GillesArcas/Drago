@@ -9,15 +9,15 @@ unit UMemo;
 interface
 
 uses
-  Forms, SysUtils, IniFiles, Controls,
+  Forms, SysUtils, TntIniFiles, Controls,
   UViewMain;
 
 var
-  PbProfile    : TIniFile;
+  PbProfile    : TTntIniFile;
   PbNumber     : integer;
   PbLoadedFile : string;
 
-  GmProfile    : TIniFile;
+  GmProfile    : TTntIniFile;
   GmNumber     : integer;
   GmLoadedFile : string;
 
@@ -45,7 +45,7 @@ implementation
 
 uses
   Define, DefineUi, Translate, Std, Main, Ugcom, UProblemUtil, UfmMsg,
-  Properties;
+  Properties, UStatus;
 
 var
   PbList, PbTags : array of string;
@@ -329,9 +329,9 @@ end;
 // ---------------------------------------------------------------------------
 
 initialization
-  PbProfile := TIniFile.Create(ChangeFileExt(ParamStr(0), '.pb'));
+  PbProfile := TTntIniFile.Create(SettingsDirectory + '\Drago.pb');
   PbLoadedFile := '';
-  GmProfile := TIniFile.Create(ChangeFileExt(ParamStr(0), '.gm'));
+  GmProfile := TTntIniFile.Create(SettingsDirectory + '\Drago.gm');
   GmLoadedFile := ''
 finalization
   PbProfile.Free;

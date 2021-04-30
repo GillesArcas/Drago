@@ -604,6 +604,7 @@ end;
 // -- Tracing for debug ------------------------------------------------------
 
 procedure ResetTrace;
+// Development only. Exe must be called from Ansi name directory.
 var
   fname : string;
   f : text;
@@ -615,6 +616,7 @@ begin
 end;
 
 procedure Trace(s : string);
+// Development only. Exe must be called from Ansi name directory.
 var
   fname : string;
   f : text;

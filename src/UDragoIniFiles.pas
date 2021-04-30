@@ -3,7 +3,7 @@ unit UDragoIniFiles;
 interface
 
 uses
-  IniFiles;
+  TntIniFiles;
 
 (*
 type
@@ -26,21 +26,34 @@ type
 *)
 
 type
-  TDragoIniFile = class(TMemIniFile)
+  TDragoIniFile = class(TTntMemIniFile)
+  public
+    constructor Create(iniName: WideString); overload;
     function  ReadWideStr (const Section, Ident : string; const Default : WideString) : WideString;
     procedure WriteWideStr(const Section, Ident : string; const Value : WideString);
   end;
 
 implementation
 
+uses
+  WinUtils, TntWindows, TntSysUtils;
+
+constructor TDragoIniFile.Create(iniName: WideString);
+begin
+  inherited Create(iniName);
+  //WideForceDirectories(DragoIniDirName)
+end;
+
 function TDragoIniFile.ReadWideStr(const Section, Ident : string; const Default : WideString) : WideString;
 begin
-  Result := UTF8Decode(ReadString(Section, Ident, UTF8Encode(Default)))
+  //Result := UTF8Decode(ReadString(Section, Ident, UTF8Encode(Default)))
+  Result := ReadString(Section, Ident, Default)
 end;
 
 procedure TDragoIniFile.WriteWideStr(const Section, Ident : string; const Value : WideString);
 begin
-  WriteString(Section, Ident, UTF8Encode(Value))
+  //WriteString(Section, Ident, UTF8Encode(Value))
+  WriteString(Section, Ident, Value)
 end;
 
 end.
