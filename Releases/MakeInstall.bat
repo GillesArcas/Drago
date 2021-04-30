@@ -5,7 +5,7 @@
 setlocal
 
 :: to be checked, configuration dependant
-set godir=d:\Gilles\Go
+set godir=G:\Go
 set inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set zip=%7z.exe%
 
