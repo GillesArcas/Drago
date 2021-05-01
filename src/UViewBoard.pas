@@ -120,8 +120,9 @@ type
 implementation
 
 uses
-  Graphics, StrUtils, IniFiles,
-  Std, Main, Ugmisc, UTreeView, UActions, SysUtilsEx, UnicodeUtils,
+  Graphics, StrUtils,
+  TntIniFiles,
+  Std, Main, Ugmisc, UTreeView, UActions, SysUtilsEx, UnicodeUtils, ClassesEx,
   UViewBoardPanels, UGCom, Properties, UBoardViewCanvas,
   UProblems, UAutoReplay, UGraphic, UPrint, Ux2y,
   UGoban, UStatus, UMainUtil,
@@ -463,13 +464,13 @@ end;
 
 // Update of game information panel
 
-function FindPlayerImage(name, default : string) : string;
+function FindPlayerImage(name, default : WideString) : WideString;
 var
-  list : TStringList;
-  syns : TMemIniFile;
-  syn : string;
+  list : TWideStringList;
+  syns : TTntMemIniFile;
+  syn : WideString;
 begin
-  list := TStringList.Create;
+  list := TWideStringList.Create;
 
   // hack to display Gnu Go image. For an engine game, the player name is
   // "Gnu Go" + version (or the name given by user) + level. To get the
@@ -480,12 +481,12 @@ begin
   // question marks will be stored in name in case of unicode problem and
   // they would be treated as jokers without the test.
   if (name <> '') and (name[1] <> '?')
-    then AddFilesToList(list, Settings.GameInfoPaneImgDir, name + '*');
+    then WideAddFilesToList(list, Settings.GameInfoPaneImgDir, [afIncludeFiles, afCatPath], name + '*');
 
   case list.Count of
     0 :
       begin
-        syns := TMemIniFile.Create(Settings.GameInfoPaneImgDir + '\synonyms.txt');
+        syns := TTntMemIniFile.Create(Settings.GameInfoPaneImgDir + '\synonyms.txt');
         syn := syns.ReadString('Players', name, '');
         if syn <> ''
           then Result := FindPlayerImage(syn, default)
