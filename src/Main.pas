@@ -1889,7 +1889,7 @@ begin
   UpdateIniFile;
 
   if OneInstance.IsFirstInstance
-    then RdTempDir(Status.TmpPath);
+    then RemoveDragoTempDir;
 
   IniFile.Free;
   MRU_Tutor.Free;

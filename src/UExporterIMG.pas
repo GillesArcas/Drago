@@ -29,7 +29,7 @@ procedure ExportIMG(bitmap   : TBitmap;
                     comCanvas: TStringList;
                     mode     : TExportFigure;
                     pxPerInchX : integer;
-                    imgName  : string);
+                    imgName  : WideString);
 
 procedure ExportImage(bitmap   : TBitmap;
                       metafile : TMetafile;
@@ -45,7 +45,7 @@ procedure ExportImage(bitmap   : TBitmap;
 implementation
 
 uses
-  UStatus, UGraphic, UfmMsg, Translate,
+  UStatus, UGraphic, UfmMsg, Translate, SysUtilsEx,
   UExporterPDF,
   UImageExporterBMP,
   UImageExporterPDF,
@@ -119,13 +119,18 @@ procedure ExportIMG(bitmap   : TBitmap;
                     comCanvas: TStringList;
                     mode     : TExportFigure;
                     pxPerInchX : integer;
-                    imgName  : string);
+                    imgName  : WideString);
 var
+  imgNameArg : WideString;
   pxWidth, pxHeight, mmWidth, mmHeight : integer;
   gif : TGIFImage;
   png : TPNGObject;
   jpg : TJPEGImage;
 begin
+  imgNameArg := imgName;
+  if imgName <> AnsiString(imgName)
+    then imgName := Settings.TmpPath + '\tmp' + WideExtractFileExt(imgName);
+
   try
     try
       case mode of
@@ -196,7 +201,10 @@ begin
         eiPDF : begin
           UExporterPDF.ExportImagePDF(comCanvas, imgName)
         end
-      end
+      end;
+
+      if imgNameArg <> AnsiString(imgNameArg)
+        then WideCopyFile(imgName, imgNameArg, False)
     except
       if imgName = ''
         then MessageDialog(msOk, imSad, [U('Problem while copying in clipboard')])

@@ -630,7 +630,7 @@ procedure TStatus.Default;
 begin
   AppPath      := startingDir + '\';
   RunFromIDE   := {$ifdef FPC} False {$else} DebugHook <> 0 {$endif};
-  TmpPath      := {$ifdef FPC} AppPath {$else} MkTempDir(AppName) {$endif};
+  TmpPath      := MakeDragoTempDir;
   LastEditTab  := 0;
   LastTab      := 0;
   TabCloseBtn  := True;

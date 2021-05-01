@@ -19,8 +19,9 @@ function  GetLocalAppData : string;
 function  GetLocalAppDataW : WideString;
 function  GetCommonAppData : string;
 function  GetTempPath : string;
-function  MkTempDir(const s : string) : string;
-procedure RdTempDir(const dir : string);
+function  DragoTempPath : string;
+function  MakeDragoTempDir : string;
+procedure RemoveDragoTempDir;
 function  GetLogicalDrives : string;
 function  AvailPhysicalMem : int64;
 function  MicroTimer : int64;
@@ -75,6 +76,7 @@ begin
 end;
 
 function GetCommonAppData : string;
+// return c:\ProgramData
 const
   SHGFP_TYPE_CURRENT = 0;
 var
@@ -94,32 +96,30 @@ begin
   SetLength(dir, MAX_PATH);
   len := Windows.GetTempPath(MAX_PATH, PChar(dir));
   SetLength(dir, len);
-
   Result := dir
 end;
 
-// FPC : GetTempDir;
+// -- Drago temporary folder -------------------------------------------------
 
+function DragoTempPath : string;
+begin
+  Result := IncludeTrailingPathDelimiter(GetCommonAppData) + IncludeTrailingPathDelimiter('Drago')
+end;
 
 // -- Creation and destruction of temp folder --------------------------------
 
-function MkTempDir(const s : string) : string;
-var
-  dir : string;
+function MakeDragoTempDir : string;
 begin
-  dir := GetTempPath;
-  dir := IncludeTrailingPathDelimiter(dir) + s + '-Tmp-Files';
-  if DirectoryExists(dir)
-    then // nop
-    else CreateDir(dir);
-
-  Result := dir
+  Result := DragoTempPath;
+  ForceDirectories(Result)
 end;
 
-procedure RdTempDir(const dir : string);
+procedure RemoveDragoTempDir;
 var
+  dir : string;
   sr : TSearchRec;
 begin
+  dir := ExcludeTrailingPathDelimiter(DragoTempPath);
   if FindFirst(dir + '\*.*', faAnyFile, sr) = 0 then
     repeat
       DeleteFile(dir + '\' + sr.name);

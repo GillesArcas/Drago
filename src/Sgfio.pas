@@ -83,7 +83,7 @@ procedure PrintSGF(cl : TGameColl;
                    aSaveCompact  : boolean;
                    matchFileName : boolean = False); overload;
 
-procedure PrintWholeTree(name : string; gt : TGameTree;
+procedure PrintWholeTree(name : WideString; gt : TGameTree;
                          aCompressList : boolean;
                          aSaveCompact  : boolean);
 procedure PrintCurrentTree(name : string; gt : TGameTree);
@@ -1017,19 +1017,30 @@ end;
 
 // Print single tree from root
 
-procedure PrintWholeTree(name : string; gt : TGameTree;
+procedure PrintWholeTree(name : WideString;
+                         gt : TGameTree;
                          aCompressList : boolean;
                          aSaveCompact  : boolean);
 var
   f : text;
+  nameArg : WideString;
 begin
   CompressList := aCompressList;
-  SaveCompact  := aSaveCompact;
+  SaveCompact := aSaveCompact;
+  nameArg := name;
+
+  if nameArg <> AnsiString(nameArg)
+    then name := DragoTempPath + 'tmp.sgf';
 
   assign(f, name);
   rewrite(f);
-  PrintOne(f, gt.Root);   //TODO: unicode
-  close(f)
+  PrintOne(f, gt.Root);
+  close(f);
+
+  if nameArg <> AnsiString(nameArg)
+    then
+      if not WideCopyFile(name, nameArg, False)
+        then sgfResult := ioNotSaved
 end;
 
 // Print single tree from current node (used currently for debug)
@@ -1134,7 +1145,7 @@ begin
                   matchFileName)
     else
       begin
-        tmpName := UniqueFileName(GetTempPath, '.sgf');
+        tmpName := DragoTempPath + 'tmp.sgf';
 
         PrintSgf(cl, tmpName, mode, aCompressList, aSaveCompact,
                  matchFileName);
@@ -1144,7 +1155,6 @@ begin
 
         if not WideCopyFile(tmpName, name, False)
           then sgfResult := ioNotSaved
-          else DeleteFile(tmpName)
       end
 end;
 

@@ -36,7 +36,7 @@ type
 
 procedure CreateDatabase(dbName : string; var ok : boolean);
 procedure UserMainOpenDatabase(sameTab : boolean);
-procedure DoMainOpenDatabase( aName : string;
+procedure DoMainOpenDatabase( aName : WideString;
                                 num : integer;
                                node : string;
                             sameTab : boolean;
@@ -550,7 +550,7 @@ procedure TerminateOpenDatabase(tab : TTabSheetEx;
 
 // -- Opening entry point
 
-procedure DoMainOpenDatabase( aName : string;
+procedure DoMainOpenDatabase( aName : WideString;
                                 num : integer;
                                node : string;
                             sameTab : boolean; // not implemented

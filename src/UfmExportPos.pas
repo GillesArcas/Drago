@@ -9,11 +9,11 @@ unit UfmExportPos;
 interface
 
 uses
-  SysUtils, Classes, Graphics, Controls, Forms, Types,
+  SysUtils, Graphics, Controls, Forms, Types,
   Dialogs, Buttons, StdCtrls, ExtCtrls, UGoban, Spin, StrUtils, Clipbrd,
   TntForms, TntStdCtrls, SpTBXControls, SpTBXItem, SpTBXSkins,
   DefineUi, UStatus, Components, TntGrids, Grids,
-  UViewBoard;
+  UViewBoard, Classes;
 
 type
   TfmExportPos = class(TTntForm)
@@ -92,10 +92,10 @@ type
     procedure ShowParamFormat(st : TStatus);
     function  SaveParam(st : TStatus) : boolean;
     procedure ExportIMG(mode    : TExportFigure;
-                        imgName : string;
+                        imgName : WideString;
                         i1, j1, i2, j2, width, height : integer);
-    procedure ExportASC(imgName : string; i1, j1, i2, j2 : integer);
-    procedure ExportSGF(imgName : string; i1, j1, i2, j2 : integer);
+    procedure ExportASC(imgName : WideString; i1, j1, i2, j2 : integer);
+    procedure ExportSGF(imgName : WideString; i1, j1, i2, j2 : integer);
     function  GetActiveView : TViewBoard;
     property  ActiveView : TViewBoard read GetActiveView;
   public
@@ -118,7 +118,8 @@ implementation
 
 {$R *.dfm}
 
-uses 
+uses
+  TntClasses,
   Define, Std, WinUtils,
   UexporterIMG, Main, UMainUtil, Ux2y, UGcom, Translate,
   UGmisc, HtmlHelpAPI, UGameTree, Sgfio, UDialogs,
@@ -818,7 +819,7 @@ end;
 // -- Export to graphic ------------------------------------------------------
 
 procedure TfmExportPos.ExportIMG(mode    : TExportFigure;
-                                 imgName : string;
+                                 imgName : WideString;
                                  i1, j1, i2, j2, width, height : integer);
 var
   bitmap : TBitmap;
@@ -876,7 +877,7 @@ end;
 
 // -- Export to SGF ----------------------------------------------------------
 
-procedure TfmExportPos.ExportSGF(imgName : string; i1, j1, i2, j2 : integer);
+procedure TfmExportPos.ExportSGF(imgName : WideString; i1, j1, i2, j2 : integer);
 var
   gt : TGameTree;
 begin
@@ -888,17 +889,28 @@ end;
 // -- Export to ASCII --------------------------------------------------------
 // ---------------------------------------------------------------------------
 
-procedure TfmExportPos.ExportASC(imgName : string;
+procedure TfmExportPos.ExportASC(imgName : WideString;
                                  i1, j1, i2, j2 : integer);
 var
   textCanvas : TStringList;
+  tntStringList : TTntStringList;
 begin
   textCanvas := TStringList.Create;
   ExportBoardToAscii(mygb, Settings.PrExportPos, textCanvas);
 
+
   if imgName = ''
     then Clipboard.SetTextBuf(PChar(textCanvas.Text))
-    else textCanvas.SaveToFile(imgName);
+    else
+      if imgName = AnsiString(imgName)
+        then textCanvas.SaveToFile(imgName)
+        else
+          begin
+            tntStringList := TTntStringList.Create();
+            tntStringList.Assign(textCanvas);
+            tntStringList.SaveToFile(imgName);
+            tntStringList.Free
+          end;
 
   textCanvas.Free
 end;
