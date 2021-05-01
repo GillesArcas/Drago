@@ -40,7 +40,7 @@ procedure AddFolderToList    (list : TStringList;
 procedure WideAddFilesToList (list : TWideStringList;
                               path : WideString;
                               options : TAddFileOptions;
-                              const mask : string = '*.*');
+                              const mask : WideString = '*.*');
 procedure WideAddFolderToList(list : TWideStringList;
                               path, mask : WideString;
                               subFolders : boolean = False);
@@ -370,7 +370,7 @@ end;
 procedure WideAddFilesToList(list : TWideStringList;
                              path : WideString;
                              options : TAddFileOptions;
-                             const mask : string = '*.*');
+                             const mask : WideString = '*.*');
 var
   wfd : TWin32FindDataW;
   hFile : THandle;

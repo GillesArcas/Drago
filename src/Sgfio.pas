@@ -1115,6 +1115,7 @@ var
   s : string;
 begin
   // TODO: should be WideStringToAscii to keep accent on 1 char
+  // TODO: see UnicodeUtils
   s := UTF8Encode(name);
   Result := Length(name) = Length(s)
 end;

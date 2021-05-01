@@ -82,8 +82,8 @@ type
     procedure LoadAnalysisEngine(iniFile : TTntMemIniFile;
                                  usePortablePaths : boolean;
                                  const appPath : WideString);
-    procedure ReadPredefinedSettings(iniFile : TMemIniFile; const engineName : string); overload;
-    procedure ReadPredefinedSettings(const appPath, engineName : string); overload;
+    procedure ReadPredefinedSettings(iniFile : TTntMemIniFile; const engineName : string); overload;
+    procedure ReadPredefinedSettings(const appPath : WideString; const engineName : string); overload;
     function  IsAvailable : boolean;
     function  IsConcerned(const value : string) : boolean;
     function  IsGtpTimeCommandRequired : boolean;
@@ -184,7 +184,7 @@ end;
 
 // -- Access to predefined descriptions (engines.config) ---------------------
 
-procedure ReadArgOrGtp(iniFile : TMemIniFile;
+procedure ReadArgOrGtp(iniFile : TTntMemIniFile;
                        const engineName, key : string;
                        var arg, gtp : string);
 var
@@ -192,7 +192,7 @@ var
 begin
   arg := 'not.required';
   gtp := 'not.required';
-  s   := iniFile.ReadString(engineName, key, 'not.handled');
+  s   := Trim(iniFile.ReadString(engineName, key, 'not.handled'));
 
   if s = 'not.required'
     then exit;
@@ -211,7 +211,7 @@ begin
     then gtp := Copy(s, 5, MaxInt);
 end;
 
-procedure TEngineSettings.ReadPredefinedSettings(iniFile : TMemIniFile; const engineName : string);
+procedure TEngineSettings.ReadPredefinedSettings(iniFile : TTntMemIniFile; const engineName : string);
 var
   dum : string;
 begin
@@ -243,11 +243,11 @@ begin
                          (FGtpJapaneseRules <> 'not.handled');
 end;
 
-procedure TEngineSettings.ReadPredefinedSettings(const appPath, engineName : string);
+procedure TEngineSettings.ReadPredefinedSettings(const appPath : WideString; const engineName : string);
 var
-  iniFile : TMemIniFile;
+  iniFile : TTntMemIniFile;
 begin
-  iniFile := TMemIniFile.Create(appPath + EnginesConfig);
+  iniFile := TTntMemIniFile.Create(appPath + EnginesConfig);
   ReadPredefinedSettings(iniFile, engineName);
   iniFile.Free
 end;

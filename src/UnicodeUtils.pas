@@ -10,6 +10,7 @@ uses
 function IsAnsiString(const s : WideString) : boolean;
 function WidePos(const F: WideString; const S: WideString; const StartIndex: Integer): Integer;
 function WideReplaceStr(const s : WideString; const old, new : string) : WideString;
+function CopyFileToAnsiNameTmpFile(name : WideString; tmpPath : string) : string;
 
 // ---------------------------------------------------------------------------
 
@@ -109,5 +110,11 @@ begin
 end;
 
 // ---------------------------------------------------------------------------
+
+function CopyFileToAnsiNameTmpFile(name : WideString; tmpPath : string) : string;
+begin
+  Result := tmpPath + '\tmp' + WideExtractFileExt(name);
+  WideCopyFile(name, Result, False)
+end;
 
 end.

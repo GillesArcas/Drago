@@ -16,7 +16,7 @@ type
   TBackground = class
     Style     : TBackStyle;
     Color     : TColor;
-    Image     : string;
+    Image     : WideString;
     Bitmap    : TBitmap;
     PenColor  : TColor;
     MeanColor : TColor;
@@ -83,9 +83,9 @@ end;
 
 // -- Update of internal data
 
-function LoadImage(const name : string; bmp : TBitmap) : boolean;
+function LoadImage(const name : WideString; bmp : TBitmap; tmpPath : string) : boolean;
 begin
-  Result := LoadImageToBmp(name, bmp);
+  Result := LoadImageToBmp(name, bmp, tmpPath);
 
   if (not Result) or (not Status.SymmetricTiling)
     then exit;
@@ -97,7 +97,7 @@ procedure TBackground.Update;
 var
   wStyle : TBackStyle;
   wColor : TColor;
-  wImage : string;
+  wImage : WideString;
 begin
   if Style = bsAsGoban then wStyle := Default.Style else wStyle := Style;
   if Style = bsAsGoban then wColor := Default.Color else wColor := Color;
@@ -107,14 +107,14 @@ begin
   case wStyle of
     bsColor : ;
     bsDefaultTexture :
-      if not LoadImage(Status.AppPath + 'Textures\wood01.jpg', Bitmap) then
+      if not LoadImage(Status.AppPath + 'Textures\wood01.jpg', Bitmap, Settings.TmpPath) then
         begin
           UfmMsg.MessageDialog(msOk, imDrago, ['Default texture not found']);
           Style := bsColor;
           Update
         end;
     bsCustomTexture  :
-      if not LoadImage(wImage, Bitmap) then
+      if not LoadImage(wImage, Bitmap, Settings.TmpPath) then
         begin
           UfmMsg.MessageDialog(msOk, imDrago, ['Texture not found']);
           Style := bsColor;

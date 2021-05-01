@@ -25,7 +25,7 @@ type
 
     // -- Status of application ----------------------------------------------
 
-    AppPath             : string;     // application path
+    AppPath             : WideString; // application path
     RunFromIDE          : boolean;    // is app running from IDE ?
     TmpPath             : string;     // temp file directory
     NewInFile           : boolean;    // new in current file

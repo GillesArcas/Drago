@@ -26,14 +26,14 @@ function  U(const s : WideString) : WideString; overload;
 implementation
 
 uses
-  SysUtils,
+  SysUtils, TntClasses,
   Std, SysUtilsEx;
 
 // -- Declaration of class TKeyValueList -------------------------------------
 
-type TKeyValueList = class(TStringList)
+type TKeyValueList = class(TTntStringList)
   destructor Destroy; override;
-  procedure LoadFromFile(const filename : string); override;
+  procedure LoadFromFile(const filename : WideString); override;
   function Value(const s : string) : string;
   procedure Clear; override;
 end;
@@ -215,16 +215,17 @@ begin
   inherited
 end;
 
-procedure TKeyValueList.LoadFromFile(const filename : string);
+procedure TKeyValueList.LoadFromFile(const filename : WideString);
+// load a language file into a dictionary
 var
-  tmp : TStringList;
+  tmp : TTntStringList;
   i : integer;
   s, key, val : string;
 begin
   Clear;
   Sorted := True;
 
-  tmp := TStringList.Create;
+  tmp := TTntStringList.Create;
   tmp.LoadFromFile(filename);
 
   for i := 0 to tmp.Count - 1 do

@@ -67,7 +67,7 @@ implementation
 
 uses
   StrUtils, SysUtils, Contnrs, SysUtilsEx,
-  ClassesEx, UGraphic;
+  ClassesEx, UGraphic, UStatus, UnicodeUtils;
 
 constructor TStone.Create(png : TPngObject;
                           color, diameter : integer;
@@ -445,7 +445,7 @@ begin
 
   max := 0;
   for i := 1 to 255 do
-    if list.IndexOf(Format(filter, [i])) >= 0
+    if list.IndexOf(WideFormat(filter, [i])) >= 0
       then
         begin
           testAll[i] := i;
@@ -523,17 +523,19 @@ begin
   availableDiameter := CustomeStoneDiameters[2 * radius + 1];
 
   mask := ReplaceNumBy(mask, '*');
-  mask := Format(mask, [availableDiameter]);
+  mask := WideFormat(mask, [availableDiameter]);
 
   list := TWideStringList.Create;
-
   WideAddFilesToList(list, path, [afCatPath, afIncludeFiles], mask);
 
   for i := 0 to list.Count - 1 do
     begin
       name := list[i];
-      if not FileExists(name)
-        then continue;
+      if not WideFileExists(name)
+        then continue
+        else
+          if name <> AnsiString(name)
+            then name := CopyFileToAnsiNameTmpFile(name, Settings.TmpPath);
 
       png := TPngObject.Create;
       png.LoadFromFile(name);

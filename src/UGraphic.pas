@@ -53,7 +53,7 @@ function AdjustFontSize(canvas  : TCanvas;
                         styles  : TFontStyles;
                         const s : string) : integer;
 procedure PseudoAntiAlias(bm : TBItmap; d : integer; backColor : TColor);
-function  LoadImageToBmp(name : string; bmp : TBitmap) : boolean;
+function  LoadImageToBmp(name : WideString; bmp : TBitmap; tmpPath : string) : boolean;
 procedure CopyPngTransparency(bmp : TBitmap; png : TPngObject);
 procedure CopyBmpTransparency(bmp : TBitmap; png : TPngObject);
 procedure VerticalSymetry(bitmap : TBitmap); overload;
@@ -71,7 +71,7 @@ implementation
 
 uses
   Sysutils, Math, Classes, Jpeg, GifImage,
-  Define, Std;
+  Define, Std, UnicodeUtils;
 
 // UGraphic.res is declared in the dpr
 
@@ -1457,13 +1457,16 @@ end;
 
 // -- Loading of an image file into a bitmap ---------------------------------
 
-function LoadImageToBmp(name : string; bmp : TBitmap) : boolean;
+function LoadImageToBmp(name : WideString; bmp : TBitmap; tmpPath : string) : boolean;
 var
   ext : string;
   jpg : TJPEGImage;
   gif : TGifImage;
   png : TPngObject;
 begin
+  if name <> AnsiString(name)
+    then name := CopyFileToAnsiNameTmpFile(name, tmpPath);
+
   Result := True;
   ext := LowerCase(ExtractFileExt(name));
 
