@@ -1089,10 +1089,8 @@ begin
 
   for i := 1 to ActiveView.cl.Count do
     begin
-      // TODO: check unicode filename
       name := WideFormat('%s%4.4d.sgf', [rootstr, i - 1]);
-      PrintWholeTree(UTF8Encode(name), ActiveView.cl[i],
-                     Settings.CompressList, Settings.SaveCompact)
+      PrintWholeTree(name, ActiveView.cl[i], Settings.CompressList, Settings.SaveCompact)
     end
 end;
 
