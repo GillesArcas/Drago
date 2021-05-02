@@ -1788,17 +1788,6 @@ object fmMain: TfmMain
       Caption = 'Actions with shortcut'
     end
   end
-  object pmTrayIcon: TPopupMenu
-    Images = Actions.ImageList
-    Left = 88
-    Top = 336
-    object Restore1: TTntMenuItem
-      Action = Actions.acRestoreWindow
-    end
-    object Quit1: TTntMenuItem
-      Action = Actions.acQuit
-    end
-  end
   object OneInstance: TOneInstance
     OnInstanceStarted = OneInstanceInstanceStarted
     Left = 416

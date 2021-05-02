@@ -176,9 +176,6 @@ Reload current file=Datei neu laden
 ;-- Sidebar menu
 Show in current tab=In aktueller Registerkarte anzeigen
 
-;-- Tray icon menu
-Restore window=Fenster wiederherstellen
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=Hilfe
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Texturen symmetrisch anordnen.
 ; User interface
 User interface=Bedienoberfläche
 Allow only one instance=Nur eine Instanz erlauben.
-Minimize to tray=Zum Tray minimieren
 Hook content of window when resizing=Fixiere Fensterinhalt während einer Größenänderung.
 Anchor panels at bottom=Anker-Bedienfelder an der unteren Basis
 Show tab close buttons=Zeige Schließen-Knöpfe in Registerkarten an

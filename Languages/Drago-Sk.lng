@@ -176,9 +176,6 @@ Reload current file=Obnoviť aktuálny súbor
 ;-- Sidebar menu
 Show in current tab=Zobraziť v aktuálnej záložke
 
-;-- Tray icon menu
-Restore window=Obnoviť okno
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Pomoc
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Dlaždicová textúra so symetriami
 ; User interface
 User interface=Používateľské rozhranie
 Allow only one instance=Povoliť iba jednu inštanciu
-Minimize to tray=Minimalizovať do lišty
 Hook content of window when resizing=Uchytiť obsah okna pri zmene veľkosti
 Anchor panels at bottom=Ukotviť panely na spodku
 Show tab close buttons=Zobraziť tlačítka na zatvorenie záložiek

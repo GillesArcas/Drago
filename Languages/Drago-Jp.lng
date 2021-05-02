@@ -176,9 +176,6 @@ Reload current file=開き直す
 ;-- Sidebar menu
 Show in current tab=このタブに表示
 
-;-- Tray icon menu
-Restore window=ウインドウの復元
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=ヘルプ
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=対象にテクスチャを並べる
 ; User interface
 User interface=ユーザーインターフェイス
 Allow only one instance=二重起動を許可しない
-Minimize to tray=トレイを最小化する
 Hook content of window when resizing=リサイズ中もウインドウ内の再描画を行う
 Anchor panels at bottom=パネルをウインドウの下部と接続する
 Show tab close buttons=タブに閉じるボタンを表示する

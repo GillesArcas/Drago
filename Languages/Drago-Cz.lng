@@ -176,9 +176,6 @@ Reload current file=
 ;-- Sidebar menu
 Show in current tab=
 
-;-- Tray icon menu
-Restore window=
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Nápověda
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=
 ; User interface
 User interface=
 Allow only one instance=
-Minimize to tray=
 Hook content of window when resizing=Uchytit obsah okna při změně velikosti
 Anchor panels at bottom=Ukotvit panely dole
 Show tab close buttons=

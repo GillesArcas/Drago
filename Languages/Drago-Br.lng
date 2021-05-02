@@ -176,9 +176,6 @@ Reload current file=
 ;-- Sidebar menu
 Show in current tab=
 
-;-- Tray icon menu
-Restore window=
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=A&juda
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=texturas com simetrias
 ; User interface
 User interface=Interface do usuário
 Allow only one instance=Permitir apenas uma instância
-Minimize to tray=
 Hook content of window when resizing=Encaixar conteúdo da janela quando redimensionar
 Anchor panels at bottom=Fixar embaixo
 Show tab close buttons=Exibir aba de botões de fechar

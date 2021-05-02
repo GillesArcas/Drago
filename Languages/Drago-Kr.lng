@@ -176,9 +176,6 @@ Reload current file=
 ;-- Sidebar menu
 Show in current tab=현재 탭에 표시
 
-;-- Tray icon menu
-Restore window=창을 복원
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=& 도움말 
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=타일 질감과 대칭
 ; User interface
 User interface=사용자 인터페이스를
 Allow only one instance=허용 유일한 하나의 인스턴스
-Minimize to tray=트레이에 최소화
 Hook content of window when resizing=때후크 내용을 창의 크기를 조정
 Anchor panels at bottom=앵커 패널 하단
 Show tab close buttons=보기 탭 닫기 버튼

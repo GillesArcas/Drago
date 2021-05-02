@@ -176,9 +176,6 @@ Reload current file=Перезагрузить текущий файл
 ;-- Sidebar menu
 Show in current tab=Показать в текущей вкладке
 
-;-- Tray icon menu
-Restore window=Развернуть окно
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Справка
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Текстурное заполнение с си
 ; User interface
 User interface=Интерфейс
 Allow only one instance=Только один экземпляр
-Minimize to tray=Свернуть в системную панель
 Hook content of window when resizing=Привязка содержимого при изменении размеров
 Anchor panels at bottom=Закрепить панели внизу
 Show tab close buttons=Кнопки закрытия вкладок

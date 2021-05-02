@@ -2,7 +2,6 @@
 // -- DRAGO -- Project ------------------------------------------ DRAGO.DPR --
 // ---------------------------------------------------------------------------
 
-// TODO: save settings in user directory
 // TODO: insert move
 // TODO: figures are not centered in print preview or rtf preview
 
@@ -169,8 +168,6 @@ uses
   UImageExporterPDF in 'UImageExporterPDF.pas',
   UImageExporterWMF in 'UImageExporterWMF.pas',
   UImageExporterTXT in 'UImageExporterTXT.pas',
-  CoolTrayIcon in '..\3rd\CoolTrayIcon\CoolTrayIcon.pas',
-  SimpleTimer in '..\3rd\CoolTrayIcon\SimpleTimer.pas',
   hpdf in '..\3rd\HaruPDF\hpdf.pas',
   hpdf_consts in '..\3rd\HaruPDF\hpdf_consts.pas',
   hpdf_types in '..\3rd\HaruPDF\hpdf_types.pas',

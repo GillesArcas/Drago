@@ -176,9 +176,6 @@ Reload current file=
 ;-- Sidebar menu
 Show in current tab=
 
-;-- Tray icon menu
-Restore window=
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=Giúp đỡ
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Nền lớp với tính đối xứng
 ; User interface
 User interface=Giao diện người dùng
 Allow only one instance=Chỉ cho phép 1 đối tượng
-Minimize to tray=
 Hook content of window when resizing=Cập nhật nội dung cửa sổ khi thay đổi kích cỡ
 Anchor panels at bottom=Mấu neo bản điều khiển ở phía dưới
 Show tab close buttons=Hiển thị nút đóng tab

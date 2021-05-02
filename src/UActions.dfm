@@ -5121,12 +5121,6 @@ object Actions: TActions
       Caption = 'Make game tree...'
       OnExecute = acMakeGameTreeExecute
     end
-    object acRestoreWindow: TTntAction
-      Category = 'File'
-      Caption = 'Restore window'
-      ImageIndex = 117
-      OnExecute = acRestoreWindowExecute
-    end
     object acQuickSearch: TTntAction
       Category = 'Database'
       AutoCheck = True

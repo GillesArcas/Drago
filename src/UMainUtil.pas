@@ -167,7 +167,6 @@ begin
       acGameInfo.Enabled         := True;
       acPrint.Enabled            := True;
       acExport.Enabled           := True;
-      acRestoreWindow.Enabled    := True;
       acReloadCurrentfile.Enabled:= True;
 
       // 'Help' category

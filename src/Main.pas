@@ -20,7 +20,6 @@ uses
   DefineUi, UDragoIniFiles,
   UMRUList,
   UTabButton,
-  CoolTrayIcon,
   UContext, Ustatus,
   UView, UViewMain, UViewBoard, UViewInfo, UViewThumb,
   BomeOneInstance, SpTBXDkPanels, UFullScreenToggler;
@@ -306,9 +305,6 @@ type
     mnMakeGameTree: TSpTBXItem;
     SpTBXSeparatorItem31: TSpTBXSeparatorItem;
     mnTestEngine: TSpTBXItem;
-    pmTrayIcon: TPopupMenu;
-    Restore1: TTntMenuItem;
-    Quit1: TTntMenuItem;
     SpTBXItem155: TSpTBXItem;
     SpTBXItem158: TSpTBXItem;
     SpTBXSeparatorItem32: TSpTBXSeparatorItem;
@@ -398,7 +394,6 @@ type
     procedure MainPageControlChange(Sender: TObject);
     procedure mnFileClick(Sender: TObject);
   private
-    TrayIcon : TCoolTrayIcon;
     CurrentViewMain  : TViewMain;
     CurrentViewBoard : TViewBoard;
     FullScreenToggler : TFullScreenToggler;
@@ -428,7 +423,6 @@ type
     OnMessageRButtonUp : procedure;
 
     procedure Start;
-    procedure RestoreWindow;
     procedure MainPanel_Lock;
     procedure MainPanel_Unlock;
     procedure UpdateMain;
@@ -618,17 +612,6 @@ end;
 procedure TfmMain.FormCreate(Sender: TObject);
 begin
   DragAcceptFiles(Handle, True);
-
-  Trayicon := TCoolTrayIcon.Create(Self);
-  with TrayIcon do
-    begin
-      Hint := 'Drago';
-      MinimizeToTray := True;
-      ShowFormOnTrayIconClick := True;
-      PersistentTrayIcon := False;
-      PopupMenu := pmTrayIcon
-    end;
-
   FullScreenToggler := TFullScreenToggler.Create
 end;
 
@@ -736,7 +719,6 @@ begin
 
   // apply application settings
   OneInstance.Active := StatusMain.OneInstance;
-  TrayIcon.MinimizeToTray := StatusMain.MinimizeToTray;
 
   // apply loading file strategy
   StartLoading;
@@ -753,14 +735,8 @@ procedure TfmMain.OneInstanceInstanceStarted(Sender: TObject;
 var
   i : integer;
 begin
-  TrayIcon.ShowMainForm;
   for i := 0 to params.Count - 1 do
     DoMainOpen(params[i])
-end;
-
-procedure TfmMain.RestoreWindow;
-begin
-  TrayIcon.ShowMainForm
 end;
 
 // Status bar settings
@@ -863,7 +839,6 @@ begin
 
   // apply application settings
   OneInstance.Active := StatusMain.OneInstance;
-  TrayIcon.MinimizeToTray := StatusMain.MinimizeToTray;
 
   // translate fmFreeH
   if UfmFreeH.IsOpen
@@ -1895,7 +1870,6 @@ begin
   MRU_Tutor.Free;
   DBListOfTabs.Free;
   FreeAndNil(TabButtonHandler);
-  TrayIcon.Free;
   FullScreenToggler.Free
 end;
 

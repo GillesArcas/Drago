@@ -57,8 +57,8 @@ Reference view=Vista di riferimento
 Mirror=Simmetria verticale
 Flip=Simmetria orizzontale
 Opponent view=Vista dell'avversario
-Rotate 90 clockwise=Ruota 90� senso orario
-Rotate 90 counter clockwise= Ruota 90� in senso antiorario
+Rotate 90 clockwise=Ruota 90° senso orario
+Rotate 90 counter clockwise= Ruota 90° in senso antiorario
 Swap colors=Scambia i colori
 Show toolbars=Mostra la barra degli strumenti
 Toolbar settings=Impostazione della barra strumenti
@@ -105,7 +105,7 @@ Insert=Inserisci
 Make main branch=Modifica ramo principale
 Promote variation=
 Demote variation=
-Remove properties=Rimuovi le propriet�
+Remove properties=Rimuovi le proprietà
 Insert empty node=Inserisci nodo vuoto
 Click at pointer=Fai fare click al puntatore
 Ctrl-click at pointer=Fai fare ctrl-click al puntatore
@@ -138,8 +138,8 @@ Cancel replay session=Cancella la sessione della partita
 Solve problems=Risolvi i problemi
 Problem index=Indice dei problemi
 Hint=Suggerimento
-Free mode=Modalit� libera
-Problem mode=Modalit� problema
+Free mode=Modalità libera
+Problem mode=Modalità problema
 Cancel problem session=Cancella la sessione del problema
 
 ;-- Play
@@ -175,9 +175,6 @@ Reload current file=Ricarica il documento corrente
 
 ;-- Sidebar menu
 Show in current tab=Mostra nella scheda attiva
-
-;-- Tray icon menu
-Restore window=Ripristina
 
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
@@ -225,7 +222,7 @@ Time settings=Impostazione del tempo di gioco
 No time limit=Nessun limite di tempo
 Total time=Tempo totale
 Time per move=Tempo per mossa
-Initial time plus over time=Tempo iniziale pi� tempo supplementare
+Initial time plus over time=Tempo iniziale più tempo supplementare
 Initial time=Tempo iniziale
 Over time=Tempo supplem.
 Timing only for engine=Limiti di tempo solo per l'AI.
@@ -241,15 +238,15 @@ Area counting=Area (Cinese)
 
 ;-- Messages
 More=Altro
-No engine defined. Please select 'More...' then 'More engines...'=Non � definito nessun motore di gioco. Per favore selezionare 'Altro...' e quindi 'Altri motori di gioco...'
-Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=L'attuale motore di gioco non � stato trovato. Per favore selezionare'Altro...' e quindi 'Altri motori di gioco...' controllando il percorso
-Not all functions are supported by the engine currently selected.=Non tutte le funzionalit� sono supportate dal motore di gioco selezionato al momento.
+No engine defined. Please select 'More...' then 'More engines...'=Non è definito nessun motore di gioco. Per favore selezionare 'Altro...' e quindi 'Altri motori di gioco...'
+Current engine not found. Please select 'More...' then 'Engine settings...' and check path.=L'attuale motore di gioco non è stato trovato. Per favore selezionare'Altro...' e quindi 'Altri motori di gioco...' controllando il percorso
+Not all functions are supported by the engine currently selected.=Non tutte le funzionalità sono supportate dal motore di gioco selezionato al momento.
 
 ;-- GTP window
 GTP window=Finestra GTP
 Show GTP window=Mostra la finestra GTP
 Enter and send GTP command (no feedback on main board):=Inserisci ed invia un comando GTP (nessuna risposta sulla tavola da gioco)
-No engine running=Non � attivo alcun motore AI contro cui giocare.
+No engine running=Non è attivo alcun motore AI contro cui giocare.
 
 ;-- FREE HANDICAP DIALOG BOX -------------------------------------------
 
@@ -377,9 +374,9 @@ Problem \game=Problema \game
 Layout=Impaginazione
 
 ;-- Header and footer
-Header and footer=Titolo e pi� di pagina
+Header and footer=Titolo e pié di pagina
 Print header=Stampa titolo
-Print footer=Stampa pi� di pagina
+Print footer=Stampa pié di pagina
 
 ;-- Default format for footer
 \left 'Page ' \page \right \date=\left 'Pagina ' \page \right \date
@@ -387,8 +384,8 @@ Print footer=Stampa pi� di pagina
 ;-- Layout
 Layout2=Impaginazione
 First figure alone in the line=Prima figura da sola sulla linea
-1st figure alone=1° figura da sola
-1st figure ratio=% 1° figura massimo
+1st figure alone=1Â° figura da sola
+1st figure ratio=% 1Â° figura massimo
 Figures per line=Figure per linea
 Figure ratio=% figura massimo
 
@@ -427,7 +424,7 @@ Letter2=Letter
 Landscape=Sfondo
 Settings=Impostazioni 
 PDF compression=Compressione PDF
-Jpeg quality (1-100)=Qualità Jpeg (1-100)
+Jpeg quality (1-100)=QualitÃ  Jpeg (1-100)
 
 ;-- Printing as book
 %d at %d=%d a %d
@@ -444,7 +441,7 @@ Dimensions (mm)=Dimensioni (mm)
 Dimensions (px)=Dimensioni (px)
 Stone diameter=Diametro delle pietre
 As books=Come nei libri
-Mode=Modalità
+Mode=ModalitÃ 
 Moves from 1 to 10=Mosse da 1 a 10
 Black with circle=Nero con cerchio
 Black with square=Nero con quadrato
@@ -556,15 +553,15 @@ Black rank=Livello del Nero
 Result=Risultato
 White player=Giocatore Bianco
 White rank=Livello del Bianco
-Select property etc.=Seleziona una propriet�, quindi usa le freccie, o trascina
+Select property etc.=Seleziona una proprietà, quindi usa le freccie, o trascina
 Sorting of information records=Ordina i record delle informazioni
-Enabled if record number is less than=Permetti se il numero di record � minore di
+Enabled if record number is less than=Permetti se il numero di record è minore di
 Thumbnail preview=Anteprima icone
 Stone radius=Raggio Pietra
 
 ;-- Sidebar tab
 Sidebar=Barra laterale
-Default visibility of panels when creating a tab=Visibilit� di default dei pannelli quando si crea una nuova scheda
+Default visibility of panels when creating a tab=Visibilità di default dei pannelli quando si crea una nuova scheda
 Always visible=Sempre visibile
 Visible if needed=Visibile se necessario
 Timing=Tempo di gioco
@@ -624,12 +621,12 @@ Start with last files=Inizia dall'ultimo file
 Start with last move=Inizia dall'ultima mossa
 
 ;-- Properties
-Properties=Propriet�
+Properties=Proprietà
 Save with 10 moves on each line=Salva con 10 mosse su ogni linea
-New file with full SGF properties=Nuovi file con tutte le propriet� SGF
-Change player with SGF property=Cambia il giocatore con le propriet� SGF
+New file with full SGF properties=Nuovi file con tutte le proprietà SGF
+Change player with SGF property=Cambia il giocatore con le proprietà SGF
 Compress lists of points=Comprimi elenchi di punti
-Accept long property names=Accetta nomi lunghi per le propriet�
+Accept long property names=Accetta nomi lunghi per le proprietà
 
 ;-- Navigation tab
 Move targets=Mosse obiettivo
@@ -637,7 +634,7 @@ Every N moves=Ogni N mosse
 Starts of variation=Inizio delle varianti
 Ends of variation=Fine delle varianti
 Time between two moves=Tempo d'attesa tra due mosse
-Use timing properties when available=Usa le propriet� relative al tempo di gioco se disponibili
+Use timing properties when available=Usa le proprietà relative al tempo di gioco se disponibili
 Stop at targets=Ferma la riproduzione agli obiettivi
 
 ;-- Database tab
@@ -687,9 +684,9 @@ Group status=Stato del gruppo
 ;-- Predefined engines
 Select predefined engine=Seleziona motore predefinito
 Open browser, download and install=Apri il browser, scarica e installa
-Already installed=Gi� installato.
+Already installed=Già installato.
 Press Ok (then you will have to enter executable installation path) or cancel.=Premi Ok (dovrai ora inserire il percorso di installazione del file eseguibile) o Annulla.
-If the game engine you want to play with is not in the list, edit the following file:=Se il motore di gioco che volete usare non � nella lista, modificate il seguente file:
+If the game engine you want to play with is not in the list, edit the following file:=Se il motore di gioco che volete usare non è nella lista, modificate il seguente file:
 
 ;-- Additional parameters
 Rules, timing, boardsize and level arguments are predefined. Additional arguments for current engine may be entered here.=Gli argomenti regole, tempo di gico, grandezza del goban e livello sono predefiniti.Ulteriori argomenti per il corrente motore di gioco possono essere inseriti qui.
@@ -754,13 +751,13 @@ Insert figure=Inserisci figura
 Show coordinates=Mostra coordinate
 
 ;-- Other properties
-Other properties=Altre propriet�
+Other properties=Altre proprietà
 Move numbers from=Numera le mosse da
 Wrong variation (uliGo)=Variante Errata
 
 ;-- REMOVE PROPERTIES DIAOLOG BOX
 
-Enter list of properties separated by commas (C,BL,WL):=Inserisci la lista delle propriet� separate da virgole (C,BL,WL):
+Enter list of properties separated by commas (C,BL,WL):=Inserisci la lista delle proprietà separate da virgole (C,BL,WL):
 All games in collection=Tutti i giochi nella collezione
 
 ;-- REPLAY GAMES DIALOG BOX --------------------------------------------
@@ -797,7 +794,7 @@ Unlimited=Illimitato
 ;-- Statistics
 Statistics=Statistiche
 Problems in collection=Problemi nella collezione
-Visited problems=Problemi già visti
+Visited problems=Problemi giÃ  visti
 Number of attempts=Numero di tentativi
 Number of successes=Numero di successi
 Show detailed statistics=Mostra le statistiche dettagliate
@@ -843,7 +840,7 @@ Ignore=Ignora
 
 ;-- MAKE GAME TREE DIALOG ------------------------------------------
 
-Depth=Profondità
+Depth=ProfonditÃ 
 Unique moves=Mosse uniche
 Normalize position of first move=Normalizza posizione della prima mossa
 Game reference=Riferimenti del Gioco
@@ -869,7 +866,7 @@ number of unknown results=numero di risultati sconosciuti
 
 ;-- ABOUT DIALOG BOX ---------------------------------------------------
 
-is freeware=è freeware
+is freeware=Ã¨ freeware
 Version=Versione
 Kombilo and libkombilo by Ulrich Goertz:=Kombilo e libkombilo sono di Ulrich Goertz:
 Credits=Riconoscimenti
@@ -960,15 +957,15 @@ on time=in tempo
 
 ;-- Warnings
 Don't show this message again=Non mostrare ancora questo messaggio
-Toggling to full screen mode.=Attiva/Disattiva modalità tutto schermo.
-Restore window mode with %s=Ripristina la modalità finestra con %s
+Toggling to full screen mode.=Attiva/Disattiva modalitÃ  tutto schermo.
+Restore window mode with %s=Ripristina la modalitÃ  finestra con %s
 
 ;-- Tab errors
 Unable to create tab=Impossibile creare la scheda
 
 ;-- Edit messages
 No move to add variation.=Nessuna mossa aggiunta alla variante.
-Move impossible to cancel=Non è possibile cancellare la mossa
+Move impossible to cancel=Non Ã¨ possibile cancellare la mossa
 Delete whole branch.=Cancella l'intero ramo.
 File modification.=Modifica del file.
 Beware game modification will not be updated in database.=Attenzione le modifiche della partita non saranno aggiornate nel database.
@@ -981,21 +978,21 @@ Error opening file=Errore nell'apertura del file
 Error opening folder=Errore nell'apertura della cartella
 Line=Linea
 File partialy read=File letto solo parzialmente
-File %s is read only.=File %s è di sola lettura
-File %s not saved.=Il file %s non è salvato.
-Folder %s not saved.=La cartella %s non è salvata.
+File %s is read only.=File %s Ã¨ di sola lettura
+File %s not saved.=Il file %s non Ã¨ salvato.
+Folder %s not saved.=La cartella %s non Ã¨ salvata.
 First game not found=Primo gioco non trovato
 Illegal character=Carattere illegale
 Impossible to save %s.=Impossibile salvare %s.
 Impossible to save.=Impossibile salvare.
 Impossible to write file=Impossibile scrivere sul file
 Semicolon not found after parenthesis=Punto e virgola non trovato dopo la parentesi
-Invalid property name=Nome di proprietà non valido
+Invalid property name=Nome di proprietÃ  non valido
 Memory error=Errore di memoria
 Read only file=File di sola lettura
-The loaded game is not Go : GM property=Il gioco caricato non ha la proprietà Go : GM
+The loaded game is not Go : GM property=Il gioco caricato non ha la proprietÃ  Go : GM
 Invalid board size=Grandezza della tavola non valida
-Size will be set to 19.=La grandezza verrà impostata a 19.
+Size will be set to 19.=La grandezza verrÃ  impostata a 19.
 Unexpected end of file=File terminato in modo inaspettato
 
 ;-- File warnings
@@ -1017,8 +1014,8 @@ Score=Punteggio
 ;-- Move errors
 Illegal move=Mossa illegale
 Illegal ko capture=Cattura ko illegale
-Illegal suicide...=Il suicidio non è permesso...
-Impossible to play there=Non è possibile giocare lì
+Illegal suicide...=Il suicidio non Ã¨ permesso...
+Impossible to play there=Non Ã¨ possibile giocare lÃ¬
 
 ;-- Game engine messages
 Abnormal termination of game engine=Il motore di gioco ha cessato di funzionare inaspettatamente
@@ -1037,7 +1034,7 @@ Territory=Territorio
 Prisoners=Prigionieri
 Total=Totale
 Please select board view before starting game.=Per favore seleziona la vista Tavola da gioco prima di iniziare una partita.
-Current engine is unable to start...=L'attuale motore di gioco è in grado di partire...
+Current engine is unable to start...=L'attuale motore di gioco Ã¨ in grado di partire...
 Engine configuration file missing. Please check installation.=Manca il file di configurazione del motore di gioco. Per favore controllate l'istallazione.
 alive=vivo
 dead=morto
@@ -1052,7 +1049,7 @@ Please, close previous preview to proceed.=Per favore, chiudete la precedente an
 File is in use, close to proceed.=File in uso, chiuderlo per proseguire.
 
 ;-- Preview
-Sorting is not enabled over %d records.=L'odinamento non è possibile per un numero di record superiore a %d .
+Sorting is not enabled over %d records.=L'odinamento non Ã¨ possibile per un numero di record superiore a %d .
 See Options | Preview to change this setting.=Vedi Opzioni | Anteprima per cambiare questa impostazione.
 
 ;-- KEYBOARD -----------------------------------------------------------
@@ -1069,7 +1066,7 @@ Home=Home
 Left=Sinistra
 Up=Su
 Right=Destra
-Down=Giù
+Down=GiÃ¹
 Ins=Ins
 Del=Canc
 Shift+=
@@ -1086,7 +1083,7 @@ Start2=Inizia
 Abort=Interrompi
 Save database as=Salva archivio come
 Please give database name=Per favore indica il nome dell'archivio
-%s already exists.=%s già esiste.
+%s already exists.=%s giÃ  esiste.
 Do you want to overwrite it?=Vuoi sovrascrivere il file?
 Database open, please close first=Archivio aperto, per favore chiudilo prima di proseguire
 Unable to create database=impossibile creare l'archivio
@@ -1179,8 +1176,8 @@ Operation aborted by user=Operazione interrotta dall'utente
 Unable to process game=Impossibile elaborare la partita
 Unable to process game completely=Impossibile elaborare la partita completamente
 Boardsize not handled=Grandezza della tavola da gioco non gestita
-SGF error detected, game inserted=Trovato un errore SGF, la partita è stata comunque inserita
-SGF error detected, game not inserted=Trovato un errore SGF, la partita non è stata inserita
+SGF error detected, game inserted=Trovato un errore SGF, la partita Ã¨ stata comunque inserita
+SGF error detected, game not inserted=Trovato un errore SGF, la partita non Ã¨ stata inserita
 Duplicate detected=Trovato duplicato
 Duplicate ignored=Duplicato ignorato
 ;%d result(s)=%d résultat(s)
@@ -1190,7 +1187,7 @@ No game found in %s=Nessuna partita trovata in %s
 Save logfile=Salva file log
 %d ms.=%d ms.
 %2.2f seconds=%2.2f secondi
-Unable to modify game in database.=Non è possibile modificare la partita nell'archivio.
+Unable to modify game in database.=Non Ã¨ possibile modificare la partita nell'archivio.
 Extract to a new tab and try again?=Estrarre la partita verso una nuova scheda e riprovare?
 
 ;-- ADVANCED OPTIONS ---------------------------------------------------
@@ -1204,7 +1201,7 @@ Restore=Ripristina
 ; The following strings may be ignored...
 
 ; Board
-Click sequence in stone setup mode=Sequenza dei click in modalit� "stone setup"
+Click sequence in stone setup mode=Sequenza dei click in modalità "stone setup"
 Set, remove=Aggiungi, rimuovi
 Set, swap color, remove=Aggiungi, cambia colore, rimuovi
 Enable moves as books=Abilita le mosse come nei libri
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Replica dell'immagine di fondo con simmetrie
 ; User interface
 User interface=Interfaccia utente
 Allow only one instance=Permetti l'avvio dei giochi in una sola applicazione
-Minimize to tray=Minimizza la finestra
 Hook content of window when resizing=Aggancia il contenuto della finestra durante il ridimensionamento
 Anchor panels at bottom=Ancora i pannelli in basso
 Show tab close buttons=Mostra il pulsante per la chiusura delle schede
@@ -1242,7 +1238,7 @@ Warnings=Avvertimenti
 Warn when toggling to full screen=Avverti quando passi a schermo intero
 Warn at first modification=Avverti alla prima modifica
 Warn at modification in database game=Avverti della modifica dell'archivio del gioco
-Warn at modification in read only mode=Avverti della modifica in modalit� sola lettura
+Warn at modification in read only mode=Avverti della modifica in modalità sola lettura
 Warn when delete branch=Avverti quando si cancella un ramo
 Warn on invalid move=Avverti sulle mosse non valide
 Warn on game engine pass=Avverti quando il motore di gioco passa il turno

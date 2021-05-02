@@ -176,9 +176,6 @@ Reload current file=Fájlt frissít
 ;-- Sidebar menu
 Show in current tab=
 
-;-- Tray icon menu
-Restore window=
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Súgó
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=
 ; User interface
 User interface=Felhasználói felület
 Allow only one instance=Csak egy felületet enged
-Minimize to tray=
 Hook content of window when resizing=Átméretezésnél az ablakok tartalma látható
 Anchor panels at bottom=Fülek alul
 Show tab close buttons=Fül záró jel mutatás

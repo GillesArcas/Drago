@@ -160,7 +160,7 @@ type
     kMaxBoardFontSize,
     kSymmetricTiling,
     kOneInstance,
-    kMinimizeToTray,
+  //kMinimizeToTray,
     kHookContent,
     kTabCloseBtn,
     kUsePortablePaths,
@@ -178,7 +178,7 @@ type
     kWarnOnPass,
     kWarnOnResign,
     kWarnLoseOnTime,
-    //kPdfUseOldLib,
+  //kPdfUseOldLib,
     kUseBoardColor,
     kRadiusAdjust,
     kFontSizeAdjust,
@@ -207,7 +207,7 @@ type
   end;
 
 const
-  PropNum = 45;
+  PropNum = 44;
 
 var
   PropertyList : array[0 .. PropNum - 1] of TProperty = (
@@ -222,7 +222,7 @@ var
     (ed: vtBool;   pk: kSymmetricTiling;  pr: 'Texture tiling with symmetries'),
     (ed: vtNone;   pk: kDum;              pr: 'User interface'),
     (ed: vtBool;   pk: kOneInstance;      pr: 'Allow only one instance'),
-    (ed: vtBool;   pk: kMinimizeToTray;   pr: 'Minimize to tray'),
+  //(ed: vtBool;   pk: kMinimizeToTray;   pr: 'Minimize to tray'),
     (ed: vtBool;   pk: kHookContent;      pr: 'Hook content of window when resizing'),
     (ed: vtBool;   pk: kTabCloseBtn;      pr: 'Show tab close buttons'),
     (ed: vtNone;   pk: kDum;              pr: 'Files'),
@@ -331,7 +331,7 @@ begin
     kMaxBoardFontSize: Result := IntToStr    (__MaxBoardFontSize);
     kSymmetricTiling : Result := BoolToString(__SymmetricTiling);
     kOneInstance     : Result := BoolToString(__OneInstance);
-    kMinimizeToTray  : Result := BoolToString(__MinimizeToTray);
+  //kMinimizeToTray  : Result := BoolToString(__MinimizeToTray);
     kHookContent     : Result := BoolToString(__HookContent);
     kTabCloseBtn     : Result := '1';
     kUsePortablePaths: Result := BoolToString(__UsePortablePaths);
@@ -349,7 +349,7 @@ begin
     kWarnOnPass      : Result := BoolToString(__WarnOnPass);
     kWarnOnResign    : Result := BoolToString(__WarnOnResign);
     kWarnLoseOnTime  : Result := BoolToString(__WarnLoseOnTime);
-    //kPdfUseOldLib    : Result := BoolToString(__PdfUseOldLib);
+  //kPdfUseOldLib    : Result := BoolToString(__PdfUseOldLib);
     kUseBoardColor   : Result := BoolToString(__PdfUseBoardColor);
     kRadiusAdjust    : Result := FloatToStrF (__PdfRadiusAdjust, ffGeneral, 3, 1);
     kFontSizeAdjust  : Result := __PdfFontSizeAdjust;
@@ -380,7 +380,7 @@ begin
     kMaxBoardFontSize: Result := IntToStr    (Settings.MaxBoardFontSize);
     kSymmetricTiling : Result := BoolToString(Settings.SymmetricTiling);
     kOneInstance     : Result := BoolToString(StatusMain.OneInstance);
-    kMinimizeToTray  : Result := BoolToString(StatusMain.MinimizeToTray);
+  //kMinimizeToTray  : Result := BoolToString(StatusMain.MinimizeToTray);
     kHookContent     : Result := BoolToString(Settings.HookContent);
     kTabCloseBtn     : Result := BoolToString(Settings.TabCloseBtn);
     kUsePortablePaths: Result := BoolToString(Settings.UsePortablePaths);
@@ -429,7 +429,7 @@ begin
     kMaxBoardFontSize: Settings.MaxBoardFontSize    := StrToIntDef (value, __MaxBoardFontSize);
     kSymmetricTiling : Settings.SymmetricTiling     := StringToBool(value);
     kOneInstance     : StatusMain.OneInstance       := StringToBool(value);
-    kMinimizeToTray  : StatusMain.MinimizeToTray    := StringToBool(value);
+  //kMinimizeToTray  : StatusMain.MinimizeToTray    := StringToBool(value);
     kHookContent     : Settings.HookContent         := StringToBool(value);
     kUsePortablePaths: Settings.UsePortablePaths    := StringToBool(value);
     kAbortOnReadError: Settings.AbortOnReadError    := StringToBool(value);

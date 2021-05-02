@@ -176,9 +176,6 @@ Reload current file=Mevcut dosyayı tekrar yükle
 ;-- Sidebar menu
 Show in current tab=Mevcut sekmede göster
 
-;-- Tray icon menu
-Restore window=Pencereyi eski haline getir
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Yardım
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Simetri kullanarak doku döşemesi
 ; User interface
 User interface=Kullanıcı arayüzü
 Allow only one instance=Sadece tek bir programa izin ver
-Minimize to tray=Tepsiye küçült
 Hook content of window when resizing=Boyutlandırırken pencerenin içeriklerini askıda tut
 Anchor panels at bottom=Panelleri dipte sabitle
 Show tab close buttons=Sekme kapat butonlarını göster

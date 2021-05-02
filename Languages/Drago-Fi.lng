@@ -176,9 +176,6 @@ Reload current file=Lataa uudelleen nykyinen tiedosto
 ;-- Sidebar menu
 Show in current tab=Näytä nykyisessä välilehdessä
 
-;-- Tray icon menu
-Restore window=Palauta ikkuna
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Apu
@@ -1183,7 +1180,7 @@ SGF error detected, game inserted=SGF-virhe havaittu ja peli lisätty
 SGF error detected, game not inserted=SGF-virhe havaittu, peliä ei liitetty
 Duplicate detected=Kaksonen havaittu
 Duplicate ignored=Kaksonen sivuutettu
-;%d result(s)=%d tulokse(t)
+;%d result(s)=%d résultat(s)
 No game found in %s=Pelejä ei löydetty %s:ssä
 1 game found in %s=Yksi peli löydetty %s:ssä
 %d games found in %s=%d peliä löydetty %s:ssä
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Tekstuurilaatoitus symmetrioilla
 ; User interface
 User interface=Käyttöliittymä
 Allow only one instance=Salli vain yksi tapaus
-Minimize to tray=Pienennä lokeroon
 Hook content of window when resizing=Kytke ikkunan sisältö kokoa muutettaessa
 Anchor panels at bottom=Ankkuripaneelit pohjalla
 Show tab close buttons=Näytä välilehden sulkemispainikkeet

@@ -176,9 +176,6 @@ Reload current file=إعادة تحميل الملف
 ;-- Sidebar menu
 Show in current tab=أظهر في الجدول الحالي
 
-;-- Tray icon menu
-Restore window=أعد النافذة
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&مساعدة
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Pavage des textures avec symétries
 ; User interface
 User interface=واجهة المُستعمِل
 Allow only one instance=Ouvrir une seule instance de l'application
-Minimize to tray=Minimiser dans la zone de notification
 Hook content of window when resizing=Accrocher le contenu pendant le redimensionnement
 Anchor panels at bottom=Accrocher les panels en bas
 Show tab close buttons=Montrer les boutons de fermeture d'onglets

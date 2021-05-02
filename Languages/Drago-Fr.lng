@@ -176,9 +176,6 @@ Reload current file=Recharger le fichier
 ;-- Sidebar menu
 Show in current tab=Montrer dans l'onglet courant
 
-;-- Tray icon menu
-Restore window=Restaurer
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Aide
@@ -699,7 +696,7 @@ Additional parameters=Paramètres complémentaires
 ;-- Language tab
 
 Language=Langue
-Select language for user interface=Sélectionner la langue de l'interface 
+Select language for user interface=Sélectionner la langue de l'interface
 Select code page for game files=Sélectionner la page de code par défaut des fichiers de jeux
 Create game files using...=Créer les fichiers de jeux en utilisant ...
 Unicode=
@@ -707,7 +704,7 @@ System default code page=la page de code par défaut
 
 ;-- CUSTOM STONE DIALOG ------------------------------------------------
 
-Select custom stones=Sélection des pierres personnalisées 
+Select custom stones=Sélection des pierres personnalisées
 Path for Black stones=Chemin des pierres noires
 Path for White stones=Chemin des pierres blanches
 Stone names should include a number specifying the diameter. If names include a second number, it identifies some variation of the graphism.=Les noms doivent inclure un nombre spécifiant le diamètre. Si le nom inclut un deuxième nombre, il référence une variation du graphisme.
@@ -812,7 +809,7 @@ Random position=Position aléatoire
 Number of problems=Nombre de problèmes
 
 ;-- Failure ratio
-Include problems incorrectly solved=Inclure les problèmes non résolus 
+Include problems incorrectly solved=Inclure les problèmes non résolus
 don't care=indifférent
 ratio=proportion
 
@@ -1057,7 +1054,7 @@ See Options | Preview to change this setting.=Voir Options | Aperçu pour modifi
 
 ;-- KEYBOARD -----------------------------------------------------------
 
-BkSp=RetArr           
+BkSp=RetArr
 Tab=Tab
 Esc=Echap
 Enter=Entrée
@@ -1097,7 +1094,7 @@ Pattern=Position
 Signature=Signature
 Reset=Reset
 No database loaded=Pas de base ouverte
-No database loaded... Load or create.=Pas de base ouverte... Ouvrir ou créer. 
+No database loaded... Load or create.=Pas de base ouverte... Ouvrir ou créer.
 Select database=Sélectionner une base de données
 Search=Chercher
 Search in results=Chercher dans les résultats
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Pavage des textures avec symétries
 ; User interface
 User interface=Interface utilisateur
 Allow only one instance=Ouvrir une seule instance de l'application
-Minimize to tray=Minimiser dans la zone de notification
 Hook content of window when resizing=Accrocher le contenu pendant le redimensionnement
 Anchor panels at bottom=Accrocher les panels en bas
 Show tab close buttons=Montrer les boutons de fermeture d'onglets
@@ -1240,7 +1236,7 @@ Game engine options are inhibited during game=Options moteur de jeu inhibées en
 ; Warning
 Warnings=Avertissements
 Warn when toggling to full screen=Prévenir au passage en plein écran
-Warn at first modification=Prévenir à la 1ère modification 
+Warn at first modification=Prévenir à la 1ère modification
 Warn at modification in database game=Prévenir si tentative de modification d'un jeu de la base de données
 Warn at modification in read only mode=Prévenir si tentative de modification en mode lecture seule
 Warn when delete branch=Prévenir si suppression branche

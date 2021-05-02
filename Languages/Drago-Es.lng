@@ -176,9 +176,6 @@ Reload current file=Abrir de nuevo el archivo corriente
 ;-- Sidebar menu
 Show in current tab=Enseñar en carpeta corriente
 
-;-- Tray icon menu
-Restore window=Restaurar
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Ayuda
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Tejar las texturas con simetrías
 ; User interface
 User interface=Interfaz de usuario
 Allow only one instance=Permitir solo una instancia
-Minimize to tray=Minimizar en área de notificación 
 Hook content of window when resizing=Enganchar el contenido durante el dimensionamiento
 Anchor panels at bottom=Colgar abajo
 Show tab close buttons=Mostrar los botones para cerra las pestañas

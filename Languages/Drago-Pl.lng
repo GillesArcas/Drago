@@ -176,9 +176,6 @@ Reload current file=Wczytaj ponownie obecny plik
 ;-- Sidebar menu
 Show in current tab=Pokaż w listwie
 
-;-- Tray icon menu
-Restore window=Przywróć okno
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=&Pomoc
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=Kafelki tekstury są symetryczne?
 ; User interface
 User interface=Interfejs użytkownika
 Allow only one instance=Tylko jeden otwarty program
-Minimize to tray=Pozwól na minimalizację do schowka
 Hook content of window when resizing=Zatrzymaj zawartość okna podczas zmiany rozmiaru
 Anchor panels at bottom=Ustaw panele na dole
 Show tab close buttons=Pokaż przycisk zamykania na panelach

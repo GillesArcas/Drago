@@ -176,9 +176,6 @@ Reload current file=重载当前文件
 ;-- Sidebar menu
 Show in current tab=显示在当前标签页中
 
-;-- Tray icon menu
-Restore window=恢复窗口
-
 ;-- GENERAL BUTTONS ----------------------------------------------------
 
 &Help=帮助
@@ -1218,7 +1215,6 @@ Texture tiling with symmetries=对称地平铺花纹
 ; User interface
 User interface=用户界面
 Allow only one instance=只允许一个实例
-Minimize to tray=最小化到托盘区
 Hook content of window when resizing=窗体尺寸调整时同步调整内容
 Anchor panels at bottom=右下角面板尺寸自动调整
 Show tab close buttons=标签上显示关闭按钮

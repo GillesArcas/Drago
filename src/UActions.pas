@@ -143,7 +143,6 @@ type
     acAdvancedSettings: TTntAction;
     acShowGtpWindow: TTntAction;
     acMakeGameTree: TTntAction;
-    acRestoreWindow: TTntAction;
     acOpenFromClipBoard: TTntAction;
     acSaveToClipboard: TTntAction;
     acQuickSearch: TTntAction;
@@ -289,7 +288,6 @@ type
     procedure acAdvancedSettingsExecute(Sender: TObject);
     procedure acShowGtpWindowExecute(Sender: TObject);
     procedure acMakeGameTreeExecute(Sender: TObject);
-    procedure acRestoreWindowExecute(Sender: TObject);
     procedure acOpenFromClipBoardExecute(Sender: TObject);
     procedure acSaveToClipboardExecute(Sender: TObject);
     procedure acQuickSearchExecute(Sender: TObject);
@@ -490,11 +488,6 @@ end;
 procedure TActions.acQuitExecute(Sender: TObject);
 begin
   DoMainQuit
-end;
-
-procedure TActions.acRestoreWindowExecute(Sender: TObject);
-begin
-  fmMain.RestoreWindow
 end;
 
 procedure TActions.acOpenFromClipBoardExecute(Sender: TObject);
