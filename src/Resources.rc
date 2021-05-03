@@ -1,0 +1,9 @@
+LICENSE TEXT   ..\Releases\License.txt
+MSGEXC  BITMAP ..\Resources\Messages\RgWhite42Exclam.bmp
+MSGQUE  BITMAP ..\Resources\Messages\RgWhite42Question.bmp
+MSGSAD  BITMAP ..\Resources\Messages\RgWhite42Sad.bmp
+MSGDRA  BITMAP ..\Resources\Messages\RgWhite42Drago.bmp
+CLICK   WAVE   ..\Resources\Sounds\mouse1.wav
+INVMOVE WAVE   ..\Resources\Sounds\XPDing.wav
+REDCRSS CURSOR ..\Resources\Cursors\redcross.cur
+SGFICON ICON   ..\Resources\Icons\SGFICON.ico

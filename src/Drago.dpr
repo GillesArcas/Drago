@@ -7,7 +7,7 @@
 
 program Drago;
 
-{$R 'UGraphic.res' 'UGraphic.rc'}
+{$R 'Resources.res' 'Resources.rc'}
 
 uses
   Forms,
