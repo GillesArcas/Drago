@@ -30,14 +30,15 @@ implementation
 
 uses
   IniFiles, ShellAPI,
-  UStatus, EngineSettings, Translate;
+  TntClasses, TntIniFiles,
+  SysUtilsEx, UStatus, EngineSettings, Translate;
 
 {$R *.dfm}
 
 procedure TfrCfgPredefinedEngines.Initialize(frCfgGameEngines : TfrCfgGameEngines);
 var
-  iniFile : TIniFile;
-  list : TStringList;
+  iniFile : TTntIniFile;
+  list : TTntStringList;
   i : integer;
 begin
   GameEngineTab := frCfgGameEngines;
@@ -48,15 +49,15 @@ begin
   lbMessage.Width := ClientWidth - 2 * lbMessage.Left; 
 
   // check if engine configuration file exists
-  if not FileExists(Status.AppPath + EnginesConfig) then
+  if not WideFileExists(Status.AppPath + EnginesConfig) then
     begin
       lbMessage.Font.Color := clRed;
       lbMessage.Caption := U('Engine configuration file missing. Please check installation.')
     end;
 
   // read sections (ie engine names) in engine configuration file
-  iniFile := TIniFile.Create(Status.AppPath + EnginesConfig);
-  list := TStringList.Create;
+  iniFile := TTntIniFile.Create(Status.AppPath + EnginesConfig);
+  list := TTntStringList.Create;
   iniFile.ReadSections(list);
 
   // load string grid with engine names and url

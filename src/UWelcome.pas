@@ -65,7 +65,6 @@ procedure TfmWelcome.FormCreate(Sender: TObject);
 var
   languages : TWideStringList;
   i : integer;
-  b: boolean;
 begin
   Caption := AppName;
 
