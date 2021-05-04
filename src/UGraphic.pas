@@ -53,7 +53,7 @@ function AdjustFontSize(canvas  : TCanvas;
                         styles  : TFontStyles;
                         const s : string) : integer;
 procedure PseudoAntiAlias(bm : TBItmap; d : integer; backColor : TColor);
-function  LoadImageToBmp(name : WideString; bmp : TBitmap; tmpPath : string) : boolean;
+function  LoadImageToBmp(name : WideString; bmp : TBitmap) : boolean;
 procedure CopyPngTransparency(bmp : TBitmap; png : TPngObject);
 procedure CopyBmpTransparency(bmp : TBitmap; png : TPngObject);
 procedure VerticalSymetry(bitmap : TBitmap); overload;
@@ -1457,15 +1457,15 @@ end;
 
 // -- Loading of an image file into a bitmap ---------------------------------
 
-function LoadImageToBmp(name : WideString; bmp : TBitmap; tmpPath : string) : boolean;
+function LoadImageToBmp(name : WideString; bmp : TBitmap) : boolean;
 var
   ext : string;
   jpg : TJPEGImage;
   gif : TGifImage;
   png : TPngObject;
 begin
-  if name <> AnsiString(name)
-    then name := CopyFileToAnsiNameTmpFile(name, tmpPath);
+  if not IsAnsiString(name)
+    then name := CopyFileToAnsiNameTmpFile(name);
 
   Result := True;
   ext := LowerCase(ExtractFileExt(name));

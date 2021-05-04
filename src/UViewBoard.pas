@@ -515,12 +515,12 @@ begin
 
   pv := pv2str(gt.Root.GetProp(prPB));
   s := FindPlayerImage(pv, 'DefaultBlack');
-  if not LoadImageToBmp(s, bmpBlack, Settings.TmpPath)
+  if not LoadImageToBmp(s, bmpBlack)
     then FreeAndNil(bmpBlack);
 
   pv := pv2str(gt.Root.GetProp(prPW));
   s := FindPlayerImage(pv, 'DefaultWhite');
-  if not LoadImageToBmp(s, bmpWhite, Settings.TmpPath)
+  if not LoadImageToBmp(s, bmpWhite)
     then FreeAndNil(bmpWhite);
 
   if gt.Root = nil

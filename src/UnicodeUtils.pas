@@ -10,28 +10,20 @@ uses
 function IsAnsiString(const s : WideString) : boolean;
 function WidePos(const F: WideString; const S: WideString; const StartIndex: Integer): Integer;
 function WideReplaceStr(const s : WideString; const old, new : string) : WideString;
-function CopyFileToAnsiNameTmpFile(name : WideString; tmpPath : string) : string;
+function CopyFileToAnsiNameTmpFile(name : WideString) : string;
 
 // ---------------------------------------------------------------------------
 
 implementation
 
 uses
-  SysUtilsEx;
+  SysUtilsEx, UStatus;
 
 // -- Ansi string test -------------------------------------------------------
 
 function IsAnsiString(const s : WideString) : boolean;
-var
-  i : integer;
 begin
-  Result := False;
-
-  for i := 1 to Length(s) do
-    if integer(s[i]) > 127//255
-      then exit;
-
-  Result := True
+  Result := (s = AnsiString(s))
 end;
 
 // -- WidePos ----------------------------------------------------------------
@@ -111,9 +103,9 @@ end;
 
 // ---------------------------------------------------------------------------
 
-function CopyFileToAnsiNameTmpFile(name : WideString; tmpPath : string) : string;
+function CopyFileToAnsiNameTmpFile(name : WideString) : string;
 begin
-  Result := tmpPath + '\tmp' + WideExtractFileExt(name);
+  Result := Settings.TmpPath + '\tmp' + WideExtractFileExt(name);
   WideCopyFile(name, Result, False)
 end;
 

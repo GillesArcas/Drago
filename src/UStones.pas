@@ -67,7 +67,7 @@ implementation
 
 uses
   StrUtils, SysUtils, Contnrs, SysUtilsEx,
-  ClassesEx, UGraphic, UStatus, UnicodeUtils;
+  ClassesEx, UGraphic, UnicodeUtils;
 
 constructor TStone.Create(png : TPngObject;
                           color, diameter : integer;
@@ -534,8 +534,8 @@ begin
       if not WideFileExists(name)
         then continue
         else
-          if name <> AnsiString(name)
-            then name := CopyFileToAnsiNameTmpFile(name, Settings.TmpPath);
+          if not IsAnsiString(name)
+            then name := CopyFileToAnsiNameTmpFile(name);
 
       png := TPngObject.Create;
       png.LoadFromFile(name);

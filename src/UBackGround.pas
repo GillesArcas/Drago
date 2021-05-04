@@ -83,9 +83,9 @@ end;
 
 // -- Update of internal data
 
-function LoadImage(const name : WideString; bmp : TBitmap; tmpPath : string) : boolean;
+function LoadImage(const name : WideString; bmp : TBitmap) : boolean;
 begin
-  Result := LoadImageToBmp(name, bmp, tmpPath);
+  Result := LoadImageToBmp(name, bmp);
 
   if (not Result) or (not Status.SymmetricTiling)
     then exit;
@@ -107,14 +107,14 @@ begin
   case wStyle of
     bsColor : ;
     bsDefaultTexture :
-      if not LoadImage(Status.AppPath + 'Textures\wood01.jpg', Bitmap, Settings.TmpPath) then
+      if not LoadImage(Status.AppPath + 'Textures\wood01.jpg', Bitmap) then
         begin
           UfmMsg.MessageDialog(msOk, imDrago, ['Default texture not found']);
           Style := bsColor;
           Update
         end;
     bsCustomTexture  :
-      if not LoadImage(wImage, Bitmap, Settings.TmpPath) then
+      if not LoadImage(wImage, Bitmap) then
         begin
           UfmMsg.MessageDialog(msOk, imDrago, ['Texture not found']);
           Style := bsColor;

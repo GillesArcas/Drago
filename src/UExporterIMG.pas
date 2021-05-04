@@ -45,7 +45,7 @@ procedure ExportImage(bitmap   : TBitmap;
 implementation
 
 uses
-  UStatus, UGraphic, UfmMsg, Translate, SysUtilsEx,
+  UStatus, UGraphic, UfmMsg, Translate, SysUtilsEx, UnicodeUtils,
   UExporterPDF,
   UImageExporterBMP,
   UImageExporterPDF,
@@ -128,7 +128,7 @@ var
   jpg : TJPEGImage;
 begin
   imgNameArg := imgName;
-  if imgName <> AnsiString(imgName)
+  if not IsAnsiString(imgName)
     then imgName := Settings.TmpPath + '\tmp' + WideExtractFileExt(imgName);
 
   try
@@ -203,7 +203,7 @@ begin
         end
       end;
 
-      if imgNameArg <> AnsiString(imgNameArg)
+      if not IsAnsiString(imgNameArg)
         then WideCopyFile(imgName, imgNameArg, False)
     except
       if imgName = ''

@@ -123,7 +123,7 @@ uses
   Define, Std, WinUtils,
   UexporterIMG, Main, UMainUtil, Ux2y, UGcom, Translate,
   UGmisc, HtmlHelpAPI, UGameTree, Sgfio, UDialogs,
-  UStatusMain, VclUtils, UView, UBoardViewCanvas, UBoardViewMetric,
+  UStatusMain, VclUtils, UnicodeUtils, UView, UBoardViewCanvas, UBoardViewMetric,
   UImageExporterBMP,
   UImageExporterPDF,
   UImageExporterTXT,
@@ -902,7 +902,7 @@ begin
   if imgName = ''
     then Clipboard.SetTextBuf(PChar(textCanvas.Text))
     else
-      if imgName = AnsiString(imgName)
+      if IsAnsiString(imgName)
         then textCanvas.SaveToFile(imgName)
         else
           begin

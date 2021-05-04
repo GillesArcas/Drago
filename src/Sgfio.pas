@@ -97,7 +97,7 @@ implementation
 
 uses
   SysUtils, SysUtilsEx, ClassesEx,
-  Std, WinUtils, Ux2y, Properties;
+  Std, WinUtils, UnicodeUtils, Ux2y, Properties;
 
 // == Reading of SGF format ==================================================
 
@@ -1029,7 +1029,7 @@ begin
   SaveCompact := aSaveCompact;
   nameArg := name;
 
-  if nameArg <> AnsiString(nameArg)
+  if not IsAnsiString(nameArg)
     then name := DragoTempPath + 'tmp.sgf';
 
   assign(f, name);
@@ -1037,7 +1037,7 @@ begin
   PrintOne(f, gt.Root);
   close(f);
 
-  if nameArg <> AnsiString(nameArg)
+  if not IsAnsiString(nameArg)
     then
       if not WideCopyFile(name, nameArg, False)
         then sgfResult := ioNotSaved
@@ -1121,16 +1121,6 @@ end;
 
 // -- Unicode filename functions ---------------------------------------------
 
-function IsAsciiName(name : WideString) : boolean;
-var
-  s : string;
-begin
-  // TODO: should be WideStringToAscii to keep accent on 1 char
-  // TODO: see UnicodeUtils
-  s := UTF8Encode(name);
-  Result := Length(name) = Length(s)
-end;
-
 procedure PrintSGF(cl : TGameColl;
                    name : WideString;
                    mode : TSgfSaveMode;
@@ -1140,7 +1130,7 @@ procedure PrintSGF(cl : TGameColl;
 var
   tmpName : string;
 begin
-  if IsAsciiName(name)
+  if IsAnsiString(name)
     then PrintSgf(cl, string(name), mode, aCompressList, aSaveCompact,
                   matchFileName)
     else
