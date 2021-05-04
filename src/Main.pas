@@ -438,6 +438,7 @@ type
     procedure InvalidateView(viewMode : TViewMode); overload;
     procedure WriteInStatusPanel(n : integer; s : WideString);
     procedure UpdateIniFile;
+    procedure UpdateHelpFile;
     procedure DoToggleFullScreen;
     //function  ToolButtonNumber(tb : TToolButton) : integer;
     procedure OnMessageBlocking(var Msg: TMsg; var Handled: Boolean);
@@ -516,7 +517,7 @@ uses
   Define,
   UProblems,
   UfmDebug, UEngines,
-  SgfIo, UfmMsg, UGameTree, UfmOptions,
+  SgfIo, UfmMsg, UGameTree, UfmOptions, SysUtilsEx,
   UPrintStyles,
   UTreeView, Ugmisc, 
   UfmExportPos, UfmFreeH,
@@ -715,7 +716,7 @@ begin
   if not ok
     then ShowMessage('File ' + filename + ' not found. No translation.');
   MainTranslate;
-  Application.HelpFile := Status.AppPath + T(HlpFile);
+  UpdateHelpFile;
 
   // apply application settings
   OneInstance.Active := StatusMain.OneInstance;
@@ -835,7 +836,7 @@ begin
   if not ok
     then ShowMessage('File ' + filename + ' not found. No translation.');
   MainTranslate;
-  Application.HelpFile := Status.AppPath + T(HlpFile);
+  UpdateHelpFile;
 
   // apply application settings
   OneInstance.Active := StatusMain.OneInstance;
@@ -1883,6 +1884,22 @@ begin
     MessageDialog(msOk, imExclam, ['Something wrong when writing to Drago.ini',
                                    'Check Drago.ini permissions'])
   end
+end;
+
+// -- Help file --------------------------------------------------------------
+
+procedure TfmMain.UpdateHelpFile;
+var
+  helpFile, helpFileA : WideString;
+begin
+  helpFile := Status.AppPath + T(HlpFile);
+  if helpFile <> AnsiString(helpFile) then
+  begin
+    helpFileA := DragoTempPath + T(HlpFile);
+    WideCopyFile(helpFile, helpFileA, False);
+    helpFile := helpFileA
+  end;
+  Application.HelpFile := helpFile;
 end;
 
 // -- File related events ----------------------------------------------------

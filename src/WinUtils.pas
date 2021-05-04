@@ -106,8 +106,6 @@ begin
   Result := IncludeTrailingPathDelimiter(GetCommonAppData) + IncludeTrailingPathDelimiter('Drago')
 end;
 
-// -- Creation and destruction of temp folder --------------------------------
-
 function MakeDragoTempDir : string;
 begin
   Result := DragoTempPath;
