@@ -276,18 +276,16 @@ procedure TEngineSettings.LoadIni(iniFile : TTntMemIniFile;
                                   const appPath : WideString);
 var
   key, s : string;
-  ws : WideString;
   strings : TStringDynArray;
 begin
   key := IntToStr(index);
-  ws := iniFile.ReadString('Engine', key, '');
-  s := string(ws);
+  s := AnsiString(iniFile.ReadString('Engine', key, ''));
   Split(s, strings, ';');
   SetLength(strings, geDescrLength);
 
-  FName            := string(strings[geName]); ///ICI UTF8Decode(strings[geName]);
+  FName            := strings[geName];
   FRefEngine       := strings[geRef];
-  FPath            := string(strings[gePath]); ///ICI UTF8Decode(strings[gePath]);
+  FPath            := strings[gePath];
   if usePortablePaths
     then FPath := WideAbsolutePath(FPath, appPath);
   FCustomArgs      := strings[geCustomArgs];
@@ -295,13 +293,12 @@ begin
   FUsedForAnalysis := strings[geUsedForScore] = '1';
   FLevel           := StrToIntDef(strings[geLevel], DefaultLevel);
 
-  ///ICIReadPredefinedSettings(ExtractFilePath(iniFile.FileName), FRefEngine);
   ReadPredefinedSettings(appPath, FRefEngine);
   DecodeFeatures(StrToIntDef(strings[geFeatures], 0));
 
   // must be set again as they are reset by ReadPredefinedSettings
-  FName := string(strings[geName]); ///ICI UTF8Decode(strings[geName]);
-  FPath := string(strings[gePath]); ///ICI UTF8Decode(strings[gePath]);
+  FName := strings[geName];
+  FPath := strings[gePath];
   FCustomArgs := strings[geCustomArgs]
 end;
 
