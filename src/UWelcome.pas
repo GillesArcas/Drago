@@ -45,8 +45,7 @@ implementation
 {$R *.dfm}
 
 uses
-  UDragoIniFiles,
-  TntForms,
+  TntForms, TntIniFiles,
   DefineUi, Std, Translate, UStatus, UFileAssoc, UActions, SysUtilsEx, ClassesEx;
 
 // ---------------------------------------------------------------------------
@@ -98,11 +97,11 @@ end;
 
 procedure TfmWelcome.btContinueClick(Sender: TObject);
 var
-  IniFile : TDragoIniFile;
+  IniFile : TTntMemIniFile;
   ok : boolean;
 begin
   // create 
-  IniFile := TDragoIniFile.Create(DragoIniFileName);
+  IniFile := TTntMemIniFile.Create(DragoIniFileName);
   CreateIniFile(IniFile);
   Actions.DefaultShortCut(Inifile);
 

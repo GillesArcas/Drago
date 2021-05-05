@@ -25,7 +25,7 @@ uses
   Define, DefineUi, Std, UView, UContext, UGoban, UGameColl, SgfIo, UStatus,
   UGMisc, Crc32,
   ViewUtils, UGameTreeTests,
-  UDragoIniFiles,
+  TntIniFiles,
   UPrint,
   UImageExporterBMP,
   UImageExporterPDF,
@@ -64,7 +64,7 @@ procedure ApplyBatch(batchName, reference, result : string; logProc : TLogProc;
                      out timing : int64);
 var
   view : TView;
-  IniFile : TDragoIniFile;
+  IniFile : TTntMemIniFile;
   iniName, bakName : WideString;
 begin
   iniName := DragoIniFileName;
@@ -85,7 +85,7 @@ begin
   RenameFile(iniName, bakName);
 
   // initialize with default values and save temporary inifile
-  IniFile := TDragoIniFile.Create(iniName);
+  IniFile := TTntMemIniFile.Create(iniName);
   Settings.LoadIniFile(IniFile);
   Settings.SaveIniFile(IniFile);
 
@@ -121,7 +121,7 @@ begin
     RenameFile(bakName, iniName);
 
     // restore settings
-    IniFile := TDragoIniFile.Create(iniName);
+    IniFile := TTntMemIniFile.Create(iniName);
     Settings.LoadIniFile(IniFile);
     IniFile.Free
   end;
@@ -222,7 +222,7 @@ end;
 procedure ApplyConfig(view : TView; line : string);
 var
   section, key, value : string;
-  IniFile : TDragoIniFile;
+  IniFile : TTntMemIniFile;
   ok : boolean;
 begin
   ExtractSetting(line, section, key, value, ok);
@@ -234,7 +234,7 @@ begin
 
   if not ok then
     begin
-      IniFile := TDragoIniFile.Create(DragoIniFileName);
+      IniFile := TTntMemIniFile.Create(DragoIniFileName);
       IniFile.WriteString(section, key, value);
       IniFile.UpdateFile;
       Settings.LoadIniFile(IniFile);

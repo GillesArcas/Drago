@@ -155,7 +155,6 @@ uses
   UfrSelectFiles in 'UfrSelectFiles.pas' {frSelectFiles: TFrame},
   UfmSelectFiles in 'UfmSelectFiles.pas' {fmSelectFiles},
   UFactorization in 'UFactorization.pas',
-  UDragoIniFiles in 'UDragoIniFiles.pas',
   UfmCustomStones in 'UfmCustomStones.pas' {fmCustomStones},
   BoardUtils in 'BoardUtils.pas',
   UfrDBSettingsPanel in 'UfrDBSettingsPanel.pas' {frDBSettingsPanel: TFrame},

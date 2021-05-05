@@ -17,7 +17,7 @@ uses
   XPMan,
   UActions, TB2Item, TB2Dock, TB2Toolbar,
   TntForms, TntMenus, TntComCtrls, TntGraphics, TntSystem, SpTBXItem,
-  DefineUi, UDragoIniFiles,
+  DefineUi, TntIniFiles,
   UMRUList,
   UTabButton,
   UContext, Ustatus,
@@ -415,7 +415,7 @@ type
     procedure ConfigureStatusBar;
     procedure StartLoading;
   public
-    IniFile : TDragoIniFile;
+    IniFile : TTntMemIniFile;
     WaitCursor : integer;
     MRU_Tutor : TMRUList;
     TabButtonHandler : TTabButtonHandler;
@@ -623,7 +623,7 @@ var
   filename : string;
 begin
   // alloc and init context (use GetLocalAppData if needed)
-  IniFile := TDragoIniFile.Create(DragoIniFileName);
+  IniFile := TTntMemIniFile.Create(DragoIniFileName);
   Status.Default;
   CurrentViewMain  := nil;
   CurrentViewBoard := nil;

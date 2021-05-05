@@ -60,7 +60,7 @@ implementation
 {$R *.dfm}
 
 uses 
-  Std, UActions, Main, Translate, IniFiles, TntIniFiles, UDragoIniFiles;
+  Std, UActions, Main, Translate, IniFiles, TntIniFiles;
 
 // -- Forwards ---------------------------------------------------------------
 
@@ -426,7 +426,7 @@ end;
 
 // -- Saving and loading of toolbars configuration ---------------------------
 
-procedure TBTntIniSavePositions(owner: TComponent; iniFile : TDragoIniFile; section : string);
+procedure TBTntIniSavePositions(owner: TComponent; iniFile : TTntMemIniFile; section : string);
 var
   tmpIni : TMemIniFile;
 begin
@@ -436,7 +436,7 @@ begin
   tmpIni.Free;
 end;
 
-procedure TBTntIniLoadPositions(owner: TComponent; iniFile : TDragoIniFile; section : string);
+procedure TBTntIniLoadPositions(owner: TComponent; iniFile : TTntMemIniFile; section : string);
 var
   tmpIni : TMemIniFile;
 begin

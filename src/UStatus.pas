@@ -12,7 +12,7 @@ uses
   SysUtils,
   Classes, ClassesEx,
   TntIniFiles,
-  Define, DefineUi, UDragoIniFiles,
+  Define, DefineUi,
   {$ifndef FPC}UBackground{$else}UBackground_FPC{$endif},
   EngineSettings,
   UMRUList,
@@ -350,20 +350,20 @@ type
     procedure   DoWhenDestroying;
     procedure   Default;
 
-    procedure LoadIniFile(iniFile : TDragoIniFile);
-    procedure SaveIniFile(iniFile : TDragoIniFile);
+    procedure LoadIniFile(iniFile : TTntMemIniFile);
+    procedure SaveIniFile(iniFile : TTntMemIniFile);
     procedure UpdateIniFile(iniFile : TTntMemIniFile);
     procedure Default_Database;
 
     function  VarStyle  : TVarStyle;
     procedure SetVariationFromST(pv : string);
   private
-    procedure LoadGobanIniFile(iniFile : TDragoIniFile);
-    procedure SaveGobanIniFile(iniFile : TDragoIniFile);
-    procedure LoadTreeIniFile(iniFile : TDragoIniFile);
-    procedure SaveTreeIniFile(iniFile : TDragoIniFile);
-    procedure LoadIniFile_Database(iniFile : TDragoIniFile);
-    procedure SaveIniFile_Database(iniFile : TDragoIniFile);
+    procedure LoadGobanIniFile(iniFile : TTntMemIniFile);
+    procedure SaveGobanIniFile(iniFile : TTntMemIniFile);
+    procedure LoadTreeIniFile(iniFile : TTntMemIniFile);
+    procedure SaveTreeIniFile(iniFile : TTntMemIniFile);
+    procedure LoadIniFile_Database(iniFile : TTntMemIniFile);
+    procedure SaveIniFile_Database(iniFile : TTntMemIniFile);
   end;
 
 // -- Default values for settings --------------------------------------------
@@ -482,7 +482,7 @@ const
 
 // ---------------------------------------------------------------------------
 
-procedure CreateIniFile(IniFile : TDragoIniFile);
+procedure CreateIniFile(IniFile : TTntMemIniFile);
 function Status : TStatus;
 function Settings : TStatus;
 function AppRelativePath(const path : WideString) : WideString;
@@ -510,7 +510,6 @@ var
   startingDir : WideString;
 
 // Names
-// TODO: check versus functions in UDragoIniFiles
 
 function UserDir : WideString;
 begin
@@ -624,7 +623,7 @@ end;
 
 // -- Status initialisation --------------------------------------------------
 //
-// -- Must be done for every field not read in inifile
+// -- Initialisation must be done for every field not read in inifile
 
 procedure TStatus.Default;
 begin
@@ -745,7 +744,7 @@ end;
 
 // -- Creation (when installing) of Ini file ---------------------------------
 
-procedure CreateIniFile(IniFile : TDragoIniFile);
+procedure CreateIniFile(IniFile : TTntMemIniFile);
 begin
   with IniFile do
     begin
@@ -780,7 +779,7 @@ end;
 
 // -- Saving and loading of go board settings --------------------------------
 
-procedure TStatus.LoadGobanIniFile(iniFile : TDragoIniFile);
+procedure TStatus.LoadGobanIniFile(iniFile : TTntMemIniFile);
 var
   n : integer;
 begin
@@ -790,8 +789,8 @@ begin
   with iniFile do
     begin
       StoneStyle       := ReadInteger('Goban', 'StoneStyle'       , __StoneStyle);
-      CustomBlackPath  := ReadWideStr('Board', 'CustomBlackPath'  , CustomBlackPath);
-      CustomWhitePath  := ReadWideStr('Board', 'CustomWhitePath'  , CustomWhitePath);
+      CustomBlackPath  := ReadString ('Board', 'CustomBlackPath'  , CustomBlackPath);
+      CustomWhitePath  := ReadString ('Board', 'CustomWhitePath'  , CustomWhitePath);
       n                := ReadInteger('Board', 'CustomLightSource', ord(__CustomLightSource));
       CustomLightSource:= TLightSource(n);
       CoordStyle       := ReadInteger('Goban', 'CoordStyle'       , __CoordStyle);
@@ -813,7 +812,7 @@ begin
     end
 end;
 
-procedure TStatus.SaveGobanIniFile(iniFile : TDragoIniFile);
+procedure TStatus.SaveGobanIniFile(iniFile : TTntMemIniFile);
 begin
   BoardBack.SaveIni (iniFile, 'Goban', 'Board');
   BorderBack.SaveIni(iniFile, 'Goban', 'Border');
@@ -821,8 +820,8 @@ begin
   with iniFile do
     begin
       WriteInteger('Goban', 'StoneStyle'       , StoneStyle);
-      WriteWideStr('Board', 'CustomBlackPath'  , CustomBlackPath);
-      WriteWideStr('Board', 'CustomWhitePath'  , CustomWhitePath);
+      WriteString ('Board', 'CustomBlackPath'  , CustomBlackPath);
+      WriteString ('Board', 'CustomWhitePath'  , CustomWhitePath);
       WriteInteger('Board', 'CustomLightSource', ord(CustomLightSource));
       WriteInteger('Goban', 'CoordStyle'       , CoordStyle);
       WriteInteger('Board', 'NumOfMoveDigits'  , NumOfMoveDigits);
@@ -844,7 +843,7 @@ end;
 
 // -- Saving and loading of game tree settings -------------------------------
 
-procedure TStatus.LoadTreeIniFile(iniFile : TDragoIniFile);
+procedure TStatus.LoadTreeIniFile(iniFile : TTntMemIniFile);
 const
   section = 'Tree';
 begin
@@ -860,7 +859,7 @@ begin
     end
 end;
 
-procedure TStatus.SaveTreeIniFile(iniFile : TDragoIniFile);
+procedure TStatus.SaveTreeIniFile(iniFile : TTntMemIniFile);
 const
   section = 'Tree';
 begin
@@ -888,7 +887,7 @@ begin
   DBSearchVariations  := True
 end;
 
-procedure TStatus.LoadIniFile_Database(iniFile : TDragoIniFile);
+procedure TStatus.LoadIniFile_Database(iniFile : TTntMemIniFile);
 const
   section = 'Database';
 var
@@ -909,8 +908,8 @@ begin
       DBFixedPos          := ReadBool   (section, 'FixedPos'    , __DBFixedPos);
       DBMoveLimit         := ReadInteger(section, 'MoveLimit'   , __DBMoveLimit);
       // drago
-      DBOpenFolder        := ReadWideStr(section, 'OpenFolder'  , AppPath);
-      DBAddFolder         := ReadWideStr(section, 'AddFolder'   , AppPath);
+      DBOpenFolder        := ReadString (section, 'OpenFolder'  , AppPath);
+      DBAddFolder         := ReadString (section, 'AddFolder'   , AppPath);
       n                   := ReadInteger(section, 'SearchView'  , integer(__DBSearchView));
       DBSearchView        := TDBSearchView(n);
       DBPatSplitter       := ReadInteger(section, 'PatSplitter' , -1);
@@ -919,7 +918,7 @@ begin
     end
 end;
 
-procedure TStatus.SaveIniFile_Database(iniFile : TDragoIniFile);
+procedure TStatus.SaveIniFile_Database(iniFile : TTntMemIniFile);
 const
   section = 'Database';
 begin
@@ -938,8 +937,8 @@ begin
       WriteBool   (section, 'FixedPos'         , DBFixedPos);
       WriteInteger(section, 'MoveLimit'        , DBMoveLimit);
       // drago
-      WriteWideStr(section, 'OpenFolder'       , DBOpenFolder);
-      WriteWideStr(section, 'AddFolder'        , DBAddFolder);
+      WriteString (section, 'OpenFolder'       , DBOpenFolder);
+      WriteString (section, 'AddFolder'        , DBAddFolder);
       WriteInteger(section, 'SearchView'       , integer(DBSearchView));
       WriteInteger(section, 'PatSplitter'      , DBPatSplitter);
       WriteInteger(section, 'SearchMode'       , integer(DBSearchMode))
@@ -970,7 +969,7 @@ end;
 
 // -- Loading and saving of ini file -----------------------------------------
 
-procedure TStatus.LoadIniFile(iniFile : TDragoIniFile);
+procedure TStatus.LoadIniFile(iniFile : TTntMemIniFile);
 var
   s : string;
   n : integer;
@@ -997,7 +996,7 @@ begin
       OpenFileDef         := TOpenMode(ReadInteger('Options', 'OpenFileDef', integer(omEdit)));
       OpenFoldDef         := TOpenMode(ReadInteger('Options', 'OpenFoldDef', integer(omEdit)));
       EmptyLBAsL          := ReadBool   ('Options' , 'EmptyLBAsL'      , __EmptyLBAsL);
-      FactorizeFolder     := ReadWideStr('Options' , 'FactorizeFolder' , __FactorizeFolder);
+      FactorizeFolder     := ReadString ('Options' , 'FactorizeFolder' , __FactorizeFolder);
       FactorizeDepth      := ReadInteger('Options' , 'FactorizeDepth'  , __FactorizeDepth);
       FactorizeNbUnique   := ReadInteger('Options' , 'FactorizeNbUnique', __FactorizeNbUnique);
       FactorizeNormPos    := ReadBool   ('Options' , 'FactorizeNormPos', __FactorizeNormPos);
@@ -1209,7 +1208,7 @@ begin
   Result := StringReplace(Result, ',', '.', []);
 end;
 
-procedure TStatus.SaveIniFile(iniFile : TDragoIniFile);
+procedure TStatus.SaveIniFile(iniFile : TTntMemIniFile);
 var
   s : string;
 begin
@@ -1232,7 +1231,7 @@ begin
       WriteInteger('Options' , 'OpenFileDef'     , integer(OpenFileDef));
       WriteInteger('Options' , 'OpenFoldDef'     , integer(OpenFoldDef));
       WriteBool   ('Options' , 'EmptyLBAsL'      , EmptyLBAsL);
-      WriteWideStr('Options' , 'FactorizeFolder' , FactorizeFolder);
+      WriteString ('Options' , 'FactorizeFolder' , FactorizeFolder);
       WriteInteger('Options' , 'FactorizeDepth'  , FactorizeDepth);
       WriteInteger('Options' , 'FactorizeNbUnique', FactorizeNbUnique);
       WriteBool   ('Options' , 'FactorizeNormPos', FactorizeNormPos);
