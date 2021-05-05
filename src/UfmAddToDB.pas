@@ -347,7 +347,6 @@ begin
     end;
 
   // check if database already exists
-  //TODO: UNICODE
   if DatabaseExists(FName) and (FMode = dbCreate) then
     if MessageDialog(msYesNo, imQuestion,
                      [WideFormat(U('%s already exists.'), [FName]),

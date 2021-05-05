@@ -25,7 +25,7 @@ procedure RemoveDragoTempDir;
 function  GetLogicalDrives : string;
 function  AvailPhysicalMem : int64;
 function  MicroTimer : int64;
-function  IsFileInUse(fileName: string) : boolean;
+function  IsFileInUseW(const fileName: WideString) : boolean;
 function  LoadCursorFromFile(curName : string) : LongWord;
 function  IsOLEInstalled(name : string) : boolean;
 function  IsOLERunning(name : string) : boolean;
@@ -37,7 +37,8 @@ procedure OverwriteProcedure(OldProcedure, NewProcedure: pointer);
 implementation
 
 uses
-  Windows, Messages, SysUtils, ComObj, ShellAPI, ShFolder;
+  Windows, Messages, SysUtils, ComObj, ShellAPI, ShFolder,
+  SysUtilsEx;
 
 // -- Search for Windows folder ----------------------------------------------
 
@@ -185,7 +186,7 @@ end;
 
 // http://www.scalabium.com/faq/dct0066.htm
 
-function IsFileInUse(fileName: string) : boolean;
+function IsFileInUse(const fileName: string) : boolean;
 var
   hFileRes: HFILE;
 begin
@@ -195,6 +196,28 @@ begin
     then exit;
 
   hFileRes := CreateFile(PChar(FileName),
+                         GENERIC_READ or GENERIC_WRITE,
+                         0,
+                         nil,
+                         OPEN_EXISTING,
+                         FILE_ATTRIBUTE_NORMAL,
+                         0);
+
+  Result := (hFileRes = INVALID_HANDLE_VALUE);
+  if not Result then
+     CloseHandle(hFileRes)
+end;
+
+function IsFileInUseW(const fileName: WideString) : boolean;
+var
+  hFileRes: HFILE;
+begin
+  Result := False;
+
+  if not WideFileExists(FileName)
+    then exit;
+
+  hFileRes := CreateFileW(PWideChar(FileName),
                          GENERIC_READ or GENERIC_WRITE,
                          0,
                          nil,

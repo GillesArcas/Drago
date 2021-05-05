@@ -211,7 +211,7 @@ implementation
 
 uses
   TntWindows,
-  Std, WinUtils, Translate, TranslateVcl, UPrint, UPrintStyles, Main,
+  Std, WinUtils, Translate, TranslateVcl, UPrint, UPrintStyles, Main, SysUtilsEx,
   HtmlHelpAPI, Preview, UfmOptions, UfmExtract, UfmMsg, UDialogs, UExporter,
   UExporterNFG, UExporterPRE,
   UExporterDOC, UExporterTXT,
@@ -556,7 +556,7 @@ begin
 
   // test if output file is locked
   if aExportMode in [emPreviewPDF, emPreviewDOC, emExportPDF, emExportDOC] then
-    while IsFileInUse(filename) do
+    while IsFileInUseW(filename) do
       if view.MessageDialog(msOkCancel, imExclam, [U(msg)]) = mrCancel then
         begin
           ok := False;
@@ -618,7 +618,13 @@ var
   ok : boolean;
   returnValue : integer;
   exporter : TExporter;
+  aExportModeArg : TExportMode;
+  filenameArg : WideString;
 begin
+  filenameArg := filename;
+  aExportModeArg := aExportMode;
+  if aExportModeArg in [emExportHTM, emExportPDF, emExportDOC, emExportTXT]
+    then aExportMode := pred(aExportMode);
   view := fmMain.ActiveView;
 
   MakeAndTestFilename(view, aExportMode, filename, ok);
@@ -633,12 +639,16 @@ begin
   if (aExportMode = emPreviewRTF) and ok
     then fmPreview.ShowModal;
 
-  if aExportMode in [emPreviewHTM, emPreviewPDF, emPreviewDOC, emPreviewTXT] then
+  if aExportModeArg in [emPreviewHTM, emPreviewPDF, emPreviewDOC, emPreviewTXT] then
     begin
       returnValue := Tnt_ShellExecuteW(fmMain.Handle, 'open', PWideChar(filename), nil, nil, 1 {SW_SHOWNORMAL});
       if returnValue <= 32
         then ShowMessage(Format('Unable to launch preview viewer. Error code %d', [returnValue]))
     end;
+  if aExportModeArg in [emExportHTM, emExportPDF, emExportDOC, emExportTXT] then
+  begin
+    WideCopyFile(filename, filenameArg, False)
+  end;
 
   fmMain.TabSheetEnter(fmMain.ActivePage)
 end;
@@ -764,8 +774,8 @@ begin
   end;
 
   if not SaveDialog(title,
-                    ExtractFilePath(ActiveView.si.FileName),
-                    ChangeFileExt(ActiveView.si.FileName, ext),
+                    WideExtractFilePath(ActiveView.si.FileName),
+                    WideChangeFileExt(ActiveView.si.FileName, ext),
                     ext,
                     filter,
                     True,
@@ -774,7 +784,7 @@ begin
 
   ProgressSetting;
   InhibButtons(True);
-  PerformPreview(eGame, eFigure, FileName);
+  PerformPreview(eGame, eFigure, fileName);
   ProgressBar.Visible := False;
   InhibButtons(False);
   Application.ProcessMessages

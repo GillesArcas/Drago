@@ -142,7 +142,7 @@ type
     FKeepOnlyOneHit : boolean;
 
     // -- alloc
-    constructor Create(DBName, OrderBy, Format : string;
+    constructor Create(DBName : WideString; OrderBy, Format : string;
                        ProcessOptions : TKProcessOptions = nil;
                        cache : integer = 0);
     destructor Destroy; override;
@@ -365,12 +365,13 @@ var
 
 // -- alloc
 
-constructor TKGameList.Create(DBName, OrderBy, Format : string;
+constructor TKGameList.Create(DBName : WideString; OrderBy, Format : string;
                               ProcessOptions : TKProcessOptions = nil;
                               cache : integer = 0);
 var
   r : TKStatus;
   po, s : string;
+  name : AnsiString;
 begin
   //<debug>
   (*
@@ -384,14 +385,14 @@ begin
   //</debug>
 
   // encode to UTF8 for sqlite3_open
-  DBName := UTF8Encode(DBName);
+  name := UTF8Encode(DBName);
 
   if ProcessOptions = nil
-    then r := NewGameList(Handle, PChar(DBName),
+    then r := NewGameList(Handle, PChar(name),
                           PChar(OrderBy),
                           PChar(Format), 0, cache)
     else r := NewGameList(Handle,
-                          PChar(DBName),
+                          PChar(name),
                           PChar(OrderBy),
                           PChar(Format), ProcessOptions.Handle, cache);
   //<debug>

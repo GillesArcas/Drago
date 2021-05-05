@@ -10,7 +10,7 @@ interface
 
 uses
   Windows, SysUtils, Classes,
-  TntClasses, ClassesEx,
+  TntClasses, ClassesEx, SysUtilsEx,
   DefineUi, UView, UGoban, UKombilo, Main,
   UGameTree;
 
@@ -34,7 +34,7 @@ type
   end;
 
 
-procedure CreateDatabase(dbName : string; var ok : boolean);
+procedure CreateDatabase(const dbName : WideString; var ok : boolean);
 procedure UserMainOpenDatabase(sameTab : boolean);
 procedure DoMainOpenDatabase( aName : WideString;
                                 num : integer;
@@ -42,7 +42,8 @@ procedure DoMainOpenDatabase( aName : WideString;
                             sameTab : boolean;
                              var ok : boolean);
 procedure AddListToDB(view : TView; fileList : TWideStringList; DBCallBack : TDBCallBack);
-procedure CurrentEntriesToCollection(view : TView; aName : string = '';
+procedure CurrentEntriesToCollection(view : TView;
+                                     aName : WideString = '';
                                      aNode : string = '';
                                      aIndx : integer = 1);
 procedure DoPrepareSearch(i1, j1, i2, j2 : integer);
@@ -62,7 +63,7 @@ procedure DoResetDatabase;
 procedure ListOfSignatures(gl : TKGameList; list : TStringList);
 function  DatabaseExists(const dbName : WideString) : boolean;
 procedure DisplayContinuations(gb : TGoban; gl : TKGameList; i1, j1 : integer);
-function  DbFormatNumberOfResults(n : integer; dbName : WideString) : WideString;
+function  DbFormatNumberOfResults(n : integer; const dbName : WideString) : WideString;
 function  FormatTimeString(time : double) : WideString;
 
 var
@@ -86,7 +87,8 @@ begin
   Result := '[[filename]]*[[pos]]*'
 end;
 
-procedure KombiloFormatParse(s : string; var filename : string;
+procedure KombiloFormatParse(const s : string;
+                             var filename : string;
                              var index    : integer;
                              var hits     : string;
                              keepOnlyOneHit : boolean);
@@ -122,15 +124,15 @@ end;
 
 function DatabaseExists(const dbName : WideString) : boolean;
 begin
-  Result := {Wide}FileExists(dbName) and FileExists(dbName + '1')
-                                     and FileExists(dbName + '2')
+  Result := WideFileExists(dbName) and WideFileExists(dbName + '1')
+                                   and WideFileExists(dbName + '2')
 end;
 
 // -- Creation of a new database ---------------------------------------------
 
-procedure CreateDatabase(dbName : string; var ok : boolean);
+procedure CreateDatabase(const dbName : WideString; var ok : boolean);
 var
-  dbName1, dbName2 : string;
+  dbName1, dbName2 : WideString;
   r, r1, r2 : boolean;
   gl : TKGameList;
   p_op : TKProcessOptions;
@@ -141,15 +143,15 @@ begin
   dbName1 := dbName + '1';
   dbName2 := dbName + '2';
 
-  // delete previous, user is warned
-  r  := (not FileExists(dbName )) or DeleteFile(dbName );
-  r1 := (not FileExists(dbName1)) or DeleteFile(dbName1);
-  r2 := (not FileExists(dbName2)) or DeleteFile(dbName2);
+  // delete previous, user is already warned
+  r  := (not WideFileExists(dbName )) or WideDeleteFile(dbName );
+  r1 := (not WideFileExists(dbName1)) or WideDeleteFile(dbName1);
+  r2 := (not WideFileExists(dbName2)) or WideDeleteFile(dbName2);
 
   // abort if unable to create
   if (not r) or (not r1) or (not r2) then
     begin
-      if IsFileInUse(dbName)
+      if IsFileInUseW(dbName)
         then MessageDialog(msOk, imExclam, [U('Unable to create database...')])
         else MessageDialog(msOk, imExclam, [U('Unable to create database...')]);
       ok := False;
@@ -282,7 +284,7 @@ end;
 
 // -- Errors messages
 
-procedure AddToErrorList(fn : WideString; single : boolean; index, count, flag : integer);
+procedure AddToErrorList(const fn : WideString; single : boolean; index, count, flag : integer);
 var
   msg : string;
 begin
@@ -456,7 +458,7 @@ begin
 end;
 
 procedure CurrentEntriesToCollection(view : TView;
-                                    aName : string = '';
+                                    aName : WideString = '';
                                     aNode : string = '';
                                     aIndx : integer = 1);
 var
@@ -544,7 +546,7 @@ end;
 procedure TerminateOpenDatabase(tab : TTabSheetEx;
                                view : TViewMain;
                                  kh : TKGameList;
-                              aName : string;
+                              aName : WideString;
                                 num : integer;
                                node : string); forward;
 
@@ -606,7 +608,7 @@ end;
 procedure TerminateOpenDatabase(tab : TTabSheetEx;
                                view : TViewMain;
                                  kh : TKGameList;
-                              aName : string;
+                              aName : WideString;
                                 num : integer;
                                node : string);
 begin
@@ -874,7 +876,7 @@ end;
 
 // ---------------------------------------------------------------------------
 
-function ListOfPlayers(kh  : TKGameList) : TStringList;
+function ListOfPlayers(kh : TKGameList) : TStringList;
 var
   i : integer;
 begin
@@ -884,7 +886,7 @@ begin
     Result.Add(kh.PlEntry(i));
 end;
 
-function DbFormatNumberOfResults(n : integer; dbName : WideString) : WideString;
+function DbFormatNumberOfResults(n : integer; const dbName : WideString) : WideString;
 begin
   case n of
     0 : Result := WideFormat(U('No game found in %s'), [dbName]);
