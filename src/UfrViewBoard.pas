@@ -9,12 +9,11 @@ unit UfrViewBoard;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, 
-  ExtCtrls, ComCtrls, TntStdCtrls, SpTBXControls, StdCtrls, Types, TntIniFiles,
-  UfrVariations, Components,
-  UViewMain, TB2Dock, SpTBXItem, SpTBXDkPanels, TB2Item,
-  ImgList, TB2Toolbar, Menus, SpTBXEditors, USideBar, TntForms,
-  UfrDBPatternResult, TntComCtrls;
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
+  ExtCtrls, ComCtrls, StdCtrls, Types, ImgList, Menus,
+  TntStdCtrls, SpTBXControls, TntIniFiles, TB2Dock, SpTBXItem, SpTBXDkPanels,
+  TB2Item, TntForms, SpTBXEditors,
+  UfrVariations, Components, UViewMain, USideBar, UfrDBPatternResult;
 
 type
   TfrViewBoard = class(TFrame)

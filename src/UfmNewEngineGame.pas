@@ -10,10 +10,9 @@ interface
 
 uses
   Windows, Messages, Classes, Graphics, Controls, Forms, TntIniFiles, Dialogs,
-  StdCtrls, ExtCtrls,
-  DefineUi, EngineSettings, SpTBXControls, TntForms, TntStdCtrls, TntExtCtrls,
-  SpTBXItem, ComCtrls, TntComCtrls, SpTBXEditors, UTimePicker, Menus,
-  TntMenus, UActions, TB2Item;
+  StdCtrls, ExtCtrls, ComCtrls, Menus,
+  TB2Item, SpTBXControls, SpTBXItem, SpTBXEditors, TntForms, TntStdCtrls,
+  DefineUi, EngineSettings, UTimePicker;
 
 type
   TfmNewEngineGame = class(TTntForm)
@@ -121,8 +120,7 @@ implementation
 
 uses
   SysUtils, StrUtils,
-  TntGraphics,
-  Define, Std, Properties, Translate, TranslateVcl, Main, UStatus, 
+  Define, Std, Properties, Translate, TranslateVcl, Main, UStatus,
   UGameTree, HtmlHelpAPI, UEngines,
   BoardUtils, UfmOptions, Counting, Ux2y, VclUtils;
 

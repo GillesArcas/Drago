@@ -11,8 +11,8 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, Grids, Components, ExtCtrls,
-  UfrDBPickerCaption, TntForms, SpTBXControls, TntStdCtrls,
-  SpTBXEditors, SpTBXItem;
+  UfrDBPickerCaption, SpTBXControls, TntStdCtrls,
+  SpTBXEditors, SpTBXItem, TntForms;
 
 const
   ComboCount =  4;

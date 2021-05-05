@@ -10,7 +10,7 @@ interface
 
 uses
   Windows, Classes, Forms, Controls, Buttons, StdCtrls, ExtCtrls,
-  TntForms, TntButtons, SpTBXControls, SpTBXItem;
+  TntButtons, SpTBXControls, SpTBXItem;
 
 type
   TDBBaseNamePicker = class(TFrame)
@@ -33,7 +33,7 @@ implementation
 
 uses
   SysUtils, Graphics,
-  DefineUi, VclUtils, Translate, UActions, Main, UfmDBSearch, UnicodeUtils;
+  DefineUi, VclUtils, Translate, UActions, Main, UfmDBSearch;
 
 {$R *.dfm}
 

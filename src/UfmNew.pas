@@ -9,10 +9,8 @@ unit UfmNew;
 interface
 
 uses
-  Windows, Classes, Controls, Forms, IniFiles,
-  StdCtrls, ExtCtrls,
-  SpTBXControls, TntForms, TntStdCtrls, TntExtCtrls,
-  SpTBXItem, ComCtrls;
+  Windows, Classes, Controls, Forms, IniFiles, StdCtrls, ExtCtrls, ComCtrls,
+  SpTBXControls, SpTBXItem, TntForms, TntStdCtrls;
 
 type
   TfmNew = class(TTntForm)

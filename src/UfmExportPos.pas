@@ -9,11 +9,11 @@ unit UfmExportPos;
 interface
 
 uses
-  SysUtils, Graphics, Controls, Forms, Types,
+  SysUtils, Graphics, Controls, Forms, Types, Grids, Classes,
   Dialogs, Buttons, StdCtrls, ExtCtrls, UGoban, Spin, StrUtils, Clipbrd,
-  TntForms, TntStdCtrls, SpTBXControls, SpTBXItem, SpTBXSkins,
-  DefineUi, UStatus, Components, TntGrids, Grids,
-  UViewBoard, Classes;
+  TntForms, TntStdCtrls, SpTBXControls, SpTBXSkins,
+  DefineUi, UStatus, Components, TntGrids,
+  UViewBoard, SpTBXItem;
 
 type
   TfmExportPos = class(TTntForm)

@@ -11,7 +11,7 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, 
   Dialogs, Contnrs, VirtualTrees, StdCtrls, ExtCtrls, SpTBXControls, Mask,
-  SpTBXEditors, TntStdCtrls, SpTBXItem, ComCtrls, TntComCtrls;
+  TntStdCtrls, SpTBXItem, ComCtrls;
 
 type
   // Describes the type of value a property tree node stores in its data property.
@@ -143,7 +143,6 @@ implementation
 uses
   StrUtils, Types,
   DefineUi, Std, Translate, UStatus, UStatusMain,
-  TntGraphics,
   UViewMain;
 
 // ---------------------------------------------------------------------------

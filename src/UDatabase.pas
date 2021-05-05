@@ -10,7 +10,7 @@ interface
 
 uses
   Windows, SysUtils, Classes,
-  TntClasses, ClassesEx, SysUtilsEx,
+  ClassesEx,
   DefineUi, UView, UGoban, UKombilo, Main,
   UGameTree;
 
@@ -76,7 +76,7 @@ implementation
 uses
   Controls, Forms,
   StrUtils, Math,
-  Define, Std, Translate, UGameColl, Sgfio, UMainUtil, WinUtils,
+  Define, Std, Translate, UGameColl, Sgfio, UMainUtil, WinUtils, SysUtilsEx,
   UDialogs, Ugmisc, UGCom, UfmMsg, UStatus, UViewBoard,
   UfmAddToDB, UViewMain, UfmDBSearch;
 

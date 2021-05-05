@@ -10,9 +10,9 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ExtCtrls, Buttons, Math,
-  TntForms, TntStdCtrls, TntExtCtrls, SpTBXControls, SpTBXItem, SpTBXSkins,
-  Grids, TntGrids, TB2Item, Menus;
+  StdCtrls, ExtCtrls, Buttons, Math, Grids, Menus,
+  TntForms, TntStdCtrls, SpTBXControls, SpTBXItem, SpTBXSkins,
+  TntGrids, TB2Item;
 
 type
   TfmProblems = class(TTntForm)
@@ -64,7 +64,7 @@ implementation
 uses
   TntGraphics,
   DefineUi, Translate, TranslateVcl, HtmlHelpAPI, VclUtils, UStatus, Main,
-  UGameColl, UMemo, UProblemUtil, UActions;
+  UProblemUtil, UActions;
 
 {$R *.DFM}
 

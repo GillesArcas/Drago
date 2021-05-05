@@ -15,14 +15,14 @@ uses
   Commctrl, Graphics, ShellCtrls, AppEvnts,
   ComCtrls, ImgList,
   XPMan,
-  UActions, TB2Item, TB2Dock, TB2Toolbar,
-  TntForms, TntMenus, TntComCtrls, TntGraphics, TntSystem, SpTBXItem,
+  UActions, TB2Item,
+  TntForms, TntMenus, TntComCtrls, TntGraphics, SpTBXItem,
   DefineUi, TntIniFiles,
   UMRUList,
   UTabButton,
   UContext, Ustatus,
   UView, UViewMain, UViewBoard, UViewInfo, UViewThumb,
-  BomeOneInstance, SpTBXDkPanels, UFullScreenToggler;
+  BomeOneInstance, UFullScreenToggler, TB2Dock, TB2Toolbar;
 
 type
   TTabSheetEx = class;

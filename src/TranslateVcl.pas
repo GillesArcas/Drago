@@ -11,8 +11,8 @@ interface
 uses
   Forms, Menus, StdCtrls, ExtCtrls, ComCtrls, Buttons, Sysutils, Dialogs,
   Classes, CheckLst, Grids, ActnList, StrUtils,
-  TntStdCtrls, TntComCtrls, TntExtCtrls, TntButtons, TntSystem, TntActnList,
-  TntCheckLst, TntForms, TntClasses, TntGrids, TntMenus,
+  TntStdCtrls, TntComCtrls, TntExtCtrls, TntButtons, TntActnList,
+  TntCheckLst, TntForms, TntGrids, TntMenus,
   SpTBXControls, SpTBXItem, TntHeaderCtrl;
 
 procedure TranslateForm(x : TForm); overload;

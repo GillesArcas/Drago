@@ -9,10 +9,10 @@ unit UfrPreviewInfo;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  ExtCtrls, Types,
-  VirtualTrees,
-  DefineUi, UViewMain, ImgList, TB2Dock, SpTBXItem, SpTBXDkPanels;
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, ExtCtrls,
+  Types, ImgList,
+  VirtualTrees, SpTBXItem,
+  DefineUi, UViewMain;
 
 const MaxCol = 13;
 

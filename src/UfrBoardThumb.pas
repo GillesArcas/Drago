@@ -10,9 +10,9 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, Components, ActnList,
-  TntForms, TntButtons, TntStdCtrls, ImgList, Buttons, SpTBXControls,
-  DefineUi, UView, UGoban, SpTBXItem;
+  Dialogs, StdCtrls, ExtCtrls, Components, ActnList, Buttons, ImgList,
+  SpTBXControls, SpTBXItem,
+  DefineUi, UView, UGoban;
 
 type
   TfrBoardThumb = class(TFrame)

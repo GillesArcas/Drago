@@ -13,7 +13,7 @@ uses
   StdCtrls, ComCtrls, FileCtrl, DateUtils,
   Buttons, ImgList, Grids,
   TntForms, TntStdCtrls, TntGraphics, TntClasses, ClassesEx,
-  DefineUi, SpTBXControls, SpTBXEditors, TntGrids, SpTBXItem;
+  DefineUi, SpTBXControls, TntGrids, SpTBXItem;
 
 const
   imCheckBox  = 0;

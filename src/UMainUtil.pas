@@ -9,10 +9,8 @@ unit UMainUtil;
 interface
 
 uses
-  Windows, Menus,
-  Controls, Forms,
-  MMsystem,
-  TntComCtrls, TntSystem,
+  Windows, Menus, Controls, Forms, MMsystem,
+  TntComCtrls,
   DefineUi, UView, UViewMain;
 
 procedure LockMainWindow   (lock : boolean);

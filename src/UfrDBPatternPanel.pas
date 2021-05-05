@@ -11,10 +11,9 @@ interface
 uses
   Windows, Classes, Controls, ImgList, Forms, Graphics,
   ExtCtrls, StdCtrls, ComCtrls,
-  UActions,
-  TntStdCtrls, TntForms, TntSystem, TntExtCtrls, TntButtons,
+  TntStdCtrls, TntForms, TntExtCtrls,
   UfrDBPatternResult,
-  SpTBXDkPanels, SpTBXItem, TB2Item, TB2Dock, TB2Toolbar;
+  TB2Toolbar, TB2Dock, TB2Item, SpTBXItem;
 
 type
   TfrDBPatternPanel = class(TTntFrame)

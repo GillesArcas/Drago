@@ -12,8 +12,8 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ComCtrls, ActnList,
-  TB2Item, TB2Toolbar, TB2Dock, Buttons, ExtCtrls,
-  TntStdCtrls, TntClasses, TntComCtrls, TntActnList, TntSystem,
+  TB2Item, TB2Dock, Buttons, ExtCtrls,
+  TntStdCtrls, TntClasses, TntComCtrls, TntActnList,
   SpTBXItem;
 
 type

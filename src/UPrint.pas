@@ -45,7 +45,7 @@ uses
   UImageExporter,
   Translate,
   Ux2y, UGmisc, GameUtils, CodePages,
-  Properties, UStatus, UGameColl, 
+  Properties, UStatus, 
   UGoban,
   ViewUtils,
   Std;

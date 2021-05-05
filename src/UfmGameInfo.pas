@@ -11,8 +11,8 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   StdCtrls, ExtCtrls, ComCtrls, ImgList,
-  TntForms, TntSystem, TntStdCtrls, TntComCtrls, SpTBXControls,
-  UView, UGameTree, SpTBXItem;
+  TntForms, TntStdCtrls, TntComCtrls, SpTBXControls, SpTBXItem,
+  UView, UGameTree;
 
 type
   TfmGameInfo = class(TTntForm)

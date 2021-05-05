@@ -11,7 +11,7 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, 
   Dialogs, StdCtrls, ExtCtrls,
-  TntForms, TntStdCtrls, TntSystem, TntGraphics;
+  TntForms, TntStdCtrls, TntGraphics;
 
 type
   TfrDBPickerCaption = class(TTntFrame)

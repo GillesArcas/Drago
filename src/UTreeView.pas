@@ -77,7 +77,7 @@ procedure TV_CreateStones(st : TStatus);
 implementation
 
 uses
-  Std, Ux2y, Properties, VclUtils, Main, UfmMsg, Ugraphic, UGCom, UInstStatus, 
+  Std, Ux2y, Properties, VclUtils, Main, Ugraphic, UGCom, UInstStatus, 
   Define, DefineUi, BoardUtils, UStones, UGoban;
 
 const

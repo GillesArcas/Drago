@@ -11,7 +11,7 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, Spin, ExtCtrls, Math,
-  FloatSpinEdit, UfrDBPickerCaption, TntForms, TntStdCtrls;
+  FloatSpinEdit, UfrDBPickerCaption, TntStdCtrls, TntForms;
 
 type
   TDBResultPicker = class(TFrame)

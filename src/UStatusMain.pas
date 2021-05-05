@@ -45,7 +45,7 @@ implementation
 
 uses
   TntClasses, StrUtils,
-  DefineUi, UActions, UfrCfgSpToolbars, UfrCfgShortcuts, UfmMsg, UStatus,
+  DefineUi, UActions, UfrCfgSpToolbars, UfrCfgShortcuts, UStatus,
   UGCom, Main, UViewBoard, UThemes, UMainUtil, UInstStatus;
 
 // == Implementation of application status ===================================

@@ -44,7 +44,6 @@ implementation
 
 uses
   Types, DateUtils, TntIniFiles,
-  DosCommand,
   Define, DefineUi, Std, Ux2y, Properties, Main, UActions, UGcom, UGmisc, UMainUtil,
   UfmNewEngineGame, UStatusMain, Sgfio,
   UfmFreeH, Translate, UfmGtp, UfmMsg, UViewBoardPanels, Counting,

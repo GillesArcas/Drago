@@ -6,8 +6,9 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, UDBBaseNamePicker, SpTBXItem, SpTBXControls, StdCtrls,
-  Components, TntStdCtrls, ExtCtrls, TntExtCtrls;
+  Dialogs, StdCtrls, ExtCtrls,
+  SpTBXItem, SpTBXControls, 
+  Components, UDBBaseNamePicker;
 
 type
   TfrDBSettingsPanel = class(TFrame)

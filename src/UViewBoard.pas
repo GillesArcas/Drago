@@ -11,7 +11,6 @@ interface
 uses
   SysUtils, Classes, Types,
   Controls,
-  TntComCtrls,
   Define, DefineUi, UGameTree, UContext,
   UViewMain,
   UfrViewBoard;
@@ -125,8 +124,7 @@ uses
   Std, Main, Ugmisc, UTreeView, UActions, SysUtilsEx, UnicodeUtils, ClassesEx,
   UViewBoardPanels, UGCom, Properties, UBoardViewCanvas,
   UProblems, UAutoReplay, UGraphic, UPrint, Ux2y,
-  UGoban, UStatus, UMainUtil,
-  UfmDBSearch;
+  UGoban, UStatus, UMainUtil;
 
 // -- Constructor ------------------------------------------------------------
 

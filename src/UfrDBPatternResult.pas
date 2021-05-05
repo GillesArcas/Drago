@@ -9,12 +9,11 @@ unit UfrDBPatternResult;
 interface
 
 uses
-  Windows, SysUtils, Classes, Graphics, Controls,
-  StdCtrls, ExtCtrls, Contnrs, ImgList, Math,
-  Types,
-  UKombilo, UfrDBPickerCaption,
-  TntForms, TntStdCtrls, TntSystem, TntButtons,
-  SpTBXControls, SpTBXItem, ComCtrls, TntHeaderCtrl, TntComCtrls, Forms;
+  Windows, SysUtils, Classes, Graphics, Controls, Forms,
+  StdCtrls, ExtCtrls, Contnrs, ImgList, Math, Types,
+  TntForms, TntStdCtrls,
+  SpTBXControls, SpTBXItem, ComCtrls, TntHeaderCtrl,
+  UKombilo, UfrDBPickerCaption;
 
 type
   // declaration of local descendant of TKombiloContinuation

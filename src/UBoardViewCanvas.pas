@@ -10,7 +10,7 @@ interface
 
 uses
   Windows, Graphics,
-  Define, DefineUi, UBoardView, UBoardViewMetric, UStones, VirtualTrees;
+  Define, DefineUi, UBoardView, UBoardViewMetric, UStones;
 
 type
   TBoardViewCanvas = class(TBoardViewMetric)

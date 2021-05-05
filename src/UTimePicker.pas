@@ -14,8 +14,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, 
-  Dialogs, ExtCtrls, ComCtrls, StdCtrls, Components, DateUtils, SpTBXItem,
-  SpTBXControls;
+  Dialogs, ExtCtrls, ComCtrls, StdCtrls, Components, DateUtils, SpTBXItem;
 
 type
   TTimePicker = class(TFrame)

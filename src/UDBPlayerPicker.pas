@@ -11,7 +11,7 @@ interface
 uses
   Windows, Classes, Controls,
   StdCtrls, UfrDBPickerCaption,
-  TntForms, TntStdCtrls, SpTBXControls, SpTBXItem, Forms;
+  TntForms, SpTBXControls, Forms, SpTBXItem;
 
 type
   TDBPlayerPicker = class(TTntFrame)

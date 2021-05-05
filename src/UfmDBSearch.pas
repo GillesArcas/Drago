@@ -9,14 +9,13 @@ unit UfmDBSearch;
 interface
 
 uses
-  Windows, SysUtils, Classes, Graphics, Controls, Forms, Buttons,
+  Windows, SysUtils, Classes, Graphics, Controls, Buttons, Forms,
   UActions, ExtCtrls, DateUtils,
-  TntForms, TntComCtrls, TntSystem, TntStdCtrls, TntButtons, TntGraphics,
+  TntForms, TntComCtrls, TntStdCtrls, TntButtons, TntGraphics,
   DefineUi, UfrDBRequestPanel, UfrDBPatternPanel, UfrDBSignaturePanel,
-  ImgList, TB2Item, SpTBXItem, TB2Dock, TB2Toolbar, ComCtrls,
+  ImgList, SpTBXItem, ComCtrls,
   StdCtrls, UfrDBSettingsPanel,
-  ToolWin,
-  SpTBXControls, Menus, SpTBXTabs, SpTBXEditors, GIFImage;
+  SpTBXControls, SpTBXTabs, TB2Item, TB2Dock, TB2Toolbar;
 
 type
   TfmDBSearch = class(TTntForm)

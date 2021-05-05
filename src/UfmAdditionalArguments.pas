@@ -5,8 +5,8 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Dialogs,
   Forms,
-  TntForms, SpTBXControls, StdCtrls, SpTBXEditors, SpTBXItem,
-  EngineSettings;
+  TntForms, SpTBXControls, StdCtrls, SpTBXEditors,
+  EngineSettings, SpTBXItem;
 
 type
   TfmAdditionalArguments = class(TTntForm)

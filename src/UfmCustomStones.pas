@@ -4,8 +4,8 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, 
-  StdCtrls, SpTBXEditors, SpTBXItem, SpTBXControls, ExtCtrls,
-  TntForms, TntStdCtrls;
+  StdCtrls, SpTBXEditors, SpTBXControls, ExtCtrls,
+  TntForms, TntStdCtrls, SpTBXItem;
 
 type
   TfmCustomStones = class(TTntForm)

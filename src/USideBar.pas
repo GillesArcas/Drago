@@ -69,7 +69,7 @@ type
 implementation
 
 uses
-  SysUtils, SysUtilsEx, Forms, Std;
+  SysUtils, Forms, Std;
 
 // -- Panel descriptor -------------------------------------------------------
 

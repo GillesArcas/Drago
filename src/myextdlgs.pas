@@ -23,8 +23,7 @@ interface
 
 uses
   Messages, Windows, SysUtils, Classes, Controls, StdCtrls, Graphics,
-  ExtCtrls, Buttons, Dialogs,
-  TntForms, TntExtDlgs, TntExtCtrls;
+  ExtCtrls, Buttons, Dialogs;
 
 type
 

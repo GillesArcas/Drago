@@ -12,7 +12,7 @@ uses
   Windows, Messages, SysUtils, Classes, Controls, Forms,
   StdCtrls, DateUtils,
   UDatePicker, UfrDBPickerCaption,
-  TntStdCtrls, SpTBXControls, SpTBXEditors, TntForms, SpTBXItem;
+  TntStdCtrls, SpTBXControls, SpTBXEditors, SpTBXItem, TntForms;
 
 type
   TDatePickerMode = (dmDate, dmRange);

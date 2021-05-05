@@ -9,10 +9,9 @@ unit UfmFreeH;
 interface
 
 uses
-  SysUtils, Classes, Graphics, Controls, Forms,
-  ExtCtrls, 
-  TntForms, TntStdCtrls, SpTBXControls,
-  UBoardViewCanvas, UViewBoard, StdCtrls, SpTBXItem;
+  SysUtils, Classes, Graphics, Controls, Forms, ExtCtrls, StdCtrls,
+  TntForms, SpTBXControls, SpTBXItem,
+  UBoardViewCanvas, UViewBoard;
 
 type
   TFreeHCallBack = procedure(view : TViewBoard);

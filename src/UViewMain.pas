@@ -74,7 +74,7 @@ uses
   Math,
   Std, Main, UMainUtil, UActions, UViewBoard, UfmMsg, UStatus, 
   UInputQueryInt, Translate, UfmGameInfo, UGraphic, Graphics,
-  UViewInfo, UViewThumb, UGCom;
+  UGCom;
 
 // ---------------------------------------------------------------------------
 

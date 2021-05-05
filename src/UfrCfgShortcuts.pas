@@ -12,8 +12,7 @@ uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ComCtrls, Menus, TntIniFiles, Buttons, ExtCtrls, ActnList, 
   ShortCutEdit,
-  TntComCtrls, TntSystem, TntActnList, 
-  TntStdCtrls;
+  TntComCtrls, TntActnList, TntStdCtrls;
 
 type
   TfrCfgShortcuts = class(TFrame)

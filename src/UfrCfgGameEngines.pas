@@ -9,11 +9,10 @@ unit UfrCfgGameEngines;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, Grids, TntGrids, SpTBXControls, StdCtrls, TntStdCtrls, SpTBXItem,
-  TntIniFiles, Buttons,
-  EngineSettings, SpTBXEditors, ExtCtrls, CheckLst,
-  TntCheckLst, ImgList;
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Buttons,
+  Dialogs, Grids, ExtCtrls, CheckLst, ImgList, StdCtrls,
+  TntGrids, SpTBXControls, TntStdCtrls, SpTBXItem, TntIniFiles,
+  EngineSettings, SpTBXEditors, TntCheckLst;
 
 type
   // see implementation for comments

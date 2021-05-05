@@ -11,7 +11,7 @@ interface
 uses
   Windows, SysUtils, Classes, Graphics, Controls, Forms,
   Jpeg, ExtCtrls, SpTBXControls, StdCtrls,
-  TntForms, TntComCtrls, SpTBXTabs, TB2Item, SpTBXItem, ComCtrls;
+  TntForms, TntComCtrls, ComCtrls, SpTBXItem;
 
 type
   TfmAbout = class(TTntForm)

@@ -10,7 +10,7 @@ interface
 
 uses
   Types, SysUtils, Classes, Graphics, Forms,
-  Controls, StdCtrls, TntStdCtrls, TntGraphics, TntSystem,
+  Controls, StdCtrls, TntStdCtrls, TntGraphics, 
   DefineUi;
 
 type
