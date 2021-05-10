@@ -7,8 +7,7 @@ setlocal
 :: to be checked, configuration dependant
 set godir=G:\Go
 set inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
-set zip=%7z.exe%
-
+set zip=7z.exe
 
 set mode=%1
 if "%mode%"=="" set mode=both
@@ -20,12 +19,12 @@ if "%mode%"=="both"     set makeinstall=Yes
 if "%mode%"=="portable" set makeportable=Yes
 if "%mode%"=="both"     set makeportable=Yes
 
-set nver=0424
+set nver=0430
 
 :: files in portable install
 set files=^
  Drago.exe^
- DragoPortable.ini^
+ .\Releases\DragoPortable.ini^
  LibKombilo.dll^
  libhpdf.dll^
  engines.config^

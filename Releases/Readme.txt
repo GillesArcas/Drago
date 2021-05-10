@@ -1,4 +1,4 @@
--- DRAGO version 4.23 -----------------------------
+-- DRAGO version 4.30 -----------------------------
 
 Drago is a Windows freeware application dedicated to the game of Go. It 
 enables to:

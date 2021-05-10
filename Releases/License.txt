@@ -1,4 +1,4 @@
-Copyright (C) 2004-2017 Gilles Arcas-Luque unless otherwise stated.
+Copyright (C) 2004-2021 Gilles Arcas-Luque unless otherwise stated.
 
 Drago is published under the following license:
 
