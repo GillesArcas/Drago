@@ -903,7 +903,7 @@ begin
 
   if (mrk = mrkTxt) and (BoardMarks[i, j].FMark = mrkTxt) then
     begin
-      BoardView.DrawBackGround(i, j);
+      BoardView.DrawBackground(i, j);
       if inter <> 0
         then BoardView.DrawStone(i, j, inter);
 

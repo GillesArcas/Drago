@@ -45,7 +45,7 @@ procedure AlphaLine(Canvas : TCanvas;
 function  GetBmBoard  : TBitmap;
 function  MeanColor(Canvas : TCanvas; Width, Height : integer) : TColor;
 function  ColorNumber(bitmap : TBitmap) : integer;
-function  VisibleContrast(BackGroundColor : TColor) : TColor;
+function  VisibleContrast(BackgroundColor : TColor) : TColor;
 procedure SymmetricTile(bitmap : TBitmap);
 function AdjustFontSize(canvas  : TCanvas;
                         radius  : integer;
@@ -663,7 +663,7 @@ end;
 // -- Best color for writing on a given background
 // -- from efg2
 
-function VisibleContrast(BackGroundColor : TColor) : TColor;
+function VisibleContrast(BackgroundColor : TColor) : TColor;
 const
   cHalfBrightness = (0.3 * 255 + 0.59 * 255 + 0.11 * 255) / 2.0;
 var

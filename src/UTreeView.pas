@@ -85,7 +85,7 @@ const
 
 // ---------------------------------------------------------------------------
 
-procedure DrawBackGround(image : TImage;
+procedure DrawBackground(image : TImage;
                          panel : TPanel; gb : TGoban;
                          draw : boolean); forward;
 procedure DrawBorderNumber(imTree : TImage; gt : TGameTree;
@@ -435,7 +435,7 @@ begin
       frViewBoard.imTree.Picture.Bitmap.Width  := frViewBoard.pnTree.ClientWidth;
       frViewBoard.imTree.Picture.Bitmap.Height := frViewBoard.pnTree.ClientHeight;
 
-      DrawBackGround(frViewBoard.imTree, frViewBoard.pnTree, gb, draw);
+      DrawBackground(frViewBoard.imTree, frViewBoard.pnTree, gb, draw);
 
       if Settings.TvMoveNumber = tmBorder
         then DrawBorderNumber(frViewBoard.imTree, x, si, TVi0, TVi1);
@@ -703,7 +703,7 @@ end;
 
 // -- Background display
 
-procedure DrawBackGround(image : TImage;
+procedure DrawBackground(image : TImage;
                          panel : TPanel; gb : TGoban;
                          draw  : boolean);
 begin

@@ -14,7 +14,7 @@ uses
   StdCtrls, UfrCfgSpToolbars, UfrCfgShortcuts, Buttons, CheckLst,
   TntCheckLst, Forms, UfrCfgInfoPreview, Components, TntExtCtrls, TntForms,
   UfrBackStyle, ExtCtrls, TntComCtrls, Grids, TntGrids, Classes,
-  Define, UViewMain, UStatus, UBackGround, SpTBXItem,
+  Define, UViewMain, UStatus, UBackground, SpTBXItem,
   UfrCfgGameEngines, UfrCfgPredefinedEngines, TB2Item, Menus;
 
 type

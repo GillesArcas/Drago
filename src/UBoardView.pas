@@ -73,7 +73,7 @@ type
     procedure   DrawString(i, j, inter, mrk2 : integer;
                            const s : string;
                            txtColor : integer = 0);
-    procedure   DrawBackGround(i, j : integer); overload; virtual;
+    procedure   DrawBackground(i, j : integer); overload; virtual;
     procedure   DrawSigMark(i, j, n : integer); virtual;
     procedure   Rectangle(i1, j1, i2, j2 : integer; mode : integer = 0); virtual;
     function    GetComCanvas : TStringList; virtual;
@@ -257,7 +257,7 @@ end;
 // -- Draw intersection background
 
 // virtual
-procedure TBoardView.DrawBackGround(i, j : integer);
+procedure TBoardView.DrawBackground(i, j : integer);
 begin
 end;
 
@@ -288,7 +288,7 @@ procedure TBoardView.DrawVertex(i, j : integer; drawElems : TDrawElems);
 begin
   // draw background if requested
   if drawElems.background
-    then DrawBackGround(i, j);
+    then DrawBackground(i, j);
 
   // draw stone if any
   if drawElems.stone <> Empty

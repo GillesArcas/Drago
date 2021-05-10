@@ -31,8 +31,8 @@ type
     procedure   DrawText(i, j, inter, mrk2 : integer; const s : string;
                          sizeText : TSizeText;
                          txtColor : integer = 0); override;
-    procedure   DrawBackGround; overload; override;
-    procedure   DrawBackGround(i, j : integer); overload; override;
+    procedure   DrawBackground; overload; override;
+    procedure   DrawBackground(i, j : integer); overload; override;
     procedure   DrawSigMark(i, j, n : integer); override;
     procedure   Rectangle(i1, j1, i2, j2 : integer; mode : integer = 0); override;
 
@@ -195,7 +195,7 @@ end;
 
 // -- Draw intersection background
 
-procedure TBoardViewCanvas.DrawBackGround(i, j : integer);
+procedure TBoardViewCanvas.DrawBackground(i, j : integer);
 var
   l, x, y : integer;
 begin

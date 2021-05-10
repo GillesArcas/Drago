@@ -53,7 +53,7 @@ uses
   Components in 'Components.pas',
   UfmJoseki in 'UfmJoseki.pas' {fmEnterJo},
   UfrBackStyle in 'UfrBackStyle.pas' {frBackStyle: TFrame},
-  UBackGround in 'UBackGround.pas',
+  UBackground in 'UBackground.pas',
   UMainUtil in 'UMainUtil.pas',
   UGameColl in 'UGameColl.pas',
   MyExtDlgs in 'myextdlgs.pas',

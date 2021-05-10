@@ -40,10 +40,10 @@ procedure LockControl(c: TWinControl; bLock: Boolean);
 implementation
 
 uses
-  
+
   SysUtils, Types, Menus, Printers,
   ExtCtrls, ComCtrls, Grids, TntForms, TntComCtrls, TntGraphics,
-  Std, WinUtils, UnicodeUtils, SysUtilsEx;
+  Std, UnicodeUtils, SysUtilsEx;
 
 // -- Placement of window ----------------------------------------------------
 //
