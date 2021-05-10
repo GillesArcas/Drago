@@ -669,7 +669,7 @@ const
 var
   Brightness : double;
 begin
-  with TRGBQuad(BackGroundColor) do
+  with TRGBQuad(BackgroundColor) do
     Brightness := 0.3 * rgbRed + 0.59 * rgbGreen + 0.11 * rgbBlue;
   if Brightness > cHalfBrightness
     then Result := clBlack

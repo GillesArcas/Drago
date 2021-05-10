@@ -13,7 +13,7 @@ interface
 uses
   Types,
   Graphics,
-  Define, UBackGround, UBoardView;
+  Define, UBackground, UBoardView;
 
 type
   TBoardViewMetric = class(TBoardView)
