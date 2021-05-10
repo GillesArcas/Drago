@@ -241,6 +241,7 @@ var
   metafile : TMetafile;
   i, x, y, size, mmColLeft, mmColRight : integer;
 begin
+  size := 0;
   with Pages do
     begin
       for i := 0 to n - 1 do

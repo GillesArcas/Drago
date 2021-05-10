@@ -18,16 +18,17 @@ type
     function ExportImage(gb : TGoban; pxSize, pySize, pixPerInch : integer) : TExportedImage; override;
   end;
 
-procedure ExportBoardToWMF  (gb : TGoban;
-                             metafile : TMetaFile;
-                             mmWidth, mmHeight, pxPerInch : integer);
+procedure ExportBoardToWMF(gb : TGoban;
+                           metafile : TMetaFile;
+                           mmWidth, mmHeight, pxPerInch : integer);
 
 implementation
 
 uses
   SysUtils,
   UStatus,
-  UBoardViewVector;
+  UBoardViewVector,
+  Pages;
 
 destructor TExportedImageWMF.Destroy;
 begin
@@ -49,8 +50,8 @@ begin
   metafile := TMetaFile.Create;
 
   metafile.Enhanced := False;
-  metafile.Width  := pxSize;
-  metafile.Height := pySize;
+  metafile.Width  := round(pxSize / DPI_Scaling);
+  metafile.Height := round(pxSize / DPI_Scaling);
   mfCanvas := TMetaFileCanvas.Create(metafile, 0);
   mfCanvas.Font.Name := 'Arial';
   mfCanvas.Font.PixelsPerInch := pixPerInch;

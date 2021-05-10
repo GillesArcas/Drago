@@ -85,9 +85,9 @@ type
 
   //PATCH UNICODE
   TWideMetafileCanvas = class(TMetafileCanvas)
-    procedure TextOut (x, y : integer; const s: string);
+    procedure TextOut(x, y : integer; const s: string);
     procedure TextRect(Rect: TRect; X, Y: Integer; const Text: string);
-    function  TextWidth (const Text: WideString): Integer;
+    function  TextWidth(const Text: WideString): Integer;
   end;
 
   TPages = class(TScrollBox)
@@ -332,9 +332,10 @@ const
   PAPERSIZE_A4_HEIGHT = 297;
 
 procedure SetCurrentPrinterAsDefault;
-function CurrentPrinterName: string;
-function CurrentPrinterPaperSize: string;
+function  CurrentPrinterName: string;
+function  CurrentPrinterPaperSize: string;
 procedure UseDefaultPrinter;
+function  DPI_Scaling: real;
 
 procedure Register;
 
@@ -348,19 +349,19 @@ type
 
 //-- UNICODE PATCH
 
-procedure  TWideMetafileCanvas.TextOut (x, y : integer; const s: string);
+procedure TWideMetafileCanvas.TextOut(x, y : integer; const s: string);
 begin
   WideCanvasTextOut(self as TMetafileCanvas, x, y, UTF8Decode(s))
 end;
 
-procedure  TWideMetafileCanvas.TextRect(Rect: TRect; X, Y: Integer; const Text: string);
+procedure TWideMetafileCanvas.TextRect(Rect: TRect; X, Y: Integer; const Text: string);
 begin
-  WideCanvasTextRect (self as TMetafileCanvas, Rect, x, y, UTF8Decode(Text))
+  WideCanvasTextRect(self as TMetafileCanvas, Rect, x, y, UTF8Decode(Text))
 end;
 
-function TWideMetafileCanvas.TextWidth (const Text: WideString): Integer;
+function TWideMetafileCanvas.TextWidth(const Text: WideString): Integer;
 begin
-  Result := WideCanvasTextWidth (self as TMetafileCanvas, UTF8Decode(Text))
+  Result := WideCanvasTextWidth(self as TMetafileCanvas, UTF8Decode(Text))
 end;
 
 //------------------------------------------------------------------------------
@@ -597,7 +598,7 @@ var
   dummy: TSize;
 begin
   len := length(ls);
-  if len = 0 then exit; 
+  if len = 0 then exit;
 
   //get the number of characters which will fit within LineWidth...
   if not GetTextExtentExPointNoPartials(canvas.handle,
@@ -631,7 +632,7 @@ begin
   len := length(ls);
   if len = 0 then exit;
 
-  wls := UTF8Decode (ls);
+  wls := UTF8Decode(ls);
 
   //get the number of characters which will fit within LineWidth...
   try
@@ -662,8 +663,8 @@ begin
   wrs := copy(wls,i,len);
   wls := copy(wls,1,NumCharWhichFit);        //nb: assign ls AFTER rs here
 
-  ls := UTF8Encode (wls);
-  rs := UTF8Encode (wrs);
+  ls := UTF8Encode(wls);
+  rs := UTF8Encode(wrs);
 end;
 {$endif}
 //------------------------------------------------------------------------------
@@ -675,7 +676,7 @@ var
     HeaderSize  :  dword;
     ImageSize   :  dword;
 begin
-  Canvas.CopyRect (DestRect, Bitmap.Canvas, Bounds (0,0, Bitmap.Width, Bitmap.Height));
+  Canvas.CopyRect(DestRect, Bitmap.Canvas, Bounds(0,0, Bitmap.Width, Bitmap.Height));
   exit; // PATCH
   GetDIBSizes(Bitmap.Handle,HeaderSize,ImageSize);
   GetMem(BitmapHeader,HeaderSize);
@@ -701,7 +702,7 @@ end;
 
 procedure PrintMetafile(Canvas: TCanvas; DestRect: TRect; mf: TMetafile);
 begin
-  Canvas.Draw (DestRect.Left, DestRect.Top, mf)
+  Canvas.Draw(DestRect.Left, DestRect.Top, mf)
 end;
 //------------------------------------------------------------------------------
 
@@ -906,18 +907,21 @@ begin
     end
     else
       GetTextMetrics(fCanvas.handle,tm);
-    fLineHeight := tm.tmHeight+tm.tmInternalLeading+tm.tmExternalLeading;
+    fLineHeight := tm.tmHeight + tm.tmInternalLeading + tm.tmExternalLeading;
   end;
 
   if fInHeaderOrFooter then
     result := fLineHeight else
   begin
     case fLineSpacing of
-      lsSingle: result := fLineHeight;
-      lsOneAndHalf: result := round(fLineHeight*1.5);
-      else result := fLineHeight*2;
-    end;
-  end;
+      lsSingle:
+        result := fLineHeight;
+      lsOneAndHalf:
+        result := round(fLineHeight * 1.5);
+      else
+        result := fLineHeight * 2
+    end
+  end
 end;
 //------------------------------------------------------------------------------
 
@@ -994,8 +998,8 @@ begin
   if assigned(fCanvas) then FreeAndNil(fCanvas);
   NewPage := TMetafile.Create;
   fPages.add(NewPage);
-  NewPage.Width := fPhysicalSizePx.x;
-  NewPage.Height := fPhysicalSizePx.y;
+  NewPage.Width := round(fPhysicalSizePx.x / DPI_Scaling);
+  NewPage.Height := round(fPhysicalSizePx.y / DPI_Scaling);
   CreateMetafileCanvas(NewPage);
 
   inc(fVirtualPageNum);
@@ -1207,12 +1211,6 @@ procedure TPages.SetZoom(Zoom: integer);
 var
   i,zoomW,zoomH: integer;
 begin
-  (*
-  TMetaFile(fPages[0]).Width  := 709;
-  TMetaFile(fPages[0]).Height := 1000;
-  TMetaFile(fPages[0]).SaveToFile ('c:\Gilles\Go\Drago\1stPage.wmf');
-  *)
-
   if (zoom < PAGE_FIT) or (zoom in [0..9]) or (zoom > 200) then exit;
 
   //ZoomStatus required when resizing...
@@ -1458,7 +1456,7 @@ begin
   RightOffset := fPhysicalSizePx.x-fPageMarginsPx.right;
 end;
 //------------------------------------------------------------------------------
-  
+
 procedure TPages.HandleTabsAndPrint(const leftstring: string;
   var rightstring: string; leftOffset, rightOffset: integer);
 const
@@ -1576,6 +1574,7 @@ begin
   begin
     //paint the preview surface background gray ...
     //note: this is the page surface including the GRAY_MARGIN area
+    //note: the rectangle is not initialized but the surface is correctly painted (GAL).
     canvas.brush.color := self.color;
     canvas.FillRect(r);
 
@@ -2037,9 +2036,9 @@ begin
   fColumnHeaderInGroup := false;
   if assigned(fCanvas) then FreeAndNil(fCanvas);
   fGroupPage := TMetafile.Create;
+  fGroupPage.Width := round(fPhysicalSizePx.x / DPI_Scaling);
+  fGroupPage.Height := round((fGroupVerticalSpace + fPhysicalOffsetPx.Y) / DPI_Scaling); //for safety
   CreateMetafileCanvas(fGroupPage);
-  fGroupPage.Width := fPhysicalSizePx.x;
-  fGroupPage.Height := fGroupVerticalSpace + fPhysicalOffsetPx.Y; //for safety
   fGroupVerticalPos := fCurrentYPos;
   fCurrentYPos := 0;
 end;
@@ -2185,10 +2184,8 @@ end;
 
 function TPages.GetPaperSize: TSize;
 begin
-  //result.cx := mulDiv(fPhysicalSizePx.X, 254,fPrinterPxPerInch.x *10);
-  //result.cy := mulDiv(fPhysicalSizePx.Y, 254,fPrinterPxPerInch.y *10);
-  result.cx := 210;
-  result.cy := 297;
+  result.cx := mulDiv(fPhysicalSizePx.X, 254, fPrinterPxPerInch.x * 10);
+  result.cy := mulDiv(fPhysicalSizePx.Y, 254, fPrinterPxPerInch.y * 10);
 end;
 //------------------------------------------------------------------------------
 
@@ -2355,7 +2352,7 @@ begin
   zStr := '';
   for i := Low(headers) to High(headers) do
     zStr := zStr + headers[i]+#0;
-  fColumnHeaderList.addobject(zStr,pointer(flags));  
+  fColumnHeaderList.addobject(zStr,pointer(flags));
   fColumnHeaderPrinted := false;
 end;
 //---------------------------------------------------------------------
@@ -2456,7 +2453,7 @@ begin
         end;
       if StringArray[i] <> '' then NoMore := False;
     end;
-    DrawTextAcrossCols (LeftArray);
+    DrawTextAcrossCols(LeftArray);
   until NoMore
 end;
 //------------------------------------------------------------------------------
@@ -2544,6 +2541,46 @@ begin
   fColumnHeaderList.clear;
 end;
 //------------------------------------------------------------------------------
+(*
+Delphi7 does not handle the DPI scaling Windows parameter. This parameter is set
+by the user in Windows parameters (System - Display - Scaling and disposition).
+When this parameter is different from 100%, this factor is silently applied as
+follow.
+- Creating a TMetafile and setting its dimensions (Width and Height properties)
+  works as expected.
+- When creating a TMetafileCanvas with the metafile as parameter, the scaling
+  ratio is applied to the dimensions of the metafile but, the Width and Height
+  properties are not accessible (or rather the returned value is 0).
+- When freeing the TMetafileCanvas, the Width and Height properties become
+  accessible and their values are the initial ones multiplied by the scaling
+  ratio.
+
+The following function uses this description to calculate the value of the
+scaling ratio.
+
+Note that registry AppliedDPI in Computer\HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics
+contains the scaling ratio (https://stackoverflow.com/questions/9373260/detect-windows-font-size-100-125-and-150).
+However it seems to be updated only after restarting the computer.
+
+To fix this behaviour, the inverse scaling ratio (1 / DPI_Scaling) is applied
+to the dimensions of the metafile to use resulting in the expected values after
+creation of the TMetafileCanvas.
+*)
+
+function DPI_Scaling : real;
+var
+  meta: TMetafile;
+  width: integer;
+  canvas: TCanvas;
+begin
+  width := GetDeviceCaps(Printer.Handle, PHYSICALWIDTH);
+  meta := TMetafile.Create;
+  meta.Width := width;
+  canvas := TMetafileCanvas.Create(meta, 0);
+  canvas.Free;
+
+  Result := meta.Width / width
+end;
 
 end.
 

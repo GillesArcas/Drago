@@ -3,7 +3,6 @@
 // ---------------------------------------------------------------------------
 
 // TODO: insert move
-// TODO: figures are not centered in print preview or rtf preview
 
 program Drago;
 

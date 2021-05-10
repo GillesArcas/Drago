@@ -9,9 +9,9 @@ unit UWelcome;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, ExtCtrls, StdCtrls, TntStdCtrls, CheckLst, TntCheckLst,
-  SpTBXEditors, SpTBXControls, SpTBXItem, jpeg;
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, jpeg,
+  Dialogs, ExtCtrls, StdCtrls, TntStdCtrls, CheckLst,
+  SpTBXControls, SpTBXItem;
 
 type
   TfmWelcome = class(TForm)
@@ -45,7 +45,7 @@ implementation
 {$R *.dfm}
 
 uses
-  TntForms, TntIniFiles,
+  TntIniFiles,
   DefineUi, Std, Translate, UStatus, UFileAssoc, UActions, SysUtilsEx, ClassesEx;
 
 // ---------------------------------------------------------------------------
