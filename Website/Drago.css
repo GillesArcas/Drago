@@ -1,0 +1,94 @@
+/* Drago CSS */
+
+/* General */
+
+body {
+    margin-left:15%;
+    margin-right:15%;
+}
+
+p, h1, h2, h3, h4, h5, li, td, a, small { font-family: Arial, sans-serif; color: #505050 }
+p, li, td { font-size: 10pt }
+small { font-size: 8pt }
+small.x { font-size: 6pt }
+
+h1 { font-size: 24pt; font-weight: bold }
+h2 { font-size: 18pt; font-weight: bold }
+h3 { font-size: 12pt; font-weight: bold }
+h4 { font-size: 10pt; font-weight: bold; font-style: italic }
+h5 { font-size: 10pt; font-weight: bold }
+li { line-height: 150% }
+p.title { font-size: 19pt; font-weight: bold; padding-top: 4px; padding-bottom: 4px; }
+
+/* Buttons */
+
+a:link, a:visited, a:active, a:hover {color: blue; text-decoration: none}
+
+a.button:link    {text-decoration: none; color: black}
+a.button:visited {text-decoration: none; color: black}
+a.button:active  {text-decoration: none; color: black}
+a.button:hover   {text-decoration: none; color: blue }
+
+/* Layout */
+
+/*
+body { background: url(Texture.jpg) }
+*/
+
+div.menus { text-align: left; padding-left:20px ; padding-right:20px }
+
+/* border, left aligned border, content */
+td.b, td.b5, td.l, td.c, td.cc, td.s {
+border-left: hidden;
+border-right: hidden;
+border-top: hidden;
+border-bottom: 1px solid #AAA;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+/*
+td.b { border-left: 1px solid #AAA; border-right: 1px solid #AAA; width: 20%; background-image: url('Images/ground_tatami06.jpg'); text-align: center; vertical-align: top }
+td.b5{ width: 10%; background-image: url('Images/ground_tatami06.jpg'); text-align: center; vertical-align: top }
+td.l { width: 20%; background-image: url('Images/ground_tatami06.jpg'); text-align: left;  padding-left:8px; padding-right:8px; }
+td.lb { width: 20%; background-image: url('Images/ground_tatami06.jpg'); text-align: left; vertical-align: bottom; padding-bottom:8px;}
+*/
+td.b { border-left: 1px solid #AAA; border-right: 1px solid #AAA; width: 20%; text-align: center; vertical-align: top }
+td.bb { border-left: 1px solid #AAA; border-right: 1px solid #AAA; width: 20%; text-align: center; vertical-align: bottom }
+td.b5{ width: 10%; text-align: center; vertical-align: top }
+td.l { width: 20%; text-align: left;  padding-left:8px; padding-right:8px; }
+td.lb { width: 20%; text-align: left; vertical-align: bottom; padding-bottom:8px;}
+/*td.bc { width: 60%; padding-left:8px; padding-right:8px; }*/
+td.c { padding-left:8px; padding-right:8px; }
+td.cc { padding-left:8px; padding-right:8px; text-align: center;}
+td.x { border-top: 2px solid #AAA; }
+td.y { border-bottom: 2px solid #AAA; }
+td.z { border-bottom: none; }
+
+td.download {
+margin:0px;
+padding:10px;
+border-left: 1px solid #AAA;
+border-right: 0px solid #AAA;
+border-top: 0px solid #AAA;
+border-bottom: 1px solid #AAA;
+/*
+padding-top: 0px;
+padding-bottom: 0px;
+*/
+}
+
+/* Lists */
+
+ul.a, ul.b, ul.c, ul.x { padding:8px; margin:8px; padding-top:0; padding-bottom:0; }
+ul.a { margin-top:-12px; margin-bottom:-8px; }
+ul.b { margin-top:-12px; margin-bottom:-8px; }
+ul.c { margin-top:-12px; margin-bottom:0px; }
+
+
+li.close {
+padding:0; margin:0; margin-top:0; padding-top:0;
+}
+
+hr.x { margin-top: -7px; margin-bottom: -7px }
+
+a.hidden { visibility: hidden }

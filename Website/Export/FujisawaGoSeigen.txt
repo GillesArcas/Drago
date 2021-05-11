@@ -1,0 +1,14 @@
+(;GM[1]FF[4]AP[Drago:1.24]SZ[19]
+PB[Fujisawa Hosai]BR[9 dan]PW[Go Seigen]WR[9 dan]GN[The 1st Japan's Strongest Deciding Matches]EV[Go Seigen vs Fujisawa]DT[January 9-10, 1957]PC[Atami, Japan]TM[10 hours each.]RE[B+Resign]SO["Detailed Analysis on Wu's Famous Games. Vol 1" pp 1-94. People's Sports \[China\], 1984]KM[0]
+;B[pe];W[qp];B[do];W[cd];B[pc];W[dq];B[fp]
+(;W[fc];B[er]
+(;W[bo];B[cp];W[cl];B[oq];W[lp];B[on];W[qm];B[jp];W[op];B[np]
+;W[no];B[pp];W[oo];B[po];W[pq];B[qq];W[pr];B[qo];W[nq];B[pm]
+;W[pl];B[ol];W[pk];B[qi];W[rj];B[ok];W[kc];B[qj];W[rk];B[cj])
+(;W[dr];B[eq];W[dp];B[eo];W[bo];B[bn];W[bp];B[co];W[br]))
+(;W[co]
+(;B[dp];W[cp];B[cq];W[cr];B[bq];W[br];B[eq];W[dr];B[cn];W[bp]
+;B[bo];W[aq];B[dm];W[en];B[dn])
+(;B[cp];W[dp];B[cq];W[cr];B[br];W[dr];B[bo];W[cn];B[bn];W[cm]
+;B[eo];W[bs];B[bq];W[gq];B[hp];W[dl];B[bm];W[bl];B[ck];W[cl]
+;B[am];W[hr])))

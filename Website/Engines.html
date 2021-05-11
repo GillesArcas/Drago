@@ -1,0 +1,119 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Drago, a Windows freeware to edit, view, play and replay games, and solve problems of Go">
+<meta name="keywords" content="go, igo, baduk, weiqui, weichi, freeware, SGF, game engine, GNU Go">
+<title>Drago - Game engines</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body text="#000000" link="#0000FF" vlink="#800080">
+
+<!-- -->
+<table border="0" cellspacing="0" width="100%">
+<!-- -->
+<tr>
+<td class="x z" colspan="3">
+<p class="title">
+<img src="Images/dragon.png" align="absbottom"> Drago - Game engines
+</p>
+</td>
+</tr>
+<!-- -->
+
+<tr>
+<td class="b x">&nbsp</td>
+<td class="c x">
+<br>
+<p><strong>Drago</strong> can be interfaced with game engines using the <a href="http://www.lysator.liu.se/~gunnar/gtp/">GTP</a>
+protocol. In practice, there can be some limitations. Here is the list of the engines which can be used without any problem.
+</p>
+<ul class="x">
+<li>Aya, DariusGTP, Fuego, GNU Go, Go169, MoGo, Pachi
+</ul>
+
+<p>Thanks a lot to <a href="http://gnugo.baduk.org/">Ben Lambrechts</a> for compiling and sharing the GNU Go and Fuego ports for Windows.
+<br>
+<hr>
+<p>All the engines above have their own way to handle functions outside the GTP protocol. This includes:
+
+<ul class="x">
+<li>timing (time per move, time per game, byo-yomi)
+<li>level
+<li>scoring (Chinese or Japanese)
+<li>undo
+<li>game analysis functions
+</ul>
+
+<p>To cope with all the possibilities, Drago has a configuration file describing what can be done and how with the six game engines listed above.
+The consequence for the user (you!): there is no need to enter command lines and parameters as Drago already knows how to use each engine.
+
+<p>As an example, when starting an engine game against MoGo, the starting window enables only the features relevant
+for it, ie timing per move or per game, and Chinese scoring only:
+<br>
+<center>
+<img src="Images/Engines-mogo-start.png" width="250" height="216" align="center"
+onclick="this.src='Images/Engines-mogo-start.png';this.height=433;this.width=500"
+ondblclick="this.src='Images/Engines-mogo-start.png';this.height=216;this.width=250">
+<br>
+<small>Click to enlarge</small>
+</center>
+
+<br>
+<hr>
+<p><b>MoGo port for Windows</b>
+<p>MoGo team does not support currently a port for Windows (March 2012). However, it is still possible to share the
+version previously available. Here it is:
+<ul class="x">
+<li><a href="MoGo_release3.zip">MoGo release 3</a></li>
+</ul>
+<p>Drago proposes a default configuration which should be ok. In case of needs, and thanks to the <a href="http://archive.org/index.php">wayback machine</a>,
+here is a link to the page with the <a href="http://web.archive.org/web/20080831091349/http://www.lri.fr/~gelly/MoGo_Download.htm">FAQ and description of the command line arguments</a>.
+<p>To check the recent development of MoGo, the home page is <a href="http://www.lri.fr/~teytaud/mogo.html">here</a>.
+<br>
+<hr>
+<p>Note also that:
+<ul class="x">
+<li>It is possible to declare several engines and select one of them when starting a game:
+<center>
+<img src="Images/Engines-Select.png">
+</center>
+<li>The engine configuration file contains the links to the download location of the predefined engines. When declaring an engine,
+Drago will open the download location if you ask for it.
+<li>Even if the usual arguments are automatically set, it is still possible to add arguments to tune more precisely
+the behavior of a game engine.
+<li>The engine configuration file can be edited and it is possible to add more engines.
+<li>If Mogo cannot start under Windows 7, try running mogo.exe directly (i.e. double-click mogo.exe),
+Windows pops up a dialog asking for permission. This has a checkbox "Always ask before opening this file".
+Clear it, run Mogo then close it. This has been proposed by Ian at <a href="http://senseis.xmp.net/?topic=27"> SL </a>
+and could be useful for other systems (Vista) or engines.
+</ul>
+<p>
+
+<br>
+
+</td>
+<td class="b x">&nbsp</td>
+</tr>
+<!-- -->
+
+
+
+</table>
+<small class="x">Copyright &copy; 2006-2021 Drago - All rights reserved</small>
+<!-- -->
+
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Drago, un logiciel freeware pour éditer, jouer et
+rejouer des parties ou des problèmes de Go">
+<meta name="keywords" content="jeu, go, igo, baduk, weiqui, weichi, freeware, SGF, éditeur SGF, GNU Go">
+<title>Drago - Editeur SGF, client GNU Go, base de données de parties de Go, ...</title>
+
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body>
+<a name="top"></a>
+
+<!-- -->
+<table border="0" cellspacing="0" width="100%">
+<!-- -->
+<tr>
+<td class="x z" colspan="3">
+<p class="title">
+<img src="Images/dragon.png" align="absbottom"> Drago
+</p>
+</td>
+</tr>
+<!-- -->
+<tr>
+<td class="b x y">
+<br>
+<div class="menus">
+<a class="button" href="index.html">English</a><br>
+<a class="button" href="sp.html">Español</a><br>
+<a class="button" href="fr.html">Français</a><br>
+<a class="button" href="it.html">Italiano</a><br>
+<br>
+<a class="button" href="db.html">Utiliser les bases de données</a><br>
+<a class="button" href="Engines.html">Utiliser les moteurs de jeu</a><br>
+<a class="button" href="PrintSamples.html">Imprimer et exporter</a><br>
+<a class="button" href="WoodTextures.html">Textures bois</a><br>
+<br>
+<a class="button" href="Download.html">Télécharger</a><br>
+<a class="button" href="ReleaseNotes.html">Historique</a><br>
+<a class="button" href="Credits.html">Crédits et remerciements</a><br>
+<a class="button" href="FAQ.html">FAQ</a><br>
+<a class="button" href="Links.html">Liens</a><br>
+<a class="button" href="http://senseis.xmp.net/?forum=Drago">Forum</a><br>
+<a class="button" href="cntct.html">Contact</a><br>
+<a class="button" href="https://gillesarcas.github.io/PersonalHub.html">A propos</a><br>
+
+<br>
+<hr>
+<br>
+<center>
+Il y a plusieurs <a href="HowToHelp.html">façons d'aider</a>. La plus simple est de donner.
+<br><br>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
+</center>
+<hr>
+</div>
+<br>
+<a class="button" href="Resources.html">
+<img src="Images/tex0.jpg" border="0" name=theTex>
+<br>
+Ressources</a><br>
+<a class="button" href="PrintSamples.html">
+<img src="Images/detail0.gif" border="0" name=theDetail>
+<br>
+Exemples d'impression et d'exportation</a>
+<script language="JavaScript" src="anim.js"></script>
+<br>
+<br>
+<a class="button" href="index.html"><img src="Images/favicon.gif" border="0"></a>
+<br>
+<br>
+</td>
+
+<td class="c x y">
+
+<h3>Dernière version</h3>
+
+<p>La version actuellement téléchargeable est la <b>4.23</b>. <a href="Download.html">Téléchargez</a> ou consultez l'<a href="ReleaseNotes.html">historique</a>
+pour la description des dernières modifications.</p>
+<hr>
+
+<h3>Présentation</h3>
+
+<p><b>Drago</b> est un freeware Windows dédié au jeu de <b>Go</b> qui permet de :</p>
+<ul class="x">
+<li>visualiser et éditer des fichiers de parties ou de problèmes de Go,
+<li>de les imprimer ou de les exporter,
+<li>créer des <a href="db.html">bases de données de parties</a> et chercher des parties contenant une position,
+ou chercher par noms de joueurs, date, résultat, etc.,
+<li>rejouer des parties de Go,
+<li>résoudre des problèmes de Go,
+<li>jouer contre <a href="Engines.html">des moteurs de jeu</a>.
+</ul>
+
+<p>Et aussi :</p>
+<ul class="x">
+<li>Unicode
+<li>Interface à onglets
+<li>Exportation des parties en RTF, PDF, HTML et Word
+<li>Exportation des figures en WMF, BMP, JPEG, GIF, PNG et ASCII
+<li>Installation standard, désinstallation complète
+<li>Conformité SGF
+<li>Lit les fichiers multi-jeux et les répertoires de parties
+<li>Installé avec une base de parties (en formats SGF et base de données) et quatre
+    bases de problèmes en format SGF
+<li>... et plus.
+</ul>
+
+<hr>
+
+<h3><a name="install"></a>Installation</h3>
+
+<p>Il suffit de :</p>
+<ul class="x">
+<li>Télécharger la <a href="Download.html">dernière version</a>
+<li>Dézipper et lancer le programme d'installation
+</ul>
+
+<p>Pour jouer contre un moteur de jeu (GNU Go, Go169, MoGo, etc.), il faut le télécharger et le déclarer
+dans l'onglet Moteur de jeu de la fenêtre d'options. Les moteurs de jeu courants sont prédéfinis et il n'est
+pas nécessaire de spécifier la ligne de commande. Ceci est décrit <a href="Engines.html">ici</a>.
+
+<hr>
+<h3><a name="Kombilo"></a>libkombilo</h3>
+
+<p><b>Drago</b> est interfacé et installé avec la librairie <a href="http://trac.u-go.net/kombilo/wiki/libkombilo">libkombilo</a>. Cette librairie open source
+est développée par Ulrich Goertz. Elle permet d'exploiter toutes les fonctions
+de son application de bases de données <a href="http://www.u-go.net/kombilo/">Kombilo</a>.</p>
+
+<hr>
+<h3><a name="liens"></a>Liens</h3>
+
+<p>Seuls quelques liens généraux ou offrant des ressources bien adaptées à
+<b>Drago</b> sont listés <a href="Links.html">ici</a>.</p>
+
+<hr>
+<h3><a name="Resources"></a>Ressources</h3>
+
+<p>La page des <a href="Resources.html">ressources</a> propose :</p>
+<ul class="x">
+<li>une collection d'images de textures de bois (disponible également dans l'installation)
+</ul>
+<img src="Images/textures.jpg">
+<ul class="x">
+<li>un script Perl de conversion des fichiers goproblems.com en collections SGF
+<li>une collection de problèmes sur des gobans 4x4 extraits de goproblems avec le script cité ci-dessus
+</ul>
+</td>
+
+<td class="b x y">
+<br>
+<small>Cliquez sur les légendes pour voir les aperçus</small>
+<br>
+<br>
+<br>
+<img src="Preview/view-main-t.jpg" width="115">
+<br>
+<a class="button" href="Preview/view-main.html">Fenêtre principale</a><br>
+<br>
+<br>
+<img src="Preview/view-index-info-t.jpg">
+<br>
+<a class="button" href="Preview/view-index-info.html">Vue des informations de jeu</a><br>
+<br>
+<br>
+<img src="Preview/view-index-diag-t.jpg">
+<br>
+<a class="button" href="Preview/view-index-diag.html">Vue des vignettes</a><br>
+<br>
+<br>
+<img src="Preview/view-layout-t.jpg">
+<br>
+<a class="button" href="Preview/view-layout.html">Paramétrage de la mise en page d'impression</a><br>
+<br>
+<br>
+<img src="Preview/view-exportpos-t.jpg">
+<br>
+<a class="button" href="Preview/view-exportpos.html">Exportation d'une position</a><br>
+<br>
+<br>
+<img src="Preview/view-options-t.jpg">
+<br>
+<a class="button" href="Preview/view-options.html">Options</a><br>
+</td>
+</tr>
+
+</table>
+
+<small class="x">Copyright &copy; 2006-2021 Drago - All rights reserved</small>
+
+
+</body>
+</html>

@@ -1,0 +1,1446 @@
+(;GC[goproblems:prob2195.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][ab][bb][ac]AB[ca][cb][db][dc]C[No komi, no prisoners - Black to play and win!]
+
+(;B[bd]
+;W[bc]
+
+(;B[cc]
+;W[cd]
+;B[dd]C[Black wins by one point! RIGHT])
+(;B[cd]
+;W[cc]C[This is only a jigo!]))
+(;B[bc]
+;W[bd]
+
+(;B[cd]
+;W[cc]C[Black can't win this ko :)])
+(;B[cc]
+;W[cd]C[Jigo!]))
+(;B[cd]
+
+(;W[bd]
+
+(;B[cc]
+;W[bc]C[Jigo!])
+(;B[bc]
+;W[cc]C[Black can't play this ko :)]))
+(;W[bc]
+
+(;B[cc]
+;W[bd]C[Jigo!])
+(;B[bd]
+;W[cc]C[Jigo!])))
+(;B[cc]
+;W[bd]
+
+(;B[cd]
+;W[bc]C[Jigo!])
+(;B[bc]
+;W[cd]C[Jigo!])))
+(;GC[goproblems:prob2196.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[da][db][bc][dc][bd][dd]AB[aa][ca][ab][cb][ac][ad]C[No komi, no prisoners - Black to play and win!
+]
+
+(;B[bb]LB[cc:A]C[Making an eye is correct - now White can't prevent  A. RIGHT])
+(;B[cc]
+;W[bb]
+;B[cd]
+;W[ba]C[This is only a jigo!])
+(;B[cd]
+;W[cc]C[Black will lose aaaalllll his stones...]
+;B[bb]C[ A one point loss - at least :)])
+(;B[ba]
+;W[cc]C[Black is dead!]))
+(;GC[goproblems:prob2197.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][ca][cc][dc]AB[ab][bb][bd][cd]C[No komi, no prisoners - Black to play and win!]
+
+(;B[cb]
+
+(;W[bc]
+
+(;B[db]
+;W[ac]
+
+(;B[ad]
+;W[dd]
+;B[bd]
+;W[aa]
+;B[da]
+;W[ba]
+
+(;B[ad]C[Black wins the capturing race RIGHT])
+(;B[cd]C[Black wins the capturing race RIGHT]))
+(;B[dd]
+;W[ad]
+;B[cd]
+;W[aa]
+;B[da]
+;W[ba]
+
+(;B[bd]C[Black wins the capturing race RIGHT])
+(;B[dd]C[Black wins the capturing race RIGHT])))
+(;B[ac]
+;W[db]C[This is only a jigo])
+(;B[aa]
+;W[ac]
+;B[da]
+;W[db]C[Black is dead!]))
+(;W[db]
+;B[bc]C[White is dead RIGHT]))
+(;B[bc]
+;W[cb]
+
+(;B[dd]
+;W[ac]C[This is only a jigo!])
+(;B[aa]
+;W[ac]C[This is only a jigo!])))
+(;GC[goproblems:prob2198.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[dc][bd][cd][dd]AB[aa][ba][ab][ac]C[No komi, no prisoners - Black to play and win!]
+
+(;B[cb]
+
+(;W[db]
+
+(;B[bc]C[With an eye, Black wins easily RIGHT CHOICE])
+(;B[cc]
+;W[bc]C[This is only a seki!]))
+(;W[bc]
+
+(;B[db]C[With an eye, Black has an easy win RIGHT CHOICE])
+(;B[cc]
+;W[db]C[This is only a seki!]
+;B[ca])))
+(;B[bc]
+;W[cb]
+;B[ca]C[This is only a seki!])
+(;B[cc]
+;W[cb]
+;B[bc]
+;W[ca]
+;B[db]
+;W[da]C[White wins by one point!]))
+(;GC[goproblems:prob2223.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[aa][cb][db][ac][bc][dc][ad][bd][dd]AB[ab][bb][cc]C[Black to play - what's the best he can do?!]
+
+(;B[ba]
+;W[cd]
+;B[ca]C[This jigo is best for black! B C1 instead of B B4 would have been a mistake. RIGHT])
+(;B[cd]
+;W[bc]
+
+(;B[ca]
+;W[bd]
+
+(;B[cc]
+;W[ac]C[White wins big.])
+(;B[ac]
+;W[da]
+
+(;B[ba]
+;W[ad]C[White wins the capturing race])
+(;B[cc]
+;W[ba]
+;B[ca]
+;W[ba]C[Black is lost!]))
+(;B[ba]
+;W[ac]C[White lives]))
+(;B[ac]
+;W[bd]
+
+(;B[ba]
+;W[ca]C[White lives, black lives not])
+(;B[ca]
+;W[da]
+
+(;B[ba]
+;W[ad]C[White wins the capturing race])
+(;B[cc]
+;W[ba]
+;B[ca]
+;W[ba]C[Black is dead])))
+(;B[ba]
+;W[ac]C[White has two eyes])))
+(;GC[goproblems:prob2229.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ca][ab][bb][cb]AB[da][ac][bc][cc][dd]C[Black to play - what's the best he can do?]
+
+(;B[db]
+
+(;W[bd]C[W D2 is a variation]
+
+(;B[dc]
+;W[cd]C[White wins!])
+(;B[ba]
+;W[dc]
+;B[db]
+;W[aa]
+;B[dc]
+;W[cd]
+;B[ad]
+;W[bd]
+;B[cd]C[Black wins by one point - 4 prisoners against 3. RIGHT])
+(;B[cd]
+;W[dc]
+;B[db]
+;W[da]
+;B[ba]
+;W[dc]C[White wins!])
+(;B[ad]
+;W[dc]
+;B[db]
+;W[da]
+;B[ba]
+;W[dc]C[White wins!])
+(;B[aa]
+;W[dc]
+;B[db]
+;W[ba]
+;B[dc]
+;W[cd]
+;B[ad]
+;W[cd]
+;B[bd]C[Black wins by one point - 4 prisoners against 3. RIGHT]))
+(;W[dc]
+;B[db]
+;W[bd]
+
+(;B[ba]
+;W[aa]
+;B[dc]
+;W[cd]
+;B[ad]
+;W[bd]
+;B[cd]C[Black wins by one point - 4 prisoners against 3. RIGHT])
+(;B[dc]
+;W[ad]
+;B[cd]C[Black wins by one point - 3 prisoners against 2. RIGHT])))
+(;B[dc]
+;W[bd]
+;B[db]
+;W[ad]C[Black loses the capturing race])
+(;B[bd]
+;W[db]
+;B[dc]C[White wins by two points!]))
+(;GC[goproblems:prob2231.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[bb][cb][bc]AB[ac][cc][dc][ad][bd]C[Black to play - what's the best he can do?]
+
+(;B[cd]
+;W[ab]
+;B[db]
+;W[ca]
+
+(;B[ba]
+;W[aa]C[White wins by one point! Sad as it is, this is the best result for black.... RIGHT])
+(;B[aa]
+;W[ba]C[White wins by one point! Sad as it is, this is the best result for Black... RIGHT]))
+(;B[ab]
+;W[cd]
+;B[dd]
+;W[db]C[Black is dead])
+(;B[db]
+;W[cd]
+;B[dd]
+;W[ab]C[Black is dead]))
+(;GC[goproblems:prob2234.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[da][ab][bb][bc][dc][bd]AB[cb][cc][cd][dd]
+
+(;B[ca]
+;W[ba]
+;B[db]C[Black wins by one point! B D3 instead of B C4 is also good, but B B4 woukd have been a mistake RIGHT])
+(;B[db]
+;W[ca]
+;B[ba]
+;W[ca]
+
+(;B[ac]
+;W[aa]C[Black wins by one point - 3 prisoners against 2. B C4 instead of B D3 woud have been also okay and easier, but starting with B B4 doesn't work RIGHT ])
+(;B[da]
+;W[aa]
+;B[ac]
+;W[ca]C[Black  is dead....]))
+(;B[ba]
+;W[aa]
+;B[db]
+;W[ca]
+;B[ba]
+;W[ca]
+
+(;B[ac]
+;W[ad]C[3 prisoners each, so it's a jigo! This isn't good enough - B C4 and B D3 instead of B B4 both win by one point.])
+(;B[ad]
+;W[ac]C[3 prisoners each, so it's a jigo! This isn't good enough - both B C4 and B D3 instead of B B4 win by one point])))
+(;GC[goproblems:prob2235.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ab]AB[ba][ca][ac][ad][bd][cd][dd]C[White to play, what's his best result?]PL[W]
+
+(;W[cc]
+;B[bb]
+;W[bc]
+;B[aa]
+;W[dc]
+;B[ab]
+;W[db]LB[cb:A]C[This is not a jigo - White A next would give Black a dead five point shape! RIGHT])
+(;W[bb]
+;B[cb]
+;W[cc]
+;B[dc]
+;W[db]
+;B[da]C[White is dead]))
+(;GC[goproblems:prob2238.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[bc]AB[aa][ba][da][cc][dc][ad][cd][dd]C[White to play, what's his best result?]PL[W]
+
+(;W[cb]
+;B[bb]
+;W[ac]
+;B[ca]
+;W[bd]
+;B[db]C[Seki & jigo! RIGHT])
+(;W[bb]
+;B[cb])
+(;W[bd]
+;B[bb]
+;W[ac]
+;B[ab]C[A nice position, but a loss for White :)])
+(;W[ac]
+;B[cb]C[White is lost]))
+(;GC[goproblems:prob2239.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[db]AB[ca][ac][ad][bd][cd][dd]C[White to play - what's his best result?]PL[W]
+
+(;W[bb]
+
+(;B[cb]
+;W[cc]
+
+(;B[bc]
+;W[ab]C[A snapback - white wins.... RIGHT CHOICE])
+(;B[dc]
+
+(;W[ab]
+;B[da]
+;W[bc]C[White wins! RIGHT CHOICE])
+(;W[bc]
+;B[da]
+
+(;W[ab]C[White wins! RIGHT CHOICE])
+(;W[ba]C[White wins! RIGHT CHOICE]))))
+(;B[ab]
+;W[ba]C[Black is lost RIGHT]))
+(;W[cb]
+;B[bb]C[W C3 doesn't work]))
+(;GC[goproblems:prob2240.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[bb]AB[aa][ba][ca][da][cc][ad]C[White to play - what's the best he can do?]PL[W]
+
+(;W[cb]
+
+(;B[db]
+
+(;W[dc]
+;B[dd]
+
+(;W[ab]
+
+(;B[bc]C[Black D2 would be even worse!]
+;W[dc]
+;B[db]
+
+(;W[ca]
+;B[ba]C[The only move]
+
+(;W[ac]
+;B[bd]C[Seki! White wins by four points - 6 prisoners against 2. RIGHT])
+(;W[aa]
+;B[ac]C[This is not best for White because he will have to sacrifice a stone at B1 or C1, winning by only 3 points.]))
+(;W[ac]
+
+(;B[bd]
+;W[ca]
+;B[ba]C[Seki! White wins by four points - 6 prisoners against 2. RIGHT CHOICE])
+(;B[ca]
+;W[bd]
+;B[ba]C[Seki! White wins by four points - 6 prisoners against 2. RIGHT CHOICE])))
+(;B[dc]
+;W[bc]C[Black is dead! RIGHT]))
+(;W[bc]
+;B[bd]C[White is lost]))
+(;W[ab]
+;B[dc]
+
+(;W[bc]
+;B[bd]C[White is one liberty short])
+(;W[bd]
+;B[bc]C[White is dead]))
+(;W[bc]
+;B[bd]C[White is lost]))
+(;B[ab]
+
+(;W[bc]
+
+(;B[ac]LB[db:A][bd:A]C[This is symmetric, so both any A will kill Black :) RIGHT])
+(;B[db]
+;W[cd]
+;B[dc]
+;W[bd]C[White wins! RIGHT]))
+(;W[db]
+;B[bc]
+;W[ac]
+;B[ab]
+
+(;W[ba]
+;B[dc]
+;W[cd]
+;B[ac]
+;W[bd]
+;B[dd]C[Seki, White wins by two points - 5 prisoners against 3. This is not Whites best option!])
+(;W[dc]
+;B[cd]
+;W[ba]
+;B[ca]
+;W[da]C[Seki! White wins by 5 points (6 prisoners against 1), but both players made mistakes up to here]))))
+(;W[bc]
+;B[cb]C[White is lost])
+(;W[ab]
+;B[cb]C[White is lost]))
+(;GC[goproblems:prob2244.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ab]AB[ba][da][db][ac][ad][bd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[cc]
+;B[bb]
+
+(;W[cb]
+
+(;B[bc]
+;W[ca]
+;B[cd]
+;W[dc]
+;B[db]C[Seki! White wins by 2 points - 3 prisoners against 1. RIGHT])
+(;B[ca]
+;W[bc]C[Black is dead. RIGHT]))
+(;W[bc]
+;B[aa]
+
+(;W[cb]
+;B[dc]
+;W[cd]
+;B[ca]
+;W[ab]
+;B[ac]C[Seki! White wins by 1 point, 3 prisoners against 2. This result is 1 point worse than Whites best result!])
+(;W[cd]
+
+(;B[cb]
+;W[ab]
+;B[ac]
+;W[dc]C[Seki! White wins by 1 point, 3 prisoners against 2. This is 1 point worse than the best result! CHOICE])
+(;B[dc]
+;W[cb]
+;B[ca]
+;W[ab]
+;B[ac]C[Seki! White wins by one point, 3 prisoners against 2. This is one point worse than the best result! CHOICE])))
+(;W[dc]
+;B[cb]C[White is lost]))
+(;W[bc]
+;B[cc]
+
+(;W[bb]
+;B[cd]C[White is lost])
+(;W[cd]
+;B[bb]C[White can't make an eye, so he is dead!]))
+(;W[cd]
+;B[bc]
+;W[cc]
+;B[bb]C[White can't do anything.....])
+(;W[bb]
+;B[cc]C[White is lost])
+(;W[cb]
+;B[cc]C[White is lost]))
+(;GC[goproblems:prob2261.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[aa][ab][cb][ac][cc][cd][dd]AB[da][bb][db][bc][dc][ad]C[Black to play - what's the best he can do?]
+
+(;B[ca]
+;W[ba]
+;B[ca]
+;W[bd]
+
+(;B[ac]
+;W[db]
+;B[ba]
+;W[ab]
+;B[aa]C[Seki! Black wins by one point - 5 prisoners against 4. RIGHT])
+(;B[db]
+;W[ac]
+;B[ab]
+;W[ba]
+;B[ad]
+;W[da]C[White wins!]))
+(;B[ba]
+;W[ca]
+
+(;B[db]
+
+(;W[bd]C[Black loses the capturing race])
+(;W[ab]C[This is a mistake!]
+;B[dc]
+;W[da]
+;B[db]
+;W[aa]
+;B[ac]
+;W[ab]C[Jigo!]))
+(;B[bd]
+;W[ab]C[Black loses the capturing race])))
+(;GC[goproblems:prob2262.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[da][bb][ac][bc][dd]AB[aa][cb][db][cc][ad]C[Black to play - what's his best result?]
+
+(;B[cd]
+
+(;W[ba]
+
+(;B[bd]C[White can't play c4, so he is dead RIGHT])
+(;B[ca]
+;W[bd]C[This is only a jigo....]))
+(;W[ca]
+;B[ba]
+;W[ca]
+
+(;B[da]
+;W[bd]
+;B[dc]C[Seki, Black wins by three points (4 prisoners against 1) RIGHT])
+(;B[bd]
+;W[ab]
+;B[ba]C[White is dead])))
+(;B[ca]
+;W[bd]
+
+(;B[ba]
+;W[cd]C[This is only a jigo - seki....])
+(;B[cd]
+;W[ba]C[This is only a jigo]))
+(;B[ba]
+;W[cd]C[This is only a jigo - seki])
+(;B[dc]
+;W[ba]
+
+(;B[cd]
+;W[ca]C[White wins!])
+(;B[ca]
+
+(;W[cd]
+;B[bd]
+;W[cd]
+;B[bd]
+;W[ad]C[Seki, White wins by one point (4 prisoners against 3)])
+(;W[bd]
+;B[cd]C[White wins by one point!])))
+(;B[bd]
+;W[cd]
+;B[bd]
+;W[ba]
+
+(;B[ca]
+;W[ad]C[Black is lost])
+(;B[dc]
+
+(;W[ca]
+;B[cd]
+;W[ab]C[Jigo, White wins by one point (3 prisoners against 2)])
+(;W[cd]
+;B[ca]
+;W[ad]C[Jigo, White wins by one point (4 prisoners against 3)]))))
+(;GC[goproblems:prob2267.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[bb][cb][dc]AB[aa][ab][ac][bd][cd][dd]C[Black to play - what's the best he can do?]
+
+(;B[db]
+
+(;W[bc]
+;B[cc]
+;W[ca]C[Seki, Black wins by one point ( 1 prisoner against 0) RIGHT])
+(;W[cc]
+;B[ca]
+;W[da]
+;B[ba]C[White is lost RIGHT])
+(;W[da]
+;B[cc]
+;W[db]
+
+(;B[ba]C[White is lost RIGHT])
+(;B[bc]C[White is lost RIGHT])))
+(;B[bc]
+;W[ba]C[Black is dead!])
+(;B[cc]
+;W[db]
+
+(;B[ba]
+;W[bc]C[Black is dead!])
+(;B[ca]
+;W[bc]C[Black is dead!]))
+(;B[ca]
+;W[ba]
+;B[cc]
+;W[db]C[Seki, White wins by one point (1 prisoner against 0)])
+(;B[ba]
+;W[ca]
+;B[cc]
+;W[db]C[Seki, and jigo!]))
+(;GC[goproblems:prob2268.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][da][bb][cd][dd]AB[ab][ac][bd]C[Black to play - what's the best he can do?]
+
+(;B[bc]
+
+(;W[cb]
+;B[cc]
+;W[dc]
+;B[db]
+;W[dc]C[Seki, Black wins by two points - 3 prisoners against 1 RIGHT])
+(;W[db]
+;B[cc]
+;W[dc]
+;B[cb]C[White is lost RIGHT])
+(;W[dc]
+;B[cb]C[White is dead RIGHT])
+(;W[cc]
+;B[cb]C[White is dead RIGHT]))
+(;B[cc]
+
+(;W[bc]
+;B[dc]
+;W[cd]
+;B[dd]
+;W[cb]C[White wins!])
+(;W[cb]C[This gives Black a chance to reach the solution]
+;B[bc]
+;W[dc]
+;B[db]
+;W[dc]C[Black wins by two points, but W C3 was clearly a mistake.... RIGHT])))
+(;GC[goproblems:prob2298.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][bb][cc]AB[ca][ab][db][ac][dc][ad][bd]C[Black to play - what's the best he can do?]
+
+(;B[cb]
+
+(;W[cd]
+;B[bc]
+;W[aa]
+;B[bc]C[Black wins by eleven points :) RIGHT])
+(;W[bc]
+;B[cd]C[White is lost! RIGHT]))
+(;B[cd]
+;W[cb]
+
+(;B[bc]
+;W[da]C[White wins])
+(;B[dd]
+;W[da]C[White connects the ko and wins by one point])
+(;B[aa]
+;W[da]C[White wins]))
+(;B[bc]
+;W[cb]
+;B[cd]
+;W[da]C[White wins!]))
+(;GC[goproblems:prob2301.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[bb][bc]AB[db][cc][dc][bd][cd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[ca]
+
+(;B[ac]
+;W[ab]
+;B[cb]
+
+(;W[ba]
+;B[ad]C[Seki & jigo! RIGHT])
+(;W[ad]
+;B[ba]C[White is dead!]))
+(;B[cb]
+;W[ac]
+;B[da]
+;W[ba]
+;B[ab]
+;W[aa]C[In this variation white wins by one point, but B C3 was a mistake. RIGHT]))
+(;W[cb]
+;B[ca]
+;W[ba]
+;B[ac]C[Since White can't play A3, he is dead.])
+(;W[ba]
+;B[ca]
+;W[cb]
+;B[ac]C[White can't play A3, so he is dead.])
+(;W[ac]
+;B[ca]
+;W[cb]
+;B[ba]C[White is dead.]))
+(;GC[goproblems:prob2303.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[cc][dc][cd]AB[aa][ab][cb][db][ac][ad][bd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[bb]
+;B[ba]
+
+(;W[ca]C[After setting up this double snapback, White wins! RIGHT])
+(;W[bc]
+;B[dd]C[Uh-oh.....]))
+(;W[bc]
+;B[bb]C[Black wins])
+(;W[ba]
+
+(;B[ca]C[Black wins])
+(;B[bb]
+;W[ca]
+;B[da]
+;W[ca]
+;B[ba]C[Seki! Black wins by three points only, but B B3 was a mistake.])))
+(;GC[goproblems:prob2305.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][ca][db][ac][dc][cd]AB[ab][bb][cc]C[Black to play - what's the best he can do?!]
+
+(;B[bd]
+
+(;W[cb]
+
+(;B[bc]
+;W[dd]
+;B[ad]C[Seki, Black wins by one point (the prisoner)! RIGHT])
+(;B[dd]
+;W[bc]
+;B[ad]
+;W[bc]
+;B[ac]
+;W[cd]C[Black is lost!]))
+(;W[dd]
+;B[cb]C[This is not good for White :) RIGHT]))
+(;B[bc]
+;W[bd]
+;B[ad]
+;W[dd]
+
+(;B[cb]
+;W[ac]C[and White wins.])
+(;B[ac]
+;W[cb]C[White wins.])))
+(;GC[goproblems:prob2310.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[db][cc]AB[bb][ad][bd][cd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[bc]
+;B[ac]
+
+(;W[ab]
+;B[aa]
+
+(;W[dd]
+
+(;B[cb]C[Taking the ko is worse (see variations)]
+;W[ab]
+;B[ac]
+
+(;W[bd]
+;B[ca]C[Seki! White wins by 2 points (4 prisoners against 2) RIGHT])
+(;W[ca]
+;B[bd]C[Seki! White wins by 2 points (4 prisoners against 2) RIGHT]))
+(;B[dc]
+;W[cb]
+;B[ca]
+;W[dd]C[Black is completely lost RIGHT]))
+(;W[cb]
+;B[ca]C[It's to late to start the ko now - Black wins by one point (the prisoner)])
+(;W[ca]
+;B[cb]
+;W[dc]C[Black wins by one point (the prisoner)]))
+(;W[cb]
+;B[ca]C[White can't start the ko anymore and will lose by one point (he has to sacrifice a stone to prevent a black eye)])
+(;W[ca]
+
+(;B[ba]
+;W[ab]
+;B[aa]
+;W[cb]C[B4??! Stupid Black :) Instead of this big mistake, he should have played B C3 (see variations).])
+(;B[cb]
+;W[dc]
+
+(;B[ba]
+;W[ab]C[B4??! Stupid, stupid Black :)   Of course, if Black plays c3 himself instead, it's a seki (see variations)])
+(;B[ab]
+;W[ba]C[Seki & jigo!])))
+(;W[dd]
+
+(;B[ab]
+;W[cb]
+;B[ca]
+;W[ba]
+;B[dc]C[Black wins!])
+(;B[dc]
+;W[cb]
+;B[ca]
+;W[dd]
+;B[ab]
+;W[ba]
+;B[dc]C[Black wins!])))
+(;W[cb]
+;B[bc]
+;W[ba]
+
+(;B[ab]
+;W[ca]C[Seki & Jigo, but both can do better!])
+(;B[ca]
+;W[da]
+;B[ab]C[White is lost - 'one eye beats no eye'!]))
+(;W[ca]
+;B[bc]
+
+(;W[cb]
+;B[ba]
+;W[ab]
+;B[dd]
+;W[ac]
+;B[aa]
+;W[ab]
+;B[ac]C[Maybe Black can also play d2 instead of d1, but as usual I am not sure about the rules :) Anyway, this is a three point win for black.])
+(;W[ba]
+;B[cb]
+;W[dc]
+;B[ab]C[Black wins!])))
+(;GC[goproblems:prob2311.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AB[ac][dc][ad][dd]C[White to move - what's the best he can do?]PL[W]
+
+(;W[cb]
+
+(;B[cc]
+
+(;W[bb]
+;B[bc]
+
+(;W[ab]
+;B[db]
+;W[ca]C[Seki & jigo! RIGHT])
+(;W[db]
+;B[ab]
+;W[ba]C[Seki & jigo! RIGHT]))
+(;W[bc]
+;B[bb]C[Black wins!]))
+(;B[bb]
+;W[cc]
+
+(;B[cd]
+;W[db]C[White wins RIGHT but Black didn't play the right way])
+(;B[ca]
+;W[db]C[White wins RIGHT but Black didn't play the right way]))
+(;B[bc]
+;W[cc]
+;B[cd]
+;W[db]C[White wins RIGHT but Black didn't play the right way])
+(;B[db]
+;W[bc]C[White wins RIGHT but Black didn't play the right way]))
+(;W[bb]
+
+(;B[bc]
+
+(;W[cb]
+;B[cc]
+
+(;W[db]
+;B[ab]
+;W[ba]C[Seki & jigo! RIGHT])
+(;W[ab]
+;B[db]
+;W[ca]C[Seki & jigo! RIGHT]))
+(;W[cc]
+;B[cb]C[Black wins!]))
+(;B[cb]
+;W[bc]
+
+(;B[ba]
+;W[ab]C[White wins RIGHT but Black didn't play the right way])
+(;B[bd]
+;W[ab]C[White wins RIGHT but Black didn't play the right way]))
+(;B[cc]
+;W[bc]
+;B[bd]
+;W[cb]C[White wins RIGHT but Black didn't play the right way])
+(;B[ab]
+;W[cc]C[White wins RIGHT but Black didn't play the right way]))
+(;W[cc]
+;B[cb]
+
+(;W[cd]
+;B[db]C[Black wins])
+(;W[db]
+;B[da]
+;W[cd]
+;B[bb]C[Black wins])
+(;W[bc]
+;B[bb]C[Black wins!]))
+(;W[bc]
+;B[bb]
+
+(;W[bd]
+;B[ab]C[Black wins])
+(;W[ab]
+;B[aa]
+;W[bd]
+;B[cb]C[Black wins])
+(;W[cc]
+;B[cb]C[Black wins!])))
+(;GC[goproblems:prob2312.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][da][ab][bc]AB[dc][bd][cd]C[Black to play - what's the best he can do?]
+
+(;B[cb]
+
+(;W[bb]
+
+(;B[ca]
+;W[cc]
+;B[db]C[Seki, Black wins by one point (the prisoner) RIGHT])
+(;B[cc]
+;W[ca]C[Seki & Jigo....]))
+(;W[cc]
+
+(;B[ca]
+;W[bb]
+;B[db]C[Seki, Black wins by one point (the prisoner) RIGHT])
+(;B[bb]
+;W[ac]
+;B[db]C[Black wins RIGHT])
+(;B[db]
+;W[ca]C[This time, WHITE has an eye, and black has no one...]))
+(;W[ca]
+;B[bb]C[Black wins (one eye beats no eye) RIGHT]))
+(;B[cc]
+;W[cb]C[Black missed the vital point]))
+(;GC[goproblems:prob2315.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[bd]AB[da][cb]C[White to play - what's the best he can do?]PL[W]
+
+(;W[bb]
+
+(;B[cc]
+;W[bc]
+
+(;B[ba]
+
+(;W[cd]
+;B[dc]
+;W[ab]
+;B[ac]
+
+(;W[ad]C[Seki, White wins by one point (the prisoner) RIGHT])
+(;W[aa]
+;B[ca]
+;W[ad]C[Seki, White wins by one point (the prisoner) RIGHT])
+(;W[dd]
+;B[ca]
+;W[ad]C[Seki, White wins by one point (the prisoner) RIGHT]))
+(;W[ab]
+;B[cd]C[Black wins!]))
+(;B[cd]
+;W[ba]
+
+(;B[ca]
+;W[dc]C[White lives, Black is dead. RIGHT])
+(;B[ac]
+;W[dc]
+;B[ab]
+;W[ca]C[White wins RIGHT])))
+(;B[ba]
+;W[cc]
+;B[ab]
+;W[bc]C[Black has no eye, so White wins RIGHT]))
+(;W[cc]
+;B[bb]C[Black wins - b3 is a point that can not be missed])
+(;W[bc]
+;B[bb]C[Black wins - b3 is a point that can not be missed]))
+(;GC[goproblems:prob2554.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[da][cb][db][dc]AB[ab][ac][cc][ad]C[Black to play - what's the best he can do?]
+
+(;B[bb]
+
+(;W[cd]
+
+(;B[bd]
+;W[bc]
+
+(;B[ca]
+;W[ba]
+;B[cc]C[and Black wins. RIGHT])
+(;B[ba]
+;W[cc]C[White wins by one point!]))
+(;B[bc]
+;W[ba]C[Seki & jigo])
+(;B[ba]
+;W[bc]
+;B[bd]
+;W[cc]C[Seki, White wins by one point (the prisoner)]))
+(;W[ba]
+;B[cd]C[Black wins (one eye beats no eye) RIGHT]))
+(;B[bc]
+;W[bb]
+
+(;B[ba]
+;W[cd]C[Seki & jigo])
+(;B[cd]
+;W[ba]C[Seki & jigo]))
+(;B[cd]
+;W[bb]
+
+(;B[ba]
+;W[bc]
+;B[bd]C[Seki & Jigo])
+(;B[bc]
+;W[ba]C[Seki & Jigo]))
+(;B[ba]
+;W[bc]
+;B[cd]
+;W[bb]
+;B[bd]C[Seki & jigo]))
+(;GC[goproblems:prob2574.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AB[aa][ba][dc][ad][dd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[cb]
+;B[bc]
+
+(;W[cc]
+
+(;B[bb]
+;W[cd]
+;B[ca]
+;W[db]
+;B[bd]C[Seki, White wins by two points (2 prisoners against 0) RIGHT CHOICE ])
+(;B[cd]
+
+(;W[bb]
+;B[ab]
+
+(;W[db]
+;B[ca]
+;W[bd]
+;B[cd]C[Seki, White wins by 2 points (3 prisoners against 1) RIGHT CHOICE])
+(;W[ca]
+;B[db]
+;W[ac]
+;B[ab]C[Seki, White wins by two points (3 prisoners against 1) RIGHT CHOICE]))
+(;W[db]
+;B[bb]
+;W[bd]
+;B[cd]
+
+(;W[ca]
+;B[dc]
+;W[dd]
+;B[bd]
+
+(;W[ac]
+;B[dc]C[Black wins])
+(;W[ab]
+;B[dc]C[Black wins]))
+(;W[ac]
+;B[bd]
+;W[ca]
+;B[ab]C[White wins by one point (3 prisoners against 2). Not bad, but 1 point worse than the correct solution!]))))
+(;W[bb]
+
+(;B[cc]
+;W[ab]
+;B[db]
+;W[ca]
+;B[ac]C[Seki, White wins by two points (2 prisoners against 0) RIGHT CHOICE ])
+(;B[ab]
+
+(;W[cc]
+;B[cd]
+
+(;W[db]
+;B[ca]
+;W[bd]
+;B[cd]C[Seki, White wins by two points (3 prisoners against 1) RIGHT CHOICE])
+(;W[ca]
+;B[db]
+;W[ac]
+;B[ab]C[Seki, White wins by two points (3 prisoners against 1) RIGHT CHOICE]))
+(;W[ca]
+;B[cc]
+;W[ac]
+;B[ab]
+
+(;W[bd]
+;B[ac]
+;W[db]
+;B[cd]C[Seki, White wins by one point (3 prisoners against 2). Not bad, but one point worse than the correct solution!])
+(;W[db]
+;B[ba]
+;W[aa]
+;B[ac]
+
+(;W[bd]
+;B[ba]C[Black wins])
+(;W[cd]
+;B[ba]C[Black wins]))))))
+(;W[bc]
+;B[cb]LB[ac:A][bd:B]C[If you want to play A or B now, please choose A.]
+;W[ac]
+
+(;B[cc]
+;W[bd]
+;B[bb]
+;W[da]
+;B[ab]
+
+(;W[ca]
+;B[db]
+
+(;W[ca]
+;B[da]C[Seki, Black wins by 2 points (3 prisoners against 1)])
+(;W[da]
+;B[ca]C[Seki, Black wins by 2 points (3 prisoners against 1)]))
+(;W[db]
+;B[ca]
+
+(;W[da]
+;B[db]C[Seki, Black wins by 2 points (3 prisoners against 1)])
+(;W[db]
+;B[da]C[Seki, Black wins by 2 points (3 prisoners against 1)])))
+(;B[bd]
+
+(;W[cd]
+;B[cc]
+;W[bd]
+;B[bb]C[Black wins! But B B1 was a mistake, and only succeeded because White answered with a mistake on his own (W C1 instead of W C2).])
+(;W[cc]
+;B[db]
+;W[cd]
+;B[bb]C[Seki, White wins by two points (2 prisoners against 1). B B1 was a mistake, and if White answers correctly with W c2 instead of W C1, he can win.]))))
+(;GC[goproblems:prob2578.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][cb][dc]AB[da][bb][ac][bd][cd][dd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[ab]
+
+(;B[aa]
+;W[ca]
+
+(;B[ab]
+;W[cc]C[With his next move, White will capture with D3, securing a jigo. RIGHT CHOICE])
+(;B[cc]
+;W[ab]
+;B[db]
+;W[bc]C[White wins - BC2 was a mistake RIGHT]))
+(;B[bc]
+
+(;W[ca]
+;B[aa]
+;W[db]
+;B[ab]C[Seki & Jigo! RIGHT CHOICE])
+(;W[db]
+;B[aa]
+;W[ca]
+;B[ab]C[Seki & jigo! RIGHT CHOICE])
+(;W[cc]
+;B[aa]C[Black wins!])))
+(;W[cc]
+;B[ca]
+;W[db]
+;B[ca]C[Black wins])
+(;W[ca]
+;B[cc]
+;W[ab]
+;B[aa]C[Black wins]))
+(;GC[goproblems:prob2586.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[cc][dd]AB[db][bc][ad][bd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[bb]
+
+(;B[cb]
+
+(;W[ca]
+;B[ab]
+;W[ba]C[Seki & Jigo! Four groups on a 4x4 board.... B A3 was necessary, if White can play there, Black will have to sacrifice a stone, giving White a win. RIGHT])
+(;W[ab]
+;B[dc]C[W A3 is too slow]))
+(;B[dc]
+;W[cb]
+;B[cd]
+;W[ab]C[White wins RIGHT]))
+(;W[cb]
+
+(;B[bb]
+
+(;W[ba]
+;B[cd]
+;W[ca]
+;B[dc]
+;W[ab]C[Seki, Black wins by one point (the prisoner)])
+(;W[ca]
+;B[ba]
+;W[ab]
+;B[cd]C[Black wins big]))
+(;B[cd]
+;W[bb]
+;B[dc]
+;W[ab]C[White wins, but B C1 was a mistake! This move should have been at B3.])))
+(;GC[goproblems:prob2605.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][cc]AB[cb][dc][ad][bd][dd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[bb]
+;B[bc]
+
+(;W[db]
+
+(;B[cd]
+;W[ca]
+;B[da]
+;W[ac]
+;B[ab]
+;W[db]C[...and White wins. RIGHT])
+(;B[da]
+;W[ca]
+;B[cd]
+;W[db]C[...and White wins. RIGHT]))
+(;W[ca]
+;B[db]
+
+(;W[ab]
+;B[cd]C[Seki, Black wins by one point (the prisoner).])
+(;W[da]
+;B[cd]
+;W[ab]C[Seki, Black wins by one point (the prisoner).])))
+(;W[bc]
+;B[bb]
+
+(;W[ac]
+;B[ab]
+;W[cd]
+;B[db]C[Black wins!])
+(;W[ab]
+;B[cd]C[Black wins!])
+(;W[db]
+;B[da]
+;W[ac]
+;B[ab]
+;W[cd]
+;B[bd]
+;W[db]
+;B[dc]
+
+(;W[ca]
+;B[aa]
+
+(;W[ca]
+;B[db]C[Seki, each side has 5 prisoners. This is only a jigo!])
+(;W[ba]C[Seki! Each side has 5 prisoners, so this is only a jigo!]))
+(;W[aa]
+;B[ca]
+
+(;W[ba]C[Seki, each side has 5 prisoners. This is only a jigo!])
+(;W[aa]C[Seki, each side has 5 prisoners. This is only a jigo!]))))
+(;W[db]
+
+(;B[bb]C[This is better than B D1!]
+
+(;W[bc]
+;B[da]
+;W[ac]
+;B[ab]
+;W[cd]
+;B[bd]
+;W[db]
+;B[dc]
+
+(;W[ca]
+;B[aa]
+
+(;W[ca]
+;B[db]C[Seki, each side has 5 prisoners. This is only a jigo!])
+(;W[ba]
+;B[db]C[Seki, each side has 5 prisoners. This is only a jigo!]))
+(;W[aa]
+;B[ca]
+
+(;W[ba]C[Seki, each side has 5 prisoners. This is only a jigo!])
+(;W[aa]C[Seki, each side has 5 prisoners. This is only a jigo!])))
+(;W[cd]
+;B[bc]
+
+(;W[dc]
+;B[ca]C[Black wins])
+(;W[ca]
+;B[dc]C[Black wins])))
+(;B[da]
+
+(;W[bc]
+;B[bb])
+(;W[bb]
+;B[bc]
+;W[ca]
+;B[cd]
+;W[db]C[White wins, but both W C1 and B D1 were mistakes!]))))
+(;GC[goproblems:prob2610.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[aa][cb][ac][bc]AB[ca][da][cc][dc][ad]C[Black to move - what's the best he can do?]PL[B]
+
+(;B[bb]
+
+(;W[ab]
+
+(;B[cd]
+;W[ba]
+;B[db]
+;W[bd]
+;B[bb]C[...and Black wins! RIGHT])
+(;B[db]
+;W[cd]
+
+(;B[dd]
+;W[bd]C[Seki & Jigo (1 prisoner each)!])
+(;B[ba]
+;W[bd]C[Seki & Jigo (1 prisoner each)!]))
+(;B[bd]
+;W[cd]
+
+(;B[bd]
+;W[ba]C[White wins])
+(;B[db]
+;W[ba]
+;B[bd]
+;W[cb]C[White wins])))
+(;W[cd]
+
+(;B[db]
+;W[ab]
+
+(;B[ba]
+;W[bd]C[Seki & Jigo (1 prisoner each) - B D3 was a mistake!])
+(;B[dd]
+;W[bd]C[Seki & Jigo (1 prisoner each) - B D3 was a mistake!]))
+(;B[ba]C[Black wins! RIGHT]))
+(;W[bd]
+;B[cd]
+;W[ab]
+;B[db]C[...and Black wins. RIGHT]))
+(;B[cd]
+;W[bb]
+;B[db]
+;W[bd]C[White wins!]))
+(;GC[goproblems:prob2617.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[ba][bb][ac][cc][ad][cd]AB[ca][ab][cb][dc][dd]C[Black to play - what's the best he can do?]
+;B[bc]
+
+(;W[db]
+;B[aa]
+
+(;W[bd]
+
+(;B[bb]
+;W[dc]C[Seki & Jigo (2 prisoners each)! RIGHT])
+(;B[dc]
+;W[bb]C[Uh oh... White wins!])
+(;B[da]
+;W[bb]C[Uh oh... White wins!]))
+(;W[bb]
+;B[bd]
+;W[ac]C[Nice try, but since there is no stone at D4, Black can capture at B4.]
+;B[ba]C[RIGHT]))
+(;W[bd]
+;B[bc]C[This was easy :) RIGHT])
+(;W[aa]
+;B[ab]C[This was easy :) RIGHT]))
+(;GC[goproblems:prob2623.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AB[ad][bd][cd]C[White to play - what's the best he can do?]PL[W]
+
+(;W[cb]
+;B[bb]
+
+(;W[ba]
+
+(;B[ab]
+;W[cc]
+;B[dc]
+
+(;W[bc]
+;B[db]
+;W[ca]
+;B[ac]C[Seki & Jigo! RIGHT])
+(;W[db]
+;B[bc]
+;W[ca]
+;B[dd]C[Seki & Jigo! RIGHT])
+(;W[ca]
+
+(;B[db]
+;W[bc]
+;B[ac]C[Seki & Jigo! RIGHT])
+(;B[bc]
+;W[db]
+;B[dd]C[Seki & Jigo! RIGHT])))
+(;B[bc]
+
+(;W[dc]
+;B[cc]
+;W[ab]
+;B[db]
+;W[da]C[Sooner or later Black has to scarifice a stone to prevent a white eye. White wins by one point! RIGHT])
+(;W[cc]
+
+(;B[dc]
+;W[ab]
+;B[db]
+;W[ca]C[Seki & Jigo! W C2 was wrong....])
+(;B[ab]
+;W[dc]
+;B[ca]
+;W[da]C[White wins by one point - W C2 was a mistake, and B A3 was a mistake!]))))
+(;W[cc]
+;B[ca]
+;W[bc]
+;B[ac]
+
+(;W[db]
+;B[ab]
+;W[ba]
+;B[aa]C[Seki, Black wins by one point  (the prisoner)!])
+(;W[dc]
+;B[ab]
+;W[ba]
+;B[aa]C[Seki, Black wins by one point (the prisoner).])
+(;W[ab]
+;B[aa]
+
+(;W[db]C[Seki, Black wins by one point (the prisoner).])
+(;W[dc]C[Seki, Black wins by one point (the prisoner).]))
+(;W[ba]
+;B[aa]
+
+(;W[db]C[Seki, Black wins by one point (the prisoner).])
+(;W[dc]C[Seki, Black wins by one point (the prisoner).]))))
+(;W[bb]
+;B[cb]
+
+(;W[ca]
+;B[db]
+;W[bc]
+;B[cc]
+
+(;W[ac]
+;B[da]C[Black wins.])
+(;W[ba]
+;B[ac]
+;W[ab]
+;B[da]C[Black wins.])
+(;W[dc]
+;B[ac]
+;W[ba]
+;B[ab]C[Black wins.]))
+(;W[bc]
+;B[cc]
+;W[ca]
+;B[ac]C[Black wins.]))
+(;W[cc]
+;B[bb]
+;W[cb]
+;B[ca]
+;W[bc]
+;B[ac]
+
+(;W[db]
+;B[ab]
+;W[ba]
+;B[aa]C[Seki, Black wins by one point (the prisoner)])
+(;W[dc]
+;B[ab]
+;W[ba]
+;B[aa]C[Seki, Black wins by one point (the prisoner).])
+(;W[ab]
+;B[aa]
+
+(;W[db]C[Seki, Black wins by one point (the prisoner).])
+(;W[dc]C[Seki, Black wins by one point (the prisoner).]))
+(;W[ba]
+;B[aa]
+
+(;W[db]C[Seki, Black wins by one point (the prisoner).])
+(;W[dc]C[Seki, Black wins by one point (the prisoner).])))
+(;W[bc]
+;B[cc]
+;W[bb]
+;B[cb]
+;W[ca]
+;B[ac]C[Black wins.]))
+(;GC[goproblems:prob2637.html]GM[1]FF[4]CA[UTF-8]AP[CGoban:2]ST[2]RU[Japanese]SZ[4]KM[0.00]PW[Weiß]PB[Schwarz]AW[cb][cc]AB[ba][ab][ac][bc][ad][cd]C[White to move - what's the best he can do?]PL[W]
+
+(;W[ca]
+
+(;B[bb]
+;W[dc]
+;B[db]
+;W[da]C[Seki, White wins by one point (the prisoner) RIGHT])
+(;B[dc]
+;W[bb]
+;B[db]
+;W[aa]C[White wins big, B D2 was bad! RIGHT]))
+(;W[bb]
+;B[ca]
+
+(;W[dc]C[Seki & Jigo!])
+(;W[db]C[Seki & Jigo!]))
+(;W[dc]
+;B[ca]
+;W[bb]C[Seki & Jigo!])
+(;W[dd]
+;B[dc]
+;W[db]
+;B[bb]
+;W[dd]
+;B[bd]
+;W[ca]
+;B[dc]C[Black wins!]))

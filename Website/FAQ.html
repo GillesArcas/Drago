@@ -1,0 +1,198 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Drago, a Windows freeware to edit, view, play and replay games, and solve problems of Go">
+<meta name="keywords" content="go, igo, baduk, weiqui, weichi, freeware, SGF, edit, play, replay, GNU Go, gif">
+<title>Drago - FAQ</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body ext="#000000" link="#0000FF" vlink="#800080">
+
+<!-- -->
+<table border="0" cellspacing="0" width="100%">
+<!-- -->
+<tr>
+<td class="x z" colspan="3">
+<p class="title">
+<img src="Images/dragon.png" align="absbottom"> Drago - FAQ
+</p>
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b5 x">&nbsp</td>
+<td class="c x">
+<br>
+<p><a href="#FAQ5">When searching games from Gu Li in my database, I also get games from Gu
+Lingyi. What can I do to get only games from Gu Li?</a></p>
+<p><a href="#FAQ1">I want to display next moves on the board. I am able to switch the
+option from alternate move display to next move display, but when I reload the file or restart Drago, alternate moves
+are displayed again. Is it a bug, what can I do?</a></p>
+<p><a href="#FAQ2">Why am I unable to print all the positions/variations I want?</a></p>
+<p><a href="#FAQ3">Do you plan to port Drago for Linux or Mac?</a></p>
+<p><a href="#FAQ4">Is there a portable version of Drago?</a></p>
+<br>
+</td>
+<td class="b5 x">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b5">
+<a name="FAQ5">&nbsp</a>
+</td>
+<td class="c">
+<p>
+<b>
+<p>When searching games from Gu Li in my database, I also get games from Gu
+Lingyi. What can I do to get only games from Gu Li?
+</b>
+<hr>
+<p>The input boxes in the search window construct a command describing the search.
+This command can be displayed by checking the SQL box. For instance, when searching
+Gu Li as a Black player, we get the command:
+
+<p><code>(PB like '%Gu Li%' AND PW like '%%')</code></p>
+
+<p>The percent character is a placeholder replacing any sequence of characters. When removing it,
+we get only games from Gu Li:</p>
+
+<p><code>(PB like 'Gu Li' AND PW like '%%')</code></p>
+
+<p>
+</td>
+<td class="b5">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b5">
+<a name="FAQ1">&nbsp</a>
+</td>
+<td class="c">
+<p>
+<b>
+<p>I want to display next moves on the board. I am able to switch the
+option from alternate move display to next move display, but when I reload the file or restart Drago, alternate moves
+are displayed again. Is it a bug, what can I do?
+</b>
+<hr>
+<p>The problem comes from SGF files with some setting of the ST property. This
+property enables SGF writers, or SGF clients, to configure the
+display of next moves or variations with some markups on board. The
+ST (STyle property) enables to specify:
+<p>- if the marks are visible or not
+<p>- if the marks are associated with next moves or variations
+<p>In accordance with SGF specification, the STyle property has priority over current settings, unless
+the user forces the settings. But changing the settings does not change the
+file, and you find back the setting you do not want when reloading the file!
+<p>To solve the problem, open the Information dialog
+(the "I" button), the Misc tab, select "No style defined for current game" in the Style combobox,
+save the file, and check if you can save and retrieve your settings.
+<p><img src="Images/ST.png">
+<p>
+</td>
+<td class="b5">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b5">
+<a name="FAQ2">&nbsp</a>
+</td>
+<td class="c">
+<p>
+<b>
+<p>Why am I unable to print all the positions/variations I want?
+</b>
+<hr>
+<p>Let's first remind that a SGF file is a tree made of nodes. A node can store moves, setup
+stones, comments, markups and some more properties. Drago prints positions only if they can be reached
+with <i>moves</i>, not setup stones (except for the initial position).
+<p>This can be verified:
+<p>- by opening your SGF file with a text editor if you are familiar with the format. You should check
+that the position you want to print has no B[] or W[] property
+<p>- by looking at the game tree in Drago. Nodes with move properties are displayed with Black and
+White stones, and nodes without move properties are displayed with grey circles, like that:
+<p><img src="Images/NoMoves1.jpg"> or <img src="Images/NoMoves2.jpg">
+</td>
+<td class="b5">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b5">
+<a name="FAQ3">&nbsp</a>
+</td>
+<td class="c">
+<p>
+<b>
+<p>Do you plan to port Drago for Linux or Mac?
+</b>
+<hr>
+<p>Yes but this is a very long term goal. Here are some explanation why it is Windows only, and why it will be difficult to port.
+<p>First draft of Drago was written with Turbo Pascal. Its purpose
+was to store and print the lesson games I had with my teacher. After some years, I got the free personal version of Delphi and there were
+no doubts I wanted to start again Drago developement with it. Of course, it was Windows only but this was not an issue as I had no ambition of
+running it on another platform than my own personal computer!
+<p>Things have changed but Drago has grown. It includes now a lot of code and some external libraries. There is a way to port it by using
+the Free Pascal Compiler which is multi platform. But this will need a lot of work, rewrite and compromises. I am very sorry for Mac and Linux
+users but one more time, this is a very long term goal.
+<p>Anyway, Linux users can try to run Drago with Wine, but I have not heard about a satisfactory solution for Mac.
+<p>
+</td>
+<td class="b5">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b5">
+<a name="FAQ4">&nbsp</a>
+</td>
+<td class="c">
+<p>
+<b>
+<p>Is there a portable version of Drago?
+</b>
+<hr>
+<p>Yes, you will find it at the download page. Note that Drago stores its settings in the folder where it is installed.
+<p>
+</td>
+<td class="b5">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b5 y">
+<p><p><a href="index.html"><img src="Images/favicon.gif"
+align="absbottom" border="0" width="16" height="16"> Home</a>
+</td>
+<td class="c y">
+<p>
+<small>
+<p>Thanks to all feedbacks. Feel free to contact me if you think some topic should be added to the FAQ.
+</small>
+<p>
+</td>
+<td class="b5 y">&nbsp</td>
+</tr>
+<!-- -->
+
+</table>
+<small class="x">Copyright &copy; 2006-2021 Drago - All rights reserved</small>
+
+
+</body>
+</html>

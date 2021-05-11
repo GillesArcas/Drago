@@ -1,0 +1,286 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Drago, a Windows freeware to edit, view, play and replay games, and solve problems of Go">
+<meta name="keywords" content="go, igo, baduk, weiqui, weichi, freeware, SGF, edit, play, replay, GNU Go, gif">
+<title>Drago - Print and export examples</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body text="#000000" link="#0000FF" vlink="#800080">
+
+<!-- -->
+<table border="0" cellspacing="0" width="100%">
+<!-- -->
+<tr>
+<td class="x z" colspan="3">
+<p class="title">
+<img src="Images/dragon.png" align="absbottom"> Drago - Print and export examples
+</p>
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b x">&nbsp</td>
+<td class="c x">
+<br>
+<p>This page gives some examples for the printing abilities offered by <strong>Drago</strong>.
+</p>
+<br>
+</td>
+<td class="b x">&nbsp</td>
+</tr>
+<!-- -->
+
+
+<!-- -->
+<tr valign="top">
+<td class="b">
+<p><strong>Unicode</strong></p>
+</td>
+<td class="c">
+<p>Printing and exporting supports Unicode. This is demonstrated here with a Japanese and a Chinese
+commented games.
+</p>
+<p>
+<a href="Export/dousaku14.pdf">PDF</a> with a Dosaku game with Japanese comments by <a href="http://www5.plala.or.jp/hasebehp/igo_e.htm">smile_ace</a><br>
+<a href="Export/nie01sgf.pdf">PDF</a> with a Nie Weiping game with Chinese comments from <a href="http://www.flygo.net">flygo</a>
+</p>
+<br>
+</td>
+<td class="b">
+<p>&nbsp
+</td>
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+<td class="b">&nbsp</td>
+<td class="c">
+<br>
+<p>The following gives some examples for the printing styles defined when installing <strong>Drago</strong>,
+ as well as for some other features deserving some comments.</p>
+<br>
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+
+
+
+
+<!-- -->
+<tr valign="top">
+<td class="b">
+<p><strong>Default style</strong></p>
+</td>
+<td class="c">
+<p>Default options for printing. Prints the end position of the current game with a
+   full page figure.
+</p>
+<p>
+<a href="Export/Cho10.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10a.pdf">PDF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10a.htm">HTML</a>
+</p>
+</td>
+<td class="b">
+<p><img src="Images/detail0.gif" align="middle">
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b">
+<p><strong>SingleGame style</strong></p>
+</td>
+<td class="c">
+<p>Dedicated to print the current game, one figure every N moves (default 50), giving emphasis
+   to the first figure. The value N may be changed in the <em>One figure every N moves</em>
+   edit box.
+</p>
+<p>
+<a href="Export/Cho10.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10b.pdf">PDF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10b.htm">HTML</a>
+</p>
+</td>
+<td class="b">
+<p><img src="Images/detail1.gif" align="middle">
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b">
+<p><strong>GameCollection style</strong></p>
+</td>
+<td class="c">
+<p>Dedicated to print the end position of all the games in a collection file.
+</p>
+<p>
+<a href="Export/Cho10.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10c.pdf">PDF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10c.htm">HTML</a>
+</p>
+</td>
+<td class="b">
+<p><img src="Images/detail2.gif" align="middle">
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b">
+<p><strong>FusekiCollection style</strong></p>
+</td>
+<td class="c">
+<p>Dedicated to print the position at a given move, default position 50, of all the games in a
+   collection file. The position may be changed in the <em>Position at move number</em>
+   edit box.
+</p>
+<p>
+<a href="Export/Cho10.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10d.pdf">PDF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10d.htm">HTML</a>
+</p>
+</td>
+<td class="b">
+<p><img src="Images/detail3.gif" align="middle">
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b">
+<p><strong>InfoCollection style</strong></p>
+</td>
+<td class="c">
+<p>Dedicated to print only game information. The selection of the printed information
+   is done with the <em>Include information/Format</em> edit box.
+</p>
+<p>
+<a href="Export/Cho10.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10e.pdf">PDF</a>&nbsp&nbsp&nbsp
+<a href="Export/Cho10e.htm">HTML</a>
+</p>
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b">
+<p><strong>ProblemCollection style</strong></p>
+</td>
+<td class="c">
+<p>Dedicated to print initial positions of the problems in a collection file, here with 5
+   figures per line given the boardsize.
+</p>
+<p>
+<a href="Export/gp4x4.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/gp4x4.pdf">PDF</a>&nbsp&nbsp&nbsp
+<a href="Export/gp4x4.htm">HTML</a>
+</p>
+</td>
+<td class="b">
+<p><img src="Images/detail5.gif" align="middle">
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b">
+<p><strong>SolutionCollection style</strong></p>
+</td>
+<td class="c">
+<p>Dedicated to print problem solutions, with all variations, for a problem collection.
+</p>
+<p>
+<a href="Export/easy.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/easy.pdf">PDF</a>&nbsp&nbsp&nbsp
+<a href="Export/easy.htm">HTML</a>
+</p>
+</td>
+<td class="b">
+<p><img src="Images/detail6.gif" align="middle">
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b">
+<p><strong>Relative numbers</strong></p>
+</td>
+<td class="c">
+<p>When printing variations, it can be hard to identify from which figure comes the
+   variation if not explained in the comments or figure names. Using relative numbers,
+   by checking <em>Relative numbers</em> in the <em>Figure title</em> panel, can help.
+   For instance, "Diagram 1.2 (10-18)" in the following example means "second variation
+   of figure 1, variation of move 10".
+</p>
+<p>
+<a href="Export/FujisawaGoSeigen.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/PrintRelative.pdf">PDF</a>
+</p>
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b">
+<p><strong>Using figure names and explicit numbering</strong></p>
+</td>
+<td class="c">
+<p>To identify variations, it is also possible to give convenient name to figures, with
+   the <em>Figures</em> panel of the <em>Edit/Insert</em> control. To be closer to book
+   printing, variations may be numbered from 1 with the <em>Move numbers from</em> option
+   in the same control.
+</p>
+<p>
+<a href="Export/FujisawaGoSeigen2.txt">SGF</a>&nbsp&nbsp&nbsp
+<a href="Export/PrintExplicite.pdf">PDF</a>
+</p>
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr valign="top" >
+<td class="b y">
+<p><small><strong>Credits</strong></small></p>
+</td>
+<td class="c y">
+<p><small>SGF files are coming from:</small></p>
+<ul class="c">
+<li><small><a href="http://www5.plala.or.jp/hasebehp">smile_ace</a></small>
+<li><small><a href="http://www.flygo.net/index1.html">flygo</a></small>
+<li><small><a href="http://www.u-go.net/uligo">uliGo</a></small>
+<li><small><a href="http://www.xs4all.nl/~rongen17/Cho/">My Friday Night Files</a></li></small>
+<li><small><a href="http://www.goproblems.com/">GoProblems</a></li></small>
+<li><small><a href="http://www.britgo.org">British Go Association</a></li></small>
+</ul>
+</td>
+<td class="b y">&nbsp</td>
+</tr>
+<!-- -->
+
+</table>
+<small class="x">Copyright &copy; 2006-2021 Drago - All rights reserved</small>
+
+
+</body>
+</html>

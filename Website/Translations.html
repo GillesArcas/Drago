@@ -1,0 +1,208 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Drago - Note for translators</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body>
+
+<h2>Drago translation</h2>
+
+<hr style="width: 100%; height: 2px;">
+
+<h3>Current status</h3>
+
+<p>Drago is currently translated into 13 languages: Chinese
+(simplified, traditional and Martian), Czech, English, French, German,
+Hungarian, Japanese, Korean, Polish, Russian, Slovak, Spanish, Turkish and
+Vietnamese.
+The available translation
+files may be found in the install directory.</p>
+
+<p>This page will give you some information if you want to add
+your own translation.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Translation files</h3>
+
+<p>The translation files are text files with ini-like format:</p>
+
+<p><code>... <br>
+File=Fichier <br>
+Navigation=Navigation <br>
+... </code></p>
+
+<p>The left side is in English, the right side is the
+translation. The file is organized by windows, dialog boxes,
+messages, etc. To start a translation, choose the available
+language closest to your own language or use the English
+translation file.</p>
+
+<p>As Drago is Unicode enable, the translation files are encoded
+using UTF-8 format which enables to store any character from any
+language. As long as you correctly see the translation in your
+editor and in Drago, you should not worry about encoding. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>To translate</h3>
+
+<p>Two solutions: </p>
+
+<p>1/ Use NotePad, or any text editor UTF-8 enable. </p>
+
+<p>2/ Use <a href="LangPad.zip">LangPad</a>. I have written this
+tool to help translators of Drago. It handles directly UTF-8 and
+has some features which I hope may be useful. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Translating with LangPad</h3>
+
+<p>LangPad is very simple and very close to NotePad in what
+concerns standard editing. The only things worthy to mention are:</p>
+
+<ul>
+    <li>it opens and saves files directly in UTF-8.</li>
+    <li>You can display only the lines to be completed by
+        selecting the Filter&gt;To be completed menu. When
+        pushing again the Filter button, the file is shown
+        without filtering, the cursor being on the current line
+        when leaving the filter mode.</li>
+    <li>You can display only the lines containing a given string
+        by selecting the Filter&gt;Filter on search menu. The
+        same applies when pressing again the Filter button. Note
+        that the search is case sensitive and applies to the
+        whole line.</li>
+    <li>It will not be able to save additional strings (if ever
+        you had to add your own comments for instance).</li>
+</ul>
+
+<p>Hope this help!</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Some notes about the translation files</h3>
+
+<h4>&quot;BOM&quot; (Byte Order Mark)</h4>
+
+<p>You may see three weird characters at the start of the
+translation files. These characters have a special meaning.
+They tag the files as being UTF-8 and
+enable for instance NotePad to open these files directly as UTF-8
+without specifying it. Depending on the editor you use, they may
+appear or disappear. As long as you see your translation
+correctly in Drago, all is ok.</p>
+
+<h4>Comments / Titles</h4>
+
+<p>Strings starting with a semicolon &quot;;&quot; are comments,
+giving some explanations or the name of the dialog where come
+from the strings to translate. These comments do not appear in
+Drago and can be ignored when translating. </p>
+
+<h4>Language</h4>
+
+<p>The string $Language stores the name of your language as it
+will appear in the option dialog. There are 2 possibilities: put
+it in English (anybody can understand it) or put it your language
+(only the ones who are interested in can understand it). For
+instance: 'French' versus 'Français'. </p>
+
+<h4>HelpFile</h4>
+
+<p>The string $HelpFile is initialized with the name of the
+English help file. Another choice is the French help file. </p>
+
+<h4>Translation credit</h4>
+
+<p>The string $TranslationCredit stores a message appearing in
+the About dialog box with url and mail address active links. It
+can be initialized with some message, your name, mail or website
+(at most 3 lines separated by \n). Take a look at the current
+translations to get the idea. </p>
+
+<h4>Translations dependant on context</h4>
+
+<p>Some few strings in English must be translated in other
+languages with different words. For instance, &quot;game&quot; is
+translated into French with &quot;partie&quot; or &quot;jeu&quot;
+depending on the context. The different meanings are named by the
+English string followed by a number in the lng file, for instance
+Game and Game2. </p>
+
+<p>If you must disambiguate some string, please tell me. I will
+update the program to take this into account. </p>
+
+<p>The same remarks applies for character case. The functions
+accessing to the language files are not case sensitive. So, some
+strings have different keys to cope with different cases. Refer
+to context or another translation file.</p>
+
+<p style="font-weight: bold; font-style: italic;">Format specification</p>
+
+<p>Some strings include the character % followed by a letter (%s, %d, %f) possibly
+with some value between % and the letter (%2.2f). This is a notation used in
+a lot of programming languages and is replaced at run time by a string or a numerical
+value.</p>
+<p>
+<p>It is important to keep unchanged this notation.</p>
+<p>
+<p>Some strings may include several % and if ever your translation needs to reverse
+the order of the values, you can used the notation used in this example from Turkish:</p>
+<p>
+<p>
+<code>   Page %d of %d=%1:d sayfanın %0:d.si</code>
+<p>
+<p>As usual, in case of any doubt, please contact me.
+</p>
+
+<p style="font-weight: bold; font-style: italic;">Printing
+formats</p>
+
+<p>Some strings appear in the print section and are related to
+the formats of headers, footers and titles. Some keywords,
+starting with a slash character (e.g. \game or \left), enable to
+specify the format and are not to be translated.</p>
+
+<p style="font-weight: bold; font-style: italic;">Shortened
+strings</p>
+
+<p>Some strings to be translated are shortened (two currently).
+They are related to the longuest messages and end with
+&quot;etc.&quot;. Please refer to the English translation file to
+get the complete message. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>To conclude</h3>
+
+<p>Remember that: </p>
+
+<ul>
+    <li>You can see your translation at work without quitting and
+        starting again Drago. Just open the option dialog and
+        press Ok. This will update the translation.</li>
+    <li>New versions add some strings to translate, usually very
+        few compared to the current file.</li>
+    <li>I will be always very glad to help you if you have any
+        question or problem.</li>
+</ul>
+
+<hr style="width: 100%; height: 2px;">
+<small class="x">Copyright &copy; 2006-2021 Drago - All rights reserved</small>
+
+
+</body>
+</html>

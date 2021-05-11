@@ -1,0 +1,88 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Drago - Resources</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body text="#000000" link="#0000FF" vlink="#800080">
+
+<!-- -->
+<table border="0" cellspacing="0" width="100%">
+<tr>
+<!-- -->
+<td class="x z" colspan="3">
+<p class="title">
+<img src="Images/dragon.png" align="absbottom"> Drago - Resources
+</p>
+</td>
+</tr>
+<!-- -->
+<tr>
+<td class="b x y">&nbsp</td>
+<td class="c x y">
+
+<p>This page gathers some resources related to <b>Drago</b>. These resources are for the time being:</p>
+<ul>
+<li>wood <a href="WoodTextures.html">texture</a> images<br>
+<li>a html to sgf <a href="#Converter">converter</a> for goproblems files
+<li>a <a href="#Pb4x4">4x4 problem collection</a> from goproblems
+</ul>
+<hr>
+<h3>Wood textures</h3>
+<p align="center"><img src="Images/textures.jpg"></p>
+<p>Download <a href="WoodTextures.html">wood textures</a> images. Note that these images are installed
+with Drago. </p>
+
+<hr>
+<a name="Converter"></a>
+<h3>HTML to SGF converter for goproblems problem files</h3>
+
+<p>The <a href="http://www.goproblems.com/">goproblems</a> site offers a big
+   collection of go problems of various genres  (life and death, tesuji, ...)
+   and difficulties (easy, medium, hard).
+   These problems are entered by users and can be replayed on line. They can
+   also be downloaded in html or sgf formats. However, the sgf files don't keep the
+   genre and difficulty information. gopb2sgf.pl is a Perl script enabling to convert the html
+   problem files to sgf while keeping the genre and difficulty attributes. This enables
+   to dispatch the goproblems collection in sgf collections:</p>
+<ul>
+<li>by genre
+<li>by difficulty
+<li>by genre and difficulty
+</ul>
+<p>The gopb2sgf.pl script enables also to gather the problems where a given string appears and to detect
+   some syntax errors (unbalanced parentheses, unbalanced brackets, invalid property names). It can even
+   delete some annoying and useless CR marks.
+</p>
+<p>Download the <a href="gopb2sgf.zip">gopb2sgf.pl</a> script
+</p>
+<hr>
+<a name="Pb4x4"></a>
+<h3>4x4 problems from goproblems.com</h3>
+
+<p>The goproblems collection contains an amazing serie of 34 4x4 problems:</p>
+<p align="center"><img src="Images/4x4.jpg"></p>
+<p>It is possible with the gopb2sgf.pl script to gather them in a single 4x4 collection file,
+   available <a href="Export/gp4x4.txt">here</a>. Actually, a lot of "RIGHT" flags have been added to provide an identified correct solution
+   from the beginning of each problem.</p>
+
+</td>
+<td class="b x y">&nbsp</td>
+
+</tr>
+</table>
+<small class="x">Copyright &copy; 2006-2021 Drago - All rights reserved</small>
+
+
+</body>
+</html>
