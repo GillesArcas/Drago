@@ -1,0 +1,306 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Modalità modifica</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago - Modifica</h1>
+
+<hr>
+
+<ol>
+    <li><a href="#Summary of editing commands">Sommario dei comandi per l'editing</a></li>
+    <li><a href="#EditionSequenceDeJeu">Modifica delle partite</a></li>
+    <li><a href="#Edition d'une position">Modifica della posizione</a></li>
+    <li><a href="#Markup editing">Modifica delle annotazioni</a></li>
+    <li><a href="Insertion.htm">Inserimento di informazioni varie</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Summary of editing commands">Sommario dei comandi di editing</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><br>
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0" width="632">
+    <tr>
+        <td align="center"><strong>Strumenti</strong></td>
+        <td align="center"><strong>Menu</strong></td>
+        <td><strong>Descrizione</strong></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="BtUndo.gif" width="23"
+        height="22"></td>
+        <td><em>Annulla</em></td>
+        <td>Cancella l'ultima mossa inserita</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="BtCut.gif" width="23"
+        height="22"> </td>
+        <td><em>Cancella ramo</em></td>
+        <td>
+		Cancella l'intero ramo dalla mossa in corso, per es. la mossa corrente e tutte quelle successive</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="BtPlay.gif" width="23"
+        height="22"></td>
+        <td><em>Modifica la partita</em></td>
+        <td>Seleziona la modalità di modifica della partita: ogni colore viene giocato
+		a turno con la verifica della validità della mossa</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="BtBlack.gif" width="23"
+        height="22"></td>
+        <td><em>Aggiungi Nero</em></td>
+        <td>Seleziona una pietra nera, solo in modalità editing</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="BtWhite.gif" width="23"
+        height="22"></td>
+        <td><em>Aggiungi Bianco</em></td>
+        <td>Seleziona una pietra bianca, solo in modalità editing</td>
+    </tr>
+    <tr>
+        <td align="center">&nbsp;</td>
+        <td><em>Vuota</em></td>
+        <td>Seleziona la modalità cancella pietre bianche e nere</td>
+    </tr>
+    <tr>
+        <td><img src="BtMark.gif" width="36" height="22"></td>
+        <td><em>Annotazioni</em></td>
+        <td>Seleziona la modalità modifica annotazioni. La selezione del tipo di annotazione è fatta
+		nel sub-menu della barra meno o dalla tendina del pulsante sulla barra strumenti.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><em>Giocatore</em></td>
+        <td>Seleziona il giocatore della prossima mossa. La proprietà associata è archiviata nel file della partita
+		se l'opzione <em>Cambia giocatore con le proprietà SGF</em> è attiva.</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="BtPass.gif" width="15"
+        height="16"></td>
+        <td><em>Passa il turno</em></td>
+        <td>Inserisce una mossa di passaggio del turno</td>
+    </tr>
+    <tr>
+        <td align="center"><img src="BtInsert.gif" width="23"
+        height="22"></td>
+        <td><em>Inserisci...</em></td>
+        <td>Inserisce, o cancella, note o altre proprietà per la posizione in corso</td>
+    </tr>
+</table>
+
+<p><br>
+</p>
+
+<hr>
+
+<h2><a name="EditionSequenceDeJeu">Modifica della partita</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Attivazione</h3>
+
+<p>
+Quando si modifca una partita, l'alternanza dei colori e la regola della cattura sono gestiti dal programma.
+Questa modalità è attivata con il menu <em>Modifica/Modifica partita</em>  o con il pulsante nella barra strumenti<img src="BtPlay.gif"
+align="absbottom" width="23" height="22">.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Modifica</h3>
+
+<p>La modifica della partita è fatta facendo click sul goban. <strong>Drago</strong> gestisce i colori da giocare e
+le catture delle pietre.</p>
+
+<h4>Fare click sul goban</h4>
+
+<p>Facendo click sul goban si crea una nuova mossa, <em><strong>a meno che</strong></em>
+quella particolare mossa successiva già esista in quella posizione o che una mossa 
+alternativa sia visibile. In questi casi, il goban viene portato alla successiva posizione esistente o alla mossa alternativa.</p>
+
+<p>Le mosse successive o alternative sono visualizzate sul goban come pietre semitrasparenti, o con lettere maiuscole
+o minuscole a seconda dell'opzione <em>Annotazione della varianti sul goban</em>.</p>
+
+<ol>
+    <li><a href="Options.htm#Moves">Altro sulla visualizzazione delle mosse successive e alternative...</a></li>
+</ol>
+
+<p><em><strong>Ctrl-Click sul goban</strong></em></p>
+
+<p>
+Facendo click sul goban, mentre si mantiene premuto il tasto control,
+porta il goban su una mossa alternativa, se ve ne è una in quella posizione, altrimenti
+se ne crea una nuova.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Modifica dellla mossa in corso</h3>
+
+<p>
+E' possibile modicare la mossa in corso, anche se non è l'ultima eseguita, facendo click sulla pietra e trascinandola
+nella sua nuova posizione.<br>
+<font color="#FF0000" size="3" face="Arial"><strong>!</strong></font>&nbsp;Questo è l'unico modo di modificare
+una mossa intermedia di una partita senza andare a modificare direttamente il codice del file SGF.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Annulla</h3>
+
+<p>Annullare una mossa è possibile solo per l'ultima mossa inserita nel gioco.
+Viene fatto con il menu <em>Modifica/Annulla</em> o con il pulsante nella barra strumenti <img src="BtUndo.gif" align="absbottom" width="23"
+height="22">. Annulla è attivo solo per le mosse e non per gli altri comandi di editing
+(impostazioni della pietra, commenti...). Inoltre, quando si annulla una mossa, tutte le informazioni
+associate a questa mossa vengono anch'esse cancellate (in realtà è l'intero nodo ad essere cancellato).</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Cancellare un ramo</h3>
+
+<p>Il menu <em>Cancella ramo</em> o il pulsante della barra strumenti <img
+src="BtCut.gif" align="absbottom" width="23" height="22">
+permette di cancellare un intero ramo a partire dalla posizione in corso,
+inclusa la mossa in corso e tutte le mosse successive.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Giocatore</h3>
+
+<p>E' possibile cambiare il giocatore che gioca con il menu <em>Modifica/Giocatore/Nero</em>
+o <em>Modifica/Giocatore/Bianco</em>. Quando l'opzione <em>Cambia giocatore con le proprietà SGF</em> 
+è attiva, la selezione del giocatore viene archiviata nel file alla rispettiva proprietà SGF (PL).</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Passare il turno</h3>
+
+<p>Una mossa che passa il turno può essere inserita usando il menu <em>Modifica/Passa il turno</em>. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Inserisci un nodo vuoto</h3>
+
+<p>
+Un nodo vuoto può essere inserito usando il menu <em>Modifica/Inserisci nodo vuoto</em>. 
+Questo permette per esempio di definire posizioni diverse, impostando pietre nere e bianche, nella stessa radice 
+dell'albero di gioco.</p>
+
+<hr>
+
+<h2><a name="Edition d'une position">Modifica della posizione</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La modifica della posizione permette di cambiare posizione liberamente 
+alle pietre sul goban. Questa modalità è attivata co i menu <em>Modifica/Aggiungi Nero</em>, <em>Modifica/Aggiungi
+Bianco</em>, <em>Modifica/Vuota</em> e <em>Modifica/Annotazioni</em> o con i rispettivi pulsanti nella barra strumenti.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Aggiungere le pietre</h3>
+
+<p>
+Le pietre sono aggiunte facendo click sul goban dopo aver selezionato il colore con i menu
+ <em>Modifica/Aggiungi Nero</em> o <em>Modifica/Aggiungi Bianco</em>, o
+ con i pulsanti della barra strumenti <img src="BtBlack.gif"
+align="absbottom" width="23" height="22"> e <img
+src="BtWhite.gif" align="absbottom" width="23" height="22">.
+E' possibile aggiungere pietre continuamente tenendo premuto il pulsante sinistro del mouse.</p>
+
+<p>
+Quando si fa click con il pulsante sinistro del mouse, le pietre del colore selezioanto vengono aggiunte.
+Quando si fa click con il pulsante destro del mouse, vengono aggiunte le pietre del colore opposto.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Cancellare le pietre</h3>
+
+<p>Per cancellare le pietre:</p>
+
+<ul>
+    <li>seleziona il menu <em>Modifica/Vuota</em> e fai click sulle pietre da cancellare. Tenendo premuto
+	il pulsante sinistro del mouse si possono cancellare più pietre una dopo l'altra.</li>
+    <li>mentre in modalità <em>Modifica/Aggiungi Nero</em> o <em>Modifica/Aggiungi Bianco</em>, 
+	facendo click su una pietra la cancella.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Inversione di Colore</h3>
+
+<p>E' possibile una modalità più completa per aggiungere le pietre
+permettendo la seguente sequenza di azioni:</p>
+
+<ul>
+    <li>click su un'intersezione vuota per aggiungere una pietra del colore selezionato,</li>
+    <li>click su tale pietra per cambiarne il colore,</li>
+    <li>click una terza volta per rimuoverla dal goban.</li>
+</ul>
+
+<p>Questa sequenza &quot;Aggiungi, cambia colore, rimuovi&quot; può essere selezionata nella scheda <a
+href="Options.htm#Click sequence">Modifica</a> della finestra di dialogo delle Opzioni.</p>
+
+<hr>
+
+<h2><a name="Markup editing">Modifica delle Annotazioni</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Le annotazioni vi permettono di etichettare le pietre o le intersezioni
+per creare dei riferimenti nei commenti di una partita. Le annotazioni disponibili
+sono:</p>
+
+<ul>
+    <li><em>Croce</em>, <em>Triangolo</em>, <em>Cerchio</em>, <em>Quadrato</em>,
+    </li>
+    <li><em>Lettera</em>, stampa una lettera sull'intersezione.
+        La lettera visualizzata è determinata dall'ordine dei click, a cominciare dalla lettera 'A'.</li>
+    <li><em>Numero</em>, che è un'annotazione valida solo su una mossa e visualizza il numero della mossa
+	corrispondente.</li>
+    <li><em>Etichetta</em>, permette di inserire una etichetta di testo di al massimo tre caratteri,</li>
+    <li>annotazioni di territorio nero e bianco.</li>
+</ul>
+
+<p align="center"><img src="Marks.gif" width="481" height="32"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Aggiungi annotazioni</h3>
+
+<p>Aggiungere o cancellare le annotazioni è possibile selezionando il menu <em>Modifica/Annotazioni</em>
+ o il pulsante nella barra strumenti <img src="BtMark.gif"
+align="absbottom" width="36" height="22">. Questo seleziona il tipo di annotazione da inserire nel menu
+e sul pulsante. Per aggiungere o cancellare le annotazioni, fate click e trascinate sul goban.</p>
+
+<p>La seleziona delle Annotazioni è fatta nel sub-menu <em>Modifica/Annotazioni</em>
+o nel menu a tendina che appare premendo sul pulsante annotazioni della barra strumenti <img
+src="BtMark.gif" align="absbottom" width="36" height="22">. </p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Cancellare le Annotazioni</h3>
+
+<p>Per cancellare le annotazioni, usate lo stesso strumento che è stato usato per crearle.</p>
+
+<hr>
+
+<h2>Inserimento di informazioni varie</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Il menu <a href="Insertion.htm"><i>Modifica/Inserisci...</i></a> permette di inserire le proprietà SGF alla
+posizione in corso.</p>
+
+<hr>
+</body>
+</html>

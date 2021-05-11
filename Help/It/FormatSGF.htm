@@ -1,0 +1,493 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Version" content="8.0.3429">
+<meta name="Date" content="11/28/96">
+<meta name="Template" content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+
+<title>Drago - Formato SGF </title><link rel="StyleSheet" href="Drago.css" type="text/css"></head>
+
+<body>
+
+<h1><img src="Drago.gif" height="32" width="32">&nbsp;Drago - Formato SGF </h1>
+
+<hr>
+
+<h2>Riferimenti</h2>
+
+<hr color="#c0c0c0" size="1">
+
+<p>Il formato SGF, Smart Game Format, è il formato più usato su internet per archiviare
+le partite di Go. Lo potete trovare all'indirizzo <a href="http://www.red-bean.com/sgf/">Specifiche SGF</a>.</p>
+
+<p><b>Drago</b> aderisce quasi completamente alle specifiche del formato SGF
+versione FF[4]. Una descrizione di quali siano le sue conformità e quali le differenze con le specifiche
+è riportata qui di seguito. </p>
+
+<p>Nota che non è necessario conoscere il formato per usare <strong>Drago</strong>
+(come qualsiasi altro programma per la gestione dei file SGF).</p>
+
+<hr>
+
+<h2>Proprietà SGF</h2>
+
+<hr color="#c0c0c0" size="1">
+
+<p>La seguente tabella elenca tutte le proprietà definite per la partita di Go
+nelle specifiche FF[3] e FF[4] dei file SGF. La tabella fornisce per
+ogni proprietà informazioni sullo stato di conformità alle specifiche per l'implentazione fatta da <strong>Drago</strong>.</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="458">
+    <tbody><tr>
+        <td width="13%">AB</td>
+        <td width="25%">Aggiungi Nero (Add Black)</td>
+        <td width="62%">Conforme, cf. <i>Impostazione proprietà</i></td>
+    </tr>
+    <tr>
+        <td width="13%">AE</td>
+        <td width="25%">Aggiungi Vuoto (Add Empty)</td>
+        <td width="62%">Conforme, cf. <i>Impostazione proprietà</i></td>
+    </tr>
+    <tr>
+        <td width="13%">AN</td>
+        <td width="25%">Annotazione</td>
+        <td width="62%">Conforme, cf. <i>Proprietà Infomazioni di Gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">AP</td>
+        <td width="25%">Applicazione</td>
+        <td width="62%">Conforme, cf. <i>Proprietà di base</i></td>
+    </tr>
+    <tr>
+        <td width="13%">AR</td>
+        <td width="25%">Freccia (Arrow)</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">AW</td>
+        <td width="25%">Aggiungi Bianco (Add White)</td>
+        <td width="62%">Conforme, cf. <i>Impostazione proprietà</i></td>
+    </tr>
+    <tr>
+        <td width="13%">B</td>
+        <td width="25%">Nero (Black)</td>
+        <td width="62%">Conforme</td>
+    </tr>
+    <tr>
+        <td width="13%">BL</td>
+        <td width="25%">Tempo rimanente per il Nero (Black time left)</td>
+        <td width="62%">Conforme</td>
+    </tr>
+    <tr>
+        <td width="13%">BM</td>
+        <td width="25%">Brutta Mossa</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">BR</td>
+        <td width="25%">Livello del Nero (Black Rank)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">BT</td>
+        <td width="25%">Squadra del Nero (Black Team)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">C</td>
+        <td width="25%">Commento</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">CA</td>
+        <td width="25%">Tipo di Caratteri (Charset)</td>
+        <td width="62%">Conforme, cf.&nbsp;<i>Proprietà di base</i> </td>
+    </tr>
+    <tr>
+        <td width="13%">CP</td>
+        <td width="25%">Copyright</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">CR</td>
+        <td width="25%">Cerchio</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Annotazioni</i></td>
+    </tr>
+    <tr>
+        <td width="13%">DD</td>
+        <td width="25%">Dim points</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">DM</td>
+        <td width="25%">Posizione di parità (dame)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">DO</td>
+        <td width="25%">Dubbio</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">DT</td>
+        <td width="25%">Data</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">EV</td>
+        <td width="25%">Evento</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">FF</td>
+        <td width="25%">Formato File</td>
+        <td width="62%">Cf. <i>Proprietà di base</i></td>
+    </tr>
+    <tr>
+        <td width="13%">FG</td>
+        <td width="25%">Figura</td>
+        <td width="62%">Inserita con il nome della figura e l'opzione delle coordinate</td>
+    </tr>
+    <tr>
+        <td width="13%">GB</td>
+        <td width="25%">Bene per il Nero (Good for Black)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">GC</td>
+        <td width="25%">Commeto di gioco (Game comment)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">GM</td>
+        <td width="25%">Partita (Game)</td>
+        <td width="62%">Cf. <i>Proprietà di base</i></td>
+    </tr>
+    <tr>
+        <td width="13%">GN</td>
+        <td width="25%">Nome del Gioco (Game name)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">GW</td>
+        <td width="25%">Bene per il Bianco (Good for White)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">HA</td>
+        <td width="25%">Handicap</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">HO</td>
+        <td width="25%">Punto critico (Hotspot)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">IT</td>
+        <td width="25%">Interessante</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">KM</td>
+        <td width="25%">Komi</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">KO</td>
+        <td width="25%">KO</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">L</td>
+        <td width="25%">Lettera</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Annotazioni</i></td>
+    </tr>
+    <tr>
+        <td width="13%">LB</td>
+        <td width="25%">Etichetta (Label)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Annotazioni</i></td>
+    </tr>
+    <tr>
+        <td width="13%">LN</td>
+        <td width="25%">Linea</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">M</td>
+        <td width="25%">Annotazione semplice (Simple markup)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Annotazioni</i></td>
+    </tr>
+    <tr>
+        <td width="13%">MA</td>
+        <td width="25%">Annota con X (Mark with X)</td>
+        <td width="62%">Conforme, cf. <i>Impostazione proprietà</i></td>
+    </tr>
+    <tr>
+        <td width="13%">MN</td>
+        <td width="25%">Numero della Mossa (Move number)</td>
+        <td width="62%">Conforme. Interpretato e modificato nella casella di controllo <em>Modifica/Inserisci</em>. 
+		Una proprietà MN su di un nodo che non presenta mosse viene applicata alla mossa successiva.</td>
+    </tr>
+    <tr>
+        <td width="13%">N</td>
+        <td width="25%">Nome del Nodo</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">OB</td>
+        <td width="25%">Il Nero muove a sinistra (Black moves left)</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">ON</td>
+        <td width="25%">Apertura (Opening)</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">OT</td>
+        <td width="25%">Tempo supplementare (Overtime)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">OW</td>
+        <td width="25%">Bianco muove a sinistra (White moves left)</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">PB</td>
+        <td width="25%">Giocatore Nero (Player Black)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">PC</td>
+        <td width="25%">Posizione (Place)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">PL</td>
+        <td width="25%">Giocatore (Player)</td>
+        <td width="62%">Conforme, archiviato se viene attivata l'opzione <em>Cambia il giocatore con le proprietà SGF</em>.</td>
+    </tr>
+    <tr>
+        <td width="13%">PM</td>
+        <td width="25%">Stampa Numeri (Print numbers)</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">PW</td>
+        <td width="25%">Giocatore Bianco (Player White)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">RE</td>
+        <td width="25%">Risultato (Result)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">RO</td>
+        <td width="25%">Round</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">RU</td>
+        <td width="25%">Regole (Rules)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">SL</td>
+        <td width="25%">Punti Selezionati (Selected points)</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">SO</td>
+        <td width="25%">Sorgente</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">SQ</td>
+        <td width="25%">Quadrato (Square)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Annotazioni</i></td>
+    </tr>
+    <tr>
+        <td width="13%">ST</td>
+        <td width="25%">Stile</td>
+        <td width="62%">Conforme, cf. <i>Proprietà di base</i></td>
+    </tr>
+    <tr>
+        <td width="13%">SZ</td>
+        <td width="25%">Grandezza (Size)</td>
+        <td width="62%">Gestisce la grandezza di ogni tavola da gioco da 3 a 19.</td>
+    </tr>
+    <tr>
+        <td width="13%">TB</td>
+        <td width="25%">Territorio Nero (Territory Black)</td>
+        <td width="62%">Conforme</td>
+    </tr>
+    <tr>
+        <td width="13%">TE</td>
+        <td width="25%">Tesuji</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">TM</td>
+        <td width="25%">Limite di Tempo (Time limit)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">TR</td>
+        <td width="25%">Triangolo</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Annotazioni</i></td>
+    </tr>
+    <tr>
+        <td width="13%">TW</td>
+        <td width="25%">Territorio Bianci (Territory White)</td>
+        <td width="62%">Conforme</td>
+    </tr>
+    <tr>
+        <td width="13%">UC</td>
+        <td width="25%">Non chiaro (Unclear)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà delle Note</i></td>
+    </tr>
+    <tr>
+        <td width="13%">US</td>
+        <td width="25%">Utente (User)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">V</td>
+        <td width="25%">Valore del Nodo (Node value)</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">VW</td>
+        <td width="25%">Vedi una parte (View part)</td>
+        <td width="62%">Non gestito</td>
+    </tr>
+    <tr>
+        <td width="13%">W</td>
+        <td width="25%">Bianco (White)</td>
+        <td width="62%">Conforme</td>
+    </tr>
+    <tr>
+        <td width="13%">WL</td>
+        <td width="25%">Tempo rimasto per il Bianco (White time left)</td>
+        <td width="62%">Conforme</td>
+    </tr>
+    <tr>
+        <td width="13%">WR</td>
+        <td width="25%">Livello del Bianco (White Rank)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+    <tr>
+        <td width="13%">WT</td>
+        <td width="25%">Squadra del Bianco (White Team)</td>
+        <td width="62%">Conforme, cf. <i>Proprietà informazioni di gioco</i></td>
+    </tr>
+</tbody></table>
+
+<p>Inoltre, <b>Drago</b> gestisce la proprietà WV (Variante Errata - Wrong
+Variation) usata da uliGo per identificare una variante sbagliata per la risoluzione dei problemi.</p>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Proprietà di base</h4>
+
+<p>Le proprietà di base danno una descrizione generale di un gioco.</p>
+
+<p>Nota :</p>
+
+<ul>
+    <li>Le proprietà gioco, applicazione, formato file e grandezza
+        (GM, AP, FF, SZ) sono archiviate quando si crea un file se
+		l'opzione <em>Nuovo file con proprietà SGF complete</em> è attivato. 
+		Altrimenti, viene archiviata solo il valore della proprietà grandezza
+		se il suo valore è differente da quello di base, ovvero 19.
+		</li>
+    <li>
+	La proprietà gioco (GM) fornisce un avvertimento se il suo valore
+	non è 1. La proprietà formato file (FF) è riconosciuta ma non fa nulla:
+	<strong>Drago</strong> si affida alla visualizzazione di proprietà 
+	sconosciute nella barra di stato.</li>
+    <li>
+	Le proprietà applicazione e stile (AP e ST) possono essere modificate
+	nel pannello di controllo <em>Informazioni</em>.</li>
+    
+    <li>La proprietà formato file (FF) viene visualizzata ma non può essere modificata.</li>
+    <li>La proprietà stile cambia temporaneamente i valori delle opzioni <em>Mostra Prossima Mossa</em> e
+	<em>Mostra Mosse Alternative</em>. Se queste opzioni non sono modificate durante la partita in corso,
+	esse sono ripristinate quando si carica la partita successiva.</li>
+	
+	<li>
+	Se un file di gioco non ha la proprietà CA (Tipo di Caratteri - ChArset), viene usata la codifica caratteri specificata
+	nell'opzione "Seleziona codifica caratteri di base per i file di gioco" nella scheda (<a href="Options.htm#Language">Lingua</a>).
+	Le codifiche caratteri gestiti da <span style="font-weight: bold;">Drago</span> sono elencate in questa opzione.</li>
+</ul>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Proprietà informazioni di gioco</h4>
+
+<p>Le proprietà delle informazioni di gioco sono usate per dare una descrizione generale
+di un gioco. Sono visualizzate e modificate con il comando <em>Informazioni</em>.</p>
+
+<p>Nota:</p>
+
+<ul>
+    <li>
+	Non c'è validazione quando si modifica la proprietà data (DT).
+	Il formato dovrebbe essere AAAA-MM-GG. Vedi le specifiche per una
+	descrizione completa.</li>
+    <li>
+	Non c'è validazione quando si modifica la proprietà risultato
+        (RE).Il formato dovrebbe essere nella forma B+1.5. 
+		Vedi le specifiche epr una descrizione completa.</li>
+    <li>
+	Non c'è validazione quando si modifica la proprietà regole (RU).
+        Vedi le specifiche per la descrizione.</li>
+</ul>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Proprietà delle Note</h4>
+
+<p>Le proprietà delle Note sono usate per giudicare la qualità di una mossa o di una posizione:</p>
+
+<ul>
+    <li>Le proprietà C e N (Commento e Nome) sono modificate e visualizzate nella finestra principale.</li>
+    <li>Le proprietà DM, GB, GW, HO, UC, BM, DO, IT e TE sono modificate con il menu <em>Modifica/Inserisci</em> 
+	e visualizzano un messaggio nella barra di stato.</li>
+    <li>La proprietà V (Valore) non è gestita.</li>
+</ul>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Proprietà delle Annotazioni</h4>
+
+<p>Le proprietà delle Annotazioni accettano zone rettangolari come SQ[ab:cd]. 
+La singola proprietà annotazione (M) è obsoleta; è visualizzata (come l'annotazione triangolo) 
+ma non può essere inserita con <strong>Drago</strong>.
+La proprietà etichetta (LB) è visualizzata, ma limitatamente a 3 caratteri. Il comando
+<em>Modifica/Annotazioni/Numeri</em> è usato per aggiungere il numero della mossa
+come farebbe la proprietà LB per il nodo.</p>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Proprietà Impostazioni</h4>
+
+<p>Le proprietà delle impostazioni AB, AE e AW accettano zone rettangolari come AB[ab:cd].</p>
+
+<hr color="#c0c0c0" size="1">
+
+<h4>Proprietà sconosciute o non gestite</h4>
+
+<p>Le proprietà che non sono nella precedente tabella vengono riportate con un messaggio nella barra di stato.
+Per esempio: <img src="status3.gif" align="absbottom" height="23" width="110"></p>
+
+<p>I nomi delle Proprietà con più di due caratteri sono accettate se 
+l'opzione <em>Accetta nomi lunghi per le proprietà</em> della scheda <a href="Options.htm#Files">Opzioni/File</a>
+è attiva.</p>
+
+<hr>
+</body></html>

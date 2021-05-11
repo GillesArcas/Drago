@@ -1,0 +1,270 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - modalità gioco</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body link="#0000FF" vlink="#800080">
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Le partite contro il computer</h1>
+
+<hr>
+
+<p><strong>Drago</strong> può interfacciarsi con i motori di gioco che implementano
+il Go Text Protocol (GTP) versione 2, come ad esempio GNU Go. 
+La modalità Gioco propone diverse opzioni e mantiene memoria dei risultati e degli
+handicap dell'ultima partita per impostare l'handicap di quella successiva.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="#DefinitionAndParameters">Definizione e impostazioni dei motori di gioco</a></li>
+    <li><a href="#Lancement">Inizia una nuova partita</a></li>
+    <li><a href="#Deroulement">Gioca una partita</a></li>
+    <li><a href="#Analysis functions">Funzioni di Analisi</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="DefinitionAndParameters">Definizione e impostazioni dei motori di gioco</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La Definizione e impostazioni dei motori di gioco viene fatta
+nella scheda <a href="Options.htm#GameEngine">Motori di gioco</a> della finestra opzioni.</p>
+
+<hr>
+
+<h2><a name="Lancement">Iniziare una nuova partita</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Il comando per iniziare una nuova partita è nel menù <em>Gioca/Nuova partita contro il computer</em> o si può premere
+il pulsante <img src="YingYang.gif" align="absmiddle" width="23"
+height="21">. Appare una finestra di dialogo, che vi permette di selezionare:</p>
+
+<ul>
+    <li>Il motore di gioco e possibilmente il suo livello,</li>
+    <li>la posizione iniziale e il colore giocato dall'AI,</li>
+    <li>la grandezza della tavola da gioco, l'handicap e il komi.,</li>
+    <li>le impostazioni dei limiti di tempo,</li>
+    <li>le regole per il calcolo del punteggio.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Selezione di un motore di gioco e del suo livello</h3>
+
+<p><img src="Engine-Select.gif" width="256" height="132"></p>
+
+<p>
+Il motore di gioco può essere scelto dall'elenco dei motori di gioco definiti ed installati dall'utente.
+Se la lista è vuota, verrà mostrato un messaggio che propone all'utente di aprire la scheda dei motori di gioco
+nella finestra opzioni.</p>
+
+<p>Il livello può essere selezionato da 1 a 10. Questo paramentro potrebbe essere disponibile unicamente
+per Gnu Go.</p>
+
+<p><img src="Engine-Level.gif" width="260" height="86"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Posizione di partenza e selezione del colore</h3>
+
+<p><img src="Engine-Position.gif" width="259" height="145"></p>
+
+<p>La posizione di partenza può essere:</p>
+
+<ul>
+    <li>una nuova partita. In questo caso è possibile selezionare
+	il colore giocato dall'AI, la grandezza del goban, l'handicap e il komi.</li>
+    <li>
+	la posizione in corso. In questo caso è solo possibile scegliere il colore giocato dall'AI.</li>
+    <li>
+	Una nuova partita in modalità auto handicap. In questo caso potete solo selezionare la grandezza
+	del goban. TUTTI gli altri parametri (colore,
+        handicap e komi) sono impostati dall'interfaccia in accordo con il risultato dell'ultima partita,
+		per minimizzare la differenza della forza tra utente e AI. In questa modalità, il komi è sempre 0,5
+		per le partite ad handicap e 5,5 laddove non vi è handicap.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Selezione della grandezza della tavola da gioco, dell'handicap e del komi</h3>
+
+<p><img src="Engine-Param.gif" width="257" height="94"></p>
+
+<p>La possibilità di configurare questi valori dipende dal modo in cui è impostata la posizione iniziale. 
+Quando la selezione è possibile:</p>
+
+<p>- La grandezza può essere configurata tra 5 e 19.</p>
+
+<p>- I valori 0, 0.5, 5.5, 6.5, 7.5 o 8 sono quelli proposti per il komi, sebbene possa essere inserito
+qualsiasi altro tipo di valore. Per i giochi con handicap, il komi viene scelto dal tipo di calcolo del
+ <a href="#Score">punteggio</a>.</p>
+
+<p>- L'handicap può essere scelto tra 0 e 9 con le seguenti limitazioni:</p>
+
+<ul>
+    <li>Non si può definire un handicap per goban di grandezza inferiore a 7,</li>
+    <li>il massimo handicap per una tavola da 7 ammonta a 4,</li>
+    <li>il massimo handicap è 9 negli altri casi.</li>
+</ul>
+
+<p>- Il posizionamento delle pietre handicap è libero quando la relativa casella è attivata.
+Quando l'utente ha impostato le pietre handicap, si apre una finestra di dialogo che mostra
+le pietre rimanenti da piazzare:</p>
+
+<p><img src="FreeHandicap.gif" width="179" height="192"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Selezione dei limiti di tempo</h3>
+
+<p><img src="Engine-Timing.gif" width="238" height="252"></p>
+
+<p>Sono dispobili alcuni tipi di limitazione del tempo di gioco (a seconda del motore di gioco):</p>
+
+<ul>
+    <li>nessun limite di tempo,</li>
+    <li>tempo stabilito per il gioco intero,</li>
+    <li>tempo fissato per ogni mossa,</li>
+    <li>byo-yomi canadese: un tempo iniziale senza che le mosse abbiano un tempo limite, 
+	seguito da un limitato numero di mosse senza limiti di tempo.</li>
+</ul>
+
+<p>
+Vi è una casella che è possibile spuntare che permette di applicare i limiti
+unicamente all'AI lasciando libero da limitazioni il giocatore.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Scoring selection">Selezione del tipo di calcolo del Punteggio</a></h3>
+
+<p><img src="Engine-Score.gif" width="244" height="96"></p>
+
+<p>Sono disponibili due tipi di calcolo del punteggio a seconda del motore di gioco:</p>
+
+<ul>
+    <li>conteggio del territorio (usato dalle regole Giapponesi). Vengono contate
+	le intersezioni libere oltre che i prigionieri catturati.</li>
+    <li>
+	conteggio dell'area (usato nelle regole Cinesi). Si sommano le intersezioni dei territori liberi
+	più il numero di pietre vive. Il numero N delle pietre handicap è usato per calcolare il komi che
+	sarà pari a N+0.5 per il Bianco.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Altre opzioni</h3>
+
+<p>
+Le altre opzioni relative all'annullamento dell'ultima mossa, la scheda d'inizio e il salvataggio dopo la
+partita sono disponibili in  <a
+href="AdvancedOptions.htm#GamesAgainstEngines">impostazioni avanzate</a>.</p>
+
+<hr>
+
+<h2><a name="Deroulement">Giocare una partita</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Comandi disponibili</h3>
+
+<p>Durante una partita, sono disponibili i seguenti comandi:</p>
+
+<ul>
+    <li>gioca una mossa, a cui il computer risponderà con la mossa successiva</li>
+    <li>torna indietro di una mossa</li>
+    <li>torna indietro all'inizio della partita</li>
+    <li>vai avanti di una mossa</li>
+    <li>torna all'ultima mossa giocata</li>
+    <li>passa il turno, con il menu <em>Gioca/Passa</em></li>
+    <li>arrenditi, con il menu <em>Gioca/Rinuncia</em></li>
+    <li>annulla l'ultima mossa se il comando Annulla è disponibile</li>
+</ul>
+
+<p>Durante una partita, come anche nelle altre modalità, sono disponibili alcuni <a
+href="#Analysis functions">comandi di analisi della partita</a> se il motore di gioco
+è impostato per rendere disponibili queste funzioni.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Arrendersi</h3>
+
+<p><strong>Drago</strong> gestisce la resa da parte del giocatore come quella
+da parte dell'AI, specialmente se si utilizza GNU Go che permette di arrendersi
+nelle partite 19x19 già dalla versione 3.6.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3><a name="Score">Punteggio</a></h3>
+
+<p>
+Il gioco è concluso quando entrambi i contendenti passano il turno consecutivamente.
+Quando la partita è terminata, <strong>Drago</strong> mostra il risultato nel dettaglio
+alla destra della finestra principale:</p>
+
+<p><img src="Result.gif" width="177" height="194"></p>
+
+<p><strong>Drago</strong> usa il metodo di conteggio Giapponese (territorio +
+prigionieri) o Cinese (territorio + pietre). La <a
+href="#Scoring selection">selezione del tipo di conteggio dei punti</a>
+dipende dal motore di gioco e viene effettuata all'inizio della partita. </p>
+
+<p>
+Per le partite senza handicap, il komi può essere impostato liberamente prima dell'inizio della
+partita. Per le partite senza komi(&quot;handicap di una pietra&quot;), 
+il komi è sempre impostato a 0.5. Per le partite con handicap
+(H &gt; 1), il komi viene determinato come segue:</p>
+
+<ul>
+    <li>con il conteggio Giapponese, il komi è 0.5 a prescindere dall'handicap,</li>
+    <li>con il conteggio Cinese, il komi è H+0.5 se l'handicap costituito da H pietre.</li>
+</ul>
+
+<p>Al momento, non vi è modo di contestare il punteggio se vi è un problema con il risultato.</p>
+
+<hr>
+
+<h2><a name="Analysis functions">Funzioni di Analisi</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Durante una partita, come anche nelle altre modalità, sono disponibili
+alcune comandi di analisi se vi è un motore di gioco impostato per rendere disponibili
+queste funzioni. I comandi permettono di:</p>
+
+<ul>
+    <li>chiedere una stima del punteggio, mostrata nella barra di stato, con il menu <em>Gioca/Stima il Punteggio</em>,</li>
+    <li>chiedere un suggerimento per la prossima mossa, visualizzato nella barra di stato e sul goban,
+	con il menu <em>Gioca/Suggerisci una Mossa</em>,</li>
+    <li>mostra le regioni d'influenza sul goban, con il menu <em>Gioca/Mostra zone d'influenza</em>,</li>
+    <li>mostra stato del gruppo, con il menu <em>Gioca/Stato del gruppo</em>.</li>
+</ul>
+
+<p>Nota che:</p>
+
+<ul>
+    <li>Queste funzioni sono al momento disponibili solo per Gnu Go,</li>
+    <li>L'accuratezza dei risultati dati da questi comandi sono chiaramente proporzionali al livello del
+motore di gioco.</li>
+</ul>
+
+<hr>
+
+<p><strong>Nota</strong></p>
+
+<p>Alcuni comandi sono disponibili solo se il motore di gioco li supporta. 
+Se ciò non avviene, le relative opzioni appariranno in grigio.</p>
+
+<hr>
+</body>
+</html>

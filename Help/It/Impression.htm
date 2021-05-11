@@ -1,0 +1,462 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Stampa ed esportazione</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Stampa ed esportazione</h1>
+
+<hr>
+
+<p><strong>Drago</strong> permette di stampare il fine in corso con un ampio numero di opzioni.
+Se non coprono tutte le vostre esigenze, <strong>Drago</strong> permette di
+ <a href="#Exporting">esportare</a> le partite e le figure in diversi formati.</p>
+
+<p><strong>Drago</strong> permette anche di <a href="ExportPos.htm">esportare una posizione</a> 
+selezionata sul goban.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La stampa viene avviata con il menu <em>File/Stampa...</em> o
+il pulsante nella barra strumenti <img src="Print.gif" align="absbottom" width="16" height="16">. 
+La finestra di dialogo di stampa ha tre schede:</p>
+
+<p><img src="Print-Tabs.gif" width="194" height="29"></p>
+
+<ul>
+    <li>La scheda <em>Partite e figure</em> viene usata per definire cosa verrà stampato:</li>
+</ul>
+
+<blockquote>
+    <ol>
+        <li><a href="#Selection des jeux imprimes">Selezionare stampa della partita</a></li>
+        <li><a href="#Selection des figures imprimees">Selezionare stampa della figura</a></li>
+        <li><a href="#Configuration des informations de jeu">Configurazione delle informazioni</a></li>
+        <li><a href="#Configuration des commentaires">Configurazione dei commenti</a></li>
+        <li><a href="#Configuration des titres de figure">Configurazione del Titolo</a></li>
+    </ol>
+</blockquote>
+
+<ul>
+    <li>La scheda <em>Impaginazione</em> viene usata per specificare l'impaginazione della pagina, i margini e il carattere:</li>
+</ul>
+
+<blockquote>
+    <ol>
+        <li><a href="#Entêtes et pieds de page">Titoli e pié di pagina</a></li>
+        <li><a href="#Disposition">Impaginazione</a></li>
+        <li><a href="#Configuration des marges">Margini</a></li>
+        <li><a href="#Configuration de la fonte">Carattere</a></li>
+    </ol>
+</blockquote>
+
+<ul>
+    <li>La scheda <a href="#Styles"><em>Stili</em></a> viene usata per selezionare
+	stili di stampa predefiniti o personalizzati dal giocatore.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>L'<a name="Exporting">Esportazione</a> è avviata con il menu <em>File/Esporta...</em>. 
+In questo caso, la finestra di dialogo ha una quarta scheda, quella relativa ai <a
+href="#ExportingFormats"><em>Formati</em></a>, usata per selezionare il formato del file da esportare.</p>
+
+<p><img src="Export-Tabs.gif" width="249" height="28"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La configurazione del goban è possibile dal pannello che si apre premendo il pulsante <img
+src="BoutonGoban.gif" align="absbottom" width="97" height="31">, 
+e quindi dalla finestra opzioni selezionando la scheda <em>Tavola da gioco</em>.</p>
+
+<p><a href="Options.htm#Goban">Altro sulla configurazione del goban...</a></p>
+
+<p>Nota che quando si stampa o esporta in formato RTF (Rich
+Text) o WMF (graphic Windows metafiles), il goban è sempre stampato in nero su sfondo bianco.</p>
+
+<hr>
+
+<h2><a name="GamesAndFigures">Selezionare Partite e figure</a></h2>
+
+<hr>
+
+<h3><a name="Selection des jeux imprimes">Selezionare stampa partite</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p><img src="Print-Games.jpg" width="250" height="130"></p>
+
+<p>
+E' possibile stampare la partita in corso, o, se vi sono diverse partite
+nel file corrente, stamparle tutte o solo in parte, spuntando la corrispondente
+opzione nel pannello <em>Partite</em>.</p>
+
+<hr>
+
+<h3><a name="Selection des figures imprimees">Selezionare la stampa delle figure</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p><img src="Print-Figures.jpg" width="249" height="165"></p>
+
+<p>La selezione della figura è fatta nel pannello <em>Figure</em> spuntando le opzioni di scelta. 
+E' possibile stampare:</p>
+
+<ul>
+    <li>la posizione di partenza,</li>
+    <li>la posizione finale,</li>
+    <li>una posizione intermedia inserendo il numero dell'ultima mossa nella figura che si desidera,</li>
+    <li>una figura ogni N mosse specificando il numero di mosse tra una figura e l'altra,</li>
+    <li>una figura ogni annotazione o commento,</li>
+    <li>le figure specificate nel file (FG proprietà, vedi <a
+        href="Insertion.htm#InformationsFigures">come inserire informazioni figura</a>),</li>
+    <li>varianti.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Nota che:</p>
+
+<ul>
+    <li>Le opzioni <em>Posizione di partenza, Posizione finale, Posizione alla mossa numero, 
+	Una figura ogni N mosse, Una figura ogni annotazione o commento </em>e<em> File delle figure</em> si escludono a vicenda.</li>
+    <li>se l'opzione <em>File delle figure</em> è spuntato, <strong>Drago</strong> stampa
+	la posizione finale anche se non vi è alcuna proprietà figura specificata in tale posizione.</li>
+    <li>se l'opzione <em>File delle figure</em> non è spuntato, le figure specificate
+	nel file vengono ignorate.</li>
+    <li>Le figure sono stampate con la prima mossa giocata ad ogni intersezione.
+	Se le mosse successive sono giocate ad un'intersezione precedentemente occupata, le posizioni
+	sono mostrate sotto la figura (stile libro). Per esempio:</li>
+</ul>
+
+<blockquote>
+    <p><img src="Print-OverMoves.gif" width="161" height="22"></p>
+</blockquote>
+
+<p><a href="Insertion.htm#InformationsFigures">L'inserimento delle figure
+</a> in una partita è fatta nel pannello <em>Figure</em> del menu <em>Modifica/Inserisci</em>.</p>
+
+<hr>
+
+<h3><a name="Configuration des informations de jeu">Configurazione delle informazioni per i giochi</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Le informazioni relative alla partita possono essere ignorate o stampate:</p>
+
+<ul>
+    <li>all'inizio della partita, </li>
+    <li>come titolo della prima figura della partita.</li>
+</ul>
+
+<p><img src="Print-Infos.gif" width="246" height="100"></p>
+
+<p>Le informazioni sono formattate con una stringa di testo usando i seguenti nomi di proprietà:</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="5%">PB</td>
+        <td width="28%">Giocatore Nero</td>
+        <td width="5%">BT</td>
+        <td width="25%">Squadra del Nero</td>
+        <td width="5%">PC</td>
+        <td width="28%">Luogo</td>
+    </tr>
+    <tr>
+        <td width="5%">PW</td>
+        <td width="28%">Giocatore Bianco</td>
+        <td width="5%">WT</td>
+        <td width="25%">Squadra del Bianco</td>
+        <td width="5%">RE</td>
+        <td width="28%">Risultato</td>
+    </tr>
+    <tr>
+        <td width="5%">BR</td>
+        <td width="28%">Livello del Nero</td>
+        <td width="5%">DT</td>
+        <td width="25%">Data</td>
+        <td width="5%">GN</td>
+        <td width="28%">Nome della partita</td>
+    </tr>
+    <tr>
+        <td width="5%">WR</td>
+        <td width="28%">Livello del Bianco</td>
+        <td width="5%">EV</td>
+        <td width="25%">Evento</td>
+        <td width="5%">KM</td>
+        <td width="28%">Komi</td>
+    </tr>
+</table>
+
+<p>
+I precedenti nomi di proprietà dovrebbero essere preceduti dal carattere &quot;\&quot; . </p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+Quando le informazioni della partita sono stampate all'inizio del gioco, la stringa di testo che le formatta è composta dall'elenco delle proprietà e le selezionate informazioni
+vengono stampate in una tabella. Per esempio, la stringa di formattazione
+&quot;\PB\PW\DT\RE\EV&quot; può essere interpretato, usando le informazioni
+archiviate nel file, come:</p>
+
+<p><img src="Print-InfosTop.gif" width="728" height="66"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+Quando le informazioni sono stampate come titolo della prima figura, tutti i caratteri nel formato della stringa di testo
+vengono stampati al fianco della proprietà nome. Per esempio, la stringa di formattazione &quot;\PB (B) vs \PW
+(W), \DT, \RE&quot; potrebbe essere interpretata come:</p>
+
+<p><img src="Print-InfosTitle.gif" width="531" height="18"></p>
+
+<hr>
+
+<h3><a name="Configuration des commentaires">Configurazione dei commenti</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p><img src="Print-Comments.gif" width="247" height="92"></p>
+
+<p>
+I commenti possono essere ignorati o stampati. Quando sono stampati, è possibile
+visualizzare nei commenti il titolo delle figure (subito prima dei commenti relativi alla figura) o i numeri delle mosse
+(all'inizio del relativo commento di ogni mossa).</p>
+
+<hr>
+
+<h3><a name="Configuration des titres de figure">Configurazione del titolo della Figura</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p><img src="Print-Titles.gif" width="495" height="76"></p>
+
+<p>Il pannello <em>Titolo della figura</em> viene usato per configurare la stampa del titolo per
+le figure delle posizioni che giacciono sulla linea principale di gioco, con la casella di modifica <em>Formato figure</em>,
+e con la casella <em>Formato varianti</em> per le figure delle varianti.</p>
+
+<p>
+I titoli sono definiti con una stringa di formattazione dove le variabili
+\game, \figure, \moves e \player sono sostituiti come segue:</p>
+
+<ul>
+    <li>\game è rimpiazzato dal numero del gioco stampato</li>
+    <li>\figure è rimpiazzato dal numero della figura</li>
+    <li>\moves è rimpiazzato dall'arco di mosse giocate nella figura, per esempio 45-67,</li>
+    <li>\player è rimpiazzato dal giocatore che gioca, per.es. Nero o Bianco, o vuoto se sconosciuto.</li>
+</ul>
+
+<p>
+Se l'opzione <em>Numeri relativi</em> è spuntata, le figure sono numerate relativamente alle figure di cui
+sono varianti. Per esempio, la figura 2.1.3 è la terza variante della figura che era la prima variante della figura 
+numero 2. </p>
+
+<hr>
+
+<h2><a name="Layout">Impaginazione</a></h2>
+
+<hr>
+
+<h3><a name="Entêtes et pieds de page">Titoli e pié di pagina</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Il pannello <em>Titolo e pié di pagina</em> è usato per controllare la stampa del titolo e del pié di pagina.</p>
+
+<p><img src="Print-Header.gif" width="507" height="76"></p>
+
+<p>Il contenuto del titolo e del pié di pagina viene definito tramite una stringa
+di formattazione con le seguenti regole:</p>
+
+<dir>
+    <li>Una stringa di formattazione è una lista di parole chiave e costanti delimitate da apici
+         'in questo modo'.</li>
+    <li>Una parola chiave inizia con il carattere '\' e termina con uno spazio.</li>
+    <li>Le parole chiave identificano la posizione del successivo termine nella formattazione (es. \left per la formattazione a sinistra)
+	o identificano un contenuto da stampare (es. \date per inserire la data).</li>
+</dir>
+
+<p>Sono disponibili le seguenti parole chiave:</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="15%">\left </td>
+        <td width="85%">Stampa il termine successivo sul lato sinistro del titolo o del pié di pagina</td>
+    </tr>
+    <tr>
+        <td width="15%">\center</td>
+        <td width="85%">Stampa il termine successivo al centro del titolo o del pié di pagina</td>
+    </tr>
+    <tr>
+        <td width="15%">\right</td>
+        <td width="85%">Stampa il termine successivo sul lato destro del titolo o del pié di pagina</td>
+    </tr>
+</table>
+
+<p>Le precedenti parole chiave devono essere specificate, se richieste, in questo ordine.</p>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="15%">\file</td>
+        <td width="85%">Nome intero del file con il percorso e l'estensione</td>
+    </tr>
+    <tr>
+        <td width="15%">\name</td>
+        <td width="85%">Nome del file senza percorso o estensione</td>
+    </tr>
+    <tr>
+        <td>\page</td>
+        <td>Numero di pagina</td>
+    </tr>
+    <tr>
+        <td>\date</td>
+        <td>Data in formato locale</td>
+    </tr>
+</table>
+
+<p>Per esempio, la formattazione del pié di pagina &quot;\left 'Pagina ' \page
+\right \date&quot; è interpretata come:</p>
+
+<p><img src="Print-Footer.gif" width="552" height="27"></p>
+
+<hr>
+
+<h3><a name="Disposition">Impaginazione</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Il numero e la grandezza delle figure è definito nel pannello <em>Impaginazione</em>:</p>
+
+<p><img src="Print-Layout.gif" width="507" height="136"></p>
+
+<p>E' possibile configurare il numero di figure per linea (casella di modifica <em>Figure
+per linea</em>) mantenendo comunque la prima figura da sola sulla sua linea (casella <em>1° figura da sola</em>).</p>
+
+<p>Le caselle di modifica <em>% 1° figura normale</em> e <em>% Figura normale</em> 
+specificano la grandezza della figura espressa quale percentuale della grandezza massima delle figure sulla
+linea.</p>
+
+<p>I quattro pulsanti che mostrano immagini di pagine stampate servono per selezionare:</p>
+
+<ul>
+    <li>una figura per linea alla massima grandezza,</li>
+    <li>una figura per linea a mezza grandezza,</li>
+    <li>due figure per linea alla massima grandezza,</li>
+    <li>la prima figura da sola sulla linea, due figure per linea per le rimanenti.</li>
+</ul>
+
+<hr>
+
+<h3><a name="Configuration des marges">Configurazione dei Margini</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Il pannello <em>Margini (mm)</em> viene usato per specificare i margini in millimetri:</p>
+
+<p><img src="Print-Margins.gif" width="247" height="87"></p>
+
+<hr>
+
+<h3><a name="Configuration de la fonte">Configurazione del carattere di stampa</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Il pannello <em>Carattere</em> viene usato per specificare il nome del set di caratteri
+e la grandezza degli stessi per tutto il testo mandato in stampa:</p>
+
+<p><img src="Print-Font.gif" width="258" height="88"></p>
+
+<hr>
+
+<h2><a name="Styles">Stili</a></h2>
+
+<hr>
+
+<p>Gli stili sono usati per salvare le impostazioni predefinite di stampa o le impostazioni
+personalizzate dall'utente. Di base sono disponibili i seguenti stili:</p>
+
+<p><img src="Print-Styles1.gif" width="142" height="115"></p>
+
+<p>Lo stile <em>Current</em> è sempre selezionato quando si entra nella scheda <em>Stili</em> 
+e registra le opzioni impostate nelle schede <em>Partite e figure</em> e <em>Impaginazione</em>. 
+Lo stile è selezionabile facendo click con il mouse sul suo nome. Il box in basso descrive 
+lo stile scelto nel dettaglio:</p>
+
+<p><img src="Print-Styles2.gif" width="495" height="63"></p>
+
+<p>I pulsanti <em>Aggiungi</em> e <em>Rimuovi</em> aprono finestre di dialogo usate per aggiungere o eliminare
+gli stili.</p>
+
+<hr>
+
+<h2><a name="ExportingFormats">Formati di esportazione</a></h2>
+
+<hr>
+
+<p><strong>Drago</strong> può esportare le partite:</p>
+
+<ul>
+    <li>in formato RTF (Rich Text Format), </li>
+    <li>in PDF,</li>
+    <li>in formato HTML,</li>
+    <li>in formato Ms Word.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p><strong>Drago</strong> può esportare le figure:</p>
+
+<ul>
+    <li>in formato WMF, uno dei formati grafici standard di Windows. 
+	WMF è progettato per usare la massima risoluzione della periferica di destinazione (formato vettoriale).</li>
+    <li>in formato GIF e PNG, adatto per le immagini con aree dal colore costante,</li>
+    <li>in formato JPEG, che permette immagini ben compresse con poca perdita di qualità,</li>
+    <li>in formato BMP senza alcuna compressione.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Questi formati sono selezionabili tramite le due finistre di dialogo:
+
+<p><img src="Formats.gif" width="500" height="132"></p>
+
+<p>Nota che:</p>
+
+<ul>
+    <li>i formati selezionati per le partite e le figure sono evidenziati in blu;</li>
+    <li>i formati delle figure non disponibili per la partita selezionata sono in grigio;</li>
+    <li>I formati RTF e WMF sono sempre usati assieme.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+Alcune opzioni sono disponibili se sono rilevanti per i formati selezionati. Esse sono:</p>
+
+<ul>
+    <li>configurazione della carta (dimensione e orientamento) per RTF,
+        PDF e formato Word;</li>
+    <li>compressione PDF</li>
+    <li>qualità di compressione JPEG, che può andare da 1 (veramente pessima) a 100,
+        selezionabile con una casella di dialogo <em>Qualità Jpeg</em>: <img
+        src="QualiteJpeg.gif" align="absbottom" width="150"
+        height="37"></li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Nota che <a href="http://www.unisys.com/about__unisys/lzw">il brevetto Unisys per il formato GIF</a> 
+è scaduto nel Giugno del 2004.</p>
+
+<hr>
+</body>
+</html>

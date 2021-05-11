@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Generazione dell'albero di gioco</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body link="#0000FF" vlink="#800080">
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Creare un albero di gioco da una collezione di partite</h1>
+
+<hr>
+
+<p>un'Albero di gioco può essere costituito da:</p>
+
+<ul>
+    <li>le partite nella scheda corrente qualunque sia la loro origine (un file di gioco, una cartella, una ricerca nell'archivio)</li>
+    <li>le partite nei file o nelle cartelle selezionati con la finestra di dialogo dedicata.</li>
+</ul>
+
+<hr>
+
+<h2>Parametri per la costruzione dell'albero di gioco</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>I parametri disponibili sono:</p>
+
+<ul>
+    <li>il numero minimo di mosse per ogni ramo,</li>
+    <li>il numero di mosse uniche, es. il numero di mosse in ogni ramo che appartengono
+	solo ad una partita,</li>
+    <li>la normalizzazione della prima mossa in posizione standard.</li>
+</ul>
+
+<p>La prima mossa unica in un albero può contenere un riferimento alla partita di origine. Questo riferimento può essere:</p>
+
+<ul>
+    <li>il nome del file del gioco,</li>
+    <li>la <a href="Database.htm#SigSearch">firma</a>.</li>
+</ul>
+
+<hr>
+
+<h2>Note</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Questo comando ha dei limiti:</p>
+
+<ul>
+    <li>gestisce solo il ramo principale e non le varianti dei file delle partite di origine,</li>
+    <li>inversioni della mossa (tewari) non vengono rilevate. La stessa posizione potrebbe apparire
+	in due diversi nodi dell'albero di gioco.</li>
+</ul>
+
+<hr>
+</body>
+</html>

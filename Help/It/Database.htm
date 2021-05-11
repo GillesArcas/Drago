@@ -1,0 +1,666 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Archivi</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body link="#0000FF" vlink="#800080">
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago -
+Archivio</h1>
+
+<hr>
+
+<ol>
+    <li><a href="#Create">Creare un archivio</a></li>
+    <li><a href="#Update">Aggiornare un archivio</a></li>
+    <li><a href="#Open">Aprire un archivio</a></li>
+    <li><a href="#SearchDialog">Cerca</a></li>
+    <li><a href="#PatternSearch">Cerca schema</a></li>
+    <li><a href="#InfoSearch">Cerca nelle informazioni delle partite</a></li>
+    <li><a href="#SigSearch">Cerca Firma</a></li>
+</ol>
+
+<hr>
+
+<h2>Crediti</h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p><strong>Drago</strong> usa le librerie <a
+href="http://trac.u-go.net/kombilo/wiki/libkombilo">libkombilo</a>
+di Ulrich Goertz. Queste librerie permettono di implementare tutte le caratteristiche di
+ <a href="http://www.u-go.net/kombilo/">Kombilo</a> e
+<strong>Drago</strong> implementa la maggior parte di esse.
+Quindi ulteriore aiuto ed informazioni possono essere trovati nel <a
+href="http://trac.u-go.net/kombilo/wiki/Tutorial">tutorial</a> di kombilo.</p>
+
+<hr>
+
+<h2><a name="Create">Creare un archivio</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La creazione di un archivio è disponibile con il comando <em>Crea archivio...</em> nel menu
+<em>Archivio</em> o con il pulsante <img
+src="BtDBCreate.gif" align="absbottom" width="23" height="22">
+nella barra strumenti.</p>
+
+<ol>
+    <li><a href="#SelectName">
+	Si decide un nome ed il percorso dell'archivio</a></li>
+    <li><a href="#SelectFiles">Si scelgono i file e le cartelle da includere</a></li>
+    <li><a href="#CreateOptions">Si creano le opzioni</a></li>
+    <li><a href="#StartCreate">Si avvia il processo di creazione</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SelectName">Dare il nome ed il percorso dell'archivio</a></h5>
+
+<p>Il nome ed il percorso dell'archivio sono decisi nel box <em>Salva con nome...</em>.
+Il pulsante <img src="MoreXP.gif"
+align="absbottom" width="23" height="22"> fa partire una finestra di dialogo standard.</p>
+
+<p><img src="DBName.gif" width="339" height="58"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SelectFiles">Selezione di file e cartelle da includere</a></h5>
+
+<p>
+I file e le cartelle da includere in un nuovo archivio sono selezionati nel pannello di sinistra della finestra per la creazione dello stesso.
+Spuntate i box per selezionare o deselezionare i file e le cartelle da includere. L'elenco dei file
+e delle cartelle da includere è visualizzato nella parte sinistra del pannello di creazione dell'archivio.</p>
+
+<p><img src="DBCreateSelect.gif" width="500" height="72"></p>
+
+<p>E' possibile selezionare o deselezionare in un unica azione tutti i box
+usando i due pulsanti <em>Seleziona tutto</em> e <em>Deseleziona tutto</em>.</p>
+
+<p><img src="DBSelect.gif" width="299" height="17"></p>
+
+<p>Di default, le sottocartelle di cartelle selezionate non vengono incluse.
+L'opzione <em>Includi sottocartelle</em> permette di includere ricorsivamente tutte le cartelle all'interno di altre cartelle.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="CreateOptions">Opzioni di creazione</a></h5>
+
+<p>Nella finestra delle opzioni si possono trovare alcune  <a href="Options.htm#Database">opzioni avanzate</a> 
+per gli archivi. Queste opzioni concernono:</p>
+
+<ul>
+    <li>la quantità di memoria dedicata,</li>
+    <li>l'elaborazione delle varianti,</li>
+    <li>l'elaborazione deli duplicati.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="StartCreate">Creare un archivio</a></h5>
+
+<p>La procedura per creare un archivio inizia con il pulsante <img
+src="DBBtStart.gif" align="absbottom" width="68" height="23"> e può essere interrotta con il pulsante
+<img src="DBBtAbort.gif"
+align="absbottom" width="68" height="23"> che appare quando il procedimento è stato avviato.</p>
+
+<p>
+Il processo di creazione mostra alcuni messaggi relativi a errori e duplicati. La lista dei messaggi può essere salvata
+alla fine della procedura utilizzando la combinazione di tasti Ctrl-S.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Risorse</h5>
+
+<p>Creare un archivio può richiedere del tempo e una notevole quantità di memoria
+se il numero di partite da elaborare è alto e il computer ha una bassa potenza di calcolo.
+Come esempio, la creazione di un archivio con 40 000 partite ha richiesto:</p>
+
+<ul>
+    <li>3 minuti con un PC a 3 GHz, 1GB RAM, Windows XP,</li>
+    <li>circa 6 minuti con un PC a 2.4 GHz, 512 MB RAM, Windows 2000.</li>
+</ul>
+
+<hr>
+
+<h2><a name="Update">Aggiornare un archivio</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+Nella versione attuale, l'unico modo di modificare un archivio è aggiungendo file o cartelle.
+Questo avviene con il comando <em>Aggiungi all'archivio...</em> nel menu <em>Archivio</em>.</p>
+
+<p>
+Questa funzione è disponibile solo quando un archivio è aperto nella scheda corrente.
+Aggiungere contenuti ad un archivio comporta gli stessi passaggi della creazione.</p>
+
+<hr>
+
+<h2><a name="Open">Apertura di un archivio</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+Un archivio viene aperto con il comando <em>Apri archivio...</em> nel menu <em>Archivio</em> o con il pulsante
+<img
+src="BtDBOpen.gif" align="absbottom" width="23" height="22">
+nella barra strumenti.</p>
+
+<hr>
+
+<h2><a name="SearchDialog">Cerca</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>Esistono tre tipi di ricerca per gli archivi:</p>
+
+<ul>
+    <li>ricerca di schemi: 
+	uno schema (composizione di pietre) viene selezionato sulla tavola da gioco e 
+	il risultato della ricerca è tratto da tutte le partite presenti nell'archivio
+	nelle quale si riscontra lo stesso schema,</li>
+    <li>
+	ricerca nelle informazioni delle partite:
+	la richiesta avviene tramite la selezione di una o più particolari informazioni associate
+	alle partite (giocatori, date, risultato, etc.),</li>
+    <li>
+	ricerca per firme: la richiesta avviene sulle mosse 20,
+        40, 60, 31, 51 e 71 (firma di Dyer).</li>
+</ul>
+
+<ol>
+    <li><a href="#PatternSearch">Cerca Schemi</a></li>
+    <li><a href="#InfoSearch">Cerca Informazioni</a></li>
+    <li><a href="#SigSearch">Cerca Firme</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+La finestra di ricerca si apre con il comando <em>Cerca nell'archivio..</em>.
+nel menu <em>Archivio</em> o con il pulsante <img
+src="BtDBSearch.gif" align="absbottom" width="23" height="22"> nella barra strumenti. </p>
+
+<p>Sono disponibili tre pulsanti nella parte alta della finestra
+per scegliere la modalità di ricerca (schema, informazioni o firma).</p>
+
+<p><img src="DBToolbar1.gif" width="307" height="39"></p>
+
+<p>
+Altri tre pulsanti sono disponibili nella parte bassa della finestra di ricerca per:</p>
+
+<ul>
+    <li>lanciare la ricerca,</li>
+    <li>configurare la ricerca,</li>
+    <li>visualizzare questa guida.</li>
+</ul>
+
+<p><img src="DBToolbar2.gif" width="309" height="46"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+La ricerca avviene nell'archivio corrente, <strong>Drago</strong>
+permette di aprire simultaneamente vari archivi in schede diverse:</p>
+
+<p><img src="DBTabBar.gif" width="374" height="26"></p>
+
+<p>Aprendo il <a href="#SearchSettings">pannello impostazioni</a>,è possibile
+aprire o selezionare l'archivio corrente.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Lanciare la ricerca</h5>
+
+<p>Una volta impostati i criteri di ricerca, la si può lanciare con il pulsante cerca.</p>
+
+<p>Di base, la ricerca è fatta sull'intero archivio. 
+E' possibile limitare la ricerca ai risultati precedenti usando il pulsante
+<em>Cerca nei risultati</em>:</p>
+
+<p><img src="DBToolbar2open.gif" width="307" height="98"></p>
+
+<p>Il pulsante <em>Resetta</em> azzera tutti i risultati delle ricerche.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Risultati della ricerca</h5>
+
+<p>
+Le partite che soddisfano i criteri della ricerca sono elencati nella scheda dell'archivio.
+Navigate nella scheda per vedere le partite, potendo anche avvalersi dei pulsanti standard per
+selezionare la modalità delle Viste.</p>
+
+<p>
+Il tempo passato e il numero di partite trovato sono visualizzate nella barra di stato alla fine della
+ricerca.</p>
+
+<p><img src="DBStatusBar.gif" width="309" height="24"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5><a name="SearchSettings">Impostazioni della ricerca</a></h5>
+
+<p>Aprendo il pannello delle impostazioni è possibile:</p>
+
+<ul>
+    <li>selezionare o aprire un archivio</li>
+</ul>
+
+<p><img src="DBNamePicker.gif" width="308" height="63"></p>
+
+<ul>
+    <li>impostare i <a href="#PatternOptions">parametri della ricerca degli schemi</a>.</li>
+</ul>
+
+<hr>
+
+<h3><a name="PatternSearch">Cerca Schema</a></h3>
+
+<ol>
+    <li><a href="#SelectPattern">Selezione e disegno dello schema</a></li>
+    <li><a href="#OneClickSearch">Un click per cercare</a></li>
+    <li><a href="#PatternOptions">Opzioni di ricerca di uno schema</a></li>
+    <li><a href="#PatternResults">Risultati di ricerca di uno schema</a></li>
+</ol>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="SelectPattern">Selezione e disegno di uno schema</a></h4>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Selezione dello schema</h5>
+
+<p>La selezione di uno schema (combinazione di pietre) avviene sul goban. La selezione avviene
+facendo click con il pulsante destro e trascinando il mouse identificando un'area quadrata che contenga
+lo schema.</p>
+
+<p><img src="DBSelectOnBoard.gif" width="234" height="183"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Wildcards</h5>
+
+<p>Le Wildcard possono essere aggiunte allo schema selezionando l'annotazione wild card nella barra strumenti
+ (sotto <img src="BtMark.gif"
+align="absbottom" width="36" height="22">). Le Wild card hanno il seguente significato:</p>
+
+<ul>
+    <li>le wild card su un'intersezione libera <img
+        src="WildCardFree.gif" align="absbottom" width="23"
+        height="23">: l'intersezione può essere libera od occupata da una pietra di un qualsiasi colore,</li>
+    <li>le wild card su di una pietra <img src="WildCardBlack.gif"
+        align="absbottom" width="23" height="23">: l'intersezione può essere libera od occupata da una pietra di quel 
+		colore.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="OneClickSearch">Un click per cercare</a></h4>
+
+<p>La modalità un click per cercare viene attivata premendo il pulsante  <img
+src="BtOneClickSearch.gif" align="absbottom" width="23"
+height="22"> nella barra strumenti o nella finestra Cerca. Quando si usa la modalità 1 click per cercare,
+la ricerca dello schema viene lanciata non appena viene selezionata l'area contenente lo schema che interessa. </p>
+
+<p>
+Quando attivata dalla barra strumenti principale, la ricerca dello schema è fatta senza aprire la finestra cerca e i
+risultati sono visualizzati nella barra laterale.</p>
+
+<p><img src="DBSideBar.gif" width="313" height="108"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="PatternOptions">Le opzioni di ricerca per gli schemi</a></h4>
+
+<p>Di base, la ricerca degli schemi viene usata per trovare schemi:</p>
+
+<ul>
+    <li>negli angoli: per uno schema che include un angolo,</li>
+    <li>sui lati: per uno schema che include un lato,</li>
+    <li>in un qualsiasi punto che non sia un angolo o un lato: per uno schema che non include angoli o lati,</li>
+    <li>con i colori dello schema selezionato, e con i colori invertiti.</li>
+</ul>
+
+<p>Nel pannello delle impostazioni è possibile fissare:</p>
+
+<ul>
+    <li>il colore (per ottenere risultati che corrispondano con i colori dello schema selezionato) spuntando
+	la casella <em>Colori fissi</em>,</li>
+    <li>la posizione (e più precisamente la distanza al bordo) selezionando la casella
+	<em>Posizione fissa</em>.</li>
+</ul>
+
+<p>Nel pannello delle impostazioni sono disponibili altre due impostazioni:</p>
+
+<ul>
+    <li>è possibile evitare la ricerca nelle varianti,</li>
+    <li>è possibile configurare un limite di mosse in cui cercare lo schema
+	(1000 è quello di base per considerare tutte le partite).</li>
+</ul>
+
+<p><img src="DBSeachOptions.gif" width="300" height="118"></p>
+
+<p>
+Di base, la ricerca di schemi trova partite dove lo schema è trovato e la mossa successiva
+può spettare sia al bianco che al nero, oppure può anche essere l'ultima posizione della partita, ad es. con nessuna continuazione.</p>
+
+<p>
+E' possibile forzare il colore nella mossa successiva come <em>Nero</em>
+o <em>Bianco</em> (in questo caso deve esservi una mossa successiva)
+o <em>Uno dei due o nessuno</em> come con la modalità di default.</p>
+
+<p><img src="DBNextMove.gif" width="301" height="78"></p>
+
+<p>
+La selezione della mossa successiva è un'altra caratteristica disponibile nel pannello
+di ricerca degli schemi: </p>
+
+<p><img src="DBNextMove2.gif" width="146" height="27"></p>
+
+<p>
+Il pannello impostazioni permette di selezionare la modalità con cui vengono presentati
+i risultati della ricerca, come descritto nella prossima sezione.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h4><a name="PatternResults">Risultati della ricerca di schemi</a></h4>
+
+<p>
+La ricerca degli schemi da alcuni risultati statistici su quelli che
+hanno incontrato i criteri di ricerca. Questi risultati sono presentati in tre diverse
+modalità con le caselle <em>Vista ricerca schemi</em>:</p>
+
+<p><img src="DBViewRadio.gif" width="301" height="52"></p>
+
+<p>
+I riscontri sono classificati usando le loro continuazioni (la prima mossa nello schema,
+giocata dopo che lo schema appare sul goban). Le continuazioni possono essere giocate subito
+dopo la creazione dello schema, o dopo alcune altre mosse, ad esempio dopo un tenuki.
+Le continuazioni sono identificate con etichette alfabetiche. Il colore dell'etichetta
+specifica il colore della mossa successiva che continua lo schema: Nero, Bianco o grigio per entrambi i colori.</p>
+
+<p><img src="DBLabels.gif" width="175" height="143"></p>
+
+<p>Solo le mosse giocato nello schema vengono descritte. Come conseguenza:</p>
+
+<ul>
+    <li>è possibile trovare più riscontri che continuazioni,</li>
+    <li>le continuazioni possono essere trovate su pietre nello schema se queste pietre sono
+state catturate da mosse all'esterno dello schema.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Risultati in modalità Kombilo</h5>
+
+<p>
+Questa modalità è simile a quella usata in Kombilo (l'unica differenza è l'orientamento delle barre):</p>
+
+<p><img src="DBResKombilo.gif" width="309" height="86"></p>
+
+<p>Nella prima linea possiamo trovare:</p>
+
+<ul>
+    <li>
+	Il numero totale di riscontri (è possibile che sia più alto del numero di partite trovate),</li>
+    <li>
+	il numero di riscontri trovati con il colore dello schema, e il numero di riscontri trovato per i colori inversi,</li>
+    <li>
+	la percentuale di partite vinte dal Nero e dal Bianco.</li>
+</ul>
+
+<p>
+A seguito del titolo, ogni linea descrive una continuazione dando:</p>
+
+<ul>
+    <li>l'etichetta della continuazione sulla tavola,</li>
+    <li>il numero di riscontri a seguito di questa continuazione,</li>
+    <li>la percentuale di vittorie per il Nero quando il Bianco gioca per primo,</li>
+    <li>la percentuale di vittorie per il Nero quando il Nero gioca per primo,</li>
+    <li>le barre danno le percentuali delle continuazioni del Nero (giocate immediatamente in nero, dopo
+	tenuki in grigio scuro) e le percentuali delle continuazioni del Bianco (giocate immediatamente in bianco
+	dopo tenuki in grigio chiaro).</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Risultati in modalità completa</h5>
+
+<p>Questa modalità mostra i risultati della ricerca degli schemi
+su delle linee come sono fornite dalla libreria libkombilo:</p>
+
+<p><img src="DBResFull.gif" width="308" height="86"></p>
+
+<p>Per ogni continuazione viene elencata:</p>
+
+<ul>
+    <li>l'etichetta della continuazione sul goban,</li>
+    <li>il numero delle continuazioni nere (N),</li>
+    <li>il numero delle continuazioni nere giocate dopo un tenuki
+        (es. non solo subito dopo aver raggiunto la posizione) (N/T),</li>
+    <li>il numero delle vittorie nere dopo una continuazione nera (N+/N),</li>
+    <li>il numero delle sconfitte nere dopo una continuazione nera (N-/N),</li>
+    <li>il numero delle continuazioni bianche (B),</li>
+    <li>il numero delle continuazioni bianche giocate dopo un tenuki (B/T),</li>
+    <li>il numero delle vittorie nere dopo una continuazione bianca (N+/B),</li>
+    <li>il numero delle sconfitte nere dopo una continuazione bianca (N-/B).</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Risultati in modalità selezione</h5>
+
+<p>
+La modalità selezione permette di ordinare le continuazioni per frequenza, urgenza ed efficienza.
+Questi termini sono usati come segue:</p>
+
+<ul>
+    <li>la frequenza è la percentuale di quante volte la continuazione è stata giocata
+	all'interno dei riscontri della ricerca,</li>
+    <li>l'urgenza è la percentuale di quante volte la continuazione è stata giocata
+	immediatamente in relazione al numero di continuazioni con il medesimo colore,</li>
+    <li>l'efficienza  è la percentuale con cui la continuazione ha portato alla vittoria
+	in relazione al numero di continuazioni con il medesimo colore.</li>
+</ul>
+
+<p><img src="DBResDigest.gif" width="308" height="82"></p>
+
+<p>E' possibile ordinare le continuazoni facendo click sui pulsanti in alto che identificano le colonne.</p>
+
+<hr>
+
+<h3><a name="InfoSearch">Ricerca per informazioni relative alla partita</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+I file di gioco permettono di archiviare le informazioni relative ai giocatori,
+la data, il luogo, i risultati e così via. La ricerca tra le informazioni della partita viene usata
+per recuperare le partite che soddisfano i criteri di ricerca. Vi sono diponibili tre tipi di criteri:</p>
+
+<ul>
+    <li>criteri già definiti per giocatori, date e risultati,</li>
+    <li>criteri non definiti per tutti gli attributi esistenti,</li>
+    <li>criteri tipo SQL, riservati a ricerche avanzate, per i quali è necessario che la richiesta sia scritta in SQL.</li>
+</ul>
+
+<p>I criteri devono essere spuntati per essere presi in considerazione. 
+La ricerca alla fine sarà invita all'archivio con la richiesta che vengano soddisfatti tutti (congiunzione AND)
+i requisiti indicati:</p>
+
+<p><img src="DBcbPlayers.gif" width="106" height="16"> <img
+src="DBcbDate.gif" width="93" height="16"> <img
+src="DBcbResult.gif" width="98" height="16"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Ricerca di un Giocatore</h5>
+
+<p>
+Le ricerche per giocatori sono abilitate spuntando la casella <em>Ricerca giocatori...</em>. Può essere fatta: </p>
+
+<ul>
+    <li>specificando i giocatori sia Bianco che Nero,</li>
+    <li>specificando i giocatori a prescindere dal colore usato,</li>
+    <li>specificando il vincente ed il perdente.</li>
+</ul>
+
+<p><img src="DBReqPlayer.gif" width="309" height="116"></p>
+
+<p>L'indicazione del nome avviene:</p>
+
+<ul>
+    <li>con la digitazione del nome nel rispettivo campo,</li>
+    <li>aprendo il menu a tendina con l'elenco dei nomi e selezionandone uno.</li>
+</ul>
+
+<p>Si dovrebbe notare che:</p>
+
+<ul>
+    <li>
+	è possibile inserire solo una parte del nome. Per esempio, digitando &quot;aba&quot; 
+	verrannno trovati tutti i nomi che contengono &quot;aba&quot; al loro interno,</li>
+    <li>
+	il primo elemento della lista, &quot;-- Qualsiasi --&quot;, è usato per rimpiazzare qualsiasi
+	nome. Viene selezionato facilmente digitando il carattere &quot;-&quot;,</li>
+    <li>la
+	capitalizzazione dei caratteri (maiuscoli o minuscoli) non è presa in considerazione.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Ricerca per data</h5>
+
+<p>La ricerca per date viene abilitata spuntando la casella <em>Cerca per data...</em>. 
+Può essere avviata puntando ad una data in particolare o ad un intervallo di tempo:</p>
+
+<ul>
+    <li>per singola data, quando si seleziona il <em>Giorno</em> nel menu a tendina senza spuntare la
+	casella <em>Intervallo</em>,</li>
+    <li>per mese o anno, selezionando <em>Mese </em>o <em>Anno
+        </em>nel menu a tendina senza spuntare la casella <em>Intervallo</em>,</li>
+    <li>per un intervallo di giorni, mesi o anni, spuntando la casella <em>Intervallo</em>.</li>
+</ul>
+
+<p><img src="DBreqDate.gif" width="308" height="79"></p>
+
+<p>La data o l'intervallo viene evidenziato tra parentesi.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Ricerca dei risultati</h5>
+
+<p>Impostare una ricerca cercando un particolare risultato è possibile spuntando la casella <em>Cerca risultati...
+</em>. E' possibile:</p>
+
+<ul>
+    <li>inserire il colore del vincente,</li>
+    <li>specificare che tipo di vittoria si cerchi (per punteggio, per resa ...)
+        e l'esatto, o meno di un certo, o più di un certo, numero di punti.</li>
+</ul>
+
+<p><img src="DBReqResult.gif" width="309" height="57"></p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Criteri di ricerca non predefiniti</h5>
+
+<p>
+Si può inserire una propria ricerca definendo i valori da cercare spuntando la casella <em>Altro...</em>.
+Si aprirà un elenco di criteri configurabili. </p>
+
+<p><img src="DBReqAllProp1.gif" width="309" height="79"></p>
+
+<p>
+I criteri vengono selezionati da un menu a tendina sulla sinistra. I valori sono inseriti nella casella a destra.</p>
+
+<p><img src="DBReqAllProp2.gif" width="309" height="77"></p>
+
+<p>
+E' possibile aggiungere più criteri di ricerca contemporaneamente facendo click sul pulsante <em>Aggiungi</em>. </p>
+
+<p><img src="DBReqAllProp3.gif" width="309" height="102"> <img
+src="DBReqAllProp4.gif" width="309" height="98"></p>
+
+<p>Il pulsante <em>Rimuovi</em> elimina l'ultima linea dell'elenco dei criteri personalizzati.
+Il pulsante <em>Cancella</em> elimina tutti i criteri fino a quel momento impostati.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h5>Ricerche SQL</h5>
+
+<p>
+Tutte le opzioni precedenti costruiscono richieste di ricerca in linguaggio SQL (Search Query Language). 
+E' possibile vedere questa richiesta e modificarla spuntando la casella <em>SQL...</em>. </p>
+
+<p><img src="DBReqSQL.gif" width="309" height="81"></p>
+
+<p>
+Modificare le istruzioni SQL non è necessario per l'uso normale.
+Comunque, ciò permette di costruire altre richieste (usando ad esempio l'operatore OR per esempio).</p>
+
+<p>Nota che:</p>
+
+<ul>
+    <li>il nome dei campi sono i nomi delle proprietà SGF,</li>
+    <li>è sempre il contenuto del box SQL ad essere mandato come istruzione di ricerca all'archivio.</li>
+</ul>
+
+<hr>
+
+<h3><a name="SigSearch">Cerca firma</a></h3>
+
+<hr size="1" color="#C0C0C0">
+
+<p>La firma Dyer è composta da coordinate SGF per le mosse 20, 40, 60, 31, 51 e 71. 
+Per esempio, i 12 caratteri &quot;cgdijbdqfiod&quot; 
+permettono di trovare, all'interno di 40.000 giochi, la partita tra Cho Chikun e Kobayashi
+giocata nel 1999 per il Kisei a Parigi.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+Sono disponibili quattro modi per inserire una firma:</p>
+
+<ul>
+    <li>inserendo le mosse nell'icona della tavola di ricerca:</li>
+</ul>
+
+<blockquote>
+    <p><img src="DBSignature1.gif" width="308" height="77"></p>
+</blockquote>
+
+<ul>
+    <li>inserendo le coordinate nella casella <em>Mosse</em>:</li>
+</ul>
+
+<blockquote>
+    <p><img src="DBSignature2.gif" width="309" height="55"></p>
+</blockquote>
+
+<ul>
+    <li>inserendo la firma completa nella casella <em>Firma</em>,</li>
+    <li>facendo clic sul pulsante <em>Cattura</em>, che inserisce le sei mosse traendole dalla partita
+	caricata nella scheda corrente.</li>
+</ul>
+
+<p>E' possibile usare il carattere &quot;_&quot; come jolly nella firma. Per esempio, le mosse 20, 40 e 60
+sono sufficienti per trovare la summenzionata partita.</p>
+
+<blockquote>
+    <p><img src="DBSignature3.gif" width="309" height="59"></p>
+</blockquote>
+
+<hr>
+</body>
+</html>

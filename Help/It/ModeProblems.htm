@@ -1,0 +1,342 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="Template"
+content="C:\Program Files\Microsoft Office\Office\html.dot">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Drago - Modalità Problemi</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</head>
+
+<body>
+
+<h1><img src="Drago.gif" width="32" height="32">&nbsp;Drago - Risolvere i problemi</h1>
+
+<hr>
+
+<p>
+La modalità problemi è per la soluzione di problemi estratti da collezioni in formato SGF.
+<strong>Drago</strong> tiene traccia dei problemi risolti e del numero di successi per ognuno di essi.</p>
+
+<p>Nota che le soluzioni talvolta mancano nei file, portanto <strong>Drago</strong> a considerare mosse corrette
+come dei fallimenti. Siate indulgenti se questo accade, l'obiettivo non è il punteggio ma piuttosto fare pratica
+e memorizzare molti problemi.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<ol>
+    <li><a href="#Lancement">Iniziare una sessione di risoluzione di problemi</a></li>
+    <li><a href="#Deroulement">Descrizione di una sessione problemi</a></li>
+</ol>
+
+<hr>
+
+<h2><a name="Lancement">Iniziare una sessione di risoluzione di problemi</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p> Una sessione problemi viene iniziata dal menu <em>Problemi/Risolvi i problemi</em>. 
+Le opzioni della sessione sono:</p>
+
+<ul>
+    <li>la modalità selezione problemi,</li>
+    <li>l'orientamento ed i colori di gioco casuali della posizione,</li>
+    <li>il tasso dei precedenti fallimenti dei problemi,</li>
+    <li>il modo in cui le mosse corrette o scorrette sono codificate.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Selezione di un Problema</h3>
+
+<p>I Problemi possono essere selezionati:</p>
+
+<ul>
+    <li>da un indice</li>
+    <li>casualmente: una serie di problemi è scelto casualmente dal file corrente.</li>
+    <li>sequenzialmente: i problemi vengono sottoposti in ordine da quello in corso o dall'ultimo
+	problema affrontato.</li>
+</ul>
+
+<p><img src="Problem-Order.gif" width="170" height="102"></p>
+
+<p>In ogni caso, il numero di problemi da risolvere deve essere inserito.</p>
+
+<h4>Indice</h4>
+
+<p>Nel munu <em>Problemi</em> è dispobinile un indice. Selezionando un problema in quest'indice si apre una sessione
+problemi selezionando di default la modalità <em>Sequenziale partendo da quello in corso</em>. </p>
+
+<p><a href="ViewIndex.htm#GameInfoView-Problems">Altro sugli indici...</a></p>
+
+<h4>Sequenziale a partire da quello in corso</h4>
+
+<p>
+La sessione comincia con il problema in corso e va avanti in ordine. Se si raggiunge l'ultimo problema del file,
+la sessione continua con il primo problema presente nel file stesso.</p>
+
+<h4>Sequenziale dall'archivio</h4>
+
+<p><b>Drago</b> archivia in questa modalità l'ultimo problema affrontato. La sessione inizia con il successivo problema
+nel file e va avanti in ordine. Se si raggiunge l'ultimo problema del file,
+la sessione continua con il primo problema presente nel file stesso.</p>
+
+<h4>Modalità casuale</h4>
+
+<p><b>Drago</b> archivia un elenco del numero di tentativi effettuati per ciascun problema. In modalità 
+<em>Casuale</em>, i problemi sono scelti privilegiando quelli meno affrontati. Una volta selezionati, i problemi
+sono proposti in ordine casuale.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Orientamento e colore casuale</h3>
+
+<p>Per impedire la memorizzazione di un'esatta posizione, è possibile abilitare le modalità
+<em>Orientamento casuale</em> e <em>Colore casuale</em> quando si inizia una sessione.</p>
+
+<p><img src="Problem-Random.gif" width="171" height="101"></p>
+
+<h4>Posizione Casuale</h4>
+
+<p>Questa modalità visualizza ogni problema scegliendo a caso
+tra una delle possibili otto simmetrie.</p>
+
+<h4>Colore casuale</h4>
+
+<p>Questa modalità visualizza per ogni problema scegliendo tra il colore archiviato nel problema e i colori inveriti.</p>
+
+<h4>Nota</h4>
+
+<p>
+Se i problemi sono archiviati con dei commenti che quotano la posizione
+(&quot;uccidi le pietre nell'angolo in alto a destra&quot;) o il colore (&quot;Il Nero cattura&quot;), 
+Queste modalità non dovrebbero essere selezionate.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Percentuale dei precedenti fallimenti</h3>
+
+<p>
+Aspirando a risolvere problemi via via più difficili, è possibile selezionare una percentuale dei problemi
+precedentemente non risolti con successo. Un problema non è risolto con successo se ha richiesto un qualche tipo d'aiuto
+(suggerimento, modalità libera o torna alla mossa precedente) per essere risolto. I problemi con un tasso più basso di successo
+verranno selezionati per primi.</p>
+
+<p><img src="Problem-Ratio.gif" width="342" height="58"></p>
+
+<p>Il richiesto tasso di successo è un obiettivo che forse potrebbe non essere raggiunto. Questo accade quando per esempio
+la collezione di problemi non è mai stata visitata.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Codifica delle mosse corrette e scorrette</h3>
+
+<p>
+Esistono diversi modi di codificare le mosse corrette e quelle sbagliate
+in un file SGF. <strong>Drago</strong> gestisce i seguenti casi:</p>
+
+<p><img src="Problem-Encoding.gif" width="344" height="67"></p>
+
+<ul>
+    <li><em>Linea principale</em>: la soluzione corretta è sulla linea principale dell'albero di gioco.</li>
+    <li><em>uliGo</em>: le mosse sbagliate sono identificate con TR o WV (Wrong Variation). 
+	Questa è la modalità scelta da <a href="http://www.uligo.com/">uliGo</a>. </li>
+    <li><em>Goproblems</em>: l'ultima mossa della sequenza corretta ha un commento con la parola RIGHT. Questo
+	è il metodo scelto da <a href="http://www.goproblems.com/">goproblems</a>. </li>
+    <li><em>Rileva automaticamente</em>: <strong>Drago</strong> analizza il problema e determina il tipo di codifica.
+	Questa è la modalità di base.</li>
+</ul>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Statistiche della Collezione</h3>
+
+<p>
+Il tasso di successo di ogni problema è archiviato e ciò permette
+di visualizzare le visite ed il tasso di successo per ogni collezione.
+Queste statistiche possono essere azzerate usando il relativo comando
+associato al pulsante <em>Altro..</em>:</p>
+
+<p><img src="Problem-More.gif" width="178" height="107"></p>
+
+<hr>
+
+<h2><a name="Deroulement">Descrizione di una sessione di problemi</a></h2>
+
+<hr size="1" color="#C0C0C0">
+
+<p>
+Le sessioni di problemi vi permettono di risolvere ogni problema selezionato con le opzioni di partenza.
+Dopo che un problema è stato risolto, o per saltare al problema successivo, usate il pulsante <em>Partita successiva</em> 
+nella barra strumenti <img src="BtNext2.gif" align="absmiddle" width="23"
+height="22">.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Comandi disponibili</h3>
+
+<p>
+mentre si risolve un problema, sono disponibili i seguenti comandi:</p>
+
+<ul>
+    <li>mossa successiva: <strong>Drago</strong> risponde visualizzando una delle mosse vincenti
+	del suo colore se ve ne è uno, altrimenti una delle mosse perdenti.</li>
+    <li>torna alla mossa precedente,</li>
+    <li>torna alla posizione iniziale, </li>
+    <li>salta al prossimo problema,</li>
+    <li>chiedi un suggerimento,</li>
+    <li>gioca in modalità libera.</li>
+</ul>
+
+<h4>Suggerimenti</h4>
+
+<p>Potete ottenere dei suggerimenti usando il menu <em>Problemi/Suggerimento</em>. 
+Se vi sono mosse che portano ad una soluzione, verranno mostrate come pietre semi trasparenti.
+Altrimenti, l'ultima mossa dell'utente è errata e verrà circondata da un segno rosso.</p>
+
+<h4>Modalità libera</h4>
+
+<p>La modalità libera è selezionabile dal menù <em>Problemi/Modalità libera</em>.
+La modalità libera permette di provare una qualsiasi sequenza di mosse. Si esce dalla modalità
+libera con il menù <em>Problemi/Modalità Problemi</em> che permette di tornare alla posizione da cui si
+era partiti con la modalità libera.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Risultati</h3>
+
+<p>
+Quando l'ultima mossa giocata non ha alcuna prosecuzione o è sconosciuta, <strong>Drago</strong>
+mostra il risultato per il problema e prova in corso. A seconda di cosa è stato giocato, il problema
+è considerato corretto o meno per la sessione. </p>
+
+<p>Un problema è considerato corretto se è stato risolto senza tornare indietro di una mossa, senza aver
+chiesto suggerimenti, o aver approfittato della modalità libera.</p>
+
+<hr size="1" color="#C0C0C0">
+
+<h3>Visualizza Stato</h3>
+
+<p>
+A seconda del risultato del problema e della prova in corso, <strong>Drago</strong> 
+mostra un messaggio e un simbolo.</p>
+
+<p align="left"><img src="Problem-Status.gif" width="203"
+height="48"></p>
+
+<p>Sono possibili i seguenti casi:</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="586">
+    <tr>
+        <td colspan="3" width="51%">Soluzione Problema</td>
+        <td colspan="3" width="51%">Soluzione Prova</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">Messaggio</p>
+        </td>
+        <td width="12%"><p align="center">Simbolo</p>
+        </td>
+        <td width="27%"><p align="center">Commento</p>
+        </td>
+        <td width="12%"><p align="center">Messaggio</p>
+        </td>
+        <td width="12%"><p align="center">Simbolo</p>
+        </td>
+        <td width="27%"><p align="center">Commento</p>
+        </td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">in corso</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">Prima prova in corso</td>
+        <td width="12%">In corso</td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">Prima prova in corso</td>
+    </tr>
+    <tr>
+        <td rowspan="5" width="12%"><p align="center"><font
+        color="#008000">Successo</font></p>
+        </td>
+        <td rowspan="5" width="12%"><p align="center"><font
+        color="#800000" size="6" face="Wingdings">C</font></p>
+        </td>
+        <td rowspan="5" width="27%">Il problema è stato risolto al primo tentativo</td>
+        <td width="12%"><p align="center">in corso</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">F</font></p>
+        </td>
+        <td width="27%">E' ancora in corso un tentativo</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#008000">Successo</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">C</font></p>
+        </td>
+        <td width="27%">Successo della prova</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#FF0000">Fallimento</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">D</font></p>
+        </td>
+        <td width="27%">Fallimento dopo la prima prova</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#0000FF">Aiutato</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">G</font></p>
+        </td>
+        <td width="27%">Successo aiutato dopo la prima prova (mossa indietro, suggerimento o modalità libera)</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center">Rinuncia</p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="5" face="Wingdings">I</font></p>
+        </td>
+        <td width="27%">Rinuncia dopo la prima prova</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#FF0000">Fallimento</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">D</font></p>
+        </td>
+        <td width="27%">Il problema non è ancora stato risolto</td>
+        <td colspan="2" width="24%"><p align="center"><font
+        color="#800000" size="5" face="Wingdings">FDI</font></p>
+        </td>
+        <td width="27%">Come in caso di successo</td>
+    </tr>
+    <tr>
+        <td width="12%"><p align="center"><font color="#0000FF">Aiutato</font></p>
+        </td>
+        <td width="12%"><p align="center"><font color="#800000"
+        size="6" face="Wingdings">G</font></p>
+        </td>
+        <td width="27%">Il problmea è stato risolto con un qualche aiuto (due tentativi o più, mossa indietro,
+		suggerimento o modalità libera)</td>
+        <td colspan="2" width="24%"><p align="center"><font
+        color="#800000" size="5" face="Wingdings">FCDGI</font></p>
+        </td>
+        <td width="27%">Come in caso di successo</td>
+    </tr>
+</table>
+
+<p><br>
+</p>
+
+<hr>
+</body>
+</html>
