@@ -1,0 +1,206 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Drago Release Notes</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body background="Texture.jpg" text="#000000" link="#0000FF" vlink="#800080">
+
+<p><font size="4" face="Arial"><img src="dragon32.gif"
+align="absbottom" width="32" height="32"> Drago - Release Notes</font></p>
+<hr>
+
+<h2>2004/12/23 - version 1.32</h2>
+
+<h3>New</h3>
+
+<p>Display of the list of variations as children or sibling.</p>
+<p>Mouse command (Ctrl-Click) to navigate or create variations at the current depth.</p>
+<p>Keyboard command (Ctrl-Return) to navigate or create variations at the current depth.</p>
+<p>New options to control the display of NodeName, Comment, TimeLeft and Variation list.</p>
+<p>Modify current move with drag and drop.</p>
+<p>Manual setup of territory markups in addition of auto setup after playing.</p>
+<p>Setup of label markups.</p>
+
+<h3>Change</h3>
+
+<p>The menu associated with the markup toolbar button becomes a dropdown menu.</p>
+<p>Current markup is stored in the inifile.</p>
+<p>Empty NodeName ( N[] ) or Comment ( C[] ) properties are deleted after editing.</p>
+<p>Soft linebreaks are handled.</p>
+<p>Add sgf extension when saving as name with no extension.</p>
+<p>Node names and comments can be edited in the Text tab of the Edit/Insert command.</p>
+
+<h3>Fix</h3>
+
+<p>Spanish help from inner controls is undefined.</p>
+<p>Moving the pointer with the keyboard is incorrect on vertical coordinates (Alt-Up
+   and Alt-Dn).</p>
+<p>Flickering when starting the application.</p>
+<p>Crash when exporting figures with some options.</p>
+<p>Possible conflicts between non standard proprietary SGF properties and Drago internal
+   properties</p>
+
+<!-- Dev
+   All windows are allocated and freed dynamically : less resource overhead
+-->
+
+<hr>
+
+<h2>2004/10/28 - version 1.31</h2>
+
+<h3>New</h3>
+
+<p>Drago exports games to HTML, figures to GIF, JPEG and BMP in addition to RTF and WMF.</p>
+<p>Display of stones as antialiased circles and option for choosing between
+   bitmap and drawn stones.</p>
+<p>It is possible to select jpeg files, in addition to bmp, for goban background textures.</p>
+<p>New option to select the style and drawing of the coordinate background.</p>
+<p>New option to control the number of digits when displaying move numbers.</p>
+<p>New option to enable zooming on a board quarter (zoom on main window, index, problems
+   and printing).</p>
+
+<h3>Change</h3>
+
+<p>Better drawing of stones on dark backgrounds.</p>
+<p>Better drawing of circles.</p>
+<p>Split graphic tab option into goban options and move options.</p>
+<p>Escape previewing with ESC rather than Quit button.</p>
+
+<h3>Fix</h3>
+
+<p>Crash when printing with game info at start of game, several figures per
+   line and last line not full.</p>
+
+<hr>
+
+<h2>2004/07/27 - version 1.30</h2>
+
+<h3>New</h3>
+
+<p>Drago prints and exports.</p>
+<p>Help file is available in English.</p>
+<p>Add a popup menu on the markup toolbar button.</p>
+
+<hr>
+
+<h2>2004/07/09 - version 1.25</h2>
+
+<h3>Fix</h3>
+
+<p>Player is not initialized (thanks Dave).</p>
+<p>Bad handling of engine pass moves.</p>
+<p>Hints in goproblems.com problems are not fully detected.</p>
+<hr>
+
+<h2>2004/06/18 - version 1.24</h2>
+
+<h3>New</h3>
+
+<p>Add option for entering custom parameters when starting game engine.</p>
+
+<h3>Change</h3>
+
+<p>Autohandicap mode saving uses the name of the game engine in addition of size and level.</p>
+<p>Starting a new game in Current position mode uses only GTP 'play' commands, and no more GTP
+   'loadsgf' which is not in the GTP required commands.</p>
+
+<p></p>
+
+<h3>Fix</h3>
+
+<p>Starting the game engine doesn't use its working directory.</p>
+<p>Unknown gtp commands are not handled (game stops now and sends a message).</p>
+<p>Game engine crashes are not handled (msg now).</p>
+<p>Parse gtp responses on #13#10 rather than ignoring #13 (can play with Aya now).</p>
+<p>When starting a new game in Current position mode and when there is no moves
+   (only setup), the game always starts with Black </p>
+<hr>
+
+<h2>2004/05/06 - version 1.23</h2>
+
+<h3>New</h3>
+
+<p></p>
+
+<h3>Change</h3>
+
+<p>Less newlines while saving.</p>
+<p>All board sizes from 5 to 19 are handled.</p>
+<p>Readme.txt is translated to English.</p>
+
+<p></p>
+
+<h3>Fix</h3>
+
+<p>Insertion of a pass move in the middle of a game is made without control and may delete
+the following moves.</p>
+<p>Zoom in problem mode doesn't correctly handle coordinates > 13.</p>
+<p>Illegal GNU Go moves are not handled.</p>
+<hr>
+
+<h2>2004/04/13 - version 1.22</h2>
+
+<h3>New</h3>
+
+<p>Bouton de sélection du moteur de jeu</p>
+
+<h3>Change</h3>
+
+<p>Démarrage d'un jeu sur le premier noeud, sauf en mode problème, cf 1.21</p>
+<p>Les infos Komi et Handicap passent en lecture seule</p>
+
+<h3>Fix</h3>
+
+<p>Symétries et zoom des propriétés LB non gérés en mode problème</p>
+<p>Pas de controle des coordonnées hors goban dans la gestion des symétries
+   et du zoom en mode problème</p>
+<p>Les champs avec des retours chariots sont incorrectement restitués après le
+   tri de l'index</p>
+<p>Pas de protection contre les saisies incorrectes pour les champs numériques
+   (MN, fuseki, ...)</p>
+
+<hr>
+<h2>2004/04/05 - version 1.21</h2>
+
+<h3>New</h3>
+
+<p>Ajout option Montrer dernier coup/Tous</p>
+<p>Démarrage d'un jeu sur le noeud avant le premier coup au lieu du premier noeud, ce qui
+   permet d'utiliser en mode problème les jeux du type (;GM[1]SZ[19];AW[aa][bb]...).
+
+<h3>Change</h3>
+
+<p>Le nombre max de caractères affichés pour les numéros de coup et les labels passe
+   de 2 à 3, avec controle de la taille de la fonte.</p>
+
+<h3>Fix</h3>
+
+<p>Diminution de la taille du goban au changement d'option Coordonnées</p>
+<p>Pas de répercussion de la couleur custom dans l'index au changement d'option</p>
+<p>Plantage sur Aller à sur un jeu sans mouvement</p>
+<p>Au redimensionnement ou au changement d'option, réaffichage partiel des marques SGF ou Drago</p>
+<p>Possibilité de faire Coup suivant ou Position initiale en cours de réflexion GNU Go</p>
+<p>Possibilité de jouer pendant la séquence d'affichage sur un coup incorrect en mode partie</p>
+<p>Mauvaise gestion du résultat après un coup illégal en mode problème</p>
+<hr>
+
+<h2>2004/03/14 - version 1.20</h2>
+
+<p>Première version partagée</p>
+<hr>
+
+
+</body>
+</html>

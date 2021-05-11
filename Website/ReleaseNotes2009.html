@@ -1,0 +1,503 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Drago Release Notes</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body text="#000000" link="#0000FF" vlink="#800080">
+
+<!-- -->
+<table border="0" cellspacing="0" width="100%">
+<!-- -->
+<!-- -->
+<tr>
+<td class="x z" colspan="3">
+<p class="title">
+<img src="Images/dragon.png" align="absbottom"> Drago - Release Notes
+</p>
+</td>
+</tr>
+<tr>
+
+<td class="b x">
+<h5>Version 3.18.01<br>2009/05/17</h5>
+</td>
+
+<td class="c x">
+
+<h5>Fix</h5>
+<ul class="c">
+<li>With some configurations, the format buttons in the export position
+dialog are completely black. Thanks to Juan Jesus and anonymous at SL forum for reporting this.
+<li>In the export position dialog, when exporting to SGF, the position can be saved with an
+incorrect board size. Thanks to Terrence for reporting this.
+</ul>
+
+</td>
+
+<td class="b x">
+<p><h5>&nbsp</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.18<br>2009/01/27</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="c">
+<li>Brazilian Portuguese translation.
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>Brazilian Portuguese translation</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.17.01<br>2009/01/18</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="c">
+<li>Advanced PDF settings to define and embed a TrueType font.
+</ul>
+<h5>Change</h5>
+<ul class="c">
+<li>One of the libraries used for the user interface has been upgraded (SpTBXLib). As a consequence, the available skins
+have also changed.
+</ul>
+<h5>Fix</h5>
+<ul class="c">
+<li>Navigating in the game tree from setup or markup nodes (;SZ[19](;AB[aa])(;AB[bb])) was not
+correctly handled. Thanks to Evgeny (and Marco some months ago) to report. Should be definitively fixed now.
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>&nbsp</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.17<br>2008/10/11</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="c">
+<li>Vietnamese translation added.
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>Vietnamese translation</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.16<br>2008/09/27</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="c">
+<li><a href="http://en.wikipedia.org/wiki/Martian_language">Chinese Martian</a> translation added.
+</ul>
+
+<h5>Fix</h5>
+<ul class="c">
+<li>Crash when creating databases (thanks Mase, Oleg and Kevin for reporting!).
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>Chinese Martian translation</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.15<br>2008/09/14</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="c">
+<li>Korean translation added.
+<li>Traditional Chinese translation updated.
+<li>Tab reordering with drag and drop.
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>Korean translation</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.14.03<br>2008/08/13</h5>
+</td>
+
+<td class="c">
+
+<h5>Fix</h5>
+<ul class="c">
+<li>In some case, the position is not updated when navigating in the
+game tree in a game with nodes with no moves (thanks Marco).
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>&nbsp</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.14.02<br>2008/08/03</h5>
+</td>
+
+<td class="c">
+
+<h5>Fix</h5>
+<ul class="c">
+<li>Game information view was not updated after adding a game to the current file (thanks wildclaw).
+<li>Adding a game to a collection was not considered as a change while the new game was empty (thanks wildclaw). However,
+creating a new file still does not set up the change flag, this to avoid being worried about the empty game created
+when Drago starts with no previous files.
+<li>It was possible to undo a move while the engine game was thinking (thanks Alain)
+<li>Some extra spaces were added in the SQL request in the DB search dialog, making the request incorrect sometimes (thanks 212.17.0.61 at SL forum!)
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>&nbsp</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.14.01<br>2008/07/23</h5>
+</td>
+
+<td class="c">
+
+<h5>Change</h5>
+<ul class="a">
+<li>Minor changes to make komi value more consistent on default game creation (for instance when closing all games).
+<li>Komi edit box in game information dialog becomes write enable.
+</ul>
+
+<h5>Fix</h5>
+<ul class="c">
+<li>Komi value can be wrong when playing in autohandicap mode with territory counting (thanks Antonio).
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>&nbsp</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.14<br>2008/06/02</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="a">
+<li>Japanese translation
+</ul>
+
+<h5>Change</h5>
+<ul class="a">
+<li>Update Turkish translation
+</ul>
+
+<h5>Fix</h5>
+<ul class="c">
+<li>Minor Unicode display problem in database search window
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>Japanese translation</h5></p> </td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.13<br>2008/05/26</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="a">
+<li>Turkish translation
+<li>Advanced setting to control line height when exporting to PDF
+<li>Advanced setting for tiling background textures with symmetries
+</ul>
+
+<h5>Change</h5>
+<ul class="a">
+<li>In problem solving mode, the strings in the problem status panel are updated when entering in free mode
+<li>More tolerant SGF parsing in some cases when adding to database
+</ul>
+
+<h5>Fix</h5>
+<ul class="c">
+<li>SGF files cannot be opened from Internet Explorer
+<li>When solving problems, entering in free mode from wrong answer may create incorrect solutions
+<li>Date label in game information search dialog is not updated
+<li>Removing a file association removes both associations
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>Turkish translation</h5></p> </td>
+
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.12.01<br>2008/05/14</h5>
+</td>
+
+<td class="c">
+
+<h5>Change</h5>
+<ul class="a">
+<li>Update Polish translation
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>&nbsp</h5></p> </td>
+
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.12<br>2008/05/12</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="a">
+<li>Polish translation
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>Polish translation</h5></p> </td>
+
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.11<br>2008/04/30</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="a">
+<li>German help file
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5></h5></p> </td>
+
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.10<br>2008/04/27</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="a">
+<li>User interface is Unicode aware (UTF-8)
+<li>SGF files are correctly displayed with various multi byte character encodings.
+<li>Exporting to preview, RTF, PDF, HTML and DOC respects interface encoding and SGF encoding.
+<li>Commands for position symmetry and color swap.
+<li>Advanced tab in option dialog.
+<li>Some options for PDF export tuning have been added in the advanced tab.
+<li>Advanced option to play engine games in same tab.
+<li>Advanced option to abort or not on file error.
+<li>Some more options in advanced tab.
+</ul>
+
+<h5>Change</h5>
+<ul class="c">
+<li>Drago uses Haru Free PDF Library instead of PowerPDF, both from Takeshi Kanno.
+<li>Game information in column format is now always printed at top of page. This is
+because HaruPDF (and PDF) has no "Keep Lines Together" command. It was available
+through a hack in the library source code with PowerPDF.
+<li>Some options have moved to advanced tab.
+<li>Better handling of move commands in thumbnail view.
+<li>Better handling of default dimensions when opening Export position dialog (only
+diameter is saved, suppression of "Selection minimum dimension" parameter).
+<li>Ctrl-clicking on a variation markup in sibling mode creates or goes to
+a possible next move.
+<li>Clicking on Options menu opens the menu, not the window. New icon on toolbar to open
+directly the option window.
+<li>Add result calculated by Drago when not calculated by engine when saving a game against engine
+<li>Handle LB properties with empty text as L properties (PocketGoban compatibility)
+<li>Use game komi and handicap when starting a game with engine from current position
+</ul>
+
+<h5>Fix</h5>
+<ul class="c">
+<li>Separators cannot be added in toolbar configuration.
+<li>Game information view is not updated after calling game information dialog.
+<li>Move pointer in game tree is not updated when clicking to sibling.
+<li>Do not open previous instance when minimized
+<li>Crash or freeze when starting a game engine from a position with a pass move.
+<li>Crash when inserting a pass move when showing variations as alternate moves.
+<li>Error when starting a problem session in sequential mode with more problems
+than in the current file.
+<li>Error when replaying (guess mode) with pass moves.
+<li>Error when pushing the up button in an empty favorite box.
+<li>Fix doubling of komi property when saving a game against engine
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>Unicode</h5></p>
+<p><h5>Chinese translation</h5></p>
+</td>
+
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+
+<td class="b">
+<h5>Version 3.03<br>2008/03/01</h5>
+</td>
+
+<td class="c">
+
+<h5>New</h5>
+<ul class="a">
+<li>German translation
+</ul>
+
+<h5>Fix</h5>
+<ul class="c">
+<li>Error when inserting a pass move when showing variations as alternate moves.
+<li>Error when pushing the up button in an empty favorite box.
+</ul>
+
+</td>
+
+<td class="b">
+<p><h5>German translation</h5></p>
+</td>
+
+</tr>
+<!-- -->
+
+<!-- -->
+<tr>
+<td class="b y">
+<a href="ReleaseNotes2007.html">2007...</a>
+</td>
+<td class="c y">&nbsp</td>
+<td class="b y">&nbsp</td>
+</tr>
+<!-- -->
+
+</table>
+<!-- -->
+
+<small class="x">Copyright &copy; 2006-2015 Drago - All rights reserved</small>
+
+
+</body>
+</html>

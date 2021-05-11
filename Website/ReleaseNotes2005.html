@@ -1,0 +1,414 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Drago Release Notes</title>
+<link rel="StyleSheet" href="Drago.css" type="text/css">
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-396448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-396448-1');
+</script>
+</head>
+
+<body text="#000000" link="#0000FF" vlink="#800080">
+
+<!-- -->
+<table border="0" cellspacing="0" width="100%">
+<!-- -->
+<tr>
+<td class="x z" colspan="3">
+<p class="title">
+<img src="Images/dragon.png" align="absbottom"> Drago - Release Notes
+</p>
+</td>
+</tr>
+
+<!-- -->
+<tr>
+<td class="b x">
+<h5>Version 1.46.01<br>2005/12/06</h5>
+</td>
+<td class="c x">
+<h5>Fix</h5>
+
+<ul class="c">
+<li>Problem with long file names in the extract file dialog.
+</ul>
+
+</td>
+<td class="b x">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.46<br>2005/12/03</h5>
+</td>
+<td class="c">
+
+<h5>New</h5>
+
+<ul class="c">
+<li>Czech translation.
+</ul>
+
+</td>
+<td class="b">
+<h5>Czech translation</h5>
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.45.01<br>2005/11/27</h5>
+</td>
+<td class="c">
+<h5>Fix</h5>
+
+<ul class="c">
+<li>Some size problems of the thumbnail image in the Export position dialog.
+</ul>
+
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.45<br>2005/11/20</h5>
+</td>
+<td class="c">
+
+<h5>New</h5>
+
+<ul class="a">
+<li>Russian translation.
+<li>Shortcuts, see Readme file.
+</ul>
+
+<h5>Change</h5>
+
+<ul class="a">
+<li>Better handling of large fonts.
+<li>Better handling of translations.
+<li>Better drawing of antialising circles.
+<li>Wrapable toolbar.
+<li>Change top and bottom margin default sizes (10 -> 15)
+<li>Change default value for 'Accept long names' option (False -> True)
+</ul>
+
+<h5>Fix</h5>
+
+<ul class="c">
+<li>GNU Go error when asking for the score after a game, on the node with TB and TW properties.
+<li>Warning message after Games/Index or Problems/Index on an empty file is in French.
+</ul>
+
+</td>
+<td class="b">
+<h5>Russian translation</h5>
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.44<br>2005/06/18</h5>
+</td>
+<td class="c">
+
+<h5>New</h5>
+<ul class="a">
+<li>Export current position dialog.
+</ul>
+
+<h5>Change</h5>
+<ul class="a">
+<li>Optimize calculus of font size on stones.
+</ul>
+
+<h5>Fix</h5>
+<ul class="c">
+<li>Crash when showing in the status bar an illegal B or W property (since 1.43.01)
+</ul>
+
+<!--
+Test
+
+[Options]ThickEdge=0/1  : draw goban edge as a double line
+[Options]ShowHoshis=0/1 : show hoshis
+
+-->
+
+</td>
+<td class="b">
+<h5>Export position</h5>
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.43.02<br>2005/05/25</h5>
+</td>
+<td class="c">
+
+<h5>Change</h5>
+
+<ul class="c">
+<li>When mark is set to Number, clicking again a stone with a move number mark
+   hides the number.
+<li>Deleting the text of a label mark deletes the property.
+</ul>
+
+<h5>Fix</h5>
+
+<ul class="c">
+<li>With some traversing commands, all of the move numbers are not displayed when
+   Show last move is set to all.
+<li>Crash when exporting games with some options.
+</ul>
+
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.43.01<br>2005/05/07</h5>
+</td>
+<td class="c">
+
+<h5>Change</h5>
+
+<ul class="c">
+<li>Property names with more than 2 characters are optionnaly accepted.
+</ul>
+
+<h5>Fix</h5>
+
+<ul class="c">
+<li>Display of move n when displaying another move as move n with MN property.
+<li>Compressing list of points with coordinates outside the goban gives an overflow error.
+<li>"Compress lists of points" option is always on.
+</ul>
+
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.43<br>2005/04/30</h5>
+</td>
+<td class="c">
+<h5>New</h5>
+
+<ul class="a">
+<li>Related to game engine:
+<ul>
+ <li>Optional Undo when playing with engine.
+ <li>Free handicap placement.
+ <li>Score estimate when playing or browsing.
+</ul>
+<li>Delete branch command.
+<li>Option to compress lists of points.
+</ul>
+<!--
+<p>Input and processing of VW (view) SGF property.</p>
+-->
+
+<h5>Change</h5>
+
+<ul class="a">
+<li>Adaptable size of coordinate font.
+</ul>
+
+<h5>Fix</h5>
+
+<ul class="c">
+<li>Position when starting is not restored if option is set.
+<li>Dragging setting stones can give coordinates outside board.
+<li>Moving cursor with keyboard (Alt-RightArrow and other keys) can give coordinates
+  outside corner when zooming on corner.
+<li>When toggling the Displayed zone option, the effect is not immmediate.
+<li>Marks are not printed in the last move diagram.
+<li>Last diagram is not printed if Number of moves = k x Step + 1.
+<li>Curious display problem in the status bar when ending a game under XP.
+</ul>
+
+<!--
+Test
+
+[Options]WheelGoban=0/1  : mousewheel only for goban (remains a pb when multiple comments on a node)
+[Options]KeybComment=0/1 : keyboard only for comments
+[Options]RepeatMove=0/1  : enable repeating moves with toolbar button
+[Options]RepeatTempo=N   : tempo between 2 moves, default 200
+
+-->
+
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.42.01<br>2005/03/30</h5>
+</td>
+<td class="c">
+
+<h5>Fix</h5>
+
+<ul class="c">
+<li>Minor translation fixes.
+</ul>
+
+<!--
+Test
+
+Delete branch.
+-->
+
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.42<br>2005/03/29</h5>
+</td>
+<td class="c">
+
+<h5>New</h5>
+
+<ul class="a">
+<li>Add PNG format for exporting diagrams.
+</ul>
+
+<h5>Change</h5>
+
+<ul class="a">
+<li>English version of help file is reviewed.
+<li>Modification warning becomes optional.
+</ul>
+
+<h5>Fix</h5>
+
+<ul class="c">
+<li>Crash when starting Drago after closing a file on a new variation without
+   saving it, in 'Start with last move' mode.
+<li>Some display imprecision in the tree panel.
+<li>Saving on read only file crash (msg form not allocated).
+<li>Aborting a save operation on read only file doesn't abort following operations if any.
+<li>Problem with stone style saving.
+<!--Try go to bed sooner-->
+</ul>
+
+</td>
+<td class="b">
+<h5>PNG</h5>
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.41<br>2005/03/21</h5>
+</td>
+<td class="c">
+
+<h5>New</h5>
+
+<ul class="a">
+<li>Add Jago stones.
+<li>'Start with last move' option.
+<li>Add 'Add current' button for favorites.
+<li>Collection related commands (merge, extract one, extract all)
+</ul>
+
+<h5>Change</h5>
+
+<ul class="a">
+<li>Stone selection control for goban and variation tree.
+<li>Append to command is available in the Collections menu.
+</ul>
+
+<h5>Fix</h5>
+
+<ul class="c">
+<li>After editing, comments and node names are not saved after some actions.
+</ul>
+
+</td>
+<td class="b">&nbsp</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b">
+<h5>Version 1.40<br>2005/02/23</h5>
+</td>
+<td class="c">
+
+<h5>New</h5>
+
+<ul class="a">
+<li>Game tree display.
+</ul>
+
+<h5>Change</h5>
+
+<ul class="a">
+<li>Handling of GTP resign.
+<li>Change look of View option panel and add view option for game tree.
+<li>Avoid warning if no printer installed when exporting or previewing.
+<li>Move markups are more visible on small stones.
+<li>Store position of Insert and Option windows.
+<li>Add a toll bar button for Insert...
+</ul>
+
+<h5>Fix</h5>
+
+<ul class="c">
+<li>Resignation allways updates autohandicap parameters.
+<li>Pass edit command is not handled.
+<li>Alt-Return is not handled.
+<li>Cancel when closing Drago with a modified game is not handled.
+<li>Ghost stones are not erased in some cases with the Goto command
+<li>Some transparency problems with white stones and 16 bits color screen
+</ul>
+
+</td>
+<td class="b">
+<h5>Game tree</h5>
+</td>
+</tr>
+<!-- -->
+<!-- -->
+<tr>
+<td class="b y">
+<a href="ReleaseNotes2004.html">2004...</a>
+</td>
+<td class="c y">&nbsp</td>
+<td class="b y">&nbsp</td>
+</tr>
+<!-- -->
+</table>
+<!-- -->
+
+<small class="x">Copyright &copy; 2006-2009 Drago - All rights reserved</small>
+
+
+</body>
+</html>
