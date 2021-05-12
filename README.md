@@ -6,9 +6,9 @@ game printing and exporting, problem solving and game database handling.
 It enables also to connect to game engines providing a user friendly interface. 
 Nineteen translations of the user interface are currently available.
 
-[Home page](http://www.godrago.net)
+[Home page](https://www.godrago.net)
 
 Drago has been developped with Delphi 7. Installing a free version of Delphi 7 and setting up
 the developpement environment to compile Drago is described in the [wiki](https://github.com/GillesArcas/Drago/wiki).
 
-Drago uses libkombilo, a Go database library.libkombilo is available in its [github repository](https://github.com/ugoertz/kombilo/tree/master/kombilo/libkombilo).
+Drago uses libkombilo, a Go database library. libkombilo is available in its [github repository](https://github.com/ugoertz/kombilo/tree/master/kombilo/libkombilo).
