@@ -29,7 +29,7 @@ TCollElem = class
   Access   : TDelayedAccess;
 end;
 
-// warning : TGamColl.Tree is 1-based and should be implicit. TGamColl.Trees is
+// warning : TGameColl.Tree is 1-based and should be implicit. TGameColl.Trees is
 // 0-based and is an attempt to migrate toward a more standard representation.
 
 TGameColl = class
