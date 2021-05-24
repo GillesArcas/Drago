@@ -35,7 +35,11 @@ uses
   WinUtils, Translate;
 
 // -- English and French shortcut strings (from Consts.pas) ------------------
-(*
+
+// Repeating these definitions here enable to translate the shortcuts when
+// compiling with French IDE (which is freely downloadable as explained in
+// github Drago repository).
+
 const
   SmkcBkSp  = 'BkSp';
   SmkcTab   = 'Tab';
@@ -55,7 +59,7 @@ const
   SmkcShift = 'Shift+';
   SmkcCtrl  = 'Ctrl+';
   SmkcAlt   = 'Alt+';
-*)
+
 // -- Definitions from Menus.pas (D5 pro) ------------------------------------
 
 // Only difference is use of MyMenuKeyCaps function to make translation
