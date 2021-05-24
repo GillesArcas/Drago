@@ -58,7 +58,7 @@ set /P choice=Check version numbers (%nver%) in readme, about, executable versio
 if "%choice%" neq "ok" goto :eof
 
 :: check source management
-git status .. --short -uno
+git status --short -uno
 set /P choice=Check source management? [ok, quit]
 if "%choice%" neq "ok" goto :eof
 
