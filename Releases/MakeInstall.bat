@@ -46,11 +46,19 @@ set files=^
  %godir%\Databases\kisei.db1^
  %godir%\Databases\kisei.db2
 
+:: make sure the files used at runtime are correctly archived
+cd %godir%\Drago
+for %%1 in (LibKombilo.dll libhpdf.dll engines.config Drago-??.chm) do (
+    fc %%1 runtime\%%1 > NUL
+    if errorlevel 1 (echo Diff between installed and archived file: %%1. Please check. & goto :eof)
+)
+
 :: check version numbers
 set /P choice=Check version numbers (%nver%) in readme, about, executable versions? [ok, quit]
 if "%choice%" neq "ok" goto :eof
 
 :: check source management
+git status .. --short -uno
 set /P choice=Check source management? [ok, quit]
 if "%choice%" neq "ok" goto :eof
 
