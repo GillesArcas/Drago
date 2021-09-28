@@ -58,11 +58,12 @@ procedure Trace      (s : string);
 
 function  UniqueFileName(const path, ext : string) : string;
 
-type TStringObject = class
-  FString : string;
-  constructor Create(const s : string);
-  destructor Destroy; override;
-end;
+type
+  TStringObject = class
+    FString : string;
+    constructor Create(const s : string);
+    destructor Destroy; override;
+  end;
 
 type
   TIntStack = class

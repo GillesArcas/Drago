@@ -1789,8 +1789,7 @@ object fmMain: TfmMain
     end
   end
   object OneInstance: TOneInstance
-    OnInstanceStarted = OneInstanceInstanceStarted
-    Left = 416
-    Top = 168
+    Left = 544
+    Top = 72
   end
 end

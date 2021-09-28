@@ -10,7 +10,7 @@ interface
 
 uses
   Classes, StrUtils,
-  ClassesEx;
+  ClassesEx, UnicodeUtils;
 
 function  AllLanguages : TWideStringList;
 function  LanguageCodeFromName(name : string) : string;
@@ -218,15 +218,19 @@ end;
 procedure TKeyValueList.LoadFromFile(const filename : WideString);
 // load a language file into a dictionary
 var
-  tmp : TTntStringList;
+  tmp : TStringList;
   i : integer;
-  s, key, val : string;
+  name, s, key, val : string;
 begin
+  if IsAnsiString(filename)
+    then name := filename
+    else name := CopyFileToAnsiNameTmpFile(filename);
+
   Clear;
   Sorted := True;
 
-  tmp := TTntStringList.Create;
-  tmp.LoadFromFile(filename);
+  tmp := TStringList.Create;
+  tmp.LoadFromFile(name);
 
   for i := 0 to tmp.Count - 1 do
     begin
