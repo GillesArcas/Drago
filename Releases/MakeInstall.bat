@@ -19,7 +19,7 @@ if "%mode%"=="both"     set makeinstall=Yes
 if "%mode%"=="portable" set makeportable=Yes
 if "%mode%"=="both"     set makeportable=Yes
 
-set nver=0431
+set nver=0432
 
 :: files in portable install
 set files=^

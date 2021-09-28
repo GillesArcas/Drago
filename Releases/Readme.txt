@@ -1,6 +1,6 @@
--- DRAGO version 4.31 -----------------------------
+-- DRAGO version 4.32 -----------------------------
 
-Drago is a Windows freeware application dedicated to the game of Go. It 
+Drago is a Windows freeware application dedicated to the game of Go. It
 enables to:
 
 - browse and edit game files,
@@ -27,9 +27,9 @@ Just unzip and run the installation program.
 * Language setting
 
 The first time Drago is started, a window opens to select the language as
-Arabic, Brazilian Portuguese, Chinese Simplified or Traditional, Czech, 
-English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, 
-Polish, Russian, Slovak, Spanish, Turkish or Vietnamese. 
+Arabic, Brazilian Portuguese, Chinese Simplified or Traditional, Czech,
+English, Finnish, French, German, Hungarian, Italian, Japanese, Korean,
+Polish, Russian, Slovak, Spanish, Turkish or Vietnamese.
 This can be changed later in the Options dialog.
 
 * Game engines
@@ -40,7 +40,7 @@ settings are given there: http://www.godrago.net/Engines.htm .
 -- Agreement and disclaimers ----------------------
 
 See License.txt
- 
+
 -- libkombilo -------------------------------------
 
 libkombilo is an open source implementation of the search engine from Kombilo:
