@@ -450,51 +450,6 @@ begin
       end
 end;
 
-// -- Detection of printer paper size
-
-function CurrentPrinterPaperSize(var size : TSize) : string;
-var
-  PtrHdl: THandle;
-  PtrPPI: TPoint;
-begin
-  try
-    PtrHdl := Printer.Handle;
-    PtrPPI.x := GetDeviceCaps(PtrHdl, LOGPIXELSX);
-    PtrPPI.y := GetDeviceCaps(PtrHdl, LOGPIXELSY);
-    size.cx := mulDiv(GetDeviceCaps(PtrHdl, PHYSICALWIDTH), 254,PtrPPI.x *10);
-    size.cy := mulDiv(GetDeviceCaps(PtrHdl, PHYSICALHEIGHT), 254,PtrPPI.y *10);
-  except
-    Result := '';
-    exit
-  end;
-
-  with size do
-  begin
-    if cx > cy then
-    begin
-    //landscape ...
-    case cy of
-        148: if (cx = 210) then Result := 'A5 (210 x 148mm)';
-        210: if (cx = 297) then Result := 'A4 (297 x 210mm)';
-        216: if (cx = 279) then Result := 'Letter (11 x 8½")'
-             else if (cx = 356) then Result := 'Legal (14 x 8½")';
-        297: if (cx = 420) then Result := 'A3 (420 x 297mm)';
-    end;
-    end else
-    begin
-    //portrait ...
-    case cx of
-        148: if (cy = 210) then Result := 'A5 (148 x 210mm)';
-        210: if (cy = 297) then Result := 'A4 (210 x 297mm)';
-        216: if (cy = 279) then Result := 'Letter (8½ x 11")'
-             else if (cy = 356) then Result := 'Legal (8½ x 14")';
-        297: if (cy = 420) then Result := 'A3 (297 x 420mm)';
-    end;
-    end;
-    if result = '' then Result := Format('Custom (%d x %dmm)',[cx, cy]);
-  end;
-end;
-
 // ---------------------------------------------------------------------------
 
 end.

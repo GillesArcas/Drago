@@ -33,7 +33,7 @@ uses
 
 type TKeyValueList = class(TTntStringList)
   destructor Destroy; override;
-  procedure LoadFromFile(const filename : WideString); override;
+  procedure LoadFromFile(const filename : WideString); //override;
   function Value(const s : string) : string;
   procedure Clear; override;
 end;
@@ -197,7 +197,10 @@ end;
 
 // -- Implementation of TKeyValueList ----------------------------------------
 
-// -- TKeyValueList
+// TIniFile or TStringList (using stringList.Values['xxx'])) are not suitable:
+// - there are no sections in the lng files as they are
+// - we want the access to be case sensitive
+// - we want to detect duplicates
 
 destructor TKeyValueList.Destroy;
 begin

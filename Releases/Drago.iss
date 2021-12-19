@@ -3,7 +3,7 @@
 
 [Setup]
 AppName=Drago
-AppVerName=Drago 4.32
+AppVerName=Drago 4.33
 AppPublisher=Gilles Arcas-Luque
 AppPublisherURL=gilles_arcas@hotmail.com
 AppSupportURL=gilles_arcas@hotmail.com
@@ -12,7 +12,7 @@ DefaultDirName={pf}\Drago
 AlwaysUsePersonalGroup=yes
 DefaultGroupName=Drago
 OutputDir=d:\Gilles\Go\Drago\Releases
-OutputBaseFilename=SetupDrago0432
+OutputBaseFilename=SetupDrago0433
 Uninstallable=yes
 UninstallFilesDir={app}\uninst
 LicenseFile=License.txt

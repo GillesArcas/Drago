@@ -287,12 +287,13 @@ function PaperNameToSize(paper : string; landscape : boolean) : TSize;
 var
   x : integer;
 begin
-  case AnsiIndexStr(paper, ['A5', 'A4', 'Letter', 'Legal', 'A3']) of
+  case AnsiIndexStr(paper, ['A5', 'A4', 'Letter', 'Half Letter', 'Legal', 'A3']) of
     0 : begin result.cx := 148; result.cy := 210 end;
     1 : begin result.cx := 210; result.cy := 297 end;
     2 : begin result.cx := 216; result.cy := 279 end;
-    3 : begin result.cx := 216; result.cy := 356 end;
-    4 : begin result.cx := 297; result.cy := 420 end;
+    3 : begin result.cx := 139; result.cy := 216 end;
+    4 : begin result.cx := 216; result.cy := 356 end;
+    5 : begin result.cx := 297; result.cy := 420 end;
   end;
   if landscape then
     begin

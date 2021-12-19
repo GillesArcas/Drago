@@ -424,7 +424,7 @@ end;
 procedure WideAddFilesToList(list : TWideStringList;
                              path : WideString;
                              options : TAddFileOptions;
-                             const mask : string = '*.*');
+                             const mask : WideString = '*.*');
 begin
   AddFilesToList(list, path, options, mask)
 end;

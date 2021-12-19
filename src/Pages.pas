@@ -556,6 +556,7 @@ begin
     begin
       //landscape ...
       case cy of
+        139: if (cx = 216) then result := 'Half Letter (5½ x 8½")';
         148: if (cx = 210) then result := 'A5 (210 x 148mm)';
         210: if (cx = 297) then result := 'A4 (297 x 210mm)';
         216: if (cx = 279) then result := 'Letter (11 x 8½")'
@@ -566,6 +567,7 @@ begin
     begin
       //portrait ...
       case cx of
+        139: if (cy = 216) then result := 'Half Letter (5½ x 8½")';
         148: if (cy = 210) then result := 'A5 (148 x 210mm)';
         210: if (cy = 297) then result := 'A4 (210 x 297mm)';
         216: if (cy = 279) then result := 'Letter (8½ x 11")'
